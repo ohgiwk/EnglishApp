@@ -7,6 +7,8 @@ import type {
   CharacterId,
   CharacterProgress,
   ChoiceResult,
+  DailyStudyStats,
+  LifetimeStudyStats,
   VocabularyAnswer,
   VocabularyResult,
   VocabularySession,
@@ -17,8 +19,8 @@ const KEY = 'love-language-save-v1'
 const clamp = (value: number) => Math.max(0, Math.min(100, value))
 const today = () => new Date().toLocaleDateString('sv-SE')
 
-export interface SaveV3 {
-  version: 3
+export interface SaveV4 {
+  version: 4
   name: string
   onboarded: boolean
   activeCharacterId: CharacterId
@@ -35,6 +37,8 @@ export interface SaveV3 {
   lastVocabularyResult: VocabularyResult | null
   vocabularyRewardDate: string
   vocabularyRewardCount: number
+  lifetimeStudyStats: LifetimeStudyStats
+  dailyStudyStats: Record<string, DailyStudyStats>
 }
 
 const initialProgress = (affection = 0, trust = 0): CharacterProgress => ({
@@ -45,8 +49,15 @@ const initialProgress = (affection = 0, trust = 0): CharacterProgress => ({
   reviews: []
 })
 
-const defaults = (): SaveV3 => ({
-  version: 3,
+const emptyLifetimeStats = (): LifetimeStudyStats => ({
+  storySessions: 0,
+  vocabularySessions: 0,
+  questionsAnswered: 0,
+  correctAnswers: 0
+})
+
+const defaults = (): SaveV4 => ({
+  version: 4,
   name: 'Haru',
   onboarded: false,
   activeCharacterId: 'emma',
@@ -66,7 +77,9 @@ const defaults = (): SaveV3 => ({
   vocabularyResults: [],
   lastVocabularyResult: null,
   vocabularyRewardDate: '',
-  vocabularyRewardCount: 0
+  vocabularyRewardCount: 0,
+  lifetimeStudyStats: emptyLifetimeStats(),
+  dailyStudyStats: {}
 })
 
 const sanitizeProgress = (value: unknown, fallback: CharacterProgress, characterId: CharacterId): CharacterProgress => {
@@ -88,9 +101,27 @@ const sanitizeProgress = (value: unknown, fallback: CharacterProgress, character
   }
 }
 
-export function migrateSave(value: unknown): SaveV3 {
+const sanitizeDailyStats = (value: unknown): Record<string, DailyStudyStats> => {
+  if (!value || typeof value !== 'object') return {}
+  return Object.fromEntries(
+    Object.entries(value as Record<string, Partial<DailyStudyStats>>)
+      .filter(([date]) => /^\d{4}-\d{2}-\d{2}$/.test(date))
+      .sort(([a], [b]) => a.localeCompare(b))
+      .slice(-365)
+      .map(([date, stats]) => [date, {
+        date,
+        xpEarned: Math.max(0, Number(stats.xpEarned ?? 0)),
+        storySessions: Math.max(0, Number(stats.storySessions ?? 0)),
+        vocabularySessions: Math.max(0, Number(stats.vocabularySessions ?? 0)),
+        questionsAnswered: Math.max(0, Number(stats.questionsAnswered ?? 0)),
+        correctAnswers: Math.max(0, Number(stats.correctAnswers ?? 0))
+      }])
+  )
+}
+
+export function migrateSave(value: unknown): SaveV4 {
   if (!value || typeof value !== 'object') return defaults()
-  const source = value as Partial<SaveV3> & {
+  const source = value as Partial<SaveV4> & {
     version?: number
     affection?: number
     trust?: number
@@ -99,7 +130,7 @@ export function migrateSave(value: unknown): SaveV3 {
     reviews?: string[]
   }
   const base = defaults()
-  const isV3 = source.version === 3 && source.characterProgress
+  const hasCharacterProgress = (source.version ?? 0) >= 3 && source.characterProgress
   const legacyEmma: CharacterProgress = {
     affection: clamp(Number(source.affection ?? base.characterProgress.emma.affection)),
     trust: clamp(Number(source.trust ?? base.characterProgress.emma.trust)),
@@ -111,26 +142,59 @@ export function migrateSave(value: unknown): SaveV3 {
   const activeCharacterId: CharacterId = requestedCharacter.availability === 'available'
     ? requestedCharacter.id
     : 'emma'
+  const characterProgress: Record<CharacterId, CharacterProgress> = {
+    emma: sanitizeProgress(hasCharacterProgress ? source.characterProgress?.emma : legacyEmma, base.characterProgress.emma, 'emma'),
+    'secret-1': sanitizeProgress(hasCharacterProgress ? source.characterProgress?.['secret-1'] : null, base.characterProgress['secret-1'], 'secret-1'),
+    'secret-2': sanitizeProgress(hasCharacterProgress ? source.characterProgress?.['secret-2'] : null, base.characterProgress['secret-2'], 'secret-2')
+  }
+  const vocabularyResults = Array.isArray(source.vocabularyResults) ? source.vocabularyResults.slice(-30) : []
+  const migratedDailyStats: Record<string, DailyStudyStats> = {}
+  if (source.version !== 4) {
+    for (const result of vocabularyResults) {
+      const date = result.completedAt.slice(0, 10)
+      const current = migratedDailyStats[date] ?? {
+        date, xpEarned: 0, storySessions: 0, vocabularySessions: 0, questionsAnswered: 0, correctAnswers: 0
+      }
+      current.xpEarned += result.earnedXp
+      current.vocabularySessions += 1
+      current.questionsAnswered += result.totalCount
+      current.correctAnswers += result.correctCount
+      migratedDailyStats[date] = current
+    }
+  }
+  const migratedLifetimeStats: LifetimeStudyStats = source.version === 4 && source.lifetimeStudyStats
+    ? {
+        storySessions: Math.max(0, Number(source.lifetimeStudyStats.storySessions ?? 0)),
+        vocabularySessions: Math.max(0, Number(source.lifetimeStudyStats.vocabularySessions ?? 0)),
+        questionsAnswered: Math.max(0, Number(source.lifetimeStudyStats.questionsAnswered ?? 0)),
+        correctAnswers: Math.max(0, Number(source.lifetimeStudyStats.correctAnswers ?? 0))
+      }
+    : {
+        storySessions: Object.values(characterProgress).reduce((total, item) => total + item.completed.length, 0),
+        vocabularySessions: vocabularyResults.length,
+        questionsAnswered: vocabularyResults.reduce((total, result) => total + result.totalCount, 0),
+        correctAnswers: vocabularyResults.reduce((total, result) => total + result.correctCount, 0)
+      }
   return {
     ...base,
     ...source,
-    version: 3,
+    version: 4,
     activeCharacterId,
-    characterSelectionCompleted: source.version === 3
+    characterSelectionCompleted: (source.version ?? 0) >= 3
       ? Boolean(source.characterSelectionCompleted)
       : Boolean(source.onboarded),
-    characterProgress: {
-      emma: sanitizeProgress(isV3 ? source.characterProgress?.emma : legacyEmma, base.characterProgress.emma, 'emma'),
-      'secret-1': sanitizeProgress(isV3 ? source.characterProgress?.['secret-1'] : null, base.characterProgress['secret-1'], 'secret-1'),
-      'secret-2': sanitizeProgress(isV3 ? source.characterProgress?.['secret-2'] : null, base.characterProgress['secret-2'], 'secret-2')
-    },
+    characterProgress,
     unlockedVocabularyLevel: Math.max(1, Math.min(6, Number(source.unlockedVocabularyLevel ?? 1))),
     wordProgress: source.wordProgress && typeof source.wordProgress === 'object' ? source.wordProgress : {},
-    vocabularyResults: Array.isArray(source.vocabularyResults) ? source.vocabularyResults.slice(-30) : []
+    vocabularyResults,
+    lifetimeStudyStats: migratedLifetimeStats,
+    dailyStudyStats: source.version === 4
+      ? sanitizeDailyStats(source.dailyStudyStats)
+      : sanitizeDailyStats(migratedDailyStats)
   }
 }
 
-function load(): SaveV3 {
+function load(): SaveV4 {
   try {
     return migrateSave(JSON.parse(localStorage.getItem(KEY) || 'null'))
   } catch {
@@ -139,7 +203,7 @@ function load(): SaveV3 {
 }
 
 export const useAppStore = defineStore('app', () => {
-  const s = ref<SaveV3>(load())
+  const s = ref<SaveV4>(load())
   const activeCharacter = computed(() => getCharacter(s.value.activeCharacterId))
   const progress = computed(() => s.value.characterProgress[s.value.activeCharacterId])
   const emmaProgress = computed(() => s.value.characterProgress.emma)
@@ -155,6 +219,20 @@ export const useAppStore = defineStore('app', () => {
   const masteredVocabularyCount = computed(() =>
     Object.values(s.value.wordProgress).filter((progress) => progress.status === 'mastered').length
   )
+  const learningVocabularyCount = computed(() =>
+    Object.values(s.value.wordProgress).filter((progress) => progress.status === 'learning').length
+  )
+  const newVocabularyCount = computed(() =>
+    vocabularyWords.length - masteredVocabularyCount.value - learningVocabularyCount.value
+  )
+  const totalCompletedChapters = computed(() =>
+    Object.values(s.value.characterProgress).reduce((total, item) => total + item.completed.length, 0)
+  )
+  const lifetimeAccuracy = computed(() =>
+    s.value.lifetimeStudyStats.questionsAnswered
+      ? Math.round(s.value.lifetimeStudyStats.correctAnswers / s.value.lifetimeStudyStats.questionsAnswered * 100)
+      : 0
+  )
   const todayVocabularySessions = computed(() =>
     s.value.vocabularyResults.filter((result) => result.completedAt.slice(0, 10) === today()).length
   )
@@ -168,6 +246,25 @@ export const useAppStore = defineStore('app', () => {
       s.value.studyDays += 1
       s.value.lastStudyDate = today()
     }
+  }
+
+  function recordStudyActivity(activity: Omit<DailyStudyStats, 'date'>) {
+    const date = today()
+    const current = s.value.dailyStudyStats[date] ?? {
+      date, xpEarned: 0, storySessions: 0, vocabularySessions: 0, questionsAnswered: 0, correctAnswers: 0
+    }
+    current.xpEarned += activity.xpEarned
+    current.storySessions += activity.storySessions
+    current.vocabularySessions += activity.vocabularySessions
+    current.questionsAnswered += activity.questionsAnswered
+    current.correctAnswers += activity.correctAnswers
+    s.value.dailyStudyStats[date] = current
+    s.value.lifetimeStudyStats.storySessions += activity.storySessions
+    s.value.lifetimeStudyStats.vocabularySessions += activity.vocabularySessions
+    s.value.lifetimeStudyStats.questionsAnswered += activity.questionsAnswered
+    s.value.lifetimeStudyStats.correctAnswers += activity.correctAnswers
+    const retained = Object.keys(s.value.dailyStudyStats).sort().slice(-365)
+    s.value.dailyStudyStats = Object.fromEntries(retained.map((key) => [key, s.value.dailyStudyStats[key]]))
   }
 
   function setName(name: string) {
@@ -204,6 +301,13 @@ export const useAppStore = defineStore('app', () => {
       characterProgress.trust = clamp(characterProgress.trust + result.choice.trustChange)
       s.value.xp += result.choice.englishXp
       characterProgress.completed.push(result.chapterId)
+      recordStudyActivity({
+        xpEarned: result.choice.englishXp,
+        storySessions: 1,
+        vocabularySessions: 0,
+        questionsAnswered: 0,
+        correctAnswers: 0
+      })
       markStudyDay()
     }
     characterProgress.answers[result.chapterId] = result
@@ -270,6 +374,13 @@ export const useAppStore = defineStore('app', () => {
     s.value.xp += result.earnedXp
     emmaProgress.value.affection = clamp(emmaProgress.value.affection + result.affectionChange)
     emmaProgress.value.trust = clamp(emmaProgress.value.trust + result.trustChange)
+    recordStudyActivity({
+      xpEarned: result.earnedXp,
+      storySessions: 0,
+      vocabularySessions: 1,
+      questionsAnswered: result.totalCount,
+      correctAnswers: result.correctCount
+    })
     if (rewardAllowed) s.value.vocabularyRewardCount += 1
     markStudyDay()
 
@@ -302,6 +413,10 @@ export const useAppStore = defineStore('app', () => {
     currentChapter,
     learnedCount,
     masteredVocabularyCount,
+    learningVocabularyCount,
+    newVocabularyCount,
+    totalCompletedChapters,
+    lifetimeAccuracy,
     todayVocabularySessions,
     setName,
     finishOnboarding,

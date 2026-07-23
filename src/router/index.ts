@@ -20,8 +20,10 @@ const router = createRouter({
     { path: '/learn/words', component: view('WordBookView'), meta: { nav: true } },
     { path: '/learn/review', component: view('ReviewView'), meta: { nav: true } },
     { path: '/review', redirect: '/learn/review' },
-    { path: '/memories', component: view('MemoriesView'), meta: { nav: true } },
-    { path: '/profile', component: view('ProfileView'), meta: { nav: true } }
+    { path: '/character', component: view('CharacterView'), meta: { nav: true } },
+    { path: '/status', component: view('StatusView'), meta: { nav: true } },
+    { path: '/profile', redirect: { path: '/character', query: { tab: 'profile' } } },
+    { path: '/memories', redirect: { path: '/character', query: { tab: 'memories' } } }
   ]
 })
 

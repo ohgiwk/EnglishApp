@@ -33,6 +33,20 @@ export interface ChoiceResult { characterId:CharacterId; chapterId:number; choic
 export interface Memory { chapterId:number; title:string; description:string; expression:string }
 export interface StudyRecord { completedChapters:number[]; reviewIds:string[]; learnedExpressions:number }
 export interface AppSettings { showTranslation:boolean }
+export interface DailyStudyStats {
+  date: string
+  xpEarned: number
+  storySessions: number
+  vocabularySessions: number
+  questionsAnswered: number
+  correctAnswers: number
+}
+export interface LifetimeStudyStats {
+  storySessions: number
+  vocabularySessions: number
+  questionsAnswered: number
+  correctAnswers: number
+}
 
 export type VocabularyStatus = 'new' | 'learning' | 'mastered'
 export type VocabularyQuestionType = 'en-to-ja' | 'ja-to-en' | 'flashcard'
