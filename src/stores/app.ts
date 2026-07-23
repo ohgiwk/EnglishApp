@@ -2,7 +2,10 @@ import { computed, ref } from 'vue'
 import { defineStore } from 'pinia'
 import { buildVocabularySession, summarizeVocabularySession } from '../data/vocabulary-engine'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
+import { getCharacter } from '../data/characters'
 import type {
+  CharacterId,
+  CharacterProgress,
   ChoiceResult,
   VocabularyAnswer,
   VocabularyResult,
@@ -14,18 +17,16 @@ const KEY = 'love-language-save-v1'
 const clamp = (value: number) => Math.max(0, Math.min(100, value))
 const today = () => new Date().toLocaleDateString('sv-SE')
 
-export interface SaveV2 {
-  version: 2
+export interface SaveV3 {
+  version: 3
   name: string
   onboarded: boolean
-  affection: number
-  trust: number
+  activeCharacterId: CharacterId
+  characterSelectionCompleted: boolean
+  characterProgress: Record<CharacterId, CharacterProgress>
   xp: number
   studyDays: number
   lastStudyDate: string
-  completed: number[]
-  answers: Record<number, ChoiceResult>
-  reviews: string[]
   showTranslation: boolean
   unlockedVocabularyLevel: number
   wordProgress: Record<string, WordProgress>
@@ -36,18 +37,28 @@ export interface SaveV2 {
   vocabularyRewardCount: number
 }
 
-const defaults = (): SaveV2 => ({
-  version: 2,
+const initialProgress = (affection = 0, trust = 0): CharacterProgress => ({
+  affection,
+  trust,
+  completed: [],
+  answers: {},
+  reviews: []
+})
+
+const defaults = (): SaveV3 => ({
+  version: 3,
   name: 'Haru',
   onboarded: false,
-  affection: 18,
-  trust: 12,
+  activeCharacterId: 'emma',
+  characterSelectionCompleted: false,
+  characterProgress: {
+    emma: initialProgress(18, 12),
+    'secret-1': initialProgress(),
+    'secret-2': initialProgress()
+  },
   xp: 0,
   studyDays: 0,
   lastStudyDate: '',
-  completed: [],
-  answers: {},
-  reviews: [],
   showTranslation: true,
   unlockedVocabularyLevel: 1,
   wordProgress: {},
@@ -58,26 +69,68 @@ const defaults = (): SaveV2 => ({
   vocabularyRewardCount: 0
 })
 
-export function migrateSave(value: unknown): SaveV2 {
+const sanitizeProgress = (value: unknown, fallback: CharacterProgress, characterId: CharacterId): CharacterProgress => {
+  if (!value || typeof value !== 'object') return fallback
+  const source = value as Partial<CharacterProgress>
+  const rawAnswers = source.answers && typeof source.answers === 'object' ? source.answers : {}
+  const answers = Object.fromEntries(
+    Object.entries(rawAnswers).map(([chapterId, result]) => [
+      chapterId,
+      { ...result, characterId: result.characterId ?? characterId }
+    ])
+  )
+  return {
+    affection: clamp(Number(source.affection ?? fallback.affection)),
+    trust: clamp(Number(source.trust ?? fallback.trust)),
+    completed: Array.isArray(source.completed) ? source.completed : [],
+    answers,
+    reviews: Array.isArray(source.reviews) ? source.reviews : []
+  }
+}
+
+export function migrateSave(value: unknown): SaveV3 {
   if (!value || typeof value !== 'object') return defaults()
-  const source = value as Partial<SaveV2> & { version?: number }
+  const source = value as Partial<SaveV3> & {
+    version?: number
+    affection?: number
+    trust?: number
+    completed?: number[]
+    answers?: Record<number, ChoiceResult>
+    reviews?: string[]
+  }
   const base = defaults()
+  const isV3 = source.version === 3 && source.characterProgress
+  const legacyEmma: CharacterProgress = {
+    affection: clamp(Number(source.affection ?? base.characterProgress.emma.affection)),
+    trust: clamp(Number(source.trust ?? base.characterProgress.emma.trust)),
+    completed: Array.isArray(source.completed) ? source.completed : [],
+    answers: source.answers && typeof source.answers === 'object' ? source.answers : {},
+    reviews: Array.isArray(source.reviews) ? source.reviews : []
+  }
+  const requestedCharacter = getCharacter(source.activeCharacterId)
+  const activeCharacterId: CharacterId = requestedCharacter.availability === 'available'
+    ? requestedCharacter.id
+    : 'emma'
   return {
     ...base,
     ...source,
-    version: 2,
-    affection: clamp(Number(source.affection ?? base.affection)),
-    trust: clamp(Number(source.trust ?? base.trust)),
-    completed: Array.isArray(source.completed) ? source.completed : [],
-    reviews: Array.isArray(source.reviews) ? source.reviews : [],
-    answers: source.answers && typeof source.answers === 'object' ? source.answers : {},
+    version: 3,
+    activeCharacterId,
+    characterSelectionCompleted: source.version === 3
+      ? Boolean(source.characterSelectionCompleted)
+      : Boolean(source.onboarded),
+    characterProgress: {
+      emma: sanitizeProgress(isV3 ? source.characterProgress?.emma : legacyEmma, base.characterProgress.emma, 'emma'),
+      'secret-1': sanitizeProgress(isV3 ? source.characterProgress?.['secret-1'] : null, base.characterProgress['secret-1'], 'secret-1'),
+      'secret-2': sanitizeProgress(isV3 ? source.characterProgress?.['secret-2'] : null, base.characterProgress['secret-2'], 'secret-2')
+    },
     unlockedVocabularyLevel: Math.max(1, Math.min(6, Number(source.unlockedVocabularyLevel ?? 1))),
     wordProgress: source.wordProgress && typeof source.wordProgress === 'object' ? source.wordProgress : {},
     vocabularyResults: Array.isArray(source.vocabularyResults) ? source.vocabularyResults.slice(-30) : []
   }
 }
 
-function load(): SaveV2 {
+function load(): SaveV3 {
   try {
     return migrateSave(JSON.parse(localStorage.getItem(KEY) || 'null'))
   } catch {
@@ -86,15 +139,18 @@ function load(): SaveV2 {
 }
 
 export const useAppStore = defineStore('app', () => {
-  const s = ref<SaveV2>(load())
+  const s = ref<SaveV3>(load())
+  const activeCharacter = computed(() => getCharacter(s.value.activeCharacterId))
+  const progress = computed(() => s.value.characterProgress[s.value.activeCharacterId])
+  const emmaProgress = computed(() => s.value.characterProgress.emma)
   const relationship = computed(() =>
-    s.value.affection >= 75 ? '特別な存在' :
-      s.value.affection >= 45 ? '気になる存在' :
-        s.value.affection >= 25 ? '友達' : '知り合い'
+    progress.value.affection >= 75 ? '特別な存在' :
+      progress.value.affection >= 45 ? '気になる存在' :
+        progress.value.affection >= 25 ? '友達' : '知り合い'
   )
-  const currentChapter = computed(() => Math.min(3, Math.max(1, s.value.completed.length + 1)))
+  const currentChapter = computed(() => Math.min(3, Math.max(1, progress.value.completed.length + 1)))
   const learnedCount = computed(() =>
-    s.value.completed.reduce((total, id) => total + [5, 4, 4][id - 1], 0)
+    progress.value.completed.reduce((total, id) => total + [5, 4, 4][id - 1], 0)
   )
   const masteredVocabularyCount = computed(() =>
     Object.values(s.value.wordProgress).filter((progress) => progress.status === 'mastered').length
@@ -124,27 +180,41 @@ export const useAppStore = defineStore('app', () => {
     persist()
   }
 
+  function selectCharacter(id: CharacterId) {
+    const character = getCharacter(id)
+    if (character.availability !== 'available') return false
+    s.value.activeCharacterId = character.id
+    s.value.characterSelectionCompleted = true
+    s.value.onboarded = true
+    persist()
+    return true
+  }
+
   function toggleTranslation() {
     s.value.showTranslation = !s.value.showTranslation
     persist()
   }
 
   function complete(result: ChoiceResult) {
-    if (!s.value.completed.includes(result.chapterId)) {
-      s.value.affection = clamp(s.value.affection + result.choice.affectionChange)
-      s.value.trust = clamp(s.value.trust + result.choice.trustChange)
+    const character = getCharacter(result.characterId)
+    if (character.availability !== 'available') return
+    const characterProgress = s.value.characterProgress[character.id]
+    if (!characterProgress.completed.includes(result.chapterId)) {
+      characterProgress.affection = clamp(characterProgress.affection + result.choice.affectionChange)
+      characterProgress.trust = clamp(characterProgress.trust + result.choice.trustChange)
       s.value.xp += result.choice.englishXp
-      s.value.completed.push(result.chapterId)
+      characterProgress.completed.push(result.chapterId)
       markStudyDay()
     }
-    s.value.answers[result.chapterId] = result
+    characterProgress.answers[result.chapterId] = result
     persist()
   }
 
   function toggleReview(id: string) {
-    s.value.reviews = s.value.reviews.includes(id)
-      ? s.value.reviews.filter((reviewId) => reviewId !== id)
-      : [...s.value.reviews, id]
+    const reviews = progress.value.reviews
+    progress.value.reviews = reviews.includes(id)
+      ? reviews.filter((reviewId) => reviewId !== id)
+      : [...reviews, id]
     persist()
   }
 
@@ -198,8 +268,8 @@ export const useAppStore = defineStore('app', () => {
     const rewardAllowed = s.value.vocabularyRewardCount < 3
     const result = summarizeVocabularySession(session, masteredWordIds, rewardAllowed)
     s.value.xp += result.earnedXp
-    s.value.affection = clamp(s.value.affection + result.affectionChange)
-    s.value.trust = clamp(s.value.trust + result.trustChange)
+    emmaProgress.value.affection = clamp(emmaProgress.value.affection + result.affectionChange)
+    emmaProgress.value.trust = clamp(emmaProgress.value.trust + result.trustChange)
     if (rewardAllowed) s.value.vocabularyRewardCount += 1
     markStudyDay()
 
@@ -225,6 +295,9 @@ export const useAppStore = defineStore('app', () => {
 
   return {
     s,
+    activeCharacter,
+    progress,
+    emmaProgress,
     relationship,
     currentChapter,
     learnedCount,
@@ -232,6 +305,7 @@ export const useAppStore = defineStore('app', () => {
     todayVocabularySessions,
     setName,
     finishOnboarding,
+    selectCharacter,
     toggleTranslation,
     complete,
     toggleReview,

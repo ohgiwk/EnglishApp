@@ -18,36 +18,84 @@ describe('app store progression', () => {
   it('applies chapter rewards only once', () => {
     const store = useAppStore()
     const choice = chapters[0].scene.choices![0]
-    store.complete({ chapterId: 1, choice })
-    const first = { affection: store.s.affection, xp: store.s.xp, days: store.s.studyDays }
-    store.complete({ chapterId: 1, choice })
-    expect({ affection: store.s.affection, xp: store.s.xp, days: store.s.studyDays }).toEqual(first)
+    store.complete({ characterId: 'emma', chapterId: 1, choice })
+    const first = { affection: store.progress.affection, xp: store.s.xp, days: store.s.studyDays }
+    store.complete({ characterId: 'emma', chapterId: 1, choice })
+    expect({ affection: store.progress.affection, xp: store.s.xp, days: store.s.studyDays }).toEqual(first)
     expect(store.currentChapter).toBe(2)
   })
 
   it('adds and removes a review expression', () => {
     const store = useAppStore()
     store.toggleReview('c1-a')
-    expect(store.s.reviews).toContain('c1-a')
+    expect(store.progress.reviews).toContain('c1-a')
     store.toggleReview('c1-a')
-    expect(store.s.reviews).not.toContain('c1-a')
+    expect(store.progress.reviews).not.toContain('c1-a')
   })
 
-  it('migrates version 1 saves without losing story progress', () => {
+  it('migrates legacy saves into Emma progress without losing shared learning data', () => {
     const migrated = migrateSave({
-      version: 1,
+      version: 2,
       name: 'Keiya',
+      onboarded: true,
       affection: 33,
       trust: 24,
       completed: [1, 2],
       reviews: ['c1-a'],
-      answers: {}
+      answers: {},
+      xp: 80,
+      wordProgress: {
+        v0001: {
+          status: 'learning',
+          correctSessions: ['one'],
+          correctCount: 1,
+          incorrectCount: 0,
+          lastStudiedAt: '2026-01-01'
+        }
+      }
     })
-    expect(migrated.version).toBe(2)
+    expect(migrated.version).toBe(3)
     expect(migrated.name).toBe('Keiya')
-    expect(migrated.completed).toEqual([1, 2])
-    expect(migrated.wordProgress).toEqual({})
+    expect(migrated.activeCharacterId).toBe('emma')
+    expect(migrated.characterSelectionCompleted).toBe(true)
+    expect(migrated.characterProgress.emma.affection).toBe(33)
+    expect(migrated.characterProgress.emma.completed).toEqual([1, 2])
+    expect(migrated.characterProgress.emma.reviews).toEqual(['c1-a'])
+    expect(migrated.xp).toBe(80)
+    expect(migrated.wordProgress.v0001.status).toBe('learning')
     expect(migrated.unlockedVocabularyLevel).toBe(1)
+  })
+
+  it('allows only published characters to become active', () => {
+    const store = useAppStore()
+    expect(store.selectCharacter('secret-1')).toBe(false)
+    expect(store.s.activeCharacterId).toBe('emma')
+    expect(store.s.characterSelectionCompleted).toBe(false)
+    expect(store.selectCharacter('emma')).toBe(true)
+    expect(store.s.characterSelectionCompleted).toBe(true)
+    expect(store.s.onboarded).toBe(true)
+  })
+
+  it('keeps progress records independent for all character slots', () => {
+    const store = useAppStore()
+    store.s.characterProgress['secret-1'].affection = 72
+    store.s.characterProgress['secret-1'].completed.push(1)
+    expect(store.s.characterProgress.emma.affection).toBe(18)
+    expect(store.s.characterProgress.emma.completed).toEqual([])
+  })
+
+  it('repairs unavailable and unknown active character IDs during migration', () => {
+    const unavailable = migrateSave({
+      version: 3,
+      activeCharacterId: 'secret-2',
+      characterSelectionCompleted: true,
+      characterProgress: {
+        emma: { affection: 18, trust: 12, completed: [], answers: {}, reviews: [] },
+        'secret-1': { affection: 0, trust: 0, completed: [], answers: {}, reviews: [] },
+        'secret-2': { affection: 0, trust: 0, completed: [], answers: {}, reviews: [] }
+      }
+    })
+    expect(unavailable.activeCharacterId).toBe('emma')
   })
 
   it('masters a word after correct answers in two different sessions', () => {
@@ -70,7 +118,7 @@ describe('app store progression', () => {
 
   it('caps relationship rewards after three vocabulary sessions while keeping XP', () => {
     const store = useAppStore()
-    const initialAffection = store.s.affection
+    const initialAffection = store.emmaProgress.affection
     const session = (id: string): VocabularySession => ({
       id,
       level: 1,
@@ -83,7 +131,7 @@ describe('app store progression', () => {
       store.s.activeVocabularySession = session(id)
       store.answerVocabularyQuestion(true)
     }
-    expect(store.s.affection).toBe(initialAffection + 9)
+    expect(store.emmaProgress.affection).toBe(initialAffection + 9)
     expect(store.s.xp).toBe(120)
     expect(store.s.lastVocabularyResult?.affectionChange).toBe(0)
   })

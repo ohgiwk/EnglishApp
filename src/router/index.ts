@@ -1,5 +1,36 @@
-import {createRouter,createWebHashHistory} from 'vue-router'
-const view=(name:string)=>()=>import(`../views/${name}.vue`)
-export default createRouter({history:createWebHashHistory(),routes:[
- {path:'/',component:view('SplashView')},{path:'/onboarding',component:view('OnboardingView')},{path:'/name',component:view('NameView')},{path:'/home',component:view('HomeView'),meta:{nav:true}},{path:'/story',component:view('StoryView'),meta:{nav:true}},{path:'/conversation/:id',component:view('ConversationView')},{path:'/choice/:id',component:view('ChoiceView')},{path:'/result/:id',component:view('ResultView')},{path:'/learn',component:view('LearnView'),meta:{nav:true}},{path:'/learn/session/:level',component:view('VocabularySessionView')},{path:'/learn/result',component:view('VocabularyResultView')},{path:'/learn/words',component:view('WordBookView'),meta:{nav:true}},{path:'/learn/review',component:view('ReviewView'),meta:{nav:true}},{path:'/review',redirect:'/learn/review'},{path:'/memories',component:view('MemoriesView'),meta:{nav:true}},{path:'/profile',component:view('ProfileView'),meta:{nav:true}}
-]})
+import { createRouter, createWebHashHistory } from 'vue-router'
+import { useAppStore } from '../stores/app'
+
+const view = (name: string) => () => import(`../views/${name}.vue`)
+const router = createRouter({
+  history: createWebHashHistory(),
+  routes: [
+    { path: '/', component: view('SplashView') },
+    { path: '/onboarding', component: view('OnboardingView') },
+    { path: '/name', component: view('NameView') },
+    { path: '/characters', component: view('CharacterSelectView') },
+    { path: '/home', component: view('HomeView'), meta: { nav: true } },
+    { path: '/story', component: view('StoryView'), meta: { nav: true } },
+    { path: '/conversation/:id', component: view('ConversationView') },
+    { path: '/choice/:id', component: view('ChoiceView') },
+    { path: '/result/:id', component: view('ResultView') },
+    { path: '/learn', component: view('LearnView'), meta: { nav: true } },
+    { path: '/learn/session/:level', component: view('VocabularySessionView') },
+    { path: '/learn/result', component: view('VocabularyResultView') },
+    { path: '/learn/words', component: view('WordBookView'), meta: { nav: true } },
+    { path: '/learn/review', component: view('ReviewView'), meta: { nav: true } },
+    { path: '/review', redirect: '/learn/review' },
+    { path: '/memories', component: view('MemoriesView'), meta: { nav: true } },
+    { path: '/profile', component: view('ProfileView'), meta: { nav: true } }
+  ]
+})
+
+router.beforeEach((to) => {
+  if (['/', '/onboarding', '/name', '/characters'].includes(to.path)) return true
+  const store = useAppStore()
+  if (!store.s.onboarded) return '/onboarding'
+  if (!store.s.characterSelectionCompleted) return '/characters'
+  return true
+})
+
+export default router
