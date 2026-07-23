@@ -18,6 +18,12 @@
 * {
   box-sizing: border-box;
 }
+html,
+body,
+#app,
+.phone {
+  touch-action: manipulation;
+}
 body {
   margin: 0;
   min-width: 320px;
