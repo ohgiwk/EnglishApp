@@ -13,7 +13,9 @@ const notice = ref('')
 function choose(character: CharacterDefinition) {
   if (character.availability === 'secret') {
     notice.value = 'このキャラクターはまだ公開されていません'
-    window.setTimeout(() => { notice.value = '' }, 2400)
+    window.setTimeout(() => {
+      notice.value = ''
+    }, 2400)
     return
   }
   if (store.selectCharacter(character.id)) router.push('/home')
@@ -33,22 +35,27 @@ function choose(character: CharacterDefinition) {
         v-for="character in characters"
         :key="character.id"
         class="character-option"
-        :class="{ secret: character.availability === 'secret', selected: store.s.activeCharacterId === character.id }"
+        :class="{
+          secret: character.availability === 'secret',
+          selected: store.s.activeCharacterId === character.id
+        }"
         :style="{ '--character-accent': character.accent }"
         @click="choose(character)"
       >
         <template v-if="character.availability === 'available'">
-          <div class="character-image"><img :src="character.image" :alt="character.name"></div>
+          <div class="character-image"><img :src="character.image" :alt="character.name" /></div>
           <div class="character-copy">
             <small>AVAILABLE CHARACTER</small>
             <h2>{{ character.name }}</h2>
             <b>{{ character.englishName }}</b>
             <p>{{ character.origin }}</p>
             <p>{{ character.description }}</p>
-            <span><Heart :size="15" fill="currentColor"/> {{ store.relationship }}</span>
-            <strong>この物語を始める <ChevronRight :size="17"/></strong>
+            <span><Heart :size="15" fill="currentColor" /> {{ store.relationship }}</span>
+            <strong>この物語を始める <ChevronRight :size="17" /></strong>
           </div>
-          <i v-if="store.s.characterSelectionCompleted" class="selected-mark"><Check :size="15"/></i>
+          <i v-if="store.s.characterSelectionCompleted" class="selected-mark"
+            ><Check :size="15"
+          /></i>
         </template>
         <template v-else>
           <div class="secret-silhouette"><span>?</span></div>
@@ -57,14 +64,14 @@ function choose(character: CharacterDefinition) {
             <h2>？？？</h2>
             <b>Coming Soon</b>
             <p>新しい出会いは、まだ秘密。</p>
-            <span class="locked-label"><LockKeyhole :size="15"/> 未公開</span>
+            <span class="locked-label"><LockKeyhole :size="15" /> 未公開</span>
           </div>
         </template>
       </button>
     </div>
 
     <Transition name="notice">
-      <div v-if="notice" class="character-notice"><LockKeyhole :size="17"/>{{ notice }}</div>
+      <div v-if="notice" class="character-notice"><LockKeyhole :size="17" />{{ notice }}</div>
     </Transition>
   </section>
 </template>

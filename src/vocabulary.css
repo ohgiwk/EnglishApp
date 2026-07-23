@@ -22,7 +22,7 @@
   color: #7d74c7;
   font-size: 9px;
   font-weight: 700;
-  letter-spacing: .12em;
+  letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
@@ -271,7 +271,7 @@
 
 .vocab-session > header small {
   font-size: 8px;
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
 }
 
 .vocab-session > header > span {
@@ -288,7 +288,7 @@
   display: block;
   border-radius: 0 5px 5px 0;
   background: #ef7599;
-  transition: width .25s;
+  transition: width 0.25s;
 }
 
 .session-emma {
@@ -326,7 +326,7 @@
   display: block;
   margin-top: 5px;
   color: #89818d;
-  font-family: 'DM Sans','Noto Sans JP',sans-serif;
+  font-family: 'DM Sans', 'Noto Sans JP', sans-serif;
   font-size: 9px;
   font-weight: 400;
 }
@@ -384,7 +384,7 @@
   background: white;
   color: #4b4650;
   text-align: left;
-  transition: .18s;
+  transition: 0.18s;
 }
 
 .vocab-options button.picked {
@@ -843,7 +843,7 @@
 
 .word-title button:disabled,
 .example-card button:disabled {
-  opacity: .35;
+  opacity: 0.35;
 }
 
 .part-badge {

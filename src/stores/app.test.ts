@@ -13,7 +13,10 @@ vi.stubGlobal('localStorage', {
 })
 
 describe('app store progression', () => {
-  beforeEach(() => { data.clear(); setActivePinia(createPinia()) })
+  beforeEach(() => {
+    data.clear()
+    setActivePinia(createPinia())
+  })
 
   it('applies chapter rewards only once', () => {
     const store = useAppStore()
@@ -21,7 +24,11 @@ describe('app store progression', () => {
     store.complete({ characterId: 'emma', chapterId: 1, choice })
     const first = { affection: store.progress.affection, xp: store.s.xp, days: store.s.studyDays }
     store.complete({ characterId: 'emma', chapterId: 1, choice })
-    expect({ affection: store.progress.affection, xp: store.s.xp, days: store.s.studyDays }).toEqual(first)
+    expect({
+      affection: store.progress.affection,
+      xp: store.s.xp,
+      days: store.s.studyDays
+    }).toEqual(first)
     expect(store.currentChapter).toBe(2)
   })
 
@@ -109,19 +116,21 @@ describe('app store progression', () => {
         'secret-1': { affection: 0, trust: 0, completed: [], answers: {}, reviews: [] },
         'secret-2': { affection: 0, trust: 0, completed: [], answers: {}, reviews: [] }
       },
-      vocabularyResults: [{
-        sessionId: 'legacy-session',
-        level: 1,
-        correctCount: 8,
-        totalCount: 10,
-        accuracy: 80,
-        earnedXp: 30,
-        affectionChange: 3,
-        trustChange: 2,
-        masteredWordIds: [],
-        reviewWordIds: [],
-        completedAt: '2026-07-20T10:00:00.000Z'
-      }]
+      vocabularyResults: [
+        {
+          sessionId: 'legacy-session',
+          level: 1,
+          correctCount: 8,
+          totalCount: 10,
+          accuracy: 80,
+          earnedXp: 30,
+          affectionChange: 3,
+          trustChange: 2,
+          masteredWordIds: [],
+          reviewWordIds: [],
+          completedAt: '2026-07-20T10:00:00.000Z'
+        }
+      ]
     })
     expect(migrated.lifetimeStudyStats).toEqual({
       storySessions: 2,
@@ -139,14 +148,31 @@ describe('app store progression', () => {
   })
 
   it('keeps only the newest 365 daily records in v4 saves', () => {
-    const dailyStudyStats = Object.fromEntries(Array.from({ length: 370 }, (_, index) => {
-      const date = new Date(2025, 0, 1 + index).toLocaleDateString('sv-SE')
-      return [date, { date, xpEarned: 1, storySessions: 0, vocabularySessions: 1, questionsAnswered: 1, correctAnswers: 1 }]
-    }))
+    const dailyStudyStats = Object.fromEntries(
+      Array.from({ length: 370 }, (_, index) => {
+        const date = new Date(2025, 0, 1 + index).toLocaleDateString('sv-SE')
+        return [
+          date,
+          {
+            date,
+            xpEarned: 1,
+            storySessions: 0,
+            vocabularySessions: 1,
+            questionsAnswered: 1,
+            correctAnswers: 1
+          }
+        ]
+      })
+    )
     const migrated = migrateSave({
       version: 4,
       dailyStudyStats,
-      lifetimeStudyStats: { storySessions: 0, vocabularySessions: 370, questionsAnswered: 370, correctAnswers: 370 }
+      lifetimeStudyStats: {
+        storySessions: 0,
+        vocabularySessions: 370,
+        questionsAnswered: 370,
+        correctAnswers: 370
+      }
     })
     expect(Object.keys(migrated.dailyStudyStats)).toHaveLength(365)
     expect(Object.keys(migrated.dailyStudyStats)).not.toContain('2025-01-01')

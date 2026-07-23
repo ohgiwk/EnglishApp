@@ -8,11 +8,15 @@ import { useAppStore } from '../stores/app'
 
 const store = useAppStore()
 const router = useRouter()
-const currentLevel = computed(() => store.s.activeVocabularySession?.level ?? store.s.unlockedVocabularyLevel)
+const currentLevel = computed(
+  () => store.s.activeVocabularySession?.level ?? store.s.unlockedVocabularyLevel
+)
 const levelProgress = (level: number) => {
   const words = vocabularyWords.filter((word) => word.level === level)
-  const mastered = words.filter((word) => store.s.wordProgress[word.id]?.status === 'mastered').length
-  return { mastered, percent: Math.round(mastered / words.length * 100) }
+  const mastered = words.filter(
+    (word) => store.s.wordProgress[word.id]?.status === 'mastered'
+  ).length
+  return { mastered, percent: Math.round((mastered / words.length) * 100) }
 }
 function start(level: number) {
   if (level > store.s.unlockedVocabularyLevel) return
@@ -34,29 +38,48 @@ function start(level: number) {
     <div class="learn-hero">
       <div>
         <span>Today's study</span>
-        <h2>“Ready for a little<br>word practice?”</h2>
+        <h2>“Ready for a little<br />word practice?”</h2>
         <p>少しだけ単語の練習、しない？</p>
         <button @click="start(currentLevel)">
-          <Play :size="18" fill="currentColor"/>
+          <Play :size="18" fill="currentColor" />
           {{ store.s.activeVocabularySession ? '続きから再開' : '10問スタート' }}
         </button>
       </div>
-      <EmmaPortrait expression="smile"/>
+      <EmmaPortrait expression="smile" />
     </div>
 
     <div class="learn-summary">
-      <div><strong>{{ store.masteredVocabularyCount }}</strong><span>Mastered</span></div>
-      <div><strong>{{ store.todayVocabularySessions }}</strong><span>Today</span></div>
-      <div><strong>{{ store.s.xp }}</strong><span>English XP</span></div>
+      <div>
+        <strong>{{ store.masteredVocabularyCount }}</strong
+        ><span>Mastered</span>
+      </div>
+      <div>
+        <strong>{{ store.todayVocabularySessions }}</strong
+        ><span>Today</span>
+      </div>
+      <div>
+        <strong>{{ store.s.xp }}</strong
+        ><span>English XP</span>
+      </div>
     </div>
 
     <div class="learn-links">
-      <RouterLink to="/learn/words"><BookMarked/><span><b>Word Book</b><small>1,000語から検索する</small></span><ChevronRight/></RouterLink>
-      <RouterLink to="/learn/review"><MessageSquareText/><span><b>Conversation Review</b><small>ストーリーで出会った表現</small></span><ChevronRight/></RouterLink>
+      <RouterLink to="/learn/words"
+        ><BookMarked /><span><b>Word Book</b><small>1,000語から検索する</small></span
+        ><ChevronRight
+      /></RouterLink>
+      <RouterLink to="/learn/review"
+        ><MessageSquareText /><span
+          ><b>Conversation Review</b><small>ストーリーで出会った表現</small></span
+        ><ChevronRight
+      /></RouterLink>
     </div>
 
     <div class="level-heading">
-      <div><p class="eyebrow">VOCABULARY LEVELS</p><h2>6つのレベル</h2></div>
+      <div>
+        <p class="eyebrow">VOCABULARY LEVELS</p>
+        <h2>6つのレベル</h2>
+      </div>
       <small>70%習得で次へ</small>
     </div>
     <div class="vocab-levels">
@@ -70,11 +93,13 @@ function start(level: number) {
         <span>
           <small>LEVEL {{ level.id }} · {{ level.subtitle }}</small>
           <b>{{ level.title }}</b>
-          <em><u :style="{ width: `${levelProgress(level.id).percent}%`, background: level.color }"/></em>
+          <em
+            ><u :style="{ width: `${levelProgress(level.id).percent}%`, background: level.color }"
+          /></em>
           <small>{{ levelProgress(level.id).mastered }} / {{ level.wordCount }} mastered</small>
         </span>
-        <LockKeyhole v-if="level.id > store.s.unlockedVocabularyLevel" :size="19"/>
-        <ChevronRight v-else :size="19"/>
+        <LockKeyhole v-if="level.id > store.s.unlockedVocabularyLevel" :size="19" />
+        <ChevronRight v-else :size="19" />
       </button>
     </div>
   </section>

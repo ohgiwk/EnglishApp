@@ -7,12 +7,22 @@ describe('vocabulary data', () => {
     expect(vocabularyWords).toHaveLength(1000)
     expect(new Set(vocabularyWords.map((word) => word.id)).size).toBe(1000)
     expect(new Set(vocabularyWords.map((word) => word.word)).size).toBe(1000)
-    expect(vocabularyLevels.map((level) =>
-      vocabularyWords.filter((word) => word.level === level.id).length
-    )).toEqual([150, 170, 170, 170, 170, 170])
-    expect(vocabularyWords.every((word) =>
-      word.word && word.meaningJa && word.partOfSpeech && word.example && word.exampleJa && word.category
-    )).toBe(true)
+    expect(
+      vocabularyLevels.map(
+        (level) => vocabularyWords.filter((word) => word.level === level.id).length
+      )
+    ).toEqual([150, 170, 170, 170, 170, 170])
+    expect(
+      vocabularyWords.every(
+        (word) =>
+          word.word &&
+          word.meaningJa &&
+          word.partOfSpeech &&
+          word.example &&
+          word.exampleJa &&
+          word.category
+      )
+    ).toBe(true)
   })
 
   it('builds a ten-question 4/4/2 mixed session with unique choices', () => {

@@ -1,2 +1,16 @@
-<script setup lang="ts">import type{HeroineExpression}from'../types'; withDefaults(defineProps<{expression?:HeroineExpression;full?:boolean;src?:string}>(),{expression:'normal',src:'/assets/emma.png'})</script>
-<template><div class="emma-wrap" :class="[`is-${expression}`,{full}]"><img :src="src" alt="白いパーカー姿のエマ"/><span v-if="expression==='blush'" class="face-mark">♡</span><span v-if="expression==='confused'" class="face-mark">…?</span></div></template>
+<script setup lang="ts">
+import type { HeroineExpression } from '../types'
+withDefaults(defineProps<{ expression?: HeroineExpression; full?: boolean; src?: string }>(), {
+  expression: 'normal',
+  src: '/assets/emma.png'
+})
+</script>
+<template>
+  <div class="emma-wrap" :class="[`is-${expression}`, { full }]">
+    <img :src="src" alt="白いパーカー姿のエマ" /><span
+      v-if="expression === 'blush'"
+      class="face-mark"
+      >♡</span
+    ><span v-if="expression === 'confused'" class="face-mark">…?</span>
+  </div>
+</template>

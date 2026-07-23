@@ -35,15 +35,23 @@ export function buildVocabularySession(
   })
   const selected = priority.slice(0, 10)
   const types: VocabularyQuestion['type'][] = [
-    'en-to-ja', 'ja-to-en', 'en-to-ja', 'ja-to-en', 'flashcard',
-    'en-to-ja', 'ja-to-en', 'en-to-ja', 'ja-to-en', 'flashcard'
+    'en-to-ja',
+    'ja-to-en',
+    'en-to-ja',
+    'ja-to-en',
+    'flashcard',
+    'en-to-ja',
+    'ja-to-en',
+    'en-to-ja',
+    'ja-to-en',
+    'flashcard'
   ]
 
   const questions = selected.map((word, index): VocabularyQuestion => {
     const type = types[index]
     if (type === 'flashcard') return { wordId: word.id, type, options: [] }
-    const alternatives = pool.filter((candidate) =>
-      candidate.id !== word.id && candidate.partOfSpeech === word.partOfSpeech
+    const alternatives = pool.filter(
+      (candidate) => candidate.id !== word.id && candidate.partOfSpeech === word.partOfSpeech
     )
     const fallback = pool.filter((candidate) => candidate.id !== word.id)
     const candidates = alternatives.length >= 3 ? alternatives : fallback
@@ -92,7 +100,9 @@ export function summarizeVocabularySession(
     affectionChange: relationshipRewardAllowed ? reward.affectionChange : 0,
     trustChange: relationshipRewardAllowed ? reward.trustChange : 0,
     masteredWordIds,
-    reviewWordIds: session.answers.filter((answer) => !answer.correct).map((answer) => answer.wordId),
+    reviewWordIds: session.answers
+      .filter((answer) => !answer.correct)
+      .map((answer) => answer.wordId),
     completedAt: new Date().toISOString()
   }
 }
