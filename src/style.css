@@ -27,6 +27,48 @@ button,
 input {
   font: inherit;
 }
+button,
+a,
+.dialog-box {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+}
+button,
+a {
+  -webkit-user-select: none;
+  user-select: none;
+}
+button {
+  cursor: pointer;
+}
+:where(button:not(:disabled), a, .dialog-box) {
+  --press-scale: 0.97;
+  transition:
+    transform 150ms cubic-bezier(0.22, 1, 0.36, 1),
+    filter 150ms ease,
+    opacity 150ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+:where(button:not(:disabled), a, .dialog-box):is(:active, .is-pressing) {
+  transform: scale(var(--press-scale));
+  filter: brightness(0.96);
+  opacity: 0.9;
+  transition-duration: 70ms;
+}
+button:disabled {
+  cursor: default;
+}
+:where(button, a, input, [role='button']):focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--pink) 38%, transparent);
+  outline-offset: 3px;
+}
+@media (hover: hover) and (pointer: fine) {
+  :where(button:not(:disabled), a, .dialog-box):hover {
+    filter: brightness(0.98);
+  }
+}
 .phone {
   width: 100%;
   min-height: 100dvh;
@@ -121,6 +163,7 @@ input {
     max(8px, var(--safe-left));
 }
 .bottom-nav a {
+  --press-scale: 0.9;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -265,6 +308,9 @@ input {
   height: 6px;
   border-radius: 5px;
   background: #ddd;
+  transition:
+    width 220ms cubic-bezier(0.22, 1, 0.36, 1),
+    background-color 220ms ease;
 }
 .dots i.active {
   width: 24px;
@@ -540,6 +586,7 @@ input {
   gap: 16px;
 }
 .chapter-item {
+  --press-scale: 0.985;
   display: flex;
   position: relative;
   min-height: 148px;
@@ -685,6 +732,7 @@ input {
   object-position: center top;
 }
 .dialog-box {
+  --press-scale: 0.985;
   position: absolute;
   z-index: 3;
   bottom: max(18px, var(--safe-bottom));
@@ -695,6 +743,7 @@ input {
   padding: 25px 22px 18px;
   min-height: 215px;
   box-shadow: 0 10px 35px #40334339;
+  cursor: pointer;
 }
 .speaker {
   position: absolute;
@@ -830,6 +879,7 @@ input {
   font-weight: 400;
 }
 .choices > button {
+  --press-scale: 0.985;
   width: 100%;
   min-height: 85px;
   margin: 9px 0;

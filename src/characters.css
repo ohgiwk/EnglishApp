@@ -11,6 +11,7 @@
 }
 .character-option {
   --character-accent: #ef7599;
+  --press-scale: 0.985;
   position: relative;
   width: 100%;
   min-height: 220px;

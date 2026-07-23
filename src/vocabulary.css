@@ -108,6 +108,7 @@
 }
 
 .learn-links a {
+  --press-scale: 0.985;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -377,6 +378,7 @@
 }
 
 .vocab-options button {
+  --press-scale: 0.985;
   min-height: 72px;
   display: flex;
   align-items: center;
@@ -706,6 +708,7 @@
 }
 
 .word-list > button {
+  --press-scale: 0.985;
   width: 100%;
   min-height: 68px;
   display: flex;

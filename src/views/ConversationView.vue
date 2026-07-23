@@ -32,7 +32,15 @@ function next() {
     </header>
     <div class="scene-label">International Share House · {{ chapter.theme }}</div>
     <EmmaPortrait :expression="line.expression || 'normal'" :src="chapter.image" full />
-    <div class="dialog-box" @click="next">
+    <div
+      class="dialog-box"
+      role="button"
+      tabindex="0"
+      aria-label="次の会話へ進む"
+      @click="next"
+      @keyup.enter="next"
+      @keyup.space.prevent="next"
+    >
       <div class="speaker">
         {{ line.speaker === 'Emma' ? store.activeCharacter.englishName : store.s.name }}
       </div>
