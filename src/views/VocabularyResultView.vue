@@ -50,8 +50,8 @@ function retry() {
 
     <div class="reward-grid">
       <span><b>+{{ result.earnedXp }}</b><small>English XP</small></span>
-      <span><Heart/><b>+{{ result.affectionChange }}</b><small>Affection</small></span>
-      <span><ShieldCheck/><b>+{{ result.trustChange }}</b><small>Trust</small></span>
+      <span><Heart/><b>+{{ result.affectionChange }}</b><small>Affection - 愛情</small></span>
+      <span><ShieldCheck/><b>+{{ result.trustChange }}</b><small>Trust - 信頼</small></span>
     </div>
     <p v-if="result.affectionChange === 0" class="reward-note">今日の関係値ボーナスは獲得済みです。XPと単語進捗は加算されています。</p>
 
