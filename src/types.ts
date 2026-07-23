@@ -6,7 +6,7 @@ export interface Dialogue { speaker:'Emma'|'Player'; english:string; japanese:st
 export interface Choice { id:string; englishText:string; japaneseText:string; affectionChange:number; trustChange:number; englishXp:number; feedback:string; naturalExpression:string; explanation:string; heroineResponse:string; heroineResponseJa:string; heroineExpression:HeroineExpression }
 export interface Scene { id:string; dialogues:Dialogue[]; choices?:Choice[]; closing:Dialogue[] }
 export interface LearningExpression { english:string; japanese:string }
-export interface Chapter { id:number; title:string; subtitle:string; theme:string; color:string; icon:string; scene:Scene; expressions:LearningExpression[]; words:string[] }
+export interface Chapter { id:number; title:string; subtitle:string; theme:string; color:string; icon:string; image:string; scene:Scene; expressions:LearningExpression[]; words:string[] }
 export interface ChoiceResult { chapterId:number; choice:Choice }
 export interface Memory { chapterId:number; title:string; description:string; expression:string }
 export interface StudyRecord { completedChapters:number[]; reviewIds:string[]; learnedExpressions:number }
