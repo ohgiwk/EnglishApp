@@ -1,18 +1,23 @@
 <script setup lang="ts">
 import { computed } from 'vue'
+import { useRouter } from 'vue-router'
 import { useAppStore } from '../stores/app'
 import { chapters } from '../data/chapters'
-import { BookmarkCheck, Volume2, Trash2 } from '@lucide/vue'
+import { ArrowLeft, BookmarkCheck, Volume2, Trash2 } from '@lucide/vue'
 const store = useAppStore()
+const router = useRouter()
 const reviews = computed(() =>
   Object.values(store.progress.answers).filter((r) => store.progress.reviews.includes(r.choice.id))
 )
 </script>
 <template>
   <section class="page">
-    <header class="page-head">
-      <p class="eyebrow">REVIEW</p>
-      <h1>今日の復習</h1>
+    <header class="page-head subpage-head">
+      <button aria-label="Learnへ戻る" @click="router.push('/learn')"><ArrowLeft /></button>
+      <div>
+        <p class="eyebrow">REVIEW</p>
+        <h1>今日の復習</h1>
+      </div>
       <p>{{ store.activeCharacter.name }}との会話で出会った表現を、あなたのペースで。</p>
     </header>
     <div v-if="!reviews.length" class="empty">

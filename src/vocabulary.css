@@ -2,6 +2,35 @@
   background: linear-gradient(180deg, #fffafd 0%, #fdfcfd 40%);
 }
 
+.subpage-head {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 13px;
+}
+
+.subpage-head > button {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  border: 1px solid #e9e4eb;
+  border-radius: 50%;
+  background: white;
+  color: var(--ink);
+  box-shadow: 0 5px 16px #44354d12;
+}
+
+.subpage-head > div h1 {
+  margin: 3px 0 0;
+}
+
+.subpage-head > p {
+  grid-column: 1 / -1;
+  margin: 14px 0 0;
+}
+
 .learn-hero {
   height: 260px;
   position: relative;

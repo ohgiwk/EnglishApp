@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { BookOpen, Check, ChevronRight, Search, Volume2, X } from '@lucide/vue'
+import { useRouter } from 'vue-router'
+import { ArrowLeft, BookOpen, Check, ChevronRight, Search, Volume2, X } from '@lucide/vue'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
 import type { VocabularyPartOfSpeech, VocabularyStatus, VocabularyWord } from '../types'
 
 const store = useAppStore()
+const router = useRouter()
 const search = ref('')
 const level = ref(0)
 const part = ref<VocabularyPartOfSpeech | ''>('')
@@ -37,9 +39,12 @@ function speak(text: string) {
 
 <template>
   <section class="page word-book">
-    <header class="page-head">
-      <p class="eyebrow">WORD BOOK</p>
-      <h1>1,000 Words</h1>
+    <header class="page-head subpage-head">
+      <button aria-label="Learnへ戻る" @click="router.push('/learn')"><ArrowLeft /></button>
+      <div>
+        <p class="eyebrow">WORD BOOK</p>
+        <h1>1,000 Words</h1>
+      </div>
       <p>エマと出会った単語も、これから出会う単語も。</p>
     </header>
 
