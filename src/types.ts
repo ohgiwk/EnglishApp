@@ -11,3 +11,70 @@ export interface ChoiceResult { chapterId:number; choice:Choice }
 export interface Memory { chapterId:number; title:string; description:string; expression:string }
 export interface StudyRecord { completedChapters:number[]; reviewIds:string[]; learnedExpressions:number }
 export interface AppSettings { showTranslation:boolean }
+
+export type VocabularyStatus = 'new' | 'learning' | 'mastered'
+export type VocabularyQuestionType = 'en-to-ja' | 'ja-to-en' | 'flashcard'
+export type VocabularyPartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'other'
+
+export interface VocabularyWord {
+  id: string
+  word: string
+  meaningJa: string
+  partOfSpeech: VocabularyPartOfSpeech
+  level: number
+  example: string
+  exampleJa: string
+  category: string
+}
+
+export interface VocabularyLevel {
+  id: number
+  title: string
+  subtitle: string
+  wordCount: number
+  color: string
+}
+
+export interface WordProgress {
+  status: VocabularyStatus
+  correctSessions: string[]
+  correctCount: number
+  incorrectCount: number
+  lastStudiedAt: string
+}
+
+export interface VocabularyQuestion {
+  wordId: string
+  type: VocabularyQuestionType
+  options: string[]
+}
+
+export interface VocabularyAnswer {
+  wordId: string
+  type: VocabularyQuestionType
+  correct: boolean
+  answeredAt: string
+}
+
+export interface VocabularySession {
+  id: string
+  level: number
+  questions: VocabularyQuestion[]
+  answers: VocabularyAnswer[]
+  currentIndex: number
+  startedAt: string
+}
+
+export interface VocabularyResult {
+  sessionId: string
+  level: number
+  correctCount: number
+  totalCount: number
+  accuracy: number
+  earnedXp: number
+  affectionChange: number
+  trustChange: number
+  masteredWordIds: string[]
+  reviewWordIds: string[]
+  completedAt: string
+}

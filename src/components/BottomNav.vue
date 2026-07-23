@@ -1,2 +1,2 @@
-<script setup lang="ts">import{Home,BookOpen,RotateCcw,Images,UserRound}from'@lucide/vue'; const items=[['/home','Home',Home],['/story','Story',BookOpen],['/review','Review',RotateCcw],['/memories','Memories',Images],['/profile','Profile',UserRound]]</script>
+<script setup lang="ts">import{Home,BookOpen,GraduationCap,Images,UserRound}from'@lucide/vue'; const items=[['/home','Home',Home],['/story','Story',BookOpen],['/learn','Learn',GraduationCap],['/memories','Memories',Images],['/profile','Profile',UserRound]]</script>
 <template><nav class="bottom-nav"><RouterLink v-for="[to,label,icon] in items" :key="to as string" :to="to as string"><component :is="icon" :size="20"/><span>{{label}}</span></RouterLink></nav></template>

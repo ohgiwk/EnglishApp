@@ -8,6 +8,10 @@ export default [
   ...tseslint.configs.recommended,
   ...vue.configs['flat/essential'],
   {
+    files: ['scripts/**/*.mjs'],
+    languageOptions: { globals: { process: 'readonly', console: 'readonly' } }
+  },
+  {
     files: ['**/*.{ts,vue}'],
     languageOptions: { parserOptions: { parser: tseslint.parser, extraFileExtensions: ['.vue'] } },
     rules: {
