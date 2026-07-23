@@ -157,8 +157,14 @@ function speak() {
         <p>{{ word.meaningJa }}</p>
         <q>{{ word.example }}</q>
         <small>{{ word.exampleJa }}</small>
-        <button class="primary" @click="next">次の問題へ <ChevronRight /></button>
       </div>
+      <button
+        v-if="revealed && question.type !== 'flashcard'"
+        class="primary next-question"
+        @click="next"
+      >
+        次の問題へ <ChevronRight />
+      </button>
     </main>
   </section>
 </template>
