@@ -155,7 +155,7 @@
   position: fixed;
   z-index: 30;
   left: 50%;
-  bottom: 28px;
+  bottom: max(28px, calc(var(--safe-bottom) + 12px));
   transform: translateX(-50%);
   width: min(calc(100% - 40px), 390px);
   padding: 13px 16px;

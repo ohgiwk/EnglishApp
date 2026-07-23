@@ -10,6 +10,10 @@
   --ink: #373342;
   --muted: #8a8491;
   --line: #ece8ef;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
 }
 * {
   box-sizing: border-box;
@@ -17,6 +21,7 @@
 body {
   margin: 0;
   min-width: 320px;
+  min-height: 100dvh;
 }
 button,
 input {
@@ -31,7 +36,11 @@ input {
 }
 .page {
   min-height: 100dvh;
-  padding: 32px 22px 108px;
+  padding:
+    max(32px, calc(var(--safe-top) + 12px))
+    max(22px, var(--safe-right))
+    max(108px, calc(88px + var(--safe-bottom)))
+    max(22px, var(--safe-left));
   background: #fdfcfd;
 }
 .page-head {
@@ -94,7 +103,7 @@ input {
   box-shadow: 0 8px 28px #44354d0b;
 }
 .bottom-nav {
-  height: 76px;
+  height: calc(64px + var(--safe-bottom));
   position: fixed;
   z-index: 20;
   bottom: 0;
@@ -106,7 +115,10 @@ input {
   backdrop-filter: blur(14px);
   display: flex;
   justify-content: space-around;
-  padding: 9px 8px max(12px, env(safe-area-inset-bottom));
+  padding:
+    9px max(8px, var(--safe-right))
+    max(12px, var(--safe-bottom))
+    max(8px, var(--safe-left));
 }
 .bottom-nav a {
   display: flex;
@@ -124,6 +136,11 @@ input {
 }
 .splash {
   height: 100dvh;
+  padding:
+    var(--safe-top)
+    var(--safe-right)
+    var(--safe-bottom)
+    var(--safe-left);
   background: linear-gradient(145deg, #fff8fa, #f4f0ff);
   display: flex;
   flex-direction: column;
@@ -165,23 +182,28 @@ input {
 }
 .onboarding {
   height: 100dvh;
-  padding: 28px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  padding:
+    max(28px, calc(var(--safe-top) + 8px))
+    max(28px, var(--safe-right))
+    max(28px, var(--safe-bottom))
+    max(28px, var(--safe-left));
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  row-gap: clamp(12px, 2dvh, 20px);
+  align-items: center;
   text-align: center;
   background: linear-gradient(#fff, #fff7fa);
 }
 .skip {
-  align-self: flex-end;
+  justify-self: end;
   background: none;
   border: 0;
   color: var(--muted);
 }
 .onboard-art {
-  width: 220px;
-  height: 220px;
-  margin: auto;
+  width: clamp(160px, 23dvh, 195px);
+  height: clamp(160px, 23dvh, 195px);
+  margin: 0 auto;
   border-radius: 50%;
   background: var(--pink2);
   display: flex;
@@ -199,6 +221,39 @@ input {
 .onboarding h1 {
   font-size: 30px;
   line-height: 1.4;
+  margin: 14px 0;
+}
+.onboarding .muted {
+  margin: 0;
+}
+.onboard-actions {
+  display: grid;
+  row-gap: clamp(14px, 2dvh, 20px);
+  margin-bottom: clamp(48px, 13dvh, 112px);
+}
+.onboard-slide-enter-active,
+.onboard-slide-leave-active {
+  transition:
+    transform 280ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 220ms ease;
+}
+.onboard-slide-enter-from {
+  opacity: 0;
+  transform: translateX(44px);
+}
+.onboard-slide-leave-to {
+  opacity: 0;
+  transform: translateX(-44px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .onboard-slide-enter-active,
+  .onboard-slide-leave-active {
+    transition: opacity 120ms ease;
+  }
+  .onboard-slide-enter-from,
+  .onboard-slide-leave-to {
+    transform: none;
+  }
 }
 .dots {
   display: flex;
@@ -225,8 +280,8 @@ input {
 .mini-brand {
   position: absolute;
   z-index: 2;
-  top: 24px;
-  left: 24px;
+  top: max(24px, calc(var(--safe-top) + 8px));
+  left: max(24px, var(--safe-left));
   color: white;
   font-family: serif;
   font-size: 19px;
@@ -262,7 +317,17 @@ input {
   background: white;
   flex: 1;
   border-radius: 32px 32px 0 0;
-  padding: 34px 26px;
+  padding:
+    34px max(26px, var(--safe-right))
+    max(34px, var(--safe-bottom))
+    max(26px, var(--safe-left));
+  transition: transform 250ms cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: transform;
+}
+@media (prefers-reduced-motion: reduce) {
+  .name-card {
+    transition: none;
+  }
 }
 .name-card h1 {
   font-size: 23px;
@@ -283,7 +348,7 @@ input {
   margin-top: 25px;
 }
 .home {
-  padding-top: 22px;
+  padding-top: max(22px, calc(var(--safe-top) + 12px));
 }
 .home-head {
   display: flex;
@@ -573,8 +638,12 @@ input {
   top: 0;
   left: 0;
   right: 0;
-  height: 72px;
-  padding: 18px;
+  height: calc(72px + var(--safe-top));
+  padding:
+    calc(18px + var(--safe-top))
+    max(18px, var(--safe-right))
+    18px
+    max(18px, var(--safe-left));
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -598,7 +667,7 @@ input {
 }
 .scene-label {
   position: absolute;
-  top: 90px;
+  top: calc(90px + var(--safe-top));
   left: 50%;
   transform: translateX(-50%);
   white-space: nowrap;
@@ -618,9 +687,9 @@ input {
 .dialog-box {
   position: absolute;
   z-index: 3;
-  bottom: 18px;
-  left: 14px;
-  right: 14px;
+  bottom: max(18px, var(--safe-bottom));
+  left: max(14px, var(--safe-left));
+  right: max(14px, var(--safe-right));
   background: #fffffff2;
   border-radius: 22px;
   padding: 25px 22px 18px;
@@ -680,7 +749,10 @@ input {
   max-height: 75%;
   overflow: auto;
   border-radius: 28px 28px 0 0;
-  padding: 28px;
+  padding:
+    28px max(28px, var(--safe-right))
+    max(28px, var(--safe-bottom))
+    max(28px, var(--safe-left));
 }
 .modal-close {
   float: right;
@@ -707,7 +779,7 @@ input {
 .choice-page > header {
   position: relative;
   background: #9188c5;
-  height: 70px;
+  height: calc(70px + var(--safe-top));
 }
 .choice-page header div {
   display: flex;
@@ -743,7 +815,10 @@ input {
   font-weight: 400;
 }
 .choices {
-  padding: 18px;
+  padding:
+    18px max(18px, var(--safe-right))
+    max(18px, var(--safe-bottom))
+    max(18px, var(--safe-left));
 }
 .choices > p {
   font-weight: 700;
@@ -1117,7 +1192,7 @@ input {
 .profile {
   min-height: 100dvh;
   background: #f9f7fa;
-  padding-bottom: 90px;
+  padding-bottom: calc(90px + var(--safe-bottom));
 }
 .profile-hero {
   height: 470px;
@@ -1128,9 +1203,9 @@ input {
 .profile-top {
   position: absolute;
   z-index: 2;
-  top: 20px;
-  left: 20px;
-  right: 20px;
+  top: max(20px, calc(var(--safe-top) + 8px));
+  left: max(20px, var(--safe-left));
+  right: max(20px, var(--safe-right));
   display: flex;
   justify-content: space-between;
   color: white;
@@ -1160,7 +1235,9 @@ input {
   font-size: 14px;
 }
 .profile-body {
-  padding: 16px 20px;
+  padding:
+    16px max(20px, var(--safe-right))
+    16px max(20px, var(--safe-left));
 }
 .profile-body > .card {
   margin-bottom: 12px;

@@ -32,18 +32,24 @@ function next() {
 <template>
   <section class="onboarding">
     <button class="skip" @click="router.push('/name')">スキップ</button>
-    <div class="onboard-art">
-      <component :is="slides[page].icon" :size="68" />
-      <div class="orbit">✦</div>
+    <Transition name="onboard-slide" mode="out-in">
+      <div :key="`art-${page}`" class="onboard-art">
+        <component :is="slides[page].icon" :size="68" />
+        <div class="orbit">✦</div>
+      </div>
+    </Transition>
+    <div class="onboard-actions">
+      <Transition name="onboard-slide" mode="out-in">
+        <div :key="`copy-${page}`" class="onboard-copy">
+          <p class="eyebrow">STORY {{ page + 1 }} / 3</p>
+          <h1 class="preline">{{ slides[page].title }}</h1>
+          <p class="muted preline">{{ slides[page].text }}</p>
+        </div>
+      </Transition>
+      <div class="dots"><i v-for="n in 3" :class="{ active: n - 1 === page }" /></div>
+      <button class="primary" @click="next">
+        {{ page === 2 ? '物語を始める' : '次へ' }} <ArrowRight :size="20" />
+      </button>
     </div>
-    <div>
-      <p class="eyebrow">STORY {{ page + 1 }} / 3</p>
-      <h1 class="preline">{{ slides[page].title }}</h1>
-      <p class="muted preline">{{ slides[page].text }}</p>
-    </div>
-    <div class="dots"><i v-for="n in 3" :class="{ active: n - 1 === page }" /></div>
-    <button class="primary" @click="next">
-      {{ page === 2 ? '物語を始める' : '次へ' }} <ArrowRight :size="20" />
-    </button>
   </section>
 </template>

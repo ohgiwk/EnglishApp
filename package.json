@@ -6,12 +6,18 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
+    "ios:sync": "npm run build && cap sync ios",
+    "ios:open": "npm run ios:sync && cap open ios",
+    "ios:run": "npm run ios:sync && cap run ios",
     "test": "vitest run",
     "lint": "eslint .",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@capacitor/core": "^8.4.2",
+    "@capacitor/ios": "^8.4.2",
+    "@capacitor/keyboard": "^8.0.5",
     "@lucide/vue": "^1.25.0",
     "@vitejs/plugin-vue": "latest",
     "pinia": "latest",
@@ -20,6 +26,7 @@
     "vue-router": "latest"
   },
   "devDependencies": {
+    "@capacitor/cli": "^8.4.2",
     "@eslint/js": "latest",
     "@types/node": "latest",
     "eslint": "latest",
