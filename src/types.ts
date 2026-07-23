@@ -22,6 +22,9 @@ export interface CharacterDefinition {
   age?: number
   origin?: string
   major?: string
+  languages?: string[]
+  personality?: string[]
+  learningThemes?: string[]
   hobbies: string[]
   description: string
   image?: string

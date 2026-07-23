@@ -24,9 +24,10 @@
   z-index: 1;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(180deg, #30283f99 0, #30283f10 24%, transparent 52%, #30283fc7 100%);
+  background: linear-gradient(180deg, transparent 52%, #30283fc7 100%);
 }
 .character-page .profile-top {
+  justify-content: flex-end;
   align-items: center;
   text-shadow: 0 2px 8px #211a2acc;
 }

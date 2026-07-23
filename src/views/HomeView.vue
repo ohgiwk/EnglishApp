@@ -3,7 +3,6 @@ import { computed } from 'vue'
 import { useAppStore } from '../stores/app'
 import { chapters } from '../data/chapters'
 import { Flame, BookOpen, RotateCcw, ChevronRight } from '@lucide/vue'
-import StatBar from '../components/StatBar.vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 const store = useAppStore()
 const greeting = computed(() => {
@@ -51,18 +50,6 @@ const level = computed(() =>
       <div>
         <small>TODAY</small><b>{{ store.s.lastStudyDate ? '1 lesson' : '0 / 1' }}</b>
       </div>
-    </div>
-    <div class="card relationship">
-      <div class="section-title">
-        <h3>{{ store.activeCharacter.name }}との関係</h3>
-        <span>{{ store.relationship }}</span>
-      </div>
-      <StatBar label="Affection - 愛情" :value="store.progress.affection" icon="♥" /><StatBar
-        label="Trust - 信頼"
-        :value="store.progress.trust"
-        icon="✦"
-        color="#8b82dc"
-      />
     </div>
     <RouterLink class="primary story-btn" :to="`/conversation/${chapter.id}`"
       ><BookOpen /> ストーリーを進める <ChevronRight /></RouterLink

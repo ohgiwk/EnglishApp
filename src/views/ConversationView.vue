@@ -24,10 +24,18 @@ function next() {
 <template>
   <section class="conversation">
     <header>
-      <button @click="router.push('/story')"><X /></button><span>CHAPTER {{ chapter.id }}</span>
-      <div>
-        <button @click="store.toggleTranslation"><Languages /></button
-        ><button @click="log = true"><ScrollText /></button>
+      <button aria-label="チャプター選択へ戻る" @click="router.push('/story')"><X /></button>
+      <span class="chapter-title">CHAPTER {{ chapter.id }}</span>
+      <div class="conversation-actions">
+        <button
+          class="translation-toggle"
+          :class="{ active: store.s.showTranslation }"
+          aria-label="日本語表示を切り替える"
+          @click="store.toggleTranslation"
+        >
+          <Languages />
+        </button>
+        <button aria-label="会話ログを開く" @click="log = true"><ScrollText /></button>
       </div>
     </header>
     <div class="scene-label">International Share House · {{ chapter.theme }}</div>

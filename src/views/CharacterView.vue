@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { Camera, Heart, LockKeyhole, MapPin, GraduationCap } from '@lucide/vue'
+import { Camera, Heart, MapPin } from '@lucide/vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import StatBar from '../components/StatBar.vue'
 import { chapters, memories } from '../data/chapters'
@@ -20,19 +20,18 @@ const selectTab = (value: 'profile' | 'memories') =>
     <header class="character-head">
       <div>
         <p class="eyebrow">CHARACTER</p>
-        <h1>{{ store.activeCharacter.name }}</h1>
       </div>
     </header>
 
     <div class="profile-hero">
       <div class="profile-top">
-        <small>HER PROFILE</small><b>♡ {{ store.relationship }}</b>
+        <b>♡ {{ store.relationship }}</b>
       </div>
       <EmmaPortrait expression="smile" :src="store.activeCharacter.image" full />
       <div class="profile-name">
         <p>{{ store.activeCharacter.englishName }}</p>
         <h1>
-          {{ store.activeCharacter.name }} <span>{{ store.activeCharacter.age }}</span>
+          {{ store.activeCharacter.name }} <span>Age: {{ store.activeCharacter.age }}</span>
         </h1>
       </div>
     </div>
@@ -51,9 +50,6 @@ const selectTab = (value: 'profile' | 'memories') =>
             <MapPin /><span><small>FROM</small>{{ store.activeCharacter.origin }}</span>
           </div>
           <div class="info">
-            <GraduationCap /><span><small>MAJOR</small>{{ store.activeCharacter.major }}</span>
-          </div>
-          <div class="info">
             <Camera /><span
               ><small>HOBBIES</small>{{ store.activeCharacter.hobbies.join('・') }}</span
             >
@@ -69,27 +65,7 @@ const selectTab = (value: 'profile' | 'memories') =>
         </div>
         <div class="card bio">
           <h3>About {{ store.activeCharacter.englishName.split(' ')[0] }}</h3>
-          <p>{{ store.activeCharacter.description }} 距離が縮まると冗談や本音が増えていく。</p>
-          <div :class="{ secret: store.progress.completed.length < 2 }">
-            <LockKeyhole v-if="store.progress.completed.length < 2" />
-            <span
-              ><small>FAVORITE FOOD</small
-              >{{
-                store.progress.completed.length >= 2 ? 'スパイシーカレー' : 'もっと仲良くなると解放'
-              }}</span
-            >
-          </div>
-          <div :class="{ secret: store.progress.completed.length < 3 }">
-            <LockKeyhole v-if="store.progress.completed.length < 3" />
-            <span
-              ><small>HER DREAM</small
-              >{{
-                store.progress.completed.length >= 3
-                  ? '世界をつなぐ仕事をすること'
-                  : '特別な思い出で解放'
-              }}</span
-            >
-          </div>
+          <p>{{ store.activeCharacter.description }}</p>
         </div>
       </div>
     </template>
