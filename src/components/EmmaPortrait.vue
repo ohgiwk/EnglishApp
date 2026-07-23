@@ -1,0 +1,2 @@
+<script setup lang="ts">import type{HeroineExpression}from'../types'; withDefaults(defineProps<{expression?:HeroineExpression;full?:boolean}>(),{expression:'normal'})</script>
+<template><div class="emma-wrap" :class="[`is-${expression}`,{full}]"><img src="/assets/emma.png" alt="白いパーカー姿のエマ"/><span v-if="expression==='blush'" class="face-mark">♡</span><span v-if="expression==='confused'" class="face-mark">…?</span></div></template>
