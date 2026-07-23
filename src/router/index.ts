@@ -4,6 +4,7 @@ import { useAppStore } from '../stores/app'
 const view = (name: string) => () => import(`../views/${name}.vue`)
 const router = createRouter({
   history: createWebHashHistory(),
+  scrollBehavior: () => ({ top: 0, left: 0 }),
   routes: [
     { path: '/', component: view('SplashView') },
     { path: '/onboarding', component: view('OnboardingView') },
