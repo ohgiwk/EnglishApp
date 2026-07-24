@@ -178,11 +178,55 @@ describe('app store progression', () => {
     expect(Object.keys(migrated.dailyStudyStats)).not.toContain('2025-01-01')
   })
 
+  it('discards old active sessions so interrupted work cannot resume', () => {
+    const migrated = migrateSave({
+      version: 4,
+      activeVocabularySession: {
+        id: 'legacy-active',
+        level: 1,
+        questions: [{ wordId: 'v0001', type: 'flashcard', options: [] }],
+        answers: [],
+        currentIndex: 0,
+        startedAt: '2026-07-24T10:00:00.000Z'
+      }
+    })
+    expect(migrated.lastSelectedVocabularyMode).toBe('mixed')
+    expect(migrated.activeVocabularySession).toBeNull()
+  })
+
+  it('persists the selected mode and starts ten questions in that mode', () => {
+    const store = useAppStore()
+    store.setVocabularyMode('fill-blank')
+    store.startVocabularySession(1)
+    expect(store.s.lastSelectedVocabularyMode).toBe('fill-blank')
+    expect(store.s.activeVocabularySession?.mode).toBe('fill-blank')
+    expect(store.s.activeVocabularySession?.questions).toHaveLength(10)
+    expect(
+      store.s.activeVocabularySession?.questions.every((question) => question.type === 'fill-blank')
+    ).toBe(true)
+    expect(JSON.parse(data.get('love-language-save-v1') ?? '{}').lastSelectedVocabularyMode).toBe(
+      'fill-blank'
+    )
+  })
+
+  it('discards an interrupted session while preserving the selected mode', () => {
+    const store = useAppStore()
+    store.startVocabularySession(1, 'reorder')
+    expect(store.s.activeVocabularySession).not.toBeNull()
+    store.cancelVocabularySession()
+    expect(store.s.activeVocabularySession).toBeNull()
+    expect(store.s.lastSelectedVocabularyMode).toBe('reorder')
+    const saved = JSON.parse(data.get('love-language-save-v1') ?? '{}')
+    expect(saved.activeVocabularySession).toBeNull()
+    expect(saved.lastSelectedVocabularyMode).toBe('reorder')
+  })
+
   it('masters a word after correct answers in two different sessions', () => {
     const store = useAppStore()
     const session = (id: string): VocabularySession => ({
       id,
       level: 1,
+      mode: 'mixed',
       questions: [{ wordId: 'v0001', type: 'flashcard', options: [] }],
       answers: [],
       currentIndex: 0,
@@ -202,6 +246,7 @@ describe('app store progression', () => {
     const session = (id: string): VocabularySession => ({
       id,
       level: 1,
+      mode: 'mixed',
       questions: [{ wordId: `v000${id}`, type: 'flashcard', options: [] }],
       answers: [],
       currentIndex: 0,

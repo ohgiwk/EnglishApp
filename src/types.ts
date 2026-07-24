@@ -114,7 +114,9 @@ export interface LifetimeStudyStats {
 }
 
 export type VocabularyStatus = 'new' | 'learning' | 'mastered'
-export type VocabularyQuestionType = 'en-to-ja' | 'ja-to-en' | 'flashcard'
+export type VocabularyQuestionType =
+  'en-to-ja' | 'ja-to-en' | 'flashcard' | 'fill-blank' | 'reorder'
+export type VocabularySessionMode = 'mixed' | VocabularyQuestionType
 export type VocabularyPartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'other'
 
 export interface VocabularyWord {
@@ -148,6 +150,16 @@ export interface VocabularyQuestion {
   wordId: string
   type: VocabularyQuestionType
   options: string[]
+  prompt?: string
+  promptJa?: string
+  answer?: string
+  tokens?: VocabularyQuestionToken[]
+  correctOrder?: string[]
+}
+
+export interface VocabularyQuestionToken {
+  id: string
+  text: string
 }
 
 export interface VocabularyAnswer {
@@ -160,6 +172,7 @@ export interface VocabularyAnswer {
 export interface VocabularySession {
   id: string
   level: number
+  mode: VocabularySessionMode
   questions: VocabularyQuestion[]
   answers: VocabularyAnswer[]
   currentIndex: number
@@ -169,6 +182,7 @@ export interface VocabularySession {
 export interface VocabularyResult {
   sessionId: string
   level: number
+  mode?: VocabularySessionMode
   correctCount: number
   totalCount: number
   accuracy: number

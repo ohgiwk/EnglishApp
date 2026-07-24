@@ -1,8 +1,10 @@
 import { vocabularyWords } from './vocabulary'
+import { reorderExamples } from './reorder-examples'
 import type {
   VocabularyQuestion,
   VocabularyResult,
   VocabularySession,
+  VocabularySessionMode,
   VocabularyWord,
   WordProgress
 } from '../types'
@@ -19,11 +21,77 @@ const shuffle = <T>(values: T[], random: () => number): T[] => {
 const optionValue = (word: VocabularyWord, type: VocabularyQuestion['type']) =>
   type === 'en-to-ja' ? word.meaningJa : word.word
 
+const exerciseTypes: VocabularyQuestion['type'][] = [
+  'en-to-ja',
+  'ja-to-en',
+  'flashcard',
+  'fill-blank',
+  'reorder'
+]
+
+const safeExample = (word: VocabularyWord) => {
+  const example = word.example.trim()
+  return example.toLocaleLowerCase().includes(word.word.toLocaleLowerCase())
+    ? example
+    : `Emma wrote “${word.word}” in her vocabulary notebook.`
+}
+
+const isNaturalBilingualExample = (word: VocabularyWord) => {
+  const example = word.example.trim()
+  return (
+    Boolean(word.exampleJa.trim()) &&
+    example.toLocaleLowerCase().includes(word.word.toLocaleLowerCase()) &&
+    !/["'“”‘’[\]]/.test(example) &&
+    !/\bthe word\b/i.test(example)
+  )
+}
+
+export const hasNaturalReorderExample = (word: VocabularyWord) =>
+  Boolean(reorderExamples[word.id]) || isNaturalBilingualExample(word)
+
+const reorderExample = (word: VocabularyWord) => {
+  const curated = reorderExamples[word.id]
+  if (!curated && isNaturalBilingualExample(word)) {
+    return { sentence: word.example.trim(), sentenceJa: word.exampleJa.trim() }
+  }
+  if (!curated) throw new Error(`No natural reorder example for ${word.id}`)
+  return { sentence: curated.english, sentenceJa: curated.japanese }
+}
+
+export const buildFillBlank = (word: VocabularyWord) => {
+  const sentence = safeExample(word)
+  const start = sentence.toLocaleLowerCase().indexOf(word.word.toLocaleLowerCase())
+  return {
+    prompt: `${sentence.slice(0, start)}____${sentence.slice(start + word.word.length)}`,
+    answer: word.word
+  }
+}
+
+export const buildReorder = (word: VocabularyWord, random: () => number = Math.random) => {
+  const { sentence, sentenceJa } = reorderExample(word)
+  const correctTokens = sentence.split(/\s+/).filter(Boolean)
+  const tokens = correctTokens.map((text, index) => ({
+    id: `${word.id}-token-${index}`,
+    text
+  }))
+  let shuffled = shuffle(tokens, random)
+  if (shuffled.length > 1 && shuffled.every((token, index) => token.id === tokens[index]?.id)) {
+    shuffled = [...shuffled.slice(1), shuffled[0]]
+  }
+  return {
+    prompt: sentence,
+    promptJa: sentenceJa,
+    tokens: shuffled,
+    correctOrder: tokens.map((token) => token.id)
+  }
+}
+
 export function buildVocabularySession(
   level: number,
   progress: Record<string, WordProgress>,
   random: () => number = Math.random,
-  sessionId = `vocab-${Date.now()}`
+  sessionId = `vocab-${Date.now()}`,
+  mode: VocabularySessionMode = 'mixed'
 ): VocabularySession {
   const pool = vocabularyWords.filter((word) => word.level === level)
   const priority = [...pool].sort((a, b) => {
@@ -33,23 +101,34 @@ export function buildVocabularySession(
     }
     return rank(a) - rank(b) || random() - 0.5
   })
-  const selected = priority.slice(0, 10)
-  const types: VocabularyQuestion['type'][] = [
-    'en-to-ja',
-    'ja-to-en',
-    'en-to-ja',
-    'ja-to-en',
-    'flashcard',
-    'en-to-ja',
-    'ja-to-en',
-    'en-to-ja',
-    'ja-to-en',
-    'flashcard'
-  ]
+  const types: VocabularyQuestion['type'][] =
+    mode === 'mixed'
+      ? shuffle(
+          exerciseTypes.flatMap((type) => [type, type]),
+          random
+        )
+      : Array.from({ length: 10 }, () => mode)
+  const usedWordIds = new Set<string>()
+  const selected = types.map((type) => {
+    const word = priority.find(
+      (candidate) =>
+        !usedWordIds.has(candidate.id) &&
+        (type !== 'reorder' || hasNaturalReorderExample(candidate))
+    )
+    if (!word) throw new Error(`Not enough vocabulary for ${type} questions at level ${level}`)
+    usedWordIds.add(word.id)
+    return word
+  })
 
   const questions = selected.map((word, index): VocabularyQuestion => {
     const type = types[index]
     if (type === 'flashcard') return { wordId: word.id, type, options: [] }
+    if (type === 'fill-blank') {
+      return { wordId: word.id, type, options: [], ...buildFillBlank(word) }
+    }
+    if (type === 'reorder') {
+      return { wordId: word.id, type, options: [], ...buildReorder(word, random) }
+    }
     const alternatives = pool.filter(
       (candidate) => candidate.id !== word.id && candidate.partOfSpeech === word.partOfSpeech
     )
@@ -69,6 +148,7 @@ export function buildVocabularySession(
   return {
     id: sessionId,
     level,
+    mode,
     questions,
     answers: [],
     currentIndex: 0,
@@ -93,6 +173,7 @@ export function summarizeVocabularySession(
   return {
     sessionId: session.id,
     level: session.level,
+    mode: session.mode,
     correctCount,
     totalCount: session.questions.length,
     accuracy,

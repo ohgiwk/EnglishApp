@@ -5,12 +5,23 @@ import { BookMarked, ChevronRight, LockKeyhole, MessageSquareText, Play } from '
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
+import type { VocabularySessionMode } from '../types'
 
 const store = useAppStore()
 const router = useRouter()
-const currentLevel = computed(
-  () => store.s.activeVocabularySession?.level ?? store.s.unlockedVocabularyLevel
-)
+const currentLevel = computed(() => store.s.unlockedVocabularyLevel)
+const modes: { id: VocabularySessionMode; label: string; detail: string }[] = [
+  { id: 'mixed', label: 'おまかせ', detail: '5種類をミックス' },
+  { id: 'en-to-ja', label: '英 → 日', detail: '英単語から意味' },
+  { id: 'ja-to-en', label: '日 → 英', detail: '意味から英単語' },
+  { id: 'flashcard', label: 'カード', detail: '自分で思い出す' },
+  { id: 'fill-blank', label: '穴埋め', detail: '空欄に入力' },
+  { id: 'reorder', label: '並べ替え', detail: '順番にタップ' }
+]
+const selectedMode = computed({
+  get: () => store.s.lastSelectedVocabularyMode,
+  set: (mode: VocabularySessionMode) => store.setVocabularyMode(mode)
+})
 const levelProgress = (level: number) => {
   const words = vocabularyWords.filter((word) => word.level === level)
   const mastered = words.filter(
@@ -20,9 +31,7 @@ const levelProgress = (level: number) => {
 }
 function start(level: number) {
   if (level > store.s.unlockedVocabularyLevel) return
-  if (!store.s.activeVocabularySession || store.s.activeVocabularySession.level !== level) {
-    store.startVocabularySession(level)
-  }
+  store.startVocabularySession(level, selectedMode.value)
   router.push(`/learn/session/${level}`)
 }
 </script>
@@ -42,7 +51,8 @@ function start(level: number) {
         <p>少しだけ単語の練習、しない？</p>
         <button @click="start(currentLevel)">
           <Play :size="18" fill="currentColor" />
-          {{ store.s.activeVocabularySession ? '続きから再開' : '10問スタート' }}
+          <span>10問スタート</span>
+          <small>{{ modes.find((mode) => mode.id === selectedMode)?.label }}</small>
         </button>
       </div>
       <EmmaPortrait expression="smile" />
@@ -62,6 +72,20 @@ function start(level: number) {
         ><span>English XP</span>
       </div>
     </div>
+
+    <fieldset class="practice-mode">
+      <legend>
+        <span class="eyebrow">PRACTICE MODE</span>
+        <b>練習モードを選ぶ</b>
+      </legend>
+      <div>
+        <label v-for="mode in modes" :key="mode.id" :class="{ selected: selectedMode === mode.id }">
+          <input v-model="selectedMode" type="radio" name="practice-mode" :value="mode.id" />
+          <b>{{ mode.label }}</b>
+          <small>{{ mode.detail }}</small>
+        </label>
+      </div>
+    </fieldset>
 
     <div class="learn-links">
       <RouterLink to="/learn/words"

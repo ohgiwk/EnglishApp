@@ -12,6 +12,7 @@ import type {
   VocabularyAnswer,
   VocabularyResult,
   VocabularySession,
+  VocabularySessionMode,
   WordProgress
 } from '../types'
 
@@ -32,6 +33,7 @@ export interface SaveV4 {
   showTranslation: boolean
   unlockedVocabularyLevel: number
   wordProgress: Record<string, WordProgress>
+  lastSelectedVocabularyMode: VocabularySessionMode
   activeVocabularySession: VocabularySession | null
   vocabularyResults: VocabularyResult[]
   lastVocabularyResult: VocabularyResult | null
@@ -73,6 +75,7 @@ const defaults = (): SaveV4 => ({
   showTranslation: true,
   unlockedVocabularyLevel: 1,
   wordProgress: {},
+  lastSelectedVocabularyMode: 'mixed',
   activeVocabularySession: null,
   vocabularyResults: [],
   lastVocabularyResult: null,
@@ -125,6 +128,17 @@ const sanitizeDailyStats = (value: unknown): Record<string, DailyStudyStats> => 
       ])
   )
 }
+
+const vocabularySessionModes: VocabularySessionMode[] = [
+  'mixed',
+  'en-to-ja',
+  'ja-to-en',
+  'flashcard',
+  'fill-blank',
+  'reorder'
+]
+const isVocabularyMode = (value: unknown): value is VocabularySessionMode =>
+  vocabularySessionModes.includes(value as VocabularySessionMode)
 
 export function migrateSave(value: unknown): SaveV4 {
   if (!value || typeof value !== 'object') return defaults()
@@ -226,6 +240,10 @@ export function migrateSave(value: unknown): SaveV4 {
     unlockedVocabularyLevel: Math.max(1, Math.min(6, Number(source.unlockedVocabularyLevel ?? 1))),
     wordProgress:
       source.wordProgress && typeof source.wordProgress === 'object' ? source.wordProgress : {},
+    lastSelectedVocabularyMode: isVocabularyMode(source.lastSelectedVocabularyMode)
+      ? source.lastSelectedVocabularyMode
+      : 'mixed',
+    activeVocabularySession: null,
     vocabularyResults,
     lifetimeStudyStats: migratedLifetimeStats,
     dailyStudyStats:
@@ -391,10 +409,32 @@ export const useAppStore = defineStore('app', () => {
     persist()
   }
 
-  function startVocabularySession(level: number) {
+  function setVocabularyMode(mode: VocabularySessionMode) {
+    if (!isVocabularyMode(mode)) return
+    s.value.lastSelectedVocabularyMode = mode
+    persist()
+  }
+
+  function startVocabularySession(
+    level: number,
+    mode: VocabularySessionMode = s.value.lastSelectedVocabularyMode
+  ) {
     if (level > s.value.unlockedVocabularyLevel) return
-    s.value.activeVocabularySession = buildVocabularySession(level, s.value.wordProgress)
+    s.value.lastSelectedVocabularyMode = mode
+    s.value.activeVocabularySession = buildVocabularySession(
+      level,
+      s.value.wordProgress,
+      Math.random,
+      `vocab-${Date.now()}`,
+      mode
+    )
     s.value.lastVocabularyResult = null
+    persist()
+  }
+
+  function cancelVocabularySession() {
+    if (!s.value.activeVocabularySession) return
+    s.value.activeVocabularySession = null
     persist()
   }
 
@@ -496,7 +536,9 @@ export const useAppStore = defineStore('app', () => {
     toggleTranslation,
     complete,
     toggleReview,
+    setVocabularyMode,
     startVocabularySession,
+    cancelVocabularySession,
     answerVocabularyQuestion,
     reset
   }

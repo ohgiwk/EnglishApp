@@ -29,7 +29,7 @@ const commentJa = computed(() => {
 })
 function retry() {
   if (!result.value) return
-  store.startVocabularySession(result.value.level)
+  store.startVocabularySession(result.value.level, result.value.mode ?? 'mixed')
   router.push(`/learn/session/${result.value.level}`)
 }
 </script>
@@ -86,7 +86,7 @@ function retry() {
       </div>
     </div>
 
-    <button class="primary" @click="retry"><RotateCcw /> 同じレベルをもう一度</button>
+    <button class="primary" @click="retry"><RotateCcw /> 同じモードでもう一度</button>
     <RouterLink class="secondary" to="/learn/words"><BookMarked /> 単語帳で確認</RouterLink>
     <RouterLink class="text-link" to="/learn"><Home /> Learnへ戻る</RouterLink>
   </section>
