@@ -282,8 +282,9 @@
     max(18px, var(--safe-right))
     12px
     max(18px, var(--safe-left));
-  background: #8a80cc;
-  color: white;
+  border-bottom: 1px solid var(--line);
+  background: white;
+  color: var(--ink);
 }
 
 .vocab-session > header > button {
@@ -293,8 +294,8 @@
   place-items: center;
   border: 0;
   border-radius: 50%;
-  background: #ffffff22;
-  color: white;
+  background: #f5f2f5;
+  color: #6f6873;
 }
 
 .vocab-session > header div {
@@ -304,11 +305,13 @@
 }
 
 .vocab-session > header small {
+  color: var(--pink);
   font-size: 8px;
   letter-spacing: 0.15em;
 }
 
 .vocab-session > header > span {
+  color: var(--muted);
   font-size: 11px;
 }
 
@@ -333,20 +336,28 @@
 }
 
 .session-emma .emma-wrap {
-  width: 47%;
-  height: 100%;
-  margin-left: 12px;
+  position: absolute;
+  top: 29px;
+  left: 18px;
+  width: 112px;
+  height: 112px;
+  overflow: hidden;
+  border: 3px solid #ffffffcc;
+  border-radius: 50%;
+  box-shadow: 0 8px 24px #55445c24;
 }
 
 .session-emma .emma-wrap img {
   object-position: center top;
+  transform: scale(1.38);
+  transform-origin: center 18%;
 }
 
 .session-emma > div:last-child {
   position: absolute;
   top: 38px;
+  left: 140px;
   right: 16px;
-  width: 55%;
   padding: 13px;
   border-radius: 16px 16px 16px 4px;
   background: #fffffff2;
