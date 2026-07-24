@@ -104,7 +104,7 @@ function speak(text: string) {
         <h2>{{ selected.meaningJa }}</h2>
         <div class="example-card">
           <BookOpen />
-          <p>“{{ selected.example }}”</p>
+          <p>{{ selected.example }}</p>
           <small>{{ selected.exampleJa }}</small>
           <button :disabled="!speechAvailable" @click="speak(selected.example)">
             <Volume2 /> 例文を聞く

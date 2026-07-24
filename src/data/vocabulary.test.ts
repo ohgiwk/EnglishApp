@@ -8,6 +8,7 @@ import {
 } from './vocabulary-engine'
 import { reorderExamples } from './reorder-examples'
 import { vocabularyLevels, vocabularyWords } from './vocabulary'
+import { exampleSourceFor } from './vocabulary-examples'
 
 describe('vocabulary data', () => {
   it('contains exactly 1,000 complete, unique words in the planned level sizes', () => {
@@ -30,6 +31,47 @@ describe('vocabulary data', () => {
           word.category
       )
     ).toBe(true)
+  })
+
+  it('provides a complete, non-meta bilingual example for every word', () => {
+    for (const word of vocabularyWords) {
+      const escapedWord = word.word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+      expect(word.example).toMatch(new RegExp(`(^|\\b)${escapedWord}(\\b|$)`, 'i'))
+      expect(word.example).not.toMatch(/vocabulary notebook|\bthe word\b/i)
+      expect(word.example).not.toMatch(/["“”[\]]/)
+      expect(word.exampleJa.trim()).not.toBe('')
+      expect(word.exampleJa).not.toMatch(/単語ノート|「|」/)
+    }
+  })
+
+  it('keeps example generation auditable and varied across all levels', () => {
+    const sources = vocabularyWords.map(exampleSourceFor)
+    expect(sources.filter((source) => source === 'curated').length).toBe(
+      Object.keys(reorderExamples).length
+    )
+    expect(sources.filter((source) => source === 'core').length).toBeGreaterThanOrEqual(60)
+    expect(sources.filter((source) => source === 'generated').length).toBeGreaterThan(800)
+
+    for (const level of vocabularyLevels) {
+      const examples = vocabularyWords
+        .filter((word) => word.level === level.id)
+        .map((word) => word.example)
+      expect(new Set(examples).size).toBe(examples.length)
+      expect(examples.some((example) => example.includes(' after class.'))).toBe(true)
+      expect(examples.some((example) => !example.includes(' after class.'))).toBe(true)
+    }
+  })
+
+  it('uses natural representative sentences for common grammatical roles', () => {
+    const expected = {
+      the: 'The train arrived on time.',
+      with: 'I had lunch with my sister.',
+      because: 'We stayed inside because it was raining.',
+      must: 'We must leave before dark.'
+    }
+    for (const [target, sentence] of Object.entries(expected)) {
+      expect(vocabularyWords.find((word) => word.word === target)?.example).toBe(sentence)
+    }
   })
 
   it('builds a balanced ten-question mixed session with unique choices', () => {
