@@ -3,13 +3,18 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { chapters } from '../data/chapters'
 import { useAppStore } from '../stores/app'
-import { Sparkles, Heart, ShieldCheck, Bookmark, RotateCcw, Home } from '@lucide/vue'
+import { Sparkles, Heart, ShieldCheck, Bookmark, BookOpen, ChevronRight, Home } from '@lucide/vue'
 const route = useRoute(),
   store = useAppStore()
 const id = Number(route.params.id)
 const chapter = computed(() => chapters.find((c) => c.id === id)!)
 const result = computed(() => store.progress.answers[id])
 const reviewId = computed(() => result.value?.choice.id || '')
+const nextChapter = computed(() => {
+  const currentIndex = chapters.findIndex((item) => item.id === id)
+  const candidate = chapters[currentIndex + 1]
+  return candidate && candidate.id <= store.currentChapter ? candidate : null
+})
 </script>
 <template>
   <section v-if="result" class="page result">
@@ -59,7 +64,9 @@ const reviewId = computed(() => result.value?.choice.id || '')
       <Bookmark :fill="store.progress.reviews.includes(reviewId) ? 'currentColor' : 'none'" />{{
         store.progress.reviews.includes(reviewId) ? '復習リストに追加済み' : '復習リストに追加'
       }}</button
-    ><RouterLink class="primary" :to="`/conversation/${id}`"><RotateCcw />もう一度プレイ</RouterLink
+    ><RouterLink class="primary" :to="nextChapter ? `/conversation/${nextChapter.id}` : '/story'">
+      <template v-if="nextChapter">次のチャプターへ <ChevronRight /></template>
+      <template v-else><BookOpen />チャプター一覧へ</template> </RouterLink
     ><RouterLink class="text-link" to="/home"><Home />ホームへ戻る</RouterLink>
   </section>
 </template>
