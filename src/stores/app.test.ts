@@ -19,6 +19,26 @@ describe('app store progression', () => {
     setActivePinia(createPinia())
   })
 
+  it('persists onboarding completion across app launches', () => {
+    const store = useAppStore()
+    expect(store.s.onboarded).toBe(false)
+
+    store.finishOnboarding()
+    expect(JSON.parse(data.get('love-language-save-v1') ?? '{}').onboarded).toBe(true)
+
+    setActivePinia(createPinia())
+    expect(useAppStore().s.onboarded).toBe(true)
+  })
+
+  it('repairs completed profiles with a missing onboarding flag', () => {
+    const migrated = migrateSave({
+      version: 5,
+      onboarded: false,
+      characterSelectionCompleted: true
+    })
+    expect(migrated.onboarded).toBe(true)
+  })
+
   it('applies chapter rewards only once', () => {
     const store = useAppStore()
     const choice = chapters[0].scene.choices![0]

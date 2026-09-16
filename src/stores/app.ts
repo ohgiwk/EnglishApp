@@ -287,6 +287,7 @@ export function migrateSave(value: unknown): SaveV5 {
     ...source,
     version: 5,
     activeCharacterId,
+    onboarded: Boolean(source.onboarded || source.characterSelectionCompleted),
     characterSelectionCompleted:
       (source.version ?? 0) >= 3
         ? Boolean(source.characterSelectionCompleted)

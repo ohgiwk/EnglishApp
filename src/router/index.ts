@@ -29,8 +29,13 @@ const router = createRouter({
 })
 
 router.beforeEach((to) => {
-  if (['/', '/onboarding', '/name', '/characters'].includes(to.path)) return true
   const store = useAppStore()
+  if (to.path === '/') return true
+  if (to.path === '/onboarding') {
+    if (!store.s.onboarded) return true
+    return store.s.characterSelectionCompleted ? '/home' : '/characters'
+  }
+  if (['/name', '/characters'].includes(to.path)) return true
   if (!store.s.onboarded) return '/onboarding'
   if (!store.s.characterSelectionCompleted) return '/characters'
   return true

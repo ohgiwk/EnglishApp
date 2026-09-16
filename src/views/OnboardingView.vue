@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
+import { useAppStore } from '../stores/app'
 import { MessageCircleHeart, MessagesSquare, BookHeart, ArrowRight } from '@lucide/vue'
 const router = useRouter(),
+  store = useAppStore(),
   page = ref(0)
 const slides = [
   {
@@ -25,13 +27,17 @@ function next() {
   if (page.value < 2) {
     page.value++
   } else {
-    router.push('/name')
+    completeOnboarding()
   }
+}
+function completeOnboarding() {
+  store.finishOnboarding()
+  router.replace('/name')
 }
 </script>
 <template>
   <section class="onboarding">
-    <button class="skip" @click="router.push('/name')">スキップ</button>
+    <button class="skip" @click="completeOnboarding">スキップ</button>
     <Transition name="onboard-slide" mode="out-in">
       <div :key="`art-${page}`" class="onboard-art">
         <component :is="slides[page].icon" :size="68" />
