@@ -222,17 +222,63 @@
   background: #eeeaf0;
 }
 
-.level-select-trigger em u {
+.level-progress-indicator {
+  display: flex !important;
+}
+
+.level-progress-indicator u {
   height: 100%;
   display: block;
-  border-radius: inherit;
   text-decoration: none;
 }
 
-.level-select-trigger .level-trigger-stats {
+.level-progress-indicator .mastered {
+  background: #25a96f;
+}
+
+.level-progress-indicator .learning {
+  background: #f2a51a;
+}
+
+.level-progress-indicator .incorrect {
+  background: #e5485d;
+}
+
+.level-progress-stats {
+  display: flex !important;
+  flex-wrap: wrap;
+  gap: 3px 9px;
   color: #8278d3;
   font-size: 8px;
   font-weight: 600;
+}
+
+.level-progress-stats span {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  white-space: nowrap;
+}
+
+.level-progress-stats span::before {
+  width: 6px;
+  height: 6px;
+  flex: none;
+  border-radius: 50%;
+  background: currentColor;
+  content: '';
+}
+
+.level-progress-stats .mastered {
+  color: #178658;
+}
+
+.level-progress-stats .learning {
+  color: #b66a00;
+}
+
+.level-progress-stats .incorrect {
+  color: #d72f47;
 }
 
 .level-select-trigger > svg {
@@ -310,7 +356,6 @@
 .level-select-menu em u {
   height: 100%;
   display: block;
-  border-radius: inherit;
   text-decoration: none;
 }
 

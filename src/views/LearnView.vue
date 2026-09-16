@@ -53,7 +53,24 @@ const levelProgress = (level: number) => {
   const mastered = words.filter(
     (word) => store.s.wordProgress[word.id]?.status === 'mastered'
   ).length
-  return { mastered, percent: Math.round((mastered / words.length) * 100) }
+  const learning = words.filter(
+    (word) =>
+      store.s.wordProgress[word.id]?.status === 'learning' &&
+      (store.s.wordProgress[word.id]?.incorrectCount ?? 0) === 0
+  ).length
+  const incorrect = words.filter(
+    (word) =>
+      store.s.wordProgress[word.id]?.status === 'learning' &&
+      (store.s.wordProgress[word.id]?.incorrectCount ?? 0) > 0
+  ).length
+  return {
+    mastered,
+    learning,
+    incorrect,
+    masteredPercent: (mastered / words.length) * 100,
+    learningPercent: (learning / words.length) * 100,
+    incorrectPercent: (incorrect / words.length) * 100
+  }
 }
 function selectLevel(level: number) {
   if (level > store.s.unlockedVocabularyLevel) return
@@ -116,7 +133,7 @@ function start() {
         ><span>Mastered</span>
       </div>
       <div>
-        <strong>{{ store.todayVocabularySessions }}</strong
+        <strong>{{ store.todayVocabularyWordCount }}</strong
         ><span>Today</span>
       </div>
       <div>
@@ -143,17 +160,24 @@ function start() {
           <span>
             <small>LEVEL {{ selectedLevel }} · {{ selectedLevelDefinition?.subtitle }}</small>
             <b>{{ selectedLevelDefinition?.title }}</b>
-            <em>
+            <em class="level-progress-indicator">
               <u
-                :style="{
-                  width: `${levelProgress(selectedLevel).percent}%`,
-                  background: selectedLevelDefinition?.color
-                }"
+                class="mastered"
+                :style="{ width: `${levelProgress(selectedLevel).masteredPercent}%` }"
+              />
+              <u
+                class="learning"
+                :style="{ width: `${levelProgress(selectedLevel).learningPercent}%` }"
+              />
+              <u
+                class="incorrect"
+                :style="{ width: `${levelProgress(selectedLevel).incorrectPercent}%` }"
               />
             </em>
-            <small class="level-trigger-stats">
-              {{ levelProgress(selectedLevel).mastered }} / {{ selectedLevelDefinition?.wordCount }}
-              mastered
+            <small class="level-progress-stats">
+              <span class="mastered">学習済み {{ levelProgress(selectedLevel).mastered }}</span>
+              <span class="learning">学習中 {{ levelProgress(selectedLevel).learning }}</span>
+              <span class="incorrect">間違えた {{ levelProgress(selectedLevel).incorrect }}</span>
             </small>
           </span>
           <ChevronDown :class="{ open: levelMenuOpen }" :size="20" />
@@ -177,16 +201,24 @@ function start() {
               <span>
                 <small>LEVEL {{ level.id }} · {{ level.subtitle }}</small>
                 <b>{{ level.title }}</b>
-                <em>
+                <em class="level-progress-indicator">
                   <u
-                    :style="{
-                      width: `${levelProgress(level.id).percent}%`,
-                      background: level.color
-                    }"
+                    class="mastered"
+                    :style="{ width: `${levelProgress(level.id).masteredPercent}%` }"
+                  />
+                  <u
+                    class="learning"
+                    :style="{ width: `${levelProgress(level.id).learningPercent}%` }"
+                  />
+                  <u
+                    class="incorrect"
+                    :style="{ width: `${levelProgress(level.id).incorrectPercent}%` }"
                   />
                 </em>
-                <small>
-                  {{ levelProgress(level.id).mastered }} / {{ level.wordCount }} mastered
+                <small class="level-progress-stats">
+                  <span class="mastered">学習済み {{ levelProgress(level.id).mastered }}</span>
+                  <span class="learning">学習中 {{ levelProgress(level.id).learning }}</span>
+                  <span class="incorrect">間違えた {{ levelProgress(level.id).incorrect }}</span>
                 </small>
               </span>
               <LockKeyhole v-if="level.id > store.s.unlockedVocabularyLevel" :size="17" />

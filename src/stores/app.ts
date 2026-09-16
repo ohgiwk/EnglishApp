@@ -377,10 +377,12 @@ export const useAppStore = defineStore('app', () => {
         )
       : 0
   )
-  const todayVocabularySessions = computed(
-    () =>
-      s.value.vocabularyResults.filter((result) => result.completedAt.slice(0, 10) === today())
-        .length
+  const todayVocabularyWordCount = computed(() =>
+    s.value.vocabularyResults
+      .filter(
+        (result) => new Date(result.completedAt).toLocaleDateString('sv-SE') === today()
+      )
+      .reduce((total, result) => total + result.totalCount, 0)
   )
 
   function persist() {
@@ -790,7 +792,7 @@ export const useAppStore = defineStore('app', () => {
     newVocabularyCount,
     totalCompletedChapters,
     lifetimeAccuracy,
-    todayVocabularySessions,
+    todayVocabularyWordCount,
     setName,
     finishOnboarding,
     selectCharacter,

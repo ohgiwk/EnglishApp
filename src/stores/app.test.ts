@@ -407,6 +407,7 @@ describe('app store progression', () => {
     expect(store.s.lifetimeStudyStats.vocabularySessions).toBe(4)
     expect(store.s.lifetimeStudyStats.questionsAnswered).toBe(4)
     expect(store.lifetimeAccuracy).toBe(100)
+    expect(store.todayVocabularyWordCount).toBe(4)
     const date = new Date().toLocaleDateString('sv-SE')
     expect(store.s.dailyStudyStats[date].vocabularySessions).toBe(4)
   })
