@@ -5,6 +5,7 @@
   background: #eceaf1;
   font-synthesis: none;
   --pink: #ef7599;
+  --status-bar-background: #ef7599;
   --pink2: #fce4eb;
   --purple: #8278d3;
   --ink: #373342;
@@ -81,6 +82,24 @@ button:disabled {
   background: #fff;
   position: relative;
   overflow: hidden;
+}
+@media (display-mode: standalone) {
+  html,
+  body,
+  #app {
+    background: var(--status-bar-background);
+  }
+  .phone::before {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: var(--safe-top);
+    background: var(--status-bar-background);
+    pointer-events: none;
+    content: '';
+  }
 }
 .page {
   min-height: 100dvh;
