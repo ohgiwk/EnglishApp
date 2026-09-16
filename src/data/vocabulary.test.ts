@@ -4,7 +4,8 @@ import {
   buildReorder,
   buildVocabularySession,
   hasNaturalReorderExample,
-  rewardForAccuracy
+  rewardForAccuracy,
+  summarizeVocabularySession
 } from './vocabulary-engine'
 import { reorderExamples } from './reorder-examples'
 import { vocabularyLevels, vocabularyWords } from './vocabulary'
@@ -74,15 +75,19 @@ describe('vocabulary data', () => {
     }
   })
 
-  it('builds a balanced ten-question mixed session with unique choices', () => {
+  it('builds a shuffled full-level mixed session without duplicate words', () => {
     const session = buildVocabularySession(1, {}, () => 0.42, 'test-session')
-    expect(session.questions).toHaveLength(10)
+    expect(session.questions).toHaveLength(150)
+    expect(new Set(session.questions.map((question) => question.wordId)).size).toBe(150)
+    expect(new Set(session.questions.map((question) => question.wordId))).toEqual(
+      new Set(vocabularyWords.filter((word) => word.level === 1).map((word) => word.id))
+    )
     expect(session.mode).toBe('mixed')
-    expect(session.questions.filter((question) => question.type === 'en-to-ja')).toHaveLength(2)
-    expect(session.questions.filter((question) => question.type === 'ja-to-en')).toHaveLength(2)
-    expect(session.questions.filter((question) => question.type === 'flashcard')).toHaveLength(2)
-    expect(session.questions.filter((question) => question.type === 'fill-blank')).toHaveLength(2)
-    expect(session.questions.filter((question) => question.type === 'reorder')).toHaveLength(2)
+    expect(session.questions.filter((question) => question.type === 'en-to-ja')).toHaveLength(30)
+    expect(session.questions.filter((question) => question.type === 'ja-to-en')).toHaveLength(30)
+    expect(session.questions.filter((question) => question.type === 'flashcard')).toHaveLength(30)
+    expect(session.questions.filter((question) => question.type === 'fill-blank')).toHaveLength(30)
+    expect(session.questions.filter((question) => question.type === 'reorder')).toHaveLength(30)
     for (const question of session.questions.filter(
       (item) => item.type === 'en-to-ja' || item.type === 'ja-to-en'
     )) {
@@ -91,13 +96,40 @@ describe('vocabulary data', () => {
     }
   })
 
+  it.each([10, 20, 50])('limits a session to %i unique random words', (count) => {
+    const session = buildVocabularySession(1, {}, () => 0.42, 'limited-session', 'mixed', count)
+    expect(session.questions).toHaveLength(count)
+    expect(new Set(session.questions.map((question) => question.wordId)).size).toBe(count)
+  })
+
+  it('keeps each studied word and its correctness in the session result', () => {
+    const session = buildVocabularySession(1, {}, () => 0.42, 'result-session', 'mixed', 10)
+    session.answers = session.questions.map((question, index) => ({
+      wordId: question.wordId,
+      type: question.type,
+      correct: index % 2 === 0,
+      answeredAt: '2026-09-16T00:00:00.000Z'
+    }))
+    const result = summarizeVocabularySession(session, [], true)
+    expect(result.answers).toEqual(session.answers)
+    expect(result.answers).toHaveLength(10)
+    expect(result.answers?.filter((answer) => answer.correct)).toHaveLength(5)
+  })
+
   it.each(['en-to-ja', 'ja-to-en', 'flashcard', 'fill-blank', 'reorder'] as const)(
-    'builds ten %s questions in an individual mode',
+    'builds every level word once in %s mode',
     (mode) => {
       const session = buildVocabularySession(1, {}, () => 0.42, 'test-session', mode)
       expect(session.mode).toBe(mode)
-      expect(session.questions).toHaveLength(10)
-      expect(session.questions.every((question) => question.type === mode)).toBe(true)
+      expect(session.questions).toHaveLength(150)
+      expect(new Set(session.questions.map((question) => question.wordId)).size).toBe(150)
+      expect(
+        session.questions.every((question) =>
+          mode === 'reorder'
+            ? question.type === 'reorder' || question.type === 'fill-blank'
+            : question.type === mode
+        )
+      ).toBe(true)
     }
   )
 
@@ -125,7 +157,7 @@ describe('vocabulary data', () => {
     }
   })
 
-  it('provides ten safe natural reorder examples in every level', () => {
+  it('keeps every level word in reorder sessions and safely falls back when needed', () => {
     for (const level of vocabularyLevels) {
       const naturalWords = vocabularyWords.filter(
         (word) => word.level === level.id && hasNaturalReorderExample(word)
@@ -138,10 +170,18 @@ describe('vocabulary data', () => {
         `reorder-level-${level.id}`,
         'reorder'
       )
-      expect(session.questions).toHaveLength(10)
+      expect(session.questions).toHaveLength(level.wordCount)
+      expect(new Set(session.questions.map((question) => question.wordId)).size).toBe(
+        level.wordCount
+      )
       for (const question of session.questions) {
         const word = vocabularyWords.find((item) => item.id === question.wordId)!
-        expect(hasNaturalReorderExample(word)).toBe(true)
+        if (!hasNaturalReorderExample(word)) {
+          expect(question.type).toBe('fill-blank')
+          expect(question.prompt).toContain('____')
+          continue
+        }
+        expect(question.type).toBe('reorder')
         expect(question.prompt?.toLocaleLowerCase()).toContain(word.word.toLocaleLowerCase())
         expect(question.prompt).not.toMatch(/["'“”‘’[\]]/)
         expect(question.prompt).not.toMatch(/\bthe word\b/i)

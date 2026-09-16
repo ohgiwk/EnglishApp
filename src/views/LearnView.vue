@@ -1,15 +1,28 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
-import { BookMarked, ChevronRight, LockKeyhole, MessageSquareText, Play } from '@lucide/vue'
+import {
+  BookMarked,
+  ChevronDown,
+  ChevronRight,
+  LockKeyhole,
+  MessageSquareText,
+  Play
+} from '@lucide/vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
-import type { VocabularySessionMode } from '../types'
+import type { VocabularyQuestionCount, VocabularySessionMode } from '../types'
 
 const store = useAppStore()
 const router = useRouter()
-const currentLevel = computed(() => store.s.unlockedVocabularyLevel)
+const selectedLevel = ref(store.s.unlockedVocabularyLevel)
+const levelMenuOpen = ref(false)
+const levelPicker = ref<HTMLElement | null>(null)
+const levelTrigger = ref<HTMLButtonElement | null>(null)
+const selectedLevelDefinition = computed(() =>
+  vocabularyLevels.find((level) => level.id === selectedLevel.value)
+)
 const modes: { id: VocabularySessionMode; label: string; detail: string }[] = [
   { id: 'mixed', label: 'おまかせ', detail: '5種類をミックス' },
   { id: 'en-to-ja', label: '英 → 日', detail: '英単語から意味' },
@@ -22,6 +35,19 @@ const selectedMode = computed({
   get: () => store.s.lastSelectedVocabularyMode,
   set: (mode: VocabularySessionMode) => store.setVocabularyMode(mode)
 })
+const questionCounts: { value: VocabularyQuestionCount; label: string }[] = [
+  { value: 10, label: '10問' },
+  { value: 20, label: '20問' },
+  { value: 50, label: '50問' },
+  { value: 'all', label: '全単語' }
+]
+const selectedQuestionCount = computed({
+  get: () => store.s.lastSelectedVocabularyQuestionCount,
+  set: (count: VocabularyQuestionCount) => store.setVocabularyQuestionCount(count)
+})
+const selectedQuestionCountLabel = computed(
+  () => questionCounts.find((item) => item.value === selectedQuestionCount.value)?.label
+)
 const levelProgress = (level: number) => {
   const words = vocabularyWords.filter((word) => word.level === level)
   const mastered = words.filter(
@@ -29,10 +55,33 @@ const levelProgress = (level: number) => {
   ).length
   return { mastered, percent: Math.round((mastered / words.length) * 100) }
 }
-function start(level: number) {
+function selectLevel(level: number) {
   if (level > store.s.unlockedVocabularyLevel) return
-  store.startVocabularySession(level, selectedMode.value)
-  router.push(`/learn/session/${level}`)
+  selectedLevel.value = level
+  levelMenuOpen.value = false
+  void nextTick(() => levelTrigger.value?.focus())
+}
+function closeLevelMenu(event: PointerEvent) {
+  if (!levelMenuOpen.value || levelPicker.value?.contains(event.target as Node)) return
+  levelMenuOpen.value = false
+}
+function handleLevelMenuKeydown(event: KeyboardEvent) {
+  if (event.key !== 'Escape' || !levelMenuOpen.value) return
+  event.preventDefault()
+  levelMenuOpen.value = false
+  levelTrigger.value?.focus()
+}
+onMounted(() => {
+  document.addEventListener('pointerdown', closeLevelMenu)
+  document.addEventListener('keydown', handleLevelMenuKeydown)
+})
+onBeforeUnmount(() => {
+  document.removeEventListener('pointerdown', closeLevelMenu)
+  document.removeEventListener('keydown', handleLevelMenuKeydown)
+})
+function start() {
+  store.startVocabularySession(selectedLevel.value, selectedMode.value, selectedQuestionCount.value)
+  router.push(`/learn/session/${selectedLevel.value}`)
 }
 </script>
 
@@ -41,7 +90,7 @@ function start(level: number) {
     <header class="page-head">
       <p class="eyebrow">LEARN WITH EMMA</p>
       <h1>一緒に覚えよう</h1>
-      <p>10問ずつ、会話するように英単語を身につけよう。</p>
+      <p>レベルを選んで、収録単語を重複なしで一巡しよう。</p>
     </header>
 
     <div class="learn-hero">
@@ -49,10 +98,13 @@ function start(level: number) {
         <span>Today's study</span>
         <h2>“Ready for a little<br />word practice?”</h2>
         <p>少しだけ単語の練習、しない？</p>
-        <button @click="start(currentLevel)">
+        <button @click="start">
           <Play :size="18" fill="currentColor" />
-          <span>10問スタート</span>
-          <small>{{ modes.find((mode) => mode.id === selectedMode)?.label }}</small>
+          <span>LEVEL {{ selectedLevel }}をスタート</span>
+          <small>
+            {{ selectedQuestionCountLabel }} ·
+            {{ modes.find((mode) => mode.id === selectedMode)?.label }}
+          </small>
         </button>
       </div>
       <EmmaPortrait expression="smile" />
@@ -73,6 +125,77 @@ function start(level: number) {
       </div>
     </div>
 
+    <fieldset class="level-picker">
+      <legend>
+        <span class="eyebrow">VOCABULARY LEVEL</span>
+        <b>学習するレベルを選ぶ</b>
+      </legend>
+      <div ref="levelPicker" class="custom-level-select">
+        <button
+          ref="levelTrigger"
+          class="level-select-trigger"
+          type="button"
+          aria-haspopup="listbox"
+          :aria-expanded="levelMenuOpen"
+          @click="levelMenuOpen = !levelMenuOpen"
+        >
+          <i :style="{ background: selectedLevelDefinition?.color }">{{ selectedLevel }}</i>
+          <span>
+            <small>LEVEL {{ selectedLevel }} · {{ selectedLevelDefinition?.subtitle }}</small>
+            <b>{{ selectedLevelDefinition?.title }}</b>
+            <em>
+              <u
+                :style="{
+                  width: `${levelProgress(selectedLevel).percent}%`,
+                  background: selectedLevelDefinition?.color
+                }"
+              />
+            </em>
+            <small class="level-trigger-stats">
+              {{ levelProgress(selectedLevel).mastered }} / {{ selectedLevelDefinition?.wordCount }}
+              mastered
+            </small>
+          </span>
+          <ChevronDown :class="{ open: levelMenuOpen }" :size="20" />
+        </button>
+        <Transition name="level-menu">
+          <div v-if="levelMenuOpen" class="level-select-menu" role="listbox">
+            <button
+              v-for="level in vocabularyLevels"
+              :key="level.id"
+              type="button"
+              role="option"
+              :aria-selected="level.id === selectedLevel"
+              :disabled="level.id > store.s.unlockedVocabularyLevel"
+              :class="{
+                selected: level.id === selectedLevel,
+                locked: level.id > store.s.unlockedVocabularyLevel
+              }"
+              @click="selectLevel(level.id)"
+            >
+              <i :style="{ background: level.color }">{{ level.id }}</i>
+              <span>
+                <small>LEVEL {{ level.id }} · {{ level.subtitle }}</small>
+                <b>{{ level.title }}</b>
+                <em>
+                  <u
+                    :style="{
+                      width: `${levelProgress(level.id).percent}%`,
+                      background: level.color
+                    }"
+                  />
+                </em>
+                <small>
+                  {{ levelProgress(level.id).mastered }} / {{ level.wordCount }} mastered
+                </small>
+              </span>
+              <LockKeyhole v-if="level.id > store.s.unlockedVocabularyLevel" :size="17" />
+            </button>
+          </div>
+        </Transition>
+      </div>
+    </fieldset>
+
     <fieldset class="practice-mode">
       <legend>
         <span class="eyebrow">PRACTICE MODE</span>
@@ -87,6 +210,28 @@ function start(level: number) {
       </div>
     </fieldset>
 
+    <fieldset class="practice-mode question-count">
+      <legend>
+        <span class="eyebrow">SESSION LENGTH</span>
+        <b>問題数を選ぶ</b>
+      </legend>
+      <div>
+        <label
+          v-for="item in questionCounts"
+          :key="item.value"
+          :class="{ selected: selectedQuestionCount === item.value }"
+        >
+          <input
+            v-model="selectedQuestionCount"
+            type="radio"
+            name="question-count"
+            :value="item.value"
+          />
+          <b>{{ item.label }}</b>
+        </label>
+      </div>
+    </fieldset>
+
     <div class="learn-links">
       <RouterLink to="/learn/words"
         ><BookMarked /><span><b>Word Book</b><small>1,000語から検索する</small></span
@@ -97,34 +242,6 @@ function start(level: number) {
           ><b>Conversation Review</b><small>ストーリーで出会った表現</small></span
         ><ChevronRight
       /></RouterLink>
-    </div>
-
-    <div class="level-heading">
-      <div>
-        <p class="eyebrow">VOCABULARY LEVELS</p>
-        <h2>6つのレベル</h2>
-      </div>
-      <small>70%習得で次へ</small>
-    </div>
-    <div class="vocab-levels">
-      <button
-        v-for="level in vocabularyLevels"
-        :key="level.id"
-        :class="{ locked: level.id > store.s.unlockedVocabularyLevel }"
-        @click="start(level.id)"
-      >
-        <i :style="{ background: level.color }">{{ level.id }}</i>
-        <span>
-          <small>LEVEL {{ level.id }} · {{ level.subtitle }}</small>
-          <b>{{ level.title }}</b>
-          <em
-            ><u :style="{ width: `${levelProgress(level.id).percent}%`, background: level.color }"
-          /></em>
-          <small>{{ levelProgress(level.id).mastered }} / {{ level.wordCount }} mastered</small>
-        </span>
-        <LockKeyhole v-if="level.id > store.s.unlockedVocabularyLevel" :size="19" />
-        <ChevronRight v-else :size="19" />
-      </button>
     </div>
   </section>
 </template>

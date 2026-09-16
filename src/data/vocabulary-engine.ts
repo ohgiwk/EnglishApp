@@ -88,40 +88,27 @@ export const buildReorder = (word: VocabularyWord, random: () => number = Math.r
 
 export function buildVocabularySession(
   level: number,
-  progress: Record<string, WordProgress>,
+  _progress: Record<string, WordProgress>,
   random: () => number = Math.random,
   sessionId = `vocab-${Date.now()}`,
-  mode: VocabularySessionMode = 'mixed'
+  mode: VocabularySessionMode = 'mixed',
+  questionCount: number | 'all' = 'all'
 ): VocabularySession {
   const pool = vocabularyWords.filter((word) => word.level === level)
-  const priority = [...pool].sort((a, b) => {
-    const rank = (word: VocabularyWord) => {
-      const status = progress[word.id]?.status ?? 'new'
-      return status === 'learning' ? 0 : status === 'new' ? 1 : 2
-    }
-    return rank(a) - rank(b) || random() - 0.5
-  })
+  const limit = questionCount === 'all' ? pool.length : Math.min(questionCount, pool.length)
+  const selected = shuffle(pool, random).slice(0, limit)
   const types: VocabularyQuestion['type'][] =
     mode === 'mixed'
       ? shuffle(
-          exerciseTypes.flatMap((type) => [type, type]),
+          selected.map((_, index) => exerciseTypes[index % exerciseTypes.length]),
           random
         )
-      : Array.from({ length: 10 }, () => mode)
-  const usedWordIds = new Set<string>()
-  const selected = types.map((type) => {
-    const word = priority.find(
-      (candidate) =>
-        !usedWordIds.has(candidate.id) &&
-        (type !== 'reorder' || hasNaturalReorderExample(candidate))
-    )
-    if (!word) throw new Error(`Not enough vocabulary for ${type} questions at level ${level}`)
-    usedWordIds.add(word.id)
-    return word
-  })
+      : Array.from({ length: selected.length }, () => mode)
 
   const questions = selected.map((word, index): VocabularyQuestion => {
-    const type = types[index]
+    const requestedType = types[index]
+    const type =
+      requestedType === 'reorder' && !hasNaturalReorderExample(word) ? 'fill-blank' : requestedType
     if (type === 'flashcard') return { wordId: word.id, type, options: [] }
     if (type === 'fill-blank') {
       return { wordId: word.id, type, options: [], ...buildFillBlank(word) }
@@ -184,6 +171,7 @@ export function summarizeVocabularySession(
     reviewWordIds: session.answers
       .filter((answer) => !answer.correct)
       .map((answer) => answer.wordId),
+    answers: session.answers.map((answer) => ({ ...answer })),
     completedAt: new Date().toISOString()
   }
 }

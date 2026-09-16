@@ -1,7 +1,17 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRouter } from 'vue-router'
-import { BookMarked, Heart, Home, RotateCcw, ShieldCheck, Sparkles, Star } from '@lucide/vue'
+import {
+  BookMarked,
+  Check,
+  Heart,
+  Home,
+  RotateCcw,
+  ShieldCheck,
+  Sparkles,
+  Star,
+  X
+} from '@lucide/vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
@@ -9,11 +19,11 @@ import { useAppStore } from '../stores/app'
 const store = useAppStore()
 const router = useRouter()
 const result = computed(() => store.s.lastVocabularyResult)
-const reviewWords = computed(
-  () =>
-    result.value?.reviewWordIds
-      .map((id) => vocabularyWords.find((word) => word.id === id))
-      .filter(Boolean) ?? []
+const studiedWords = computed(() =>
+  (result.value?.answers ?? []).flatMap((answer) => {
+    const word = vocabularyWords.find((item) => item.id === answer.wordId)
+    return word ? [{ word, answer }] : []
+  })
 )
 const comment = computed(() => {
   if (!result.value) return ''
@@ -29,7 +39,11 @@ const commentJa = computed(() => {
 })
 function retry() {
   if (!result.value) return
-  store.startVocabularySession(result.value.level, result.value.mode ?? 'mixed')
+  store.startVocabularySession(
+    result.value.level,
+    result.value.mode ?? 'mixed',
+    result.value.totalCount
+  )
   router.push(`/learn/session/${result.value.level}`)
 }
 </script>
@@ -78,11 +92,23 @@ function retry() {
     </p>
 
     <div class="card result-list">
-      <h2><RotateCcw /> もう一度会いたい単語</h2>
-      <p v-if="!reviewWords.length">全問正解！復習が必要な単語はありません。</p>
-      <div v-for="word in reviewWords" :key="word!.id">
-        <b>{{ word!.word }}</b
-        ><span>{{ word!.meaningJa }}</span>
+      <h2><BookMarked /> 今回学習した単語</h2>
+      <p v-if="!studiedWords.length">この学習結果には単語ごとの記録がありません。</p>
+      <div
+        v-for="entry in studiedWords"
+        :key="entry.word.id"
+        class="result-word-row"
+        :class="entry.answer.correct ? 'is-correct' : 'is-incorrect'"
+      >
+        <span class="result-word-copy">
+          <b>{{ entry.word.word }}</b>
+          <small>{{ entry.word.meaningJa }}</small>
+        </span>
+        <span class="result-word-status">
+          <Check v-if="entry.answer.correct" :size="16" />
+          <X v-else :size="16" />
+          {{ entry.answer.correct ? '正解' : '不正解' }}
+        </span>
       </div>
     </div>
 

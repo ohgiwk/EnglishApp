@@ -324,19 +324,34 @@ describe('app store progression', () => {
     expect(migrated.activeVocabularySession).toBeNull()
   })
 
-  it('persists the selected mode and starts ten questions in that mode', () => {
+  it('persists the selected mode and starts every level word once in that mode', () => {
     const store = useAppStore()
     store.setVocabularyMode('fill-blank')
     store.startVocabularySession(1)
     expect(store.s.lastSelectedVocabularyMode).toBe('fill-blank')
     expect(store.s.activeVocabularySession?.mode).toBe('fill-blank')
-    expect(store.s.activeVocabularySession?.questions).toHaveLength(10)
+    expect(store.s.activeVocabularySession?.questions).toHaveLength(150)
+    expect(
+      new Set(store.s.activeVocabularySession?.questions.map((question) => question.wordId)).size
+    ).toBe(150)
     expect(
       store.s.activeVocabularySession?.questions.every((question) => question.type === 'fill-blank')
     ).toBe(true)
     expect(JSON.parse(data.get('love-language-save-v1') ?? '{}').lastSelectedVocabularyMode).toBe(
       'fill-blank'
     )
+  })
+
+  it('persists the selected question count and starts that many unique words', () => {
+    const store = useAppStore()
+    store.setVocabularyQuestionCount(20)
+    store.startVocabularySession(1)
+    const questions = store.s.activeVocabularySession?.questions ?? []
+    expect(questions).toHaveLength(20)
+    expect(new Set(questions.map((question) => question.wordId)).size).toBe(20)
+    expect(JSON.parse(data.get('love-language-save-v1') ?? '{}')).toMatchObject({
+      lastSelectedVocabularyQuestionCount: 20
+    })
   })
 
   it('discards an interrupted session while preserving the selected mode', () => {

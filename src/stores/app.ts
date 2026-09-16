@@ -17,6 +17,7 @@ import type {
   DailyStudyStats,
   LifetimeStudyStats,
   VocabularyAnswer,
+  VocabularyQuestionCount,
   VocabularyResult,
   VocabularySession,
   VocabularySessionMode,
@@ -42,6 +43,7 @@ export interface SaveV5 {
   unlockedVocabularyLevel: number
   wordProgress: Record<string, WordProgress>
   lastSelectedVocabularyMode: VocabularySessionMode
+  lastSelectedVocabularyQuestionCount: VocabularyQuestionCount
   activeVocabularySession: VocabularySession | null
   vocabularyResults: VocabularyResult[]
   lastVocabularyResult: VocabularyResult | null
@@ -85,6 +87,7 @@ const defaults = (): SaveV5 => ({
   unlockedVocabularyLevel: 1,
   wordProgress: {},
   lastSelectedVocabularyMode: 'mixed',
+  lastSelectedVocabularyQuestionCount: 'all',
   activeVocabularySession: null,
   vocabularyResults: [],
   lastVocabularyResult: null,
@@ -155,6 +158,9 @@ const vocabularySessionModes: VocabularySessionMode[] = [
 ]
 const isVocabularyMode = (value: unknown): value is VocabularySessionMode =>
   vocabularySessionModes.includes(value as VocabularySessionMode)
+const vocabularyQuestionCounts: VocabularyQuestionCount[] = [10, 20, 50, 'all']
+const isVocabularyQuestionCount = (value: unknown): value is VocabularyQuestionCount =>
+  vocabularyQuestionCounts.includes(value as VocabularyQuestionCount)
 
 const sanitizeActiveStorySession = (value: unknown): ActiveStorySession | null => {
   if (!value || typeof value !== 'object') return null
@@ -299,6 +305,11 @@ export function migrateSave(value: unknown): SaveV5 {
     lastSelectedVocabularyMode: isVocabularyMode(source.lastSelectedVocabularyMode)
       ? source.lastSelectedVocabularyMode
       : 'mixed',
+    lastSelectedVocabularyQuestionCount: isVocabularyQuestionCount(
+      source.lastSelectedVocabularyQuestionCount
+    )
+      ? source.lastSelectedVocabularyQuestionCount
+      : 'all',
     activeStorySession: sanitizeActiveStorySession(source.activeStorySession),
     activeVocabularySession: null,
     vocabularyResults,
@@ -649,18 +660,34 @@ export const useAppStore = defineStore('app', () => {
     persist()
   }
 
+  function setVocabularyQuestionCount(count: VocabularyQuestionCount) {
+    if (!isVocabularyQuestionCount(count)) return
+    s.value.lastSelectedVocabularyQuestionCount = count
+    persist()
+  }
+
   function startVocabularySession(
     level: number,
-    mode: VocabularySessionMode = s.value.lastSelectedVocabularyMode
+    mode: VocabularySessionMode = s.value.lastSelectedVocabularyMode,
+    questionCount: number | 'all' = s.value.lastSelectedVocabularyQuestionCount
   ) {
     if (level > s.value.unlockedVocabularyLevel) return
+    const levelWordCount = vocabularyWords.filter((word) => word.level === level).length
+    const savedQuestionCount: VocabularyQuestionCount =
+      questionCount === 'all' || questionCount >= levelWordCount
+        ? 'all'
+        : isVocabularyQuestionCount(questionCount)
+          ? questionCount
+          : 'all'
     s.value.lastSelectedVocabularyMode = mode
+    s.value.lastSelectedVocabularyQuestionCount = savedQuestionCount
     s.value.activeVocabularySession = buildVocabularySession(
       level,
       s.value.wordProgress,
       Math.random,
       `vocab-${Date.now()}`,
-      mode
+      mode,
+      savedQuestionCount
     )
     s.value.lastVocabularyResult = null
     persist()
@@ -778,6 +805,7 @@ export const useAppStore = defineStore('app', () => {
     complete,
     toggleReview,
     setVocabularyMode,
+    setVocabularyQuestionCount,
     startVocabularySession,
     cancelVocabularySession,
     answerVocabularyQuestion,

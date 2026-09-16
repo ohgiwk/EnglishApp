@@ -223,7 +223,7 @@ function speak() {
         <button aria-label="学習を閉じる" @click="router.push('/learn')"><X /></button>
         <div>
           <small>LEVEL {{ session.level }}</small
-          ><b>{{ session.currentIndex + 1 }} / 10</b>
+          ><b>{{ session.currentIndex + 1 }} / {{ session.questions.length }}</b>
         </div>
       </header>
       <div class="session-track"><i :style="{ width: `${progress}%` }" /></div>

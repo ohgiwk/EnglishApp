@@ -200,6 +200,7 @@ export type VocabularyStatus = 'new' | 'learning' | 'mastered'
 export type VocabularyQuestionType =
   'en-to-ja' | 'ja-to-en' | 'flashcard' | 'fill-blank' | 'reorder'
 export type VocabularySessionMode = 'mixed' | VocabularyQuestionType
+export type VocabularyQuestionCount = 10 | 20 | 50 | 'all'
 export type VocabularyPartOfSpeech = 'noun' | 'verb' | 'adjective' | 'adverb' | 'other'
 
 export interface VocabularyWord {
@@ -274,5 +275,6 @@ export interface VocabularyResult {
   trustChange: number
   masteredWordIds: string[]
   reviewWordIds: string[]
+  answers?: VocabularyAnswer[]
   completedAt: string
 }
