@@ -1,0 +1,11 @@
+{
+  "name": "Love Language",
+  "short_name": "Love Language",
+  "description": "ストーリーを楽しみながら英語を学べるアプリ",
+  "lang": "ja",
+  "start_url": "./#/",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fdfcfd",
+  "theme_color": "#fdfcfd"
+}

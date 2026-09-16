@@ -7,6 +7,8 @@ import './vocabulary.css'
 import './characters.css'
 import './dashboard.css'
 import { installPressFeedback } from './press-feedback'
+import { installPwaUpdates } from './pwa-update'
 
 installPressFeedback()
+installPwaUpdates()
 createApp(App).use(createPinia()).use(router).mount('#app')
