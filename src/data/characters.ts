@@ -1,5 +1,7 @@
 import type { CharacterDefinition, CharacterId } from '../types'
 
+const asset = (name: string) => `${import.meta.env.BASE_URL}assets/${name}`
+
 export const characters: CharacterDefinition[] = [
   {
     id: 'emma',
@@ -13,7 +15,7 @@ export const characters: CharacterDefinition[] = [
     hobbies: ['映画', 'カフェ巡り', '写真'],
     learningThemes: ['日常英会話', '恋愛表現', 'スラング'],
     description: '明るく世話焼きで、少し天然。日常英会話から恋愛表現まで楽しく教えてくれる。',
-    image: '/assets/emma.png',
+    image: asset('emma.png'),
     accent: '#ef7599'
   },
   {

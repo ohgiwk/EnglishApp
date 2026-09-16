@@ -2,7 +2,14 @@
 import { useAppStore } from '../stores/app'
 import { chapters } from '../data/chapters'
 import { LockKeyhole, Check, ChevronRight } from '@lucide/vue'
+import { computed } from 'vue'
 const store = useAppStore()
+const activeChapterId = computed(() =>
+  store.s.activeStorySession?.characterId === store.s.activeCharacterId &&
+  !store.s.activeStorySession.reviewOnly
+    ? store.s.activeStorySession.chapterId
+    : null
+)
 </script>
 <template>
   <section class="page">
@@ -27,7 +34,8 @@ const store = useAppStore()
         class="chapter-item"
         :class="{
           locked: c.id > store.currentChapter,
-          done: store.progress.completed.includes(c.id)
+          done: store.progress.completed.includes(c.id),
+          active: activeChapterId === c.id
         }"
         ><div class="chapter-visual" :style="{ background: c.color }">
           <img :src="c.image" :alt="c.title" /><span>{{ c.icon }}</span
@@ -37,7 +45,8 @@ const store = useAppStore()
           <small>CHAPTER {{ c.id }}</small>
           <h2>{{ c.title }}</h2>
           <p>{{ c.subtitle }} · {{ c.theme }}</p>
-          <span v-if="store.progress.completed.includes(c.id)" class="complete"
+          <span v-if="activeChapterId === c.id" class="available">CONTINUE STORY</span
+          ><span v-else-if="store.progress.completed.includes(c.id)" class="complete"
             ><Check :size="14" /> CLEARED</span
           ><span v-else-if="c.id > store.currentChapter" class="lock"
             ><LockKeyhole :size="14" /> 開発プレビュー</span

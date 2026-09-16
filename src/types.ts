@@ -37,11 +37,69 @@ export interface CharacterProgress {
   answers: Record<number, ChoiceResult>
   reviews: string[]
 }
+export interface StoryLearningCue {
+  id: string
+  title: string
+  construction: string
+  explanationEn: string
+  explanationJa: string
+}
 export interface Dialogue {
   speaker: 'Emma' | 'Player'
   english: string
   japanese: string
   expression?: HeroineExpression
+}
+export interface StoryDialogueNode {
+  id: string
+  type: 'dialogue'
+  dialogue: Dialogue
+  next: string
+}
+export interface StoryChoiceOption {
+  id: string
+  englishText: string
+  japaneseText: string
+  naturalExpression: string
+  feedback: string
+  affectionChange: number
+  trustChange: number
+  englishXp: number
+  next: string
+}
+export interface StoryChoiceNode {
+  id: string
+  type: 'choice'
+  promptEnglish: string
+  promptJapanese: string
+  learningCue: StoryLearningCue
+  options: StoryChoiceOption[]
+}
+export interface StoryEndingNode {
+  id: string
+  type: 'ending'
+}
+export type StoryNode = StoryDialogueNode | StoryChoiceNode | StoryEndingNode
+export interface StoryFlow {
+  chapterId: number
+  revision: number
+  startNodeId: string
+  nodes: Record<string, StoryNode>
+}
+export interface StorySelection {
+  pointId: string
+  optionId: string
+}
+export interface ActiveStorySession {
+  characterId: CharacterId
+  chapterId: number
+  contentRevision: number
+  currentNodeId: string
+  history: string[]
+  selections: StorySelection[]
+  acknowledgedChoiceIds: string[]
+  reviewOnly: boolean
+  startedAt: string
 }
 export interface Choice {
   id: string
@@ -75,6 +133,12 @@ export interface Chapter {
   color: string
   icon: string
   image: string
+  storyArtwork: {
+    background: string
+    early: string
+    middle: string
+    late: string
+  }
   scene: Scene
   expressions: LearningExpression[]
   words: string[]
@@ -83,6 +147,25 @@ export interface ChoiceResult {
   characterId: CharacterId
   chapterId: number
   choice: Choice
+  storyChoices?: StoryChoiceResult[]
+  totalAffectionChange?: number
+  totalTrustChange?: number
+  totalEnglishXp?: number
+  contentRevision?: number
+  completedAt?: string
+  legacy?: boolean
+}
+export interface StoryChoiceResult {
+  pointId: string
+  optionId: string
+  englishText: string
+  japaneseText: string
+  naturalExpression: string
+  feedback: string
+  affectionChange: number
+  trustChange: number
+  englishXp: number
+  learningCue: StoryLearningCue
 }
 export interface Memory {
   chapterId: number

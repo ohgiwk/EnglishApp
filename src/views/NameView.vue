@@ -8,6 +8,7 @@ const store = useAppStore(),
   name = ref(''),
   nameInput = ref<HTMLInputElement>(),
   keyboardOffset = ref(0)
+const emmaImage = `${import.meta.env.BASE_URL}assets/emma.png`
 
 type KeyboardWindowEvent = Event & {
   keyboardHeight?: number
@@ -54,7 +55,9 @@ function go() {
 <template>
   <section class="name-page">
     <div class="mini-brand">Love Language ♡</div>
-    <div class="name-art"><img src="/assets/emma.png" alt="エマ" /></div>
+    <div class="name-art">
+      <img :src="emmaImage" alt="エマ" />
+    </div>
     <div class="speech">
       “What should I call you?”<small>あなたのこと、なんて呼べばいい？</small>
     </div>

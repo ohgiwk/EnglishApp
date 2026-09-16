@@ -6,8 +6,32 @@ import { chapters } from '../data/chapters'
 import { ArrowLeft, BookmarkCheck, Volume2, Trash2 } from '@lucide/vue'
 const store = useAppStore()
 const router = useRouter()
+const fill = (value: string) => value.replaceAll('{{name}}', store.s.name)
 const reviews = computed(() =>
-  Object.values(store.progress.answers).filter((r) => store.progress.reviews.includes(r.choice.id))
+  Object.values(store.progress.answers).flatMap((result) => {
+    if (result.storyChoices?.length) {
+      return result.storyChoices
+        .map((choice) => ({
+          id: `story:${result.chapterId}:${choice.pointId}`,
+          chapterId: result.chapterId,
+          expression: choice.naturalExpression,
+          explanation: choice.learningCue.explanationJa,
+          explanationEn: choice.learningCue.explanationEn
+        }))
+        .filter((item) => store.progress.reviews.includes(item.id))
+    }
+    return store.progress.reviews.includes(result.choice.id)
+      ? [
+          {
+            id: result.choice.id,
+            chapterId: result.chapterId,
+            expression: result.choice.naturalExpression,
+            explanation: result.choice.explanation,
+            explanationEn: ''
+          }
+        ]
+      : []
+  })
 )
 </script>
 <template>
@@ -32,11 +56,10 @@ const reviews = computed(() =>
           <small>CHAPTER {{ r.chapterId }}</small
           ><button><Volume2 /></button>
         </div>
-        <h2>{{ r.choice.naturalExpression }}</h2>
-        <p>{{ r.choice.explanation }}</p>
-        <button class="remove" @click="store.toggleReview(r.choice.id)">
-          <Trash2 /> リストから外す
-        </button>
+        <h2>{{ fill(r.expression) }}</h2>
+        <p>{{ r.explanation }}</p>
+        <small v-if="r.explanationEn">{{ r.explanationEn }}</small>
+        <button class="remove" @click="store.toggleReview(r.id)"><Trash2 /> リストから外す</button>
       </article>
     </div>
     <div class="expressions">

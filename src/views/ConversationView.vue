@@ -1,34 +1,144 @@
 <script setup lang="ts">
-import { computed, ref } from 'vue'
+import { computed, nextTick, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
+import { Check, ChevronLeft, ChevronRight, Languages, ScrollText, Volume2, X } from '@lucide/vue'
 import { chapters } from '../data/chapters'
+import { getStoryFlow } from '../data/story-flows'
+import { choiceResultFor, storyArtworkStage } from '../data/story-engine'
 import { useAppStore } from '../stores/app'
-import EmmaPortrait from '../components/EmmaPortrait.vue'
-import { Languages, Volume2, ScrollText, X, ChevronLeft, ChevronRight } from '@lucide/vue'
-const route = useRoute(),
-  router = useRouter(),
-  store = useAppStore(),
-  idx = ref(route.query.line === 'last' ? Number.MAX_SAFE_INTEGER : 0),
-  log = ref(false)
+import type { Dialogue } from '../types'
+
+const route = useRoute()
+const router = useRouter()
+const store = useAppStore()
+const logOpen = ref(false)
+const feedbackPanel = ref<HTMLElement | null>(null)
 const chapter = computed(
-  () => chapters.find((c) => c.id === Number(route.params.id)) || chapters[0]
+  () => chapters.find((candidate) => candidate.id === Number(route.params.id)) || chapters[0]
 )
-const lines = computed(() => chapter.value.scene.dialogues)
-const line = computed(() => lines.value[idx.value])
+const flow = computed(() => getStoryFlow(chapter.value.id))
+const session = computed(() => {
+  const active = store.s.activeStorySession
+  return active?.chapterId === chapter.value.id && active.characterId === store.s.activeCharacterId
+    ? active
+    : null
+})
+const node = computed(() => {
+  const active = session.value
+  return active ? flow.value?.nodes[active.currentNodeId] : undefined
+})
+const dialogue = computed(() => (node.value?.type === 'dialogue' ? node.value.dialogue : null))
+const choice = computed(() => (node.value?.type === 'choice' ? node.value : null))
+const storyPose = computed(() => {
+  const stage = storyArtworkStage(node.value?.id ?? '')
+  if (stage === 'middle') return chapter.value.storyArtwork.middle
+  if (stage === 'late') return chapter.value.storyArtwork.late
+  return chapter.value.storyArtwork.early
+})
+const selectedAtChoice = computed(() =>
+  choice.value
+    ? session.value?.selections.find((selection) => selection.pointId === choice.value?.id)
+    : undefined
+)
+const feedback = computed(() => {
+  const active = session.value
+  if (!active) return null
+  const pending = active.selections.find(
+    (selection) => !active.acknowledgedChoiceIds.includes(selection.pointId)
+  )
+  return pending ? choiceResultFor(flow.value, pending) : null
+})
+const visibleLog = computed(() => {
+  const active = session.value
+  if (!active) return []
+  const ids = [...active.history, active.currentNodeId]
+  return ids
+    .map((id) => flow.value?.nodes[id])
+    .filter((item) => item?.type === 'dialogue')
+    .map((item) => (item?.type === 'dialogue' ? item.dialogue : null))
+    .filter((item): item is Dialogue => item !== null)
+})
 const speakerClass = (speaker: 'Emma' | 'Player') =>
   speaker === 'Emma' ? 'speaker-character' : 'speaker-player'
-const fill = (s: string) => s.replaceAll('{{name}}', store.s.name)
-if (idx.value === Number.MAX_SAFE_INTEGER) idx.value = Math.max(0, lines.value.length - 1)
-function previous() {
-  if (idx.value > 0) idx.value--
+const fill = (value: string) => value.replaceAll('{{name}}', store.s.name)
+
+onMounted(() => {
+  if (!store.startStorySession(chapter.value.id)) {
+    void router.replace('/story')
+    return
+  }
+  Object.values(chapter.value.storyArtwork).forEach((src) => {
+    const image = new Image()
+    image.src = src
+  })
+  finishIfNeeded()
+  if (feedback.value) void nextTick(() => feedbackPanel.value?.focus())
+})
+
+function finishIfNeeded() {
+  if (node.value?.type !== 'ending') return
+  const result = store.completeStorySession()
+  if (result) void router.replace(`/result/${chapter.value.id}`)
 }
+
 function next() {
-  if (idx.value < lines.value.length - 1) idx.value++
-  else router.push(`/choice/${chapter.value.id}`)
+  if (node.value?.type !== 'dialogue' || feedback.value) return
+  store.advanceStoryNode()
+  finishIfNeeded()
+}
+
+function previous() {
+  if (feedback.value) return
+  store.previousStoryNode()
+}
+
+function selectOption(optionId: string) {
+  if (!choice.value || selectedAtChoice.value) return
+  if (store.chooseStoryOption(choice.value.id, optionId)) {
+    void nextTick(() => feedbackPanel.value?.focus())
+  }
+}
+
+function continueSavedChoice() {
+  if (!choice.value || !selectedAtChoice.value) return
+  store.continueReviewedStoryChoice()
+}
+
+function acknowledgeFeedback() {
+  if (!feedback.value) return
+  store.acknowledgeStoryChoice(feedback.value.pointId)
+}
+
+function handleFeedbackKeydown(event: KeyboardEvent) {
+  if (event.key !== 'Tab' || !feedbackPanel.value) return
+  const controls = Array.from(
+    feedbackPanel.value.querySelectorAll<HTMLElement>('button:not([disabled]), [href]')
+  )
+  const first = controls[0]
+  const last = controls.at(-1)
+  if (!first || !last) return
+  if (
+    event.shiftKey &&
+    (document.activeElement === first || document.activeElement === feedbackPanel.value)
+  ) {
+    event.preventDefault()
+    last.focus()
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault()
+    first.focus()
+  }
+}
+
+function speak(text: string) {
+  if (!('speechSynthesis' in window)) return
+  speechSynthesis.cancel()
+  speechSynthesis.speak(new SpeechSynthesisUtterance(fill(text)))
 }
 </script>
+
 <template>
   <section
+    v-if="session && node"
     class="conversation"
     :style="{
       '--speaker-character': store.activeCharacter.accent,
@@ -47,14 +157,23 @@ function next() {
         >
           <Languages />
         </button>
-        <button aria-label="会話ログを開く" @click="log = true"><ScrollText /></button>
+        <button aria-label="会話ログを開く" @click="logOpen = true"><ScrollText /></button>
       </div>
     </header>
-    <div class="scene-label">International Share House · {{ chapter.theme }}</div>
-    <EmmaPortrait :expression="line.expression || 'normal'" :src="chapter.image" full />
+    <div class="scene-label">
+      International Share House · {{ chapter.theme }}
+      <small v-if="session.reviewOnly">保存したストーリーを振り返り中</small>
+    </div>
+    <div class="story-artwork" aria-hidden="true">
+      <img class="story-background" :src="chapter.storyArtwork.background" alt="" />
+      <img class="story-pose" :src="storyPose" alt="" />
+    </div>
+
     <div
+      v-if="dialogue"
       class="dialog-box"
-      :class="speakerClass(line.speaker)"
+      :class="speakerClass(dialogue.speaker)"
+      :inert="feedback ? true : undefined"
       role="button"
       tabindex="0"
       aria-label="次の会話へ進む"
@@ -63,15 +182,21 @@ function next() {
       @keyup.space.prevent="next"
     >
       <div class="speaker">
-        {{ line.speaker === 'Emma' ? store.activeCharacter.englishName : store.s.name }}
+        {{ dialogue.speaker === 'Emma' ? store.activeCharacter.englishName : store.s.name }}
       </div>
-      <button class="sound" @click.stop><Volume2 /></button>
-      <h2>{{ fill(line.english) }}</h2>
-      <p v-if="store.s.showTranslation">{{ fill(line.japanese) }}</p>
+      <button
+        class="sound"
+        :aria-label="`${fill(dialogue.english)}を再生`"
+        @click.stop="speak(dialogue.english)"
+      >
+        <Volume2 />
+      </button>
+      <h2>{{ fill(dialogue.english) }}</h2>
+      <p v-if="store.s.showTranslation">{{ fill(dialogue.japanese) }}</p>
       <div class="dialog-navigation">
         <button
           type="button"
-          :disabled="idx === 0"
+          :disabled="!session.history.length"
           aria-label="前のコメントに戻る"
           @click.stop="previous"
           @keyup.stop
@@ -81,16 +206,91 @@ function next() {
         <span class="continue">TAP TO CONTINUE <ChevronRight /></span>
       </div>
     </div>
-    <div v-if="log" class="modal" @click.self="log = false">
+
+    <section v-else-if="choice" class="story-choice-card" aria-labelledby="story-choice-title">
+      <p class="eyebrow">YOUR CHOICE</p>
+      <h1 id="story-choice-title">{{ choice.promptEnglish }}</h1>
+      <p v-if="store.s.showTranslation">{{ choice.promptJapanese }}</p>
+      <div class="story-choice-options">
+        <button
+          v-for="option in choice.options"
+          :key="option.id"
+          type="button"
+          :class="{ selected: selectedAtChoice?.optionId === option.id }"
+          :aria-pressed="selectedAtChoice?.optionId === option.id"
+          :disabled="Boolean(selectedAtChoice)"
+          @click="selectOption(option.id)"
+        >
+          <span>
+            <b>{{ fill(option.englishText) }}</b>
+            <small v-if="store.s.showTranslation">{{ fill(option.japaneseText) }}</small>
+          </span>
+          <Check v-if="selectedAtChoice?.optionId === option.id" />
+        </button>
+      </div>
+      <button
+        v-if="selectedAtChoice"
+        class="primary story-choice-continue"
+        type="button"
+        @click="continueSavedChoice"
+      >
+        選んだ回答で続きを見る <ChevronRight />
+      </button>
+      <button
+        class="story-choice-back"
+        type="button"
+        :disabled="!session.history.length"
+        @click="previous"
+      >
+        <ChevronLeft /> 前のコメント
+      </button>
+    </section>
+
+    <div v-if="feedback" class="story-learning-overlay">
+      <section
+        ref="feedbackPanel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="story-learning-title"
+        aria-describedby="story-learning-description"
+        tabindex="-1"
+        @keydown="handleFeedbackKeydown"
+      >
+        <p class="eyebrow">LEARNING POINT</p>
+        <h2 id="story-learning-title">{{ feedback.learningCue.title }}</h2>
+        <strong>{{ feedback.learningCue.construction }}</strong>
+        <p>{{ fill(feedback.feedback) }}</p>
+        <p id="story-learning-description">{{ feedback.learningCue.explanationJa }}</p>
+        <small>{{ feedback.learningCue.explanationEn }}</small>
+        <div class="story-learning-expression">
+          <span>自然な表現</span>
+          <b>{{ fill(feedback.naturalExpression) }}</b>
+          <button
+            type="button"
+            aria-label="自然な表現を再生"
+            @click="speak(feedback.naturalExpression)"
+          >
+            <Volume2 />
+          </button>
+        </div>
+        <button class="primary" type="button" @click="acknowledgeFeedback">
+          会話を続ける <ChevronRight />
+        </button>
+      </section>
+    </div>
+
+    <div v-if="logOpen" class="modal" @click.self="logOpen = false">
       <div class="log-card">
-        <button class="modal-close" @click="log = false"><X /></button>
+        <button class="modal-close" aria-label="会話ログを閉じる" @click="logOpen = false">
+          <X />
+        </button>
         <h2>Conversation log</h2>
-        <div v-for="(d, i) in lines.slice(0, idx + 1)" :key="i" :class="speakerClass(d.speaker)">
+        <div v-for="(item, index) in visibleLog" :key="index" :class="speakerClass(item.speaker)">
           <b>{{
-            d.speaker === 'Emma' ? store.activeCharacter.englishName.split(' ')[0] : store.s.name
+            item.speaker === 'Emma' ? store.activeCharacter.englishName.split(' ')[0] : store.s.name
           }}</b>
-          <p>{{ fill(d.english) }}</p>
-          <small>{{ fill(d.japanese) }}</small>
+          <p>{{ fill(item.english) }}</p>
+          <small>{{ fill(item.japanese) }}</small>
         </div>
       </div>
     </div>

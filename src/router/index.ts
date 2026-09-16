@@ -13,7 +13,7 @@ const router = createRouter({
     { path: '/home', component: view('HomeView'), meta: { nav: true } },
     { path: '/story', component: view('StoryView'), meta: { nav: true } },
     { path: '/conversation/:id', component: view('ConversationView') },
-    { path: '/choice/:id', component: view('ChoiceView') },
+    { path: '/choice/:id', redirect: (to) => `/conversation/${to.params.id}` },
     { path: '/result/:id', component: view('ResultView') },
     { path: '/learn', component: view('LearnView'), meta: { nav: true } },
     { path: '/learn/session/:level', component: view('VocabularySessionView') },

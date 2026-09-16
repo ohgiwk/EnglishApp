@@ -2,6 +2,7 @@ import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { createPinia, setActivePinia } from 'pinia'
 import { migrateSave, useAppStore } from './app'
 import { chapters } from '../data/chapters'
+import { getStoryFlow } from '../data/story-flows'
 import type { VocabularySession } from '../types'
 
 const data = new Map<string, string>()
@@ -30,6 +31,115 @@ describe('app store progression', () => {
       days: store.s.studyDays
     }).toEqual(first)
     expect(store.currentChapter).toBe(2)
+  })
+
+  it('persists a three-choice story session and awards its totals only once', () => {
+    const store = useAppStore()
+    const initial = {
+      affection: store.progress.affection,
+      trust: store.progress.trust,
+      xp: store.s.xp
+    }
+    expect(store.startStorySession(1)).toBe(true)
+    const flow = getStoryFlow(1)
+    while (store.s.activeStorySession) {
+      const node = flow.nodes[store.s.activeStorySession.currentNodeId]
+      if (node.type === 'dialogue') {
+        store.advanceStoryNode()
+      } else if (node.type === 'choice') {
+        expect(store.chooseStoryOption(node.id, node.options[0].id)).toBe(true)
+        expect(store.acknowledgeStoryChoice(node.id)).toBe(true)
+      } else {
+        break
+      }
+    }
+    const firstResult = store.completeStorySession()!
+    expect(firstResult.storyChoices).toHaveLength(3)
+    expect(firstResult.totalAffectionChange).toBe(6)
+    expect(firstResult.totalTrustChange).toBe(6)
+    expect(store.progress.affection).toBe(initial.affection + 6)
+    expect(store.progress.trust).toBe(initial.trust + 6)
+    expect(store.s.xp).toBe(initial.xp + 24)
+    expect(store.s.activeStorySession).toBeNull()
+
+    const earned = {
+      affection: store.progress.affection,
+      trust: store.progress.trust,
+      xp: store.s.xp
+    }
+    expect(store.startStorySession(1)).toBe(true)
+    expect(store.s.activeStorySession?.reviewOnly).toBe(true)
+    while (store.s.activeStorySession) {
+      const node = flow.nodes[store.s.activeStorySession.currentNodeId]
+      if (node.type === 'dialogue') {
+        store.advanceStoryNode()
+      } else if (node.type === 'choice') {
+        expect(store.chooseStoryOption(node.id, node.options[1].id)).toBe(false)
+        expect(store.continueReviewedStoryChoice()).toBe(true)
+      } else {
+        break
+      }
+    }
+    expect(store.completeStorySession()).toEqual(firstResult)
+    expect({
+      affection: store.progress.affection,
+      trust: store.progress.trust,
+      xp: store.s.xp
+    }).toEqual(earned)
+  })
+
+  it('restores an active story node and selected branch after reload', () => {
+    const store = useAppStore()
+    const flow = getStoryFlow(1)
+    store.startStorySession(1)
+    let choiceNode = flow.nodes[store.s.activeStorySession!.currentNodeId]
+    while (choiceNode.type === 'dialogue') {
+      store.advanceStoryNode()
+      choiceNode = flow.nodes[store.s.activeStorySession!.currentNodeId]
+    }
+    expect(choiceNode.type).toBe('choice')
+    if (choiceNode.type !== 'choice') return
+    store.chooseStoryOption(choiceNode.id, choiceNode.options[1].id)
+    const snapshot = JSON.parse(JSON.stringify(store.s.activeStorySession))
+
+    setActivePinia(createPinia())
+    const restored = useAppStore()
+    expect(restored.s.activeStorySession).toEqual(snapshot)
+  })
+
+  it('opens any chapter from Story, replacing an unfinished session', () => {
+    const store = useAppStore()
+    expect(store.currentChapter).toBe(1)
+    expect(store.startStorySession(1)).toBe(true)
+    store.advanceStoryNode()
+
+    expect(store.startStorySession(2)).toBe(true)
+    expect(store.s.activeStorySession?.chapterId).toBe(2)
+    expect(store.s.activeStorySession?.currentNodeId).toBe(getStoryFlow(2).startNodeId)
+  })
+
+  it('drops revision-mismatched active story state without changing historical progress', () => {
+    const store = useAppStore()
+    const choice = chapters[0].scene.choices![0]
+    store.complete({ characterId: 'emma', chapterId: 1, choice })
+    const migrated = migrateSave({
+      ...store.s,
+      activeStorySession: {
+        characterId: 'emma',
+        chapterId: 1,
+        contentRevision: 999,
+        currentNodeId: 'missing',
+        history: [],
+        selections: [],
+        acknowledgedChoiceIds: [],
+        reviewOnly: false,
+        startedAt: new Date().toISOString()
+      }
+    })
+    expect(migrated.activeStorySession).toBeNull()
+    expect(migrated.characterProgress.emma.affection).toBe(store.progress.affection)
+    expect(migrated.characterProgress.emma.trust).toBe(store.progress.trust)
+    expect(migrated.characterProgress.emma.answers[1].choice.id).toBe(choice.id)
   })
 
   it('adds and removes a review expression', () => {
@@ -61,7 +171,7 @@ describe('app store progression', () => {
         }
       }
     })
-    expect(migrated.version).toBe(4)
+    expect(migrated.version).toBe(5)
     expect(migrated.name).toBe('Keiya')
     expect(migrated.activeCharacterId).toBe('emma')
     expect(migrated.characterSelectionCompleted).toBe(true)

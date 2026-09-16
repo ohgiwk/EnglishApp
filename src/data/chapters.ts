@@ -1,4 +1,5 @@
 import type { Chapter, Memory } from '../types'
+const asset = (name: string) => `${import.meta.env.BASE_URL}assets/${name}`
 const good = (
   id: string,
   text: string,
@@ -28,7 +29,13 @@ export const chapters: Chapter[] = [
     theme: 'あいさつ・自己紹介',
     color: '#f6a9bd',
     icon: '👋',
-    image: '/assets/emma-chapter-1.png',
+    image: asset('emma-chapter-1.png'),
+    storyArtwork: {
+      background: asset('emma-chapter-1-background.png'),
+      early: asset('emma-chapter-1-pose-early.png'),
+      middle: asset('emma-chapter-1-pose-middle.png'),
+      late: asset('emma-chapter-1-pose-late.png')
+    },
     expressions: [
       { english: 'Nice to meet you.', japanese: 'はじめまして。' },
       { english: 'Where are you from?', japanese: 'どこの出身ですか？' },
@@ -123,7 +130,13 @@ export const chapters: Chapter[] = [
     theme: '料理・誘い方',
     color: '#a8d8cf',
     icon: '🍳',
-    image: '/assets/emma-chapter-2.png',
+    image: asset('emma-chapter-2.png'),
+    storyArtwork: {
+      background: asset('emma-chapter-2-background.png'),
+      early: asset('emma-chapter-2-pose-early.png'),
+      middle: asset('emma-chapter-2-pose-middle.png'),
+      late: asset('emma-chapter-2-pose-late.png')
+    },
     expressions: [
       { english: 'Do you want to cook together?', japanese: '一緒に料理しない？' },
       { english: 'What should we make?', japanese: '何を作ろうか？' },
@@ -196,7 +209,13 @@ export const chapters: Chapter[] = [
     theme: '休日・デートへの誘い',
     color: '#b9b5e8',
     icon: '☕',
-    image: '/assets/emma-chapter-3.png',
+    image: asset('emma-chapter-3.png'),
+    storyArtwork: {
+      background: asset('emma-chapter-3-background.png'),
+      early: asset('emma-chapter-3-pose-early.png'),
+      middle: asset('emma-chapter-3-pose-middle.png'),
+      late: asset('emma-chapter-3-pose-late.png')
+    },
     expressions: [
       { english: 'Are you free this weekend?', japanese: '今週末、空いてる？' },
       { english: 'Would you like to go with me?', japanese: '一緒に行かない？' },

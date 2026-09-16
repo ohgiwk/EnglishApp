@@ -2,7 +2,7 @@
 import type { HeroineExpression } from '../types'
 withDefaults(defineProps<{ expression?: HeroineExpression; full?: boolean; src?: string }>(), {
   expression: 'normal',
-  src: '/assets/emma.png'
+  src: `${import.meta.env.BASE_URL}assets/emma.png`
 })
 </script>
 <template>

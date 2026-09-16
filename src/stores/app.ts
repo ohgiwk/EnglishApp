@@ -3,7 +3,14 @@ import { defineStore } from 'pinia'
 import { buildVocabularySession, summarizeVocabularySession } from '../data/vocabulary-engine'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import { getCharacter } from '../data/characters'
+import { getStoryFlow } from '../data/story-flows'
+import {
+  legacyChoiceFromStoryResult,
+  savedSelections,
+  storyChoiceResults
+} from '../data/story-engine'
 import type {
+  ActiveStorySession,
   CharacterId,
   CharacterProgress,
   ChoiceResult,
@@ -20,8 +27,8 @@ const KEY = 'love-language-save-v1'
 const clamp = (value: number) => Math.max(0, Math.min(100, value))
 const today = () => new Date().toLocaleDateString('sv-SE')
 
-export interface SaveV4 {
-  version: 4
+export interface SaveV5 {
+  version: 5
   name: string
   onboarded: boolean
   activeCharacterId: CharacterId
@@ -31,6 +38,7 @@ export interface SaveV4 {
   studyDays: number
   lastStudyDate: string
   showTranslation: boolean
+  activeStorySession: ActiveStorySession | null
   unlockedVocabularyLevel: number
   wordProgress: Record<string, WordProgress>
   lastSelectedVocabularyMode: VocabularySessionMode
@@ -58,8 +66,8 @@ const emptyLifetimeStats = (): LifetimeStudyStats => ({
   correctAnswers: 0
 })
 
-const defaults = (): SaveV4 => ({
-  version: 4,
+const defaults = (): SaveV5 => ({
+  version: 5,
   name: 'Haru',
   onboarded: false,
   activeCharacterId: 'emma',
@@ -73,6 +81,7 @@ const defaults = (): SaveV4 => ({
   studyDays: 0,
   lastStudyDate: '',
   showTranslation: true,
+  activeStorySession: null,
   unlockedVocabularyLevel: 1,
   wordProgress: {},
   lastSelectedVocabularyMode: 'mixed',
@@ -94,10 +103,17 @@ const sanitizeProgress = (
   const source = value as Partial<CharacterProgress>
   const rawAnswers = source.answers && typeof source.answers === 'object' ? source.answers : {}
   const answers = Object.fromEntries(
-    Object.entries(rawAnswers).map(([chapterId, result]) => [
-      chapterId,
-      { ...result, characterId: result.characterId ?? characterId }
-    ])
+    Object.entries(rawAnswers).map(([chapterId, result]) => {
+      const saved = result as ChoiceResult
+      return [
+        chapterId,
+        {
+          ...saved,
+          characterId: saved.characterId ?? characterId,
+          legacy: saved.storyChoices?.length ? saved.legacy : true
+        }
+      ]
+    })
   )
   return {
     affection: clamp(Number(source.affection ?? fallback.affection)),
@@ -140,9 +156,48 @@ const vocabularySessionModes: VocabularySessionMode[] = [
 const isVocabularyMode = (value: unknown): value is VocabularySessionMode =>
   vocabularySessionModes.includes(value as VocabularySessionMode)
 
-export function migrateSave(value: unknown): SaveV4 {
+const sanitizeActiveStorySession = (value: unknown): ActiveStorySession | null => {
+  if (!value || typeof value !== 'object') return null
+  const source = value as Partial<ActiveStorySession>
+  const flow = getStoryFlow(Number(source.chapterId))
+  const character = getCharacter(source.characterId)
+  if (
+    !flow ||
+    source.contentRevision !== flow.revision ||
+    !source.currentNodeId ||
+    !flow.nodes[source.currentNodeId] ||
+    character.availability !== 'available'
+  ) {
+    return null
+  }
+  const selections = Array.isArray(source.selections)
+    ? source.selections.filter((selection) => {
+        const node = flow.nodes[selection.pointId]
+        return (
+          node?.type === 'choice' && node.options.some((option) => option.id === selection.optionId)
+        )
+      })
+    : []
+  return {
+    characterId: character.id,
+    chapterId: flow.chapterId,
+    contentRevision: flow.revision,
+    currentNodeId: source.currentNodeId,
+    history: Array.isArray(source.history)
+      ? source.history.filter((nodeId) => Boolean(flow.nodes[nodeId]))
+      : [],
+    selections,
+    acknowledgedChoiceIds: Array.isArray(source.acknowledgedChoiceIds)
+      ? source.acknowledgedChoiceIds.filter((id) => Boolean(flow.nodes[id]))
+      : [],
+    reviewOnly: Boolean(source.reviewOnly),
+    startedAt: source.startedAt || new Date().toISOString()
+  }
+}
+
+export function migrateSave(value: unknown): SaveV5 {
   if (!value || typeof value !== 'object') return defaults()
-  const source = value as Partial<SaveV4> & {
+  const source = value as Partial<SaveV5> & {
     version?: number
     affection?: number
     trust?: number
@@ -183,7 +238,7 @@ export function migrateSave(value: unknown): SaveV4 {
     ? source.vocabularyResults.slice(-30)
     : []
   const migratedDailyStats: Record<string, DailyStudyStats> = {}
-  if (source.version !== 4) {
+  if ((source.version ?? 0) < 4) {
     for (const result of vocabularyResults) {
       const date = result.completedAt.slice(0, 10)
       const current = migratedDailyStats[date] ?? {
@@ -202,7 +257,7 @@ export function migrateSave(value: unknown): SaveV4 {
     }
   }
   const migratedLifetimeStats: LifetimeStudyStats =
-    source.version === 4 && source.lifetimeStudyStats
+    (source.version ?? 0) >= 4 && source.lifetimeStudyStats
       ? {
           storySessions: Math.max(0, Number(source.lifetimeStudyStats.storySessions ?? 0)),
           vocabularySessions: Math.max(
@@ -230,7 +285,7 @@ export function migrateSave(value: unknown): SaveV4 {
   return {
     ...base,
     ...source,
-    version: 4,
+    version: 5,
     activeCharacterId,
     characterSelectionCompleted:
       (source.version ?? 0) >= 3
@@ -243,17 +298,18 @@ export function migrateSave(value: unknown): SaveV4 {
     lastSelectedVocabularyMode: isVocabularyMode(source.lastSelectedVocabularyMode)
       ? source.lastSelectedVocabularyMode
       : 'mixed',
+    activeStorySession: sanitizeActiveStorySession(source.activeStorySession),
     activeVocabularySession: null,
     vocabularyResults,
     lifetimeStudyStats: migratedLifetimeStats,
     dailyStudyStats:
-      source.version === 4
+      (source.version ?? 0) >= 4
         ? sanitizeDailyStats(source.dailyStudyStats)
         : sanitizeDailyStats(migratedDailyStats)
   }
 }
 
-function load(): SaveV4 {
+function load(): SaveV5 {
   try {
     return migrateSave(JSON.parse(localStorage.getItem(KEY) || 'null'))
   } catch {
@@ -262,7 +318,7 @@ function load(): SaveV4 {
 }
 
 export const useAppStore = defineStore('app', () => {
-  const s = ref<SaveV4>(load())
+  const s = ref<SaveV5>(load())
   const activeCharacter = computed(() => getCharacter(s.value.activeCharacterId))
   const progress = computed(() => s.value.characterProgress[s.value.activeCharacterId])
   const emmaProgress = computed(() => s.value.characterProgress.emma)
@@ -375,6 +431,183 @@ export const useAppStore = defineStore('app', () => {
   function toggleTranslation() {
     s.value.showTranslation = !s.value.showTranslation
     persist()
+  }
+
+  function storySelectionsForReview(chapterId: number, result: ChoiceResult) {
+    if (result.storyChoices?.length) return savedSelections(result.storyChoices)
+    const flow = getStoryFlow(chapterId)
+    if (!flow) return []
+    const choiceNodes = Object.values(flow.nodes).filter((node) => node.type === 'choice')
+    return choiceNodes.map((node, index) => {
+      const legacyIndex = result.choice.id.endsWith('-b')
+        ? 1
+        : result.choice.id.endsWith('-c')
+          ? 2
+          : 0
+      const optionIndex = index === choiceNodes.length - 1 ? legacyIndex : 0
+      return { pointId: node.id, optionId: node.options[optionIndex]?.id ?? node.options[0].id }
+    })
+  }
+
+  function startStorySession(chapterId: number) {
+    const flow = getStoryFlow(chapterId)
+    if (!flow) return false
+    const existing = progress.value.answers[chapterId]
+    const active = s.value.activeStorySession
+    if (
+      active?.characterId === s.value.activeCharacterId &&
+      active.chapterId === chapterId &&
+      active.contentRevision === flow.revision
+    ) {
+      return true
+    }
+    s.value.activeStorySession = {
+      characterId: s.value.activeCharacterId,
+      chapterId,
+      contentRevision: flow.revision,
+      currentNodeId: flow.startNodeId,
+      history: [],
+      selections: existing ? storySelectionsForReview(chapterId, existing) : [],
+      acknowledgedChoiceIds: existing
+        ? storySelectionsForReview(chapterId, existing).map((selection) => selection.pointId)
+        : [],
+      reviewOnly: Boolean(existing),
+      startedAt: new Date().toISOString()
+    }
+    persist()
+    return true
+  }
+
+  function advanceStoryNode() {
+    const session = s.value.activeStorySession
+    const flow = session && getStoryFlow(session.chapterId)
+    const node = flow?.nodes[session?.currentNodeId ?? '']
+    if (!session || !flow || node?.type !== 'dialogue') return false
+    session.history.push(node.id)
+    session.currentNodeId = node.next
+    persist()
+    return true
+  }
+
+  function chooseStoryOption(pointId: string, optionId: string) {
+    const session = s.value.activeStorySession
+    const flow = session && getStoryFlow(session.chapterId)
+    const node = flow?.nodes[pointId]
+    if (
+      !session ||
+      !flow ||
+      session.currentNodeId !== pointId ||
+      node?.type !== 'choice' ||
+      session.reviewOnly ||
+      session.selections.some((selection) => selection.pointId === pointId)
+    ) {
+      return false
+    }
+    const option = node.options.find((candidate) => candidate.id === optionId)
+    if (!option) return false
+    session.selections.push({ pointId, optionId })
+    session.history.push(node.id)
+    session.currentNodeId = option.next
+    persist()
+    return true
+  }
+
+  function continueReviewedStoryChoice() {
+    const session = s.value.activeStorySession
+    const flow = session && getStoryFlow(session.chapterId)
+    const node = flow?.nodes[session?.currentNodeId ?? '']
+    if (!session || !flow || node?.type !== 'choice') return false
+    const selection = session.selections.find((item) => item.pointId === node.id)
+    const option = node.options.find((item) => item.id === selection?.optionId)
+    if (!option) return false
+    session.history.push(node.id)
+    session.currentNodeId = option.next
+    persist()
+    return true
+  }
+
+  function acknowledgeStoryChoice(pointId: string) {
+    const session = s.value.activeStorySession
+    if (!session || !session.selections.some((selection) => selection.pointId === pointId)) {
+      return false
+    }
+    if (!session.acknowledgedChoiceIds.includes(pointId)) {
+      session.acknowledgedChoiceIds.push(pointId)
+      persist()
+    }
+    return true
+  }
+
+  function previousStoryNode() {
+    const session = s.value.activeStorySession
+    if (!session?.history.length) return false
+    const previousId = session.history.pop()
+    if (!previousId) return false
+    session.currentNodeId = previousId
+    persist()
+    return true
+  }
+
+  function completeStorySession(): ChoiceResult | null {
+    const session = s.value.activeStorySession
+    const flow = session && getStoryFlow(session.chapterId)
+    const node = flow?.nodes[session?.currentNodeId ?? '']
+    if (!session || !flow || node?.type !== 'ending') return null
+    const characterProgress = s.value.characterProgress[session.characterId]
+    const existing = characterProgress.answers[session.chapterId]
+    if (existing) {
+      s.value.activeStorySession = null
+      persist()
+      return existing
+    }
+    const results = storyChoiceResults(flow, session.selections)
+    if (results.length !== 3) return null
+    const affectionChange = Math.max(
+      -3,
+      Math.min(
+        6,
+        results.reduce((total, result) => total + result.affectionChange, 0)
+      )
+    )
+    const trustChange = Math.max(
+      -3,
+      Math.min(
+        6,
+        results.reduce((total, result) => total + result.trustChange, 0)
+      )
+    )
+    const englishXp = results.reduce((total, result) => total + result.englishXp, 0)
+    const result: ChoiceResult = {
+      characterId: session.characterId,
+      chapterId: session.chapterId,
+      choice: legacyChoiceFromStoryResult(results.at(-1)!),
+      storyChoices: results,
+      totalAffectionChange: affectionChange,
+      totalTrustChange: trustChange,
+      totalEnglishXp: englishXp,
+      contentRevision: flow.revision,
+      completedAt: new Date().toISOString()
+    }
+    if (!characterProgress.completed.includes(session.chapterId)) {
+      characterProgress.affection = clamp(characterProgress.affection + affectionChange)
+      characterProgress.trust = clamp(characterProgress.trust + trustChange)
+      s.value.xp += englishXp
+      characterProgress.completed.push(session.chapterId)
+      recordStudyActivity({
+        xpEarned: englishXp,
+        storySessions: 1,
+        vocabularySessions: 0,
+        questionsAnswered: results.length,
+        correctAnswers: results.filter(
+          (choiceResult) => choiceResult.affectionChange > 0 || choiceResult.trustChange > 0
+        ).length
+      })
+      markStudyDay()
+    }
+    characterProgress.answers[session.chapterId] = result
+    s.value.activeStorySession = null
+    persist()
+    return result
   }
 
   function complete(result: ChoiceResult) {
@@ -534,6 +767,13 @@ export const useAppStore = defineStore('app', () => {
     finishOnboarding,
     selectCharacter,
     toggleTranslation,
+    startStorySession,
+    advanceStoryNode,
+    chooseStoryOption,
+    continueReviewedStoryChoice,
+    acknowledgeStoryChoice,
+    previousStoryNode,
+    completeStorySession,
     complete,
     toggleReview,
     setVocabularyMode,
