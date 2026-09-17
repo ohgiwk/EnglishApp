@@ -10,339 +10,34 @@ import {
   storyChoiceResults
 } from '../data/story-engine'
 import type {
-  ActiveStorySession,
   CharacterId,
-  CharacterProgress,
   ChoiceResult,
   DailyStudyStats,
-  LifetimeStudyStats,
   VocabularyAnswer,
   VocabularyQuestionCount,
   VocabularyResult,
-  VocabularySession,
   VocabularySessionMode,
-  VocabularyStatus,
-  WordProgress
+  VocabularyStatus
 } from '../types'
 
-const KEY = 'love-language-save-v1'
+import {
+  defaults,
+  isVocabularyMode,
+  isVocabularyQuestionCount,
+  sanitizeVocabularyStatuses
+} from '../persistence/save'
+import type { SaveData } from '../persistence/save'
+import { loadSave, writeSave } from '../persistence/storage'
+import { localDateKey } from '../study-date'
+export { migrateSave } from '../persistence/save'
+
 const clamp = (value: number) => Math.max(0, Math.min(100, value))
-const today = () => new Date().toLocaleDateString('sv-SE')
-
-export interface SaveV5 {
-  version: 5
-  name: string
-  onboarded: boolean
-  activeCharacterId: CharacterId
-  characterSelectionCompleted: boolean
-  characterProgress: Record<CharacterId, CharacterProgress>
-  xp: number
-  studyDays: number
-  lastStudyDate: string
-  showTranslation: boolean
-  activeStorySession: ActiveStorySession | null
-  unlockedVocabularyLevel: number
-  wordProgress: Record<string, WordProgress>
-  lastSelectedVocabularyMode: VocabularySessionMode
-  lastSelectedVocabularyQuestionCount: VocabularyQuestionCount
-  lastSelectedVocabularyStatuses: VocabularyStatus[]
-  activeVocabularySession: VocabularySession | null
-  vocabularyResults: VocabularyResult[]
-  lastVocabularyResult: VocabularyResult | null
-  vocabularyRewardDate: string
-  vocabularyRewardCount: number
-  lifetimeStudyStats: LifetimeStudyStats
-  dailyStudyStats: Record<string, DailyStudyStats>
-}
-
-const initialProgress = (affection = 0, trust = 0): CharacterProgress => ({
-  affection,
-  trust,
-  completed: [],
-  answers: {},
-  reviews: []
-})
-
-const emptyLifetimeStats = (): LifetimeStudyStats => ({
-  storySessions: 0,
-  vocabularySessions: 0,
-  questionsAnswered: 0,
-  correctAnswers: 0
-})
-
-const defaults = (): SaveV5 => ({
-  version: 5,
-  name: 'Haru',
-  onboarded: false,
-  activeCharacterId: 'emma',
-  characterSelectionCompleted: false,
-  characterProgress: {
-    emma: initialProgress(18, 12),
-    'secret-1': initialProgress(),
-    'secret-2': initialProgress()
-  },
-  xp: 0,
-  studyDays: 0,
-  lastStudyDate: '',
-  showTranslation: true,
-  activeStorySession: null,
-  unlockedVocabularyLevel: 1,
-  wordProgress: {},
-  lastSelectedVocabularyMode: 'mixed',
-  lastSelectedVocabularyQuestionCount: 10,
-  lastSelectedVocabularyStatuses: ['new', 'learning', 'mastered'],
-  activeVocabularySession: null,
-  vocabularyResults: [],
-  lastVocabularyResult: null,
-  vocabularyRewardDate: '',
-  vocabularyRewardCount: 0,
-  lifetimeStudyStats: emptyLifetimeStats(),
-  dailyStudyStats: {}
-})
-
-const sanitizeProgress = (
-  value: unknown,
-  fallback: CharacterProgress,
-  characterId: CharacterId
-): CharacterProgress => {
-  if (!value || typeof value !== 'object') return fallback
-  const source = value as Partial<CharacterProgress>
-  const rawAnswers = source.answers && typeof source.answers === 'object' ? source.answers : {}
-  const answers = Object.fromEntries(
-    Object.entries(rawAnswers).map(([chapterId, result]) => {
-      const saved = result as ChoiceResult
-      return [
-        chapterId,
-        {
-          ...saved,
-          characterId: saved.characterId ?? characterId,
-          legacy: saved.storyChoices?.length ? saved.legacy : true
-        }
-      ]
-    })
-  )
-  return {
-    affection: clamp(Number(source.affection ?? fallback.affection)),
-    trust: clamp(Number(source.trust ?? fallback.trust)),
-    completed: Array.isArray(source.completed) ? source.completed : [],
-    answers,
-    reviews: Array.isArray(source.reviews) ? source.reviews : []
-  }
-}
-
-const sanitizeDailyStats = (value: unknown): Record<string, DailyStudyStats> => {
-  if (!value || typeof value !== 'object') return {}
-  return Object.fromEntries(
-    Object.entries(value as Record<string, Partial<DailyStudyStats>>)
-      .filter(([date]) => /^\d{4}-\d{2}-\d{2}$/.test(date))
-      .sort(([a], [b]) => a.localeCompare(b))
-      .slice(-365)
-      .map(([date, stats]) => [
-        date,
-        {
-          date,
-          xpEarned: Math.max(0, Number(stats.xpEarned ?? 0)),
-          storySessions: Math.max(0, Number(stats.storySessions ?? 0)),
-          vocabularySessions: Math.max(0, Number(stats.vocabularySessions ?? 0)),
-          questionsAnswered: Math.max(0, Number(stats.questionsAnswered ?? 0)),
-          correctAnswers: Math.max(0, Number(stats.correctAnswers ?? 0))
-        }
-      ])
-  )
-}
-
-const vocabularySessionModes: VocabularySessionMode[] = [
-  'mixed',
-  'en-to-ja',
-  'ja-to-en',
-  'flashcard',
-  'fill-blank',
-  'reorder'
-]
-const isVocabularyMode = (value: unknown): value is VocabularySessionMode =>
-  vocabularySessionModes.includes(value as VocabularySessionMode)
-const vocabularyQuestionCounts: VocabularyQuestionCount[] = [10, 20, 50, 'all']
-const isVocabularyQuestionCount = (value: unknown): value is VocabularyQuestionCount =>
-  vocabularyQuestionCounts.includes(value as VocabularyQuestionCount)
-const vocabularyStatuses: VocabularyStatus[] = ['new', 'learning', 'mastered']
-const sanitizeVocabularyStatuses = (value: unknown): VocabularyStatus[] => {
-  if (!Array.isArray(value)) return [...vocabularyStatuses]
-  const selected = vocabularyStatuses.filter((status) => value.includes(status))
-  return selected.length ? selected : [...vocabularyStatuses]
-}
-
-const sanitizeActiveStorySession = (value: unknown): ActiveStorySession | null => {
-  if (!value || typeof value !== 'object') return null
-  const source = value as Partial<ActiveStorySession>
-  const flow = getStoryFlow(Number(source.chapterId))
-  const character = getCharacter(source.characterId)
-  if (
-    !flow ||
-    source.contentRevision !== flow.revision ||
-    !source.currentNodeId ||
-    !flow.nodes[source.currentNodeId] ||
-    character.availability !== 'available'
-  ) {
-    return null
-  }
-  const selections = Array.isArray(source.selections)
-    ? source.selections.filter((selection) => {
-        const node = flow.nodes[selection.pointId]
-        return (
-          node?.type === 'choice' && node.options.some((option) => option.id === selection.optionId)
-        )
-      })
-    : []
-  return {
-    characterId: character.id,
-    chapterId: flow.chapterId,
-    contentRevision: flow.revision,
-    currentNodeId: source.currentNodeId,
-    history: Array.isArray(source.history)
-      ? source.history.filter((nodeId) => Boolean(flow.nodes[nodeId]))
-      : [],
-    selections,
-    acknowledgedChoiceIds: Array.isArray(source.acknowledgedChoiceIds)
-      ? source.acknowledgedChoiceIds.filter((id) => Boolean(flow.nodes[id]))
-      : [],
-    reviewOnly: Boolean(source.reviewOnly),
-    startedAt: source.startedAt || new Date().toISOString()
-  }
-}
-
-export function migrateSave(value: unknown): SaveV5 {
-  if (!value || typeof value !== 'object') return defaults()
-  const source = value as Partial<SaveV5> & {
-    version?: number
-    affection?: number
-    trust?: number
-    completed?: number[]
-    answers?: Record<number, ChoiceResult>
-    reviews?: string[]
-  }
-  const base = defaults()
-  const hasCharacterProgress = (source.version ?? 0) >= 3 && source.characterProgress
-  const legacyEmma: CharacterProgress = {
-    affection: clamp(Number(source.affection ?? base.characterProgress.emma.affection)),
-    trust: clamp(Number(source.trust ?? base.characterProgress.emma.trust)),
-    completed: Array.isArray(source.completed) ? source.completed : [],
-    answers: source.answers && typeof source.answers === 'object' ? source.answers : {},
-    reviews: Array.isArray(source.reviews) ? source.reviews : []
-  }
-  const requestedCharacter = getCharacter(source.activeCharacterId)
-  const activeCharacterId: CharacterId =
-    requestedCharacter.availability === 'available' ? requestedCharacter.id : 'emma'
-  const characterProgress: Record<CharacterId, CharacterProgress> = {
-    emma: sanitizeProgress(
-      hasCharacterProgress ? source.characterProgress?.emma : legacyEmma,
-      base.characterProgress.emma,
-      'emma'
-    ),
-    'secret-1': sanitizeProgress(
-      hasCharacterProgress ? source.characterProgress?.['secret-1'] : null,
-      base.characterProgress['secret-1'],
-      'secret-1'
-    ),
-    'secret-2': sanitizeProgress(
-      hasCharacterProgress ? source.characterProgress?.['secret-2'] : null,
-      base.characterProgress['secret-2'],
-      'secret-2'
-    )
-  }
-  const vocabularyResults = Array.isArray(source.vocabularyResults)
-    ? source.vocabularyResults.slice(-30)
-    : []
-  const migratedDailyStats: Record<string, DailyStudyStats> = {}
-  if ((source.version ?? 0) < 4) {
-    for (const result of vocabularyResults) {
-      const date = result.completedAt.slice(0, 10)
-      const current = migratedDailyStats[date] ?? {
-        date,
-        xpEarned: 0,
-        storySessions: 0,
-        vocabularySessions: 0,
-        questionsAnswered: 0,
-        correctAnswers: 0
-      }
-      current.xpEarned += result.earnedXp
-      current.vocabularySessions += 1
-      current.questionsAnswered += result.totalCount
-      current.correctAnswers += result.correctCount
-      migratedDailyStats[date] = current
-    }
-  }
-  const migratedLifetimeStats: LifetimeStudyStats =
-    (source.version ?? 0) >= 4 && source.lifetimeStudyStats
-      ? {
-          storySessions: Math.max(0, Number(source.lifetimeStudyStats.storySessions ?? 0)),
-          vocabularySessions: Math.max(
-            0,
-            Number(source.lifetimeStudyStats.vocabularySessions ?? 0)
-          ),
-          questionsAnswered: Math.max(0, Number(source.lifetimeStudyStats.questionsAnswered ?? 0)),
-          correctAnswers: Math.max(0, Number(source.lifetimeStudyStats.correctAnswers ?? 0))
-        }
-      : {
-          storySessions: Object.values(characterProgress).reduce(
-            (total, item) => total + item.completed.length,
-            0
-          ),
-          vocabularySessions: vocabularyResults.length,
-          questionsAnswered: vocabularyResults.reduce(
-            (total, result) => total + result.totalCount,
-            0
-          ),
-          correctAnswers: vocabularyResults.reduce(
-            (total, result) => total + result.correctCount,
-            0
-          )
-        }
-  return {
-    ...base,
-    ...source,
-    version: 5,
-    activeCharacterId,
-    onboarded: Boolean(source.onboarded || source.characterSelectionCompleted),
-    characterSelectionCompleted:
-      (source.version ?? 0) >= 3
-        ? Boolean(source.characterSelectionCompleted)
-        : Boolean(source.onboarded),
-    characterProgress,
-    unlockedVocabularyLevel: Math.max(1, Math.min(6, Number(source.unlockedVocabularyLevel ?? 1))),
-    wordProgress:
-      source.wordProgress && typeof source.wordProgress === 'object' ? source.wordProgress : {},
-    lastSelectedVocabularyMode: isVocabularyMode(source.lastSelectedVocabularyMode)
-      ? source.lastSelectedVocabularyMode
-      : 'mixed',
-    lastSelectedVocabularyQuestionCount: isVocabularyQuestionCount(
-      source.lastSelectedVocabularyQuestionCount
-    )
-      ? source.lastSelectedVocabularyQuestionCount
-      : 10,
-    lastSelectedVocabularyStatuses: sanitizeVocabularyStatuses(
-      source.lastSelectedVocabularyStatuses
-    ),
-    activeStorySession: sanitizeActiveStorySession(source.activeStorySession),
-    activeVocabularySession: null,
-    vocabularyResults,
-    lifetimeStudyStats: migratedLifetimeStats,
-    dailyStudyStats:
-      (source.version ?? 0) >= 4
-        ? sanitizeDailyStats(source.dailyStudyStats)
-        : sanitizeDailyStats(migratedDailyStats)
-  }
-}
-
-function load(): SaveV5 {
-  try {
-    return migrateSave(JSON.parse(localStorage.getItem(KEY) || 'null'))
-  } catch {
-    return defaults()
-  }
-}
+const today = () => localDateKey(new Date())
 
 export const useAppStore = defineStore('app', () => {
-  const s = ref<SaveV5>(load())
+  const loaded = loadSave()
+  const s = ref<SaveData>(loaded.save)
+  const saveError = ref(loaded.error)
   const activeCharacter = computed(() => getCharacter(s.value.activeCharacterId))
   const progress = computed(() => s.value.characterProgress[s.value.activeCharacterId])
   const emmaProgress = computed(() => s.value.characterProgress.emma)
@@ -389,16 +84,14 @@ export const useAppStore = defineStore('app', () => {
         )
       : 0
   )
-  const todayVocabularyWordCount = computed(() =>
-    s.value.vocabularyResults
-      .filter(
-        (result) => new Date(result.completedAt).toLocaleDateString('sv-SE') === today()
-      )
-      .reduce((total, result) => total + result.totalCount, 0)
+  const todayVocabularyWordCount = computed(
+    () => s.value.dailyStudyStats[today()]?.vocabularyQuestionsAnswered ?? 0
   )
 
   function persist() {
-    localStorage.setItem(KEY, JSON.stringify(s.value))
+    // A failed initial read must never allow defaults to overwrite an existing save.
+    if (loaded.error) return
+    saveError.value = writeSave(s.value)
   }
 
   function markStudyDay() {
@@ -412,12 +105,14 @@ export const useAppStore = defineStore('app', () => {
     const date = today()
     const current = s.value.dailyStudyStats[date] ?? {
       date,
+      vocabularyQuestionsAnswered: 0,
       xpEarned: 0,
       storySessions: 0,
       vocabularySessions: 0,
       questionsAnswered: 0,
       correctAnswers: 0
     }
+    current.vocabularyQuestionsAnswered += activity.vocabularyQuestionsAnswered
     current.xpEarned += activity.xpEarned
     current.storySessions += activity.storySessions
     current.vocabularySessions += activity.vocabularySessions
@@ -623,6 +318,7 @@ export const useAppStore = defineStore('app', () => {
         xpEarned: englishXp,
         storySessions: 1,
         vocabularySessions: 0,
+        vocabularyQuestionsAnswered: 0,
         questionsAnswered: results.length,
         correctAnswers: results.filter(
           (choiceResult) => choiceResult.affectionChange > 0 || choiceResult.trustChange > 0
@@ -651,6 +347,7 @@ export const useAppStore = defineStore('app', () => {
         xpEarned: result.choice.englishXp,
         storySessions: 1,
         vocabularySessions: 0,
+        vocabularyQuestionsAnswered: 0,
         questionsAnswered: 0,
         correctAnswers: 0
       })
@@ -751,6 +448,7 @@ export const useAppStore = defineStore('app', () => {
       xpEarned: result.earnedXp,
       storySessions: 0,
       vocabularySessions: 1,
+      vocabularyQuestionsAnswered: result.totalCount,
       questionsAnswered: result.totalCount,
       correctAnswers: result.correctCount
     })
@@ -812,11 +510,13 @@ export const useAppStore = defineStore('app', () => {
 
   function reset() {
     s.value = defaults()
+    loaded.error = null
     persist()
   }
 
   return {
     s,
+    saveError,
     activeCharacter,
     progress,
     emmaProgress,

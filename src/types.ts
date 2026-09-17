@@ -183,6 +183,7 @@ export interface AppSettings {
 }
 export interface DailyStudyStats {
   date: string
+  vocabularyQuestionsAnswered: number
   xpEarned: number
   storySessions: number
   vocabularySessions: number
@@ -235,6 +236,7 @@ export interface VocabularyQuestion {
   type: VocabularyQuestionType
   options: string[]
   prompt?: string
+  sentence?: string
   promptJa?: string
   answer?: string
   tokens?: VocabularyQuestionToken[]

@@ -1,24 +1,37 @@
 <script setup lang="ts">
 import { RouterView, useRoute } from 'vue-router'
 import BottomNav from './components/BottomNav.vue'
+import { useAppStore } from './stores/app'
 import { applyPwaUpdate, dismissPwaUpdate, pwaUpdate } from './pwa-update'
 const route = useRoute()
+const store = useAppStore()
 </script>
 <template>
   <main class="phone">
+    <p v-if="store.saveError" class="save-error" role="alert">{{ store.saveError }}</p>
     <RouterView v-slot="{ Component }"
       ><Transition name="page" mode="out-in"><component :is="Component" /></Transition></RouterView
     ><BottomNav v-if="route.meta.nav" />
     <Transition name="update-notice">
       <aside v-if="pwaUpdate.available" class="update-notice" role="status" aria-live="polite">
-        <button class="update-notice-close" type="button" aria-label="あとで更新する" @click="dismissPwaUpdate">
+        <button
+          class="update-notice-close"
+          type="button"
+          aria-label="あとで更新する"
+          @click="dismissPwaUpdate"
+        >
           ×
         </button>
         <div>
           <strong>新しいバージョンがあります</strong>
           <span>更新すると、最新の機能をすぐに利用できます。</span>
         </div>
-        <button class="update-notice-action" type="button" :disabled="pwaUpdate.applying" @click="applyPwaUpdate">
+        <button
+          class="update-notice-action"
+          type="button"
+          :disabled="pwaUpdate.applying"
+          @click="applyPwaUpdate"
+        >
           {{ pwaUpdate.applying ? '更新中…' : '今すぐ更新' }}
         </button>
       </aside>
@@ -27,6 +40,21 @@ const route = useRoute()
 </template>
 
 <style scoped>
+.save-error {
+  position: fixed;
+  top: max(12px, env(safe-area-inset-top));
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1100;
+  width: min(90%, 390px);
+  padding: 12px 16px;
+  border: 1px solid #e49aaa;
+  border-radius: 12px;
+  background: #fff0f3;
+  color: #813b4a;
+  font-size: 13px;
+}
+
 .update-notice {
   position: fixed;
   z-index: 1000;

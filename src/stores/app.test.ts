@@ -191,7 +191,7 @@ describe('app store progression', () => {
         }
       }
     })
-    expect(migrated.version).toBe(5)
+    expect(migrated.version).toBe(6)
     expect(migrated.name).toBe('Keiya')
     expect(migrated.activeCharacterId).toBe('emma')
     expect(migrated.characterSelectionCompleted).toBe(true)
@@ -380,10 +380,9 @@ describe('app store progression', () => {
     store.setVocabularyStatuses(['learning', 'mastered'])
     store.startVocabularySession(1, 'flashcard', 'all')
 
-    expect(store.s.activeVocabularySession?.questions.map((question) => question.wordId).sort()).toEqual([
-      'v0001',
-      'v0002'
-    ])
+    expect(
+      store.s.activeVocabularySession?.questions.map((question) => question.wordId).sort()
+    ).toEqual(['v0001', 'v0002'])
     expect(JSON.parse(data.get('love-language-save-v1') ?? '{}')).toMatchObject({
       lastSelectedVocabularyStatuses: ['learning', 'mastered']
     })
@@ -475,5 +474,55 @@ describe('app store progression', () => {
     const date = new Date().toLocaleDateString('sv-SE')
     expect(store.s.dailyStudyStats[date].storySessions).toBe(1)
     expect(store.s.dailyStudyStats[date].xpEarned).toBe(choice.englishXp)
+  })
+
+  it('keeps daily vocabulary totals after 30 sessions, story activity, and reload', () => {
+    const store = useAppStore()
+    for (let index = 0; index < 31; index += 1) {
+      store.s.activeVocabularySession = {
+        id: `daily-${index}`,
+        level: 1,
+        mode: 'flashcard',
+        questions: [{ wordId: 'v0001', type: 'flashcard', options: [] }],
+        currentIndex: 0,
+        answers: [],
+        startedAt: new Date().toISOString()
+      }
+      store.answerVocabularyQuestion(true)
+    }
+    store.complete({ characterId: 'emma', chapterId: 1, choice: chapters[0].scene.choices![0] })
+    expect(store.s.vocabularyResults).toHaveLength(30)
+    expect(store.todayVocabularyWordCount).toBe(31)
+    setActivePinia(createPinia())
+    const reloaded = useAppStore()
+    expect(reloaded.todayVocabularyWordCount).toBe(31)
+    expect(reloaded.s.dailyStudyStats[new Date().toLocaleDateString('sv-SE')].storySessions).toBe(1)
+  })
+
+  it('does not overwrite existing progress when the initial storage read fails', () => {
+    const raw = JSON.stringify({ version: 5, name: 'Saved', xp: 200 })
+    data.set('love-language-save-v1', raw)
+    const spy = vi.spyOn(localStorage, 'getItem').mockImplementationOnce(() => {
+      throw new Error('Storage unavailable')
+    })
+    const store = useAppStore()
+    expect(store.saveError).toBeTruthy()
+    spy.mockRestore()
+    store.setName('Unsaved')
+    expect(data.get('love-language-save-v1')).toBe(raw)
+  })
+
+  it('retains in-memory progress on write failure and clears the error after a successful write', () => {
+    const store = useAppStore()
+    const spy = vi.spyOn(localStorage, 'setItem').mockImplementationOnce(() => {
+      throw new Error('Quota exceeded')
+    })
+    expect(() => store.setName('Keiya')).not.toThrow()
+    expect(store.s.name).toBe('Keiya')
+    expect(store.saveError).toBeTruthy()
+    spy.mockRestore()
+    store.finishOnboarding()
+    expect(store.saveError).toBeNull()
+    expect(JSON.parse(data.get('love-language-save-v1')!).name).toBe('Keiya')
   })
 })

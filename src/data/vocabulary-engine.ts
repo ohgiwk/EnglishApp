@@ -30,9 +30,14 @@ const exerciseTypes: VocabularyQuestion['type'][] = [
   'reorder'
 ]
 
+const wordMatch = (sentence: string, word: string) => {
+  const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  return new RegExp(`(?<![\\p{L}\\p{N}_])${escaped}(?![\\p{L}\\p{N}_])`, 'iu').exec(sentence)
+}
+
 const safeExample = (word: VocabularyWord) => {
   const example = word.example.trim()
-  return example.toLocaleLowerCase().includes(word.word.toLocaleLowerCase())
+  return wordMatch(example, word.word)
     ? example
     : `Emma wrote “${word.word}” in her vocabulary notebook.`
 }
@@ -61,8 +66,9 @@ const reorderExample = (word: VocabularyWord) => {
 
 export const buildFillBlank = (word: VocabularyWord) => {
   const sentence = safeExample(word)
-  const start = sentence.toLocaleLowerCase().indexOf(word.word.toLocaleLowerCase())
+  const start = wordMatch(sentence, word.word)!.index
   return {
+    sentence,
     prompt: `${sentence.slice(0, start)}____${sentence.slice(start + word.word.length)}`,
     promptJa:
       sentence === word.example.trim()
@@ -70,6 +76,22 @@ export const buildFillBlank = (word: VocabularyWord) => {
         : `エマは単語帳に「${word.word}」と書きました。`,
     answer: word.word
   }
+}
+
+export function isCorrectReorder(
+  question: Pick<VocabularyQuestion, 'tokens' | 'correctOrder'>,
+  placedIds: string[]
+): boolean {
+  const { tokens, correctOrder } = question
+  if (!tokens?.length || !correctOrder || placedIds.length !== correctOrder.length) return false
+  if (new Set(placedIds).size !== placedIds.length) return false
+  const byId = new Map(tokens.map((token) => [token.id, token.text]))
+  return placedIds.every(
+    (id, index) =>
+      byId.has(id) &&
+      byId.has(correctOrder[index]) &&
+      byId.get(id) === byId.get(correctOrder[index])
+  )
 }
 
 export const buildReorder = (word: VocabularyWord, random: () => number = Math.random) => {

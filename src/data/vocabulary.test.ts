@@ -4,6 +4,7 @@ import {
   buildReorder,
   buildVocabularySession,
   hasNaturalReorderExample,
+  isCorrectReorder,
   rewardForAccuracy,
   summarizeVocabularySession
 } from './vocabulary-engine'
@@ -12,6 +13,44 @@ import { vocabularyLevels, vocabularyWords } from './vocabulary'
 import { exampleSourceFor } from './vocabulary-examples'
 
 describe('vocabulary data', () => {
+  it('blanks the whole target word instead of a substring in another word', () => {
+    const word = vocabularyWords.find((item) => item.word === 'out')!
+    const fill = buildFillBlank(word)
+    expect(fill.prompt).toBe('Everyone learned something about the ____.')
+    expect(fill.sentence).toBe(word.example)
+    expect(fill.prompt.replace('____', fill.answer)).toBe(fill.sentence)
+  })
+
+  it('preserves sentence capitalization and handles missing standalone words', () => {
+    const word = vocabularyWords[0]
+    expect(buildFillBlank({ ...word, word: 'the', example: 'The train arrived.' }).sentence).toBe(
+      'The train arrived.'
+    )
+    const fill = buildFillBlank({ ...word, word: 'out', example: 'We talked about it.' })
+    expect(fill.prompt).toBe('Emma wrote “____” in her vocabulary notebook.')
+    expect(fill.sentence).toBe('Emma wrote “out” in her vocabulary notebook.')
+  })
+
+  it('accepts interchangeable identical tokens but rejects wrong or reused tokens', () => {
+    const word = vocabularyWords.find((item) => item.word === 'do')!
+    const question = buildReorder(word, () => 0.42)
+    const ids = [...question.correctOrder]
+    const duplicates = question.tokens.filter((token) => token.text === 'do')
+    const a = ids.indexOf(duplicates[0].id)
+    const b = ids.indexOf(duplicates[1].id)
+    ;[ids[a], ids[b]] = [ids[b], ids[a]]
+    expect(isCorrectReorder(question, ids)).toBe(true)
+    expect(isCorrectReorder(question, ids.slice(1))).toBe(false)
+    expect(
+      isCorrectReorder(
+        question,
+        ids.map((id, index) => (index === a ? ids[b] : id))
+      )
+    ).toBe(false)
+    expect(isCorrectReorder(question, ['unknown', ...ids.slice(1)])).toBe(false)
+    ;[ids[0], ids[1]] = [ids[1], ids[0]]
+    expect(isCorrectReorder(question, ids)).toBe(false)
+  })
   it('contains exactly 1,000 complete, unique words in the planned level sizes', () => {
     expect(vocabularyWords).toHaveLength(1000)
     expect(new Set(vocabularyWords.map((word) => word.id)).size).toBe(1000)
@@ -128,10 +167,7 @@ describe('vocabulary data', () => {
       'all',
       ['learning', 'mastered']
     )
-    expect(session.questions.map((question) => question.wordId).sort()).toEqual([
-      'v0001',
-      'v0002'
-    ])
+    expect(session.questions.map((question) => question.wordId).sort()).toEqual(['v0001', 'v0002'])
   })
 
   it('keeps each studied word and its correctness in the session result', () => {

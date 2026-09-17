@@ -4,7 +4,7 @@ import { onBeforeRouteLeave, useRoute, useRouter } from 'vue-router'
 import { Check, ChevronRight, RotateCcw, Volume2, VolumeX, X } from '@lucide/vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyWords } from '../data/vocabulary'
-import { buildFillBlank } from '../data/vocabulary-engine'
+import { buildFillBlank, isCorrectReorder } from '../data/vocabulary-engine'
 import { vocabularyCommentFor, type VocabularyCommentState } from '../data/vocabulary-comments'
 import { useAppStore } from '../stores/app'
 import {
@@ -143,7 +143,7 @@ const fillBlankTranslation = computed(
   () => question.value?.promptJa ?? (word.value ? buildFillBlank(word.value).promptJa : '')
 )
 const completedFillBlank = computed(
-  () => question.value?.prompt?.replace('____', () => question.value?.answer ?? '') ?? ''
+  () => question.value?.sentence ?? (word.value ? buildFillBlank(word.value).sentence : '')
 )
 const isChoice = computed(
   () => question.value?.type === 'en-to-ja' || question.value?.type === 'ja-to-en'
@@ -214,8 +214,9 @@ function checkOrder() {
   ) {
     return
   }
-  wasCorrect.value =
-    placedTokenIds.value.join('|') === (question.value?.correctOrder ?? []).join('|')
+  wasCorrect.value = Boolean(
+    question.value && isCorrectReorder(question.value, placedTokenIds.value)
+  )
   revealed.value = true
   if (!muted.value && question.value?.prompt) speakAmericanEnglish(question.value.prompt)
 }
