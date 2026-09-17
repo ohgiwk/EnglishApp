@@ -1324,6 +1324,7 @@
   margin: 7px 0 0;
   font-family: serif;
   font-size: 55px;
+  animation: result-score-pop 0.9s cubic-bezier(0.2, 0.9, 0.25, 1.25) both;
 }
 
 .result-celebration > p:not(.eyebrow) {
@@ -1336,6 +1337,59 @@
   justify-content: center;
   gap: 6px;
   color: #e4ae45;
+}
+
+.result-stars svg {
+  opacity: 0;
+  color: #cfc8d2;
+  transform-origin: center;
+  animation: result-star-arrive 0.62s cubic-bezier(0.2, 1.35, 0.45, 1) forwards;
+}
+
+.result-stars svg.earned {
+  color: #e4ae45;
+  filter: drop-shadow(0 3px 5px #e4ae4566);
+}
+
+.result-stars svg:nth-child(1) {
+  animation-delay: 0.38s;
+}
+
+.result-stars svg:nth-child(2) {
+  animation-delay: 0.55s;
+}
+
+.result-stars svg:nth-child(3) {
+  animation-delay: 0.72s;
+}
+
+@keyframes result-score-pop {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) scale(0.65);
+  }
+  72% {
+    transform: translateY(-3px) scale(1.08);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes result-star-arrive {
+  0% {
+    opacity: 0;
+    transform: translateY(12px) rotate(-18deg) scale(0.2);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(-3px) rotate(8deg) scale(1.25);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .result-emma {
@@ -1779,8 +1833,12 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .result-celebration h1,
+  .result-stars svg,
   .session-track i,
   .vocab-options button {
+    animation: none;
+    opacity: 1;
     transition: none;
   }
 }

@@ -68,7 +68,7 @@ export async function speakAmericanEnglish(text: string) {
   window.speechSynthesis.speak(utterance)
 }
 
-export function speakAmericanEnglishAfterPause(text: string, delayMs = 350) {
+export function speakAmericanEnglishAfterPause(text: string, delayMs = 180) {
   cancelEnglishSpeech()
   pendingSpeech = setTimeout(() => {
     pendingSpeech = null

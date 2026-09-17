@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { computed } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import {
   BookMarked,
@@ -20,6 +20,24 @@ import { useAppStore } from '../stores/app'
 const store = useAppStore()
 const router = useRouter()
 const result = computed(() => store.s.lastVocabularyResult)
+const animatedAccuracy = ref(0)
+let accuracyFrame = 0
+onMounted(() => {
+  const target = result.value?.accuracy ?? 0
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    animatedAccuracy.value = target
+    return
+  }
+  const startedAt = performance.now()
+  const animate = (time: number) => {
+    const progress = Math.min(1, (time - startedAt) / 900)
+    const eased = 1 - Math.pow(1 - progress, 3)
+    animatedAccuracy.value = Math.round(target * eased)
+    if (progress < 1) accuracyFrame = requestAnimationFrame(animate)
+  }
+  accuracyFrame = requestAnimationFrame(animate)
+})
+onBeforeUnmount(() => cancelAnimationFrame(accuracyFrame))
 const studiedWords = computed(() =>
   (result.value?.answers ?? []).flatMap((answer) => {
     const word = vocabularyWords.find((item) => item.id === answer.wordId)
@@ -58,12 +76,13 @@ function retry() {
     <div class="result-celebration">
       <Sparkles />
       <p class="eyebrow">WORD SESSION COMPLETE</p>
-      <h1>{{ result.accuracy }}%</h1>
+      <h1 :aria-label="`正答率 ${result.accuracy}%`">{{ animatedAccuracy }}%</h1>
       <p>{{ result.correctCount }} / {{ result.totalCount }} words</p>
       <div class="result-stars">
         <Star
           v-for="index in 3"
           :key="index"
+          :class="{ earned: result.accuracy >= index * 30 }"
           :fill="result.accuracy >= index * 30 ? 'currentColor' : 'none'"
         />
       </div>
