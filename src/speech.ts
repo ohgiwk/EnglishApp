@@ -4,6 +4,10 @@ const normalizedLanguage = (voice: SpeechSynthesisVoice) =>
 const supportedAmericanVoice = (voice: SpeechSynthesisVoice) =>
   normalizedLanguage(voice) === 'en-us' && !/christopher|jenny|samantha/i.test(voice.name)
 
+const isIPhoneFamily = () =>
+  /iPhone|iPad|iPod/i.test(navigator.userAgent) ||
+  (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1)
+
 const VOICE_KEY = 'love-language-american-voice'
 
 const savedVoiceId = () => {
@@ -32,7 +36,11 @@ const preferredAmericanVoice = (voices: SpeechSynthesisVoice[]) => {
     const voice = americanVoices.find((candidate) => pattern.test(candidate.name))
     if (voice) return voice
   }
-  return americanVoices[0] ?? allAmericanVoices[0] ?? null
+  if (americanVoices[0]) return americanVoices[0]
+  if (isIPhoneFamily()) {
+    return allAmericanVoices.find((voice) => /^samantha/i.test(voice.name)) ?? null
+  }
+  return null
 }
 
 let pendingSpeech: ReturnType<typeof setTimeout> | null = null
