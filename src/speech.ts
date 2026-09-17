@@ -1,12 +1,29 @@
 const normalizedLanguage = (voice: SpeechSynthesisVoice) =>
   voice.lang.toLowerCase().replace('_', '-')
 
+const supportedAmericanVoice = (voice: SpeechSynthesisVoice) =>
+  normalizedLanguage(voice) === 'en-us' && !/christopher|jenny|samantha/i.test(voice.name)
+
+const VOICE_KEY = 'love-language-american-voice'
+
+const savedVoiceId = () => {
+  try {
+    return localStorage.getItem(VOICE_KEY) ?? ''
+  } catch {
+    return ''
+  }
+}
+
 const preferredAmericanVoice = (voices: SpeechSynthesisVoice[]) => {
-  const americanVoices = voices.filter((voice) => normalizedLanguage(voice) === 'en-us')
+  const americanVoices = voices.filter(supportedAmericanVoice)
+  const preference = savedVoiceId()
+  const saved = americanVoices.find(
+    (voice) => voice.voiceURI === preference || voice.name === preference
+  )
+  if (saved) return saved
   const priorities = [
     /google us english/i,
-    /microsoft.*(aria|jenny|guy)/i,
-    /^samantha/i,
+    /microsoft.*(aria|guy)/i,
     /^allison/i,
     /^ava/i
   ]
@@ -23,6 +40,19 @@ let selectedAmericanVoice: SpeechSynthesisVoice | null = null
 
 export const englishSpeechAvailable = () =>
   typeof window !== 'undefined' && 'speechSynthesis' in window
+
+export const getAmericanVoicePreference = () => savedVoiceId()
+
+export function setAmericanVoicePreference(voiceId: string) {
+  try {
+    if (voiceId) localStorage.setItem(VOICE_KEY, voiceId)
+    else localStorage.removeItem(VOICE_KEY)
+  } catch {
+    // The browser may block storage in private contexts; the default voice remains available.
+  }
+  selectedAmericanVoice = null
+  cancelEnglishSpeech()
+}
 
 async function waitForAmericanVoice() {
   if (selectedAmericanVoice) return selectedAmericanVoice
@@ -49,6 +79,15 @@ async function waitForAmericanVoice() {
     synthesis.addEventListener('voiceschanged', handleVoicesChanged)
     setTimeout(() => finish(preferredAmericanVoice(synthesis.getVoices())), 1500)
   })
+}
+
+export async function getAmericanEnglishVoices() {
+  if (!englishSpeechAvailable()) return []
+  await waitForAmericanVoice()
+  return window.speechSynthesis
+    .getVoices()
+    .filter(supportedAmericanVoice)
+    .sort((a, b) => a.name.localeCompare(b.name))
 }
 
 export async function speakAmericanEnglish(text: string) {

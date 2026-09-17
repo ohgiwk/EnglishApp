@@ -1,6 +1,17 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { BookOpen, Check, Edit3, Flame, Save, Star, Target, Trophy, X } from '@lucide/vue'
+import {
+  BookOpen,
+  Check,
+  Edit3,
+  Flame,
+  Save,
+  Settings,
+  Star,
+  Target,
+  Trophy,
+  X
+} from '@lucide/vue'
 import { useAppStore } from '../stores/app'
 
 const store = useAppStore()
@@ -53,7 +64,10 @@ function saveName() {
         <label for="player-name">PLAYER NAME</label>
         <input id="player-name" v-model="draftName" maxlength="12" @keyup.enter="saveName" />
       </div>
-      <button v-if="!editing" aria-label="名前を編集" @click="beginEdit"><Edit3 /></button>
+      <div v-if="!editing" class="status-actions">
+        <RouterLink to="/settings" aria-label="設定"><Settings /></RouterLink>
+        <button aria-label="名前を編集" @click="beginEdit"><Edit3 /></button>
+      </div>
       <div v-else class="edit-actions">
         <button aria-label="キャンセル" @click="editing = false"><X /></button>
         <button aria-label="保存" :disabled="!draftName.trim()" @click="saveName"><Save /></button>

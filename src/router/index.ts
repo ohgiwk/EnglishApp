@@ -23,6 +23,7 @@ const router = createRouter({
     { path: '/review', redirect: '/learn/review' },
     { path: '/character', component: view('CharacterView'), meta: { nav: true } },
     { path: '/status', component: view('StatusView'), meta: { nav: true } },
+    { path: '/settings', component: view('SettingsView') },
     { path: '/profile', redirect: { path: '/character', query: { tab: 'profile' } } },
     { path: '/memories', redirect: { path: '/character', query: { tab: 'memories' } } }
   ]
