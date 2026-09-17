@@ -3,6 +3,7 @@ import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { ArrowLeft, BookOpen, Check, ChevronRight, Search, Volume2, X } from '@lucide/vue'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
+import { englishSpeechAvailable, speakAmericanEnglish } from '../speech'
 import { useAppStore } from '../stores/app'
 import type { VocabularyPartOfSpeech, VocabularyStatus, VocabularyWord } from '../types'
 
@@ -14,7 +15,7 @@ const part = ref<VocabularyPartOfSpeech | ''>('')
 const status = ref<VocabularyStatus | ''>('')
 const selected = ref<VocabularyWord | null>(null)
 const pageSize = ref(60)
-const speechAvailable = 'speechSynthesis' in window
+const speechAvailable = englishSpeechAvailable()
 
 const statusOf = (word: VocabularyWord): VocabularyStatus =>
   store.s.wordProgress[word.id]?.status ?? 'new'
@@ -31,22 +32,7 @@ const filtered = computed(() =>
 )
 const visible = computed(() => filtered.value.slice(0, pageSize.value))
 function speak(text: string) {
-  if (!speechAvailable) return
-  speechSynthesis.cancel()
-  const utterance = new SpeechSynthesisUtterance(text)
-  const voices = speechSynthesis.getVoices()
-  utterance.lang = 'en-US'
-  utterance.rate = 0.9
-  utterance.voice =
-    voices.find(
-      (voice) =>
-        voice.lang.toLowerCase() === 'en-us' &&
-        /samantha|ava|allison|google us english|microsoft.*(aria|jenny|guy)/i.test(voice.name)
-    ) ??
-    voices.find((voice) => voice.lang.toLowerCase() === 'en-us') ??
-    voices.find((voice) => voice.lang.toLowerCase().startsWith('en')) ??
-    null
-  speechSynthesis.speak(utterance)
+  speakAmericanEnglish(text)
 }
 </script>
 

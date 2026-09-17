@@ -1,11 +1,16 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { onBeforeRouteLeave, useRoute, useRouter } from 'vue-router'
-import { Check, ChevronRight, RotateCcw, Volume2, X } from '@lucide/vue'
+import { Check, ChevronRight, RotateCcw, Volume2, VolumeX, X } from '@lucide/vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyWords } from '../data/vocabulary'
 import { vocabularyCommentFor, type VocabularyCommentState } from '../data/vocabulary-comments'
 import { useAppStore } from '../stores/app'
+import {
+  cancelEnglishSpeech,
+  speakAmericanEnglish,
+  speakAmericanEnglishAfterPause
+} from '../speech'
 
 const store = useAppStore()
 const route = useRoute()
@@ -17,6 +22,7 @@ const revealed = ref(false)
 const wasCorrect = ref<boolean | null>(null)
 const showOutcome = ref(false)
 const showExitDialog = ref(false)
+const muted = ref(false)
 const outcomePanel = ref<HTMLElement | null>(null)
 const stayButton = ref<HTMLButtonElement | null>(null)
 const interruptButton = ref<HTMLButtonElement | null>(null)
@@ -31,6 +37,7 @@ onMounted(() => {
 })
 onBeforeUnmount(() => {
   window.removeEventListener('beforeunload', confirmBrowserExit)
+  cancelEnglishSpeech()
 })
 onBeforeRouteLeave(() => {
   if (!store.s.activeVocabularySession) return true
@@ -99,6 +106,14 @@ function handleExitDialogKeydown(event: KeyboardEvent) {
 const session = computed(() => store.s.activeVocabularySession)
 const question = computed(() => session.value?.questions[session.value.currentIndex])
 const word = computed(() => vocabularyWords.find((item) => item.id === question.value?.wordId))
+watch(
+  () => question.value?.wordId,
+  (wordId) => {
+    if (!wordId || muted.value) return
+    if (word.value) speakAmericanEnglishAfterPause(word.value.word)
+  },
+  { flush: 'sync' }
+)
 const commentState = computed<VocabularyCommentState>(() =>
   wasCorrect.value === true ? 'correct' : wasCorrect.value === false ? 'incorrect' : 'waiting'
 )
@@ -204,9 +219,11 @@ function next() {
   if (result) router.replace('/learn/result')
 }
 function speak() {
-  if (!word.value || !('speechSynthesis' in window)) return
-  speechSynthesis.cancel()
-  speechSynthesis.speak(new SpeechSynthesisUtterance(word.value.word))
+  if (word.value) speakAmericanEnglish(word.value.word)
+}
+function toggleMute() {
+  muted.value = !muted.value
+  if (muted.value) cancelEnglishSpeech()
 }
 </script>
 
@@ -224,6 +241,14 @@ function speak() {
           <small>LEVEL {{ session.level }}</small
           ><b>{{ session.currentIndex + 1 }} / {{ session.questions.length }}</b>
         </div>
+        <button
+          :aria-label="muted ? '自動読み上げをオンにする' : '自動読み上げをミュートする'"
+          :aria-pressed="muted"
+          @click="toggleMute"
+        >
+          <VolumeX v-if="muted" />
+          <Volume2 v-else />
+        </button>
       </header>
       <div class="session-track"><i :style="{ width: `${progress}%` }" /></div>
 
@@ -239,15 +264,17 @@ function speak() {
 
       <main>
         <p class="eyebrow">{{ exerciseLabel }}</p>
-        <span class="question-label">{{ promptLabel }}</span>
+        <div class="question-instruction">
+          <span class="question-label">{{ promptLabel }}</span>
+          <button type="button" aria-label="単語を再生" @click="speak">
+            <Volume2 :size="16" /> 発音
+          </button>
+        </div>
         <div
           v-if="question.type !== 'fill-blank' && question.type !== 'reorder'"
           class="word-prompt"
         >
           <h1>{{ prompt }}</h1>
-          <button v-if="question.type !== 'ja-to-en'" aria-label="単語を再生" @click="speak">
-            <Volume2 />
-          </button>
         </div>
 
         <template v-if="isChoice">

@@ -6,6 +6,7 @@ import { chapters } from '../data/chapters'
 import { getStoryFlow } from '../data/story-flows'
 import { choiceResultFor, storyArtworkStage } from '../data/story-engine'
 import { useAppStore } from '../stores/app'
+import { speakAmericanEnglish } from '../speech'
 import type { Dialogue } from '../types'
 
 const route = useRoute()
@@ -130,9 +131,7 @@ function handleFeedbackKeydown(event: KeyboardEvent) {
 }
 
 function speak(text: string) {
-  if (!('speechSynthesis' in window)) return
-  speechSynthesis.cancel()
-  speechSynthesis.speak(new SpeechSynthesisUtterance(fill(text)))
+  speakAmericanEnglish(fill(text))
 }
 </script>
 
