@@ -12,7 +12,6 @@ import {
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
-import { speakAmericanEnglishAfterPause } from '../speech'
 import type { VocabularyQuestionCount, VocabularySessionMode, VocabularyStatus } from '../types'
 
 const store = useAppStore()
@@ -121,9 +120,6 @@ onBeforeUnmount(() => {
 })
 function start() {
   store.startVocabularySession(selectedLevel.value, selectedMode.value, selectedQuestionCount.value)
-  const firstQuestion = store.s.activeVocabularySession?.questions[0]
-  const firstWord = vocabularyWords.find((word) => word.id === firstQuestion?.wordId)
-  if (firstWord) speakAmericanEnglishAfterPause(firstWord.word)
   router.push(`/learn/session/${selectedLevel.value}`)
 }
 </script>

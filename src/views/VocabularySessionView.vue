@@ -4,6 +4,7 @@ import { onBeforeRouteLeave, useRoute, useRouter } from 'vue-router'
 import { Check, ChevronRight, RotateCcw, Volume2, VolumeX, X } from '@lucide/vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyWords } from '../data/vocabulary'
+import { buildFillBlank } from '../data/vocabulary-engine'
 import { vocabularyCommentFor, type VocabularyCommentState } from '../data/vocabulary-comments'
 import { useAppStore } from '../stores/app'
 import {
@@ -107,12 +108,19 @@ const session = computed(() => store.s.activeVocabularySession)
 const question = computed(() => session.value?.questions[session.value.currentIndex])
 const word = computed(() => vocabularyWords.find((item) => item.id === question.value?.wordId))
 watch(
-  () => question.value?.wordId,
-  (wordId) => {
-    if (!wordId || muted.value) return
+  question,
+  (currentQuestion) => {
+    cancelEnglishSpeech()
+    if (
+      !currentQuestion ||
+      currentQuestion.type === 'fill-blank' ||
+      currentQuestion.type === 'reorder' ||
+      muted.value
+    )
+      return
     if (word.value) speakAmericanEnglishAfterPause(word.value.word)
   },
-  { flush: 'sync' }
+  { flush: 'sync', immediate: true }
 )
 const commentState = computed<VocabularyCommentState>(() =>
   wasCorrect.value === true ? 'correct' : wasCorrect.value === false ? 'incorrect' : 'waiting'
@@ -131,6 +139,12 @@ const correctAnswerDisplay = computed(() => {
   if (question.value?.type === 'reorder') return question.value.prompt
   return correctValue.value
 })
+const fillBlankTranslation = computed(
+  () => question.value?.promptJa ?? (word.value ? buildFillBlank(word.value).promptJa : '')
+)
+const completedFillBlank = computed(
+  () => question.value?.prompt?.replace('____', () => question.value?.answer ?? '') ?? ''
+)
 const isChoice = computed(
   () => question.value?.type === 'en-to-ja' || question.value?.type === 'ja-to-en'
 )
@@ -179,6 +193,7 @@ function checkFillBlank() {
   const normalize = (value: string) => value.trim().normalize('NFKC').toLocaleLowerCase()
   wasCorrect.value = normalize(fillAnswer.value) === normalize(question.value?.answer ?? '')
   revealed.value = true
+  if (!muted.value && completedFillBlank.value) speakAmericanEnglish(completedFillBlank.value)
 }
 function placeToken(id: string) {
   if (revealed.value || placedTokenIds.value.includes(id)) return
@@ -202,6 +217,7 @@ function checkOrder() {
   wasCorrect.value =
     placedTokenIds.value.join('|') === (question.value?.correctOrder ?? []).join('|')
   revealed.value = true
+  if (!muted.value && question.value?.prompt) speakAmericanEnglish(question.value.prompt)
 }
 function rateCard(correct: boolean) {
   wasCorrect.value = correct
@@ -219,6 +235,14 @@ function next() {
   if (result) router.replace('/learn/result')
 }
 function speak() {
+  if (question.value?.type === 'reorder') {
+    if (revealed.value && question.value.prompt) speakAmericanEnglish(question.value.prompt)
+    return
+  }
+  if (question.value?.type === 'fill-blank') {
+    if (revealed.value && completedFillBlank.value) speakAmericanEnglish(completedFillBlank.value)
+    return
+  }
   if (word.value) speakAmericanEnglish(word.value.word)
 }
 function toggleMute() {
@@ -266,7 +290,12 @@ function toggleMute() {
         <p class="eyebrow">{{ exerciseLabel }}</p>
         <div class="question-instruction">
           <span class="question-label">{{ promptLabel }}</span>
-          <button type="button" aria-label="単語を再生" @click="speak">
+          <button
+            v-if="question.type !== 'fill-blank' && question.type !== 'reorder'"
+            type="button"
+            aria-label="単語を再生"
+            @click="speak"
+          >
             <Volume2 :size="16" /> 発音
           </button>
         </div>
@@ -319,7 +348,10 @@ function toggleMute() {
           class="fill-blank"
           @submit.prevent="checkFillBlank"
         >
-          <p>{{ question.prompt }}</p>
+          <p>
+            {{ question.prompt }}
+            <small class="fill-blank-translation">{{ fillBlankTranslation }}</small>
+          </p>
           <label for="fill-answer">答えを入力</label>
           <div>
             <input
@@ -426,8 +458,29 @@ function toggleMute() {
               >{{ word?.word }} <small>{{ word?.partOfSpeech }}</small></b
             >
             <p>{{ word?.meaningJa }}</p>
-            <q>{{ word?.example }}</q>
-            <small>{{ word?.exampleJa }}</small>
+            <q>{{
+              question?.type === 'fill-blank'
+                ? completedFillBlank
+                : question?.type === 'reorder'
+                  ? question.prompt
+                  : word?.example
+            }}</q>
+            <small>{{
+              question?.type === 'fill-blank'
+                ? fillBlankTranslation
+                : question?.type === 'reorder'
+                  ? question.promptJa
+                  : word?.exampleJa
+            }}</small>
+            <button
+              v-if="question?.type === 'fill-blank' || question?.type === 'reorder'"
+              class="outcome-pronunciation"
+              type="button"
+              aria-label="正解の英文を再生"
+              @click="speak"
+            >
+              <Volume2 :size="16" /> 英文の発音
+            </button>
           </div>
         </div>
         <button type="button" @click="next">次の問題へ <ChevronRight /></button>

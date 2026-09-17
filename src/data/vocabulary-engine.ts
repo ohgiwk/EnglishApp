@@ -64,6 +64,10 @@ export const buildFillBlank = (word: VocabularyWord) => {
   const start = sentence.toLocaleLowerCase().indexOf(word.word.toLocaleLowerCase())
   return {
     prompt: `${sentence.slice(0, start)}____${sentence.slice(start + word.word.length)}`,
+    promptJa:
+      sentence === word.example.trim()
+        ? word.exampleJa
+        : `エマは単語帳に「${word.word}」と書きました。`,
     answer: word.word
   }
 }
@@ -150,10 +154,8 @@ export function buildVocabularySession(
 }
 
 export function rewardForAccuracy(accuracy: number, answeredCount: number) {
-  if (accuracy >= 80)
-    return { earnedXp: answeredCount * 3, affectionChange: 3, trustChange: 2 }
-  if (accuracy >= 50)
-    return { earnedXp: answeredCount * 2, affectionChange: 2, trustChange: 1 }
+  if (accuracy >= 80) return { earnedXp: answeredCount * 3, affectionChange: 3, trustChange: 2 }
+  if (accuracy >= 50) return { earnedXp: answeredCount * 2, affectionChange: 2, trustChange: 1 }
   return { earnedXp: answeredCount, affectionChange: 1, trustChange: 0 }
 }
 

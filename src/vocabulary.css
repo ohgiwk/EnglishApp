@@ -745,6 +745,15 @@
   box-shadow: 0 8px 25px #4634490d;
 }
 
+.fill-blank-translation {
+  display: block;
+  margin-top: 12px;
+  color: #817a86;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
 .fill-blank > label {
   display: block;
   margin-bottom: 6px;
@@ -1015,6 +1024,21 @@
   margin-top: 4px;
   color: #918995;
   font-size: 9px;
+}
+
+.outcome-pronunciation {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: 1px solid #dcd6e0;
+  border-radius: 12px;
+  background: #f3f0fa;
+  color: #7269b6;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .answer-outcome-overlay section > button {

@@ -14,7 +14,6 @@ import {
 } from '@lucide/vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyWords } from '../data/vocabulary'
-import { speakAmericanEnglishAfterPause } from '../speech'
 import { useAppStore } from '../stores/app'
 
 const store = useAppStore()
@@ -64,9 +63,6 @@ function retry() {
     completedResult.mode ?? 'mixed',
     store.s.lastSelectedVocabularyQuestionCount
   )
-  const firstQuestion = store.s.activeVocabularySession?.questions[0]
-  const firstWord = vocabularyWords.find((word) => word.id === firstQuestion?.wordId)
-  if (firstWord) speakAmericanEnglishAfterPause(firstWord.word)
   router.push(`/learn/session/${completedResult.level}`)
 }
 </script>
