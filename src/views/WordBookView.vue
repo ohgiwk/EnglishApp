@@ -33,7 +33,20 @@ const visible = computed(() => filtered.value.slice(0, pageSize.value))
 function speak(text: string) {
   if (!speechAvailable) return
   speechSynthesis.cancel()
-  speechSynthesis.speak(new SpeechSynthesisUtterance(text))
+  const utterance = new SpeechSynthesisUtterance(text)
+  const voices = speechSynthesis.getVoices()
+  utterance.lang = 'en-US'
+  utterance.rate = 0.9
+  utterance.voice =
+    voices.find(
+      (voice) =>
+        voice.lang.toLowerCase() === 'en-us' &&
+        /samantha|ava|allison|google us english|microsoft.*(aria|jenny|guy)/i.test(voice.name)
+    ) ??
+    voices.find((voice) => voice.lang.toLowerCase() === 'en-us') ??
+    voices.find((voice) => voice.lang.toLowerCase().startsWith('en')) ??
+    null
+  speechSynthesis.speak(utterance)
 }
 </script>
 
