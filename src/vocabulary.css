@@ -489,6 +489,39 @@
   font-size: 8px;
 }
 
+.word-status-filter label {
+  padding-left: 28px;
+}
+
+.word-status-filter label::before {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #b9b2bf;
+  border-radius: 4px;
+  content: '';
+  transform: translateY(-50%);
+}
+
+.word-status-filter label.selected::before {
+  border-color: #756bc0;
+  background: #756bc0;
+  box-shadow: inset 0 0 0 2px #fff;
+}
+
+.word-status-filter > p {
+  margin: 8px 2px 0;
+  color: #756bc0;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.word-status-filter > p.empty {
+  color: #d72f47;
+}
+
 .question-count > div {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }

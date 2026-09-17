@@ -102,6 +102,38 @@ describe('vocabulary data', () => {
     expect(new Set(session.questions.map((question) => question.wordId)).size).toBe(count)
   })
 
+  it('filters questions by multiple selected learning statuses', () => {
+    const progress = {
+      v0001: {
+        status: 'learning' as const,
+        correctSessions: [],
+        correctCount: 1,
+        incorrectCount: 0,
+        lastStudiedAt: '2026-09-17T00:00:00.000Z'
+      },
+      v0002: {
+        status: 'mastered' as const,
+        correctSessions: ['one', 'two'],
+        correctCount: 2,
+        incorrectCount: 0,
+        lastStudiedAt: '2026-09-17T00:00:00.000Z'
+      }
+    }
+    const session = buildVocabularySession(
+      1,
+      progress,
+      () => 0.42,
+      'filtered-session',
+      'flashcard',
+      'all',
+      ['learning', 'mastered']
+    )
+    expect(session.questions.map((question) => question.wordId).sort()).toEqual([
+      'v0001',
+      'v0002'
+    ])
+  })
+
   it('keeps each studied word and its correctness in the session result', () => {
     const session = buildVocabularySession(1, {}, () => 0.42, 'result-session', 'mixed', 10)
     session.answers = session.questions.map((question, index) => ({
@@ -114,6 +146,21 @@ describe('vocabulary data', () => {
     expect(result.answers).toEqual(session.answers)
     expect(result.answers).toHaveLength(10)
     expect(result.answers?.filter((answer) => answer.correct)).toHaveLength(5)
+  })
+
+  it('summarizes only answered words when a session ends early', () => {
+    const session = buildVocabularySession(1, {}, () => 0.42, 'partial-session', 'mixed', 10)
+    session.answers = session.questions.slice(0, 2).map((question, index) => ({
+      wordId: question.wordId,
+      type: question.type,
+      correct: index === 0,
+      answeredAt: '2026-09-16T00:00:00.000Z'
+    }))
+    const result = summarizeVocabularySession(session, [], true)
+    expect(result.totalCount).toBe(2)
+    expect(result.correctCount).toBe(1)
+    expect(result.accuracy).toBe(50)
+    expect(result.earnedXp).toBe(4)
   })
 
   it.each(['en-to-ja', 'ja-to-en', 'flashcard', 'fill-blank', 'reorder'] as const)(
@@ -232,8 +279,20 @@ describe('vocabulary data', () => {
   })
 
   it('uses the fixed reward bands without negative rewards', () => {
-    expect(rewardForAccuracy(40)).toEqual({ earnedXp: 10, affectionChange: 1, trustChange: 0 })
-    expect(rewardForAccuracy(70)).toEqual({ earnedXp: 20, affectionChange: 2, trustChange: 1 })
-    expect(rewardForAccuracy(90)).toEqual({ earnedXp: 30, affectionChange: 3, trustChange: 2 })
+    expect(rewardForAccuracy(40, 10)).toEqual({
+      earnedXp: 10,
+      affectionChange: 1,
+      trustChange: 0
+    })
+    expect(rewardForAccuracy(70, 20)).toEqual({
+      earnedXp: 40,
+      affectionChange: 2,
+      trustChange: 1
+    })
+    expect(rewardForAccuracy(90, 50)).toEqual({
+      earnedXp: 150,
+      affectionChange: 3,
+      trustChange: 2
+    })
   })
 })

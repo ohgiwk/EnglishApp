@@ -21,6 +21,7 @@ import type {
   VocabularyResult,
   VocabularySession,
   VocabularySessionMode,
+  VocabularyStatus,
   WordProgress
 } from '../types'
 
@@ -44,6 +45,7 @@ export interface SaveV5 {
   wordProgress: Record<string, WordProgress>
   lastSelectedVocabularyMode: VocabularySessionMode
   lastSelectedVocabularyQuestionCount: VocabularyQuestionCount
+  lastSelectedVocabularyStatuses: VocabularyStatus[]
   activeVocabularySession: VocabularySession | null
   vocabularyResults: VocabularyResult[]
   lastVocabularyResult: VocabularyResult | null
@@ -88,6 +90,7 @@ const defaults = (): SaveV5 => ({
   wordProgress: {},
   lastSelectedVocabularyMode: 'mixed',
   lastSelectedVocabularyQuestionCount: 10,
+  lastSelectedVocabularyStatuses: ['new', 'learning', 'mastered'],
   activeVocabularySession: null,
   vocabularyResults: [],
   lastVocabularyResult: null,
@@ -161,6 +164,12 @@ const isVocabularyMode = (value: unknown): value is VocabularySessionMode =>
 const vocabularyQuestionCounts: VocabularyQuestionCount[] = [10, 20, 50, 'all']
 const isVocabularyQuestionCount = (value: unknown): value is VocabularyQuestionCount =>
   vocabularyQuestionCounts.includes(value as VocabularyQuestionCount)
+const vocabularyStatuses: VocabularyStatus[] = ['new', 'learning', 'mastered']
+const sanitizeVocabularyStatuses = (value: unknown): VocabularyStatus[] => {
+  if (!Array.isArray(value)) return [...vocabularyStatuses]
+  const selected = vocabularyStatuses.filter((status) => value.includes(status))
+  return selected.length ? selected : [...vocabularyStatuses]
+}
 
 const sanitizeActiveStorySession = (value: unknown): ActiveStorySession | null => {
   if (!value || typeof value !== 'object') return null
@@ -310,6 +319,9 @@ export function migrateSave(value: unknown): SaveV5 {
     )
       ? source.lastSelectedVocabularyQuestionCount
       : 10,
+    lastSelectedVocabularyStatuses: sanitizeVocabularyStatuses(
+      source.lastSelectedVocabularyStatuses
+    ),
     activeStorySession: sanitizeActiveStorySession(source.activeStorySession),
     activeVocabularySession: null,
     vocabularyResults,
@@ -668,6 +680,12 @@ export const useAppStore = defineStore('app', () => {
     persist()
   }
 
+  function setVocabularyStatuses(statuses: VocabularyStatus[]) {
+    const selected = sanitizeVocabularyStatuses(statuses)
+    s.value.lastSelectedVocabularyStatuses = selected
+    persist()
+  }
+
   function startVocabularySession(
     level: number,
     mode: VocabularySessionMode = s.value.lastSelectedVocabularyMode,
@@ -683,14 +701,21 @@ export const useAppStore = defineStore('app', () => {
           : 'all'
     s.value.lastSelectedVocabularyMode = mode
     s.value.lastSelectedVocabularyQuestionCount = savedQuestionCount
-    s.value.activeVocabularySession = buildVocabularySession(
+    const session = buildVocabularySession(
       level,
       s.value.wordProgress,
       Math.random,
       `vocab-${Date.now()}`,
       mode,
-      savedQuestionCount
+      savedQuestionCount,
+      s.value.lastSelectedVocabularyStatuses
     )
+    if (!session.questions.length) {
+      s.value.activeVocabularySession = null
+      persist()
+      return
+    }
+    s.value.activeVocabularySession = session
     s.value.lastVocabularyResult = null
     persist()
   }
@@ -701,36 +726,11 @@ export const useAppStore = defineStore('app', () => {
     persist()
   }
 
-  function answerVocabularyQuestion(correct: boolean): VocabularyResult | null {
+  function finishVocabularySession(): VocabularyResult | null {
     const session = s.value.activeVocabularySession
     if (!session) return null
-    const question = session.questions[session.currentIndex]
-    if (!question || session.answers.some((answer) => answer.wordId === question.wordId))
-      return null
-
-    const answer: VocabularyAnswer = {
-      wordId: question.wordId,
-      type: question.type,
-      correct,
-      answeredAt: new Date().toISOString()
-    }
-    session.answers.push(answer)
-
-    const previous = s.value.wordProgress[question.wordId]
-    const correctSessions = correct
-      ? [...new Set([...(previous?.correctSessions ?? []), session.id])]
-      : []
-    s.value.wordProgress[question.wordId] = {
-      status: correctSessions.length >= 2 ? 'mastered' : 'learning',
-      correctSessions,
-      correctCount: (previous?.correctCount ?? 0) + (correct ? 1 : 0),
-      incorrectCount: (previous?.incorrectCount ?? 0) + (correct ? 0 : 1),
-      lastStudiedAt: answer.answeredAt
-    }
-
-    session.currentIndex += 1
-    if (session.currentIndex < session.questions.length) {
-      persist()
+    if (!session.answers.length) {
+      cancelVocabularySession()
       return null
     }
 
@@ -774,6 +774,42 @@ export const useAppStore = defineStore('app', () => {
     return result
   }
 
+  function answerVocabularyQuestion(correct: boolean): VocabularyResult | null {
+    const session = s.value.activeVocabularySession
+    if (!session) return null
+    const question = session.questions[session.currentIndex]
+    if (!question || session.answers.some((answer) => answer.wordId === question.wordId))
+      return null
+
+    const answer: VocabularyAnswer = {
+      wordId: question.wordId,
+      type: question.type,
+      correct,
+      answeredAt: new Date().toISOString()
+    }
+    session.answers.push(answer)
+
+    const previous = s.value.wordProgress[question.wordId]
+    const correctSessions = correct
+      ? [...new Set([...(previous?.correctSessions ?? []), session.id])]
+      : []
+    s.value.wordProgress[question.wordId] = {
+      status: correctSessions.length >= 2 ? 'mastered' : 'learning',
+      correctSessions,
+      correctCount: (previous?.correctCount ?? 0) + (correct ? 1 : 0),
+      incorrectCount: (previous?.incorrectCount ?? 0) + (correct ? 0 : 1),
+      lastStudiedAt: answer.answeredAt
+    }
+
+    session.currentIndex += 1
+    if (session.currentIndex < session.questions.length) {
+      persist()
+      return null
+    }
+
+    return finishVocabularySession()
+  }
+
   function reset() {
     s.value = defaults()
     persist()
@@ -808,8 +844,10 @@ export const useAppStore = defineStore('app', () => {
     toggleReview,
     setVocabularyMode,
     setVocabularyQuestionCount,
+    setVocabularyStatuses,
     startVocabularySession,
     cancelVocabularySession,
+    finishVocabularySession,
     answerVocabularyQuestion,
     reset
   }

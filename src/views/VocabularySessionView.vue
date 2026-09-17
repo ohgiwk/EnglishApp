@@ -22,7 +22,6 @@ const stayButton = ref<HTMLButtonElement | null>(null)
 const interruptButton = ref<HTMLButtonElement | null>(null)
 let previouslyFocused: HTMLElement | null = null
 let resolvePendingExit: ((allow: boolean) => void) | null = null
-let discardSessionOnUnmount = false
 const level = Number(route.params.level)
 
 onMounted(() => {
@@ -32,7 +31,6 @@ onMounted(() => {
 })
 onBeforeUnmount(() => {
   window.removeEventListener('beforeunload', confirmBrowserExit)
-  if (discardSessionOnUnmount) store.cancelVocabularySession()
 })
 onBeforeRouteLeave(() => {
   if (!store.s.activeVocabularySession) return true
@@ -74,8 +72,9 @@ function confirmInterruption() {
   const resolve = resolvePendingExit
   resolvePendingExit = null
   showExitDialog.value = false
-  discardSessionOnUnmount = true
-  resolve?.(true)
+  resolve?.(false)
+  const result = store.finishVocabularySession()
+  void router.replace(result ? '/learn/result' : '/learn')
 }
 
 function handleExitDialogKeydown(event: KeyboardEvent) {
@@ -419,12 +418,15 @@ function speak() {
         <p class="eyebrow">LEAVE SESSION?</p>
         <h2 id="session-exit-title">学習を中断しますか？</h2>
         <p id="session-exit-description">
-          このセッションの進捗は保存されません。次に始めるときは、新しい10問になります。
+          <template v-if="session?.answers.length">
+            回答済みの{{ session.answers.length }}問を記録して、結果画面を表示します。
+          </template>
+          <template v-else>まだ回答がないため、成績を記録せずに終了します。</template>
         </p>
         <div>
           <button ref="stayButton" type="button" @click="stayInSession">学習を続ける</button>
           <button ref="interruptButton" type="button" @click="confirmInterruption">
-            中断して戻る
+            {{ session?.answers.length ? '中断して結果を見る' : '中断して戻る' }}
           </button>
         </div>
       </section>

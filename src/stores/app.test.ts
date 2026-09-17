@@ -361,6 +361,34 @@ describe('app store progression', () => {
     expect(store.s.activeVocabularySession?.questions).toHaveLength(10)
   })
 
+  it('persists multiple word-status filters and only starts matching words', () => {
+    const store = useAppStore()
+    store.s.wordProgress.v0001 = {
+      status: 'learning',
+      correctSessions: [],
+      correctCount: 1,
+      incorrectCount: 0,
+      lastStudiedAt: new Date().toISOString()
+    }
+    store.s.wordProgress.v0002 = {
+      status: 'mastered',
+      correctSessions: ['one', 'two'],
+      correctCount: 2,
+      incorrectCount: 0,
+      lastStudiedAt: new Date().toISOString()
+    }
+    store.setVocabularyStatuses(['learning', 'mastered'])
+    store.startVocabularySession(1, 'flashcard', 'all')
+
+    expect(store.s.activeVocabularySession?.questions.map((question) => question.wordId).sort()).toEqual([
+      'v0001',
+      'v0002'
+    ])
+    expect(JSON.parse(data.get('love-language-save-v1') ?? '{}')).toMatchObject({
+      lastSelectedVocabularyStatuses: ['learning', 'mastered']
+    })
+  })
+
   it('discards an interrupted session while preserving the selected mode', () => {
     const store = useAppStore()
     store.startVocabularySession(1, 'reorder')
@@ -371,6 +399,25 @@ describe('app store progression', () => {
     const saved = JSON.parse(data.get('love-language-save-v1') ?? '{}')
     expect(saved.activeVocabularySession).toBeNull()
     expect(saved.lastSelectedVocabularyMode).toBe('reorder')
+  })
+
+  it('records answered words and creates a result when a session ends early', () => {
+    const store = useAppStore()
+    store.startVocabularySession(1, 'mixed', 10)
+    store.answerVocabularyQuestion(true)
+    store.answerVocabularyQuestion(false)
+
+    const result = store.finishVocabularySession()
+    expect(result).toMatchObject({ totalCount: 2, correctCount: 1, accuracy: 50 })
+    expect(result?.answers).toHaveLength(2)
+    expect(store.s.activeVocabularySession).toBeNull()
+    expect(store.s.lastVocabularyResult?.sessionId).toBe(result?.sessionId)
+    const date = new Date().toLocaleDateString('sv-SE')
+    expect(store.s.dailyStudyStats[date]).toMatchObject({
+      vocabularySessions: 1,
+      questionsAnswered: 2,
+      correctAnswers: 1
+    })
   })
 
   it('masters a word after correct answers in two different sessions', () => {
@@ -409,7 +456,7 @@ describe('app store progression', () => {
       store.answerVocabularyQuestion(true)
     }
     expect(store.emmaProgress.affection).toBe(initialAffection + 9)
-    expect(store.s.xp).toBe(120)
+    expect(store.s.xp).toBe(12)
     expect(store.s.lastVocabularyResult?.affectionChange).toBe(0)
     expect(store.s.lifetimeStudyStats.vocabularySessions).toBe(4)
     expect(store.s.lifetimeStudyStats.questionsAnswered).toBe(4)

@@ -12,7 +12,7 @@ import {
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
-import type { VocabularyQuestionCount, VocabularySessionMode } from '../types'
+import type { VocabularyQuestionCount, VocabularySessionMode, VocabularyStatus } from '../types'
 
 const store = useAppStore()
 const router = useRouter()
@@ -48,6 +48,28 @@ const selectedQuestionCount = computed({
 const selectedQuestionCountLabel = computed(
   () => questionCounts.find((item) => item.value === selectedQuestionCount.value)?.label
 )
+const statusOptions: { value: VocabularyStatus; label: string; detail: string }[] = [
+  { value: 'new', label: '未学習', detail: 'まだ取り組んでいない単語' },
+  { value: 'learning', label: '学習中', detail: '練習を始めた単語' },
+  { value: 'mastered', label: '学習済み', detail: '習得した単語' }
+]
+const selectedStatuses = computed(() => store.s.lastSelectedVocabularyStatuses)
+const availableWordCount = computed(
+  () =>
+    vocabularyWords.filter((word) => {
+      const status = store.s.wordProgress[word.id]?.status ?? 'new'
+      return word.level === selectedLevel.value && selectedStatuses.value.includes(status)
+    }).length
+)
+function toggleStatus(status: VocabularyStatus) {
+  const current = selectedStatuses.value
+  if (current.includes(status)) {
+    if (current.length === 1) return
+    store.setVocabularyStatuses(current.filter((item) => item !== status))
+    return
+  }
+  store.setVocabularyStatuses([...current, status])
+}
 const levelProgress = (level: number) => {
   const words = vocabularyWords.filter((word) => word.level === level)
   const mastered = words.filter(
@@ -115,7 +137,7 @@ function start() {
         <span>Today's study</span>
         <h2>“Ready for a little<br />word practice?”</h2>
         <p>少しだけ単語の練習、しない？</p>
-        <button @click="start">
+        <button :disabled="availableWordCount === 0" @click="start">
           <Play :size="18" fill="currentColor" />
           <span>LEVEL {{ selectedLevel }}をスタート</span>
           <small>
@@ -262,6 +284,30 @@ function start() {
           <b>{{ item.label }}</b>
         </label>
       </div>
+    </fieldset>
+
+    <fieldset class="practice-mode word-status-filter">
+      <legend>
+        <span class="eyebrow">WORD STATUS</span>
+        <b>出題する単語を選ぶ</b>
+      </legend>
+      <div>
+        <label
+          v-for="option in statusOptions"
+          :key="option.value"
+          :class="{ selected: selectedStatuses.includes(option.value) }"
+        >
+          <input
+            type="checkbox"
+            :checked="selectedStatuses.includes(option.value)"
+            :disabled="selectedStatuses.length === 1 && selectedStatuses.includes(option.value)"
+            @change="toggleStatus(option.value)"
+          />
+          <b>{{ option.label }}</b>
+          <small>{{ option.detail }}</small>
+        </label>
+      </div>
+      <p :class="{ empty: availableWordCount === 0 }">対象：{{ availableWordCount }}語</p>
     </fieldset>
 
     <div class="learn-links">

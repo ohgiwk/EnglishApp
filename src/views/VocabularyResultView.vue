@@ -43,7 +43,7 @@ function retry() {
   store.startVocabularySession(
     completedResult.level,
     completedResult.mode ?? 'mixed',
-    completedResult.totalCount
+    store.s.lastSelectedVocabularyQuestionCount
   )
   router.push(`/learn/session/${completedResult.level}`)
 }

@@ -5,6 +5,7 @@ import type {
   VocabularyResult,
   VocabularySession,
   VocabularySessionMode,
+  VocabularyStatus,
   VocabularyWord,
   WordProgress
 } from '../types'
@@ -88,13 +89,18 @@ export const buildReorder = (word: VocabularyWord, random: () => number = Math.r
 
 export function buildVocabularySession(
   level: number,
-  _progress: Record<string, WordProgress>,
+  progress: Record<string, WordProgress>,
   random: () => number = Math.random,
   sessionId = `vocab-${Date.now()}`,
   mode: VocabularySessionMode = 'mixed',
-  questionCount: number | 'all' = 'all'
+  questionCount: number | 'all' = 'all',
+  statuses: VocabularyStatus[] = ['new', 'learning', 'mastered']
 ): VocabularySession {
-  const pool = vocabularyWords.filter((word) => word.level === level)
+  const levelPool = vocabularyWords.filter((word) => word.level === level)
+  const pool = levelPool.filter((word) => {
+    const status = progress[word.id]?.status ?? 'new'
+    return statuses.includes(status)
+  })
   const limit = questionCount === 'all' ? pool.length : Math.min(questionCount, pool.length)
   const selected = shuffle(pool, random).slice(0, limit)
   const types: VocabularyQuestion['type'][] =
@@ -116,10 +122,10 @@ export function buildVocabularySession(
     if (type === 'reorder') {
       return { wordId: word.id, type, options: [], ...buildReorder(word, random) }
     }
-    const alternatives = pool.filter(
+    const alternatives = levelPool.filter(
       (candidate) => candidate.id !== word.id && candidate.partOfSpeech === word.partOfSpeech
     )
-    const fallback = pool.filter((candidate) => candidate.id !== word.id)
+    const fallback = levelPool.filter((candidate) => candidate.id !== word.id)
     const candidates = alternatives.length >= 3 ? alternatives : fallback
     const wrong = shuffle(candidates, random)
       .map((candidate) => optionValue(candidate, type))
@@ -143,10 +149,12 @@ export function buildVocabularySession(
   }
 }
 
-export function rewardForAccuracy(accuracy: number) {
-  if (accuracy >= 80) return { earnedXp: 30, affectionChange: 3, trustChange: 2 }
-  if (accuracy >= 50) return { earnedXp: 20, affectionChange: 2, trustChange: 1 }
-  return { earnedXp: 10, affectionChange: 1, trustChange: 0 }
+export function rewardForAccuracy(accuracy: number, answeredCount: number) {
+  if (accuracy >= 80)
+    return { earnedXp: answeredCount * 3, affectionChange: 3, trustChange: 2 }
+  if (accuracy >= 50)
+    return { earnedXp: answeredCount * 2, affectionChange: 2, trustChange: 1 }
+  return { earnedXp: answeredCount, affectionChange: 1, trustChange: 0 }
 }
 
 export function summarizeVocabularySession(
@@ -155,14 +163,15 @@ export function summarizeVocabularySession(
   relationshipRewardAllowed: boolean
 ): VocabularyResult {
   const correctCount = session.answers.filter((answer) => answer.correct).length
-  const accuracy = Math.round((correctCount / session.questions.length) * 100)
-  const reward = rewardForAccuracy(accuracy)
+  const totalCount = session.answers.length
+  const accuracy = totalCount ? Math.round((correctCount / totalCount) * 100) : 0
+  const reward = rewardForAccuracy(accuracy, totalCount)
   return {
     sessionId: session.id,
     level: session.level,
     mode: session.mode,
     correctCount,
-    totalCount: session.questions.length,
+    totalCount,
     accuracy,
     earnedXp: reward.earnedXp,
     affectionChange: relationshipRewardAllowed ? reward.affectionChange : 0,
