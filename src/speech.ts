@@ -15,7 +15,8 @@ const savedVoiceId = () => {
 }
 
 const preferredAmericanVoice = (voices: SpeechSynthesisVoice[]) => {
-  const americanVoices = voices.filter(supportedAmericanVoice)
+  const allAmericanVoices = voices.filter((voice) => normalizedLanguage(voice) === 'en-us')
+  const americanVoices = allAmericanVoices.filter(supportedAmericanVoice)
   const preference = savedVoiceId()
   const saved = americanVoices.find(
     (voice) => voice.voiceURI === preference || voice.name === preference
@@ -31,7 +32,7 @@ const preferredAmericanVoice = (voices: SpeechSynthesisVoice[]) => {
     const voice = americanVoices.find((candidate) => pattern.test(candidate.name))
     if (voice) return voice
   }
-  return americanVoices[0] ?? null
+  return americanVoices[0] ?? allAmericanVoices[0] ?? null
 }
 
 let pendingSpeech: ReturnType<typeof setTimeout> | null = null

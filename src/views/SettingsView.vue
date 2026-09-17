@@ -56,8 +56,18 @@ const curatedVoices = (pattern: RegExp) => {
 }
 const femaleVoices = computed(() => curatedVoices(femaleVoice))
 const maleVoices = computed(() => curatedVoices(maleVoice))
+const otherVoices = computed(() => {
+  const categorized = new Set(
+    [...femaleVoices.value, ...maleVoices.value].map((voice) => voice.voiceURI)
+  )
+  return voices.value.filter(
+    (voice) => naturalVoice(voice) && !categorized.has(voice.voiceURI)
+  )
+})
 const visibleVoiceIds = computed(() =>
-  [...femaleVoices.value, ...maleVoices.value].map((voice) => voice.voiceURI)
+  [...femaleVoices.value, ...maleVoices.value, ...otherVoices.value].map(
+    (voice) => voice.voiceURI
+  )
 )
 
 onMounted(async () => {
@@ -149,11 +159,30 @@ function previewVoice(voiceId: string) {
             <Check v-if="selectedVoice === voice.voiceURI" />
           </button>
         </template>
+
+        <template v-if="otherVoices.length">
+          <h3>その他の声</h3>
+          <button
+            v-for="voice in otherVoices"
+            :key="voice.voiceURI"
+            type="button"
+            role="radio"
+            :aria-checked="selectedVoice === voice.voiceURI"
+            :class="{ selected: selectedVoice === voice.voiceURI }"
+            @click="chooseVoice(voice.voiceURI)"
+          >
+            <span><b>{{ displayVoiceName(voice) }}</b></span>
+            <Check v-if="selectedVoice === voice.voiceURI" />
+          </button>
+        </template>
       </div>
 
       <p v-if="loading" class="voice-message">音声を読み込んでいます…</p>
-      <p v-else-if="!femaleVoices.length && !maleVoices.length" class="voice-message error">
-        このブラウザでは米国英語音声を取得できませんでした。
+      <p
+        v-else-if="!femaleVoices.length && !maleVoices.length && !otherVoices.length"
+        class="voice-message"
+      >
+        この端末の標準米国英語音声を使用します。
       </p>
       <button class="secondary voice-preview" type="button" @click="previewVoice(selectedVoice)">
         <Volume2 /> 選択中の声を試聴
