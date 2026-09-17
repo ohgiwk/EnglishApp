@@ -87,7 +87,7 @@ const defaults = (): SaveV5 => ({
   unlockedVocabularyLevel: 1,
   wordProgress: {},
   lastSelectedVocabularyMode: 'mixed',
-  lastSelectedVocabularyQuestionCount: 'all',
+  lastSelectedVocabularyQuestionCount: 10,
   activeVocabularySession: null,
   vocabularyResults: [],
   lastVocabularyResult: null,
@@ -309,7 +309,7 @@ export function migrateSave(value: unknown): SaveV5 {
       source.lastSelectedVocabularyQuestionCount
     )
       ? source.lastSelectedVocabularyQuestionCount
-      : 'all',
+      : 10,
     activeStorySession: sanitizeActiveStorySession(source.activeStorySession),
     activeVocabularySession: null,
     vocabularyResults,

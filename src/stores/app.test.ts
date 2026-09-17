@@ -327,7 +327,7 @@ describe('app store progression', () => {
   it('persists the selected mode and starts every level word once in that mode', () => {
     const store = useAppStore()
     store.setVocabularyMode('fill-blank')
-    store.startVocabularySession(1)
+    store.startVocabularySession(1, 'fill-blank', 'all')
     expect(store.s.lastSelectedVocabularyMode).toBe('fill-blank')
     expect(store.s.activeVocabularySession?.mode).toBe('fill-blank')
     expect(store.s.activeVocabularySession?.questions).toHaveLength(150)
@@ -352,6 +352,13 @@ describe('app store progression', () => {
     expect(JSON.parse(data.get('love-language-save-v1') ?? '{}')).toMatchObject({
       lastSelectedVocabularyQuestionCount: 20
     })
+  })
+
+  it('uses 10 questions as the default session length', () => {
+    const store = useAppStore()
+    expect(store.s.lastSelectedVocabularyQuestionCount).toBe(10)
+    store.startVocabularySession(1)
+    expect(store.s.activeVocabularySession?.questions).toHaveLength(10)
   })
 
   it('discards an interrupted session while preserving the selected mode', () => {
