@@ -38,13 +38,14 @@ const commentJa = computed(() => {
   return '間違いも学びの一歩。一緒にもう一度やろう！'
 })
 function retry() {
-  if (!result.value) return
+  const completedResult = result.value
+  if (!completedResult) return
   store.startVocabularySession(
-    result.value.level,
-    result.value.mode ?? 'mixed',
-    result.value.totalCount
+    completedResult.level,
+    completedResult.mode ?? 'mixed',
+    completedResult.totalCount
   )
-  router.push(`/learn/session/${result.value.level}`)
+  router.push(`/learn/session/${completedResult.level}`)
 }
 </script>
 

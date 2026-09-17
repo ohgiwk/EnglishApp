@@ -41,7 +41,7 @@ const level = computed(() =>
         <h3>{{ chapter.title }}</h3>
         <small>{{ chapter.subtitle }}</small>
       </div>
-      <div class="round-progress">{{ Math.min(100, store.s.xp) }}<small>XP</small></div>
+      <div class="round-progress">{{ store.s.xp }}<small>XP</small></div>
     </div>
     <div class="level-row">
       <div>
