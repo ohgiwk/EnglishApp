@@ -26,6 +26,10 @@ const preferredAmericanVoice = (voices: SpeechSynthesisVoice[]) => {
     (voice) => voice.voiceURI === preference || voice.name === preference
   )
   if (saved) return saved
+  if (!preference && isIPhoneFamily()) {
+    const samantha = allAmericanVoices.find((voice) => /samantha/i.test(voice.name))
+    if (samantha) return samantha
+  }
   const priorities = [
     /google us english/i,
     /microsoft.*(aria|guy)/i,
@@ -37,9 +41,7 @@ const preferredAmericanVoice = (voices: SpeechSynthesisVoice[]) => {
     if (voice) return voice
   }
   if (americanVoices[0]) return americanVoices[0]
-  if (isIPhoneFamily()) {
-    return allAmericanVoices.find((voice) => /^samantha/i.test(voice.name)) ?? null
-  }
+  if (isIPhoneFamily()) return allAmericanVoices.find((voice) => /samantha/i.test(voice.name)) ?? null
   return null
 }
 
