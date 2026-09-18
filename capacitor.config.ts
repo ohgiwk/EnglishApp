@@ -8,9 +8,9 @@ const config: CapacitorConfig = {
     Keyboard: {
       resize: 'none',
       style: 'DARK',
-      autoBackdropColor: 'auto',
-    },
-  },
+      autoBackdropColor: 'auto'
+    }
+  }
 }
 
 export default config

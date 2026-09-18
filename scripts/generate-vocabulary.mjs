@@ -500,9 +500,14 @@ const levels = [
 ]
 
 const source =
-  `import type { VocabularyLevel, VocabularyWord } from '../types'\n\n` +
+  `import type { VocabularyLevel, VocabularyWord } from '../types'\n` +
+  `import { exampleFor, exampleInfoFor } from './vocabulary-examples'\n\n` +
   `export const vocabularyLevels: VocabularyLevel[] = ${JSON.stringify(levels, null, 2)}\n\n` +
-  `export const vocabularyWords: VocabularyWord[] = ${JSON.stringify(selected, null, 2)}\n`
+  `const vocabularySourceWords: VocabularyWord[] = ${JSON.stringify(selected, null, 2)}\n\n` +
+  `export const vocabularyWords: VocabularyWord[] = vocabularySourceWords.map((word) => {\n` +
+  `  const example = exampleFor(word)\n` +
+  `  return { ...word, example: example.english, exampleJa: example.japanese, exampleInfo: exampleInfoFor(word) }\n` +
+  `})\n`
 
 writeFileSync(outputPath, source)
 console.log(`Generated ${selected.length} vocabulary words at ${outputPath}`)

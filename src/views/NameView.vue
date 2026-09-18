@@ -17,8 +17,7 @@ type KeyboardWindowEvent = Event & {
 
 async function onKeyboardWillShow(event: Event) {
   const keyboardEvent = event as KeyboardWindowEvent
-  const keyboardHeight =
-    keyboardEvent.detail?.keyboardHeight ?? keyboardEvent.keyboardHeight ?? 0
+  const keyboardHeight = keyboardEvent.detail?.keyboardHeight ?? keyboardEvent.keyboardHeight ?? 0
   if (!keyboardHeight || document.activeElement !== nameInput.value) return
 
   keyboardOffset.value = 0

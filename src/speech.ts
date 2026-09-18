@@ -1,8 +1,7 @@
+import { curatedVoices } from './voice-catalog'
+
 const normalizedLanguage = (voice: SpeechSynthesisVoice) =>
   voice.lang.toLowerCase().replace('_', '-')
-
-const supportedAmericanVoice = (voice: SpeechSynthesisVoice) =>
-  normalizedLanguage(voice) === 'en-us' && !/christopher|jenny|samantha/i.test(voice.name)
 
 const isIPhoneFamily = () =>
   /iPhone|iPad|iPod/i.test(navigator.userAgent) ||
@@ -20,7 +19,7 @@ const savedVoiceId = () => {
 
 const preferredAmericanVoice = (voices: SpeechSynthesisVoice[]) => {
   const allAmericanVoices = voices.filter((voice) => normalizedLanguage(voice) === 'en-us')
-  const americanVoices = allAmericanVoices.filter(supportedAmericanVoice)
+  const americanVoices = curatedVoices(allAmericanVoices)
   const preference = savedVoiceId()
   const saved = americanVoices.find(
     (voice) => voice.voiceURI === preference || voice.name === preference
@@ -30,18 +29,14 @@ const preferredAmericanVoice = (voices: SpeechSynthesisVoice[]) => {
     const samantha = allAmericanVoices.find((voice) => /samantha/i.test(voice.name))
     if (samantha) return samantha
   }
-  const priorities = [
-    /google us english/i,
-    /microsoft.*(aria|guy)/i,
-    /^allison/i,
-    /^ava/i
-  ]
+  const priorities = [/google us english/i, /microsoft.*(aria|guy)/i, /^allison/i, /^ava/i]
   for (const pattern of priorities) {
     const voice = americanVoices.find((candidate) => pattern.test(candidate.name))
     if (voice) return voice
   }
   if (americanVoices[0]) return americanVoices[0]
-  if (isIPhoneFamily()) return allAmericanVoices.find((voice) => /samantha/i.test(voice.name)) ?? null
+  if (isIPhoneFamily())
+    return allAmericanVoices.find((voice) => /samantha/i.test(voice.name)) ?? null
   return null
 }
 
@@ -79,6 +74,7 @@ async function waitForAmericanVoice() {
     const finish = (voice: SpeechSynthesisVoice | null) => {
       if (settled) return
       settled = true
+      clearTimeout(timeout)
       synthesis.removeEventListener('voiceschanged', handleVoicesChanged)
       if (voice) selectedAmericanVoice = voice
       resolve(selectedAmericanVoice)
@@ -88,17 +84,14 @@ async function waitForAmericanVoice() {
       if (voice) finish(voice)
     }
     synthesis.addEventListener('voiceschanged', handleVoicesChanged)
-    setTimeout(() => finish(preferredAmericanVoice(synthesis.getVoices())), 1500)
+    const timeout = setTimeout(() => finish(preferredAmericanVoice(synthesis.getVoices())), 1500)
   })
 }
 
 export async function getAmericanEnglishVoices() {
   if (!englishSpeechAvailable()) return []
   await waitForAmericanVoice()
-  return window.speechSynthesis
-    .getVoices()
-    .filter(supportedAmericanVoice)
-    .sort((a, b) => a.name.localeCompare(b.name))
+  return curatedVoices(window.speechSynthesis.getVoices())
 }
 
 export async function speakAmericanEnglish(text: string) {

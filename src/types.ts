@@ -213,6 +213,11 @@ export interface VocabularyWord {
   example: string
   exampleJa: string
   category: string
+  exampleInfo?: {
+    source: 'curated' | 'core' | 'generated'
+    reviewStatus: 'authored' | 'needs-review'
+    allowedExercises: VocabularyQuestionType[]
+  }
 }
 
 export interface VocabularyLevel {
@@ -231,17 +236,35 @@ export interface WordProgress {
   lastStudiedAt: string
 }
 
-export interface VocabularyQuestion {
+interface VocabularyQuestionBase {
   wordId: string
-  type: VocabularyQuestionType
-  options: string[]
-  prompt?: string
-  sentence?: string
-  promptJa?: string
-  answer?: string
-  tokens?: VocabularyQuestionToken[]
-  correctOrder?: string[]
 }
+export interface ChoiceQuestion extends VocabularyQuestionBase {
+  type: 'en-to-ja' | 'ja-to-en'
+  options: string[]
+}
+export interface FlashcardQuestion extends VocabularyQuestionBase {
+  type: 'flashcard'
+  options: []
+}
+export interface FillBlankQuestion extends VocabularyQuestionBase {
+  type: 'fill-blank'
+  options: []
+  prompt: string
+  sentence: string
+  promptJa: string
+  answer: string
+}
+export interface ReorderQuestion extends VocabularyQuestionBase {
+  type: 'reorder'
+  options: []
+  prompt: string
+  promptJa: string
+  tokens: VocabularyQuestionToken[]
+  correctOrder: string[]
+}
+export type VocabularyQuestion =
+  ChoiceQuestion | FlashcardQuestion | FillBlankQuestion | ReorderQuestion
 
 export interface VocabularyQuestionToken {
   id: string

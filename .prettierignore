@@ -3,3 +3,7 @@ dist/
 *.tsbuildinfo
 
 public/assets/
+ios/App/App/public/
+ios/App/App/Assets.xcassets/
+ios/App/App/capacitor.config.json
+package-lock.json

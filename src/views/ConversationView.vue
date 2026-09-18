@@ -1,19 +1,20 @@
 <script setup lang="ts">
-import { computed, nextTick, onMounted, ref } from 'vue'
+import { computed, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { Check, ChevronLeft, ChevronRight, Languages, ScrollText, Volume2, X } from '@lucide/vue'
 import { chapters } from '../data/chapters'
 import { getStoryFlow } from '../data/story-flows'
 import { choiceResultFor, storyArtworkStage } from '../data/story-engine'
 import { useAppStore } from '../stores/app'
-import { speakAmericanEnglish } from '../speech'
+import { useEnglishSpeech } from '../composables/useEnglishSpeech'
+import BaseDialog from '../components/BaseDialog.vue'
 import type { Dialogue } from '../types'
 
 const route = useRoute()
 const router = useRouter()
 const store = useAppStore()
 const logOpen = ref(false)
-const feedbackPanel = ref<HTMLElement | null>(null)
+const { speak: speakEnglish } = useEnglishSpeech()
 const chapter = computed(
   () => chapters.find((candidate) => candidate.id === Number(route.params.id)) || chapters[0]
 )
@@ -73,7 +74,6 @@ onMounted(() => {
     image.src = src
   })
   finishIfNeeded()
-  if (feedback.value) void nextTick(() => feedbackPanel.value?.focus())
 })
 
 function finishIfNeeded() {
@@ -95,9 +95,7 @@ function previous() {
 
 function selectOption(optionId: string) {
   if (!choice.value || selectedAtChoice.value) return
-  if (store.chooseStoryOption(choice.value.id, optionId)) {
-    void nextTick(() => feedbackPanel.value?.focus())
-  }
+  store.chooseStoryOption(choice.value.id, optionId)
 }
 
 function continueSavedChoice() {
@@ -110,28 +108,8 @@ function acknowledgeFeedback() {
   store.acknowledgeStoryChoice(feedback.value.pointId)
 }
 
-function handleFeedbackKeydown(event: KeyboardEvent) {
-  if (event.key !== 'Tab' || !feedbackPanel.value) return
-  const controls = Array.from(
-    feedbackPanel.value.querySelectorAll<HTMLElement>('button:not([disabled]), [href]')
-  )
-  const first = controls[0]
-  const last = controls.at(-1)
-  if (!first || !last) return
-  if (
-    event.shiftKey &&
-    (document.activeElement === first || document.activeElement === feedbackPanel.value)
-  ) {
-    event.preventDefault()
-    last.focus()
-  } else if (!event.shiftKey && document.activeElement === last) {
-    event.preventDefault()
-    first.focus()
-  }
-}
-
 function speak(text: string) {
-  speakAmericanEnglish(fill(text))
+  speakEnglish(fill(text))
 }
 </script>
 
@@ -187,6 +165,7 @@ function speak(text: string) {
         class="sound"
         :aria-label="`${fill(dialogue.english)}を再生`"
         @click.stop="speak(dialogue.english)"
+        @keyup.stop
       >
         <Volume2 />
       </button>
@@ -245,53 +224,55 @@ function speak(text: string) {
       </button>
     </section>
 
-    <div v-if="feedback" class="story-learning-overlay">
-      <section
-        ref="feedbackPanel"
-        role="dialog"
-        aria-modal="true"
-        aria-labelledby="story-learning-title"
-        aria-describedby="story-learning-description"
-        tabindex="-1"
-        @keydown="handleFeedbackKeydown"
-      >
-        <p class="eyebrow">LEARNING POINT</p>
-        <h2 id="story-learning-title">{{ feedback.learningCue.title }}</h2>
-        <strong>{{ feedback.learningCue.construction }}</strong>
-        <p>{{ fill(feedback.feedback) }}</p>
-        <p id="story-learning-description">{{ feedback.learningCue.explanationJa }}</p>
-        <small>{{ feedback.learningCue.explanationEn }}</small>
-        <div class="story-learning-expression">
-          <span>自然な表現</span>
-          <b>{{ fill(feedback.naturalExpression) }}</b>
-          <button
-            type="button"
-            aria-label="自然な表現を再生"
-            @click="speak(feedback.naturalExpression)"
-          >
-            <Volume2 />
-          </button>
-        </div>
-        <button class="primary" type="button" @click="acknowledgeFeedback">
-          会話を続ける <ChevronRight />
+    <BaseDialog
+      v-if="feedback"
+      class="story-learning-overlay"
+      title-id="story-learning-title"
+      description-id="story-learning-description"
+    >
+      <p class="eyebrow">LEARNING POINT</p>
+      <h2 id="story-learning-title">{{ feedback.learningCue.title }}</h2>
+      <strong>{{ feedback.learningCue.construction }}</strong>
+      <p>{{ fill(feedback.feedback) }}</p>
+      <p id="story-learning-description">{{ feedback.learningCue.explanationJa }}</p>
+      <small>{{ feedback.learningCue.explanationEn }}</small>
+      <div class="story-learning-expression">
+        <span>自然な表現</span>
+        <b>{{ fill(feedback.naturalExpression) }}</b>
+        <button
+          type="button"
+          aria-label="自然な表現を再生"
+          @click="speak(feedback.naturalExpression)"
+        >
+          <Volume2 />
         </button>
-      </section>
-    </div>
-
-    <div v-if="logOpen" class="modal" @click.self="logOpen = false">
-      <div class="log-card">
-        <button class="modal-close" aria-label="会話ログを閉じる" @click="logOpen = false">
-          <X />
-        </button>
-        <h2>Conversation log</h2>
-        <div v-for="(item, index) in visibleLog" :key="index" :class="speakerClass(item.speaker)">
-          <b>{{
-            item.speaker === 'Emma' ? store.activeCharacter.englishName.split(' ')[0] : store.s.name
-          }}</b>
-          <p>{{ fill(item.english) }}</p>
-          <small>{{ fill(item.japanese) }}</small>
-        </div>
       </div>
-    </div>
+      <button class="primary" type="button" @click="acknowledgeFeedback">
+        会話を続ける <ChevronRight />
+      </button>
+    </BaseDialog>
+
+    <BaseDialog
+      v-if="logOpen"
+      class="modal"
+      panel-tag="div"
+      panel-class="log-card"
+      title-id="conversation-log-title"
+      dismissible
+      initial-focus="first"
+      @close="logOpen = false"
+    >
+      <button class="modal-close" aria-label="会話ログを閉じる" @click="logOpen = false">
+        <X />
+      </button>
+      <h2 id="conversation-log-title">Conversation log</h2>
+      <div v-for="(item, index) in visibleLog" :key="index" :class="speakerClass(item.speaker)">
+        <b>{{
+          item.speaker === 'Emma' ? store.activeCharacter.englishName.split(' ')[0] : store.s.name
+        }}</b>
+        <p>{{ fill(item.english) }}</p>
+        <small>{{ fill(item.japanese) }}</small>
+      </div>
+    </BaseDialog>
   </section>
 </template>

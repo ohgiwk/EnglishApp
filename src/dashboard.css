@@ -2,10 +2,7 @@
   padding-bottom: calc(92px + var(--safe-bottom));
 }
 .character-head {
-  padding:
-    max(28px, calc(var(--safe-top) + 12px))
-    max(20px, var(--safe-right))
-    14px
+  padding: max(28px, calc(var(--safe-top) + 12px)) max(20px, var(--safe-right)) 14px
     max(20px, var(--safe-left));
   background: #f9f7fa;
 }

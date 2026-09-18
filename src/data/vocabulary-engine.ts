@@ -2,6 +2,7 @@ import { vocabularyWords } from './vocabulary'
 import { reorderExamples } from './reorder-examples'
 import type {
   VocabularyQuestion,
+  ReorderQuestion,
   VocabularyResult,
   VocabularySession,
   VocabularySessionMode,
@@ -42,7 +43,7 @@ const safeExample = (word: VocabularyWord) => {
     : `Emma wrote “${word.word}” in her vocabulary notebook.`
 }
 
-const isNaturalBilingualExample = (word: VocabularyWord) => {
+const hasUsableBilingualStructure = (word: VocabularyWord) => {
   const example = word.example.trim()
   return (
     Boolean(word.exampleJa.trim()) &&
@@ -52,15 +53,18 @@ const isNaturalBilingualExample = (word: VocabularyWord) => {
   )
 }
 
-export const hasNaturalReorderExample = (word: VocabularyWord) =>
-  Boolean(reorderExamples[word.id]) || isNaturalBilingualExample(word)
+export const supportsSentenceExercise = (word: VocabularyWord, type: 'fill-blank' | 'reorder') =>
+  Boolean(word.exampleInfo?.allowedExercises.includes(type)) && hasUsableBilingualStructure(word)
+
+export const hasReorderExample = (word: VocabularyWord) => supportsSentenceExercise(word, 'reorder')
 
 const reorderExample = (word: VocabularyWord) => {
+  if (!hasReorderExample(word)) throw new Error(`No eligible reorder example for ${word.id}`)
   const curated = reorderExamples[word.id]
-  if (!curated && isNaturalBilingualExample(word)) {
+  if (!curated && hasUsableBilingualStructure(word)) {
     return { sentence: word.example.trim(), sentenceJa: word.exampleJa.trim() }
   }
-  if (!curated) throw new Error(`No natural reorder example for ${word.id}`)
+  if (!curated) throw new Error(`No eligible reorder example for ${word.id}`)
   return { sentence: curated.english, sentenceJa: curated.japanese }
 }
 
@@ -79,7 +83,7 @@ export const buildFillBlank = (word: VocabularyWord) => {
 }
 
 export function isCorrectReorder(
-  question: Pick<VocabularyQuestion, 'tokens' | 'correctOrder'>,
+  question: Pick<ReorderQuestion, 'tokens' | 'correctOrder'>,
   placedIds: string[]
 ): boolean {
   const { tokens, correctOrder } = question
@@ -140,7 +144,10 @@ export function buildVocabularySession(
   const questions = selected.map((word, index): VocabularyQuestion => {
     const requestedType = types[index]
     const type =
-      requestedType === 'reorder' && !hasNaturalReorderExample(word) ? 'fill-blank' : requestedType
+      (requestedType === 'reorder' || requestedType === 'fill-blank') &&
+      !supportsSentenceExercise(word, requestedType)
+        ? 'en-to-ja'
+        : requestedType
     if (type === 'flashcard') return { wordId: word.id, type, options: [] }
     if (type === 'fill-blank') {
       return { wordId: word.id, type, options: [], ...buildFillBlank(word) }

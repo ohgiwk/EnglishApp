@@ -2,6 +2,13 @@
   background: linear-gradient(180deg, #fffafd 0%, #fdfcfd 40%);
 }
 
+.sentence-mode-note {
+  margin: 8px 0 16px;
+  color: #817a86;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
 .subpage-head {
   display: grid;
   grid-template-columns: 44px minmax(0, 1fr);

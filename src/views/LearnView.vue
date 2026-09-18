@@ -264,6 +264,12 @@ function start() {
       </div>
     </fieldset>
 
+    <p
+      v-if="selectedMode === 'fill-blank' || selectedMode === 'reorder'"
+      class="sentence-mode-note"
+    >
+      例文に対応していない単語は「英 → 日」で出題します。
+    </p>
     <fieldset class="practice-mode question-count">
       <legend>
         <span class="eyebrow">SESSION LENGTH</span>
@@ -312,7 +318,9 @@ function start() {
 
     <div class="learn-links">
       <RouterLink to="/learn/words"
-        ><BookMarked /><span><b>Word Book</b><small>1,000語から検索する</small></span
+        ><BookMarked /><span
+          ><b>Word Book</b
+          ><small>{{ vocabularyWords.length.toLocaleString() }}語から検索する</small></span
         ><ChevronRight
       /></RouterLink>
       <RouterLink to="/learn/review"

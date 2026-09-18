@@ -335,7 +335,9 @@ describe('app store progression', () => {
       new Set(store.s.activeVocabularySession?.questions.map((question) => question.wordId)).size
     ).toBe(150)
     expect(
-      store.s.activeVocabularySession?.questions.every((question) => question.type === 'fill-blank')
+      store.s.activeVocabularySession?.questions.every(
+        (question) => question.type === 'fill-blank' || question.type === 'en-to-ja'
+      )
     ).toBe(true)
     expect(JSON.parse(data.get('love-language-save-v1') ?? '{}').lastSelectedVocabularyMode).toBe(
       'fill-blank'

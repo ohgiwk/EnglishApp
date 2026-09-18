@@ -27,7 +27,7 @@ export const validateStoryFlow = (flow: StoryFlow): StoryFlowValidation => {
   const nodes = Object.values(flow.nodes)
   const choices = nodes.filter((node): node is StoryChoiceNode => node.type === 'choice')
   if (!flow.nodes[flow.startNodeId]) errors.push(`Missing start node: ${flow.startNodeId}`)
-  if (choices.length !== 3) errors.push(`Expected 3 choice nodes, found ${choices.length}`)
+  if (!choices.length) errors.push('Expected at least one choice node')
 
   for (const node of nodes) {
     if (node.type === 'dialogue' && !flow.nodes[node.next]) {

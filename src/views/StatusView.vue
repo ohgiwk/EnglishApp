@@ -1,17 +1,7 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import {
-  BookOpen,
-  Check,
-  Edit3,
-  Flame,
-  Save,
-  Settings,
-  Star,
-  Target,
-  Trophy,
-  X
-} from '@lucide/vue'
+import { BookOpen, Check, Edit3, Flame, Save, Settings, Star, Target, Trophy, X } from '@lucide/vue'
+import { vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
 
 const store = useAppStore()
@@ -37,7 +27,9 @@ const calendarDays = computed(() =>
 )
 const leadingBlanks = computed(() => calendarDays.value[0]?.weekday ?? 0)
 const selectedStats = computed(() => store.s.dailyStudyStats[selectedDate.value])
-const vocabularyPercent = computed(() => Math.round((store.masteredVocabularyCount / 1000) * 100))
+const vocabularyPercent = computed(() =>
+  Math.round((store.masteredVocabularyCount / vocabularyWords.length) * 100)
+)
 const intensity = (xp = 0) => (xp === 0 ? 0 : xp <= 10 ? 1 : xp <= 25 ? 2 : 3)
 
 function beginEdit() {

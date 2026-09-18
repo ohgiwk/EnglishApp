@@ -287,7 +287,22 @@ export const exampleSourceFor = (word: VocabularyWord): VocabularyExampleSource 
   return 'generated'
 }
 
-export const naturalExampleFor = (word: VocabularyWord): VocabularyExample => {
+export const exampleInfoFor = (
+  word: VocabularyWord
+): NonNullable<VocabularyWord['exampleInfo']> => {
+  const source = exampleSourceFor(word)
+  return {
+    source,
+    // Authored describes the source; it does not claim automated grammar validation.
+    reviewStatus: source === 'generated' ? 'needs-review' : 'authored',
+    allowedExercises:
+      source === 'generated'
+        ? ['en-to-ja', 'ja-to-en', 'flashcard']
+        : ['en-to-ja', 'ja-to-en', 'flashcard', 'fill-blank', 'reorder']
+  }
+}
+
+export const exampleFor = (word: VocabularyWord): VocabularyExample => {
   const curated = reorderExamples[word.id]
   if (curated) return curated
   return coreExamples[word.word] ?? generatedExample(word)

@@ -3,7 +3,8 @@ import {
   buildFillBlank,
   buildReorder,
   buildVocabularySession,
-  hasNaturalReorderExample,
+  hasReorderExample,
+  supportsSentenceExercise,
   isCorrectReorder,
   rewardForAccuracy,
   summarizeVocabularySession
@@ -122,11 +123,17 @@ describe('vocabulary data', () => {
       new Set(vocabularyWords.filter((word) => word.level === 1).map((word) => word.id))
     )
     expect(session.mode).toBe('mixed')
-    expect(session.questions.filter((question) => question.type === 'en-to-ja')).toHaveLength(30)
+    expect(
+      session.questions.filter((question) => question.type === 'en-to-ja').length
+    ).toBeGreaterThanOrEqual(30)
     expect(session.questions.filter((question) => question.type === 'ja-to-en')).toHaveLength(30)
     expect(session.questions.filter((question) => question.type === 'flashcard')).toHaveLength(30)
-    expect(session.questions.filter((question) => question.type === 'fill-blank')).toHaveLength(30)
-    expect(session.questions.filter((question) => question.type === 'reorder')).toHaveLength(30)
+    expect(
+      session.questions.filter((question) => question.type === 'fill-blank').length
+    ).toBeLessThanOrEqual(30)
+    expect(
+      session.questions.filter((question) => question.type === 'reorder').length
+    ).toBeLessThanOrEqual(30)
     for (const question of session.questions.filter(
       (item) => item.type === 'en-to-ja' || item.type === 'ja-to-en'
     )) {
@@ -208,8 +215,8 @@ describe('vocabulary data', () => {
       expect(new Set(session.questions.map((question) => question.wordId)).size).toBe(150)
       expect(
         session.questions.every((question) =>
-          mode === 'reorder'
-            ? question.type === 'reorder' || question.type === 'fill-blank'
+          mode === 'reorder' || mode === 'fill-blank'
+            ? question.type === mode || question.type === 'en-to-ja'
             : question.type === mode
         )
       ).toBe(true)
@@ -243,9 +250,9 @@ describe('vocabulary data', () => {
   it('keeps every level word in reorder sessions and safely falls back when needed', () => {
     for (const level of vocabularyLevels) {
       const naturalWords = vocabularyWords.filter(
-        (word) => word.level === level.id && hasNaturalReorderExample(word)
+        (word) => word.level === level.id && hasReorderExample(word)
       )
-      expect(naturalWords.length).toBeGreaterThanOrEqual(10)
+      expect(naturalWords.every((word) => word.exampleInfo?.reviewStatus === 'authored')).toBe(true)
       const session = buildVocabularySession(
         level.id,
         {},
@@ -259,12 +266,12 @@ describe('vocabulary data', () => {
       )
       for (const question of session.questions) {
         const word = vocabularyWords.find((item) => item.id === question.wordId)!
-        if (!hasNaturalReorderExample(word)) {
-          expect(question.type).toBe('fill-blank')
-          expect(question.prompt).toContain('____')
+        if (!hasReorderExample(word)) {
+          expect(question.type).toBe('en-to-ja')
           continue
         }
         expect(question.type).toBe('reorder')
+        if (question.type !== 'reorder') throw new Error('Expected reorder question')
         expect(question.prompt?.toLocaleLowerCase()).toContain(word.word.toLocaleLowerCase())
         expect(question.prompt).not.toMatch(/["'“”‘’[\]]/)
         expect(question.prompt).not.toMatch(/\bthe word\b/i)
@@ -297,8 +304,8 @@ describe('vocabulary data', () => {
       example: 'This sentence does not contain the target.',
       exampleJa: ''
     }
-    expect(hasNaturalReorderExample(word)).toBe(false)
-    expect(() => buildReorder(word, () => 0.42)).toThrow('No natural reorder example')
+    expect(hasReorderExample(word)).toBe(false)
+    expect(() => buildReorder(word, () => 0.42)).toThrow('No eligible reorder example')
   })
 
   it('preserves future curated bilingual examples', () => {
@@ -312,6 +319,18 @@ describe('vocabulary data', () => {
     const reorder = buildReorder(word, () => 0.42)
     expect(reorder.prompt).toBe(word.example)
     expect(reorder.promptJa).toBe(word.exampleJa)
+  })
+
+  it('does not use unreviewed generated examples for sentence exercises', () => {
+    for (const level of vocabularyLevels) {
+      for (const mode of ['fill-blank', 'reorder'] as const) {
+        const session = buildVocabularySession(level.id, {}, () => 0.42, 'quality', mode)
+        for (const question of session.questions) {
+          const word = vocabularyWords.find((word) => word.id === question.wordId)!
+          expect(question.type).toBe(supportsSentenceExercise(word, mode) ? mode : 'en-to-ja')
+        }
+      }
+    }
   })
 
   it('uses the fixed reward bands without negative rewards', () => {

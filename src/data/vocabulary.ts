@@ -1,5 +1,5 @@
 import type { VocabularyLevel, VocabularyWord } from '../types'
-import { naturalExampleFor } from './vocabulary-examples'
+import { exampleFor, exampleInfoFor } from './vocabulary-examples'
 
 export const vocabularyLevels: VocabularyLevel[] = [
   {
@@ -10179,9 +10179,10 @@ const vocabularySourceWords: VocabularyWord[] = [
 ]
 
 export const vocabularyWords: VocabularyWord[] = vocabularySourceWords.map((word) => {
-  const example = naturalExampleFor(word)
+  const example = exampleFor(word)
   return {
     ...word,
+    exampleInfo: exampleInfoFor(word),
     example: example.english,
     exampleJa: example.japanese
   }

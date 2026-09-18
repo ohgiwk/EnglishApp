@@ -1,37 +1,18 @@
 import { computed, ref } from 'vue'
 import { defineStore } from 'pinia'
-import { buildVocabularySession, summarizeVocabularySession } from '../data/vocabulary-engine'
-import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
+import { vocabularyWords } from '../data/vocabulary'
+import { chapters } from '../data/chapters'
 import { getCharacter } from '../data/characters'
-import { getStoryFlow } from '../data/story-flows'
-import {
-  legacyChoiceFromStoryResult,
-  savedSelections,
-  storyChoiceResults
-} from '../data/story-engine'
-import type {
-  CharacterId,
-  ChoiceResult,
-  DailyStudyStats,
-  VocabularyAnswer,
-  VocabularyQuestionCount,
-  VocabularyResult,
-  VocabularySessionMode,
-  VocabularyStatus
-} from '../types'
-
-import {
-  defaults,
-  isVocabularyMode,
-  isVocabularyQuestionCount,
-  sanitizeVocabularyStatuses
-} from '../persistence/save'
-import type { SaveData } from '../persistence/save'
+import type { CharacterId, DailyStudyStats } from '../types'
+import { defaults, type SaveData } from '../persistence/save'
+import { createStoryActions } from './actions/story'
+import { createVocabularyActions } from './actions/vocabulary'
+import { createLegacyStoryActions } from './actions/legacy-story'
+import { recordStudyActivity } from '../domain/study-statistics'
 import { loadSave, writeSave } from '../persistence/storage'
 import { localDateKey } from '../study-date'
 export { migrateSave } from '../persistence/save'
 
-const clamp = (value: number) => Math.max(0, Math.min(100, value))
 const today = () => localDateKey(new Date())
 
 export const useAppStore = defineStore('app', () => {
@@ -50,11 +31,15 @@ export const useAppStore = defineStore('app', () => {
           ? '友達'
           : '知り合い'
   )
-  const currentChapter = computed(() =>
-    Math.min(3, Math.max(1, progress.value.completed.length + 1))
+  const currentChapter = computed(
+    () => chapters[Math.min(progress.value.completed.length, chapters.length - 1)]?.id ?? 1
   )
   const learnedCount = computed(() =>
-    progress.value.completed.reduce((total, id) => total + [5, 4, 4][id - 1], 0)
+    progress.value.completed.reduce(
+      (total, id) =>
+        total + (chapters.find((chapter) => chapter.id === id)?.expressions.length ?? 0),
+      0
+    )
   )
   const masteredVocabularyCount = computed(
     () =>
@@ -95,39 +80,24 @@ export const useAppStore = defineStore('app', () => {
   }
 
   function markStudyDay() {
-    if (s.value.lastStudyDate !== today()) {
-      s.value.studyDays += 1
-      s.value.lastStudyDate = today()
-    }
-  }
-
-  function recordStudyActivity(activity: Omit<DailyStudyStats, 'date'>) {
     const date = today()
-    const current = s.value.dailyStudyStats[date] ?? {
-      date,
-      vocabularyQuestionsAnswered: 0,
-      xpEarned: 0,
-      storySessions: 0,
-      vocabularySessions: 0,
-      questionsAnswered: 0,
-      correctAnswers: 0
+    if (s.value.lastStudyDate !== date) {
+      s.value.studyDays += 1
+      s.value.lastStudyDate = date
     }
-    current.vocabularyQuestionsAnswered += activity.vocabularyQuestionsAnswered
-    current.xpEarned += activity.xpEarned
-    current.storySessions += activity.storySessions
-    current.vocabularySessions += activity.vocabularySessions
-    current.questionsAnswered += activity.questionsAnswered
-    current.correctAnswers += activity.correctAnswers
-    s.value.dailyStudyStats[date] = current
-    s.value.lifetimeStudyStats.storySessions += activity.storySessions
-    s.value.lifetimeStudyStats.vocabularySessions += activity.vocabularySessions
-    s.value.lifetimeStudyStats.questionsAnswered += activity.questionsAnswered
-    s.value.lifetimeStudyStats.correctAnswers += activity.correctAnswers
-    const retained = Object.keys(s.value.dailyStudyStats).sort().slice(-365)
-    s.value.dailyStudyStats = Object.fromEntries(
-      retained.map((key) => [key, s.value.dailyStudyStats[key]])
-    )
   }
+  const actionContext = {
+    s,
+    progress,
+    emmaProgress,
+    persist,
+    markStudyDay,
+    recordStudyActivity: (activity: Omit<DailyStudyStats, 'date'>) =>
+      recordStudyActivity(s.value, activity, today())
+  }
+  const storyActions = createStoryActions(actionContext)
+  const vocabularyActions = createVocabularyActions(actionContext)
+  const legacyActions = createLegacyStoryActions(actionContext)
 
   function setName(name: string) {
     s.value.name = name.trim()
@@ -154,358 +124,12 @@ export const useAppStore = defineStore('app', () => {
     persist()
   }
 
-  function storySelectionsForReview(chapterId: number, result: ChoiceResult) {
-    if (result.storyChoices?.length) return savedSelections(result.storyChoices)
-    const flow = getStoryFlow(chapterId)
-    if (!flow) return []
-    const choiceNodes = Object.values(flow.nodes).filter((node) => node.type === 'choice')
-    return choiceNodes.map((node, index) => {
-      const legacyIndex = result.choice.id.endsWith('-b')
-        ? 1
-        : result.choice.id.endsWith('-c')
-          ? 2
-          : 0
-      const optionIndex = index === choiceNodes.length - 1 ? legacyIndex : 0
-      return { pointId: node.id, optionId: node.options[optionIndex]?.id ?? node.options[0].id }
-    })
-  }
-
-  function startStorySession(chapterId: number) {
-    const flow = getStoryFlow(chapterId)
-    if (!flow) return false
-    const existing = progress.value.answers[chapterId]
-    const active = s.value.activeStorySession
-    if (
-      active?.characterId === s.value.activeCharacterId &&
-      active.chapterId === chapterId &&
-      active.contentRevision === flow.revision
-    ) {
-      return true
-    }
-    s.value.activeStorySession = {
-      characterId: s.value.activeCharacterId,
-      chapterId,
-      contentRevision: flow.revision,
-      currentNodeId: flow.startNodeId,
-      history: [],
-      selections: existing ? storySelectionsForReview(chapterId, existing) : [],
-      acknowledgedChoiceIds: existing
-        ? storySelectionsForReview(chapterId, existing).map((selection) => selection.pointId)
-        : [],
-      reviewOnly: Boolean(existing),
-      startedAt: new Date().toISOString()
-    }
-    persist()
-    return true
-  }
-
-  function advanceStoryNode() {
-    const session = s.value.activeStorySession
-    const flow = session && getStoryFlow(session.chapterId)
-    const node = flow?.nodes[session?.currentNodeId ?? '']
-    if (!session || !flow || node?.type !== 'dialogue') return false
-    session.history.push(node.id)
-    session.currentNodeId = node.next
-    persist()
-    return true
-  }
-
-  function chooseStoryOption(pointId: string, optionId: string) {
-    const session = s.value.activeStorySession
-    const flow = session && getStoryFlow(session.chapterId)
-    const node = flow?.nodes[pointId]
-    if (
-      !session ||
-      !flow ||
-      session.currentNodeId !== pointId ||
-      node?.type !== 'choice' ||
-      session.reviewOnly ||
-      session.selections.some((selection) => selection.pointId === pointId)
-    ) {
-      return false
-    }
-    const option = node.options.find((candidate) => candidate.id === optionId)
-    if (!option) return false
-    session.selections.push({ pointId, optionId })
-    session.history.push(node.id)
-    session.currentNodeId = option.next
-    persist()
-    return true
-  }
-
-  function continueReviewedStoryChoice() {
-    const session = s.value.activeStorySession
-    const flow = session && getStoryFlow(session.chapterId)
-    const node = flow?.nodes[session?.currentNodeId ?? '']
-    if (!session || !flow || node?.type !== 'choice') return false
-    const selection = session.selections.find((item) => item.pointId === node.id)
-    const option = node.options.find((item) => item.id === selection?.optionId)
-    if (!option) return false
-    session.history.push(node.id)
-    session.currentNodeId = option.next
-    persist()
-    return true
-  }
-
-  function acknowledgeStoryChoice(pointId: string) {
-    const session = s.value.activeStorySession
-    if (!session || !session.selections.some((selection) => selection.pointId === pointId)) {
-      return false
-    }
-    if (!session.acknowledgedChoiceIds.includes(pointId)) {
-      session.acknowledgedChoiceIds.push(pointId)
-      persist()
-    }
-    return true
-  }
-
-  function previousStoryNode() {
-    const session = s.value.activeStorySession
-    if (!session?.history.length) return false
-    const previousId = session.history.pop()
-    if (!previousId) return false
-    session.currentNodeId = previousId
-    persist()
-    return true
-  }
-
-  function completeStorySession(): ChoiceResult | null {
-    const session = s.value.activeStorySession
-    const flow = session && getStoryFlow(session.chapterId)
-    const node = flow?.nodes[session?.currentNodeId ?? '']
-    if (!session || !flow || node?.type !== 'ending') return null
-    const characterProgress = s.value.characterProgress[session.characterId]
-    const existing = characterProgress.answers[session.chapterId]
-    if (existing) {
-      s.value.activeStorySession = null
-      persist()
-      return existing
-    }
-    const results = storyChoiceResults(flow, session.selections)
-    if (results.length !== 3) return null
-    const affectionChange = Math.max(
-      -3,
-      Math.min(
-        6,
-        results.reduce((total, result) => total + result.affectionChange, 0)
-      )
-    )
-    const trustChange = Math.max(
-      -3,
-      Math.min(
-        6,
-        results.reduce((total, result) => total + result.trustChange, 0)
-      )
-    )
-    const englishXp = results.reduce((total, result) => total + result.englishXp, 0)
-    const result: ChoiceResult = {
-      characterId: session.characterId,
-      chapterId: session.chapterId,
-      choice: legacyChoiceFromStoryResult(results.at(-1)!),
-      storyChoices: results,
-      totalAffectionChange: affectionChange,
-      totalTrustChange: trustChange,
-      totalEnglishXp: englishXp,
-      contentRevision: flow.revision,
-      completedAt: new Date().toISOString()
-    }
-    if (!characterProgress.completed.includes(session.chapterId)) {
-      characterProgress.affection = clamp(characterProgress.affection + affectionChange)
-      characterProgress.trust = clamp(characterProgress.trust + trustChange)
-      s.value.xp += englishXp
-      characterProgress.completed.push(session.chapterId)
-      recordStudyActivity({
-        xpEarned: englishXp,
-        storySessions: 1,
-        vocabularySessions: 0,
-        vocabularyQuestionsAnswered: 0,
-        questionsAnswered: results.length,
-        correctAnswers: results.filter(
-          (choiceResult) => choiceResult.affectionChange > 0 || choiceResult.trustChange > 0
-        ).length
-      })
-      markStudyDay()
-    }
-    characterProgress.answers[session.chapterId] = result
-    s.value.activeStorySession = null
-    persist()
-    return result
-  }
-
-  function complete(result: ChoiceResult) {
-    const character = getCharacter(result.characterId)
-    if (character.availability !== 'available') return
-    const characterProgress = s.value.characterProgress[character.id]
-    if (!characterProgress.completed.includes(result.chapterId)) {
-      characterProgress.affection = clamp(
-        characterProgress.affection + result.choice.affectionChange
-      )
-      characterProgress.trust = clamp(characterProgress.trust + result.choice.trustChange)
-      s.value.xp += result.choice.englishXp
-      characterProgress.completed.push(result.chapterId)
-      recordStudyActivity({
-        xpEarned: result.choice.englishXp,
-        storySessions: 1,
-        vocabularySessions: 0,
-        vocabularyQuestionsAnswered: 0,
-        questionsAnswered: 0,
-        correctAnswers: 0
-      })
-      markStudyDay()
-    }
-    characterProgress.answers[result.chapterId] = result
-    persist()
-  }
-
   function toggleReview(id: string) {
     const reviews = progress.value.reviews
     progress.value.reviews = reviews.includes(id)
       ? reviews.filter((reviewId) => reviewId !== id)
       : [...reviews, id]
     persist()
-  }
-
-  function setVocabularyMode(mode: VocabularySessionMode) {
-    if (!isVocabularyMode(mode)) return
-    s.value.lastSelectedVocabularyMode = mode
-    persist()
-  }
-
-  function setVocabularyQuestionCount(count: VocabularyQuestionCount) {
-    if (!isVocabularyQuestionCount(count)) return
-    s.value.lastSelectedVocabularyQuestionCount = count
-    persist()
-  }
-
-  function setVocabularyStatuses(statuses: VocabularyStatus[]) {
-    const selected = sanitizeVocabularyStatuses(statuses)
-    s.value.lastSelectedVocabularyStatuses = selected
-    persist()
-  }
-
-  function startVocabularySession(
-    level: number,
-    mode: VocabularySessionMode = s.value.lastSelectedVocabularyMode,
-    questionCount: number | 'all' = s.value.lastSelectedVocabularyQuestionCount
-  ) {
-    if (level > s.value.unlockedVocabularyLevel) return
-    const levelWordCount = vocabularyWords.filter((word) => word.level === level).length
-    const savedQuestionCount: VocabularyQuestionCount =
-      questionCount === 'all' || questionCount >= levelWordCount
-        ? 'all'
-        : isVocabularyQuestionCount(questionCount)
-          ? questionCount
-          : 'all'
-    s.value.lastSelectedVocabularyMode = mode
-    s.value.lastSelectedVocabularyQuestionCount = savedQuestionCount
-    const session = buildVocabularySession(
-      level,
-      s.value.wordProgress,
-      Math.random,
-      `vocab-${Date.now()}`,
-      mode,
-      savedQuestionCount,
-      s.value.lastSelectedVocabularyStatuses
-    )
-    if (!session.questions.length) {
-      s.value.activeVocabularySession = null
-      persist()
-      return
-    }
-    s.value.activeVocabularySession = session
-    s.value.lastVocabularyResult = null
-    persist()
-  }
-
-  function cancelVocabularySession() {
-    if (!s.value.activeVocabularySession) return
-    s.value.activeVocabularySession = null
-    persist()
-  }
-
-  function finishVocabularySession(): VocabularyResult | null {
-    const session = s.value.activeVocabularySession
-    if (!session) return null
-    if (!session.answers.length) {
-      cancelVocabularySession()
-      return null
-    }
-
-    const masteredWordIds = session.answers
-      .filter((item) => s.value.wordProgress[item.wordId]?.status === 'mastered')
-      .map((item) => item.wordId)
-
-    if (s.value.vocabularyRewardDate !== today()) {
-      s.value.vocabularyRewardDate = today()
-      s.value.vocabularyRewardCount = 0
-    }
-    const rewardAllowed = s.value.vocabularyRewardCount < 3
-    const result = summarizeVocabularySession(session, masteredWordIds, rewardAllowed)
-    s.value.xp += result.earnedXp
-    emmaProgress.value.affection = clamp(emmaProgress.value.affection + result.affectionChange)
-    emmaProgress.value.trust = clamp(emmaProgress.value.trust + result.trustChange)
-    recordStudyActivity({
-      xpEarned: result.earnedXp,
-      storySessions: 0,
-      vocabularySessions: 1,
-      vocabularyQuestionsAnswered: result.totalCount,
-      questionsAnswered: result.totalCount,
-      correctAnswers: result.correctCount
-    })
-    if (rewardAllowed) s.value.vocabularyRewardCount += 1
-    markStudyDay()
-
-    for (let level = 1; level < vocabularyLevels.length; level += 1) {
-      const levelWords = vocabularyWords.filter((word) => word.level === level)
-      const mastered = levelWords.filter(
-        (word) => s.value.wordProgress[word.id]?.status === 'mastered'
-      ).length
-      if (mastered / levelWords.length >= 0.7) {
-        s.value.unlockedVocabularyLevel = Math.max(s.value.unlockedVocabularyLevel, level + 1)
-      }
-    }
-
-    s.value.vocabularyResults = [...s.value.vocabularyResults, result].slice(-30)
-    s.value.lastVocabularyResult = result
-    s.value.activeVocabularySession = null
-    persist()
-    return result
-  }
-
-  function answerVocabularyQuestion(correct: boolean): VocabularyResult | null {
-    const session = s.value.activeVocabularySession
-    if (!session) return null
-    const question = session.questions[session.currentIndex]
-    if (!question || session.answers.some((answer) => answer.wordId === question.wordId))
-      return null
-
-    const answer: VocabularyAnswer = {
-      wordId: question.wordId,
-      type: question.type,
-      correct,
-      answeredAt: new Date().toISOString()
-    }
-    session.answers.push(answer)
-
-    const previous = s.value.wordProgress[question.wordId]
-    const correctSessions = correct
-      ? [...new Set([...(previous?.correctSessions ?? []), session.id])]
-      : []
-    s.value.wordProgress[question.wordId] = {
-      status: correctSessions.length >= 2 ? 'mastered' : 'learning',
-      correctSessions,
-      correctCount: (previous?.correctCount ?? 0) + (correct ? 1 : 0),
-      incorrectCount: (previous?.incorrectCount ?? 0) + (correct ? 0 : 1),
-      lastStudiedAt: answer.answeredAt
-    }
-
-    session.currentIndex += 1
-    if (session.currentIndex < session.questions.length) {
-      persist()
-      return null
-    }
-
-    return finishVocabularySession()
   }
 
   function reset() {
@@ -533,22 +157,10 @@ export const useAppStore = defineStore('app', () => {
     finishOnboarding,
     selectCharacter,
     toggleTranslation,
-    startStorySession,
-    advanceStoryNode,
-    chooseStoryOption,
-    continueReviewedStoryChoice,
-    acknowledgeStoryChoice,
-    previousStoryNode,
-    completeStorySession,
-    complete,
+    ...storyActions,
+    ...vocabularyActions,
+    ...legacyActions,
     toggleReview,
-    setVocabularyMode,
-    setVocabularyQuestionCount,
-    setVocabularyStatuses,
-    startVocabularySession,
-    cancelVocabularySession,
-    finishVocabularySession,
-    answerVocabularyQuestion,
     reset
   }
 })

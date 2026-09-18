@@ -3,7 +3,9 @@ import { computed, ref } from 'vue'
 import { useRouter } from 'vue-router'
 import { ArrowLeft, BookOpen, Check, ChevronRight, Search, Volume2, X } from '@lucide/vue'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
-import { englishSpeechAvailable, speakAmericanEnglish } from '../speech'
+import { englishSpeechAvailable } from '../speech'
+import BaseDialog from '../components/BaseDialog.vue'
+import { useEnglishSpeech } from '../composables/useEnglishSpeech'
 import { useAppStore } from '../stores/app'
 import type { VocabularyPartOfSpeech, VocabularyStatus, VocabularyWord } from '../types'
 
@@ -31,9 +33,7 @@ const filtered = computed(() =>
   })
 )
 const visible = computed(() => filtered.value.slice(0, pageSize.value))
-function speak(text: string) {
-  speakAmericanEnglish(text)
-}
+const { speak } = useEnglishSpeech()
 </script>
 
 <template>
@@ -42,7 +42,7 @@ function speak(text: string) {
       <button aria-label="Learnへ戻る" @click="router.push('/learn')"><ArrowLeft /></button>
       <div>
         <p class="eyebrow">WORD BOOK</p>
-        <h1>1,000 Words</h1>
+        <h1>{{ vocabularyWords.length.toLocaleString() }} Words</h1>
       </div>
       <p>エマと出会った単語も、これから出会う単語も。</p>
     </header>
@@ -91,39 +91,45 @@ function speak(text: string) {
       さらに表示
     </button>
 
-    <div v-if="selected" class="word-modal" @click.self="selected = null">
-      <article>
-        <button class="word-close" aria-label="詳細を閉じる" @click="selected = null"><X /></button>
-        <p class="eyebrow">LEVEL {{ selected.level }} · {{ selected.category }}</p>
-        <div class="word-title">
-          <h1>{{ selected.word }}</h1>
-          <button :disabled="!speechAvailable" @click="speak(selected.word)"><Volume2 /></button>
-        </div>
-        <span class="part-badge">{{ selected.partOfSpeech }}</span>
-        <h2>{{ selected.meaningJa }}</h2>
-        <div class="example-card">
-          <BookOpen />
-          <p>{{ selected.example }}</p>
-          <small>{{ selected.exampleJa }}</small>
-          <button :disabled="!speechAvailable" @click="speak(selected.example)">
-            <Volume2 /> 例文を聞く
-          </button>
-        </div>
-        <div class="word-detail-progress">
-          <span
-            ><b>{{ store.s.wordProgress[selected.id]?.correctCount ?? 0 }}</b
-            >正解</span
-          >
-          <span
-            ><b>{{ store.s.wordProgress[selected.id]?.incorrectCount ?? 0 }}</b
-            >復習</span
-          >
-          <span
-            ><b>{{ statusOf(selected) }}</b
-            >状態</span
-          >
-        </div>
-      </article>
-    </div>
+    <BaseDialog
+      v-if="selected"
+      class="word-modal"
+      panel-tag="article"
+      title-id="word-detail-title"
+      dismissible
+      initial-focus="first"
+      @close="selected = null"
+    >
+      <button class="word-close" aria-label="詳細を閉じる" @click="selected = null"><X /></button>
+      <p class="eyebrow">LEVEL {{ selected.level }} · {{ selected.category }}</p>
+      <div class="word-title">
+        <h1 id="word-detail-title">{{ selected.word }}</h1>
+        <button :disabled="!speechAvailable" @click="speak(selected.word)"><Volume2 /></button>
+      </div>
+      <span class="part-badge">{{ selected.partOfSpeech }}</span>
+      <h2>{{ selected.meaningJa }}</h2>
+      <div class="example-card">
+        <BookOpen />
+        <p>{{ selected.example }}</p>
+        <small>{{ selected.exampleJa }}</small>
+        <button :disabled="!speechAvailable" @click="speak(selected.example)">
+          <Volume2 /> 例文を聞く
+        </button>
+      </div>
+      <div class="word-detail-progress">
+        <span
+          ><b>{{ store.s.wordProgress[selected.id]?.correctCount ?? 0 }}</b
+          >正解</span
+        >
+        <span
+          ><b>{{ store.s.wordProgress[selected.id]?.incorrectCount ?? 0 }}</b
+          >復習</span
+        >
+        <span
+          ><b>{{ statusOf(selected) }}</b
+          >状態</span
+        >
+      </div>
+    </BaseDialog>
   </section>
 </template>
