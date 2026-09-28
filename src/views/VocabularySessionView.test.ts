@@ -147,7 +147,7 @@ describe('vocabulary session UI', () => {
 
   it('mutes automatic answer speech but permits explicit replay', async () => {
     await setup([fill()])
-    await wrapper!.get('[aria-label="自動読み上げをミュートする"]').trigger('click')
+    await wrapper!.get('[aria-label="自動読み上げと効果音をミュートする"]').trigger('click')
     await wrapper!.get('input').setValue('do')
     await wrapper!.get('form').trigger('submit')
     await flushPromises()

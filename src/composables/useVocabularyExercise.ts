@@ -8,7 +8,7 @@ type ExerciseState =
 export function useVocabularyExercise(
   question: Ref<VocabularyQuestion | undefined>,
   word: Ref<VocabularyWord | undefined>,
-  onAnswer: () => void,
+  onAnswer: (correct: boolean) => void,
   onCommit: (correct: boolean) => void
 ) {
   const state = ref<ExerciseState>({ phase: 'answering' })
@@ -35,7 +35,7 @@ export function useVocabularyExercise(
   watch(question, reset, { flush: 'sync' })
   function answered(correct: boolean) {
     state.value = { phase: 'answered', correct }
-    onAnswer()
+    onAnswer(correct)
   }
   function choose(value: string) {
     const current = question.value
@@ -89,8 +89,10 @@ export function useVocabularyExercise(
     if (state.value.phase === 'answered') commit(state.value.correct)
   }
   function rateCard(correct: boolean) {
-    if (question.value?.type === 'flashcard' && state.value.phase === 'card-revealed')
+    if (question.value?.type === 'flashcard' && state.value.phase === 'card-revealed') {
+      onAnswer(correct)
       commit(correct)
+    }
   }
   return {
     state,

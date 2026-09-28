@@ -13,6 +13,7 @@ import { vocabularyWords } from '../data/vocabulary'
 import { vocabularyCommentFor, type VocabularyCommentState } from '../data/vocabulary-comments'
 import { useAppStore } from '../stores/app'
 import { useVocabularyExercise } from '../composables/useVocabularyExercise'
+import { useAnswerSound } from '../composables/useAnswerSound'
 import { useVocabularySpeech } from '../composables/useVocabularySpeech'
 
 const store = useAppStore()
@@ -22,6 +23,7 @@ const session = computed(() => store.s.activeVocabularySession)
 const question = computed(() => session.value?.questions[session.value.currentIndex])
 const word = computed(() => vocabularyWords.find((item) => item.id === question.value?.wordId))
 const { muted, presentation, answer, replay, toggleMute } = useVocabularySpeech(question, word)
+const answerSound = useAnswerSound(muted)
 const {
   selected,
   fillAnswer,
@@ -39,10 +41,18 @@ const {
   checkOrder,
   next,
   rateCard
-} = useVocabularyExercise(question, word, answer, (correct) => {
-  const result = store.answerVocabularyQuestion(correct)
-  if (result) void router.replace('/learn/result')
-})
+} = useVocabularyExercise(
+  question,
+  word,
+  (correct) => {
+    void answerSound.play(correct)
+    answer()
+  },
+  (correct) => {
+    const result = store.answerVocabularyQuestion(correct)
+    if (result) void router.replace('/learn/result')
+  }
+)
 const showExitDialog = ref(false)
 let resolvePendingExit: ((allow: boolean) => void) | null = null
 const commentState = computed<VocabularyCommentState>(() =>
@@ -104,7 +114,9 @@ function confirmInterruption() {
           ><b>{{ session.currentIndex + 1 }} / {{ session.questions.length }}</b>
         </div>
         <button
-          :aria-label="muted ? '自動読み上げをオンにする' : '自動読み上げをミュートする'"
+          :aria-label="
+            muted ? '自動読み上げと効果音をオンにする' : '自動読み上げと効果音をミュートする'
+          "
           :aria-pressed="muted"
           @click="toggleMute"
         >
