@@ -113,6 +113,12 @@ const excluded = new Set([
 ])
 
 const meaningOverrides = {
+  mail: '郵便、郵便物',
+  company: '会社、企業',
+  international: '国際的な',
+  add: '足す、加える',
+  product: '製品、生産物',
+
   the: 'その、例の',
   of: '〜の、〜について',
   and: '〜と、そして',

@@ -17,7 +17,7 @@ describe('vocabulary data', () => {
   it('blanks the whole target word instead of a substring in another word', () => {
     const word = vocabularyWords.find((item) => item.word === 'out')!
     const fill = buildFillBlank(word)
-    expect(fill.prompt).toBe('Everyone learned something about the ____.')
+    expect(fill.prompt).toBe('The cat jumped ____ of the box.')
     expect(fill.sentence).toBe(word.example)
     expect(fill.prompt.replace('____', fill.answer)).toBe(fill.sentence)
   })
@@ -91,7 +91,9 @@ describe('vocabulary data', () => {
       Object.keys(reorderExamples).length
     )
     expect(sources.filter((source) => source === 'core').length).toBeGreaterThanOrEqual(60)
-    expect(sources.filter((source) => source === 'generated').length).toBeGreaterThan(800)
+    expect(sources.filter((source) => source === 'generated').length).toBe(
+      vocabularyWords.filter((word) => word.exampleInfo?.reviewStatus === 'needs-review').length
+    )
 
     for (const level of vocabularyLevels) {
       const examples = vocabularyWords
@@ -101,6 +103,22 @@ describe('vocabulary data', () => {
       expect(examples.some((example) => example.includes(' after class.'))).toBe(true)
       expect(examples.some((example) => !example.includes(' after class.'))).toBe(true)
     }
+  })
+
+  it('uses authored, varied examples for every level-one word and enables sentence practice', () => {
+    const words = vocabularyWords.filter((word) => word.level === 1)
+    expect(words).toHaveLength(150)
+    for (const word of words) {
+      expect(exampleSourceFor(word)).not.toBe('generated')
+      expect(supportsSentenceExercise(word, 'fill-blank')).toBe(true)
+      expect(supportsSentenceExercise(word, 'reorder')).toBe(true)
+      const fill = buildFillBlank(word)
+      expect(fill.prompt.replace('____', fill.answer).toLowerCase()).toBe(
+        word.example.toLowerCase()
+      )
+      expect(buildReorder(word, () => 0.42).promptJa).toBe(word.exampleJa)
+    }
+    expect(new Set(words.map((word) => word.example)).size).toBe(150)
   })
 
   it('uses natural representative sentences for common grammatical roles', () => {

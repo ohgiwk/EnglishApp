@@ -992,7 +992,7 @@ const vocabularySourceWords: VocabularyWord[] = [
   {
     id: 'v0095',
     word: 'product',
-    meaningJa: '産物',
+    meaningJa: '製品、生産物',
     partOfSpeech: 'noun',
     level: 1,
     example: 'Emma wrote “product” in her vocabulary notebook.',
@@ -1033,7 +1033,7 @@ const vocabularySourceWords: VocabularyWord[] = [
   {
     id: 'v0099',
     word: 'add',
-    meaningJa: '1を合計する',
+    meaningJa: '足す、加える',
     partOfSpeech: 'verb',
     level: 1,
     example: 'Emma wrote “add” in her vocabulary notebook.',
@@ -1254,7 +1254,7 @@ const vocabularySourceWords: VocabularyWord[] = [
   {
     id: 'v0121',
     word: 'company',
-    meaningJa: '来客,客',
+    meaningJa: '会社、企業',
     partOfSpeech: 'noun',
     level: 1,
     example: 'Emma wrote “company” in her vocabulary notebook.',
@@ -1344,7 +1344,7 @@ const vocabularySourceWords: VocabularyWord[] = [
   {
     id: 'v0130',
     word: 'mail',
-    meaningJa: '鎖かたびら,よろい',
+    meaningJa: '郵便、郵便物',
     partOfSpeech: 'noun',
     level: 1,
     example: 'Emma wrote “mail” in her vocabulary notebook.',
@@ -1465,7 +1465,7 @@ const vocabularySourceWords: VocabularyWord[] = [
   {
     id: 'v0142',
     word: 'international',
-    meaningJa: 'インターナショナル',
+    meaningJa: '国際的な',
     partOfSpeech: 'adjective',
     level: 1,
     example: 'Emma wrote “international” in her vocabulary notebook.',

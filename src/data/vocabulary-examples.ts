@@ -1,5 +1,6 @@
 import type { VocabularyWord } from '../types'
 import { reorderExamples } from './reorder-examples'
+import { levelOneExamples } from './level-one-examples'
 
 export interface VocabularyExample {
   english: string
@@ -283,7 +284,7 @@ export type VocabularyExampleSource = 'curated' | 'core' | 'generated'
 
 export const exampleSourceFor = (word: VocabularyWord): VocabularyExampleSource => {
   if (reorderExamples[word.id]) return 'curated'
-  if (coreExamples[word.word]) return 'core'
+  if ((word.level === 1 && levelOneExamples[word.word]) || coreExamples[word.word]) return 'core'
   return 'generated'
 }
 
@@ -305,5 +306,9 @@ export const exampleInfoFor = (
 export const exampleFor = (word: VocabularyWord): VocabularyExample => {
   const curated = reorderExamples[word.id]
   if (curated) return curated
-  return coreExamples[word.word] ?? generatedExample(word)
+  return (
+    (word.level === 1 ? levelOneExamples[word.word] : undefined) ??
+    coreExamples[word.word] ??
+    generatedExample(word)
+  )
 }
