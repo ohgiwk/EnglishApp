@@ -129,7 +129,7 @@ function start() {
     <header class="page-head">
       <p class="eyebrow">LEARN WITH EMMA</p>
       <h1>一緒に覚えよう</h1>
-      <p>レベルを選んで、収録単語を重複なしで一巡しよう。</p>
+      <p>ひとつ覚えるたび、世界が広がる。</p>
     </header>
 
     <div class="learn-hero">
