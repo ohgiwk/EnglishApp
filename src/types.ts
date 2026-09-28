@@ -289,6 +289,7 @@ export interface VocabularySession {
 }
 
 export interface VocabularyResult {
+  unlockedExamLevel?: number
   sessionId: string
   level: number
   mode?: VocabularySessionMode
@@ -302,4 +303,26 @@ export interface VocabularyResult {
   reviewWordIds: string[]
   answers?: VocabularyAnswer[]
   completedAt: string
+}
+
+export interface PromotionExamAnswer {
+  wordId: string
+  type: 'en-to-ja' | 'ja-to-en'
+  selected: string
+  correct: boolean
+}
+export interface PromotionExamSession {
+  id: string
+  level: number
+  questions: ChoiceQuestion[]
+  answers: PromotionExamAnswer[]
+}
+export interface PromotionExamResult {
+  id: string
+  level: number
+  answers: PromotionExamAnswer[]
+  correctCount: number
+  passed: boolean
+  completedAt: string
+  unlockedExamLevel?: number
 }

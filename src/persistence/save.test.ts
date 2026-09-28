@@ -41,7 +41,7 @@ describe('save validation and migration', () => {
         v0002: null
       }
     })
-    expect(migrated).toMatchObject({ version: 6, name: 'Keiya', xp: 200, studyDays: 12 })
+    expect(migrated).toMatchObject({ version: 7, name: 'Keiya', xp: 200, studyDays: 12 })
     expect(migrated.characterProgress.emma).toMatchObject({
       affection: 50,
       trust: 40,
@@ -87,7 +87,7 @@ describe('save validation and migration', () => {
     })
     expect(saved.xp).toBe(0)
     expect(saved.studyDays).toBe(2)
-    expect(saved.unlockedVocabularyLevel).toBe(6)
+    expect(saved.unlockedVocabularyLevel).toBe(1)
     expect(saved.lifetimeStudyStats.correctAnswers).toBe(5)
     expect(saved.dailyStudyStats[day]).toMatchObject({
       correctAnswers: 5,

@@ -32,7 +32,7 @@ describe('save storage', () => {
     expect(data.get(RECOVERY_KEY)).toBe('{broken')
     expect(data.get(SAVE_KEY)).toBe('{broken')
     expect(writeSave(defaults())).toBeNull()
-    expect(JSON.parse(data.get(SAVE_KEY)!).version).toBe(6)
+    expect(JSON.parse(data.get(SAVE_KEY)!).version).toBe(7)
     expect(data.get(RECOVERY_KEY)).toBe('{broken')
   })
 

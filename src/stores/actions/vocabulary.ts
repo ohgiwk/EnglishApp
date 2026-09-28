@@ -5,7 +5,8 @@ import {
   isVocabularyQuestionCount,
   sanitizeVocabularyStatuses
 } from '../../persistence/save'
-import { clampRelationship, vocabularyUnlockLevel } from '../../domain/study-rewards'
+import { clampRelationship } from '../../domain/study-rewards'
+import { grantExamEligibility } from '../../domain/promotion-exam'
 import { localDateKey } from '../../study-date'
 import type {
   VocabularyAnswer,
@@ -116,10 +117,7 @@ export function createVocabularyActions({
     if (rewardAllowed) s.value.vocabularyRewardCount += 1
     markStudyDay()
 
-    s.value.unlockedVocabularyLevel = vocabularyUnlockLevel(
-      s.value.wordProgress,
-      s.value.unlockedVocabularyLevel
-    )
+    result.unlockedExamLevel = grantExamEligibility(s.value)
 
     s.value.vocabularyResults = [...s.value.vocabularyResults, result].slice(-30)
     s.value.lastVocabularyResult = result

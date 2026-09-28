@@ -1,4 +1,6 @@
 import { computed, ref } from 'vue'
+import { createPromotionExamActions } from './actions/promotion-exam'
+import type { PromotionExamSession } from '../types'
 import { defineStore } from 'pinia'
 import { vocabularyWords } from '../data/vocabulary'
 import { chapters } from '../data/chapters'
@@ -18,6 +20,7 @@ const today = () => localDateKey(new Date())
 export const useAppStore = defineStore('app', () => {
   const loaded = loadSave()
   const s = ref<SaveData>(loaded.save)
+  const activeExam = ref<PromotionExamSession | null>(null)
   const saveError = ref(loaded.error)
   const activeCharacter = computed(() => getCharacter(s.value.activeCharacterId))
   const progress = computed(() => s.value.characterProgress[s.value.activeCharacterId])
@@ -95,6 +98,7 @@ export const useAppStore = defineStore('app', () => {
     recordStudyActivity: (activity: Omit<DailyStudyStats, 'date'>) =>
       recordStudyActivity(s.value, activity, today())
   }
+  const examActions = createPromotionExamActions(actionContext, activeExam)
   const storyActions = createStoryActions(actionContext)
   const vocabularyActions = createVocabularyActions(actionContext)
   const legacyActions = createLegacyStoryActions(actionContext)
@@ -133,6 +137,7 @@ export const useAppStore = defineStore('app', () => {
   }
 
   function reset() {
+    activeExam.value = null
     s.value = defaults()
     loaded.error = null
     persist()
@@ -157,6 +162,8 @@ export const useAppStore = defineStore('app', () => {
     finishOnboarding,
     selectCharacter,
     toggleTranslation,
+    activeExam,
+    ...examActions,
     ...storyActions,
     ...vocabularyActions,
     ...legacyActions,

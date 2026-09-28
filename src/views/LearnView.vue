@@ -1,14 +1,17 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
-import { useRouter } from 'vue-router'
+import { useRoute, useRouter } from 'vue-router'
 import {
   BookMarked,
   ChevronDown,
   ChevronRight,
   LockKeyhole,
+  Info,
   MessageSquareText,
   Play
 } from '@lucide/vue'
+import { examProgress, lastVocabularyLevel } from '../domain/promotion-exam'
+import BaseDialog from '../components/BaseDialog.vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
@@ -16,7 +19,17 @@ import type { VocabularyQuestionCount, VocabularySessionMode, VocabularyStatus }
 
 const store = useAppStore()
 const router = useRouter()
-const selectedLevel = ref(store.s.unlockedVocabularyLevel)
+const route = useRoute()
+const requestedLevel = Number(route.query.level)
+const selectedLevel = ref(
+  Number.isInteger(requestedLevel) &&
+    requestedLevel >= 1 &&
+    requestedLevel <= store.s.unlockedVocabularyLevel
+    ? requestedLevel
+    : store.s.unlockedVocabularyLevel
+)
+const promotionProgress = computed(() => examProgress(selectedLevel.value, store.s.wordProgress))
+const showPromotionInfo = ref(false)
 const levelMenuOpen = ref(false)
 const levelPicker = ref<HTMLElement | null>(null)
 const levelTrigger = ref<HTMLButtonElement | null>(null)
@@ -164,10 +177,72 @@ function start() {
       </div>
     </div>
 
+    <div v-if="store.s.examMigrationNotice" class="card exam-card" role="status">
+      <h2>昇級試験が始まりました</h2>
+      <p>
+        レベルの解放をレベル1に戻しました。単語の学習履歴やXPは保持されています。これからはレベル1から順に昇級試験に合格して解放します。
+      </p>
+      <button class="secondary" @click="store.acknowledgeExamMigration">確認しました</button>
+    </div>
+    <BaseDialog
+      v-if="showPromotionInfo"
+      class="promotion-info-modal"
+      title-id="promotion-info-title"
+      dismissible
+      @close="showPromotionInfo = false"
+    >
+      <p class="eyebrow">LEVEL UP</p>
+      <h2 id="promotion-info-title">昇級条件について</h2>
+      <ol class="promotion-steps">
+        <li>現在のレベルの単語を70%以上「学習済み」にすると、昇級試験が解放されます。</li>
+        <li>昇級試験で20問中18問以上に正解すると、次のレベルが解放されます。</li>
+      </ol>
+      <p v-if="selectedLevel === lastVocabularyLevel">
+        レベル{{ selectedLevel }}は最終レベルのため、昇級試験はありません。
+      </p>
+      <p v-else-if="store.s.passedExamLevels.includes(selectedLevel)">
+        レベル{{ selectedLevel }}の昇級試験は合格済みです。
+      </p>
+      <p v-else-if="store.canTakeExam(selectedLevel)">
+        レベル{{ selectedLevel }}の昇級試験を受験できます。
+      </p>
+      <p v-else>
+        レベル{{ selectedLevel }}では{{
+          promotionProgress.required
+        }}語の学習が必要です。受験資格の取得まで、あと{{
+          Math.max(0, promotionProgress.required - promotionProgress.mastered)
+        }}語を学習済みにしましょう。
+      </p>
+      <RouterLink
+        v-if="
+          selectedLevel < lastVocabularyLevel &&
+          store.canTakeExam(selectedLevel) &&
+          !store.s.passedExamLevels.includes(selectedLevel)
+        "
+        class="primary"
+        :to="`/learn/exam/${selectedLevel}`"
+        @click="showPromotionInfo = false"
+        >昇級試験を受ける</RouterLink
+      >
+      <button type="button" class="secondary promotion-close" @click="showPromotionInfo = false">
+        閉じる
+      </button>
+    </BaseDialog>
     <fieldset class="level-picker">
       <legend>
         <span class="eyebrow">VOCABULARY LEVEL</span>
-        <b>学習するレベルを選ぶ</b>
+        <span class="promotion-heading">
+          <b>学習するレベルを選ぶ</b>
+          <button
+            type="button"
+            class="promotion-info-button"
+            aria-label="昇級条件を確認する"
+            aria-haspopup="dialog"
+            @click="showPromotionInfo = true"
+          >
+            <Info :size="20" />
+          </button>
+        </span>
       </legend>
       <div ref="levelPicker" class="custom-level-select">
         <button
@@ -331,3 +406,66 @@ function start() {
     </div>
   </section>
 </template>
+
+<style>
+.promotion-info-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: #2d2531b8;
+}
+.promotion-info-modal > section {
+  width: min(100%, 400px);
+  max-height: calc(100dvh - 48px);
+  overflow-y: auto;
+  padding: 26px;
+  border-radius: 24px;
+  background: white;
+  color: #453f49;
+  box-shadow: 0 22px 60px #241b2b4d;
+}
+.promotion-info-modal h2 {
+  margin: 8px 0 16px;
+  font-size: 22px;
+}
+.promotion-info-modal .primary,
+.promotion-info-modal .promotion-close {
+  width: 100%;
+  margin-top: 12px;
+}
+
+.promotion-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.promotion-info-button {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  border-radius: 50%;
+  background: #fff0f5;
+  color: #983d60;
+}
+.promotion-info-button:focus-visible {
+  outline: 2px solid #983d60;
+  outline-offset: 2px;
+}
+.promotion-steps {
+  padding-left: 22px;
+  line-height: 1.8;
+}
+.promotion-steps li + li {
+  margin-top: 12px;
+}
+.promotion-info-modal p {
+  line-height: 1.8;
+}
+</style>

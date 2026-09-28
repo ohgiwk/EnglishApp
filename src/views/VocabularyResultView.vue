@@ -12,6 +12,7 @@ import {
   Star,
   X
 } from '@lucide/vue'
+import ExamUnlockNotice from '../components/vocabulary/ExamUnlockNotice.vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
@@ -83,6 +84,8 @@ function retry() {
         />
       </div>
     </div>
+
+    <ExamUnlockNotice :level="result.unlockedExamLevel" />
 
     <div class="result-emma">
       <EmmaPortrait :expression="result.accuracy >= 80 ? 'blush' : 'smile'" />

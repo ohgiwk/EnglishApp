@@ -1,6 +1,14 @@
 import { getCharacter } from '../data/characters'
 import { getStoryFlow } from '../data/story-flows'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
+import {
+  examAnswer,
+  EXAM_SIZE,
+  EXAM_PASS_COUNT,
+  grantExamEligibility,
+  lastVocabularyLevel
+} from '../domain/promotion-exam'
+import type { PromotionExamResult, PromotionExamAnswer } from '../types'
 import { localDateKey } from '../study-date'
 import type {
   ActiveStorySession,
@@ -91,12 +99,66 @@ const sanitizeStoryChoices = (value: unknown): StoryChoiceResult[] =>
     ]
   })
 
+const validExamLevel = (value: unknown): value is number =>
+  typeof value === 'number' && Number.isInteger(value) && value >= 1 && value < lastVocabularyLevel
+const examLevels = (value: unknown): number[] =>
+  Array.isArray(value) ? [...new Set(value.filter(validExamLevel))] : []
+const sanitizeExamResult = (value: unknown): PromotionExamResult | null => {
+  const source = record(value)
+  if (
+    !text(source.id) ||
+    !validExamLevel(source.level) ||
+    !timestamp(source.completedAt) ||
+    !Array.isArray(source.answers) ||
+    source.answers.length !== EXAM_SIZE
+  )
+    return null
+  const answers: PromotionExamAnswer[] = []
+  for (const item of source.answers) {
+    const answer = record(item)
+    const word = vocabularyWords.find(
+      (word) => word.id === answer.wordId && word.level === source.level
+    )
+    if (
+      !word ||
+      answers.some((saved) => saved.wordId === word.id) ||
+      (answer.type !== 'en-to-ja' && answer.type !== 'ja-to-en') ||
+      typeof answer.selected !== 'string'
+    )
+      return null
+    const question: Pick<PromotionExamAnswer, 'wordId' | 'type'> = {
+      wordId: word.id,
+      type: answer.type
+    }
+    answers.push({
+      ...question,
+      selected: answer.selected,
+      correct: answer.selected === examAnswer(question)
+    })
+  }
+  const correctCount = answers.filter((answer) => answer.correct).length
+  return {
+    id: text(source.id),
+    level: source.level,
+    answers,
+    correctCount,
+    passed: correctCount >= EXAM_PASS_COUNT,
+    completedAt: timestamp(source.completedAt),
+    unlockedExamLevel: validExamLevel(source.unlockedExamLevel)
+      ? source.unlockedExamLevel
+      : undefined
+  }
+}
+
 const sanitizeVocabularyResult = (value: unknown): VocabularyResult | null => {
   const source = record(value)
   if (!text(source.sessionId) || !timestamp(source.completedAt)) return null
   const totalCount = integer(source.totalCount)
   const correctCount = integer(source.correctCount, 0, 0, totalCount)
   return {
+    unlockedExamLevel: validExamLevel(source.unlockedExamLevel)
+      ? source.unlockedExamLevel
+      : undefined,
     sessionId: text(source.sessionId),
     level: integer(source.level, 1, 1, vocabularyLevels.length),
     mode: isVocabularyMode(source.mode) ? source.mode : 'mixed',
@@ -157,7 +219,7 @@ const sanitizeWordProgress = (value: unknown): Record<string, WordProgress> => {
 }
 
 export interface SaveData {
-  version: 6
+  version: 7
   name: string
   onboarded: boolean
   activeCharacterId: CharacterId
@@ -168,6 +230,11 @@ export interface SaveData {
   lastStudyDate: string
   showTranslation: boolean
   activeStorySession: ActiveStorySession | null
+  eligibleExamLevels: number[]
+  passedExamLevels: number[]
+  notifiedExamLevels: number[]
+  examResults: PromotionExamResult[]
+  examMigrationNotice: boolean
   unlockedVocabularyLevel: number
   wordProgress: Record<string, WordProgress>
   lastSelectedVocabularyMode: VocabularySessionMode
@@ -198,7 +265,7 @@ const emptyLifetimeStats = (): LifetimeStudyStats => ({
 })
 
 export const defaults = (): SaveData => ({
-  version: 6,
+  version: 7,
   name: 'Haru',
   onboarded: false,
   activeCharacterId: 'emma',
@@ -213,6 +280,11 @@ export const defaults = (): SaveData => ({
   lastStudyDate: '',
   showTranslation: true,
   activeStorySession: null,
+  eligibleExamLevels: [],
+  passedExamLevels: [],
+  notifiedExamLevels: [],
+  examResults: [],
+  examMigrationNotice: false,
   unlockedVocabularyLevel: 1,
   wordProgress: {},
   lastSelectedVocabularyMode: 'mixed',
@@ -500,6 +572,23 @@ export function migrateSave(value: unknown): SaveData {
             : Math.min(stats.questionsAnswered, retainedCounts[day] ?? 0)
     }
   }
+  const passedExamLevels: number[] = []
+  const savedPassed = version >= 7 ? examLevels(source.passedExamLevels) : []
+  for (let level = 1; level < lastVocabularyLevel && savedPassed.includes(level); level++)
+    passedExamLevels.push(level)
+  const unlockedVocabularyLevel = passedExamLevels.length + 1
+  const wordProgress = sanitizeWordProgress(source.wordProgress)
+  const eligibleExamLevels =
+    version >= 7
+      ? examLevels(source.eligibleExamLevels).filter((level) => level <= unlockedVocabularyLevel)
+      : []
+  if (version < 7)
+    grantExamEligibility({ unlockedVocabularyLevel, wordProgress, eligibleExamLevels })
+  const lastVocabularyResult = sanitizeVocabularyResult(source.lastVocabularyResult)
+  if (version < 7) {
+    for (const result of vocabularyResults) delete result.unlockedExamLevel
+    if (lastVocabularyResult) delete lastVocabularyResult.unlockedExamLevel
+  }
   return {
     ...base,
     name: text(source.name, base.name),
@@ -510,15 +599,31 @@ export function migrateSave(value: unknown): SaveData {
       typeof source.showTranslation === 'boolean' ? source.showTranslation : base.showTranslation,
     vocabularyRewardDate: validDay(source.vocabularyRewardDate) ? source.vocabularyRewardDate : '',
     vocabularyRewardCount: integer(source.vocabularyRewardCount, 0, 0, 3),
-    lastVocabularyResult: sanitizeVocabularyResult(source.lastVocabularyResult),
-    version: 6,
+    lastVocabularyResult,
+    version: 7,
     activeCharacterId,
     onboarded: Boolean(source.onboarded || source.characterSelectionCompleted),
     characterSelectionCompleted:
       version >= 3 ? Boolean(source.characterSelectionCompleted) : Boolean(source.onboarded),
     characterProgress,
-    unlockedVocabularyLevel: integer(source.unlockedVocabularyLevel, 1, 1, vocabularyLevels.length),
-    wordProgress: sanitizeWordProgress(source.wordProgress),
+    unlockedVocabularyLevel,
+    wordProgress,
+    eligibleExamLevels,
+    passedExamLevels,
+    notifiedExamLevels:
+      version >= 7
+        ? examLevels(source.notifiedExamLevels).filter((level) =>
+            eligibleExamLevels.includes(level)
+          )
+        : [],
+    examResults:
+      version >= 7 && Array.isArray(source.examResults)
+        ? source.examResults
+            .map(sanitizeExamResult)
+            .filter((result): result is PromotionExamResult => result !== null)
+            .slice(-30)
+        : [],
+    examMigrationNotice: version < 7 || source.examMigrationNotice === true,
     lastSelectedVocabularyMode: isVocabularyMode(source.lastSelectedVocabularyMode)
       ? source.lastSelectedVocabularyMode
       : 'mixed',

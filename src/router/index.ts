@@ -17,6 +17,8 @@ const router = createRouter({
     { path: '/result/:id', component: view('ResultView') },
     { path: '/learn', component: view('LearnView'), meta: { nav: true } },
     { path: '/learn/session/:level', component: view('VocabularySessionView') },
+    { path: '/learn/exam/:level', component: view('PromotionExamView') },
+    { path: '/learn/exam-result', component: view('PromotionExamResultView') },
     { path: '/learn/result', component: view('VocabularyResultView') },
     { path: '/learn/words', component: view('WordBookView'), meta: { nav: true } },
     { path: '/learn/review', component: view('ReviewView'), meta: { nav: true } },

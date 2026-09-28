@@ -191,7 +191,7 @@ describe('app store progression', () => {
         }
       }
     })
-    expect(migrated.version).toBe(6)
+    expect(migrated.version).toBe(7)
     expect(migrated.name).toBe('Keiya')
     expect(migrated.activeCharacterId).toBe('emma')
     expect(migrated.characterSelectionCompleted).toBe(true)

@@ -1873,3 +1873,33 @@
     transition: none;
   }
 }
+
+.exam-card {
+  padding: 20px;
+  margin: 16px 0;
+}
+.exam-card p,
+.exam-dialog p {
+  line-height: 1.7;
+}
+.exam-page {
+  display: grid;
+  gap: 16px;
+}
+.exam-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: #30243c88;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+}
+.exam-dialog {
+  width: min(100%, 440px);
+  padding: 24px;
+  max-height: 85dvh;
+  overflow-y: auto;
+  display: grid;
+  gap: 16px;
+}
