@@ -405,6 +405,7 @@ const meaningOverrides = {
 
 const normalizeMeaning = (definition) =>
   definition
+    .replace(/[『』]/g, '')
     .replace(/[〈《{].*?[〉》}]/g, '')
     .replace(/\([^)]{18,}\)/g, '')
     .replace(/\s+/g, ' ')
