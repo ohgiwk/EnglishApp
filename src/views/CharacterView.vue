@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { Camera, Heart, MapPin } from '@lucide/vue'
+import { ArrowLeft, Camera, Heart, MapPin } from '@lucide/vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import StatBar from '../components/StatBar.vue'
 import { chapters, memories } from '../data/chapters'
@@ -18,6 +18,9 @@ const selectTab = (value: 'profile' | 'memories') =>
 <template>
   <section class="profile character-page">
     <header class="character-head">
+      <RouterLink to="/story" class="character-back" aria-label="Storyへ戻る"
+        ><ArrowLeft :size="20" /> Story</RouterLink
+      >
       <div>
         <p class="eyebrow">CHARACTER</p>
       </div>
@@ -96,3 +99,15 @@ const selectTab = (value: 'profile' | 'memories') =>
     </div>
   </section>
 </template>
+
+<style scoped>
+.character-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  color: var(--pink);
+  text-decoration: none;
+  font-size: 13px;
+}
+</style>

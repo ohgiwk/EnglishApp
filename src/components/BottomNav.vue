@@ -1,16 +1,22 @@
 <script setup lang="ts">
-import { Home, BookOpen, GraduationCap, Heart, ChartNoAxesColumn } from '@lucide/vue'
+import { Home, BookOpen, GraduationCap, BookMarked, ChartNoAxesColumn } from '@lucide/vue'
+import { useRoute } from 'vue-router'
+const route = useRoute()
 const items = [
   ['/home', 'Home', Home],
   ['/story', 'Story', BookOpen],
   ['/learn', 'Learn', GraduationCap],
-  ['/character', 'Character', Heart],
+  ['/learn/words', 'Word Book', BookMarked],
   ['/status', 'My Status', ChartNoAxesColumn]
 ]
 </script>
 <template>
   <nav class="bottom-nav">
-    <RouterLink v-for="[to, label, icon] in items" :key="to as string" :to="to as string"
+    <RouterLink
+      v-for="[to, label, icon] in items"
+      :key="to as string"
+      :to="to as string"
+      :class="{ 'router-link-active': to === '/story' && route.path === '/character' }"
       ><component :is="icon" :size="20" /><span>{{ label }}</span></RouterLink
     >
   </nav>

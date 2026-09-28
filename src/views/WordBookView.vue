@@ -1,16 +1,6 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
-import { useRouter } from 'vue-router'
-import {
-  ArrowLeft,
-  BookOpen,
-  Check,
-  ChevronRight,
-  LockKeyhole,
-  Search,
-  Volume2,
-  X
-} from '@lucide/vue'
+import { BookOpen, Check, ChevronRight, LockKeyhole, Search, Volume2, X } from '@lucide/vue'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import { englishSpeechAvailable } from '../speech'
 import BaseDialog from '../components/BaseDialog.vue'
@@ -19,7 +9,6 @@ import { useAppStore } from '../stores/app'
 import type { VocabularyPartOfSpeech, VocabularyStatus, VocabularyWord } from '../types'
 
 const store = useAppStore()
-const router = useRouter()
 const search = ref('')
 const level = ref(1)
 const part = ref<VocabularyPartOfSpeech | ''>('')
@@ -93,8 +82,7 @@ const { speak } = useEnglishSpeech()
 
 <template>
   <section class="page word-book">
-    <header class="page-head subpage-head">
-      <button aria-label="Learnへ戻る" @click="router.push('/learn')"><ArrowLeft /></button>
+    <header class="page-head">
       <div>
         <p class="eyebrow">WORD BOOK</p>
         <h1>{{ unlockedWords.length.toLocaleString() }} Words</h1>

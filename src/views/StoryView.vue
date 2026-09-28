@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useAppStore } from '../stores/app'
 import { chapters } from '../data/chapters'
-import { LockKeyhole, Check, ChevronRight } from '@lucide/vue'
+import { LockKeyhole, Check, ChevronRight, Heart } from '@lucide/vue'
 import { computed } from 'vue'
 const store = useAppStore()
 const activeChapterId = computed(() =>
@@ -26,6 +26,14 @@ const activeChapterId = computed(() =>
       </div>
       <RouterLink to="/characters">キャラクター変更</RouterLink>
     </div>
+    <RouterLink to="/character" class="story-character-link">
+      <Heart :size="20" />
+      <span
+        ><b>{{ store.activeCharacter.name }}をもっと知る</b
+        ><small>プロフィール・思い出を見る</small></span
+      >
+      <ChevronRight :size="18" />
+    </RouterLink>
     <div class="chapter-list">
       <RouterLink
         v-for="c in chapters"
@@ -57,3 +65,35 @@ const activeChapterId = computed(() =>
     </div>
   </section>
 </template>
+
+<style scoped>
+.story-character-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  margin: 12px 0 20px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: white;
+  color: var(--pink);
+  text-decoration: none;
+}
+.story-character-link span {
+  flex: 1;
+  min-width: 0;
+}
+.story-character-link b,
+.story-character-link small {
+  display: block;
+}
+.story-character-link b {
+  font-size: 14px;
+  color: #453f49;
+}
+.story-character-link small {
+  margin-top: 4px;
+  font-size: 12px;
+  color: #7a737e;
+}
+</style>
