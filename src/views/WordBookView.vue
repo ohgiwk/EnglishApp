@@ -19,6 +19,11 @@ const speechAvailable = englishSpeechAvailable()
 
 const statusOf = (word: VocabularyWord): VocabularyStatus =>
   store.s.wordProgress[word.id]?.status ?? 'new'
+const statusLabels: Record<VocabularyStatus, string> = {
+  new: '未学習',
+  learning: '学習中',
+  mastered: '習得済み'
+}
 const unlockedWords = computed(() =>
   vocabularyWords.filter((word) => word.level <= store.s.unlockedVocabularyLevel)
 )
@@ -187,8 +192,8 @@ const { speak } = useEnglishSpeech()
           ><b>{{ store.s.wordProgress[selected.id]?.incorrectCount ?? 0 }}</b
           >復習</span
         >
-        <span
-          ><b>{{ statusOf(selected) }}</b
+        <span class="word-detail-status" :class="statusOf(selected)"
+          ><b>{{ statusLabels[statusOf(selected)] }}</b
           >状態</span
         >
       </div>

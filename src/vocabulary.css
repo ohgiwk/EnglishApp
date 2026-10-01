@@ -1162,6 +1162,28 @@
   }
 }
 
+.word-detail-progress .word-detail-status.new {
+  border-color: #ded9e0;
+  background: #f3f1f4;
+  color: #6e6872;
+}
+
+.word-detail-progress .word-detail-status.learning {
+  border-color: #e8b05e;
+  background: #fff6e7;
+  color: #8a570c;
+}
+
+.word-detail-progress .word-detail-status.mastered {
+  border-color: #6eb49c;
+  background: #e9f7f2;
+  color: #306c57;
+}
+
+.word-detail-progress .word-detail-status b {
+  color: inherit;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .answer-outcome-overlay,
   .answer-outcome-overlay > section,
