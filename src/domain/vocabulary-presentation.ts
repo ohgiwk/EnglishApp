@@ -33,6 +33,6 @@ export function vocabularyPresentation(question: VocabularyQuestion, word: Vocab
     instruction: labels[question.type][1],
     prompt: question.type === 'ja-to-en' ? word.meaningJa : word.word,
     questionSpeech: sentenceExercise ? null : word.word,
-    answerSpeech: sentenceExercise ? sentence : null
+    answerSpeech: sentenceExercise ? sentence : question.type === 'ja-to-en' ? word.word : null
   }
 }

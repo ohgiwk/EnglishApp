@@ -17,7 +17,8 @@ export function useVocabularySpeech(
     () => {
       speech.cancel()
       const text = presentation.value?.questionSpeech
-      if (!muted.value && text) speech.speakAfterPause(text)
+      if (!muted.value && text && question.value?.type !== 'ja-to-en')
+        speech.speakAfterPause(text)
     },
     { immediate: true, flush: 'sync' }
   )
