@@ -35,20 +35,20 @@ const statusLabels: Record<VocabularyStatus, string> = {
   mastered: '習得済み'
 }
 const unlockedWords = computed(() =>
-  vocabularyWords.filter((word) => word.level <= store.s.unlockedVocabularyLevel)
+  vocabularyWords.filter((word) => word.level <= store.accessibleLevel)
 )
 watch([level, search, part, status], () => {
   pageSize.value = 60
 })
 watch(
-  () => store.s.unlockedVocabularyLevel,
+  () => store.accessibleLevel,
   (unlocked) => {
     if (level.value > unlocked) level.value = 1
     if (selected.value && selected.value.level > unlocked) selected.value = null
   }
 )
 function navigateTabs(event: KeyboardEvent) {
-  const levels = vocabularyLevels.filter((item) => item.id <= store.s.unlockedVocabularyLevel)
+  const levels = vocabularyLevels.filter((item) => item.id <= store.accessibleLevel)
   const index = levels.findIndex((item) => item.id === level.value)
   let next: number
   if (event.key === 'ArrowRight') next = (index + 1) % levels.length
@@ -124,16 +124,18 @@ const { speak, cancel } = useEnglishSpeech()
         role="tab"
         :aria-selected="level === item.id"
         aria-controls="word-level-panel"
-        :aria-label="`Level ${item.id}${item.id > store.s.unlockedVocabularyLevel ? '（未解放）' : ''}`"
+        :aria-label="`Level ${item.id}${item.id > store.accessibleLevel ? '（未解放）' : ''}`"
         :tabindex="level === item.id ? 0 : -1"
-        :disabled="item.id > store.s.unlockedVocabularyLevel"
+        :disabled="item.id > store.accessibleLevel"
         @click="level = item.id"
       >
-        <LockKeyhole v-if="item.id > store.s.unlockedVocabularyLevel" :size="14" />
+        <LockKeyhole v-if="item.id > store.accessibleLevel" :size="14" />
         Level {{ item.id }}
       </button>
     </div>
-    <p class="word-level-hint">未解放のレベルは、昇格試験に合格すると確認できます。</p>
+    <p v-if="store.accessibleLevel < vocabularyLevels.at(-1)!.id" class="word-level-hint">
+      未解放のレベルは、昇格試験に合格すると確認できます。
+    </p>
     <div id="word-level-panel" role="tabpanel" :aria-labelledby="`word-level-${level}`">
       <label class="word-search"
         ><Search /><input v-model="search" placeholder="英単語・日本語で検索"

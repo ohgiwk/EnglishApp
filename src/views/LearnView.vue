@@ -22,9 +22,7 @@ const router = useRouter()
 const route = useRoute()
 const requestedLevel = Number(route.query.level)
 const selectedLevel = ref(
-  Number.isInteger(requestedLevel) &&
-    requestedLevel >= 1 &&
-    requestedLevel <= store.s.unlockedVocabularyLevel
+  Number.isInteger(requestedLevel) && requestedLevel >= 1 && requestedLevel <= store.accessibleLevel
     ? requestedLevel
     : store.s.unlockedVocabularyLevel
 )
@@ -108,7 +106,7 @@ const levelProgress = (level: number) => {
   }
 }
 function selectLevel(level: number) {
-  if (level > store.s.unlockedVocabularyLevel) return
+  if (level > store.accessibleLevel) return
   selectedLevel.value = level
   levelMenuOpen.value = false
   void nextTick(() => levelTrigger.value?.focus())
@@ -280,10 +278,10 @@ function start() {
               type="button"
               role="option"
               :aria-selected="level.id === selectedLevel"
-              :disabled="level.id > store.s.unlockedVocabularyLevel"
+              :disabled="level.id > store.accessibleLevel"
               :class="{
                 selected: level.id === selectedLevel,
-                locked: level.id > store.s.unlockedVocabularyLevel
+                locked: level.id > store.accessibleLevel
               }"
               @click="selectLevel(level.id)"
             >
@@ -311,7 +309,7 @@ function start() {
                   <span class="incorrect">間違えた {{ levelProgress(level.id).incorrect }}</span>
                 </small>
               </span>
-              <LockKeyhole v-if="level.id > store.s.unlockedVocabularyLevel" :size="17" />
+              <LockKeyhole v-if="level.id > store.accessibleLevel" :size="17" />
             </button>
           </div>
         </Transition>

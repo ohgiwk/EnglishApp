@@ -1,4 +1,5 @@
 import { computed, ref } from 'vue'
+import { accessibleVocabularyLevel } from '../domain/vocabulary-access'
 import { createPromotionExamActions } from './actions/promotion-exam'
 import type { PromotionExamSession } from '../types'
 import { defineStore } from 'pinia'
@@ -20,6 +21,7 @@ const today = () => localDateKey(new Date())
 export const useAppStore = defineStore('app', () => {
   const loaded = loadSave()
   const s = ref<SaveData>(loaded.save)
+  const accessibleLevel = computed(() => accessibleVocabularyLevel(s.value.unlockedVocabularyLevel))
   const activeExam = ref<PromotionExamSession | null>(null)
   const saveError = ref(loaded.error)
   const activeCharacter = computed(() => getCharacter(s.value.activeCharacterId))
@@ -152,6 +154,7 @@ export const useAppStore = defineStore('app', () => {
     relationship,
     currentChapter,
     learnedCount,
+    accessibleLevel,
     masteredVocabularyCount,
     learningVocabularyCount,
     newVocabularyCount,

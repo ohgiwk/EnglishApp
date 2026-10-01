@@ -7,6 +7,7 @@ import { createMemoryHistory, createRouter } from 'vue-router'
 import WordBookView from './WordBookView.vue'
 import { useAppStore } from '../stores/app'
 import { vocabularyWords } from '../data/vocabulary'
+import * as vocabularyAccess from '../domain/vocabulary-access'
 
 vi.mock('../speech', () => ({
   englishSpeechAvailable: () => false,
@@ -41,6 +42,7 @@ beforeEach(() => {
 })
 afterEach(() => {
   wrapper?.unmount()
+  vi.restoreAllMocks()
   vi.unstubAllGlobals()
 })
 async function setup(unlocked = 1) {
@@ -57,6 +59,7 @@ async function setup(unlocked = 1) {
   return store
 }
 it('prevents viewing or searching locked vocabulary', async () => {
+  vi.spyOn(vocabularyAccess, 'accessibleVocabularyLevel').mockImplementation((level) => level)
   await setup()
   const tabs = wrapper.findAll('[role="tab"]')
   expect(tabs).toHaveLength(6)
@@ -72,6 +75,7 @@ it('prevents viewing or searching locked vocabulary', async () => {
   expect(wrapper.get('h1').text()).toBe('150 Words')
 })
 it('switches unlocked levels, resets pagination and supports keyboard tabs', async () => {
+  vi.spyOn(vocabularyAccess, 'accessibleVocabularyLevel').mockImplementation((level) => level)
   await setup(2)
   await intersect()
   expect(wrapper.findAll('.word-list button')).toHaveLength(120)
@@ -82,6 +86,19 @@ it('switches unlocked levels, resets pagination and supports keyboard tabs', asy
   await wrapper.get('#word-level-2').trigger('keydown', { key: 'ArrowRight' })
   expect(wrapper.get('#word-level-1').attributes('aria-selected')).toBe('true')
   expect(wrapper.get('#word-level-3').attributes('disabled')).toBeDefined()
+})
+
+it('temporarily opens all levels without changing promotion progress', async () => {
+  const store = await setup()
+  expect(
+    wrapper.findAll('[role="tab"]').every((tab) => tab.attributes('disabled') === undefined)
+  ).toBe(true)
+  await wrapper.get('#word-level-6').trigger('click')
+  expect(wrapper.findAll('.word-list em').every((row) => row.text() === 'Lv.6')).toBe(true)
+  store.startVocabularySession(6)
+  expect(store.s.activeVocabularySession?.level).toBe(6)
+  expect(store.s.unlockedVocabularyLevel).toBe(1)
+  expect(store.s.passedExamLevels).toEqual([])
 })
 
 it('loads more only near the end and stops observing after the last word', async () => {

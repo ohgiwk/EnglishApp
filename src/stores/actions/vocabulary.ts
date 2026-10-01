@@ -1,3 +1,4 @@
+import { accessibleVocabularyLevel } from '../../domain/vocabulary-access'
 import { buildVocabularySession, summarizeVocabularySession } from '../../data/vocabulary-engine'
 import { vocabularyWords } from '../../data/vocabulary'
 import {
@@ -48,7 +49,7 @@ export function createVocabularyActions({
     mode: VocabularySessionMode = s.value.lastSelectedVocabularyMode,
     questionCount: number | 'all' = s.value.lastSelectedVocabularyQuestionCount
   ) {
-    if (level > s.value.unlockedVocabularyLevel) return
+    if (level > accessibleVocabularyLevel(s.value.unlockedVocabularyLevel)) return
     const levelWordCount = vocabularyWords.filter((word) => word.level === level).length
     const savedQuestionCount: VocabularyQuestionCount =
       questionCount === 'all' || questionCount >= levelWordCount
