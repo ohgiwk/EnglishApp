@@ -1,6 +1,15 @@
 <script setup lang="ts">
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
-import { BookOpen, Check, ChevronRight, LockKeyhole, Search, Volume2, X } from '@lucide/vue'
+import {
+  BookOpen,
+  Check,
+  ChevronLeft,
+  ChevronRight,
+  LockKeyhole,
+  Search,
+  Volume2,
+  X
+} from '@lucide/vue'
 import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import { englishSpeechAvailable } from '../speech'
 import BaseDialog from '../components/BaseDialog.vue'
@@ -62,6 +71,16 @@ const filtered = computed(() =>
   })
 )
 const visible = computed(() => filtered.value.slice(0, pageSize.value))
+const selectedIndex = computed(() =>
+  filtered.value.findIndex((word) => word.id === selected.value?.id)
+)
+function moveWord(direction: -1 | 1) {
+  if (selectedIndex.value < 0) return
+  const word = filtered.value[selectedIndex.value + direction]
+  if (!word) return
+  cancel()
+  selected.value = word
+}
 const loadTrigger = ref<HTMLElement | null>(null)
 let loadObserver: IntersectionObserver | undefined
 watch(
@@ -82,7 +101,7 @@ watch(
   { flush: 'post' }
 )
 onBeforeUnmount(() => loadObserver?.disconnect())
-const { speak } = useEnglishSpeech()
+const { speak, cancel } = useEnglishSpeech()
 </script>
 
 <template>
@@ -197,11 +216,60 @@ const { speak } = useEnglishSpeech()
           >状態</span
         >
       </div>
+      <nav class="word-detail-navigation" aria-label="単語の移動">
+        <button
+          type="button"
+          aria-label="前の単語"
+          :disabled="selectedIndex <= 0"
+          @click="moveWord(-1)"
+        >
+          <ChevronLeft :size="18" />
+        </button>
+        <span aria-live="polite">{{ selectedIndex + 1 }} / {{ filtered.length }}</span>
+        <button
+          type="button"
+          aria-label="次の単語"
+          :disabled="selectedIndex < 0 || selectedIndex >= filtered.length - 1"
+          @click="moveWord(1)"
+        >
+          <ChevronRight :size="18" />
+        </button>
+      </nav>
     </BaseDialog>
   </section>
 </template>
 
 <style scoped>
+.word-detail-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin: 12px 0 0;
+}
+.word-detail-navigation button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid #ded7e8;
+  border-radius: 50%;
+  background: #f3eff9;
+  color: #65558c;
+  font-weight: 700;
+}
+.word-detail-navigation button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+.word-detail-navigation > span {
+  color: #6e6872;
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+
 .word-load-trigger {
   height: 1px;
 }
