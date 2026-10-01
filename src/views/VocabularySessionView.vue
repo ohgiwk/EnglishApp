@@ -26,7 +26,6 @@ const { muted, presentation, answer, replay, toggleMute } = useVocabularySpeech(
 const answerSound = useAnswerSound(muted)
 const {
   selected,
-  fillAnswer,
   revealed,
   wasCorrect,
   showOutcome,
@@ -34,7 +33,6 @@ const {
   placedTokens,
   choose,
   revealCard,
-  checkFillBlank,
   placeToken,
   removeToken,
   resetOrder,
@@ -172,8 +170,8 @@ function confirmInterruption() {
           v-else-if="question.type === 'fill-blank'"
           :question="question"
           :revealed="revealed"
-          v-model:answer="fillAnswer"
-          @submit="checkFillBlank"
+          :selected="selected"
+          @choose="choose"
         />
         <ReorderExercise
           v-else-if="question.type === 'reorder'"

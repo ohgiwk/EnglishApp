@@ -41,7 +41,7 @@ const modes: { id: VocabularySessionMode; label: string; detail: string }[] = [
   { id: 'en-to-ja', label: '英 → 日', detail: '英単語から意味' },
   { id: 'ja-to-en', label: '日 → 英', detail: '意味から英単語' },
   { id: 'flashcard', label: 'カード', detail: '自分で思い出す' },
-  { id: 'fill-blank', label: '穴埋め', detail: '空欄に入力' },
+  { id: 'fill-blank', label: '穴埋め', detail: '空欄に合う単語を4択で選ぶ' },
   { id: 'reorder', label: '並べ替え', detail: '順番にタップ' }
 ]
 const selectedMode = computed({

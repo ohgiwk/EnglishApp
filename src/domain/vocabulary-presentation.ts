@@ -21,7 +21,7 @@ export function vocabularyPresentation(question: VocabularyQuestion, word: Vocab
     'en-to-ja': ['QUICK CHOICE', 'いちばん近い意味は？'],
     'ja-to-en': ['QUICK CHOICE', 'この意味に合う英単語は？'],
     flashcard: ['FLASH CARD', 'この単語、覚えている？'],
-    'fill-blank': ['FILL IN THE BLANK', '空欄に入る英単語を入力してね'],
+    'fill-blank': ['FILL IN THE BLANK', '空欄に入る英単語を4つから選んでね'],
     reorder: ['WORD ORDER', '単語を正しい順番に並べよう']
   } as const
   return {

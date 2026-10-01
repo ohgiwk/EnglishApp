@@ -2,7 +2,7 @@
 import { Check, RotateCcw } from '@lucide/vue'
 import type { ChoiceQuestion } from '../../types'
 defineProps<{
-  question: ChoiceQuestion
+  question: Pick<ChoiceQuestion, 'options'>
   selected: string
   revealed: boolean
   correctAnswer: string
@@ -14,6 +14,8 @@ const emit = defineEmits<{ choose: [value: string] }>()
     <button
       v-for="option in question.options"
       :key="option"
+      type="button"
+      :disabled="revealed"
       :class="{
         picked: selected === option,
         correct: revealed && option === correctAnswer,

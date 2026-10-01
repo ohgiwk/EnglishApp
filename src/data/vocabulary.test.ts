@@ -247,6 +247,9 @@ describe('vocabulary data', () => {
     expect(fill.prompt).toContain('____')
     expect(fill.prompt).not.toContain(`“${fillWord.word}”`)
     expect(fill.answer).toBe(fillWord.word)
+    expect(fill.options).toHaveLength(4)
+    expect(new Set(fill.options).size).toBe(4)
+    expect(fill.options).toContain(fill.answer)
 
     const word = vocabularyWords.find((item) => item.id === 'v0026')!
     const reorder = buildReorder(word, () => 0.42)

@@ -249,7 +249,7 @@ export interface FlashcardQuestion extends VocabularyQuestionBase {
 }
 export interface FillBlankQuestion extends VocabularyQuestionBase {
   type: 'fill-blank'
-  options: []
+  options: string[]
   prompt: string
   sentence: string
   promptJa: string

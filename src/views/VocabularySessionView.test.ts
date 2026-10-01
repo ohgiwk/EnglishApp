@@ -49,7 +49,6 @@ const word = vocabularyWords.find((word) => word.word === 'do')!
 const fill = (): FillBlankQuestion => ({
   wordId: word.id,
   type: 'fill-blank',
-  options: [],
   ...buildFillBlank(word)
 })
 const reorder = (): ReorderQuestion => ({
@@ -106,8 +105,10 @@ describe('vocabulary session UI', () => {
       expect(speakAmericanEnglishAfterPause).not.toHaveBeenCalled()
       expect(document.querySelector('[aria-label="単語を再生"]')).toBeNull()
       expect(wrapper!.text()).toContain(question.promptJa)
-      await wrapper!.get('input').setValue(correct ? question.answer : 'incorrect')
-      await wrapper!.get('form').trigger('submit')
+      expect(wrapper!.findAll('.fill-blank .vocab-options button')).toHaveLength(4)
+      await clickButton(
+        correct ? question.answer : question.options.find((option) => option !== question.answer)!
+      )
       await flushPromises()
       expect(speakAmericanEnglish).toHaveBeenCalledExactlyOnceWith(question.sentence)
       expect(store.s.activeVocabularySession?.answers).toHaveLength(0)
@@ -148,28 +149,25 @@ describe('vocabulary session UI', () => {
   it('mutes automatic answer speech but permits explicit replay', async () => {
     await setup([fill()])
     await wrapper!.get('[aria-label="自動読み上げと効果音をミュートする"]').trigger('click')
-    await wrapper!.get('input').setValue('do')
-    await wrapper!.get('form').trigger('submit')
+    await clickButton('do')
     await flushPromises()
     expect(speakAmericanEnglish).not.toHaveBeenCalled()
     await clickButton('英文の発音')
     expect(speakAmericanEnglish).toHaveBeenCalledExactlyOnceWith(fill().sentence)
   })
 
-  it('keeps the next sentence question silent and resets the input', async () => {
+  it('keeps the next sentence question silent and resets the selection', async () => {
     const secondWord = vocabularyWords.find((word) => word.word === 'day')!
     const second: FillBlankQuestion = {
       wordId: secondWord.id,
       type: 'fill-blank',
-      options: [],
       ...buildFillBlank(secondWord)
     }
     await setup([fill(), second])
-    await wrapper!.get('input').setValue('do')
-    await wrapper!.get('form').trigger('submit')
+    await clickButton('do')
     await clickButton('次の問題へ')
     expect(speakAmericanEnglishAfterPause).not.toHaveBeenCalled()
-    expect((wrapper!.get('input').element as HTMLInputElement).value).toBe('')
+    expect(wrapper!.findAll('.vocab-options .picked')).toHaveLength(0)
     expect(document.querySelector('[role="dialog"]')).toBeNull()
     expect(wrapper!.text()).toContain(second.prompt)
   })
@@ -210,14 +208,13 @@ describe('vocabulary session UI', () => {
     if (!startButton) throw new Error('Start button not found')
     await startButton.trigger('click')
     await flushPromises()
-    expect(document.querySelector('input#fill-answer')).not.toBeNull()
+    expect(document.querySelectorAll('.fill-blank .vocab-options button')).toHaveLength(4)
     expect(speakAmericanEnglishAfterPause).not.toHaveBeenCalled()
   })
 
   it('keeps sentence autoplay disabled when retrying from the results screen', async () => {
     const { store } = await setup([fill()])
-    await wrapper!.get('input').setValue('do')
-    await wrapper!.get('form').trigger('submit')
+    await clickButton('do')
     await clickButton('次の問題へ')
     vi.spyOn(store, 'startVocabularySession').mockImplementation(() => {
       store.s.activeVocabularySession = session([reorder()])

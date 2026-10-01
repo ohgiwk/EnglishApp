@@ -68,7 +68,17 @@ const reorderExample = (word: VocabularyWord) => {
   return { sentence: curated.english, sentenceJa: curated.japanese }
 }
 
-export const buildFillBlank = (word: VocabularyWord) => {
+export const buildFillBlank = (word: VocabularyWord, random: () => number = Math.random) => {
+  const pool = vocabularyWords.filter((candidate) => candidate.level === word.level)
+  const preferred = shuffle(
+    pool.filter((candidate) => candidate.partOfSpeech === word.partOfSpeech),
+    random
+  )
+  const alternatives = [
+    ...new Set([...preferred, ...shuffle(pool, random)].map((candidate) => candidate.word))
+  ]
+    .filter((value) => value.toLowerCase() !== word.word.toLowerCase())
+    .slice(0, 3)
   const sentence = safeExample(word)
   const start = wordMatch(sentence, word.word)!.index
   return {
@@ -78,6 +88,7 @@ export const buildFillBlank = (word: VocabularyWord) => {
       sentence === word.example.trim()
         ? word.exampleJa
         : `エマは単語帳に「${word.word}」と書きました。`,
+    options: shuffle([word.word, ...alternatives], random),
     answer: word.word
   }
 }
@@ -150,7 +161,7 @@ export function buildVocabularySession(
         : requestedType
     if (type === 'flashcard') return { wordId: word.id, type, options: [] }
     if (type === 'fill-blank') {
-      return { wordId: word.id, type, options: [], ...buildFillBlank(word) }
+      return { wordId: word.id, type, ...buildFillBlank(word, random) }
     }
     if (type === 'reorder') {
       return { wordId: word.id, type, options: [], ...buildReorder(word, random) }
