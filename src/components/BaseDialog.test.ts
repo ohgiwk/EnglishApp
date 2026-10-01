@@ -13,6 +13,7 @@ afterEach(async () => {
 })
 function open(dismissible = true) {
   const wrapper = mount(BaseDialog, {
+    global: { stubs: { transition: false } },
     props: { titleId: 'title', dismissible, initialFocus: 'first' },
     slots: {
       default:

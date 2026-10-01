@@ -1753,6 +1753,35 @@
   background: white;
 }
 
+.word-sheet-enter-active,
+.word-sheet-leave-active {
+  transition: background-color 240ms ease;
+}
+
+.word-sheet-enter-active article,
+.word-sheet-leave-active article {
+  transition: transform 240ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.word-sheet-enter-from,
+.word-sheet-leave-to {
+  background-color: transparent;
+}
+
+.word-sheet-enter-from article,
+.word-sheet-leave-to article {
+  transform: translateY(100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .word-sheet-enter-active,
+  .word-sheet-leave-active,
+  .word-sheet-enter-active article,
+  .word-sheet-leave-active article {
+    transition: none;
+  }
+}
+
 .word-close {
   position: absolute;
   top: 18px;

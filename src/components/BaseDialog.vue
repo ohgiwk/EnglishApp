@@ -10,12 +10,19 @@ const props = withDefaults(
     panelTag?: 'section' | 'article' | 'div'
     panelClass?: string
     initialFocus?: 'panel' | 'first'
+    transitionName?: string
   }>(),
   { dismissible: false, panelTag: 'section', initialFocus: 'panel' }
 )
 const emit = defineEmits<{ close: [] }>()
 const overlay = ref<HTMLElement>()
 const panel = ref<HTMLElement>()
+const visible = ref(true)
+function close() {
+  if (props.transitionName) visible.value = false
+  else emit('close')
+}
+defineExpose({ close })
 let previousFocus: HTMLElement | null = null
 let previousOverflow = ''
 const background: { element: HTMLElement; inert: boolean }[] = []
@@ -37,7 +44,7 @@ function keydown(event: KeyboardEvent) {
   if (event.key === 'Escape') {
     event.stopPropagation()
     event.preventDefault()
-    if (props.dismissible) emit('close')
+    if (props.dismissible) close()
   }
   if (event.key !== 'Tab') return
   const controls = focusable()
@@ -96,19 +103,21 @@ onBeforeUnmount(() => {
 
 <template>
   <Teleport to="body">
-    <div ref="overlay" v-bind="$attrs" @click.self="dismissible && emit('close')">
-      <component
-        :is="panelTag"
-        ref="panel"
-        :class="panelClass"
-        role="dialog"
-        aria-modal="true"
-        :aria-labelledby="titleId"
-        :aria-describedby="descriptionId"
-        tabindex="-1"
-      >
-        <slot />
-      </component>
-    </div>
+    <Transition :name="transitionName" :css="!!transitionName" appear @after-leave="emit('close')">
+      <div v-if="visible" ref="overlay" v-bind="$attrs" @click.self="dismissible && close()">
+        <component
+          :is="panelTag"
+          ref="panel"
+          :class="panelClass"
+          role="dialog"
+          aria-modal="true"
+          :aria-labelledby="titleId"
+          :aria-describedby="descriptionId"
+          tabindex="-1"
+        >
+          <slot />
+        </component>
+      </div>
+    </Transition>
   </Teleport>
 </template>

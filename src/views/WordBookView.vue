@@ -23,6 +23,7 @@ const level = ref(1)
 const part = ref<VocabularyPartOfSpeech | ''>('')
 const status = ref<VocabularyStatus | ''>('')
 const selected = ref<VocabularyWord | null>(null)
+const detailDialog = ref<InstanceType<typeof BaseDialog> | null>(null)
 const pageSize = ref(60)
 const speechAvailable = englishSpeechAvailable()
 
@@ -179,14 +180,18 @@ const { speak, cancel } = useEnglishSpeech()
 
     <BaseDialog
       v-if="selected"
+      ref="detailDialog"
       class="word-modal"
+      transition-name="word-sheet"
       panel-tag="article"
       title-id="word-detail-title"
       dismissible
       initial-focus="first"
       @close="selected = null"
     >
-      <button class="word-close" aria-label="詳細を閉じる" @click="selected = null"><X /></button>
+      <button class="word-close" aria-label="詳細を閉じる" @click="detailDialog?.close()">
+        <X />
+      </button>
       <p class="eyebrow">LEVEL {{ selected.level }} · {{ selected.category }}</p>
       <div class="word-title">
         <h1 id="word-detail-title">{{ selected.word }}</h1>
