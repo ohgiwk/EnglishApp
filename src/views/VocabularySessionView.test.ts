@@ -134,7 +134,7 @@ describe('vocabulary session UI', () => {
     for (const id of order) {
       const text = question.tokens.find((token) => token.id === id)!.text
       const candidates = wrapper!
-        .findAll('.token-bank button')
+        .findAll('.token-bank button[aria-pressed="false"]')
         .filter((button) => button.text() === text)
       await candidates.at(-1)!.trigger('click')
     }

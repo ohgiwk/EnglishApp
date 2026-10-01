@@ -30,12 +30,22 @@ const emit = defineEmits<{ remove: [id: string]; place: [id: string]; reset: [];
     </div>
     <div class="token-bank" aria-label="並べ替える単語">
       <button
-        v-for="token in availableTokens"
+        v-for="token in question.tokens"
         :key="token.id"
         type="button"
+        :class="{ 'is-selected': placedTokens.some((placed) => placed.id === token.id) }"
         :disabled="revealed"
-        :aria-label="`${token.text} を回答に追加`"
-        @click="emit('place', token.id)"
+        :aria-pressed="placedTokens.some((placed) => placed.id === token.id)"
+        :aria-label="
+          placedTokens.some((placed) => placed.id === token.id)
+            ? `${token.text} の選択を解除`
+            : `${token.text} を回答に追加`
+        "
+        @click="
+          availableTokens.some((available) => available.id === token.id)
+            ? emit('place', token.id)
+            : emit('remove', token.id)
+        "
       >
         {{ token.text }}
       </button>

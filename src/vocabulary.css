@@ -864,6 +864,14 @@
   color: #6259a4;
 }
 
+.token-bank button.is-selected {
+  border-color: #c9c1dc;
+  background: #e9e4f2;
+  color: #81768f;
+  box-shadow: none;
+  opacity: 1;
+}
+
 .reorder-actions {
   display: grid;
   grid-template-columns: 1fr 1fr;
