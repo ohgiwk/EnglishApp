@@ -177,13 +177,6 @@ function start() {
       </div>
     </div>
 
-    <div v-if="store.s.examMigrationNotice" class="card exam-card" role="status">
-      <h2>昇級試験が始まりました</h2>
-      <p>
-        レベルの解放をレベル1に戻しました。単語の学習履歴やXPは保持されています。これからはレベル1から順に昇級試験に合格して解放します。
-      </p>
-      <button class="secondary" @click="store.acknowledgeExamMigration">確認しました</button>
-    </div>
     <BaseDialog
       v-if="showPromotionInfo"
       class="promotion-info-modal"
