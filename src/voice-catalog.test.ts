@@ -23,15 +23,14 @@ describe('shared voice catalog', () => {
     expect(voiceGroups(voices).flatMap((group) => group.voices)).toEqual(options)
   })
 
-  it('keeps a single preferred quality variant and exposes otherwise unclassified voices', () => {
+  it('keeps a single preferred quality variant and excludes unclassified voices from settings', () => {
     const options = curatedVoices([
       voice('Allison'),
       voice('Allison (Enhanced)'),
       voice('New Voice')
     ])
     expect(options.map((item) => item.name)).toEqual(['Allison (Enhanced)', 'New Voice'])
-    expect(voiceGroups(options).find((group) => group.label === 'その他の声')?.voices[0].name).toBe(
-      'New Voice'
-    )
+    expect(voiceGroups(options)).toEqual([{ label: '女性の声', voices: [options[0]] }])
+    expect(voiceGroups([voice('New Voice')])).toEqual([])
   })
 })

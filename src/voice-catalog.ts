@@ -49,12 +49,6 @@ export function voiceGroups(voices: SpeechSynthesisVoice[]) {
       voices: available.filter(
         (voice) => !femaleVoice.test(voice.name) && maleVoice.test(voice.name)
       )
-    },
-    {
-      label: 'その他の声',
-      voices: available.filter(
-        (voice) => !femaleVoice.test(voice.name) && !maleVoice.test(voice.name)
-      )
     }
   ].filter((group) => group.voices.length)
 }
