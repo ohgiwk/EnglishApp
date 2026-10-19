@@ -64,6 +64,7 @@ function retry() {
     completedResult.mode ?? 'mixed',
     store.s.lastSelectedVocabularyQuestionCount
   )
+  if (!store.s.activeVocabularySession) return
   router.push(`/learn/session/${completedResult.level}`)
 }
 </script>

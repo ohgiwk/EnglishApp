@@ -12,7 +12,8 @@ export function examProgress(level: number, progress: Record<string, WordProgres
     mastered,
     required,
     total: words.length,
-    eligible: words.length > 0 && mastered >= required
+    available: words.length >= EXAM_SIZE,
+    eligible: words.length >= EXAM_SIZE && mastered >= required
   }
 }
 export function grantExamEligibility(state: {
@@ -44,6 +45,7 @@ export function examAnswer(question: Pick<ChoiceQuestion, 'wordId' | 'type'>) {
 }
 export function buildPromotionExam(level: number, random = Math.random): PromotionExamSession {
   const pool = vocabularyWords.filter((word) => word.level === level)
+  if (pool.length < EXAM_SIZE) throw new Error('Not enough words for a promotion exam')
   const types = shuffle(
     Array.from({ length: EXAM_SIZE }, (_, index) =>
       index < 10 ? ('en-to-ja' as const) : ('ja-to-en' as const)

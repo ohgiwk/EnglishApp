@@ -1,0 +1,761 @@
+[
+  {
+    "id": "v5001",
+    "word": "graph",
+    "meaningJa": "グラフ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The graph shows a sharp rise in sales in June.",
+    "exampleJa": "そのグラフは6月の売上高の急増を示している。",
+    "category": "資料・情報",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "会津2024第4問第2対話の不足語。数値の変化を図で示す基本名詞として標準段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5002",
+    "word": "really",
+    "meaningJa": "本当に",
+    "partOfSpeech": "adverb",
+    "level": 1,
+    "example": "I really enjoyed the concert last night.",
+    "exampleJa": "私は昨夜のコンサートを本当に楽しんだ。",
+    "category": "程度・強調",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "会津2024第4問第2対話の不足語。気持ちや程度を強める基本副詞として基礎段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5003",
+    "word": "absolutely",
+    "meaningJa": "完全に；まったく",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "You are absolutely right about the date.",
+    "exampleJa": "日付についてあなたはまったく正しい。",
+    "category": "程度・強調",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "会津2024第4問第2対話の不足語。程度を完全に強める副詞として標準段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5004",
+    "word": "careful",
+    "meaningJa": "注意深い",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "Be careful when you cross the busy street.",
+    "exampleJa": "交通量の多い通りを渡るときは気をつけて。",
+    "category": "注意・判断",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "会津2024第4問第2対話の不足語。危険を避けるよう注意する基本形容詞として基礎段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5005",
+    "word": "seven",
+    "meaningJa": "7、七つ",
+    "partOfSpeech": "other",
+    "level": 1,
+    "example": "We saw seven birds beside the pond.",
+    "exampleJa": "私たちは池のそばで7羽の鳥を見た。",
+    "category": "数・数量",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "会津2024第4問第2対話の不足語。個数を表す基本の数詞として基礎段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5006",
+    "word": "yes",
+    "meaningJa": "はい",
+    "partOfSpeech": "other",
+    "level": 1,
+    "example": "Yes, I can help you after lunch.",
+    "exampleJa": "はい、昼食後にお手伝いできます。",
+    "category": "会話・応答",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "会津2024第4問第2対話の不足語。肯定の返答に使う基本の間投詞として基礎段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5007",
+    "word": "hey",
+    "meaningJa": "ねえ",
+    "partOfSpeech": "other",
+    "level": 1,
+    "example": "Hey, your bag is still on the bus.",
+    "exampleJa": "ねえ、あなたのかばんはまだバスの中だよ。",
+    "category": "会話・呼びかけ",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "会津2024第4問第2対話の不足語。相手に呼びかける基本の間投詞として基礎段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5008",
+    "word": "task",
+    "meaningJa": "仕事、課題",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "My first task is to check the names on this list.",
+    "exampleJa": "私の最初の仕事はこのリストの名前を確認することだ。",
+    "category": "仕事・役割",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "会津2024第4問第2対話の不足語。与えられた具体的な仕事や課題を指す名詞として標準段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5009",
+    "word": "job",
+    "meaningJa": "仕事",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She got a new job at the library.",
+    "exampleJa": "彼女は図書館で新しい仕事に就いた。",
+    "category": "仕事・役割",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "会津2024第4問第2対話の不足語。職業や働くことを表す基本名詞として基礎段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5010",
+    "word": "lose",
+    "meaningJa": "なくす；失う",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "Please do not lose your ticket before the show.",
+    "exampleJa": "開演前にチケットをなくさないでください。",
+    "category": "所有・変化",
+    "usageNote": "過去形・過去分詞形はともにlost。不規則変化に注意。",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "会津2024第4問第2対話の不足語。持ち物をなくす基本動詞として基礎段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "負ける",
+        "example": "The team may lose the match without its captain.",
+        "exampleJa": "そのチームは主将がいなければ試合に負けるかもしれない。"
+      }
+    ]
+  },
+  {
+    "id": "v5011",
+    "word": "boring",
+    "meaningJa": "退屈な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The lecture was boring because the speaker repeated the same point.",
+    "exampleJa": "話し手が同じ点を繰り返したので、その講義は退屈だった。",
+    "category": "感情・評価",
+    "usageNote": "boringは退屈にさせる側の性質を表す形容詞。退屈している人にはboredを使う。",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "会津2024第4問第2対話の不足語。物事を退屈だと評価する形容詞にはboreの活用形を超える学習価値があり、標準段階に置く。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5012",
+    "word": "area",
+    "meaningJa": "地域、区域",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "This area is famous for its apple farms.",
+    "exampleJa": "この地域はリンゴ農園で有名だ。",
+    "category": "場所・地域",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "立命館2026第Ⅰ問の不足候補。日常的な場所を示す基礎名詞として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5013",
+    "word": "blank",
+    "meaningJa": "空白の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "Please leave this box blank if you do not know the answer.",
+    "exampleJa": "答えが分からなければ、この枠は空白のままにしてください。",
+    "category": "状態・形状",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5014",
+    "word": "central",
+    "meaningJa": "中心の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The library stands in the central part of town.",
+    "exampleJa": "図書館は町の中心部にある。",
+    "category": "場所・位置",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "主要な；中心的な",
+        "example": "Trust is central to their relationship.",
+        "exampleJa": "信頼は彼らの関係で中心的な役割を果たす。"
+      }
+    ]
+  },
+  {
+    "id": "v5015",
+    "word": "construction",
+    "meaningJa": "建設",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Construction of the new bridge began in April.",
+    "exampleJa": "新しい橋の建設は4月に始まった。",
+    "category": "建築・都市",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "立命館2026第Ⅰ問の不足候補。高校基礎の読解で用いる抽象名詞や程度・様態表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5016",
+    "word": "county",
+    "meaningJa": "郡",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The county opened a new public library last year.",
+    "exampleJa": "その郡は昨年、新しい公共図書館を開いた。",
+    "category": "行政・地域",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "立命館2026第Ⅰ問の不足候補。標準入試での制度・社会・権限を理解する語彙として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "英語圏の行政区分で、国や地域により制度や規模が異なる。country（国）とのつづりの違いに注意。"
+  },
+  {
+    "id": "v5017",
+    "word": "disturbance",
+    "meaningJa": "妨害、騒ぎ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A loud disturbance outside interrupted the meeting.",
+    "exampleJa": "外の大きな騒ぎが会議を中断させた。",
+    "category": "問題・混乱",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "立命館2026第Ⅰ問の不足候補。高校基礎の読解で用いる抽象名詞や程度・様態表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "攪乱；環境などを乱すこと",
+        "example": "The fence reduces human disturbance to nesting birds.",
+        "exampleJa": "その柵は巣作りをする鳥に対する人間の妨害を減らす。"
+      }
+    ]
+  },
+  {
+    "id": "v5018",
+    "word": "existence",
+    "meaningJa": "存在",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The existence of life on other planets is still uncertain.",
+    "exampleJa": "他の惑星に生命が存在するかどうかは、まだ分かっていない。",
+    "category": "存在・認識",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "立命館2026第Ⅰ問の不足候補。高校基礎の読解で用いる抽象名詞や程度・様態表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5019",
+    "word": "generally",
+    "meaningJa": "一般に",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "This kind of tree generally grows in warm places.",
+    "exampleJa": "この種類の木は一般に暖かい場所で育つ。",
+    "category": "一般化・頻度",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5020",
+    "word": "impossible",
+    "meaningJa": "不可能な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "It is impossible to finish this work in five minutes.",
+    "exampleJa": "この作業を5分で終えるのは不可能だ。",
+    "category": "可能性・判断",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5021",
+    "word": "mission",
+    "meaningJa": "任務",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Their mission was to deliver medicine to the village.",
+    "exampleJa": "彼らの任務は村に薬を届けることだった。",
+    "category": "仕事・目的",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5022",
+    "word": "naturally",
+    "meaningJa": "自然に",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "After a few weeks, the children began to speak naturally.",
+    "exampleJa": "数週間後、子どもたちは自然に話し始めた。",
+    "category": "様態・自然",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5023",
+    "word": "negatively",
+    "meaningJa": "否定的に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "Some readers reacted negatively to the proposal.",
+    "exampleJa": "その提案に否定的に反応した読者もいた。",
+    "category": "評価・反応",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "立命館2026第Ⅰ問の不足候補。高校基礎の読解で用いる抽象名詞や程度・様態表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "悪い方向に；悪影響を及ぼして",
+        "example": "Lack of sleep can negatively affect memory.",
+        "exampleJa": "睡眠不足は記憶に悪影響を及ぼすことがある。"
+      }
+    ]
+  },
+  {
+    "id": "v5024",
+    "word": "numerous",
+    "meaningJa": "数多くの",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Numerous birds gather by the lake each winter.",
+    "exampleJa": "毎年冬には数多くの鳥が湖のそばに集まる。",
+    "category": "数・数量",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "立命館2026第Ⅰ問の不足候補。高校基礎の読解で用いる抽象名詞や程度・様態表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5025",
+    "word": "outdoor",
+    "meaningJa": "屋外の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The school held an outdoor concert in the garden.",
+    "exampleJa": "学校は庭で屋外コンサートを開いた。",
+    "category": "場所・活動",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5026",
+    "word": "permanently",
+    "meaningJa": "永久に；恒久的に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The old shop closed permanently last month.",
+    "exampleJa": "その古い店は先月、営業を完全に終了した。",
+    "category": "時間・継続",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "立命館2026第Ⅰ問の不足候補。高校基礎の読解で用いる抽象名詞や程度・様態表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5027",
+    "word": "politically",
+    "meaningJa": "政治的に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The issue became politically sensitive before the election.",
+    "exampleJa": "その問題は選挙前に政治的に慎重な扱いを要するものになった。",
+    "category": "政治・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "立命館2026第Ⅰ問の不足候補。高校基礎の読解で用いる抽象名詞や程度・様態表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5028",
+    "word": "project",
+    "meaningJa": "計画、事業",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Our class started a project to clean the river.",
+    "exampleJa": "私たちのクラスは川をきれいにする計画を始めた。",
+    "category": "計画・活動",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5029",
+    "word": "status",
+    "meaningJa": "地位、状態",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The report describes the current status of the project.",
+    "exampleJa": "その報告書は計画の現在の状況を説明している。",
+    "category": "状態・立場",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "立命館2026第Ⅰ問の不足候補。高校基礎の読解で用いる抽象名詞や程度・様態表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5030",
+    "word": "studio",
+    "meaningJa": "スタジオ；制作室",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She recorded her first song in a small studio.",
+    "exampleJa": "彼女は小さなスタジオで初めての曲を録音した。",
+    "category": "芸術・制作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5031",
+    "word": "supreme",
+    "meaningJa": "最高の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The court has supreme authority in this matter.",
+    "exampleJa": "この件ではその裁判所が最高の権限を持つ。",
+    "category": "程度・権限",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "立命館2026第Ⅰ問の不足候補。標準入試での制度・社会・権限を理解する語彙として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5032",
+    "word": "surprisingly",
+    "meaningJa": "驚くほど",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The water was surprisingly warm for October.",
+    "exampleJa": "10月にしては水が驚くほど暖かかった。",
+    "category": "感情・程度",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "文全体について「驚いたことに」と述べる用法もある。"
+  },
+  {
+    "id": "v5033",
+    "word": "unexpected",
+    "meaningJa": "予想外の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "An unexpected call changed our plans.",
+    "exampleJa": "予想外の電話で私たちの予定が変わった。",
+    "category": "予想・変化",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "立命館2026第Ⅰ問の不足候補。中学標準〜高校入門で学ぶ具体的な語義や基本的な修飾表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5034",
+    "word": "upwards",
+    "meaningJa": "上方へ",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The smoke moved upwards through the trees.",
+    "exampleJa": "煙は木々の間を通って上方へ昇った。",
+    "category": "方向・移動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "立命館2026第Ⅰ問の不足候補。高校基礎の読解で用いる抽象名詞や程度・様態表現として配置。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "upwardともいう。upwards of＋数は「その数を超える；その数以上の」を表す。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "（upwards ofで）〜を超えて；〜以上で",
+        "example": "The repair will cost upwards of fifty dollars.",
+        "exampleJa": "その修理には50ドル以上かかるだろう。"
+      }
+    ]
+  }
+]

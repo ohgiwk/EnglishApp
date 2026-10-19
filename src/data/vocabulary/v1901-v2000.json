@@ -1,0 +1,2238 @@
+[
+  {
+    "id": "v1901",
+    "word": "debate",
+    "meaningJa": "討論；議論",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The class held a debate about school uniforms.",
+    "exampleJa": "クラスは制服について討論を行いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "異なる意見を比較する場を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "討論する；検討する",
+        "example": "The members will debate the proposal tomorrow.",
+        "exampleJa": "委員たちは明日その提案を討論します。"
+      }
+    ]
+  },
+  {
+    "id": "v1902",
+    "word": "presentation",
+    "meaningJa": "発表；提示",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She gave a presentation about her hometown.",
+    "exampleJa": "彼女は故郷について発表しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校や仕事で情報を伝える基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1903",
+    "word": "interview",
+    "meaningJa": "面接；インタビュー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He prepared carefully for the job interview.",
+    "exampleJa": "彼は採用面接に向けて入念に準備しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "就職や取材で使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "面接する；取材する",
+        "example": "We will interview three candidates this afternoon.",
+        "exampleJa": "私たちは今日の午後、三人の候補者を面接します。"
+      }
+    ]
+  },
+  {
+    "id": "v1904",
+    "word": "journalism",
+    "meaningJa": "報道；ジャーナリズム",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The course examines the role of journalism in society.",
+    "exampleJa": "その授業は社会における報道の役割を考察します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報の取材と報道を社会的に論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1905",
+    "word": "journalist",
+    "meaningJa": "記者；報道関係者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The journalist interviewed local residents.",
+    "exampleJa": "その記者は地元の住民に取材しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報を取材して伝える人を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1906",
+    "word": "headline",
+    "meaningJa": "見出し",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The headline caught my attention.",
+    "exampleJa": "その見出しは私の注意を引きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "新聞や情報の提示を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1907",
+    "word": "broadcast",
+    "meaningJa": "放送する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The station will broadcast the concert live.",
+    "exampleJa": "その放送局はコンサートを生放送します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報や番組を広く届ける動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "放送；放送番組",
+        "example": "The broadcast begins at six in the evening.",
+        "exampleJa": "その放送は夕方六時に始まります。"
+      }
+    ]
+  },
+  {
+    "id": "v1908",
+    "word": "advertisement",
+    "meaningJa": "広告",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "I saw an advertisement for the new museum.",
+    "exampleJa": "私は新しい博物館の広告を見ました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の情報や商品案内を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1909",
+    "word": "advertising",
+    "meaningJa": "広告活動；広告業",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The company spends little on advertising.",
+    "exampleJa": "その会社は広告活動にほとんどお金をかけません。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "個々の広告と区別して活動全体を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "広告活動全体を指す名詞です。個々の広告はadvertisementと表します。"
+  },
+  {
+    "id": "v1910",
+    "word": "publicity",
+    "meaningJa": "宣伝；世間の注目",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The event received a great deal of publicity.",
+    "exampleJa": "その催しは大きく取り上げられました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報が広まり注目を集めることを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1911",
+    "word": "propaganda",
+    "meaningJa": "宣伝；政治的宣伝",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The exhibition examines wartime propaganda.",
+    "exampleJa": "その展示は戦時中の政治的宣伝を検討しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "意見や行動を誘導する情報を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1912",
+    "word": "media",
+    "meaningJa": "メディア；報道機関",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The local media reported the opening of the library.",
+    "exampleJa": "地元の報道機関は図書館の開館を報じました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会に情報を伝える手段や組織を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "mediumの複数形でもありますが、ここでは報道機関・マスメディアをまとめて指す意味を独立して扱います。単なる複数形の練習用ではありません。"
+  },
+  {
+    "id": "v1913",
+    "word": "medium",
+    "meaningJa": "媒体；手段",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Radio remains an important medium of communication.",
+    "exampleJa": "ラジオは今も重要な通信媒体です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報や表現を伝える手段を抽象的に示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "中くらいの",
+        "example": "She ordered a medium cup of coffee.",
+        "exampleJa": "彼女は中くらいのサイズのコーヒーを注文しました。"
+      }
+    ]
+  },
+  {
+    "id": "v1914",
+    "word": "platform",
+    "meaningJa": "乗降場；演壇；基盤",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We waited on the platform for the next train.",
+    "exampleJa": "私たちは次の電車を乗降場で待ちました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な交通施設を基本義とし情報の基盤にも広がる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "活動基盤；プラットフォーム",
+        "example": "The online platform connects artists with customers.",
+        "exampleJa": "そのオンライン基盤は芸術家と顧客を結び付けます。"
+      }
+    ]
+  },
+  {
+    "id": "v1915",
+    "word": "algorithm",
+    "meaningJa": "アルゴリズム；計算手順",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The programmer designed an algorithm to sort the data.",
+    "exampleJa": "プログラマーはデータを並べ替えるアルゴリズムを設計しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報処理の手順や意思決定の仕組みを論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1916",
+    "word": "database",
+    "meaningJa": "データベース",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The library keeps a database of local photographs.",
+    "exampleJa": "その図書館は地元の写真のデータベースを保管しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報を整理して蓄える仕組みを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1917",
+    "word": "hardware",
+    "meaningJa": "ハードウェア；機器類",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The school replaced its old computer hardware.",
+    "exampleJa": "その学校は古いコンピューター機器を取り替えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報技術の物理的な装置を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "コンピューターの物理的な機器を指します。プログラム類を指すsoftwareと区別します。"
+  },
+  {
+    "id": "v1918",
+    "word": "internet",
+    "meaningJa": "インターネット",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We used the internet to find the train times.",
+    "exampleJa": "私たちはインターネットで電車の時刻を調べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の情報利用に欠かせない基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常はthe internetと定冠詞を伴います。Internetと大文字で書く場合もあります。"
+  },
+  {
+    "id": "v1919",
+    "word": "device",
+    "meaningJa": "装置；機器；工夫",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "This device measures the temperature of the water.",
+    "exampleJa": "この装置は水温を測定します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "機器や目的を果たす仕組みをまとめて表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1920",
+    "word": "keyboard",
+    "meaningJa": "キーボード；鍵盤",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She placed the keyboard beside the monitor.",
+    "exampleJa": "彼女はキーボードをモニターのそばに置きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な機器や楽器の操作部分を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1921",
+    "word": "printer",
+    "meaningJa": "プリンター；印刷機",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The printer is out of paper.",
+    "exampleJa": "そのプリンターは用紙が切れています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校や家庭で使う機器の基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1922",
+    "word": "browser",
+    "meaningJa": "ブラウザー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Open the website in your browser.",
+    "exampleJa": "ブラウザーでそのウェブサイトを開いてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の情報機器の利用に関わる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1923",
+    "word": "website",
+    "meaningJa": "ウェブサイト",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The museum website lists its opening hours.",
+    "exampleJa": "その博物館のウェブサイトには開館時間が記載されています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の情報源を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1924",
+    "word": "password",
+    "meaningJa": "パスワード；合言葉",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She entered her password to open the account.",
+    "exampleJa": "彼女はアカウントを開くためにパスワードを入力しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "情報サービスの利用で使う基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1925",
+    "word": "username",
+    "meaningJa": "ユーザー名",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Choose a username for your new account.",
+    "exampleJa": "新しいアカウントのユーザー名を選んでください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "オンラインでの登録や識別を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1926",
+    "word": "access",
+    "meaningJa": "利用する機会；接近；アクセス",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "All students have access to the library.",
+    "exampleJa": "すべての学生が図書館を利用できます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "資源や場所を利用できることを示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "名詞はaccess toで「〜を利用する機会」を表します。動詞では通常toを置かずに目的語を続けます。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "利用する；アクセスする",
+        "example": "Students can access the materials from home.",
+        "exampleJa": "学生は自宅からその教材を利用できます。"
+      }
+    ]
+  },
+  {
+    "id": "v1927",
+    "word": "security",
+    "meaningJa": "安全；警備；保障",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The museum improved security after the incident.",
+    "exampleJa": "その博物館は事件の後、警備を強化しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "安全を守る仕組みを幅広く表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1928",
+    "word": "encryption",
+    "meaningJa": "暗号化",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The lesson explains how encryption protects information.",
+    "exampleJa": "その授業は暗号化がどのように情報を保護するかを説明します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "情報保護の仕組みを論じる発展的な技術名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1929",
+    "word": "surveillance",
+    "meaningJa": "監視",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The article discusses the limits of electronic surveillance.",
+    "exampleJa": "その記事は電子的な監視の限界を論じています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "技術と社会の権利を結び付けて論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1930",
+    "word": "misinformation",
+    "meaningJa": "誤情報",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The group works to correct misinformation online.",
+    "exampleJa": "その団体はオンラインの誤情報を訂正するために活動しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報の正確性を論じる現代社会の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "誤った情報を指し、誤りを広める意図の有無は問いません。意図的な偽情報にはdisinformationを使います。"
+  },
+  {
+    "id": "v1931",
+    "word": "disinformation",
+    "meaningJa": "偽情報；意図的な虚偽情報",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The report investigates a campaign of disinformation.",
+    "exampleJa": "その報告書は偽情報を広める活動を調査しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "意図的な情報操作を区別して論じる発展名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "人を欺く意図で広められる偽情報を指します。"
+  },
+  {
+    "id": "v1932",
+    "word": "credibility",
+    "meaningJa": "信頼性；信憑性",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The error damaged the credibility of the report.",
+    "exampleJa": "その誤りは報告書の信頼性を損ないました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "主張や情報源を信頼できる程度を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1933",
+    "word": "accuracy",
+    "meaningJa": "正確さ；精度",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "We checked the accuracy of the figures.",
+    "exampleJa": "私たちは数値の正確さを確認しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報や測定結果の正しさを評価する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1934",
+    "word": "reliability",
+    "meaningJa": "信頼性；確実性",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The team tested the reliability of the equipment.",
+    "exampleJa": "チームは機器の信頼性を試験しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "機器や方法を一貫して信頼できるかを示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1935",
+    "word": "validity",
+    "meaningJa": "妥当性；有効性",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The researcher questioned the validity of the conclusion.",
+    "exampleJa": "研究者はその結論の妥当性に疑問を呈しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "主張や測定方法の妥当さを論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1936",
+    "word": "transparency",
+    "meaningJa": "透明性；透明さ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The proposal calls for greater transparency in decision making.",
+    "exampleJa": "その提案は意思決定における一層の透明性を求めています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報公開や説明の見通しやすさを論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1937",
+    "word": "accountability",
+    "meaningJa": "説明責任",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The reforms aim to increase public accountability.",
+    "exampleJa": "その改革は公的な説明責任を高めることを目指しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "行動への責任を説明する社会制度上の抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1938",
+    "word": "censorship",
+    "meaningJa": "検閲",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The book explores the history of censorship.",
+    "exampleJa": "その本は検閲の歴史を探究しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "表現と情報の統制を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1939",
+    "word": "automation",
+    "meaningJa": "自動化",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Automation has changed the work done in the factory.",
+    "exampleJa": "自動化はその工場で行われる仕事を変えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "技術と労働の関係を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1940",
+    "word": "robot",
+    "meaningJa": "ロボット",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The robot carried a box across the room.",
+    "exampleJa": "そのロボットは部屋の反対側へ箱を運びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な技術や物語に登場する基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1941",
+    "word": "robotics",
+    "meaningJa": "ロボット工学",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The university offers a course in robotics.",
+    "exampleJa": "その大学はロボット工学の授業を開講しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "自動機械を研究する学問分野の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "学問としてのロボット工学を指すときは、語尾がsでも通常単数として扱います。"
+  },
+  {
+    "id": "v1942",
+    "word": "digital",
+    "meaningJa": "デジタルの",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The museum keeps digital copies of the photographs.",
+    "exampleJa": "その博物館は写真のデジタル複製を保管しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の情報技術の形式を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1943",
+    "word": "remote",
+    "meaningJa": "遠く離れた",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The team visited a remote village in the mountains.",
+    "exampleJa": "チームは山中の遠く離れた村を訪れました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "距離や接触の隔たりを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "遠隔の",
+        "example": "The company offers remote training for new employees.",
+        "exampleJa": "その会社は新入社員に遠隔研修を提供しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1944",
+    "word": "wireless",
+    "meaningJa": "無線の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The office uses a wireless network.",
+    "exampleJa": "その事務所は無線ネットワークを使っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "通信や機器の接続方法を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1945",
+    "word": "satellite",
+    "meaningJa": "衛星；人工衛星",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The satellite sent images of the storm.",
+    "exampleJa": "人工衛星は嵐の画像を送りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "宇宙や通信に関する基本的な科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1946",
+    "word": "sensor",
+    "meaningJa": "センサー；感知器",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A sensor turns on the light when someone enters.",
+    "exampleJa": "誰かが入るとセンサーが照明をつけます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "観測や自動制御の仕組みを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1947",
+    "word": "transmission",
+    "meaningJa": "伝達；送信；伝播",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The researchers studied the transmission of sound through water.",
+    "exampleJa": "研究者たちは水中での音の伝播を調べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報やエネルギーなどの伝わり方を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1948",
+    "word": "laboratory",
+    "meaningJa": "実験室；研究所",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The students worked in the laboratory after lunch.",
+    "exampleJa": "生徒たちは昼食後に実験室で作業しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "科学的な作業を行う場所の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1949",
+    "word": "scientist",
+    "meaningJa": "科学者",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The scientist explained the experiment to the children.",
+    "exampleJa": "その科学者は子供たちに実験を説明しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "研究を行う人を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1950",
+    "word": "researcher",
+    "meaningJa": "研究者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The researcher collected data from several schools.",
+    "exampleJa": "その研究者は複数の学校からデータを集めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "調査や研究の主体を表す一般名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1951",
+    "word": "engineer",
+    "meaningJa": "技術者；技師",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The engineer inspected the bridge.",
+    "exampleJa": "その技術者は橋を点検しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "仕事や技術に関わる人を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1952",
+    "word": "technician",
+    "meaningJa": "技術員；専門技術者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A technician repaired the laboratory equipment.",
+    "exampleJa": "技術員が実験室の機器を修理しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "専門的な機器を扱う職業の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1953",
+    "word": "circuit",
+    "meaningJa": "回路；周回路",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The students built a simple electric circuit.",
+    "exampleJa": "生徒たちは簡単な電気回路を作りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "電気や循環する経路を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1954",
+    "word": "battery",
+    "meaningJa": "電池；バッテリー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The clock needs a new battery.",
+    "exampleJa": "その時計には新しい電池が必要です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の機器を動かす基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1955",
+    "word": "cable",
+    "meaningJa": "ケーブル；太い綱",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The cable connects the computer to the printer.",
+    "exampleJa": "そのケーブルはコンピューターとプリンターを接続しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な接続用の道具を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1956",
+    "word": "code",
+    "meaningJa": "符号；コード；規則",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Each product has a different code.",
+    "exampleJa": "各製品には異なるコードがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報や識別の体系を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "規範；規則",
+        "example": "The school has a code of conduct.",
+        "exampleJa": "その学校には行動規範があります。"
+      }
+    ]
+  },
+  {
+    "id": "v1957",
+    "word": "file",
+    "meaningJa": "ファイル；書類のとじ込み",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Save the file before closing the program.",
+    "exampleJa": "プログラムを閉じる前にファイルを保存してください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "書類や情報をまとめる基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "提出する；整理して保管する",
+        "example": "Please file the report by the end of the week.",
+        "exampleJa": "今週末までに報告書を提出してください。"
+      }
+    ]
+  },
+  {
+    "id": "v1958",
+    "word": "folder",
+    "meaningJa": "フォルダー；書類ばさみ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She put the documents in a blue folder.",
+    "exampleJa": "彼女は書類を青いフォルダーに入れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "書類や情報を整理する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1959",
+    "word": "document",
+    "meaningJa": "文書；書類",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Please read the document before the meeting.",
+    "exampleJa": "会議の前にその文書を読んでください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報を記録した資料を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "記録する",
+        "example": "The photographs document changes in the town.",
+        "exampleJa": "その写真は町の変化を記録しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1960",
+    "word": "download",
+    "meaningJa": "ダウンロードする",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "You can download the map from the website.",
+    "exampleJa": "そのウェブサイトから地図をダウンロードできます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "情報機器の基本的な操作を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1961",
+    "word": "upload",
+    "meaningJa": "アップロードする",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please upload your report by Friday.",
+    "exampleJa": "金曜日までに報告書をアップロードしてください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "オンラインで情報を送る基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1962",
+    "word": "update",
+    "meaningJa": "更新する；最新にする",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "We need to update the contact list.",
+    "exampleJa": "私たちは連絡先一覧を更新する必要があります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "情報の変更を反映する基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1963",
+    "word": "install",
+    "meaningJa": "設置する；インストールする",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "They will install a new heating system.",
+    "exampleJa": "彼らは新しい暖房設備を設置します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "機器やソフトウェアを使える状態にする動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1964",
+    "word": "delete",
+    "meaningJa": "削除する",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please delete the empty folder.",
+    "exampleJa": "空のフォルダーを削除してください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "情報の整理で使う基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1965",
+    "word": "edit",
+    "meaningJa": "編集する",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "She will edit the video before sharing it.",
+    "exampleJa": "彼女は動画を共有する前に編集します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "文章や映像を修正してまとめる基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1966",
+    "word": "click",
+    "meaningJa": "クリックする；カチッと音を立てる",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "Click the button to open the menu.",
+    "exampleJa": "メニューを開くにはボタンをクリックしてください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な機器の操作を表す基礎動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1967",
+    "word": "scroll",
+    "meaningJa": "スクロールする",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Scroll down to see the full list.",
+    "exampleJa": "一覧全体を見るには下へスクロールしてください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "画面表示を移動させる基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1968",
+    "word": "attach",
+    "meaningJa": "取り付ける；添付する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Please attach a photograph to the form.",
+    "exampleJa": "用紙に写真を添付してください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物や情報を別のものに付ける動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "attach A to Bで「AをBに付ける」を表します。"
+  },
+  {
+    "id": "v1969",
+    "word": "detach",
+    "meaningJa": "取り外す；切り離す",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "You can detach the handle for cleaning.",
+    "exampleJa": "掃除のために取っ手を取り外せます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "つながったものを切り離す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1970",
+    "word": "disconnect",
+    "meaningJa": "接続を切る；切り離す",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Disconnect the cable before moving the printer.",
+    "exampleJa": "プリンターを動かす前にケーブルを外してください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "接続状態を解除する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1971",
+    "word": "plug",
+    "meaningJa": "プラグ；栓",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The plug does not fit this socket.",
+    "exampleJa": "そのプラグはこの差し込み口に合いません。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な接続部品や栓を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "動詞のplug inは「プラグを差し込む」。unplugは「プラグを抜く」です。"
+  },
+  {
+    "id": "v1972",
+    "word": "unplug",
+    "meaningJa": "プラグを抜く",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Please unplug the lamp before cleaning it.",
+    "exampleJa": "掃除の前にランプのプラグを抜いてください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "電気機器の接続を外す日常動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1973",
+    "word": "recharge",
+    "meaningJa": "充電する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "I need to recharge the camera battery.",
+    "exampleJa": "私はカメラの電池を充電する必要があります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "電力を補充する日常の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1974",
+    "word": "mend",
+    "meaningJa": "繕う；修理する",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "She learned to mend a torn shirt.",
+    "exampleJa": "彼女は破れたシャツを繕うことを学びました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な物の傷みを直す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1975",
+    "word": "assemble",
+    "meaningJa": "組み立てる；集める",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We used the instructions to assemble the desk.",
+    "exampleJa": "私たちは説明書を使って机を組み立てました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "部品や人を集める過程を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1976",
+    "word": "disassemble",
+    "meaningJa": "分解する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The technician had to disassemble the machine.",
+    "exampleJa": "技術員はその機械を分解しなければなりませんでした。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "構造を部品に分ける技術上の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1977",
+    "word": "construct",
+    "meaningJa": "建設する；組み立てる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The town plans to construct a new bridge.",
+    "exampleJa": "その町は新しい橋を建設する予定です。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "構造物や論理を組み上げる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1978",
+    "word": "manufacture",
+    "meaningJa": "製造する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The factory will manufacture parts for bicycles.",
+    "exampleJa": "その工場は自転車の部品を製造します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "工業的な生産を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1979",
+    "word": "design",
+    "meaningJa": "設計する；デザインする",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "The students will design a new school garden.",
+    "exampleJa": "生徒たちは新しい学校の庭を設計します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "物や仕組みを計画して形にする基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "設計；意匠",
+        "example": "The new design uses less material.",
+        "exampleJa": "新しい設計は材料の使用量が少なくなっています。"
+      }
+    ]
+  },
+  {
+    "id": "v1980",
+    "word": "operate",
+    "meaningJa": "操作する；作動する；運営する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Only trained staff may operate this machine.",
+    "exampleJa": "訓練を受けた職員だけがこの機械を操作できます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "機器や組織を動かす一般的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1981",
+    "word": "conduct",
+    "meaningJa": "行う；実施する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The researchers will conduct a survey next month.",
+    "exampleJa": "研究者たちは来月調査を実施します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "調査や活動を計画的に進める読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "行動；振る舞い",
+        "example": "The coach praised their conduct during the match.",
+        "exampleJa": "監督は試合中の彼らの振る舞いを褒めました。"
+      }
+    ]
+  },
+  {
+    "id": "v1982",
+    "word": "implement",
+    "meaningJa": "実施する；実行する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The school will implement the new plan in April.",
+    "exampleJa": "その学校は四月に新しい計画を実施します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "計画や制度を実際に行動に移す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1983",
+    "word": "execute",
+    "meaningJa": "実行する；遂行する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The computer can execute the instructions quickly.",
+    "exampleJa": "そのコンピューターは指示を素早く実行できます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "手順や計画を遂行する抽象的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1984",
+    "word": "undertake",
+    "meaningJa": "引き受ける；着手する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The team will undertake a study of local wildlife.",
+    "exampleJa": "チームは地域の野生生物の調査に着手します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "責任を伴う仕事に取り組む動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1985",
+    "word": "engage",
+    "meaningJa": "従事する；関わらせる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Students engage in discussion during the seminar.",
+    "exampleJa": "学生たちはゼミで討論に参加します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "活動への参加や関与を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "engage inで「〜に従事する・参加する」を表します。"
+  },
+  {
+    "id": "v1986",
+    "word": "commit",
+    "meaningJa": "投入する；約束する；犯す",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The company will commit more resources to training.",
+    "exampleJa": "その会社は研修にさらに多くの資源を投入します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "行為や責任への強い関与を示す多義動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "commit A to Bで資源などを充てることを表します。commit a crimeでは「犯罪を犯す」です。"
+  },
+  {
+    "id": "v1987",
+    "word": "devote",
+    "meaningJa": "捧げる；充てる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "She plans to devote more time to reading.",
+    "exampleJa": "彼女は読書にもっと時間を充てる予定です。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "特定の目的への資源や努力の投入を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "devote A to Bで時間や労力などを充てます。toの後は名詞や動名詞です。"
+  },
+  {
+    "id": "v1988",
+    "word": "dedicate",
+    "meaningJa": "捧げる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The author will dedicate the book to her parents.",
+    "exampleJa": "著者はその本を両親に捧げる予定です。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人や目的への献身を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1989",
+    "word": "assign",
+    "meaningJa": "割り当てる；課す",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The teacher will assign a role to each student.",
+    "exampleJa": "先生は各生徒に役割を割り当てます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕事や役割の配分を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "assign A to Bで「AをBに割り当てる」を表します。"
+  },
+  {
+    "id": "v1990",
+    "word": "allocate",
+    "meaningJa": "割り当てる；配分する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "We must allocate enough time for the discussion.",
+    "exampleJa": "私たちは討論のために十分な時間を割り当てなければなりません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "限られた資源を目的に応じて配分する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1991",
+    "word": "distribute",
+    "meaningJa": "配る；分配する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Volunteers distribute meals to older residents.",
+    "exampleJa": "ボランティアは高齢の住民に食事を配っています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物や資源を複数の相手へ配る動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1992",
+    "word": "deliver",
+    "meaningJa": "届ける；配達する",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "The shop will deliver the table tomorrow.",
+    "exampleJa": "その店は明日テーブルを配達します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の配送や伝達を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "述べる；行う",
+        "example": "She will deliver a speech at the ceremony.",
+        "exampleJa": "彼女は式典でスピーチを行います。"
+      }
+    ]
+  },
+  {
+    "id": "v1993",
+    "word": "transport",
+    "meaningJa": "輸送する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The trucks transport food to nearby towns.",
+    "exampleJa": "そのトラックは近くの町へ食料を輸送します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人や物を運ぶ一般的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1994",
+    "word": "transfer",
+    "meaningJa": "移す；移動する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "We need to transfer the files to another computer.",
+    "exampleJa": "私たちはファイルを別のコンピューターに移す必要があります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "場所や所属の変更を説明する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1995",
+    "word": "transmit",
+    "meaningJa": "伝える；送信する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The device can transmit data over long distances.",
+    "exampleJa": "その装置は長距離にわたってデータを送信できます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報やエネルギーを伝える動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1996",
+    "word": "emit",
+    "meaningJa": "放出する；発する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The lamp can emit light in several colors.",
+    "exampleJa": "そのランプはいくつかの色の光を発することができます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "光や物質を外へ出す科学的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1997",
+    "word": "utilize",
+    "meaningJa": "利用する；活用する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The project will utilize existing equipment.",
+    "exampleJa": "その計画は既存の設備を利用します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "資源を目的に役立てる読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1998",
+    "word": "exploit",
+    "meaningJa": "利用する；搾取する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The company plans to exploit the new technology.",
+    "exampleJa": "その会社は新しい技術を活用する予定です。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "資源の活用と不公正な利用を文脈で区別する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "技術や機会を活用する意味のほか、人を不当に利用・搾取する否定的な意味もあります。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "搾取する；不当に利用する",
+        "example": "The article criticizes businesses that exploit workers.",
+        "exampleJa": "その記事は労働者を搾取する企業を批判しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1999",
+    "word": "postpone",
+    "meaningJa": "延期する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "We had to postpone the meeting until Friday.",
+    "exampleJa": "私たちは会議を金曜日まで延期しなければなりませんでした。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "予定を後へずらす基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "後に動作を続けるときはpostpone doingの形を使います。"
+  },
+  {
+    "id": "v2000",
+    "word": "delay",
+    "meaningJa": "遅らせる；遅れる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Heavy traffic may delay the bus.",
+    "exampleJa": "激しい渋滞はバスを遅らせるかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "予定や動きが遅くなることを示す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "遅れ；延期",
+        "example": "The train arrived after a short delay.",
+        "exampleJa": "電車は少し遅れて到着しました。"
+      }
+    ]
+  }
+]

@@ -1,6 +1,7 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { createPinia, setActivePinia } from 'pinia'
 import { migrateSave, useAppStore } from './app'
+import { vocabularyLevels } from '../data/vocabulary'
 import { chapters } from '../data/chapters'
 import { getStoryFlow } from '../data/story-flows'
 import type { VocabularySession } from '../types'
@@ -330,10 +331,10 @@ describe('app store progression', () => {
     store.startVocabularySession(1, 'fill-blank', 'all')
     expect(store.s.lastSelectedVocabularyMode).toBe('fill-blank')
     expect(store.s.activeVocabularySession?.mode).toBe('fill-blank')
-    expect(store.s.activeVocabularySession?.questions).toHaveLength(150)
+    expect(store.s.activeVocabularySession?.questions).toHaveLength(vocabularyLevels[0].wordCount)
     expect(
       new Set(store.s.activeVocabularySession?.questions.map((question) => question.wordId)).size
-    ).toBe(150)
+    ).toBe(vocabularyLevels[0].wordCount)
     expect(
       store.s.activeVocabularySession?.questions.every(
         (question) => question.type === 'fill-blank' || question.type === 'en-to-ja'

@@ -1,0 +1,2123 @@
+[
+  {
+    "id": "v4101",
+    "word": "palm",
+    "meaningJa": "手のひら",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She held the small stone in her palm.",
+    "exampleJa": "彼女は小さな石を手のひらに載せていました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身体の基本部位で、日常描写に役立つ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4102",
+    "word": "thumb",
+    "meaningJa": "親指",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He pressed the button with his thumb.",
+    "exampleJa": "彼は親指でボタンを押しました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "手の部位を表す基礎語で、動作の描写に必要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4103",
+    "word": "cheek",
+    "meaningJa": "ほお",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A tear ran down her cheek.",
+    "exampleJa": "涙が彼女のほおを伝いました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "表情や身体描写で使う基本的な部位名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4104",
+    "word": "chin",
+    "meaningJa": "あご先",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He rested his chin on his hand.",
+    "exampleJa": "彼はあごを手に載せました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "人物の姿勢を描く際に使う基本的な部位名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "下あごの先端を指します。jawはあごの骨やその周辺を指します。"
+  },
+  {
+    "id": "v4105",
+    "word": "eyelid",
+    "meaningJa": "まぶた",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Her eyelid began to twitch from fatigue.",
+    "exampleJa": "疲れで彼女のまぶたがぴくぴくし始めました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身体部位のうち、健康や感覚の描写に役立つ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4106",
+    "word": "appetite",
+    "meaningJa": "食欲",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The long walk gave me a healthy appetite.",
+    "exampleJa": "長い散歩で私は食欲が湧きました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "食事と健康の話題で頻出する抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4107",
+    "word": "posture",
+    "meaningJa": "姿勢",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She adjusted her posture before the photograph.",
+    "exampleJa": "彼女は写真を撮る前に姿勢を整えました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "健康や態度を述べる文章で使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4108",
+    "word": "gesture",
+    "meaningJa": "身ぶり、しぐさ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Her friendly gesture made the new student feel welcome.",
+    "exampleJa": "彼女の親しみのあるしぐさに、新入生は歓迎されていると感じました。",
+    "category": "人間関係",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "非言語的な意思疎通を述べる読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4109",
+    "word": "facial",
+    "meaningJa": "顔の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The actor used facial expressions to show fear.",
+    "exampleJa": "その俳優は恐怖を表すために顔の表情を使いました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "表情に関する説明で用いる基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4110",
+    "word": "bandage",
+    "meaningJa": "包帯",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She wrapped a clean bandage around the cut.",
+    "exampleJa": "彼女は切り傷に清潔な包帯を巻きました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "けがと応急手当の場面で使う具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4111",
+    "word": "corridor",
+    "meaningJa": "廊下",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The library is at the end of this corridor.",
+    "exampleJa": "図書館はこの廊下の突き当たりにあります。",
+    "category": "建物・場所",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "建物内の移動を説明する際の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4112",
+    "word": "stair",
+    "meaningJa": "階段の一段",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The last stair was higher than the others.",
+    "exampleJa": "階段の最後の一段はほかの段より高くなっていました。",
+    "category": "建物・場所",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の移動場面に現れる基本語で、単数形の意味も確認する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "単数形では階段の一段を指す。階段全体にはstairsやstaircaseを使う。"
+  },
+  {
+    "id": "v4113",
+    "word": "curb",
+    "meaningJa": "縁石",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The bus stopped beside the curb.",
+    "exampleJa": "バスは縁石の横に停まりました。",
+    "category": "交通・移動",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "道路の構造を示す具体語で、都市描写に使う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4114",
+    "word": "lane",
+    "meaningJa": "車線、細い道",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A cyclist entered the narrow lane ahead of us.",
+    "exampleJa": "自転車に乗った人が私たちの前方の細い道に入りました。",
+    "category": "交通・移動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "道路や交通の説明で多義性を持つ基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "車線、または細い道を表す。例文では細い道の意味。"
+  },
+  {
+    "id": "v4115",
+    "word": "commuter",
+    "meaningJa": "通勤者、通学者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Each commuter waited quietly for the morning train.",
+    "exampleJa": "通勤者はそれぞれ朝の電車を静かに待っていました。",
+    "category": "交通・移動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "都市生活と交通の文章で使う人を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4116",
+    "word": "wheel",
+    "meaningJa": "車輪",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "One wheel of the cart was loose.",
+    "exampleJa": "その荷車の車輪が一つ緩んでいました。",
+    "category": "交通・移動",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "乗り物や機械の説明に必要な基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4117",
+    "word": "cargo",
+    "meaningJa": "貨物、積み荷",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The ship carried cargo across the sea.",
+    "exampleJa": "その船は海を越えて貨物を運びました。",
+    "category": "交通・移動",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物流や貿易を扱う文章で重要な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4118",
+    "word": "wildlife",
+    "meaningJa": "野生生物",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The forest provides shelter for local wildlife.",
+    "exampleJa": "その森は地元の野生生物にすみかを提供しています。",
+    "category": "自然・環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "環境保全の文章で頻出する集合名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4119",
+    "word": "civil",
+    "meaningJa": "市民の、礼儀正しい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The group discussed civil rights at the meeting.",
+    "exampleJa": "その団体は会議で市民の権利について話し合いました。",
+    "category": "社会・制度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "市民社会に関する評論で重要な形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "市民や民間に関わる意味のほか、礼儀正しいという意味もある。civicは市民活動や地域社会との関わりに重点がある。"
+  },
+  {
+    "id": "v4120",
+    "word": "civic",
+    "meaningJa": "市民の、地域社会の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The school encourages civic participation among students.",
+    "exampleJa": "その学校は生徒の市民活動への参加を促しています。",
+    "category": "社会・制度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "公共生活への参加を論じる際に使う形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "市民生活や地域社会に関わる場合に用いる。civilは「市民の」のほか「礼儀正しい」も表す。"
+  },
+  {
+    "id": "v4121",
+    "word": "protest",
+    "meaningJa": "抗議、抗議行動",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The students organized a peaceful protest against the rule.",
+    "exampleJa": "生徒たちはその規則に反対する平和的な抗議活動を企画しました。",
+    "category": "社会・制度",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会運動を扱う文章で頻出する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4122",
+    "word": "petition",
+    "meaningJa": "請願書、嘆願書",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Residents signed a petition to protect the park.",
+    "exampleJa": "住民は公園を守るための請願書に署名しました。",
+    "category": "社会・制度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "市民の意思表示を表す制度関連語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4123",
+    "word": "jury",
+    "meaningJa": "陪審員団",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The jury listened carefully to the witness.",
+    "exampleJa": "陪審員団は証人の話を注意深く聞きました。",
+    "category": "法律・制度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "英米の裁判制度を読むために必要な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4124",
+    "word": "witness",
+    "meaningJa": "目撃者、証人",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A witness described the accident to the police.",
+    "exampleJa": "目撃者は警察に事故の様子を説明しました。",
+    "category": "法律・制度",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "事故報道や裁判の文脈で重要な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4125",
+    "word": "verdict",
+    "meaningJa": "（陪審員などの）評決、判断",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The jury reached a verdict after two days.",
+    "exampleJa": "陪審員団は二日後に評決に達しました。",
+    "category": "法律・制度",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "裁判過程を説明する発展的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "裁判では陪審員などが下す評決を指す。裁判官が言い渡す刑罰はsentence。"
+  },
+  {
+    "id": "v4126",
+    "word": "victim",
+    "meaningJa": "被害者、犠牲者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The charity offered support to each victim of the flood.",
+    "exampleJa": "その慈善団体は洪水の被害者一人ひとりを支援しました。",
+    "category": "社会・制度",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "事件や災害を扱う文章に不可欠な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4127",
+    "word": "suspect",
+    "meaningJa": "容疑者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The police questioned a suspect near the station.",
+    "exampleJa": "警察は駅の近くで容疑者を尋問しました。",
+    "category": "法律・制度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "犯罪報道で使う名詞で、動詞との区別が必要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "名詞では「容疑者」。動詞では「疑う」を表す。"
+  },
+  {
+    "id": "v4128",
+    "word": "arrest",
+    "meaningJa": "逮捕する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The detective hoped to arrest the thief.",
+    "exampleJa": "その刑事は泥棒を逮捕したいと考えていました。",
+    "category": "法律・制度",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "犯罪報道に現れる基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4129",
+    "word": "concise",
+    "meaningJa": "簡潔な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Her concise answer explained the main point clearly.",
+    "exampleJa": "彼女の簡潔な答えは要点を明確に説明しました。",
+    "category": "思考・表現",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "文章や説明の質を評価する発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4130",
+    "word": "obstruct",
+    "meaningJa": "妨げる、ふさぐ",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Fallen branches obstruct the narrow path.",
+    "exampleJa": "落ちた枝がその細い道をふさいでいます。",
+    "category": "行動・変化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物理的な障害から抽象的な妨害まで表せる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4131",
+    "word": "lip",
+    "meaningJa": "唇",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He bit his lip while thinking about the question.",
+    "exampleJa": "彼はその質問を考えながら唇をかみました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "顔の部位と動作を述べる基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4132",
+    "word": "belly",
+    "meaningJa": "腹、腹部",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The child lay on her belly to watch the ants.",
+    "exampleJa": "その子はアリを見るために腹ばいになりました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身体と日常動作を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4133",
+    "word": "artery",
+    "meaningJa": "動脈",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "An artery carries blood away from the heart.",
+    "exampleJa": "動脈は心臓から離れる方向へ血液を運びます。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生物・健康の説明文で重要な専門寄りの語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4134",
+    "word": "vein",
+    "meaningJa": "静脈",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "A vein carries blood back toward the heart.",
+    "exampleJa": "静脈は血液を心臓へ戻す方向に運びます。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "循環を説明する文章で動脈と対になる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4135",
+    "word": "rib",
+    "meaningJa": "肋骨",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A strong blow to the chest can break a rib.",
+    "exampleJa": "胸への強い打撃で肋骨が折れることがあります。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "身体構造やけがの説明で使う具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4136",
+    "word": "fist",
+    "meaningJa": "握りこぶし",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She raised her fist to show determination.",
+    "exampleJa": "彼女は決意を示すために握りこぶしを上げました。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身体動作と感情表現を結ぶ語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4137",
+    "word": "vision",
+    "meaningJa": "視力、視覚",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Good lighting can help people with weak vision read.",
+    "exampleJa": "よい照明は視力の弱い人が読む助けになります。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "感覚の説明に加え抽象的な展望にも広がる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「視力、視覚」のほか、将来についての「構想、展望」も表す。"
+  },
+  {
+    "id": "v4138",
+    "word": "hearing",
+    "meaningJa": "聴力、聴覚",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The loud noise may damage your hearing.",
+    "exampleJa": "大きな騒音は聴力を損なうおそれがあります。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "感覚や健康を扱う文で重要な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4139",
+    "word": "scent",
+    "meaningJa": "香り",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The scent of fresh bread filled the kitchen.",
+    "exampleJa": "焼きたてのパンの香りが台所に広がりました。",
+    "category": "感覚・知覚",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "嗅覚を描写する読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4140",
+    "word": "odor",
+    "meaningJa": "におい、悪臭",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "An unusual odor came from the old pipe.",
+    "exampleJa": "古い管からいつもと違うにおいがしました。",
+    "category": "感覚・知覚",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "嗅覚を表し、特に好ましくない文脈で使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4141",
+    "word": "flavor",
+    "meaningJa": "風味、味",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The herbs gave the soup a fresh flavor.",
+    "exampleJa": "その香草はスープにさわやかな風味を加えました。",
+    "category": "感覚・知覚",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "食事や感覚の描写で使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4142",
+    "word": "sensation",
+    "meaningJa": "感覚、感じ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She felt a strange sensation in her fingers.",
+    "exampleJa": "彼女は指に奇妙な感覚を覚えました。",
+    "category": "感覚・知覚",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "身体感覚から印象まで述べられる抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4143",
+    "word": "doorway",
+    "meaningJa": "戸口、出入り口",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A cat sat in the doorway and watched the rain.",
+    "exampleJa": "猫が戸口に座って雨を眺めていました。",
+    "category": "建物・場所",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "場所や位置関係の描写に使う具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4144",
+    "word": "staircase",
+    "meaningJa": "階段",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A narrow staircase led to the second floor.",
+    "exampleJa": "狭い階段が二階へ続いていました。",
+    "category": "建物・場所",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "建物内部の構造を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4145",
+    "word": "runway",
+    "meaningJa": "滑走路",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The plane waited at the end of the runway.",
+    "exampleJa": "飛行機は滑走路の端で待機していました。",
+    "category": "交通・移動",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "航空や交通の説明で使う具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4146",
+    "word": "terminal",
+    "meaningJa": "交通機関の発着施設；ターミナル",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The bus terminal was crowded in the morning.",
+    "exampleJa": "朝、バスターミナルは混雑していました。",
+    "category": "交通・移動",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "乗り換えや旅程で使う交通施設の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "交通施設のターミナルのほか、端末や末端を表す場合もある。"
+  },
+  {
+    "id": "v4147",
+    "word": "trail",
+    "meaningJa": "小道、跡",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The hikers followed a trail through the woods.",
+    "exampleJa": "ハイカーたちは森の中の小道をたどりました。",
+    "category": "自然・環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自然描写と移動の文章で使う多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「小道」のほか、人や物が残した「跡」も表す。"
+  },
+  {
+    "id": "v4148",
+    "word": "census",
+    "meaningJa": "国勢調査、人口調査",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The census showed that the town had grown.",
+    "exampleJa": "国勢調査はその町の人口が増えたことを示しました。",
+    "category": "社会・制度",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人口統計や社会変化を扱う文章で重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4149",
+    "word": "refusal",
+    "meaningJa": "拒否",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Her refusal to sign the form delayed the process.",
+    "exampleJa": "彼女が書類への署名を拒否したため、手続きが遅れました。",
+    "category": "行動・変化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "意思決定や交渉の文脈で使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4150",
+    "word": "denial",
+    "meaningJa": "否定、拒否",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "His denial of the claim surprised the audience.",
+    "exampleJa": "彼がその主張を否定したことは聴衆を驚かせました。",
+    "category": "思考・表現",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "主張の否定や要求の拒否を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主張や事実の否定、要求の拒否を表す。"
+  },
+  {
+    "id": "v4151",
+    "word": "data",
+    "meaningJa": "データ、資料",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The data show a steady rise in local temperatures.",
+    "exampleJa": "そのデータは地域の気温が着実に上昇していることを示している。",
+    "category": "情報・調査",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "調査結果や数値資料を読む際の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形として扱う用法と集合的な単数扱いの用法がある。この例文では複数扱い。"
+  },
+  {
+    "id": "v4152",
+    "word": "range",
+    "meaningJa": "範囲",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The price range includes several affordable options.",
+    "exampleJa": "その価格帯には手頃な選択肢がいくつか含まれる。",
+    "category": "範囲・数量",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数値や選択肢の広がりを表す頻出語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4153",
+    "word": "scope",
+    "meaningJa": "範囲、対象",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The study has a narrow scope and focuses on one city.",
+    "exampleJa": "その研究は対象が狭く、一つの都市に焦点を当てている。",
+    "category": "研究・範囲",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "研究や議論が扱う対象の広さを表す抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4154",
+    "word": "extent",
+    "meaningJa": "程度、範囲",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "We do not yet know the extent of the damage.",
+    "exampleJa": "被害の程度はまだ分かっていない。",
+    "category": "程度・範囲",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "影響や被害の大きさを述べる読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4155",
+    "word": "requirement",
+    "meaningJa": "必要条件、要件",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Regular attendance is a requirement for this course.",
+    "exampleJa": "定期的な出席はこの講座の要件である。",
+    "category": "条件・制度",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "制度や活動に必要な条件を表す基本的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4156",
+    "word": "limitation",
+    "meaningJa": "制限、限界",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A small sample is a limitation of the study.",
+    "exampleJa": "標本が少ないことはその研究の限界である。",
+    "category": "研究・評価",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "研究や能力の限界を評価する文脈で重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4157",
+    "word": "restriction",
+    "meaningJa": "制限、規制",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The city placed a restriction on water use during the drought.",
+    "exampleJa": "その市は干ばつの間、水の使用に制限を設けた。",
+    "category": "規則・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "行動や利用に課される制限を述べる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4158",
+    "word": "target",
+    "meaningJa": "目標、対象",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The team reached its target before the deadline.",
+    "exampleJa": "チームは期限前に目標を達成した。",
+    "category": "目標・行動",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "数値目標や取り組みの対象を表す基礎語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4159",
+    "word": "means",
+    "meaningJa": "手段、方法",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Public transport is a practical means of getting to the museum.",
+    "exampleJa": "公共交通機関はその博物館へ行く実用的な手段だ。",
+    "category": "方法・交通",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "方法を表す名詞で、単複同形の用法が重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "手段・方法の意味では単数形も複数形も means。"
+  },
+  {
+    "id": "v4160",
+    "word": "mode",
+    "meaningJa": "方式、形態",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Online study offers a flexible mode of learning.",
+    "exampleJa": "オンライン学習は柔軟な学習方式を提供する。",
+    "category": "方法・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "活動や運用の方式を表す抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4161",
+    "word": "category",
+    "meaningJa": "部類；分類項目",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "This book belongs to a different category from the others.",
+    "exampleJa": "この本はほかの本とは異なる部類に属する。",
+    "category": "分類・情報",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報を分類する文脈で使う基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4162",
+    "word": "phase",
+    "meaningJa": "段階、時期",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The project entered a new phase after the first survey.",
+    "exampleJa": "その計画は最初の調査後、新たな段階に入った。",
+    "category": "時間・過程",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "変化や計画の段階を説明する読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4163",
+    "word": "transition",
+    "meaningJa": "移行、変遷",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The transition to renewable energy will take time.",
+    "exampleJa": "再生可能エネルギーへの移行には時間がかかる。",
+    "category": "変化・社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "制度や状態の移行を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4164",
+    "word": "mechanism",
+    "meaningJa": "仕組み、機構",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The article explains the mechanism behind the process.",
+    "exampleJa": "その記事はその過程の背後にある仕組みを説明している。",
+    "category": "科学・説明",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "現象が働く仕組みを説明する学術的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4165",
+    "word": "similarity",
+    "meaningJa": "類似点",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "One similarity between the two stories is their setting.",
+    "exampleJa": "その二つの物語の類似点の一つは舞台設定である。",
+    "category": "比較・関係",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "比較読解で共通点を示す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4166",
+    "word": "distinction",
+    "meaningJa": "区別、相違",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The report makes a clear distinction between fact and opinion.",
+    "exampleJa": "その報告書は事実と意見を明確に区別している。",
+    "category": "比較・論理",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "概念間の違いを示す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4167",
+    "word": "expansion",
+    "meaningJa": "拡大、拡張",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The expansion of the library created more study space.",
+    "exampleJa": "図書館の拡張によって学習スペースが増えた。",
+    "category": "変化・施設",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "規模や範囲が広がることを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4168",
+    "word": "contraction",
+    "meaningJa": "縮小、収縮",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The contraction of the market affected local shops.",
+    "exampleJa": "市場の縮小は地元の店に影響を与えた。",
+    "category": "変化・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "経済や物体の縮小を表す読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4169",
+    "word": "adjustment",
+    "meaningJa": "調整、修正",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A small adjustment to the schedule solved the problem.",
+    "exampleJa": "日程を少し調整すると、その問題は解決した。",
+    "category": "計画・調整",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "計画や設定を適切に変える行為を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4170",
+    "word": "restoration",
+    "meaningJa": "修復、復元",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The restoration of the old bridge took two years.",
+    "exampleJa": "古い橋の修復には二年かかった。",
+    "category": "文化・保全",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "建物や環境を元の状態に戻す文脈で重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4171",
+    "word": "crisis",
+    "meaningJa": "危機",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The town faced a water crisis after a long drought.",
+    "exampleJa": "長い干ばつの後、その町は水不足の危機に直面した。",
+    "category": "社会・問題",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "深刻な問題を扱う社会的な文章で頻出。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4172",
+    "word": "reform",
+    "meaningJa": "改革",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The school introduced a reform to improve its lessons.",
+    "exampleJa": "その学校は授業を改善するための改革を導入した。",
+    "category": "社会・制度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "制度を改める動きを表す重要語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4173",
+    "word": "revolution",
+    "meaningJa": "革命、大変革",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The digital revolution changed how people share information.",
+    "exampleJa": "デジタル革命は人々の情報共有の方法を変えた。",
+    "category": "社会・変化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会の急激で大きな変化を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4174",
+    "word": "governance",
+    "meaningJa": "統治、運営",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Good governance requires clear rules and public trust.",
+    "exampleJa": "良い統治には明確な規則と市民の信頼が必要だ。",
+    "category": "政治・制度",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "組織や社会の運営を論じる発展的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4175",
+    "word": "enforcement",
+    "meaningJa": "法令などの執行；取り締まり",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Strict enforcement of the rule reduced illegal parking.",
+    "exampleJa": "その規則の適用を徹底したことで違法駐車が減った。",
+    "category": "法律・制度",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "規則を実際に守らせる行為を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4176",
+    "word": "allegation",
+    "meaningJa": "申し立て、疑惑",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The newspaper checked the allegation before publishing the story.",
+    "exampleJa": "新聞社は記事を掲載する前にその申し立てを確認した。",
+    "category": "報道・法律",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "真偽が未確定の主張を表す報道語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4177",
+    "word": "testimony",
+    "meaningJa": "証言",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Her testimony helped the court understand the event.",
+    "exampleJa": "彼女の証言は裁判所がその出来事を理解する助けになった。",
+    "category": "法律・情報",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "裁判などでの証言を表す重要語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4178",
+    "word": "conviction",
+    "meaningJa": "強い信念",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "She spoke with conviction about the need for change.",
+    "exampleJa": "彼女は変化の必要性について強い信念を持って話した。",
+    "category": "法律・制度",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "強い信念を表す抽象名詞。難関読解では司法文脈の有罪判決の意味も重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "有罪判決",
+        "example": "The conviction followed a lengthy trial.",
+        "exampleJa": "その有罪判決は長い裁判の後に下された。"
+      }
+    ]
+  },
+  {
+    "id": "v4179",
+    "word": "punishment",
+    "meaningJa": "罰、処罰",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The punishment for breaking the rule was a short suspension.",
+    "exampleJa": "その規則を破った罰は短期間の停学だった。",
+    "category": "規則・行動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "規則違反への対応を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4180",
+    "word": "commodity",
+    "meaningJa": "商品、一次産品",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Coffee is a valuable commodity in global trade.",
+    "exampleJa": "コーヒーは世界貿易において価値ある商品である。",
+    "category": "経済・流通",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "貿易で取引される品を表す経済語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4181",
+    "word": "transaction",
+    "meaningJa": "取引",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The bank recorded every transaction on the account.",
+    "exampleJa": "銀行はその口座のすべての取引を記録した。",
+    "category": "経済・金融",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "売買や送金の一件を表す実用語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4182",
+    "word": "auction",
+    "meaningJa": "競売、オークション",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The painting was sold at an auction last week.",
+    "exampleJa": "その絵は先週の競売で売られた。",
+    "category": "経済・売買",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "競りによる売買を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4183",
+    "word": "privilege",
+    "meaningJa": "特権、恵まれた立場",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Access to education should not be a privilege for a few.",
+    "exampleJa": "教育を受ける機会は少数の人だけの特権であるべきではない。",
+    "category": "社会・公平",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会的な機会の偏りを論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4184",
+    "word": "stamina",
+    "meaningJa": "持久力",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Daily walks helped her build stamina for the hike.",
+    "exampleJa": "毎日の散歩は彼女がハイキングに向けて持久力をつける助けとなった。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "長く活動を続ける体力を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4185",
+    "word": "digestion",
+    "meaningJa": "消化",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The textbook explains how digestion works.",
+    "exampleJa": "その教科書は消化の仕組みを説明している。",
+    "category": "身体・健康",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "食べ物を体内で処理する働きを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4186",
+    "word": "outbreak",
+    "meaningJa": "発生、流行",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The outbreak of disease closed several schools.",
+    "exampleJa": "病気の流行によっていくつかの学校が休校になった。",
+    "category": "健康・社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "病気などが突然広がる事態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4187",
+    "word": "dosage",
+    "meaningJa": "投与量、服用量",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The doctor changed the dosage of the medicine.",
+    "exampleJa": "医師はその薬の投与量を変更した。",
+    "category": "健康・医療",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "薬の投与量や服用量を表し、難関入試の健康・医療分野で学ぶ名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4188",
+    "word": "famine",
+    "meaningJa": "飢饉",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The famine forced many families to leave the region.",
+    "exampleJa": "飢饉によって多くの家族がその地域を離れざるを得なかった。",
+    "category": "社会・食料",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "食料不足が広がる社会的な危機を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4189",
+    "word": "cultivation",
+    "meaningJa": "栽培、耕作",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The cultivation of rice requires careful water management.",
+    "exampleJa": "稲の栽培には慎重な水の管理が必要だ。",
+    "category": "農業・環境",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "作物を育てる行為を表す読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4190",
+    "word": "depletion",
+    "meaningJa": "枯渇、減少",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The depletion of groundwater threatens local farms.",
+    "exampleJa": "地下水の枯渇は地元の農場を脅かしている。",
+    "category": "環境・資源",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "資源が使われて減る過程を表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4191",
+    "word": "acid",
+    "meaningJa": "酸",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The scientist added a weak acid to the solution.",
+    "exampleJa": "科学者はその溶液に弱酸を加えた。",
+    "category": "科学・物質",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "化学や環境の文章で基本となる物質名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4192",
+    "word": "reflex",
+    "meaningJa": "反射、反射作用",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Pulling your hand away from heat is a reflex.",
+    "exampleJa": "熱いものから手を引くのは反射作用だ。",
+    "category": "身体・反応",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "刺激に対する無意識の反応を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4193",
+    "word": "impulse",
+    "meaningJa": "衝動",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "She resisted the impulse to interrupt the speaker.",
+    "exampleJa": "彼女は話し手の言葉を遮りたい衝動を抑えた。",
+    "category": "心理・行動",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "突然生じる行動への欲求を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4194",
+    "word": "determination",
+    "meaningJa": "決意、意志の強さ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "His determination helped him finish the difficult task.",
+    "exampleJa": "彼の強い決意は困難な課題を終える助けになった。",
+    "category": "心理・努力",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "目標をやり遂げようとする意志を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4195",
+    "word": "reluctance",
+    "meaningJa": "気が進まないこと",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Her reluctance to speak came from fear of making mistakes.",
+    "exampleJa": "彼女が話すのをためらっていたのは、間違いを恐れていたからだ。",
+    "category": "心理・態度",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "行動をためらう心理を示す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4196",
+    "word": "hesitation",
+    "meaningJa": "ためらい",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "After a brief hesitation, he accepted the offer.",
+    "exampleJa": "少しためらった後、彼はその申し出を受け入れた。",
+    "category": "心理・行動",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "判断や発話の前に迷う様子を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4197",
+    "word": "aspiration",
+    "meaningJa": "大志、願望",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Her aspiration to become a doctor shaped her studies.",
+    "exampleJa": "医師になりたいという彼女の願望が、彼女の学習の方向を決めた。",
+    "category": "目標・将来",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "将来への強い望みを表す抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4198",
+    "word": "persistence",
+    "meaningJa": "粘り強さ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Persistence helped the team solve the problem after many attempts.",
+    "exampleJa": "粘り強さのおかげで、チームは何度も試した末に問題を解決した。",
+    "category": "努力・達成",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "困難があっても続ける姿勢を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4199",
+    "word": "commitment",
+    "meaningJa": "責任を持って取り組むこと、約束",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Her commitment to the project kept the team motivated.",
+    "exampleJa": "その計画への彼女の献身的な取り組みはチームの意欲を保った。",
+    "category": "責任・行動",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物事に責任を持って取り組む姿勢を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4200",
+    "word": "likelihood",
+    "meaningJa": "可能性、見込み",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The likelihood of rain increases in the afternoon.",
+    "exampleJa": "午後には雨が降る可能性が高くなる。",
+    "category": "予測・可能性",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "出来事が起こる見込みを表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

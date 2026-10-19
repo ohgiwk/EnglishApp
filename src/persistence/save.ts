@@ -159,6 +159,11 @@ const sanitizeVocabularyResult = (value: unknown): VocabularyResult | null => {
     unlockedExamLevel: validExamLevel(source.unlockedExamLevel)
       ? source.unlockedExamLevel
       : undefined,
+    ...(typeof source.unitNumber === 'number' &&
+    Number.isInteger(source.unitNumber) &&
+    source.unitNumber > 0
+      ? { unitNumber: source.unitNumber }
+      : {}),
     sessionId: text(source.sessionId),
     level: integer(source.level, 1, 1, vocabularyLevels.length),
     mode: isVocabularyMode(source.mode) ? source.mode : 'mixed',

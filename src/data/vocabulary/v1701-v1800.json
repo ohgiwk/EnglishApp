@@ -1,0 +1,2246 @@
+[
+  {
+    "id": "v1701",
+    "word": "economics",
+    "meaningJa": "経済学",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She studies economics at university.",
+    "exampleJa": "彼女は大学で経済学を学んでいます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会や学問の分野を表す基本的な読解名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "学問としての経済学を指すときは、語尾がsでも通常単数として扱います。"
+  },
+  {
+    "id": "v1702",
+    "word": "economist",
+    "meaningJa": "経済学者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The economist explained the causes of inflation.",
+    "exampleJa": "その経済学者はインフレーションの原因を説明しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "経済の分析を行う専門家を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1703",
+    "word": "finance",
+    "meaningJa": "財政；金融；資金",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The course covers finance and business management.",
+    "exampleJa": "その授業は金融と経営を扱います。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会や企業の資金の仕組みを論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "資金を提供する",
+        "example": "The city will finance the construction of the library.",
+        "exampleJa": "その都市は図書館建設に資金を提供します。"
+      }
+    ]
+  },
+  {
+    "id": "v1704",
+    "word": "investment",
+    "meaningJa": "投資",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The project requires a large investment of time.",
+    "exampleJa": "その計画には多くの時間を投入する必要があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "将来のために資金や時間を投入することを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1705",
+    "word": "revenue",
+    "meaningJa": "収入；歳入；売上高",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Ticket sales provide most of the revenue for the museum.",
+    "exampleJa": "入場券の売り上げが博物館の収入の大半を占めます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "組織や政府の収入を分析する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "収入や売上高を表します。費用を差し引いた利益を指すprofitと区別します。"
+  },
+  {
+    "id": "v1706",
+    "word": "income",
+    "meaningJa": "収入；所得",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The family depends on a single income.",
+    "exampleJa": "その家族は一つの収入源に頼っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生活や経済状況を説明する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1707",
+    "word": "wage",
+    "meaningJa": "賃金",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The workers asked for a higher hourly wage.",
+    "exampleJa": "労働者たちは時給の引き上げを求めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "労働への報酬を具体的に説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "時給や日給などの賃金に使い、複数形wagesでもよく使います。salaryは定期的な固定給を表します。"
+  },
+  {
+    "id": "v1708",
+    "word": "salary",
+    "meaningJa": "給料；給与",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The job offers a fixed monthly salary.",
+    "exampleJa": "その仕事では毎月定額の給料が支払われます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "職業や雇用条件を説明する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1709",
+    "word": "expense",
+    "meaningJa": "費用；出費",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Travel is the largest expense in our budget.",
+    "exampleJa": "旅費は私たちの予算で最大の出費です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "支出や計画の費用を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1710",
+    "word": "budget",
+    "meaningJa": "予算",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We need to keep the project within our budget.",
+    "exampleJa": "私たちは計画を予算内に収める必要があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "個人や組織の資金計画を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "予算を組む",
+        "example": "We need to budget for the repairs.",
+        "exampleJa": "私たちは修理のための予算を組む必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "v1711",
+    "word": "wealth",
+    "meaningJa": "富；財産",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The book examines how wealth is distributed.",
+    "exampleJa": "その本は富がどのように分配されるかを考察しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "財産や経済格差を論じる基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "豊富さ；大量",
+        "example": "The archive contains a wealth of information.",
+        "exampleJa": "その資料庫には豊富な情報が収められています。"
+      }
+    ]
+  },
+  {
+    "id": "v1712",
+    "word": "asset",
+    "meaningJa": "資産；強み",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Her experience is a valuable asset to the team.",
+    "exampleJa": "彼女の経験はチームにとって貴重な財産です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "経済上の価値や人の強みを示す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1713",
+    "word": "currency",
+    "meaningJa": "通貨",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The country introduced a new currency.",
+    "exampleJa": "その国は新しい通貨を導入しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国際経済や取引の仕組みを説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1714",
+    "word": "labor",
+    "meaningJa": "労働；労働力",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The task requires a great deal of physical labor.",
+    "exampleJa": "その作業には多くの肉体労働が必要です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生産や社会の働き手を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "イギリス英語ではlabourと綴ります。"
+  },
+  {
+    "id": "v1715",
+    "word": "employment",
+    "meaningJa": "雇用；就業",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The new factory will create employment in the area.",
+    "exampleJa": "新しい工場はその地域に雇用を生み出します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕事と地域経済の関係を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1716",
+    "word": "unemployment",
+    "meaningJa": "失業",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The report discusses the causes of unemployment.",
+    "exampleJa": "その報告書は失業の原因を論じています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "雇用上の社会問題を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1717",
+    "word": "occupation",
+    "meaningJa": "職業；仕事",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Please write your occupation on the form.",
+    "exampleJa": "用紙に職業を記入してください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身元や社会生活を説明する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "占領",
+        "example": "The museum documents the military occupation of the city.",
+        "exampleJa": "その博物館は軍による都市の占領を記録しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1718",
+    "word": "profession",
+    "meaningJa": "専門職；職業",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Teaching is a demanding profession.",
+    "exampleJa": "教職は多くの努力を要する職業です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "専門性のある職業や職業集団を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1719",
+    "word": "career",
+    "meaningJa": "職歴；経歴；生涯の仕事",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She began her career as a teacher.",
+    "exampleJa": "彼女は教師として職業生活を始めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "進路や人生の仕事を説明する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1720",
+    "word": "employer",
+    "meaningJa": "雇用主",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The employer provides training for new staff.",
+    "exampleJa": "その雇用主は新しい職員に研修を提供しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "雇用関係における立場を区別する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "雇う側がemployer、雇われる側がemployeeです。"
+  },
+  {
+    "id": "v1721",
+    "word": "colleague",
+    "meaningJa": "同僚",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A colleague helped me prepare the report.",
+    "exampleJa": "同僚が私の報告書作成を手伝ってくれました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕事や職場の人間関係を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1722",
+    "word": "enterprise",
+    "meaningJa": "企業；事業",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The small enterprise produces wooden toys.",
+    "exampleJa": "その小さな企業は木製のおもちゃを生産しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "経済活動を行う組織や事業を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "進取の気性；積極性",
+        "example": "The students showed enterprise by starting their own magazine.",
+        "exampleJa": "学生たちは自分たちの雑誌を創刊して積極性を示しました。"
+      }
+    ]
+  },
+  {
+    "id": "v1723",
+    "word": "corporation",
+    "meaningJa": "法人；大企業",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The corporation opened a research center.",
+    "exampleJa": "その大企業は研究施設を開設しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "企業や社会組織を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1724",
+    "word": "monopoly",
+    "meaningJa": "独占",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The company once had a monopoly on local transport.",
+    "exampleJa": "その会社はかつて地域の交通を独占していました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "市場の競争状態を説明する専門的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1725",
+    "word": "productivity",
+    "meaningJa": "生産性",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Better tools can improve worker productivity.",
+    "exampleJa": "より良い道具は労働者の生産性を高めることがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "投入に対する生産の効率を分析する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1726",
+    "word": "efficiency",
+    "meaningJa": "効率；能率",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The new design improves energy efficiency.",
+    "exampleJa": "新しい設計はエネルギー効率を改善します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "資源や時間の使い方を評価する抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1727",
+    "word": "consumption",
+    "meaningJa": "消費；消費量",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The city aims to reduce water consumption.",
+    "exampleJa": "その都市は水の消費量を減らすことを目指しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "資源や商品の利用量を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1728",
+    "word": "distribution",
+    "meaningJa": "分配；分布；流通",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The map shows the distribution of forests.",
+    "exampleJa": "その地図は森林の分布を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会や自然の広がりと配分を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "分配；配給",
+        "example": "Volunteers helped with the distribution of food.",
+        "exampleJa": "ボランティアは食料の配給を手伝いました。"
+      }
+    ]
+  },
+  {
+    "id": "v1729",
+    "word": "shortage",
+    "meaningJa": "不足",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The village faces a shortage of clean water.",
+    "exampleJa": "その村はきれいな水の不足に直面しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "必要な資源が足りない状態を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1730",
+    "word": "scarcity",
+    "meaningJa": "不足；希少性",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The scarcity of land limits the growth of the town.",
+    "exampleJa": "土地の不足がその町の拡大を制限しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "資源の乏しさを経済や環境の視点で論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1731",
+    "word": "abundance",
+    "meaningJa": "豊富さ；大量",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The island has an abundance of fresh fruit.",
+    "exampleJa": "その島には新鮮な果物が豊富にあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "不足と対比して資源の豊かさを示す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1732",
+    "word": "surplus",
+    "meaningJa": "余剰；黒字",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The farm sells its surplus to local shops.",
+    "exampleJa": "その農場は余剰分を地元の店に売っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "必要量を超える資源や収支の余りを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "余剰の",
+        "example": "The school donated its surplus books.",
+        "exampleJa": "その学校は余った本を寄付しました。"
+      }
+    ]
+  },
+  {
+    "id": "v1733",
+    "word": "deficit",
+    "meaningJa": "不足；赤字",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The city plans to reduce its budget deficit.",
+    "exampleJa": "その都市は財政赤字を減らす予定です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "収支や必要量に対する不足を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1734",
+    "word": "inflation",
+    "meaningJa": "インフレーション；物価上昇",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The report explains how inflation affects households.",
+    "exampleJa": "その報告書は物価上昇が家計にどう影響するかを説明しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "経済の基本的な変化を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1735",
+    "word": "recession",
+    "meaningJa": "景気後退；不況",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Several factories closed during the recession.",
+    "exampleJa": "不況の間にいくつかの工場が閉鎖されました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "経済活動の低迷を示す社会読解の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1736",
+    "word": "prosperity",
+    "meaningJa": "繁栄",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The town enjoyed a period of prosperity.",
+    "exampleJa": "その町は繁栄の時期を享受しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会や経済の豊かな状態を示す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1737",
+    "word": "welfare",
+    "meaningJa": "福祉；幸福；福利",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The charity works to improve the welfare of children.",
+    "exampleJa": "その慈善団体は子供たちの福祉の向上に取り組んでいます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会的支援や生活の良好さを論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1738",
+    "word": "pension",
+    "meaningJa": "年金",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "His pension covers most of his living costs.",
+    "exampleJa": "彼の年金は生活費の大半を賄っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "高齢化や社会保障の文章で使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1739",
+    "word": "taxation",
+    "meaningJa": "課税；税制",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The debate focused on taxation and public services.",
+    "exampleJa": "その議論は税制と公共サービスに焦点を当てました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "税の仕組みや徴収を論じる抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1740",
+    "word": "subsidy",
+    "meaningJa": "補助金；助成金",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The farmers received a subsidy for new equipment.",
+    "exampleJa": "農家の人たちは新しい設備のための補助金を受け取りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "政策による資金支援を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1741",
+    "word": "infrastructure",
+    "meaningJa": "社会基盤；インフラ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The region needs better transport infrastructure.",
+    "exampleJa": "その地域にはより良い交通基盤が必要です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会の活動を支える基本設備をまとめる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1742",
+    "word": "facility",
+    "meaningJa": "施設；設備",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The town built a new sports facility.",
+    "exampleJa": "その町は新しいスポーツ施設を建設しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "公共や産業の設備を表す一般名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1743",
+    "word": "equipment",
+    "meaningJa": "設備；用具",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The school bought new science equipment.",
+    "exampleJa": "その学校は新しい理科の器具を買いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校や仕事の道具をまとめて表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は数えられない名詞です。一つの用具はa piece of equipmentなどで表します。"
+  },
+  {
+    "id": "v1744",
+    "word": "machinery",
+    "meaningJa": "機械類",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The factory replaced its old machinery.",
+    "exampleJa": "その工場は古い機械を取り替えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "産業用の機械を集合的に表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "機械類をまとめて指す数えられない名詞です。個々の機械にはmachineを使います。"
+  },
+  {
+    "id": "v1745",
+    "word": "patent",
+    "meaningJa": "特許",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The inventor applied for a patent.",
+    "exampleJa": "その発明家は特許を申請しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "発明と権利に関する読解名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1746",
+    "word": "copyright",
+    "meaningJa": "著作権",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The class discussed copyright in digital media.",
+    "exampleJa": "その授業ではデジタルメディアの著作権について話し合いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報社会や創作物の権利を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1747",
+    "word": "biology",
+    "meaningJa": "生物学",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We study plants and animals in biology.",
+    "exampleJa": "私たちは生物学で植物と動物を学びます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校の教科や基本的な学問分野の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1748",
+    "word": "chemistry",
+    "meaningJa": "化学",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The chemistry teacher showed us a simple experiment.",
+    "exampleJa": "化学の先生は私たちに簡単な実験を見せました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校の教科や科学分野を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1749",
+    "word": "physics",
+    "meaningJa": "物理学",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She is interested in physics and mathematics.",
+    "exampleJa": "彼女は物理学と数学に興味があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校の教科や科学分野を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "学問としての物理学を指すときは、語尾がsでも通常単数として扱います。"
+  },
+  {
+    "id": "v1750",
+    "word": "astronomy",
+    "meaningJa": "天文学",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The club organizes talks about astronomy.",
+    "exampleJa": "そのクラブは天文学の講演会を企画しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "宇宙や観測を扱う学問分野の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1751",
+    "word": "geology",
+    "meaningJa": "地質学",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The geology course includes trips to nearby mountains.",
+    "exampleJa": "その地質学の授業には近くの山への実地見学が含まれています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地球や岩石を扱う学問分野を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1752",
+    "word": "ecology",
+    "meaningJa": "生態学",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She studies the ecology of coastal forests.",
+    "exampleJa": "彼女は沿岸の森林の生態を研究しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生物と環境の関係を論じる学問分野の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1753",
+    "word": "organism",
+    "meaningJa": "生物；有機体",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The scientist observed a tiny organism under the microscope.",
+    "exampleJa": "科学者は顕微鏡で小さな生物を観察しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生命科学の文章で生物を総称する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1754",
+    "word": "cell",
+    "meaningJa": "細胞",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The diagram shows the structure of a plant cell.",
+    "exampleJa": "その図は植物細胞の構造を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生物の基本構造を表す科学読解の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "独房；小部屋",
+        "example": "The prisoner returned to his cell.",
+        "exampleJa": "その囚人は独房に戻りました。"
+      }
+    ]
+  },
+  {
+    "id": "v1755",
+    "word": "tissue",
+    "meaningJa": "ティッシュペーパー；組織",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She took a tissue from the box.",
+    "exampleJa": "彼女は箱からティッシュペーパーを一枚取りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な紙製品を基本義とし生物の組織も表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "生体組織",
+        "example": "The sample contains damaged muscle tissue.",
+        "exampleJa": "その試料には損傷した筋肉組織が含まれています。"
+      }
+    ]
+  },
+  {
+    "id": "v1756",
+    "word": "organ",
+    "meaningJa": "臓器；器官",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The heart is an important organ.",
+    "exampleJa": "心臓は重要な臓器です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "身体の構造や機能を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "オルガン",
+        "example": "She played the organ in the church.",
+        "exampleJa": "彼女は教会でオルガンを弾きました。"
+      }
+    ]
+  },
+  {
+    "id": "v1757",
+    "word": "molecule",
+    "meaningJa": "分子",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The model represents a water molecule.",
+    "exampleJa": "その模型は水の分子を表しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物質の微視的な構造を説明する科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1758",
+    "word": "atom",
+    "meaningJa": "原子",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The lesson explains the structure of an atom.",
+    "exampleJa": "その授業は原子の構造を説明します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物質の基本的な構造を表す科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1759",
+    "word": "electron",
+    "meaningJa": "電子",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The textbook describes the movement of an electron.",
+    "exampleJa": "その教科書は電子の動きを説明しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物質や電気の仕組みを論じる科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1760",
+    "word": "particle",
+    "meaningJa": "粒子；微粒子",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A tiny particle of dust landed on the lens.",
+    "exampleJa": "小さなほこりの粒がレンズに付着しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物質の小さな粒を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1761",
+    "word": "substance",
+    "meaningJa": "物質；実質",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The researchers tested a new substance.",
+    "exampleJa": "研究者たちは新しい物質を試験しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "材料や成分を一般的に指す科学読解の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1762",
+    "word": "compound",
+    "meaningJa": "化合物；複合物",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The laboratory produced a new chemical compound.",
+    "exampleJa": "その研究所は新しい化合物を作り出しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "複数の要素が結び付いたものを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1763",
+    "word": "element",
+    "meaningJa": "要素；元素",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Trust is an essential element of teamwork.",
+    "exampleJa": "信頼はチームワークに不可欠な要素です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "全体を構成する部分を示す基本的な抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "元素",
+        "example": "Oxygen is a chemical element.",
+        "exampleJa": "酸素は化学元素です。"
+      }
+    ]
+  },
+  {
+    "id": "v1764",
+    "word": "mineral",
+    "meaningJa": "鉱物；無機質",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The museum displays a rare mineral.",
+    "exampleJa": "その博物館は珍しい鉱物を展示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地学や栄養の話題で使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1765",
+    "word": "plastic",
+    "meaningJa": "プラスチック",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The bottle is made of recycled plastic.",
+    "exampleJa": "そのボトルは再生プラスチックでできています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な材料や環境問題に関わる基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1766",
+    "word": "chemical",
+    "meaningJa": "化学物質；薬品",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The label identifies the chemical in the bottle.",
+    "exampleJa": "ラベルは瓶の中の化学物質を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "実験や環境の説明で使う基本的な科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "化学の",
+        "example": "The students observed a chemical reaction.",
+        "exampleJa": "生徒たちは化学反応を観察しました。"
+      }
+    ]
+  },
+  {
+    "id": "v1767",
+    "word": "radiation",
+    "meaningJa": "放射；放射線",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The instrument measures radiation from the sun.",
+    "exampleJa": "その装置は太陽からの放射を測定します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "エネルギーの伝わり方や観測を表す科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1768",
+    "word": "gravity",
+    "meaningJa": "重力",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The experiment shows the effect of gravity.",
+    "exampleJa": "その実験は重力の影響を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自然現象の基本的な力を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "重大さ；深刻さ",
+        "example": "He did not understand the gravity of the situation.",
+        "exampleJa": "彼は事態の深刻さを理解していませんでした。"
+      }
+    ]
+  },
+  {
+    "id": "v1769",
+    "word": "humidity",
+    "meaningJa": "湿度",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The sensor records temperature and humidity.",
+    "exampleJa": "そのセンサーは温度と湿度を記録します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "気候や環境条件を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1770",
+    "word": "altitude",
+    "meaningJa": "高度；標高",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The aircraft maintained a steady altitude.",
+    "exampleJa": "その航空機は一定の高度を維持しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "高さや地理的条件を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1771",
+    "word": "latitude",
+    "meaningJa": "緯度",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The map gives the latitude of each city.",
+    "exampleJa": "その地図には各都市の緯度が示されています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "地理や気候の位置関係を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "南北方向の位置を表す緯度です。longitudeは東西方向の位置を表す経度です。"
+  },
+  {
+    "id": "v1772",
+    "word": "longitude",
+    "meaningJa": "経度",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "We used the chart to find the longitude of the island.",
+    "exampleJa": "私たちは海図を使ってその島の経度を調べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "地理や航海の位置関係を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1773",
+    "word": "volume",
+    "meaningJa": "体積；量；音量",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The container holds a large volume of water.",
+    "exampleJa": "その容器には大量の水が入ります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "空間の大きさや数量を表す基本的な読解名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "巻；冊",
+        "example": "I borrowed the first volume of the series.",
+        "exampleJa": "私はそのシリーズの第一巻を借りました。"
+      }
+    ]
+  },
+  {
+    "id": "v1774",
+    "word": "density",
+    "meaningJa": "密度",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The map compares population density across regions.",
+    "exampleJa": "その地図は地域ごとの人口密度を比較しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "一定の範囲内の量を比較する科学的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1775",
+    "word": "velocity",
+    "meaningJa": "速度",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The instrument measures the velocity of the moving object.",
+    "exampleJa": "その装置は動く物体の速度を測定します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "運動を物理的に説明する科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "物理では向きも含めた速度を表します。速さの大きさを指すspeedと区別します。"
+  },
+  {
+    "id": "v1776",
+    "word": "acceleration",
+    "meaningJa": "加速；加速度",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The graph shows the acceleration of the car.",
+    "exampleJa": "そのグラフは車の加速度を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "速度の変化や進展の速まりを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1777",
+    "word": "friction",
+    "meaningJa": "摩擦；不和",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Oil reduces friction between the moving parts.",
+    "exampleJa": "油は動く部品の間の摩擦を減らします。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物理現象から対人関係の比喩までを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1778",
+    "word": "resistance",
+    "meaningJa": "抵抗",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The proposal met with strong resistance.",
+    "exampleJa": "その提案は強い抵抗に遭いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会的反対や物理的な妨げを示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1779",
+    "word": "conservation",
+    "meaningJa": "保護；保全；節約",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The group supports forest conservation.",
+    "exampleJa": "その団体は森林保全を支援しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "環境や資源を守る活動を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1780",
+    "word": "preservation",
+    "meaningJa": "保存；保護",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The museum works on the preservation of old documents.",
+    "exampleJa": "その博物館は古い文書の保存に取り組んでいます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "状態や文化財を維持する活動を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1781",
+    "word": "emission",
+    "meaningJa": "排出；放出",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The new engine reduces the emission of harmful gases.",
+    "exampleJa": "新しいエンジンは有害なガスの排出を減らします。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "環境負荷やエネルギーの放出を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "排出される物質や排出量を表すとき、emissionsという複数形もよく使われます。"
+  },
+  {
+    "id": "v1782",
+    "word": "extinction",
+    "meaningJa": "絶滅",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The species faces the threat of extinction.",
+    "exampleJa": "その種は絶滅の脅威に直面しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生物多様性や環境変化を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1783",
+    "word": "fossil",
+    "meaningJa": "化石",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The children found a fossil in the rock.",
+    "exampleJa": "子供たちは岩の中に化石を見つけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地球の歴史や自然観察で使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1784",
+    "word": "mutation",
+    "meaningJa": "突然変異",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The researchers studied the effects of a mutation.",
+    "exampleJa": "研究者たちは突然変異の影響を調べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "遺伝や進化の文章で変異を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1785",
+    "word": "reproduction",
+    "meaningJa": "生殖；複製",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The chapter explains reproduction in flowering plants.",
+    "exampleJa": "その章は花を咲かせる植物の生殖を説明しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生命の継承と複製の両分野を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "複製；複製品",
+        "example": "The museum sells a reproduction of the painting.",
+        "exampleJa": "その博物館はその絵の複製を販売しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1786",
+    "word": "inheritance",
+    "meaningJa": "相続；遺伝",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "She used her inheritance to open a bookshop.",
+    "exampleJa": "彼女は相続した財産を使って書店を開きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "財産や形質の受け継ぎを表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "遺伝",
+        "example": "The chapter describes the inheritance of certain traits.",
+        "exampleJa": "その章は特定の形質の遺伝を説明しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1787",
+    "word": "chromosome",
+    "meaningJa": "染色体",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The diagram shows the structure of a chromosome.",
+    "exampleJa": "その図は染色体の構造を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "遺伝の仕組みを詳しく扱う発展的な科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1788",
+    "word": "bacteria",
+    "meaningJa": "細菌",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The students observed bacteria under a microscope.",
+    "exampleJa": "生徒たちは顕微鏡で細菌を観察しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "微生物や環境の話題で基本となる科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形です。単数形はbacteriumですが、ここでは活用による語数の水増しを避けて別見出しにしません。"
+  },
+  {
+    "id": "v1789",
+    "word": "virus",
+    "meaningJa": "ウイルス",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The researchers examined the structure of the virus.",
+    "exampleJa": "研究者たちはそのウイルスの構造を調べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "健康や情報技術で見聞きする基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1790",
+    "word": "fungus",
+    "meaningJa": "菌類；カビ；キノコ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "A fungus was growing on the fallen branch.",
+    "exampleJa": "落ちた枝に菌類が生えていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生物の分類や環境の働きを説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形にはfungiやfungusesがあります。"
+  },
+  {
+    "id": "v1791",
+    "word": "parasite",
+    "meaningJa": "寄生生物；寄生虫",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The study examines the life cycle of a parasite.",
+    "exampleJa": "その研究は寄生生物の生活環を調べています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生物同士の関係を論じる科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1792",
+    "word": "mammal",
+    "meaningJa": "哺乳類",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The whale is a mammal.",
+    "exampleJa": "クジラは哺乳類です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "動物の基本的な分類を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1793",
+    "word": "reptile",
+    "meaningJa": "爬虫類",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The zoo has a building for each type of reptile.",
+    "exampleJa": "その動物園には爬虫類の種類ごとに建物があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "動物の分類を具体的に説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1794",
+    "word": "predator",
+    "meaningJa": "捕食者；捕食動物",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The small fish hid from a predator.",
+    "exampleJa": "その小魚は捕食者から身を隠しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "食物連鎖や生物間の関係を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1795",
+    "word": "prey",
+    "meaningJa": "獲物；被食者",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The bird watched its prey from a branch.",
+    "exampleJa": "その鳥は枝から獲物を見ていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "捕食者との関係を示す生態学の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "獲物の意味では通常、数えられない名詞として使います。"
+  },
+  {
+    "id": "v1796",
+    "word": "vegetation",
+    "meaningJa": "植生；植物群",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The island has dense vegetation.",
+    "exampleJa": "その島には植物が密生しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "地域の植物全体や生態系を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "ある地域の植物全体をまとめて表し、通常は数えられない名詞です。"
+  },
+  {
+    "id": "v1797",
+    "word": "photosynthesis",
+    "meaningJa": "光合成",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The lesson explains the role of light in photosynthesis.",
+    "exampleJa": "その授業は光合成における光の役割を説明します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "生命とエネルギーの仕組みを扱う発展的な科学名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1798",
+    "word": "renewable",
+    "meaningJa": "再生可能な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The town uses renewable energy to power public buildings.",
+    "exampleJa": "その町は公共の建物に電力を供給するため再生可能エネルギーを使っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "環境と資源の持続性を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "renewable energyで「再生可能エネルギー」を表します。"
+  },
+  {
+    "id": "v1799",
+    "word": "sustainability",
+    "meaningJa": "持続可能性",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The report evaluates the sustainability of the project.",
+    "exampleJa": "その報告書は計画の持続可能性を評価しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "環境・社会・経済の長期的な維持を論じる抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1800",
+    "word": "drought",
+    "meaningJa": "干ばつ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The drought damaged crops across the region.",
+    "exampleJa": "干ばつはその地域全体の作物に被害を与えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "気候と農業への影響を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

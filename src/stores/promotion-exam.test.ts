@@ -2,9 +2,11 @@ import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { createPinia, setActivePinia } from 'pinia'
 import { useAppStore } from './app'
 import { defaults, migrateSave } from '../persistence/save'
-import { vocabularyWords } from '../data/vocabulary'
+import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import { buildPromotionExam, examAnswer, grantExamEligibility } from '../domain/promotion-exam'
 import type { WordProgress } from '../types'
+const required = (level: number) =>
+  Math.ceil(vocabularyLevels.find((item) => item.id === level)!.wordCount * 0.7)
 const data = new Map<string, string>()
 vi.stubGlobal('localStorage', {
   getItem: (key: string) => data.get(key) ?? null,
@@ -49,16 +51,16 @@ describe('promotion exams', () => {
   })
   it('grants eligibility at exactly 70%, retains it after decline and does not unlock the next level', () => {
     const state = defaults()
-    state.wordProgress = progress(104)
+    state.wordProgress = progress(required(1) - 1)
     expect(grantExamEligibility(state)).toBeUndefined()
-    state.wordProgress = progress(105)
+    state.wordProgress = progress(required(1))
     expect(grantExamEligibility(state)).toBe(1)
     state.wordProgress = {}
     expect(grantExamEligibility(state)).toBeUndefined()
     expect(state.eligibleExamLevels).toEqual([1])
     expect(state.unlockedVocabularyLevel).toBe(1)
     state.unlockedVocabularyLevel = 6
-    state.wordProgress = progress(170, 6)
+    state.wordProgress = progress(vocabularyLevels[5].wordCount, 6)
     expect(grantExamEligibility(state)).toBeUndefined()
   })
   it('builds 20 unique words and balanced four-option questions without duplicate choices', () => {
@@ -96,7 +98,7 @@ describe('promotion exams', () => {
   it('fails at 17, passes at 18, allows retries and leaves regular rewards and learning intact', () => {
     const store = useAppStore()
     store.s.eligibleExamLevels = [1]
-    store.s.wordProgress = { ...progress(105), ...progress(119, 2) }
+    store.s.wordProgress = { ...progress(required(1)), ...progress(required(2), 2) }
     const snapshot = JSON.stringify({
       words: store.s.wordProgress,
       xp: store.s.xp,
@@ -138,7 +140,7 @@ describe('promotion exams', () => {
       version: 6,
       unlockedVocabularyLevel: 6,
       xp: 250,
-      wordProgress: { ...progress(105), ...progress(119, 2) }
+      wordProgress: { ...progress(required(1)), ...progress(required(2), 2) }
     }
     const migrated = migrateSave(old)
     expect(migrated.unlockedVocabularyLevel).toBe(1)
@@ -160,8 +162,8 @@ describe('promotion exams', () => {
   it('awards the notification on practice completion once, without unlocking the next level', () => {
     const store = useAppStore()
     const words = vocabularyWords.filter((word) => word.level === 1)
-    store.s.wordProgress = progress(104)
-    const word = words[104]!
+    store.s.wordProgress = progress(required(1) - 1)
+    const word = words[required(1) - 1]!
     store.s.wordProgress[word.id] = {
       status: 'learning',
       correctSessions: ['previous'],
@@ -194,4 +196,22 @@ describe('promotion exams', () => {
     expect(store.s.examResults).toHaveLength(30)
     expect(store.s.passedExamLevels).toEqual([1])
   })
+})
+
+it('starts a level 5 exam after the catalog reaches twenty words', () => {
+  setActivePinia(createPinia())
+  const store = useAppStore()
+  store.s.unlockedVocabularyLevel = 5
+  store.s.wordProgress = progress(required(5), 5)
+  expect(grantExamEligibility(store.s)).toBe(5)
+  expect(store.canTakeExam(5)).toBe(true)
+  expect(store.startPromotionExam(5)).toBe(true)
+  const questions = store.activeExam!.questions
+  expect(questions).toHaveLength(20)
+  expect(new Set(questions.map((question) => question.wordId)).size).toBe(20)
+  for (const question of questions) {
+    expect(vocabularyWords.find((word) => word.id === question.wordId)?.level).toBe(5)
+    expect(new Set(question.options).size).toBe(4)
+    expect(question.options).toContain(examAnswer(question))
+  }
 })

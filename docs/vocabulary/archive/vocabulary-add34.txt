@@ -1,0 +1,50 @@
+clothes|1|noun|衣服；服|She packed her clothes for the trip.|彼女は旅行のために服を荷造りしました。|日常的な持ち物を表す基本名詞として学ぶ。
+clothing|2|noun|衣類|The shop sells warm clothing for winter.|その店は冬用の暖かい衣類を売っています。|衣類全体をまとめて指す基本的な不可算名詞として学ぶ。
+blouse|2|noun|ブラウス|She wore a white blouse to the meeting.|彼女は会議に白いブラウスを着て行きました。|身近な衣服の種類を表す具体的な名詞として学ぶ。
+skirt|1|noun|スカート|The blue skirt matches her jacket.|その青いスカートは彼女のジャケットに合っています。|身近な衣服の名前として基礎に配置する。
+pants|1|noun|ズボン（主に米国）|These pants are too long for me.|このズボンは私には長すぎます。|日常の衣服を表す基本名詞として学び、地域差を注記する。
+jeans|1|noun|ジーンズ|He bought a new pair of jeans.|彼は新しいジーンズを一本買いました。|身近な衣服の名前として基礎に配置する。
+shorts|1|noun|半ズボン；ショートパンツ|She wore shorts on the hot summer day.|彼女は暑い夏の日に半ズボンをはいていました。|日常的な衣服の名前として基礎に配置する。
+jacket|1|noun|ジャケット；上着|He hung his jacket by the door.|彼はドアのそばに上着を掛けました。|身近な衣服の名前として基礎に配置する。
+sweater|1|noun|セーター|This sweater keeps me warm on cold mornings.|このセーターは寒い朝に暖かくしてくれます。|日常の衣服を表す基本名詞として学ぶ。
+cardigan|2|noun|カーディガン|She put on a cardigan before going outside.|彼女は外に出る前にカーディガンを着ました。|衣服の具体的な種類を表す基本名詞として学ぶ。
+suit|2|noun|スーツ；一そろいの服|He wore a dark suit to the interview.|彼は面接に暗い色のスーツを着て行きました。|衣服としての身近な基本義を中学標準で学び、動詞も補う。
+tie|2|verb|結ぶ；縛る|Please tie the bag with this string.|このひもで袋を結んでください。|身近な物を結ぶ基本動作として学び、ネクタイなどの名詞用法も補う。
+stocking|3|noun|ストッキング；長靴下|She found a small hole in her stocking.|彼女はストッキングに小さな穴を見つけました。|衣服の細かな種類を描写する高校基礎の名詞として学ぶ。
+boot|2|noun|ブーツ；長靴|Mud covered the bottom of his boot.|泥が彼のブーツの底に付いていました。|履物の具体的な種類を示す基本名詞として扱う。
+sandal|2|noun|サンダル|The strap on my sandal broke.|私のサンダルのひもが切れました。|身近な履物の名前として中学標準で学ぶ。
+slipper|2|noun|スリッパ；室内履き|One slipper was hidden under the bed.|片方のスリッパがベッドの下に隠れていました。|家の中で使う具体的な物の名前として学ぶ。
+cap|1|noun|帽子；キャップ|He wore a red cap on the hike.|彼はハイキングで赤い帽子をかぶっていました。|身近な持ち物を表す基本義として学ぶ。
+belt|1|noun|ベルト；帯|She fastened the belt around her waist.|彼女は腰にベルトを締めました。|衣服に関する身近な物の名前として学ぶ。
+sleeve|2|noun|袖|He rolled up the sleeve of his shirt.|彼はシャツの袖をまくりました。|衣服の具体的な部分を表す基本名詞として学ぶ。
+collar|2|noun|襟；首輪|The collar of his shirt was slightly bent.|彼のシャツの襟は少し曲がっていました。|衣服や身近な物の部分を表す基本名詞として扱う。
+zipper|2|noun|ファスナー|The zipper on my bag is stuck.|かばんのファスナーが引っかかっています。|日常の衣服やかばんの部品を表す基本名詞として学ぶ。
+seam|3|noun|縫い目；つなぎ目|The seam of the bag began to split.|かばんの縫い目が裂け始めました。|物の作りや接合部分を説明する高校基礎の具体語として学ぶ。
+needle|2|noun|針|She put the thread through the needle.|彼女は針に糸を通しました。|裁縫などで使う身近な道具の名前として学ぶ。
+stitch|3|noun|一針；縫い目|He added one final stitch to the torn pocket.|彼は破れたポケットに最後の一針を加えました。|裁縫や物の作りを具体的に描写する高校基礎の語として扱う。
+peel|2|verb|皮をむく|Please peel the potatoes before cooking them.|調理する前にジャガイモの皮をむいてください。|調理の基本的な動作を示す語として中学標準で学ぶ。
+slice|2|noun|薄切り；一切れ|She put a slice of cheese on the bread.|彼女はパンにチーズを一枚載せました。|食事の数量や形を示す基本名詞として学ぶ。
+chop|2|verb|切り刻む；ぶつ切りにする|Chop the carrots into small pieces.|ニンジンを小さく切ってください。|調理で材料を切る基本動作として中学標準で学ぶ。
+cereal|2|noun|朝食用シリアル；穀類|He ate a bowl of cereal before school.|彼は学校へ行く前にシリアルを一杯食べました。|朝食の身近な食品を基本義として扱い、農業の意味も補う。
+oats|3|noun|エンバク；オーツ麦|She cooked oats with milk for breakfast.|彼女は朝食にオーツ麦を牛乳で煮ました。|穀物の種類を説明する高校基礎の食・農業語彙として学ぶ。
+wheat|3|noun|小麦|The farmer grows wheat in this field.|その農家はこの畑で小麦を栽培しています。|食料生産や原材料を説明する高校基礎の名詞として学ぶ。
+barley|3|noun|大麦|The soup contains barley and vegetables.|そのスープには大麦と野菜が入っています。|食品や農業で穀物の種類を区別する高校基礎の語として学ぶ。
+lentil|4|noun|レンズ豆|A lentil is a small seed used in many dishes.|レンズ豆は多くの料理で使われる小さな種子です。|世界の食文化や農作物を具体的に説明する標準読解の語として学ぶ。
+garlic|2|noun|ニンニク|She added garlic to the sauce.|彼女はソースにニンニクを加えました。|料理の身近な材料を表す基本名詞として学ぶ。
+ginger|2|noun|ショウガ|He sliced fresh ginger for the soup.|彼はスープ用に新鮮なショウガを薄切りにしました。|身近な食材や風味を表す基本名詞として学ぶ。
+spinach|2|noun|ホウレンソウ|We washed the spinach before cooking it.|私たちは調理する前にホウレンソウを洗いました。|身近な野菜の名前として中学標準で学ぶ。
+broccoli|2|noun|ブロッコリー|The children grew broccoli in the school garden.|子どもたちは学校の菜園でブロッコリーを育てました。|身近な野菜の名前として基本語に配置する。
+cauliflower|3|noun|カリフラワー|She cut the cauliflower into small pieces.|彼女はカリフラワーを小さく切り分けました。|食品の種類を具体的に説明する高校基礎の名詞として学ぶ。
+radish|2|noun|ラディッシュ；ダイコン類|He pulled a red radish from the soil.|彼は土から赤いラディッシュを引き抜きました。|身近な野菜の種類を表す基本名詞として学ぶ。
+peach|1|noun|桃|She picked a ripe peach from the tree.|彼女は木から熟した桃をもぎました。|身近な果物の名前として基礎に配置する。
+pear|1|noun|梨|He put a pear in his lunch bag.|彼は昼食用の袋に梨を入れました。|身近な果物の名前として基礎に配置する。
+plum|2|noun|スモモ；プラム|The plum was sweet and juicy.|そのプラムは甘くてみずみずしかったです。|食生活で使う具体的な果物名として中学標準で学ぶ。
+grape|1|noun|ブドウ|A grape rolled off the plate.|ブドウが一粒、皿から転がり落ちました。|身近な果物を表す基本名詞として学ぶ。
+strawberry|1|noun|イチゴ|She placed a strawberry on top of the cake.|彼女はケーキの上にイチゴを載せました。|身近な果物の名前として基礎に配置する。
+lemon|1|noun|レモン|He squeezed a lemon into the bowl.|彼はボウルにレモンを絞りました。|身近な果物や調理材料の名前として学ぶ。
+lime|2|noun|ライム|She added a slice of lime to the water.|彼女は水にライムの薄切りを加えました。|料理や飲み物で使う具体的な果物名として学ぶ。
+watermelon|1|noun|スイカ|We shared a watermelon after the picnic.|私たちはピクニックの後でスイカを分けて食べました。|身近な果物の名前として基礎に配置する。
+pineapple|1|noun|パイナップル|He cut the pineapple into rings.|彼はパイナップルを輪切りにしました。|身近な果物の名前として基礎に配置する。
+mango|2|noun|マンゴー|The mango was soft and ready to eat.|そのマンゴーは柔らかく食べ頃でした。|食文化や日常の食事に関わる具体的な果物名として学ぶ。
+coconut|2|noun|ココナッツ；ヤシの実|She sprinkled coconut over the cake.|彼女はケーキにココナッツを振りかけました。|食材や植物の実を表す具体的な基本名詞として扱う。
+avocado|2|noun|アボカド|He added avocado to the salad.|彼はサラダにアボカドを加えました。|日常の食事に使う具体的な食品名として中学標準で学ぶ。

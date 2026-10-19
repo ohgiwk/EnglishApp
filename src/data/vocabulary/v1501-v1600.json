@@ -1,0 +1,2223 @@
+[
+  {
+    "id": "v1501",
+    "word": "carrot",
+    "meaningJa": "ニンジン",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She cut a carrot into small pieces.",
+    "exampleJa": "彼女はニンジンを小さく切りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な野菜を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1502",
+    "word": "onion",
+    "meaningJa": "タマネギ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Add one onion to the soup.",
+    "exampleJa": "スープにタマネギを一つ加えてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食材として身近な野菜の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1503",
+    "word": "cabbage",
+    "meaningJa": "キャベツ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We bought a cabbage at the market.",
+    "exampleJa": "私たちは市場でキャベツを一つ買いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事や買い物で使う基本的な野菜名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1504",
+    "word": "lettuce",
+    "meaningJa": "レタス",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Put some lettuce in the sandwich.",
+    "exampleJa": "サンドイッチにレタスを少し入れてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の食材を具体的に説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1505",
+    "word": "cucumber",
+    "meaningJa": "キュウリ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Slice the cucumber for the salad.",
+    "exampleJa": "サラダ用にキュウリを薄く切ってください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "野菜や調理を説明する具体的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1506",
+    "word": "pumpkin",
+    "meaningJa": "カボチャ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We made soup with a small pumpkin.",
+    "exampleJa": "私たちは小さなカボチャでスープを作りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な食材や季節行事に関わる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1507",
+    "word": "mushroom",
+    "meaningJa": "キノコ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A mushroom grew beside the fallen tree.",
+    "exampleJa": "倒れた木のそばにキノコが生えていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食材や自然観察で使う具体的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1508",
+    "word": "bean",
+    "meaningJa": "豆",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The child planted a bean in a pot.",
+    "exampleJa": "その子は植木鉢に豆を一粒植えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食材や植物の生長を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1509",
+    "word": "pea",
+    "meaningJa": "エンドウ豆",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A pea rolled off the plate.",
+    "exampleJa": "エンドウ豆が一粒、皿から転がり落ちました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食材としての豆を区別する具体的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1510",
+    "word": "corn",
+    "meaningJa": "トウモロコシ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The farmer grows corn in this field.",
+    "exampleJa": "その農家の人はこの畑でトウモロコシを育てています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な作物を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1511",
+    "word": "butter",
+    "meaningJa": "バター",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Spread some butter on the bread.",
+    "exampleJa": "パンにバターを少し塗ってください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の食事で使う基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1512",
+    "word": "cheese",
+    "meaningJa": "チーズ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "There is some cheese in the fridge.",
+    "exampleJa": "冷蔵庫にチーズが少しあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な食品を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1513",
+    "word": "yogurt",
+    "meaningJa": "ヨーグルト",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "I eat yogurt with fruit in the morning.",
+    "exampleJa": "私は朝、果物と一緒にヨーグルトを食べます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "朝食などで接する身近な食品名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "yoghurtという綴りも使われます。"
+  },
+  {
+    "id": "v1514",
+    "word": "beef",
+    "meaningJa": "牛肉",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The restaurant serves beef with vegetables.",
+    "exampleJa": "そのレストランでは牛肉を野菜と一緒に出します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事や買い物で肉の種類を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1515",
+    "word": "pork",
+    "meaningJa": "豚肉",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He ordered pork with rice.",
+    "exampleJa": "彼は豚肉とご飯を注文しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食材として肉の種類を区別する基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1516",
+    "word": "soup",
+    "meaningJa": "スープ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The soup is too hot to drink.",
+    "exampleJa": "そのスープは熱すぎて飲めません。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の料理を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1517",
+    "word": "salad",
+    "meaningJa": "サラダ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We shared a large salad at lunch.",
+    "exampleJa": "私たちは昼食に大きなサラダを分け合いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事や注文で使う基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1518",
+    "word": "sandwich",
+    "meaningJa": "サンドイッチ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "I packed a sandwich for the trip.",
+    "exampleJa": "私は旅行用にサンドイッチを詰めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な食べ物を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1519",
+    "word": "dessert",
+    "meaningJa": "デザート",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We had fruit for dessert.",
+    "exampleJa": "私たちはデザートに果物を食べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食事の構成や注文を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "desert（砂漠）とは綴りと発音の強勢位置が異なります。"
+  },
+  {
+    "id": "v1520",
+    "word": "snack",
+    "meaningJa": "軽食；おやつ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The children had a snack after school.",
+    "exampleJa": "子供たちは放課後におやつを食べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の食習慣を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1521",
+    "word": "sugar",
+    "meaningJa": "砂糖",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Do you put sugar in your tea?",
+    "exampleJa": "あなたは紅茶に砂糖を入れますか。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な調味料を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1522",
+    "word": "salt",
+    "meaningJa": "塩",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "This soup needs a little salt.",
+    "exampleJa": "このスープには塩が少し必要です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事や調理で使う基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1523",
+    "word": "pepper",
+    "meaningJa": "コショウ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Add a little pepper before serving.",
+    "exampleJa": "料理を出す前にコショウを少し加えてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "調味料を具体的に説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "ピーマン類の実；トウガラシ類の実",
+        "example": "She sliced a red pepper for the salad.",
+        "exampleJa": "彼女はサラダ用に赤いパプリカを薄く切りました。"
+      }
+    ]
+  },
+  {
+    "id": "v1524",
+    "word": "flour",
+    "meaningJa": "小麦粉；穀物の粉",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Mix the flour with water in a bowl.",
+    "exampleJa": "ボウルの中で小麦粉を水と混ぜてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "調理の手順や材料を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "flower（花）と同じ発音です。"
+  },
+  {
+    "id": "v1525",
+    "word": "bottle",
+    "meaningJa": "瓶；ボトル",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She filled the bottle with water.",
+    "exampleJa": "彼女はボトルに水を入れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の容器を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1526",
+    "word": "plate",
+    "meaningJa": "皿",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Put the bread on a clean plate.",
+    "exampleJa": "パンをきれいな皿に載せてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事の道具を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "板；プレート",
+        "example": "A metal plate covered the opening.",
+        "exampleJa": "金属板がその開口部を覆っていました。"
+      }
+    ]
+  },
+  {
+    "id": "v1527",
+    "word": "bowl",
+    "meaningJa": "鉢；ボウル；茶碗",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He carried a bowl of rice to the table.",
+    "exampleJa": "彼はご飯の入った茶碗を食卓へ運びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事や調理で使う深い容器の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1528",
+    "word": "spoon",
+    "meaningJa": "スプーン",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Use a spoon to stir the soup.",
+    "exampleJa": "スプーンを使ってスープをかき混ぜてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事の道具を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1529",
+    "word": "fork",
+    "meaningJa": "フォーク",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She picked up a fork and began to eat.",
+    "exampleJa": "彼女はフォークを手に取り、食べ始めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事で使う道具の基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "分岐点",
+        "example": "Turn left at the fork in the road.",
+        "exampleJa": "道の分岐点で左へ曲がってください。"
+      }
+    ]
+  },
+  {
+    "id": "v1530",
+    "word": "knife",
+    "meaningJa": "ナイフ；包丁",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He cut the bread with a knife.",
+    "exampleJa": "彼はナイフでパンを切りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事や調理の道具を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はknivesです。"
+  },
+  {
+    "id": "v1531",
+    "word": "ceiling",
+    "meaningJa": "天井",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A lamp hangs from the ceiling.",
+    "exampleJa": "天井からランプがつるされています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "部屋の構造や位置を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1532",
+    "word": "roof",
+    "meaningJa": "屋根",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Rain fell on the roof all night.",
+    "exampleJa": "一晩中、屋根に雨が降りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "建物の構造を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1533",
+    "word": "gate",
+    "meaningJa": "門",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Please close the gate behind you.",
+    "exampleJa": "通った後は門を閉めてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な施設の出入り口を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1534",
+    "word": "yard",
+    "meaningJa": "庭；敷地",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The children played in the yard.",
+    "exampleJa": "子供たちは庭で遊びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "住まいの周りの空間を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "ヤード（長さの単位）",
+        "example": "The cloth is sold by the yard.",
+        "exampleJa": "その布はヤード単位で売られています。"
+      }
+    ]
+  },
+  {
+    "id": "v1535",
+    "word": "garage",
+    "meaningJa": "車庫；ガレージ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We keep our bicycles in the garage.",
+    "exampleJa": "私たちは自転車を車庫に置いています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "住まいや交通に関わる施設の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1536",
+    "word": "balcony",
+    "meaningJa": "バルコニー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She grows flowers on the balcony.",
+    "exampleJa": "彼女はバルコニーで花を育てています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "住居の部分や位置を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1537",
+    "word": "stairs",
+    "meaningJa": "階段",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The children walked up the stairs.",
+    "exampleJa": "子供たちは階段を歩いて上りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "通常複数形で階段全体を指す日常の基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "階段全体は通常stairsと複数形で表します。stairは階段の一段を表せますが、ここでは別見出しに数えません。"
+  },
+  {
+    "id": "v1538",
+    "word": "elevator",
+    "meaningJa": "エレベーター",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Take the elevator to the fifth floor.",
+    "exampleJa": "エレベーターで五階へ行ってください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "建物内の移動や道案内で使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "イギリス英語では同じ意味でliftも使います。"
+  },
+  {
+    "id": "v1539",
+    "word": "entrance",
+    "meaningJa": "入り口；入場",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We met near the main entrance.",
+    "exampleJa": "私たちは正面入り口の近くで会いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "場所への出入りや案内で使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1540",
+    "word": "exit",
+    "meaningJa": "出口",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The nearest exit is on your left.",
+    "exampleJa": "最も近い出口は左側にあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "道案内や施設の表示で使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "出る；退出する",
+        "example": "Please exit the building through the rear door.",
+        "exampleJa": "裏口から建物を出てください。"
+      }
+    ]
+  },
+  {
+    "id": "v1541",
+    "word": "railway",
+    "meaningJa": "鉄道",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The railway connects the two towns.",
+    "exampleJa": "その鉄道は二つの町を結んでいます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "交通網を説明する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1542",
+    "word": "subway",
+    "meaningJa": "地下鉄",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We took the subway to the museum.",
+    "exampleJa": "私たちは地下鉄で博物館へ行きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の交通手段を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "地下鉄の意味は主にアメリカ英語です。イギリス英語では歩行者用の地下道を指すこともあります。"
+  },
+  {
+    "id": "v1543",
+    "word": "taxi",
+    "meaningJa": "タクシー",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "They called a taxi after dinner.",
+    "exampleJa": "彼らは夕食の後、タクシーを呼びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常や旅行で使う交通手段の基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1544",
+    "word": "bicycle",
+    "meaningJa": "自転車",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "My bicycle has a small basket.",
+    "exampleJa": "私の自転車には小さなかごがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な乗り物を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1545",
+    "word": "motorcycle",
+    "meaningJa": "オートバイ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He wears a helmet when he rides his motorcycle.",
+    "exampleJa": "彼はオートバイに乗るときヘルメットをかぶります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "乗り物を具体的に区別する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1546",
+    "word": "truck",
+    "meaningJa": "トラック",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "A truck delivered furniture to the house.",
+    "exampleJa": "トラックがその家に家具を届けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の運搬に使う乗り物の基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1547",
+    "word": "traffic",
+    "meaningJa": "交通；交通量",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "There is heavy traffic on this road.",
+    "exampleJa": "この道路は交通量が多いです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "移動や都市生活の状況を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "交通量の意味では通常、数えられない名詞として使います。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "通信量；アクセス量",
+        "example": "The website receives more traffic in the evening.",
+        "exampleJa": "そのウェブサイトは夕方にアクセス量が増えます。"
+      }
+    ]
+  },
+  {
+    "id": "v1548",
+    "word": "tunnel",
+    "meaningJa": "トンネル",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The train entered a long tunnel.",
+    "exampleJa": "電車は長いトンネルに入りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "交通施設や位置関係を表す具体的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1549",
+    "word": "sidewalk",
+    "meaningJa": "歩道",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Please keep your bicycle off the sidewalk.",
+    "exampleJa": "自転車を歩道に置かないでください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "街の設備や歩行者の移動を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "アメリカ英語の表現です。イギリス英語ではpavementも使います。"
+  },
+  {
+    "id": "v1550",
+    "word": "crosswalk",
+    "meaningJa": "横断歩道",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Use the crosswalk to reach the park.",
+    "exampleJa": "公園へ行くには横断歩道を使ってください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "道案内や交通安全で使う具体的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1551",
+    "word": "ticket",
+    "meaningJa": "切符；入場券",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "I bought a ticket for the concert.",
+    "exampleJa": "私はコンサートの入場券を買いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "交通や催しで使う基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1552",
+    "word": "fare",
+    "meaningJa": "運賃",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The bus fare is cheaper than the train fare.",
+    "exampleJa": "バスの運賃は電車の運賃より安いです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "移動の費用を具体的に説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1553",
+    "word": "luggage",
+    "meaningJa": "手荷物",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Please keep your luggage beside you.",
+    "exampleJa": "手荷物を自分のそばに置いてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "旅行や交通案内で使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は数えられない名詞です。一つの荷物はa piece of luggageなどで表します。"
+  },
+  {
+    "id": "v1554",
+    "word": "suitcase",
+    "meaningJa": "スーツケース",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She packed her clothes in a suitcase.",
+    "exampleJa": "彼女は服をスーツケースに詰めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "旅行の持ち物を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1555",
+    "word": "passport",
+    "meaningJa": "パスポート；旅券",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He showed his passport at the airport.",
+    "exampleJa": "彼は空港でパスポートを見せました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "海外旅行で接する基本的な身分証明書の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1556",
+    "word": "continent",
+    "meaningJa": "大陸",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Africa is a large continent.",
+    "exampleJa": "アフリカは大きな大陸です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "世界の地理を説明する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1557",
+    "word": "pond",
+    "meaningJa": "池",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Several ducks were swimming in the pond.",
+    "exampleJa": "数羽のアヒルが池で泳いでいました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な自然や景色を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1558",
+    "word": "beach",
+    "meaningJa": "浜辺；海水浴場",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We walked along the beach at sunset.",
+    "exampleJa": "私たちは日没時に浜辺を歩きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "自然や余暇の活動で使う基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1559",
+    "word": "desert",
+    "meaningJa": "砂漠",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Few plants grow in this desert.",
+    "exampleJa": "この砂漠に育つ植物はほとんどありません。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "地理や気候の説明で使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "dessert（デザート）と区別します。名詞「砂漠」と動詞「見捨てる」では強勢位置が異なります。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "見捨てる；放棄する",
+        "example": "She would never desert a friend in trouble.",
+        "exampleJa": "彼女は困っている友達を決して見捨てません。"
+      }
+    ]
+  },
+  {
+    "id": "v1560",
+    "word": "supermarket",
+    "meaningJa": "スーパーマーケット",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The supermarket closes at nine tonight.",
+    "exampleJa": "そのスーパーマーケットは今夜九時に閉まります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の買い物の場所を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1561",
+    "word": "bakery",
+    "meaningJa": "パン屋",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We bought fresh bread at the bakery.",
+    "exampleJa": "私たちはパン屋で焼きたてのパンを買いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "街の店や買い物を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1562",
+    "word": "cafe",
+    "meaningJa": "カフェ；喫茶店",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We met at a cafe near the station.",
+    "exampleJa": "私たちは駅の近くのカフェで会いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な飲食店を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "caféという綴りも使われます。"
+  },
+  {
+    "id": "v1563",
+    "word": "museum",
+    "meaningJa": "博物館；美術館",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The museum displays old farming tools.",
+    "exampleJa": "その博物館は昔の農具を展示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "文化施設や訪問先を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1564",
+    "word": "stadium",
+    "meaningJa": "競技場；スタジアム",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Thousands of fans gathered at the stadium.",
+    "exampleJa": "何千人ものファンが競技場に集まりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "スポーツや催しの施設を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1565",
+    "word": "bench",
+    "meaningJa": "ベンチ；長椅子",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "An old man was reading on the bench.",
+    "exampleJa": "一人の高齢の男性がベンチで本を読んでいました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "公園や街で見る身近な設備の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1566",
+    "word": "fountain",
+    "meaningJa": "噴水",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Children watched the fountain in the square.",
+    "exampleJa": "子供たちは広場の噴水を見ていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "公共空間の設備や景色を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1567",
+    "word": "destination",
+    "meaningJa": "目的地",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We reached our destination before dark.",
+    "exampleJa": "私たちは暗くなる前に目的地に着きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "移動の行き先を説明する読解名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1568",
+    "word": "journey",
+    "meaningJa": "旅；移動",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The journey took three hours by train.",
+    "exampleJa": "その移動には電車で三時間かかりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "旅行や移動の過程を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1569",
+    "word": "voyage",
+    "meaningJa": "航海；長い旅",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The ship began its voyage across the ocean.",
+    "exampleJa": "その船は大洋を横断する航海を始めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "海上の移動や探検を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1570",
+    "word": "route",
+    "meaningJa": "道筋；経路",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "This route avoids the busy town center.",
+    "exampleJa": "この経路は混雑した町の中心部を避けます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "道案内や移動計画を説明する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1571",
+    "word": "transportation",
+    "meaningJa": "輸送；交通手段",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The city is improving public transportation.",
+    "exampleJa": "その都市は公共交通を改善しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "都市や社会の移動手段を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1572",
+    "word": "vehicle",
+    "meaningJa": "乗り物；車両",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Only one vehicle can cross the bridge at a time.",
+    "exampleJa": "一度に一台の車両しかその橋を渡れません。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "交通手段をまとめて指す一般名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1573",
+    "word": "pedestrian",
+    "meaningJa": "歩行者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A pedestrian waited for the traffic light to change.",
+    "exampleJa": "一人の歩行者が信号が変わるのを待っていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "交通や都市計画で歩く人を区別する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1574",
+    "word": "accommodation",
+    "meaningJa": "宿泊施設；宿泊場所",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We found affordable accommodation near the university.",
+    "exampleJa": "私たちは大学の近くに手頃な料金の宿泊場所を見つけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "旅行や留学の生活条件を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "宿泊場所の意味ではイギリス英語で通常数えられない名詞です。アメリカ英語ではaccommodationsという複数形も使います。"
+  },
+  {
+    "id": "v1575",
+    "word": "reservation",
+    "meaningJa": "予約",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "I made a reservation for two at the restaurant.",
+    "exampleJa": "私はレストランに二人分の予約をしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "旅行や食事の手配に使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "懸念；留保",
+        "example": "My main reservation concerns the cost of the plan.",
+        "exampleJa": "私の主な懸念はその計画の費用に関するものです。"
+      }
+    ]
+  },
+  {
+    "id": "v1576",
+    "word": "tourism",
+    "meaningJa": "観光；観光業",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Tourism creates jobs in the coastal town.",
+    "exampleJa": "観光業はその海辺の町に雇用を生み出しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "産業や地域経済を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1577",
+    "word": "tourist",
+    "meaningJa": "観光客",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A tourist asked me the way to the castle.",
+    "exampleJa": "一人の観光客が私に城への道を尋ねました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "旅行や地域の交流に関わる基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1578",
+    "word": "scenery",
+    "meaningJa": "景色；風景",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We enjoyed the mountain scenery from the train.",
+    "exampleJa": "私たちは電車から山の景色を楽しみました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自然の眺めをまとめて表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "景色全体を表し、通常は数えられない名詞として使います。"
+  },
+  {
+    "id": "v1579",
+    "word": "landscape",
+    "meaningJa": "景観；風景",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Snow changed the landscape overnight.",
+    "exampleJa": "雪が一晩で風景を変えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地形や自然環境の見え方を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1580",
+    "word": "geography",
+    "meaningJa": "地理；地理学",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We study maps in geography class.",
+    "exampleJa": "私たちは地理の授業で地図を学びます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校教科や地域の特徴に関わる基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1581",
+    "word": "resident",
+    "meaningJa": "住民；居住者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "One resident spoke about the new park.",
+    "exampleJa": "一人の住民が新しい公園について話しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地域社会や行政を論じる際の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "居住している",
+        "example": "The survey includes people resident in the area.",
+        "exampleJa": "その調査はその地域に居住する人々を対象に含めています。"
+      }
+    ]
+  },
+  {
+    "id": "v1582",
+    "word": "inhabitant",
+    "meaningJa": "住民；生息するもの",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Each inhabitant of the village received a letter.",
+    "exampleJa": "村の住民は一人ずつ手紙を受け取りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地域や生息地に住むものを表す読解名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1583",
+    "word": "region",
+    "meaningJa": "地域；地方",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The region is famous for its tea.",
+    "exampleJa": "その地方はお茶で有名です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地理や社会の範囲を表す一般名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1584",
+    "word": "territory",
+    "meaningJa": "領土；縄張り",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The birds defend their territory in spring.",
+    "exampleJa": "その鳥たちは春に自分たちの縄張りを守ります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "政治と生態の両分野で支配する範囲を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1585",
+    "word": "border",
+    "meaningJa": "国境；境界",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The river forms the border between the two countries.",
+    "exampleJa": "その川は二つの国の国境をなしています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地理や国際関係で境界を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "接する；隣接する",
+        "example": "Several farms border the forest.",
+        "exampleJa": "いくつかの農場がその森に接しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1586",
+    "word": "boundary",
+    "meaningJa": "境界；限界",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A fence marks the boundary of the field.",
+    "exampleJa": "柵がその畑の境界を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物理的な区切りから抽象的な限界までを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1587",
+    "word": "nationality",
+    "meaningJa": "国籍",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The form asks for your nationality.",
+    "exampleJa": "その用紙には国籍を記入する欄があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "国への所属や国際交流を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1588",
+    "word": "government",
+    "meaningJa": "政府；統治",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The government announced a new education plan.",
+    "exampleJa": "政府は新しい教育計画を発表しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "社会の仕組みやニュースで基礎となる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1589",
+    "word": "parliament",
+    "meaningJa": "議会；国会",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The proposal was discussed in parliament.",
+    "exampleJa": "その提案は議会で話し合われました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "政治制度や政策決定を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1590",
+    "word": "constitution",
+    "meaningJa": "憲法；構成",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The students compared the constitution of each country.",
+    "exampleJa": "学生たちはそれぞれの国の憲法を比較しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "国家の基本原則や組織構成を論じる抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1591",
+    "word": "legislation",
+    "meaningJa": "法律；立法",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The committee reviewed legislation on water quality.",
+    "exampleJa": "委員会は水質に関する法律を見直しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "政策と法制度の議論で用いる抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "法律の総体や立法を指し、通常は数えられない名詞です。"
+  },
+  {
+    "id": "v1592",
+    "word": "regulation",
+    "meaningJa": "規則；規制",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The new regulation limits noise at night.",
+    "exampleJa": "新しい規則は夜間の騒音を制限しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会や産業のルールを論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1593",
+    "word": "authority",
+    "meaningJa": "権限；権威",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The manager has the authority to approve the request.",
+    "exampleJa": "その管理者には申請を承認する権限があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "組織の権限や情報の信頼性を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "権威者；専門家",
+        "example": "She is an authority on ancient pottery.",
+        "exampleJa": "彼女は古代の陶器の権威者です。"
+      }
+    ]
+  },
+  {
+    "id": "v1594",
+    "word": "administration",
+    "meaningJa": "管理；運営；行政",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The school spends part of its budget on administration.",
+    "exampleJa": "その学校は予算の一部を管理運営に使っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "制度や組織を運営する仕組みを示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1595",
+    "word": "institution",
+    "meaningJa": "機関；制度",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The museum is an important cultural institution.",
+    "exampleJa": "その博物館は重要な文化機関です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会を支える組織や制度を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "制度；慣習",
+        "example": "The essay discusses marriage as a social institution.",
+        "exampleJa": "その論文は結婚を社会制度として論じています。"
+      }
+    ]
+  },
+  {
+    "id": "v1596",
+    "word": "organization",
+    "meaningJa": "組織；団体",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The organization provides meals for local families.",
+    "exampleJa": "その団体は地域の家族に食事を提供しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会活動の主体となる団体を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "イギリス英語ではorganisationという綴りも使います。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "整理；組織化",
+        "example": "The clear organization of the report makes it easy to read.",
+        "exampleJa": "その報告書は構成が明確に整理されているため読みやすいです。"
+      }
+    ]
+  },
+  {
+    "id": "v1597",
+    "word": "candidate",
+    "meaningJa": "候補者；志願者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Each candidate answered the same question.",
+    "exampleJa": "各候補者は同じ質問に答えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "選挙や採用に関わる人を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1598",
+    "word": "citizenship",
+    "meaningJa": "市民権；市民としての立場",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The course explores the meaning of citizenship.",
+    "exampleJa": "その授業は市民としての立場の意味を探究します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会への所属と役割を論じる抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1599",
+    "word": "liberty",
+    "meaningJa": "自由",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The book examines the relationship between liberty and law.",
+    "exampleJa": "その本は自由と法の関係を考察しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "政治や権利の議論で自由を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1600",
+    "word": "obligation",
+    "meaningJa": "義務；責務",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "We have an obligation to protect the environment.",
+    "exampleJa": "私たちは環境を守る義務があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会的責任や道徳的な義務を論じる抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "an obligation to doで「〜する義務」を表します。"
+  }
+]

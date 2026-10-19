@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "v3001",
+    "word": "summarize",
+    "meaningJa": "〜を要約する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Summarize the main points in three sentences.",
+    "exampleJa": "要点を三つの文に要約してください。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "学習や説明の基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "summariseという綴りもあります。要点を短くまとめることです。"
+  },
+  {
+    "id": "v3002",
+    "word": "paraphrase",
+    "meaningJa": "〜を言い換える",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Try to paraphrase the sentence in simpler language.",
+    "exampleJa": "その文をより簡単な言葉で言い換えてみてください。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "内容を保った言い換えを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "元の内容を自分の言葉などで言い換えることです。必ずしも短く要約するとは限りません。"
+  },
+  {
+    "id": "v3003",
+    "word": "manipulate",
+    "meaningJa": "〜を操作する；巧みに扱う",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The software lets users manipulate images easily.",
+    "exampleJa": "そのソフトウェアでは利用者が画像を簡単に操作できます。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報や物を扱う抽象動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜を巧みに操る；不正に操作する",
+        "example": "Misleading reports can manipulate public opinion.",
+        "exampleJa": "誤解を招く報道は世論を巧みに操ることがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v3004",
+    "word": "embody",
+    "meaningJa": "〜を具体的に表す；体現する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "These rules embody the values of the community.",
+    "exampleJa": "これらの規則は共同体の価値観を具体的に表しています。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "理念の具体化を読む動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3005",
+    "word": "theorize",
+    "meaningJa": "理論を立てる；推論する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "Researchers theorize that the structure had several functions.",
+    "exampleJa": "研究者たちは、その構造物には複数の機能があったと推論しています。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "理論的説明を試みる学術語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "theoriseという綴りもあります。理論を立てることであり、証明済みとは限りません。"
+  },
+  {
+    "id": "v3006",
+    "word": "spark",
+    "meaningJa": "火花",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A spark flew from the fire.",
+    "exampleJa": "火から火花が飛びました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "具体的な基本義で分類し比喩的動詞を補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜のきっかけとなる；引き起こす",
+        "example": "A simple question can spark a lively discussion.",
+        "exampleJa": "簡単な質問が活発な議論のきっかけになることがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v3007",
+    "word": "retrieval",
+    "meaningJa": "取り出すこと；情報の検索",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The system allows rapid retrieval of stored data.",
+    "exampleJa": "そのシステムでは保存されたデータを素早く取り出せます。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "記憶や情報処理の過程を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3008",
+    "word": "engagement",
+    "meaningJa": "関与；参加",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The program encourages student engagement in local projects.",
+    "exampleJa": "そのプログラムは地域の活動への生徒の参加を促します。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "活動への関与を読む抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "文脈により「婚約」や「約束・予定」も表します。"
+  },
+  {
+    "id": "v3009",
+    "word": "reflection",
+    "meaningJa": "反射；映った姿；熟考",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She saw her reflection in the window.",
+    "exampleJa": "彼女は窓に映った自分の姿を見ました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な基本義と抽象義を持つ名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "熟考；振り返り",
+        "example": "The teacher allowed time for reflection after the activity.",
+        "exampleJa": "教師は活動の後に振り返りの時間を設けました。"
+      }
+    ]
+  },
+  {
+    "id": "v3010",
+    "word": "template",
+    "meaningJa": "ひな形；型板",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Use this template to prepare your report.",
+    "exampleJa": "このひな形を使って報告書を作成してください。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "文書や制作の共通形式を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3011",
+    "word": "format",
+    "meaningJa": "形式；書式",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The report is available in digital format.",
+    "exampleJa": "その報告書はデジタル形式で入手できます。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報の形式を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3012",
+    "word": "documentation",
+    "meaningJa": "記録文書；文書化",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The project requires careful documentation of every stage.",
+    "exampleJa": "その計画では各段階を注意深く文書化する必要があります。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "記録を残す過程を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3013",
+    "word": "robust",
+    "meaningJa": "頑丈な；強固な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "We need a robust system that can handle sudden changes.",
+    "exampleJa": "急な変化に対応できる強固なシステムが必要です。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "仕組みや根拠の強さを評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3014",
+    "word": "authentic",
+    "meaningJa": "本物の；真正の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The museum displays authentic tools from the period.",
+    "exampleJa": "その博物館はその時代の本物の道具を展示しています。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "真正性を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3015",
+    "word": "inventive",
+    "meaningJa": "独創的な；創意工夫に富んだ",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "She found an inventive solution to the problem.",
+    "exampleJa": "彼女はその問題への独創的な解決策を見つけました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "発想の新しさを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3016",
+    "word": "meticulous",
+    "meaningJa": "細部まで注意深い；綿密な",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The study required meticulous observation.",
+    "exampleJa": "その研究には綿密な観察が必要でした。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "細部への注意を表す発展形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3017",
+    "word": "indispensable",
+    "meaningJa": "不可欠な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Reliable data is indispensable to scientific research.",
+    "exampleJa": "信頼できるデータは科学研究に不可欠です。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "必要性の強さを表す論理語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3018",
+    "word": "solely",
+    "meaningJa": "もっぱら；〜だけに",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The decision was based solely on cost.",
+    "exampleJa": "その決定は費用だけに基づいていました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "根拠や範囲を限定する副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3019",
+    "word": "observational",
+    "meaningJa": "観察の；観察に基づく",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The team collected observational data in the forest.",
+    "exampleJa": "チームは森で観察データを集めました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "研究手法を区別する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3020",
+    "word": "purposeful",
+    "meaningJa": "目的を持った；意図的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The lesson includes purposeful activities.",
+    "exampleJa": "その授業には明確な目的を持った活動が含まれています。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "行動の意図や目的を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3021",
+    "word": "pioneer",
+    "meaningJa": "先駆者；開拓者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She was a pioneer in the study of animal behavior.",
+    "exampleJa": "彼女は動物行動の研究の先駆者でした。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "新しい領域を開く人物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3022",
+    "word": "neuroscience",
+    "meaningJa": "神経科学",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Neuroscience explores how the nervous system works.",
+    "exampleJa": "神経科学は神経系がどのように働くかを探究します。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "脳や認知を扱う学問分野の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3023",
+    "word": "tactile",
+    "meaningJa": "触覚の；触って感じられる",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The display provides tactile feedback.",
+    "exampleJa": "その表示装置は触覚による反応を伝えます。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "知覚の種類を区別する科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3024",
+    "word": "verbatim",
+    "meaningJa": "一語一句そのままに",
+    "partOfSpeech": "adverb",
+    "level": 6,
+    "example": "The speech was recorded verbatim.",
+    "exampleJa": "その演説は一語一句そのままに記録されました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "引用や記録の正確さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3025",
+    "word": "picky",
+    "meaningJa": "えり好みする；好みがうるさい",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "He is picky about the food he eats.",
+    "exampleJa": "彼は食べ物の好みがうるさいです。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な好みを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "picky about ...で「〜に好みがうるさい」。日常会話で使われる表現です。"
+  },
+  {
+    "id": "v3026",
+    "word": "encrypt",
+    "meaningJa": "〜を暗号化する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The program can encrypt private messages.",
+    "exampleJa": "そのプログラムは私的なメッセージを暗号化できます。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報保護の仕組みを読む動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3027",
+    "word": "ingrain",
+    "meaningJa": "〜を深く染み込ませる；定着させる",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "Daily practice can ingrain useful habits.",
+    "exampleJa": "毎日の練習は役立つ習慣を定着させることができます。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "習慣や考えの定着を表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "受け身やingrainedという形容詞形でもよく使います。"
+  },
+  {
+    "id": "v3028",
+    "word": "legibility",
+    "meaningJa": "文字の読みやすさ；判読しやすさ",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The larger font improves legibility.",
+    "exampleJa": "大きい字体は文字の読みやすさを高めます。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "文字表現の質を評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3029",
+    "word": "cursive",
+    "meaningJa": "筆記体の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The letter was written in cursive script.",
+    "exampleJa": "その手紙は筆記体で書かれていました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "文字の書き方を区別する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3030",
+    "word": "unparalleled",
+    "meaningJa": "比類のない；前例のない",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The discovery gave us unparalleled insight into the past.",
+    "exampleJa": "その発見は過去について比類のない洞察をもたらしました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "程度の際立ちを表す発展形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3031",
+    "word": "theoretical",
+    "meaningJa": "理論の；理論上の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The course combines theoretical study with practical work.",
+    "exampleJa": "その授業は理論の学習と実習を組み合わせています。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "理論と実践を区別する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3032",
+    "word": "tentative",
+    "meaningJa": "暫定的な；仮の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "We made a tentative plan for the trip.",
+    "exampleJa": "私たちは旅行の仮の計画を立てました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "確定前の判断を表す論理語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3033",
+    "word": "negligible",
+    "meaningJa": "無視できるほど小さい",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The difference between the two results was negligible.",
+    "exampleJa": "二つの結果の差は無視できるほど小さなものでした。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "差や影響の程度を評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3034",
+    "word": "incompatible",
+    "meaningJa": "両立しない；互換性のない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "These two goals are incompatible.",
+    "exampleJa": "この二つの目標は両立しません。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "主張や性質の不一致を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "incompatible with ...で「〜と両立しない／互換性がない」。"
+  },
+  {
+    "id": "v3035",
+    "word": "annotation",
+    "meaningJa": "注釈；書き込み",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The annotation explains an unfamiliar term.",
+    "exampleJa": "その注釈は見慣れない用語を説明しています。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "読解や文書の補足情報を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3036",
+    "word": "annotate",
+    "meaningJa": "〜に注釈を付ける",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Students annotate the text as they read.",
+    "exampleJa": "生徒は読みながら本文に注釈を付けます。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "読解時の具体的な作業を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3037",
+    "word": "notation",
+    "meaningJa": "表記法；記号法",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The book introduces basic musical notation.",
+    "exampleJa": "その本は基本的な楽譜の表記法を紹介しています。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報の記号化を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "記号や文字による表記法です。annotation（注釈）と区別します。"
+  },
+  {
+    "id": "v3038",
+    "word": "transcript",
+    "meaningJa": "発言の書き起こし；成績証明書",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The researcher checked the transcript of the interview.",
+    "exampleJa": "研究者は面接の書き起こしを確認しました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "記録資料の形式を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "話された内容を文字にした記録のほか、学校の成績証明書も指します。"
+  },
+  {
+    "id": "v3039",
+    "word": "transcription",
+    "meaningJa": "書き起こし；転写",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The transcription of the recording took several hours.",
+    "exampleJa": "その録音の書き起こしには数時間かかりました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "記録形式を移す過程を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3040",
+    "word": "workshop",
+    "meaningJa": "作業場；実習会",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The carpenter keeps tools in the workshop.",
+    "exampleJa": "大工は作業場に道具を置いています。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "具体的な場所を基本義とする語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "実習会；体験型講習会",
+        "example": "We attended a workshop on creative writing.",
+        "exampleJa": "私たちは創作の実習会に参加しました。"
+      }
+    ]
+  },
+  {
+    "id": "v3041",
+    "word": "doctorate",
+    "meaningJa": "博士号",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She earned a doctorate in history.",
+    "exampleJa": "彼女は歴史学の博士号を取得しました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "教育制度の学位を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3042",
+    "word": "retention",
+    "meaningJa": "保持；記憶の保持",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Regular review can improve retention of new material.",
+    "exampleJa": "定期的な復習は新しい内容の記憶の保持を改善できます。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "学習や情報の保持を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3043",
+    "word": "recollection",
+    "meaningJa": "思い出；記憶",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "My recollection of that day is still clear.",
+    "exampleJa": "その日の私の記憶は今も鮮明です。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "過去を思い出す働きを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3044",
+    "word": "recall",
+    "meaningJa": "〜を思い出す",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "I cannot recall the exact date.",
+    "exampleJa": "私は正確な日付を思い出せません。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "記憶から取り出す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "回収；リコール",
+        "example": "The company announced a recall of the product.",
+        "exampleJa": "その会社は製品の回収を発表しました。"
+      }
+    ]
+  },
+  {
+    "id": "v3045",
+    "word": "visualize",
+    "meaningJa": "〜を思い描く；視覚化する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Try to visualize the room before drawing it.",
+    "exampleJa": "描く前に部屋を思い描いてみてください。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "心的イメージや図示を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3046",
+    "word": "diagram",
+    "meaningJa": "図；図解",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The diagram shows how the machine works.",
+    "exampleJa": "その図は機械の仕組みを示しています。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "説明や学習の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3047",
+    "word": "graphic",
+    "meaningJa": "図の；視覚表現の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The team created a graphic representation of the data.",
+    "exampleJa": "チームはデータの図による表現を作成しました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報の視覚的な表現を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3048",
+    "word": "sketch",
+    "meaningJa": "略図；スケッチ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She made a quick sketch of the garden.",
+    "exampleJa": "彼女は庭の簡単なスケッチを描きました。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な描画を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3049",
+    "word": "illustration",
+    "meaningJa": "挿絵；図解；例証",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The book includes an illustration of the device.",
+    "exampleJa": "その本には装置の図解が載っています。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "説明を助ける図や例を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3050",
+    "word": "literal",
+    "meaningJa": "文字どおりの；逐語的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "A literal translation may sound unnatural.",
+    "exampleJa": "逐語的な翻訳は不自然に聞こえることがあります。",
+    "category": "学校・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "表現と意味の関係を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "比喩として解釈せず、言葉の直接の意味で捉えることを表します。"
+  },
+  {
+    "id": "v3051",
+    "word": "affection",
+    "meaningJa": "愛情；親しみ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She has great affection for her grandparents.",
+    "exampleJa": "彼女は祖父母に深い愛情を抱いています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人間関係の感情を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3052",
+    "word": "affectionate",
+    "meaningJa": "愛情のこもった；愛情深い",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "He gave his child an affectionate smile.",
+    "exampleJa": "彼は子供に愛情のこもった笑顔を向けました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "愛情を表す行動や性格の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3053",
+    "word": "fond",
+    "meaningJa": "好きで；愛情を持って",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "My brother is fond of old movies.",
+    "exampleJa": "兄は古い映画が好きです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な好みを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "be fond of ...で「〜が好きだ」。"
+  },
+  {
+    "id": "v3054",
+    "word": "sympathetic",
+    "meaningJa": "同情的な；理解を示す",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The teacher was sympathetic to our concerns.",
+    "exampleJa": "先生は私たちの懸念に理解を示してくれました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "他者への理解を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「同情的な」「理解を示す」の意味で、単に性格がよいという意味ではありません。"
+  },
+  {
+    "id": "v3055",
+    "word": "compassionate",
+    "meaningJa": "思いやりのある；慈悲深い",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "She gave a compassionate response to his situation.",
+    "exampleJa": "彼女は彼の状況に思いやりのある対応をしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "苦しむ他者への態度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3056",
+    "word": "empathetic",
+    "meaningJa": "共感する；共感力のある",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "An empathetic listener tries to understand your feelings.",
+    "exampleJa": "共感力のある聞き手は、あなたの気持ちを理解しようとします。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "他者の感情理解を論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3057",
+    "word": "indifferent",
+    "meaningJa": "無関心な；どうでもよいと思う",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "He seemed indifferent to the result.",
+    "exampleJa": "彼は結果に無関心なようでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "関心の欠如を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "indifferent to ...で「〜に無関心な」。"
+  },
+  {
+    "id": "v3058",
+    "word": "hostile",
+    "meaningJa": "敵意のある；敵対的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The proposal met with a hostile reaction.",
+    "exampleJa": "その提案は敵対的な反応を受けました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "対立する態度や環境を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3059",
+    "word": "resentment",
+    "meaningJa": "憤り；恨み",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The unfair decision caused resentment among the workers.",
+    "exampleJa": "不公平な決定が労働者の間に憤りを生みました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "不公平感に伴う感情を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3060",
+    "word": "envy",
+    "meaningJa": "羨望；うらやましさ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She looked at his new bicycle with envy.",
+    "exampleJa": "彼女は彼の新しい自転車をうらやましそうに見ました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "他者との比較で生じる感情の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3061",
+    "word": "jealousy",
+    "meaningJa": "嫉妬；ねたみ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The story explores jealousy between two friends.",
+    "exampleJa": "その物語は二人の友人の間の嫉妬を描いています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人間関係の感情を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3062",
+    "word": "jealous",
+    "meaningJa": "嫉妬している；ねたんでいる",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "He felt jealous of his talented friend.",
+    "exampleJa": "彼は才能のある友人をねたましく思いました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "比較に伴う日常的な感情の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "jealous of ...で「〜をねたんでいる／うらやましがっている」。"
+  },
+  {
+    "id": "v3063",
+    "word": "distress",
+    "meaningJa": "苦悩；苦痛",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The news caused her great distress.",
+    "exampleJa": "その知らせは彼女に大きな苦痛を与えました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "強い苦しみを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3064",
+    "word": "grief",
+    "meaningJa": "深い悲しみ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She expressed her grief in a letter.",
+    "exampleJa": "彼女は手紙に深い悲しみをつづりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "喪失などに伴う感情を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3065",
+    "word": "miserable",
+    "meaningJa": "ひどく不幸な；惨めな",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "He felt miserable after losing the match.",
+    "exampleJa": "彼は試合に負けてひどく落ち込みました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "強い不幸感を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3066",
+    "word": "despair",
+    "meaningJa": "絶望",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The failure left him in despair.",
+    "exampleJa": "その失敗で彼は絶望しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "希望を失った状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3067",
+    "word": "desperate",
+    "meaningJa": "絶望的な；必死の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "They made a desperate attempt to save the boat.",
+    "exampleJa": "彼らは船を救おうと必死に試みました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "切迫した状況と行動を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3068",
+    "word": "optimism",
+    "meaningJa": "楽観；楽観主義",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Her optimism helped the team keep working.",
+    "exampleJa": "彼女の楽観的な姿勢は、チームが作業を続ける助けになりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "将来への見方を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3069",
+    "word": "pessimism",
+    "meaningJa": "悲観；悲観主義",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The survey revealed widespread pessimism about the economy.",
+    "exampleJa": "その調査は経済への悲観が広がっていることを示しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "将来への否定的な見方を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3070",
+    "word": "tension",
+    "meaningJa": "緊張；張力",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "There was tension in the room before the announcement.",
+    "exampleJa": "発表前、部屋には緊張が漂っていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "心理と物理に共通する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "張力；張り具合",
+        "example": "Adjust the tension of the string.",
+        "exampleJa": "弦の張り具合を調整してください。"
+      }
+    ]
+  },
+  {
+    "id": "v3071",
+    "word": "tense",
+    "meaningJa": "緊張した；張り詰めた",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Everyone was tense before the final result.",
+    "exampleJa": "最終結果が出る前、全員が緊張していました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "心理や場面の状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "時制",
+        "example": "The verb is in the past tense.",
+        "exampleJa": "その動詞は過去時制です。"
+      }
+    ]
+  },
+  {
+    "id": "v3072",
+    "word": "restless",
+    "meaningJa": "落ち着かない；じっとしていられない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The children grew restless during the long wait.",
+    "exampleJa": "長く待つ間に子供たちは落ち着かなくなりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な不安定さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3073",
+    "word": "uneasy",
+    "meaningJa": "不安な；落ち着かない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "I felt uneasy about the sudden change.",
+    "exampleJa": "私は急な変化に不安を感じました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "漠然とした不安を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3074",
+    "word": "awkward",
+    "meaningJa": "気まずい；ぎこちない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "An awkward silence followed his question.",
+    "exampleJa": "彼の質問の後に気まずい沈黙が続きました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "会話や動作の不自然さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3075",
+    "word": "embarrassed",
+    "meaningJa": "恥ずかしい思いをした；困惑した",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "She felt embarrassed when she forgot his name.",
+    "exampleJa": "彼の名前を忘れて、彼女は恥ずかしい思いをしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な感情を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "人が恥ずかしさを感じる状態です。embarrassingは、その感情を引き起こす物事を表します。感情の形容詞として収録しています。"
+  },
+  {
+    "id": "v3076",
+    "word": "embarrassment",
+    "meaningJa": "恥ずかしさ；困惑",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "He laughed to hide his embarrassment.",
+    "exampleJa": "彼は恥ずかしさを隠すために笑いました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "感情を抽象的に述べる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3077",
+    "word": "shame",
+    "meaningJa": "恥；恥ずかしさ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He felt shame for telling a lie.",
+    "exampleJa": "彼はうそをついたことを恥じました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行動への評価を伴う感情の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3078",
+    "word": "guilt",
+    "meaningJa": "罪悪感；有罪",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Her sense of guilt made her apologize.",
+    "exampleJa": "罪悪感から彼女は謝りました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "責任や心理を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3079",
+    "word": "guilty",
+    "meaningJa": "罪悪感のある；有罪の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "I felt guilty about wasting food.",
+    "exampleJa": "私は食べ物を無駄にしたことに罪悪感を覚えました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "心理と責任を表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "feel guilty about ...は「〜に罪悪感を覚える」、be guilty of ...は「〜の罪がある」。"
+  },
+  {
+    "id": "v3080",
+    "word": "innocent",
+    "meaningJa": "無実の；無邪気な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The evidence showed that he was innocent.",
+    "exampleJa": "その証拠は彼が無実であることを示しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "責任の有無や純真さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3081",
+    "word": "pride",
+    "meaningJa": "誇り；自尊心",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She takes pride in her work.",
+    "exampleJa": "彼女は自分の仕事に誇りを持っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な自己評価の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3082",
+    "word": "arrogant",
+    "meaningJa": "傲慢な；思い上がった",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "His arrogant attitude upset the team.",
+    "exampleJa": "彼の傲慢な態度はチームを不快にさせました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人物の態度を評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3083",
+    "word": "vain",
+    "meaningJa": "虚栄心の強い；無駄な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "He is too vain to admit his mistakes.",
+    "exampleJa": "彼は虚栄心が強すぎて自分の間違いを認めません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人物評価と結果評価の多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "in vainで「無駄に」。この熟語は単語数には別途加算していません。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "無駄な；実を結ばない",
+        "example": "They made a vain attempt to repair the old machine.",
+        "exampleJa": "彼らは古い機械を修理しようとしましたが、その試みは実を結びませんでした。"
+      }
+    ]
+  },
+  {
+    "id": "v3084",
+    "word": "selfless",
+    "meaningJa": "無私の；自分の利益を考えない",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "We admired her selfless efforts to help others.",
+    "exampleJa": "私たちは他者を助ける彼女の無私の努力を称賛しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "行動の動機を評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3085",
+    "word": "stubborn",
+    "meaningJa": "頑固な；なかなか変わらない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The stubborn child refused to move.",
+    "exampleJa": "頑固な子供は動こうとしませんでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "性格や変化への抵抗を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3086",
+    "word": "obedient",
+    "meaningJa": "従順な；言うことを聞く",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The obedient dog stayed beside its owner.",
+    "exampleJa": "従順な犬は飼い主のそばにとどまりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "指示への態度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3087",
+    "word": "impulsive",
+    "meaningJa": "衝動的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Buying the car was an impulsive decision.",
+    "exampleJa": "その車を買うことは衝動的な決定でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "意思決定の性質を論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3088",
+    "word": "spontaneous",
+    "meaningJa": "自然に起こる；自発的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The performance received spontaneous applause.",
+    "exampleJa": "その演奏には自然に拍手が起こりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "外から強制されない反応を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3089",
+    "word": "cautious",
+    "meaningJa": "用心深い；慎重な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Be cautious when crossing this busy road.",
+    "exampleJa": "この交通量の多い道路を渡るときは用心してください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "危険への基本的な態度の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3090",
+    "word": "wary",
+    "meaningJa": "警戒している；用心深い",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "She was wary of promises that sounded too good.",
+    "exampleJa": "彼女はうますぎるように聞こえる約束を警戒していました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "不信や警戒を伴う態度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "wary of ...で「〜を警戒している」。"
+  },
+  {
+    "id": "v3091",
+    "word": "reckless",
+    "meaningJa": "無謀な；向こう見ずな",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "His reckless driving frightened the passengers.",
+    "exampleJa": "彼の無謀な運転は乗客を怖がらせました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "危険を顧みない態度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3092",
+    "word": "bold",
+    "meaningJa": "大胆な；勇敢な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The team proposed a bold new design.",
+    "exampleJa": "チームは大胆な新しいデザインを提案しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行動や発想の大胆さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "太字の",
+        "example": "The title is printed in bold type.",
+        "exampleJa": "題名は太字で印刷されています。"
+      }
+    ]
+  },
+  {
+    "id": "v3093",
+    "word": "timid",
+    "meaningJa": "臆病な；気の小さい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The timid kitten hid behind the sofa.",
+    "exampleJa": "臆病な子猫はソファの後ろに隠れました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人物や動物の性格を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3094",
+    "word": "outgoing",
+    "meaningJa": "社交的な；外向的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "My sister is outgoing and makes friends easily.",
+    "exampleJa": "姉は社交的で、すぐに友達ができます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な性格を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "出ていく；退任する",
+        "example": "The outgoing president thanked the staff.",
+        "exampleJa": "退任する社長は職員に感謝しました。"
+      }
+    ]
+  },
+  {
+    "id": "v3095",
+    "word": "sociable",
+    "meaningJa": "社交的な；人付き合いを好む",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "He is sociable and enjoys meeting new people.",
+    "exampleJa": "彼は社交的で、新しい人に会うのを楽しんでいます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人付き合いへの態度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3096",
+    "word": "considerate",
+    "meaningJa": "思いやりのある",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "It was considerate of you to wait for us.",
+    "exampleJa": "私たちを待ってくれたのは思いやりのある行動でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "他者に配慮する態度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "considerateは「思いやりのある」、considerableは「かなりの」。混同に注意します。"
+  },
+  {
+    "id": "v3097",
+    "word": "courteous",
+    "meaningJa": "礼儀正しい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The staff were courteous and helpful.",
+    "exampleJa": "職員は礼儀正しく、親切でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "対人行動の丁寧さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3098",
+    "word": "sincere",
+    "meaningJa": "誠実な；心からの",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Please accept my sincere thanks.",
+    "exampleJa": "心からの感謝を受け取ってください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "言葉や態度の誠実さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3099",
+    "word": "loyal",
+    "meaningJa": "忠実な；忠誠心のある",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "She remained loyal to her friends.",
+    "exampleJa": "彼女は友人たちへの忠実さを保ちました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人や集団への態度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "loyal to ...で「〜に忠実な」。"
+  },
+  {
+    "id": "v3100",
+    "word": "diligent",
+    "meaningJa": "勤勉な；熱心な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The diligent student reviewed every lesson.",
+    "exampleJa": "勤勉な生徒は毎回の授業を復習しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "継続的な努力を評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

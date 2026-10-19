@@ -1,0 +1,2317 @@
+[
+  {
+    "id": "v0201",
+    "word": "control",
+    "meaningJa": "制御、管理、抑制",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The driver lost control of the car.",
+    "exampleJa": "運転手は車を制御できなくなりました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行動や機械の統制を表す抽象名詞。動詞用法は別義にする。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "制御する、管理する",
+        "example": "This switch can control the temperature.",
+        "exampleJa": "このスイッチで温度を調節できます。"
+      }
+    ]
+  },
+  {
+    "id": "v0202",
+    "word": "water",
+    "meaningJa": "水",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Please bring me a glass of water.",
+    "exampleJa": "水を一杯持ってきてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "生活に不可欠な物質を示す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0203",
+    "word": "history",
+    "meaningJa": "歴史",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We learned about the history of our town.",
+    "exampleJa": "私たちは町の歴史について学びました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校の学習や過去の出来事に関する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0204",
+    "word": "size",
+    "meaningJa": "大きさ、サイズ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "What size shoes do you wear?",
+    "exampleJa": "あなたの靴のサイズはいくつですか。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "買い物や比較で使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0205",
+    "word": "art",
+    "meaningJa": "芸術、美術",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She enjoys studying art at school.",
+    "exampleJa": "彼女は学校で美術を学ぶのを楽しんでいます。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校や趣味で使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0206",
+    "word": "since",
+    "meaningJa": "〜以来、〜なので",
+    "partOfSpeech": "other",
+    "level": 2,
+    "example": "I have lived here since last spring.",
+    "exampleJa": "私は昨年の春からここに住んでいます。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "起点を示す前置詞と理由を示す接続詞を区別して学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "other",
+        "meaningJa": "〜なので",
+        "example": "Since you are here, we can begin.",
+        "exampleJa": "あなたがここにいるので、私たちは始められます。"
+      }
+    ]
+  },
+  {
+    "id": "v0207",
+    "word": "guide",
+    "meaningJa": "案内する、導く",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "She will guide us around the museum.",
+    "exampleJa": "彼女が私たちに博物館を案内してくれます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "場所や行動を導く一般的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0208",
+    "word": "shop",
+    "meaningJa": "店、商店",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "There is a small shop near my house.",
+    "exampleJa": "私の家の近くに小さな店があります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "買い物に使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0209",
+    "word": "board",
+    "meaningJa": "板",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He cut the board into two pieces.",
+    "exampleJa": "彼は板を二つに切りました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "具体的な物の基本義を維持し、委員会・乗車の意味を補足する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "委員会、理事会",
+        "example": "The board approved the new plan.",
+        "exampleJa": "理事会は新しい計画を承認しました。"
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "乗り込む",
+        "example": "Passengers can board the train now.",
+        "exampleJa": "乗客は今、列車に乗り込めます。"
+      }
+    ]
+  },
+  {
+    "id": "v0210",
+    "word": "change",
+    "meaningJa": "変える、変わる",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "We need to change our plans.",
+    "exampleJa": "私たちは計画を変える必要があります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "状態の変化を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0211",
+    "word": "white",
+    "meaningJa": "白い、白色の",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "She wore a white shirt.",
+    "exampleJa": "彼女は白いシャツを着ていました。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "基本的な色を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0212",
+    "word": "small",
+    "meaningJa": "小さい",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "We live in a small village.",
+    "exampleJa": "私たちは小さな村に住んでいます。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "大きさを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0213",
+    "word": "rate",
+    "meaningJa": "割合、率、速度",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The birth rate has fallen in recent years.",
+    "exampleJa": "出生率は近年低下しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "統計や変化を説明する読解上の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0214",
+    "word": "during",
+    "meaningJa": "〜の間に、〜の間ずっと",
+    "partOfSpeech": "other",
+    "level": 2,
+    "example": "It rained during the night.",
+    "exampleJa": "夜の間に雨が降りました。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "期間を示す前置詞で、節を導くwhileと区別する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0215",
+    "word": "return",
+    "meaningJa": "帰る、戻る、返す",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please return the book tomorrow.",
+    "exampleJa": "明日その本を返してください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "移動・返却を表す一般的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0216",
+    "word": "account",
+    "meaningJa": "勘定、口座",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "I opened a bank account last week.",
+    "exampleJa": "私は先週銀行口座を開きました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "金銭管理の基本義から説明・理由の用法へ広がる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "説明、報告",
+        "example": "She gave a detailed account of the accident.",
+        "exampleJa": "彼女は事故について詳しく説明しました。"
+      }
+    ]
+  },
+  {
+    "id": "v0217",
+    "word": "level",
+    "meaningJa": "平らな、水平な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "Make sure the shelf is level.",
+    "exampleJa": "棚が水平であることを確認してください。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "既存の形容詞の基本義を維持し、水準の名詞用法を補足する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "水準、高さ、段階",
+        "example": "The water level rose after the storm.",
+        "exampleJa": "嵐のあと水位が上がりました。"
+      }
+    ]
+  },
+  {
+    "id": "v0218",
+    "word": "form",
+    "meaningJa": "形、用紙",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Please fill in this form.",
+    "exampleJa": "この用紙に記入してください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "形状や書類を指す一般的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "形成する、形になる",
+        "example": "Small streams form a river.",
+        "exampleJa": "小さな流れが川を形成します。"
+      }
+    ]
+  },
+  {
+    "id": "v0219",
+    "word": "love",
+    "meaningJa": "愛、愛情",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Her love for music began in childhood.",
+    "exampleJa": "彼女の音楽への愛情は子どものころに始まりました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "感情を表す基本名詞。動詞の愛するは別義に分ける。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "愛する、大好きである",
+        "example": "I love spending time with my family.",
+        "exampleJa": "私は家族と過ごす時間が大好きです。"
+      }
+    ]
+  },
+  {
+    "id": "v0220",
+    "word": "old",
+    "meaningJa": "古い、年を取った",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "This old house was built by my grandfather.",
+    "exampleJa": "この古い家は祖父が建てました。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "年齢や古さを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0221",
+    "word": "main",
+    "meaningJa": "主な、主要な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "What is the main reason for your decision?",
+    "exampleJa": "あなたがその決定をした主な理由は何ですか。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "中心的な点を述べる一般的な形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0222",
+    "word": "call",
+    "meaningJa": "呼ぶ、電話する",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "Please call me when you arrive.",
+    "exampleJa": "着いたら私に電話してください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "人を呼ぶことや電話連絡に使う基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0223",
+    "word": "department",
+    "meaningJa": "部門、部、課",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She works in the sales department.",
+    "exampleJa": "彼女は営業部で働いています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "組織の構造について説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0224",
+    "word": "title",
+    "meaningJa": "題名、タイトル",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "What is the title of this book?",
+    "exampleJa": "この本の題名は何ですか。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "書籍や作品を紹介する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0225",
+    "word": "description",
+    "meaningJa": "記述、描写、説明",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He gave a clear description of the event.",
+    "exampleJa": "彼はその出来事をわかりやすく説明しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "具体的な情報を言葉で説明する抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0226",
+    "word": "insurance",
+    "meaningJa": "保険",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Travel insurance can cover medical costs.",
+    "exampleJa": "旅行保険は医療費を補償することがあります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会制度や生活上の契約を扱う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0227",
+    "word": "another",
+    "meaningJa": "もう一つの、別の",
+    "partOfSpeech": "other",
+    "level": 1,
+    "example": "Would you like another cup of tea?",
+    "exampleJa": "お茶をもう一杯いかがですか。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "追加や別のものを示す基本表現。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0228",
+    "word": "why",
+    "meaningJa": "なぜ",
+    "partOfSpeech": "other",
+    "level": 1,
+    "example": "Why did you leave early?",
+    "exampleJa": "なぜ早く帰ったのですか。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "理由を尋ねる基本疑問詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0229",
+    "word": "property",
+    "meaningJa": "財産、所有物",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "This building is private property.",
+    "exampleJa": "この建物は私有財産です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "財産の基本義を動産だけに限定せず、性質の意味も補足する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "性質、特性",
+        "example": "This material has an unusual property.",
+        "exampleJa": "この素材には珍しい性質があります。"
+      }
+    ]
+  },
+  {
+    "id": "v0230",
+    "word": "class",
+    "meaningJa": "クラス、授業、種類",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Our class visited a farm yesterday.",
+    "exampleJa": "私たちのクラスは昨日農場を訪れました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校生活の用法を主にし、既存の分類の意味も残す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "種類、部類、階級",
+        "example": "These insects belong to the same class.",
+        "exampleJa": "これらの昆虫は同じ種類に属しています。"
+      }
+    ]
+  },
+  {
+    "id": "v0231",
+    "word": "still",
+    "meaningJa": "まだ、それでも",
+    "partOfSpeech": "adverb",
+    "level": 1,
+    "example": "She is still waiting for the bus.",
+    "exampleJa": "彼女はまだバスを待っています。",
+    "category": "様子・程度",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "継続を示す基本副詞。静止の形容詞は別義。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "動かない、静止した",
+        "example": "Keep your head still during the test.",
+        "exampleJa": "検査の間は頭を動かさないでください。"
+      }
+    ]
+  },
+  {
+    "id": "v0232",
+    "word": "money",
+    "meaningJa": "お金",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "I am saving money for a bicycle.",
+    "exampleJa": "私は自転車を買うためにお金をためています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "買い物や生活の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0233",
+    "word": "quality",
+    "meaningJa": "品質、特質",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We need to improve the quality of our work.",
+    "exampleJa": "私たちは仕事の質を高める必要があります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "評価や特徴について述べる抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0234",
+    "word": "every",
+    "meaningJa": "すべての、毎〜",
+    "partOfSpeech": "other",
+    "level": 1,
+    "example": "I walk to school every morning.",
+    "exampleJa": "私は毎朝歩いて学校に通います。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "集団全体や反復を示す基本限定詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0235",
+    "word": "content",
+    "meaningJa": "内容、中身",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The content of the report surprised us.",
+    "exampleJa": "報告書の内容は私たちを驚かせました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報の中身を示す名詞。満足したという形容詞は別義。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "満足している",
+        "example": "She seemed content with her new job.",
+        "exampleJa": "彼女は新しい仕事に満足しているようでした。"
+      }
+    ]
+  },
+  {
+    "id": "v0236",
+    "word": "country",
+    "meaningJa": "国、田舎",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "What country would you like to visit?",
+    "exampleJa": "あなたはどの国を訪れたいですか。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "国や地域を紹介する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0237",
+    "word": "private",
+    "meaningJa": "私的な、個人的な、非公開の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "This is a private conversation.",
+    "exampleJa": "これは個人的な会話です。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "公共と個人の範囲を区別する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0238",
+    "word": "little",
+    "meaningJa": "小さい、幼い",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The little girl held my hand.",
+    "exampleJa": "小さな女の子が私の手を握りました。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "大きさや年齢の基本義。少量を示す用法は別義にする。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "other",
+        "meaningJa": "ほとんどない、少量の",
+        "example": "There is little water left in the bottle.",
+        "exampleJa": "ボトルには水がほとんど残っていません。"
+      }
+    ]
+  },
+  {
+    "id": "v0239",
+    "word": "visit",
+    "meaningJa": "訪問する、訪れる",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "We visit our grandparents every Sunday.",
+    "exampleJa": "私たちは毎週日曜日に祖父母を訪ねます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "人や場所を訪れる基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0240",
+    "word": "save",
+    "meaningJa": "救う、節約する、貯める",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "The doctor helped save his life.",
+    "exampleJa": "医師は彼の命を救う助けをしました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "救済の基本義を維持し、金銭や資源の用法も学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0241",
+    "word": "low",
+    "meaningJa": "低い",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The table is too low for this chair.",
+    "exampleJa": "この椅子に対してそのテーブルは低すぎます。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "高さや程度を示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0242",
+    "word": "reply",
+    "meaningJa": "返事する、答える",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please reply to my message today.",
+    "exampleJa": "今日私のメッセージに返事をしてください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "連絡への応答を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0243",
+    "word": "customer",
+    "meaningJa": "客、顧客",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The customer asked about the price.",
+    "exampleJa": "客は値段について尋ねました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "買い物やサービスの相手を指す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0244",
+    "word": "compare",
+    "meaningJa": "比較する、比べる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Compare the two pictures carefully.",
+    "exampleJa": "二つの写真を注意深く比べてください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学習や判断で違いを検討する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0245",
+    "word": "include",
+    "meaningJa": "含む",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "The price does not include breakfast.",
+    "exampleJa": "料金に朝食は含まれていません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "全体と部分の関係を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0246",
+    "word": "college",
+    "meaningJa": "大学、カレッジ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She plans to go to college next year.",
+    "exampleJa": "彼女は来年大学へ進む予定です。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "教育や進路に関する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0247",
+    "word": "value",
+    "meaningJa": "価値、値打ち",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The value of the house has increased.",
+    "exampleJa": "その家の価値は上がりました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "重要性や金銭的な評価を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0248",
+    "word": "article",
+    "meaningJa": "記事、論説",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "I read an article about climate change.",
+    "exampleJa": "私は気候変動についての記事を読みました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "説明文や情報源を扱う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0249",
+    "word": "man",
+    "meaningJa": "男性、人",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The man at the door is my uncle.",
+    "exampleJa": "ドアのところにいる男性は私のおじです。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な人物を示す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0250",
+    "word": "card",
+    "meaningJa": "カード",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "I sent her a birthday card.",
+    "exampleJa": "私は彼女に誕生日カードを送りました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "生活や連絡で使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0251",
+    "word": "provide",
+    "meaningJa": "提供する、供給する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The school will provide lunch for all students.",
+    "exampleJa": "学校はすべての生徒に昼食を提供します。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "サービスや資源の供給を述べる読解上の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0252",
+    "word": "food",
+    "meaningJa": "食べ物、食料",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "There is enough food for everyone.",
+    "exampleJa": "全員分の食べ物があります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の食事や生活を示す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0253",
+    "word": "different",
+    "meaningJa": "異なる、違った",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "We have different ideas about the trip.",
+    "exampleJa": "私たちは旅行について違った考えを持っています。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "相違を示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0254",
+    "word": "press",
+    "meaningJa": "押す",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Press this button to start the machine.",
+    "exampleJa": "このボタンを押すと機械が動き始めます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "物を押す動詞の基本義。報道機関の名詞は別義。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "報道機関、新聞界",
+        "example": "The event attracted attention from the press.",
+        "exampleJa": "その催しは報道機関の注目を集めました。"
+      }
+    ]
+  },
+  {
+    "id": "v0255",
+    "word": "learn",
+    "meaningJa": "学ぶ、身につける",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "I want to learn how to cook.",
+    "exampleJa": "私は料理の仕方を学びたいです。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学習を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0256",
+    "word": "sale",
+    "meaningJa": "販売、売却、特売",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The house is for sale.",
+    "exampleJa": "その家は売りに出されています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "売買に関する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0257",
+    "word": "around",
+    "meaningJa": "〜の周りに、〜の周りを",
+    "partOfSpeech": "other",
+    "level": 1,
+    "example": "We walked around the lake.",
+    "exampleJa": "私たちは湖の周りを歩きました。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "周囲の位置や移動を示す基本前置詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0258",
+    "word": "print",
+    "meaningJa": "印刷する",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please print two copies of this page.",
+    "exampleJa": "このページを2部印刷してください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "文書を扱う一般的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0259",
+    "word": "course",
+    "meaningJa": "進路、道筋、講座",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The river changed its course after the flood.",
+    "exampleJa": "洪水のあと川の流路が変わりました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "道筋の基本義を維持し、学習講座の意味も補足する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "講座、課程",
+        "example": "She is taking a course in biology.",
+        "exampleJa": "彼女は生物学の講座を受講しています。"
+      }
+    ]
+  },
+  {
+    "id": "v0260",
+    "word": "room",
+    "meaningJa": "部屋、空間",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "My room has two windows.",
+    "exampleJa": "私の部屋には窓が二つあります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "住まいの基本名詞で、空間の意味も持つ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0261",
+    "word": "stock",
+    "meaningJa": "在庫、蓄え、株式",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The store has a large stock of winter coats.",
+    "exampleJa": "その店には冬用コートの在庫がたくさんあります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "商業の在庫から金融の意味へ広がる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0262",
+    "word": "too",
+    "meaningJa": "〜もまた、あまりに",
+    "partOfSpeech": "adverb",
+    "level": 1,
+    "example": "The bag is too heavy for me to carry.",
+    "exampleJa": "そのかばんは重すぎて私には運べません。",
+    "category": "様子・程度",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "追加や過剰な程度を示す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0263",
+    "word": "point",
+    "meaningJa": "点、要点",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "I understand your point.",
+    "exampleJa": "あなたの言いたいことはわかります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "位置の点と議論の要点を扱う多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0264",
+    "word": "join",
+    "meaningJa": "加わる、つなぐ",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "Would you like to join our team?",
+    "exampleJa": "私たちのチームに入りませんか。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "集団への参加と結合を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0265",
+    "word": "science",
+    "meaningJa": "科学、理科",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Science helps us understand the natural world.",
+    "exampleJa": "科学は自然界を理解する助けになります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校の学習や自然の理解に関する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0266",
+    "word": "west",
+    "meaningJa": "西、西方",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The sun sets in the west.",
+    "exampleJa": "太陽は西に沈みます。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "基本的な方角を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0267",
+    "word": "look",
+    "meaningJa": "見る、〜に見える",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "Look at the stars in the sky.",
+    "exampleJa": "空の星を見てください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "視線を向ける動作や見え方を示す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0268",
+    "word": "left",
+    "meaningJa": "左の、左側の",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "Raise your left hand.",
+    "exampleJa": "左手を上げてください。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "方向を示す形容詞を基本義にし、leaveの活用は別用法に分ける。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "残っている",
+        "example": "There is some bread left on the table.",
+        "exampleJa": "テーブルにはパンが少し残っています。"
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "去った、置いていった（leaveの過去形）",
+        "example": "He left his bag on the bus.",
+        "exampleJa": "彼はバスにかばんを置き忘れました。"
+      }
+    ]
+  },
+  {
+    "id": "v0269",
+    "word": "box",
+    "meaningJa": "箱",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Put the books in this box.",
+    "exampleJa": "本をこの箱に入れてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の容器を指す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0270",
+    "word": "gay",
+    "meaningJa": "同性愛の、ゲイの",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The organization supports gay rights.",
+    "exampleJa": "その団体は同性愛者の権利を支援しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "現代の一般的な意味に更新し、旧義の陽気なは古風な用法と明示する。",
+      "references": ["editorial-policy-v1", "cambridge-gay"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "陽気な、華やかな（古風な用法）",
+        "example": "The old poem describes a gay spring morning.",
+        "exampleJa": "その古い詩はうららかな春の朝を描いています。"
+      }
+    ],
+    "usageNote": "現代の一般的な意味は「同性愛の」です。以前収録していた「陽気な」は古風な用法として別義に示しています。"
+  },
+  {
+    "id": "v0271",
+    "word": "thread",
+    "meaningJa": "糸",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She used red thread to repair the shirt.",
+    "exampleJa": "彼女は赤い糸を使ってシャツを直しました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "生活で使う具体名詞。議論のつながりの意味も補足する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "話の筋、議論のつながり",
+        "example": "I lost the thread of the argument.",
+        "exampleJa": "私は議論の筋がわからなくなりました。"
+      }
+    ]
+  },
+  {
+    "id": "v0272",
+    "word": "week",
+    "meaningJa": "週、一週間",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We will stay here for a week.",
+    "exampleJa": "私たちはここに一週間滞在します。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "基本的な時間の単位。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0273",
+    "word": "note",
+    "meaningJa": "メモ、覚え書き",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "I left a note on the kitchen table.",
+    "exampleJa": "私は台所のテーブルにメモを残しました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の短い記録を指す基本名詞。注意する動詞は別義。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "注意する、書き留める",
+        "example": "Please note the date of the next meeting.",
+        "exampleJa": "次の会議の日付を書き留めてください。"
+      }
+    ]
+  },
+  {
+    "id": "v0274",
+    "word": "live",
+    "meaningJa": "住む、生きる",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "They live in a small town near the sea.",
+    "exampleJa": "彼らは海の近くの小さな町に住んでいます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "居住や生命を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0275",
+    "word": "large",
+    "meaningJa": "大きい、広い",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The school has a large garden.",
+    "exampleJa": "その学校には広い庭があります。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "規模や広さを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0276",
+    "word": "table",
+    "meaningJa": "テーブル、表",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We sat around the table.",
+    "exampleJa": "私たちはテーブルを囲んで座りました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "家具の基本義と図表の意味を区別して学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "表、一覧表",
+        "example": "The table shows changes in population.",
+        "exampleJa": "その表は人口の変化を示しています。"
+      }
+    ]
+  },
+  {
+    "id": "v0277",
+    "word": "however",
+    "meaningJa": "しかしながら",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "It was raining. However, we went for a walk.",
+    "exampleJa": "雨が降っていました。しかし、私たちは散歩に出かけました。",
+    "category": "様子・程度",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "文同士の逆接を示す接続副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0278",
+    "word": "market",
+    "meaningJa": "市場",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We bought vegetables at the market.",
+    "exampleJa": "私たちは市場で野菜を買いました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "売買の場所から経済の意味へ広がる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0279",
+    "word": "library",
+    "meaningJa": "図書館、図書室",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The library closes at six.",
+    "exampleJa": "図書館は6時に閉まります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学習や読書で使う基本施設。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0280",
+    "word": "action",
+    "meaningJa": "行動、活動",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We must take action to protect the river.",
+    "exampleJa": "私たちは川を守るために行動しなければなりません。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "問題への対応や活動を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0281",
+    "word": "start",
+    "meaningJa": "始める、始まる、出発する",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "We will start our journey tomorrow.",
+    "exampleJa": "私たちは明日旅を始めます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "開始と出発を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0282",
+    "word": "model",
+    "meaningJa": "模型、モデル",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He built a model of a ship.",
+    "exampleJa": "彼は船の模型を作りました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "実物を表す模型から説明上のモデルへ広がる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0283",
+    "word": "air",
+    "meaningJa": "空気",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Open the window to let in fresh air.",
+    "exampleJa": "新鮮な空気を入れるために窓を開けてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "生活や自然に関する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0284",
+    "word": "industry",
+    "meaningJa": "産業、工業",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The fishing industry is important to this town.",
+    "exampleJa": "漁業はこの町にとって重要です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会や経済の活動を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0285",
+    "word": "plan",
+    "meaningJa": "計画、案",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "What is your plan for the weekend?",
+    "exampleJa": "週末の計画は何ですか。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "予定について話す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0286",
+    "word": "human",
+    "meaningJa": "人間の、人の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "Human activity can change the environment.",
+    "exampleJa": "人間の活動は環境を変えることがあります。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "人間に関する社会・科学の説明に使う形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0287",
+    "word": "second",
+    "meaningJa": "二番目の",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "This is my second visit to Kyoto.",
+    "exampleJa": "これは私にとって二度目の京都訪問です。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "順序を示す基本形容詞。時間の秒は別義にする。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "秒",
+        "example": "The light flashed for a second.",
+        "exampleJa": "明かりが一秒間点滅しました。"
+      }
+    ]
+  },
+  {
+    "id": "v0288",
+    "word": "hot",
+    "meaningJa": "熱い、暑い",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "Be careful with the hot soup.",
+    "exampleJa": "熱いスープに気をつけてください。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "温度や気候を示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0289",
+    "word": "cost",
+    "meaningJa": "費用がかかる、犠牲を伴う",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "How much does this ticket cost?",
+    "exampleJa": "この切符はいくらですか。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "費用を表す動詞。費用の名詞用法は別義にする。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "費用、代償",
+        "example": "The cost of food has increased.",
+        "exampleJa": "食料費が上がりました。"
+      }
+    ]
+  },
+  {
+    "id": "v0290",
+    "word": "March",
+    "meaningJa": "3月",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "School starts in March in some countries.",
+    "exampleJa": "3月に学校が始まる国もあります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "月名の基本語として大文字表記に修正。行進の語義は別義。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "行進する（小文字のmarch）",
+        "example": "The soldiers march through the town.",
+        "exampleJa": "兵士たちは町を行進します。"
+      }
+    ],
+    "usageNote": "月名のMarchは大文字で始めます。行進するという動詞marchとは区別します。"
+  },
+  {
+    "id": "v0291",
+    "word": "better",
+    "meaningJa": "よりよい",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "We need a better plan.",
+    "exampleJa": "私たちにはもっとよい計画が必要です。",
+    "category": "状態・特徴",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "goodの比較級として初期に学ぶ形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0292",
+    "word": "say",
+    "meaningJa": "言う、述べる",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "What did she say about the trip?",
+    "exampleJa": "彼女は旅行について何と言いましたか。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "発言を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0293",
+    "word": "medical",
+    "meaningJa": "医学の、医療の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The village needs better medical care.",
+    "exampleJa": "その村にはよりよい医療が必要です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "健康や社会制度の説明で用いる形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0294",
+    "word": "test",
+    "meaningJa": "試験、テスト、検査",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We have an English test tomorrow.",
+    "exampleJa": "明日は英語のテストがあります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校や生活で使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0295",
+    "word": "friend",
+    "meaningJa": "友達、友人",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "My friend helped me with my homework.",
+    "exampleJa": "友達が宿題を手伝ってくれました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な人間関係を示す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0296",
+    "word": "come",
+    "meaningJa": "来る",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "Please come to my house after school.",
+    "exampleJa": "放課後に私の家に来てください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "話し手などの方へ移動する基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v0297",
+    "word": "study",
+    "meaningJa": "勉強する、研究する",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "I study English every day.",
+    "exampleJa": "私は毎日英語を勉強しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学習の基本動詞。研究の名詞用法も補足する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "研究、調査",
+        "example": "The study focused on sleep habits.",
+        "exampleJa": "その研究は睡眠習慣に焦点を当てました。"
+      }
+    ]
+  },
+  {
+    "id": "v0298",
+    "word": "application",
+    "meaningJa": "適用、応用、申請",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "This discovery has an important application in medicine.",
+    "exampleJa": "この発見には医学での重要な応用があります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "既存の応用の意味を維持し、申請の用法を補足する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "申請、応募、申込書",
+        "example": "Please submit your application by Friday.",
+        "exampleJa": "金曜日までに申込書を提出してください。"
+      }
+    ]
+  },
+  {
+    "id": "v0299",
+    "word": "staff",
+    "meaningJa": "職員、従業員",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The hotel staff welcomed us warmly.",
+    "exampleJa": "ホテルの従業員は私たちを温かく迎えました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "一般的な集団名詞の意味を主にし、旧義のつえは別義にする。",
+      "references": ["editorial-policy-v1", "cambridge-staff"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "つえ、棒",
+        "example": "The traveler leaned on a wooden staff.",
+        "exampleJa": "旅人は木のつえに寄りかかりました。"
+      }
+    ],
+    "usageNote": "基本義を「職員・従業員」に更新しました。以前収録していた「つえ・棒」は別義に示しています。"
+  },
+  {
+    "id": "v0300",
+    "word": "again",
+    "meaningJa": "もう一度、再び",
+    "partOfSpeech": "adverb",
+    "level": 1,
+    "example": "Please say that again.",
+    "exampleJa": "もう一度それを言ってください。",
+    "category": "様子・程度",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "繰り返しを示す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

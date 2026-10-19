@@ -1,0 +1,2294 @@
+[
+  {
+    "id": "v2301",
+    "word": "neither",
+    "meaningJa": "どちらの〜もない；どちらも〜ない",
+    "partOfSpeech": "other",
+    "level": 2,
+    "example": "Neither answer is correct.",
+    "exampleJa": "どちらの答えも正しくありません。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "二つの対象を両方否定する基本的な限定詞・代名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "neitherの後に名詞を直接置くときは単数形です。neither A nor Bで「AもBも〜ない」を表します。"
+  },
+  {
+    "id": "v2302",
+    "word": "nobody",
+    "meaningJa": "誰も〜ない",
+    "partOfSpeech": "other",
+    "level": 1,
+    "example": "Nobody was waiting outside the classroom.",
+    "exampleJa": "教室の外では誰も待っていませんでした。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "人が一人もいないことを表す日常的な代名詞として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主語としては単数扱いです。nobody自体が否定の意味を持つため、通常はnotを重ねません。no oneも同じ意味で使います。"
+  },
+  {
+    "id": "v2303",
+    "word": "anywhere",
+    "meaningJa": "どこかに；どこでも",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "You can sit anywhere in this room.",
+    "exampleJa": "この部屋ではどこに座ってもかまいません。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "不特定の場所や場所を限定しないことを示す基本副詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2304",
+    "word": "nowhere",
+    "meaningJa": "どこにも〜ない",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "There was nowhere to sit on the train.",
+    "exampleJa": "電車には座る場所がどこにもありませんでした。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "場所が存在しないことを表す否定的な基本副詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "nowhere自体に否定の意味があるため、通常は同じ節にnotを重ねません。"
+  },
+  {
+    "id": "v2305",
+    "word": "everywhere",
+    "meaningJa": "至る所に；どこでも",
+    "partOfSpeech": "adverb",
+    "level": 1,
+    "example": "There were flowers everywhere in the garden.",
+    "exampleJa": "庭の至る所に花がありました。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な場所の広がりを表す副詞として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2306",
+    "word": "somewhere",
+    "meaningJa": "どこかに；どこかで",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "I left my umbrella somewhere in the building.",
+    "exampleJa": "私は建物のどこかに傘を置き忘れました。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "特定できない場所を示す日常的な副詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2307",
+    "word": "upstairs",
+    "meaningJa": "上の階へ；上の階に",
+    "partOfSpeech": "adverb",
+    "level": 1,
+    "example": "She went upstairs to get her bag.",
+    "exampleJa": "彼女はかばんを取りに上の階へ行きました。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "家や建物の中の移動を示す具体的な基本副詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2308",
+    "word": "downstairs",
+    "meaningJa": "下の階へ；下の階に",
+    "partOfSpeech": "adverb",
+    "level": 1,
+    "example": "We went downstairs for breakfast.",
+    "exampleJa": "私たちは朝食を取るために下の階へ行きました。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "家の中の位置や移動を示す具体的な基本副詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2309",
+    "word": "indoors",
+    "meaningJa": "屋内で；屋内へ",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The children stayed indoors during the storm.",
+    "exampleJa": "嵐の間、子どもたちは屋内にいました。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "天候や日常活動の場所を示す基本副詞として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2310",
+    "word": "outdoors",
+    "meaningJa": "屋外で；屋外へ",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "We ate lunch outdoors in the sunshine.",
+    "exampleJa": "私たちは日差しの中、屋外で昼食を食べました。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常生活や余暇の活動場所を示す基本副詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2311",
+    "word": "abroad",
+    "meaningJa": "外国へ；外国で",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "My brother hopes to study abroad next year.",
+    "exampleJa": "兄は来年留学したいと思っています。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "旅行や留学について述べる基本的な副詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "場所を表す副詞なので、go abroadやstudy abroadのように使い、通常は前にtoやinを置きません。"
+  },
+  {
+    "id": "v2312",
+    "word": "ahead",
+    "meaningJa": "前方に；先に",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "There is a narrow bridge ahead.",
+    "exampleJa": "前方に狭い橋があります。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "進む方向や先の位置を示す日常的な副詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "先に；前もって",
+        "example": "We planned ahead to avoid the holiday crowds.",
+        "exampleJa": "私たちは休日の混雑を避けるために前もって計画を立てました。"
+      }
+    ]
+  },
+  {
+    "id": "v2313",
+    "word": "backward",
+    "meaningJa": "後ろへ；後ろ向きに",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "He took a step backward to make room.",
+    "exampleJa": "彼は場所を空けるために一歩後ろに下がりました。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "具体的な動きの方向を示す副詞として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "方向を表す副詞ではbackwardsという形も使われます。同じ意味の綴り違いとして扱います。"
+  },
+  {
+    "id": "v2314",
+    "word": "sideways",
+    "meaningJa": "横へ；横向きに",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "We had to move sideways through the narrow gap.",
+    "exampleJa": "私たちは狭い隙間を横向きに通り抜けなければなりませんでした。",
+    "category": "位置・方向",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "姿勢や移動の細かな方向を描写する高校基礎の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2315",
+    "word": "beneath",
+    "meaningJa": "〜の下に",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "The cat was sleeping beneath the table.",
+    "exampleJa": "猫はテーブルの下で眠っていました。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "上下の位置関係を表す前置詞として、やや文章的な描写で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2316",
+    "word": "underneath",
+    "meaningJa": "〜の下に；〜に覆われて",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "She found a coin underneath the sofa.",
+    "exampleJa": "彼女はソファーの下に硬貨を見つけました。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物の下や隠れた位置を具体的に表す前置詞として高校基礎で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2317",
+    "word": "despite",
+    "meaningJa": "〜にもかかわらず",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "The team continued playing despite the rain.",
+    "exampleJa": "チームは雨にもかかわらずプレーを続けました。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "予想と異なる結果を示す譲歩の前置詞として高校基礎で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "前置詞なので、後ろには名詞や動名詞などを置きます。despite ofとはしません。"
+  },
+  {
+    "id": "v2318",
+    "word": "whenever",
+    "meaningJa": "〜するときはいつでも",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "Please call me whenever you need help.",
+    "exampleJa": "助けが必要なときはいつでも電話してください。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "時を限定しない副詞節を導く基本的な複合関係詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2319",
+    "word": "wherever",
+    "meaningJa": "〜する所ならどこでも",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "You can work wherever there is an internet connection.",
+    "exampleJa": "インターネット接続がある所ならどこでも仕事ができます。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "場所を限定しない節を導く複合関係詞として高校基礎で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2320",
+    "word": "whoever",
+    "meaningJa": "〜する人は誰でも",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "Whoever finishes first can choose the next game.",
+    "exampleJa": "最初に終えた人は誰でも次のゲームを選べます。",
+    "category": "基本表現",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人を限定しない名詞節を作る複合関係代名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2321",
+    "word": "scooter",
+    "meaningJa": "スクーター；キックスケーター",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She rides a scooter to the nearby shop.",
+    "exampleJa": "彼女は近くの店までスクーターに乗って行きます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な移動手段を表す具体的な名詞として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "エンジン付きのスクーターのほか、足で地面を蹴って進む乗り物を指すこともあります。"
+  },
+  {
+    "id": "v2322",
+    "word": "tram",
+    "meaningJa": "路面電車",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The tram stops near the museum.",
+    "exampleJa": "その路面電車は博物館の近くに停車します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "都市の交通手段を表す具体的な旅行語彙として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2323",
+    "word": "van",
+    "meaningJa": "バン；小型の貨物車",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The delivery van arrived before noon.",
+    "exampleJa": "配達のバンは正午前に到着しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の交通や配達で目にする車両名として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2324",
+    "word": "pavement",
+    "meaningJa": "歩道（主に英国）",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The pavement was crowded with shoppers.",
+    "exampleJa": "歩道は買い物客で混雑していました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "英国の街路描写で用いる具体語として高校基礎で扱い、地域による意味の違いも補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "英国では主に歩道（米国のsidewalk）、米国では道路などの舗装面を指します。"
+  },
+  {
+    "id": "v2325",
+    "word": "helmet",
+    "meaningJa": "ヘルメット",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She put on her helmet before riding her bicycle.",
+    "exampleJa": "彼女は自転車に乗る前にヘルメットをかぶりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の安全や乗り物に関する身近な物の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2326",
+    "word": "seatbelt",
+    "meaningJa": "シートベルト",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He fastened his seatbelt before the car moved.",
+    "exampleJa": "彼は車が動き出す前にシートベルトを締めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "乗り物で使う具体的な装備名として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "seat beltと二語で書く形もあります。綴りの違いで見出し語数を増やしません。"
+  },
+  {
+    "id": "v2327",
+    "word": "license",
+    "meaningJa": "免許；許可証",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She showed her license at the rental counter.",
+    "exampleJa": "彼女はレンタルの受付で免許証を見せました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "運転や利用の許可を示す身近な書類名として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "名詞は米国ではlicense、英国では通常licenceです。動詞「許可する」はlicenseと綴ります。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "許可する；使用権を与える",
+        "example": "The company will license its software to local schools.",
+        "exampleJa": "その会社は地元の学校にソフトウェアの使用権を与えます。"
+      }
+    ]
+  },
+  {
+    "id": "v2328",
+    "word": "baggage",
+    "meaningJa": "手荷物",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We collected our baggage after the flight.",
+    "exampleJa": "私たちは飛行機を降りた後で手荷物を受け取りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "旅行の荷物を表す基本的な不可算名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "荷物全体をまとめて表す不可算名詞です。数えるときはa piece of baggageなどを使います。"
+  },
+  {
+    "id": "v2329",
+    "word": "timetable",
+    "meaningJa": "時刻表；時間割",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Please check the timetable before leaving home.",
+    "exampleJa": "家を出る前に時刻表を確認してください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "交通や学校生活で使う予定表を指す基本語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2330",
+    "word": "departure",
+    "meaningJa": "出発",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The departure of our train was delayed by snow.",
+    "exampleJa": "私たちの電車の出発は雪で遅れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "交通案内や旅程で出発を名詞として述べる高校基礎の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "逸脱；従来との違い",
+        "example": "The new design marks a departure from tradition.",
+        "exampleJa": "その新しいデザインは伝統からの脱却を示しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2331",
+    "word": "arrival",
+    "meaningJa": "到着",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We waited at the station for the arrival of the train.",
+    "exampleJa": "私たちは駅で電車の到着を待ちました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "移動の到着を表す基本的な名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2332",
+    "word": "depart",
+    "meaningJa": "出発する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Our flight will depart at noon.",
+    "exampleJa": "私たちの便は正午に出発します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "交通機関の案内などで出発を表すやや改まった動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2333",
+    "word": "cabin",
+    "meaningJa": "小屋；船室・客室",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We stayed in a small cabin beside the lake.",
+    "exampleJa": "私たちは湖のそばの小さな小屋に泊まりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "宿泊や旅行の場所を表す具体語として高校基礎で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "船室；航空機の客室",
+        "example": "The cabin became quiet after the lights were dimmed.",
+        "exampleJa": "照明が暗くされると機内は静かになりました。"
+      }
+    ]
+  },
+  {
+    "id": "v2334",
+    "word": "aisle",
+    "meaningJa": "通路（座席や棚の間）",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Please keep your bag out of the aisle.",
+    "exampleJa": "かばんを通路に置かないでください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "店や乗り物の内部を描写する具体的な読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "sは発音しません。isle（小島）と同じ発音です。"
+  },
+  {
+    "id": "v2335",
+    "word": "pilot",
+    "meaningJa": "操縦士；パイロット",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The pilot welcomed the passengers aboard.",
+    "exampleJa": "操縦士は乗客を機内に迎えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "乗り物に関する身近な職業名として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "試験的な",
+        "example": "The school introduced a pilot program for online lessons.",
+        "exampleJa": "その学校はオンライン授業の試験的なプログラムを導入しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2336",
+    "word": "flight",
+    "meaningJa": "飛行；航空便",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Our flight to Osaka leaves at nine.",
+    "exampleJa": "私たちの大阪行きの便は9時に出発します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "移動や旅行の予定を表す基本的な名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2337",
+    "word": "harbor",
+    "meaningJa": "港",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The fishing boats returned to the harbor before sunset.",
+    "exampleJa": "漁船は日没前に港へ戻りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "船が停泊する場所を描写する高校基礎の語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "英国ではharbourと綴ります。同じ語として扱います。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "心に抱く；かくまう",
+        "example": "Some residents still harbor doubts about the plan.",
+        "exampleJa": "一部の住民は今もその計画に疑念を抱いています。"
+      }
+    ]
+  },
+  {
+    "id": "v2338",
+    "word": "port",
+    "meaningJa": "港；港町",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The ship will stop at a small port tomorrow.",
+    "exampleJa": "その船は明日、小さな港に寄港します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "船の移動や町の位置を示す基本的な地理・交通語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "接続口；ポート",
+        "example": "Connect the cable to the correct port on the computer.",
+        "exampleJa": "ケーブルをコンピューターの正しい接続口につないでください。"
+      }
+    ]
+  },
+  {
+    "id": "v2339",
+    "word": "dock",
+    "meaningJa": "埠頭；船着き場",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We waited on the dock for the boat.",
+    "exampleJa": "私たちは船着き場で船を待ちました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "船の乗降や荷役の場所を具体的に示す高校基礎の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "入港する；接岸する",
+        "example": "The ferry will dock at the island in an hour.",
+        "exampleJa": "フェリーは1時間後にその島に接岸します。"
+      }
+    ]
+  },
+  {
+    "id": "v2340",
+    "word": "chalk",
+    "meaningJa": "チョーク",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The teacher picked up a piece of chalk.",
+    "exampleJa": "先生はチョークを一本取り上げました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "教室で使う身近な道具を表す名詞として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "材料としては不可算です。一本を表すときはa piece of chalkなどを使います。"
+  },
+  {
+    "id": "v2341",
+    "word": "blackboard",
+    "meaningJa": "黒板",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The teacher drew a circle on the blackboard.",
+    "exampleJa": "先生は黒板に円を描きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "教室の設備を表す具体的な基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2342",
+    "word": "whiteboard",
+    "meaningJa": "ホワイトボード",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Please write your answer on the whiteboard.",
+    "exampleJa": "ホワイトボードに答えを書いてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校や会議で使う身近な道具の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2343",
+    "word": "workbook",
+    "meaningJa": "問題集；学習用作業帳",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We completed two pages in the workbook.",
+    "exampleJa": "私たちは問題集を2ページ終えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校生活の学習用具を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2344",
+    "word": "glue",
+    "meaningJa": "のり；接着剤",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Use a little glue to attach the paper flower.",
+    "exampleJa": "紙の花を貼り付けるために少しのりを使ってください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "工作で使う身近な材料を表す名詞として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "のりで貼る；接着する",
+        "example": "Please glue the photo onto the card.",
+        "exampleJa": "写真をカードにのりで貼り付けてください。"
+      }
+    ]
+  },
+  {
+    "id": "v2345",
+    "word": "stapler",
+    "meaningJa": "ホチキス",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "I used a stapler to fasten the pages together.",
+    "exampleJa": "私はページをまとめるためにホチキスを使いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校や仕事で使う具体的な文房具名として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2346",
+    "word": "sharpener",
+    "meaningJa": "鉛筆削り",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "I keep a pencil sharpener in my desk.",
+    "exampleJa": "私は机の中に鉛筆削りを入れています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校で使う身近な文房具名として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2347",
+    "word": "marker",
+    "meaningJa": "マーカーペン；目印",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Write your name with a black marker.",
+    "exampleJa": "黒いマーカーペンで名前を書いてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "筆記具としての具体的な基本義を学校生活の基礎語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "目印；標識",
+        "example": "We placed a marker beside each newly planted tree.",
+        "exampleJa": "私たちは新しく植えた木のそばにそれぞれ目印を置きました。"
+      }
+    ]
+  },
+  {
+    "id": "v2348",
+    "word": "crayon",
+    "meaningJa": "クレヨン",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She used a blue crayon to draw the sky.",
+    "exampleJa": "彼女は青いクレヨンで空を描きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "絵を描く身近な道具を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2349",
+    "word": "backpack",
+    "meaningJa": "リュックサック",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He put his lunch in his backpack.",
+    "exampleJa": "彼はリュックサックに昼食を入れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "通学や外出で使う身近な持ち物として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2350",
+    "word": "locker",
+    "meaningJa": "ロッカー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "I left my coat in a locker at the station.",
+    "exampleJa": "私は駅のロッカーにコートを預けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校や公共施設で使う収納設備の名前として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2351",
+    "word": "gymnasium",
+    "meaningJa": "体育館",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The students gathered in the gymnasium after lunch.",
+    "exampleJa": "生徒たちは昼食後に体育館に集まりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校の施設を表す具体的な名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "体育館や運動施設を指す語で、日常的にはgymという短い形もよく使います。"
+  },
+  {
+    "id": "v2352",
+    "word": "cafeteria",
+    "meaningJa": "食堂；カフェテリア",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We had lunch in the school cafeteria.",
+    "exampleJa": "私たちは学校の食堂で昼食を食べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校や職場で使う身近な施設名として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2353",
+    "word": "principal",
+    "meaningJa": "校長",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The principal welcomed the new students at the ceremony.",
+    "exampleJa": "校長は式で新入生を歓迎しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校生活に関わる職名の基本義として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "principle（原理・原則）とは綴りも意味も異なります。principalには「主要な」という形容詞の用法もあります。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "主要な；最も重要な",
+        "example": "The principal cause of the delay was a shortage of materials.",
+        "exampleJa": "遅れの主な原因は材料不足でした。"
+      }
+    ]
+  },
+  {
+    "id": "v2354",
+    "word": "pupil",
+    "meaningJa": "児童；生徒",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Each pupil received a new notebook.",
+    "exampleJa": "児童は一人ずつ新しいノートを受け取りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "主に学校で学ぶ子どもを指す基本名詞として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "瞳孔",
+        "example": "The pupil becomes smaller in bright light.",
+        "exampleJa": "明るい光の中では瞳孔が小さくなります。"
+      }
+    ]
+  },
+  {
+    "id": "v2355",
+    "word": "semester",
+    "meaningJa": "学期（通常は二学期制の一学期）",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She will take a history course next semester.",
+    "exampleJa": "彼女は来学期に歴史の授業を取る予定です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "学校制度や履修計画を説明する高校基礎の名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は一年を二つに分けた学期の一つを指します。制度によって学期の長さは異なります。"
+  },
+  {
+    "id": "v2356",
+    "word": "absence",
+    "meaningJa": "不在；欠席",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The teacher asked about his absence from class.",
+    "exampleJa": "先生は彼が授業を欠席したことについて尋ねました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人や物が存在しない状態を表す基本的な抽象名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "欠如；存在しないこと",
+        "example": "The absence of evidence does not prove the claim false.",
+        "exampleJa": "証拠がないことは、その主張が誤りである証明にはなりません。"
+      }
+    ]
+  },
+  {
+    "id": "v2357",
+    "word": "grade",
+    "meaningJa": "成績；評価の等級",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She received a good grade on her science project.",
+    "exampleJa": "彼女は理科の課題でよい成績を取りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校での学習成果を表す身近な基本義として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "学年（主に米国）",
+        "example": "My sister is in the fourth grade.",
+        "exampleJa": "妹は四年生です。"
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "採点する；等級を付ける",
+        "example": "The teacher will grade the essays this weekend.",
+        "exampleJa": "先生は今週末に作文を採点します。"
+      }
+    ]
+  },
+  {
+    "id": "v2358",
+    "word": "quiz",
+    "meaningJa": "小テスト；クイズ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We had a short quiz at the end of the lesson.",
+    "exampleJa": "私たちは授業の終わりに短い小テストを受けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "教室での確認問題や遊びの問題を指す日常的な名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2359",
+    "word": "academy",
+    "meaningJa": "専門学校；学術団体",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She studied painting at an art academy.",
+    "exampleJa": "彼女は美術学校で絵画を学びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "特定分野を教える学校や学術組織を表す高校基礎の語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2360",
+    "word": "academic",
+    "meaningJa": "学問の；学業の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The school offers support for academic writing.",
+    "exampleJa": "その学校は学術的な文章を書くための支援を提供しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "教育や研究に関する性質を述べる基本的な読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "大学教員；研究者",
+        "example": "An academic from the local university led the discussion.",
+        "exampleJa": "地元の大学の研究者が議論を進行しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2361",
+    "word": "scholar",
+    "meaningJa": "学者；研究者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The scholar spent years studying ancient letters.",
+    "exampleJa": "その学者は古代の手紙を研究して何年も過ごしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "研究を行う人を表す名詞として高校基礎の人文読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2362",
+    "word": "tutor",
+    "meaningJa": "家庭教師；個別指導の先生",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A tutor helped him understand the difficult chapter.",
+    "exampleJa": "個別指導の先生が彼の難しい章の理解を助けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "少人数や個別の学習を支える人を指す教育語彙として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2363",
+    "word": "lecturer",
+    "meaningJa": "講師；講演者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The lecturer answered questions after the talk.",
+    "exampleJa": "講演者は話の後で質問に答えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "大学の授業や講演を行う人を表す高校基礎の名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2364",
+    "word": "kindergarten",
+    "meaningJa": "幼稚園；就学前教育のクラス",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The children grow flowers at their kindergarten.",
+    "exampleJa": "子どもたちは幼稚園で花を育てています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "幼い子どもの教育施設を表す具体的な基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "具体的な年齢や制度は国により異なります。米国では一般に小学校一年生の前の教育段階を指します。"
+  },
+  {
+    "id": "v2365",
+    "word": "nursery",
+    "meaningJa": "保育施設；子ども部屋",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She takes her son to the nursery before work.",
+    "exampleJa": "彼女は仕事の前に息子を保育施設へ連れて行きます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "育児や生活環境を説明する名詞として高校基礎で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "苗木栽培場；苗木販売所",
+        "example": "We bought young apple trees from a local nursery.",
+        "exampleJa": "私たちは地元の苗木販売所でリンゴの若木を買いました。"
+      }
+    ]
+  },
+  {
+    "id": "v2366",
+    "word": "preschool",
+    "meaningJa": "就学前教育の施設；幼稚園・保育園",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The preschool provides time for music and outdoor play.",
+    "exampleJa": "その就学前教育の施設では音楽や外遊びの時間を設けています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "幼児教育に関する身近な施設名として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2367",
+    "word": "undergraduate",
+    "meaningJa": "大学の学部学生",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "As an undergraduate, she studied both biology and history.",
+    "exampleJa": "彼女は学部学生のとき、生物学と歴史の両方を学びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "大学院生との区別を伴う教育制度の語として標準入試で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "最初の学位取得に向けて大学で学ぶ学生を指します。undergraduate courseのように形容詞としても使います。"
+  },
+  {
+    "id": "v2368",
+    "word": "postgraduate",
+    "meaningJa": "大学院生",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The postgraduate presented his research at a seminar.",
+    "exampleJa": "その大学院生はゼミで研究を発表しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "学部卒業後の教育段階を示す名詞として標準的な教育読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主に英国で使う語で、米国ではgraduate studentが一般的です。postgraduate studyのように形容詞としても使います。"
+  },
+  {
+    "id": "v2369",
+    "word": "enroll",
+    "meaningJa": "入学する；登録する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "You can enroll in the course online.",
+    "exampleJa": "その講座にはオンラインで登録できます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "学校や講座への参加手続きを表す高校基礎の動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "英国ではenrolとも綴ります。enroll in a courseで「講座に登録する」を表します。"
+  },
+  {
+    "id": "v2370",
+    "word": "absent",
+    "meaningJa": "欠席して；不在の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "He was absent from school yesterday.",
+    "exampleJa": "彼は昨日学校を欠席しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校生活で人がいないことを示す基本的な形容詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "be absent fromで「〜を欠席している・〜に不在である」を表します。"
+  },
+  {
+    "id": "v2371",
+    "word": "compulsory",
+    "meaningJa": "義務的な；必修の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "This course is compulsory for all new students.",
+    "exampleJa": "この授業はすべての新入生にとって必修です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "制度によって義務付けられることを示す標準的な社会・教育語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2372",
+    "word": "mandatory",
+    "meaningJa": "義務付けられた；必須の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Attendance at the safety workshop is mandatory.",
+    "exampleJa": "安全講習への出席は義務付けられています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "規則による義務を述べる硬い形容詞として発展的な社会読解で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2373",
+    "word": "optional",
+    "meaningJa": "任意の；選択できる",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The afternoon workshop is optional.",
+    "exampleJa": "午後の講習会への参加は任意です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "選択や参加の自由を説明する高校基礎の案内語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2374",
+    "word": "literate",
+    "meaningJa": "読み書きのできる",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The program helps adults become literate.",
+    "exampleJa": "そのプログラムは大人が読み書きできるようになるのを助けます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "教育の機会や識字能力を論じる標準的な社会読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2375",
+    "word": "illiterate",
+    "meaningJa": "読み書きのできない",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The lessons are designed for adults who are illiterate.",
+    "exampleJa": "その授業は読み書きのできない大人のために設計されています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "教育へのアクセスや識字の課題を説明する社会読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2376",
+    "word": "arithmetic",
+    "meaningJa": "算数；四則計算",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The game helps children practice basic arithmetic.",
+    "exampleJa": "そのゲームは子どもたちの基礎的な計算の練習に役立ちます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数を使う基本的な計算を指す学習語彙として高校基礎で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2377",
+    "word": "algebra",
+    "meaningJa": "代数学",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "In algebra, letters can represent unknown numbers.",
+    "exampleJa": "代数学では文字が未知の数を表すことがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "数学の分野名として、学習や科学を扱う標準読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2378",
+    "word": "geometry",
+    "meaningJa": "幾何学",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Geometry helps us understand shapes and angles.",
+    "exampleJa": "幾何学は形や角度の理解に役立ちます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "図形を扱う数学の分野名として標準的な科学読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2379",
+    "word": "calculus",
+    "meaningJa": "微積分学",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Calculus is useful for describing continuous change.",
+    "exampleJa": "微積分学は連続的な変化を記述するのに役立ちます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "変化や量を扱う数学の専門分野名として発展的な科学読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2380",
+    "word": "mathematics",
+    "meaningJa": "数学；算数",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Mathematics is my favorite subject.",
+    "exampleJa": "数学は私の一番好きな教科です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校の基本的な教科名として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "学問名なので語尾がsでも単数扱いです。短い形は英国ではmaths、米国ではmathです。"
+  },
+  {
+    "id": "v2381",
+    "word": "punctuation",
+    "meaningJa": "句読法；句読点",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Correct punctuation makes a sentence easier to read.",
+    "exampleJa": "正しい句読点の使い方は文を読みやすくします。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "文章を書く際の記号の使い方を表す高校基礎の学習語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2382",
+    "word": "fluency",
+    "meaningJa": "流暢さ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Regular conversation practice improved her fluency.",
+    "exampleJa": "定期的な会話練習で彼女の流暢さが向上しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "言語運用の滑らかさを評価する名詞として標準的な教育読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2383",
+    "word": "fluent",
+    "meaningJa": "流暢な；すらすら話せる",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "He is fluent in both English and Spanish.",
+    "exampleJa": "彼は英語とスペイン語の両方を流暢に話せます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "言語能力を説明する基本的な形容詞として高校基礎で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "be fluent in a languageで「ある言語を流暢に使える」を表します。"
+  },
+  {
+    "id": "v2384",
+    "word": "spelling",
+    "meaningJa": "綴り；綴り方",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Please check the spelling of your name.",
+    "exampleJa": "自分の名前の綴りを確認してください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "語を書く際の身近な学習内容を表す名詞として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2385",
+    "word": "revise",
+    "meaningJa": "修正する；改訂する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "We need to revise the plan before the meeting.",
+    "exampleJa": "私たちは会議の前に計画を修正する必要があります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "文章や計画を見直す基本義を高校基礎の動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「試験のために復習する」という意味は主に英国で使います。米国では通常reviewを使います。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "復習する（主に英国）",
+        "example": "I will revise for the history exam tonight.",
+        "exampleJa": "今夜、私は歴史の試験に向けて復習します。"
+      }
+    ]
+  },
+  {
+    "id": "v2386",
+    "word": "memorize",
+    "meaningJa": "暗記する",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "I use pictures to memorize new words.",
+    "exampleJa": "私は新しい単語を暗記するために絵を使います。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な学習方法を表す具体的な動詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "memoriseという綴りもあります。同じ語として扱います。"
+  },
+  {
+    "id": "v2387",
+    "word": "recite",
+    "meaningJa": "暗唱する；朗読する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The students will recite a poem at the ceremony.",
+    "exampleJa": "生徒たちは式で詩を暗唱します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "記憶した文章などを声に出す行為を表す標準的な学習・文化語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2388",
+    "word": "repetition",
+    "meaningJa": "繰り返し；反復",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Repetition can help us remember unfamiliar sounds.",
+    "exampleJa": "反復は聞き慣れない音を覚える助けになることがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "学習や行動の繰り返しを名詞で表す高校基礎の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2389",
+    "word": "instruct",
+    "meaningJa": "指示する；教える",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The guide will instruct visitors to keep away from the edge.",
+    "exampleJa": "案内人は訪問者に端に近づかないよう指示します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行動の指示や手順を教える行為を表す高校基礎の動詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "instruct someone to doで「人に〜するよう指示する」を表します。"
+  },
+  {
+    "id": "v2390",
+    "word": "thesaurus",
+    "meaningJa": "類語辞典",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "A thesaurus can help you find an alternative expression.",
+    "exampleJa": "類語辞典は別の表現を探す助けになります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "類義語を調べる専門的な辞書名として発展的な言語・教育読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2391",
+    "word": "bibliography",
+    "meaningJa": "参考文献一覧；書誌",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The bibliography lists all the books used in the research.",
+    "exampleJa": "参考文献一覧には研究で使ったすべての本が載っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "研究資料や文章の出典を示す専門的な学術語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2392",
+    "word": "citation",
+    "meaningJa": "引用；出典の明示",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Each citation should identify the source clearly.",
+    "exampleJa": "各引用では出典を明確に示す必要があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "研究の根拠や出典の扱いを表す発展的な学術読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2393",
+    "word": "plagiarism",
+    "meaningJa": "盗用；剽窃",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The university teaches students how to avoid plagiarism.",
+    "exampleJa": "その大学は盗用を避ける方法を学生に教えています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "他者の文章や考えの無断流用を表す研究倫理の読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2394",
+    "word": "evaluation",
+    "meaningJa": "評価；査定",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The evaluation considered both accuracy and clarity.",
+    "exampleJa": "その評価では正確さと明確さの両方が考慮されました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "基準に照らして価値や成果を判断する標準的な抽象名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2395",
+    "word": "diligence",
+    "meaningJa": "勤勉さ；入念さ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Her diligence helped the team finish the project on time.",
+    "exampleJa": "彼女の勤勉さはチームが予定どおりに企画を終える助けになりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "仕事や学習への継続的で丁寧な取り組みを表す発展的な抽象語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2396",
+    "word": "comprehension",
+    "meaningJa": "理解；理解力",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The questions test reading comprehension.",
+    "exampleJa": "その設問は読解力を測ります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "文章や情報の理解を表す名詞として標準的な教育・心理読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2397",
+    "word": "faculty",
+    "meaningJa": "学部；教員陣",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The faculty of engineering offers a course in robotics.",
+    "exampleJa": "その工学部はロボット工学の授業を提供しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "大学の組織や教員を指す教育制度の語として標準入試で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "大学の学部を指す用法は主に英国、教員陣を指す用法は主に米国で使います。生来の能力を指す意味もあります。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "教員陣（主に米国）",
+        "example": "The faculty voted to introduce a new course.",
+        "exampleJa": "教員陣は新しい授業の導入を票決しました。"
+      },
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "能力；機能",
+        "example": "Language relies on the human faculty for symbolic thought.",
+        "exampleJa": "言語は人間の記号を用いて考える能力に依存しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2398",
+    "word": "campus",
+    "meaningJa": "大学の構内；キャンパス",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "There is a small lake on the campus.",
+    "exampleJa": "大学の構内には小さな湖があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "大学生活の場所を表す具体的な基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2399",
+    "word": "dormitory",
+    "meaningJa": "学生寮；寄宿舎",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She lives in a dormitory near the library.",
+    "exampleJa": "彼女は図書館の近くの学生寮に住んでいます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "学生生活や宿泊施設を説明する高校基礎の語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2400",
+    "word": "uniform",
+    "meaningJa": "制服",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He put on his school uniform after breakfast.",
+    "exampleJa": "彼は朝食後に学校の制服を着ました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校や仕事で着る身近な衣服名として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "均一な；一様な",
+        "example": "The seeds need a uniform temperature to grow well.",
+        "exampleJa": "その種がよく育つには一定の温度が必要です。"
+      }
+    ]
+  }
+]

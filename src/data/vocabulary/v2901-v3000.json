@@ -1,0 +1,2184 @@
+[
+  {
+    "id": "v2901",
+    "word": "crouch",
+    "meaningJa": "しゃがむ；身をかがめる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We had to crouch to enter the low passage.",
+    "exampleJa": "低い通路に入るために、私たちは身をかがめなければなりませんでした。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "姿勢を描写する動作語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2902",
+    "word": "lean",
+    "meaningJa": "傾く；寄りかかる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Do not lean against the glass door.",
+    "exampleJa": "ガラスのドアに寄りかからないでください。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の姿勢や動きを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "過去形・過去分詞はleanedのほかleantもあります。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "脂肪の少ない；無駄のない",
+        "example": "This recipe uses lean meat.",
+        "exampleJa": "このレシピでは脂肪の少ない肉を使います。"
+      }
+    ]
+  },
+  {
+    "id": "v2903",
+    "word": "roam",
+    "meaningJa": "歩き回る；放浪する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Wild horses roam across the plain.",
+    "exampleJa": "野生の馬が平原を歩き回っています。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人や動物の自由な移動を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2904",
+    "word": "sprint",
+    "meaningJa": "全速力で走る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The runners sprint toward the finish line.",
+    "exampleJa": "走者たちはゴールに向かって全速力で走ります。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "運動の場面で速度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2905",
+    "word": "dash",
+    "meaningJa": "突進する；急いで走る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "We had to dash to catch the bus.",
+    "exampleJa": "私たちはバスに間に合うよう急いで走らなければなりませんでした。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "急な動きを描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "ダッシュ記号；少量",
+        "example": "Add a dash of salt to the soup.",
+        "exampleJa": "スープに塩を少量加えてください。"
+      }
+    ]
+  },
+  {
+    "id": "v2906",
+    "word": "stumble",
+    "meaningJa": "つまずく；よろめく",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Be careful not to stumble over the cable.",
+    "exampleJa": "ケーブルにつまずかないよう注意してください。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "動作の失敗や不安定さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2907",
+    "word": "tumble",
+    "meaningJa": "転がり落ちる；倒れ込む",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Loose stones may tumble down the slope.",
+    "exampleJa": "緩んだ石が斜面を転がり落ちることがあります。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "落下の様子を具体的に描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2908",
+    "word": "tiptoe",
+    "meaningJa": "つま先でそっと歩く",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "We tiptoe past the sleeping baby.",
+    "exampleJa": "私たちは眠っている赤ちゃんのそばをつま先でそっと歩いて通ります。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "静かな歩き方を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2909",
+    "word": "glimpse",
+    "meaningJa": "ちらりと見ること",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "I caught a glimpse of the sea from the train.",
+    "exampleJa": "私は列車から海をちらりと見ました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "短い視覚経験を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "catch a glimpse of ... で「〜をちらりと見る」。動詞としても使います。"
+  },
+  {
+    "id": "v2910",
+    "word": "peek",
+    "meaningJa": "ちらっとのぞく",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "You can peek through the small window.",
+    "exampleJa": "小さな窓からちらっとのぞけます。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "短時間のぞく動きを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2911",
+    "word": "blink",
+    "meaningJa": "まばたきする",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Bright light made me blink.",
+    "exampleJa": "明るい光で私はまばたきしました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な目の動きを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2912",
+    "word": "wink",
+    "meaningJa": "ウインクする；片目をつぶる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "I saw him wink at his friend.",
+    "exampleJa": "私は彼が友人にウインクするのを見ました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "表情を用いた意思伝達の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2913",
+    "word": "frown",
+    "meaningJa": "眉をひそめる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "People sometimes frown when they are confused.",
+    "exampleJa": "人は戸惑うと眉をひそめることがあります。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "感情を表す表情の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "frown at ... は「〜を見て眉をひそめる」、frown on ... は「〜に難色を示す」。"
+  },
+  {
+    "id": "v2914",
+    "word": "grin",
+    "meaningJa": "にっと笑う；歯を見せて笑う",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The children grin when they see the puppy.",
+    "exampleJa": "子供たちは子犬を見るとにっと笑います。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "笑顔の様子を具体的に表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2915",
+    "word": "blush",
+    "meaningJa": "顔を赤らめる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "I tend to blush when people praise me.",
+    "exampleJa": "私は人に褒められると顔を赤らめがちです。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "感情に伴う身体の変化を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2916",
+    "word": "hiccup",
+    "meaningJa": "しゃっくり",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A loud hiccup interrupted his speech.",
+    "exampleJa": "大きなしゃっくりが彼の話を中断させました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な身体の現象を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2917",
+    "word": "sniff",
+    "meaningJa": "鼻をすする；くんくん嗅ぐ",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The dogs sniff the bags carefully.",
+    "exampleJa": "犬たちは袋を注意深くくんくん嗅ぎます。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "鼻を使う動作を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2918",
+    "word": "snore",
+    "meaningJa": "いびきをかく",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Some people snore while they sleep.",
+    "exampleJa": "寝ている間にいびきをかく人もいます。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "睡眠時の動作を表す日常語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2919",
+    "word": "sob",
+    "meaningJa": "すすり泣く",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The child began to sob quietly.",
+    "exampleJa": "子供は静かにすすり泣き始めました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "悲しみの表れを描写する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2920",
+    "word": "weep",
+    "meaningJa": "泣く；涙を流す",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The story made her weep.",
+    "exampleJa": "その物語は彼女を泣かせました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物語で感情を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "過去形・過去分詞はweptです。"
+  },
+  {
+    "id": "v2921",
+    "word": "giggle",
+    "meaningJa": "くすくす笑う",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The children giggle at the funny picture.",
+    "exampleJa": "子供たちは面白い絵を見てくすくす笑います。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "笑い方を具体的に表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2922",
+    "word": "chuckle",
+    "meaningJa": "くすっと笑う",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The joke made him chuckle.",
+    "exampleJa": "その冗談に彼はくすっと笑いました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "小さな笑いを描く物語語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2923",
+    "word": "mumble",
+    "meaningJa": "ぼそぼそ言う；不明瞭に話す",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Please speak clearly and do not mumble.",
+    "exampleJa": "ぼそぼそ言わず、はっきり話してください。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "話し方を描写する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "声が小さかったり発音が不明瞭だったりして、言葉が聞き取りにくい話し方です。"
+  },
+  {
+    "id": "v2924",
+    "word": "mutter",
+    "meaningJa": "小声でつぶやく",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "I heard him mutter a complaint.",
+    "exampleJa": "私は彼が小声で不満をつぶやくのを聞きました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "低い声での発話を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2925",
+    "word": "murmur",
+    "meaningJa": "静かにつぶやく；ささやく",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The guests murmur softly in the hall.",
+    "exampleJa": "客たちは広間で静かにささやいています。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "静かな発話や音を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2926",
+    "word": "groan",
+    "meaningJa": "うめく；不満の声を上げる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The heavy workload made everyone groan.",
+    "exampleJa": "重い仕事量に全員が不満の声を上げました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "苦痛や不満の表現を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2927",
+    "word": "moan",
+    "meaningJa": "うめく；嘆く",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "We heard the injured animal moan.",
+    "exampleJa": "私たちは傷ついた動物がうめくのを聞きました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "苦痛の声を描く動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2928",
+    "word": "sip",
+    "meaningJa": "少しずつ飲む",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "I sip hot tea while reading.",
+    "exampleJa": "私は読書をしながら熱いお茶を少しずつ飲みます。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の飲み方を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2929",
+    "word": "lick",
+    "meaningJa": "〜をなめる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "The cat began to lick its paw.",
+    "exampleJa": "猫は自分の前足をなめ始めました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な動物や食事の動作語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2930",
+    "word": "suck",
+    "meaningJa": "〜を吸う；吸い込む",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The pump can suck water out of the tank.",
+    "exampleJa": "そのポンプはタンクから水を吸い出せます。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "吸引する動作を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2931",
+    "word": "bite",
+    "meaningJa": "〜をかむ；かみつく",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Be careful because this dog may bite.",
+    "exampleJa": "この犬はかみつくかもしれないので注意してください。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な動作を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "過去形はbit、過去分詞はbittenです。"
+  },
+  {
+    "id": "v2932",
+    "word": "nibble",
+    "meaningJa": "少しずつかじる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Rabbits nibble the leaves in the garden.",
+    "exampleJa": "ウサギは庭の葉を少しずつかじります。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "食べ方を細かく描写する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2933",
+    "word": "gulp",
+    "meaningJa": "〜をごくりと飲む；急いで飲み込む",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Do not gulp your drink too quickly.",
+    "exampleJa": "飲み物をあまり急いで飲み込まないでください。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "飲み込む様子を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2934",
+    "word": "spit",
+    "meaningJa": "〜を吐き出す；つばを吐く",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Please spit out the seeds.",
+    "exampleJa": "種を吐き出してください。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "口から出す動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "過去形・過去分詞はspatまたはspitです。"
+  },
+  {
+    "id": "v2935",
+    "word": "digest",
+    "meaningJa": "〜を消化する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The body takes time to digest food.",
+    "exampleJa": "体が食物を消化するには時間がかかります。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身体の働きを読む基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜を理解して吸収する",
+        "example": "I need time to digest this information.",
+        "exampleJa": "私はこの情報を理解して吸収する時間が必要です。"
+      }
+    ]
+  },
+  {
+    "id": "v2936",
+    "word": "inhale",
+    "meaningJa": "〜を吸い込む；息を吸う",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The machine measures how much air people inhale.",
+    "exampleJa": "その機械は人が吸い込む空気の量を測定します。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "呼吸の方向を区別する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "吸い込むことです。息を吐くことはexhaleです。"
+  },
+  {
+    "id": "v2937",
+    "word": "exhale",
+    "meaningJa": "〜を吐き出す；息を吐く",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We exhale air through the nose or mouth.",
+    "exampleJa": "私たちは鼻や口から空気を吐き出します。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "呼吸の方向を区別する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "息を吐くことです。吸い込むことはinhaleです。"
+  },
+  {
+    "id": "v2938",
+    "word": "shiver",
+    "meaningJa": "震える",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The cold wind made us shiver.",
+    "exampleJa": "冷たい風に私たちは震えました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "寒さや恐怖による動きを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2939",
+    "word": "tremble",
+    "meaningJa": "震える；おののく",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Her hands began to tremble with fear.",
+    "exampleJa": "彼女の手は恐怖で震え始めました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "感情や身体の揺れを描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2940",
+    "word": "quiver",
+    "meaningJa": "小刻みに震える",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The leaves quiver in the breeze.",
+    "exampleJa": "葉がそよ風で小刻みに震えています。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "微かな震えを描く発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2941",
+    "word": "shrug",
+    "meaningJa": "肩をすくめる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "He could only shrug when asked for an explanation.",
+    "exampleJa": "説明を求められて、彼は肩をすくめることしかできませんでした。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "非言語的な反応を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "肩をすくめるしぐさで、分からないことや関心のなさなどを示します。"
+  },
+  {
+    "id": "v2942",
+    "word": "clap",
+    "meaningJa": "手をたたく；拍手する",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "The audience began to clap.",
+    "exampleJa": "観客は拍手し始めました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な反応を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2943",
+    "word": "beckon",
+    "meaningJa": "手招きする；合図して呼ぶ",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "She will beckon to us when it is time to enter.",
+    "exampleJa": "入る時間になったら、彼女は私たちに手招きします。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "身ぶりで呼ぶ動作を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2944",
+    "word": "hug",
+    "meaningJa": "〜を抱きしめる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "She ran to hug her sister.",
+    "exampleJa": "彼女は妹を抱きしめようと走りました。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な感情表現の動作語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2945",
+    "word": "cuddle",
+    "meaningJa": "〜を優しく抱きしめる；寄り添う",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The children cuddle their soft toys.",
+    "exampleJa": "子供たちはぬいぐるみを優しく抱きしめています。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "親しさを示す動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2946",
+    "word": "pinch",
+    "meaningJa": "〜をつまむ；つねる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Pinch the edges of the dough together.",
+    "exampleJa": "生地の端をつまんでくっつけてください。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "指を使う細かな動作の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "ひとつまみ",
+        "example": "Add a pinch of pepper.",
+        "exampleJa": "コショウをひとつまみ加えてください。"
+      }
+    ]
+  },
+  {
+    "id": "v2947",
+    "word": "punch",
+    "meaningJa": "〜を拳で殴る；穴を開ける",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Use this tool to punch a hole in the paper.",
+    "exampleJa": "この道具で紙に穴を開けてください。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "強い打撃や穴開けを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2948",
+    "word": "slap",
+    "meaningJa": "〜を平手でたたく",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The waves slap against the side of the boat.",
+    "exampleJa": "波が船の側面をぴしゃぴしゃとたたきます。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "平手やそれに似た音の動作を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2949",
+    "word": "scratch",
+    "meaningJa": "〜をひっかく；かく",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "These branches may scratch the window.",
+    "exampleJa": "これらの枝は窓をひっかくかもしれません。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な接触動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2950",
+    "word": "rub",
+    "meaningJa": "〜をこする",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Rub the surface gently with a soft cloth.",
+    "exampleJa": "柔らかい布で表面を優しくこすってください。",
+    "category": "日常動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な手の動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2951",
+    "word": "pat",
+    "meaningJa": "〜を軽くたたく；優しくなでる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "She reached down to pat the dog.",
+    "exampleJa": "彼女は犬を優しくなでようと手を下に伸ばしました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な接触動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2952",
+    "word": "poke",
+    "meaningJa": "〜をつつく",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Do not poke the bag with a sharp stick.",
+    "exampleJa": "とがった棒で袋をつつかないでください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "先の細い物による動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2953",
+    "word": "prod",
+    "meaningJa": "〜を突く；促す",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "He used a stick to prod the soft ground.",
+    "exampleJa": "彼は棒で柔らかい地面を突きました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "接触と働きかけを描く動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2954",
+    "word": "grip",
+    "meaningJa": "〜をしっかり握る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Grip the handle firmly with both hands.",
+    "exampleJa": "両手で取っ手をしっかり握ってください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "力の入った保持を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "理解；把握",
+        "example": "She has a good grip on the main issues.",
+        "exampleJa": "彼女は主要な問題をよく把握しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2955",
+    "word": "clutch",
+    "meaningJa": "〜をぎゅっとつかむ",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The children clutch their bags as the bus turns.",
+    "exampleJa": "バスが曲がると、子供たちはかばんをぎゅっとつかみます。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "切迫した場面の動作を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2956",
+    "word": "cling",
+    "meaningJa": "しがみつく；くっつく",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Wet leaves cling to the window.",
+    "exampleJa": "ぬれた葉が窓にくっついています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "強く付着する様子を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常はcling to ...の形です。過去形・過去分詞はclungです。"
+  },
+  {
+    "id": "v2957",
+    "word": "drag",
+    "meaningJa": "〜を引きずる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Do not drag the chair across the floor.",
+    "exampleJa": "床の上で椅子を引きずらないでください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な物の移動を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2958",
+    "word": "haul",
+    "meaningJa": "〜を苦労して運ぶ；引っ張る",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The workers haul heavy boxes onto the truck.",
+    "exampleJa": "作業員たちは重い箱をトラックに運び上げます。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "重い物を運ぶ動作を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2959",
+    "word": "shove",
+    "meaningJa": "〜を強く押す；押し込む",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Do not shove people in the queue.",
+    "exampleJa": "列に並んでいる人を強く押さないでください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "強引な押す動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2960",
+    "word": "tug",
+    "meaningJa": "〜をぐいと引く",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Tug the rope gently to ring the bell.",
+    "exampleJa": "鐘を鳴らすにはロープを優しくぐいと引いてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "短く引く動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2961",
+    "word": "yank",
+    "meaningJa": "〜を急に強く引く",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Do not yank the cord out of the wall.",
+    "exampleJa": "壁からコードを急に強く引き抜かないでください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "急激に引く動作を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2962",
+    "word": "spin",
+    "meaningJa": "回転する；〜を回す",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The wheels spin freely.",
+    "exampleJa": "車輪は滑らかに回転します。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "回転運動を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "過去形・過去分詞はspunです。"
+  },
+  {
+    "id": "v2963",
+    "word": "rotate",
+    "meaningJa": "回転する；〜を回転させる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Rotate the image to the left.",
+    "exampleJa": "画像を左に回転させてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "方向の変更や回転を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2964",
+    "word": "whirl",
+    "meaningJa": "くるくる回る；渦を巻く",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Dry leaves whirl in the wind.",
+    "exampleJa": "枯れ葉が風の中でくるくる回っています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "速い回転の様子を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2965",
+    "word": "sway",
+    "meaningJa": "揺れる；〜を揺らす",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Tall trees sway in the breeze.",
+    "exampleJa": "背の高い木々がそよ風で揺れています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "緩やかな往復運動を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜の意見を左右する",
+        "example": "The speech may sway public opinion.",
+        "exampleJa": "その演説は世論を左右するかもしれません。"
+      }
+    ]
+  },
+  {
+    "id": "v2966",
+    "word": "tilt",
+    "meaningJa": "〜を傾ける；傾く",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Tilt the bowl to pour out the water.",
+    "exampleJa": "水を流し出すためにボウルを傾けてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "角度を変える動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2967",
+    "word": "flip",
+    "meaningJa": "〜をひっくり返す",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Flip the pancake when bubbles appear.",
+    "exampleJa": "泡が出たらパンケーキをひっくり返してください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常の反転動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2968",
+    "word": "toss",
+    "meaningJa": "〜を軽く投げる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Toss the ball to your partner.",
+    "exampleJa": "相手にボールを軽く投げてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "投げ方を具体的に表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2969",
+    "word": "fling",
+    "meaningJa": "〜を勢いよく投げる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Do not fling your clothes onto the floor.",
+    "exampleJa": "服を床に勢いよく投げないでください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "勢いのある動作を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "過去形・過去分詞はflungです。"
+  },
+  {
+    "id": "v2970",
+    "word": "hurl",
+    "meaningJa": "〜を力いっぱい投げる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The waves hurl stones against the wall.",
+    "exampleJa": "波が壁に向かって石を力いっぱい投げつけます。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "強い投げつけを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2971",
+    "word": "untie",
+    "meaningJa": "〜の結び目をほどく",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please untie the rope around the box.",
+    "exampleJa": "箱に巻かれたロープの結び目をほどいてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の基本動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2972",
+    "word": "fasten",
+    "meaningJa": "〜を留める；締める",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please fasten your seat belt.",
+    "exampleJa": "シートベルトを締めてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "安全案内や日常動作の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "tは通常発音しません。fasten a seat beltで「シートベルトを締める」。"
+  },
+  {
+    "id": "v2973",
+    "word": "unfasten",
+    "meaningJa": "〜を外す；緩めて開く",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Unfasten the strap before opening the bag.",
+    "exampleJa": "かばんを開ける前にストラップを外してください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "留め具を外す動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2974",
+    "word": "loosen",
+    "meaningJa": "〜を緩める；緩む",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Loosen the lid slightly before lifting it.",
+    "exampleJa": "ふたを持ち上げる前に少し緩めてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "締まりを弱める動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2975",
+    "word": "tighten",
+    "meaningJa": "〜を締める；きつくする",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Use a tool to tighten the screw.",
+    "exampleJa": "道具を使ってねじを締めてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "締まりを強める動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2976",
+    "word": "lock",
+    "meaningJa": "〜に鍵をかける",
+    "partOfSpeech": "verb",
+    "level": 1,
+    "example": "Remember to lock the door.",
+    "exampleJa": "忘れずにドアに鍵をかけてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "暮らしの基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2977",
+    "word": "unlock",
+    "meaningJa": "〜の鍵を開ける",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Use this key to unlock the gate.",
+    "exampleJa": "この鍵で門の鍵を開けてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "暮らしの基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2978",
+    "word": "splash",
+    "meaningJa": "〜をはねかける；はねる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Do not splash water on the camera.",
+    "exampleJa": "カメラに水をはねかけないでください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な水の動きを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2979",
+    "word": "sprinkle",
+    "meaningJa": "〜を振りかける；まく",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Sprinkle some sugar over the fruit.",
+    "exampleJa": "果物に砂糖を少し振りかけてください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "少量を散らす動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2980",
+    "word": "scatter",
+    "meaningJa": "〜をまき散らす；散らばる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The wind can scatter seeds over long distances.",
+    "exampleJa": "風は種を遠くまでまき散らすことができます。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物の分散を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2981",
+    "word": "scrape",
+    "meaningJa": "〜をこすり取る；こすりつける",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Scrape the mud off your shoes.",
+    "exampleJa": "靴の泥をこすり取ってください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "表面から取り除く動作の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2982",
+    "word": "scrub",
+    "meaningJa": "〜をごしごし洗う",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Scrub the pan with a brush.",
+    "exampleJa": "ブラシでフライパンをごしごし洗ってください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常の清掃動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2983",
+    "word": "stain",
+    "meaningJa": "しみ；汚れ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "There is a coffee stain on the tablecloth.",
+    "exampleJa": "テーブルクロスにコーヒーのしみがあります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物の表面の状態を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜にしみをつける",
+        "example": "This juice can stain your shirt.",
+        "exampleJa": "このジュースはシャツにしみをつけることがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v2984",
+    "word": "soak",
+    "meaningJa": "〜を浸す；ずぶぬれにする",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Soak the cloth in warm water.",
+    "exampleJa": "布をぬるま湯に浸してください。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "水分を吸わせる動作の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2985",
+    "word": "damp",
+    "meaningJa": "湿った",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The grass was still damp after the rain.",
+    "exampleJa": "雨の後、草はまだ湿っていました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "水分のある状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "少しぬれている状態を表し、不快な湿り気について使うことも多い語です。"
+  },
+  {
+    "id": "v2986",
+    "word": "moist",
+    "meaningJa": "適度に湿った；しっとりした",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The cake stayed moist inside the container.",
+    "exampleJa": "ケーキは容器の中でしっとりしたままでした。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "水分や質感を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "少量の水分を含む状態で、食品や土などの望ましい湿り気にも使います。"
+  },
+  {
+    "id": "v2987",
+    "word": "humid",
+    "meaningJa": "湿度の高い；蒸し暑い",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The weather is hot and humid today.",
+    "exampleJa": "今日は暑くて湿度が高いです。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "気候の基本的な性質を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主に空気や気候の湿度について使います。物の表面の湿り気はdampやmoistなどで表します。"
+  },
+  {
+    "id": "v2988",
+    "word": "rotten",
+    "meaningJa": "腐った",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "We removed the rotten apples from the box.",
+    "exampleJa": "私たちは箱から腐ったリンゴを取り除きました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食物や物の変質を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2989",
+    "word": "bland",
+    "meaningJa": "味の薄い；特徴に乏しい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The soup tasted bland without salt.",
+    "exampleJa": "塩がないとスープは味が薄く感じられました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "味や印象の乏しさを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2990",
+    "word": "crisp",
+    "meaningJa": "ぱりっとした；歯切れのよい",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The salad contains crisp lettuce.",
+    "exampleJa": "そのサラダにはしゃきっとしたレタスが入っています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "食感や明瞭さを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2991",
+    "word": "crunchy",
+    "meaningJa": "かりかりした；歯ごたえのある",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "These biscuits are crunchy.",
+    "exampleJa": "このビスケットはかりかりしています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "音を伴う食感を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2992",
+    "word": "slippery",
+    "meaningJa": "滑りやすい",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The steps are slippery after the rain.",
+    "exampleJa": "雨の後、階段は滑りやすくなっています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な危険や表面の状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2993",
+    "word": "sticky",
+    "meaningJa": "粘着性のある；べたべたする",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The spilled juice made the table sticky.",
+    "exampleJa": "こぼれたジュースでテーブルがべたべたになりました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "触ったときの状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2994",
+    "word": "greasy",
+    "meaningJa": "油っぽい；油で汚れた",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The paper bag became greasy.",
+    "exampleJa": "紙袋は油っぽくなりました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "食物や表面の油分を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2995",
+    "word": "muddy",
+    "meaningJa": "泥だらけの；ぬかるんだ",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The path became muddy after the storm.",
+    "exampleJa": "嵐の後、小道はぬかるみました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な地面の状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2996",
+    "word": "dusty",
+    "meaningJa": "ほこりっぽい；ほこりをかぶった",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "We found a dusty box in the attic.",
+    "exampleJa": "私たちは屋根裏でほこりをかぶった箱を見つけました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な場所や物の状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2997",
+    "word": "rusty",
+    "meaningJa": "さびた",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The old gate has a rusty lock.",
+    "exampleJa": "古い門にはさびた錠が付いています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "金属の状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "技能について使うと、長く使っていないため「腕が鈍った」という意味になります。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "腕が鈍った；知識が古くなった",
+        "example": "My French is rusty after years without practice.",
+        "exampleJa": "何年も練習していないので、私のフランス語の腕は鈍っています。"
+      }
+    ]
+  },
+  {
+    "id": "v2998",
+    "word": "sturdy",
+    "meaningJa": "頑丈な；丈夫な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "We need a sturdy table for the heavy equipment.",
+    "exampleJa": "重い装置を置くために頑丈なテーブルが必要です。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物や身体の強さを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2999",
+    "word": "fragrant",
+    "meaningJa": "香りのよい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The garden is full of fragrant flowers.",
+    "exampleJa": "庭は香りのよい花でいっぱいです。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "嗅覚による描写を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3000",
+    "word": "plump",
+    "meaningJa": "ふっくらした；丸々とした",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "She picked a plump tomato from the garden.",
+    "exampleJa": "彼女は庭から丸々としたトマトを摘みました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "形や見た目を具体的に表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

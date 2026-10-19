@@ -1,0 +1,2132 @@
+[
+  {
+    "id": "v4401",
+    "word": "shadow",
+    "meaningJa": "影",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "A tall tree casts a shadow across the path.",
+    "exampleJa": "背の高い木が小道に影を落としている。",
+    "category": "自然・光",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な光と形の説明に使う基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4402",
+    "word": "echo",
+    "meaningJa": "こだま",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Her voice produced an echo in the empty hall.",
+    "exampleJa": "彼女の声は誰もいないホールにこだました。",
+    "category": "音・自然",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "音の反響を表す高校基礎の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "反響する",
+        "example": "Her footsteps echo through the empty station.",
+        "exampleJa": "彼女の足音が誰もいない駅に響き渡る。"
+      }
+    ]
+  },
+  {
+    "id": "v4403",
+    "word": "noise",
+    "meaningJa": "騒音",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The noise from the street kept me awake.",
+    "exampleJa": "通りの騒音で私は眠れなかった。",
+    "category": "音・生活",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常的な音の問題を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4404",
+    "word": "glare",
+    "meaningJa": "まぶしい光",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The glare from the window made the screen hard to read.",
+    "exampleJa": "窓からのまぶしい光で画面が読みにくかった。",
+    "category": "光・知覚",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "視界を妨げる強い光を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "にらみつける",
+        "example": "She began to glare at me when I interrupted her.",
+        "exampleJa": "私が話を遮ると、彼女は私をにらみ始めた。"
+      }
+    ]
+  },
+  {
+    "id": "v4405",
+    "word": "dim",
+    "meaningJa": "薄暗い",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "A dim light filled the small room.",
+    "exampleJa": "小さな部屋に薄明かりが広がっていた。",
+    "category": "光・知覚",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "光の弱さを描写する高校基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4406",
+    "word": "coarse",
+    "meaningJa": "粗い",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The artist drew on coarse paper.",
+    "exampleJa": "その画家は目の粗い紙に絵を描いた。",
+    "category": "性質・質感",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物の表面や粒の粗さを示す標準読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4407",
+    "word": "uneven",
+    "meaningJa": "でこぼこの",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The uneven path was difficult to walk on.",
+    "exampleJa": "そのでこぼこの道は歩きにくかった。",
+    "category": "形・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "表面や程度が均一でないことを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4408",
+    "word": "symmetry",
+    "meaningJa": "対称性",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The building has a pleasing symmetry.",
+    "exampleJa": "その建物には心地よい対称性がある。",
+    "category": "形・芸術",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "形や配置の均衡を説明する抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4409",
+    "word": "distant",
+    "meaningJa": "遠く離れた",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "We could see a distant mountain from the train.",
+    "exampleJa": "列車から遠くの山が見えた。",
+    "category": "距離・位置",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "距離を表す中学標準の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4410",
+    "word": "spacious",
+    "meaningJa": "広々とした",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The new library has a spacious reading room.",
+    "exampleJa": "新しい図書館には広々とした閲覧室がある。",
+    "category": "空間・建物",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "室内の広さを表す高校基礎の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4411",
+    "word": "brisk",
+    "meaningJa": "きびきびした",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "A brisk walk helped her feel more awake.",
+    "exampleJa": "きびきび歩くと彼女は目が覚めたように感じた。",
+    "category": "動作・速度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "活発で速い動きを描写する標準読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4412",
+    "word": "clumsy",
+    "meaningJa": "不器用な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "His clumsy attempt to repair the chair made it worse.",
+    "exampleJa": "彼が不器用に椅子を直そうとした結果、状態はさらに悪くなった。",
+    "category": "行動・性格",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "動作や扱いの不器用さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4413",
+    "word": "drowsy",
+    "meaningJa": "眠気のある",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The warm room made everyone drowsy.",
+    "exampleJa": "暖かい部屋でみんな眠くなった。",
+    "category": "身体・感覚",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "日常的な眠気を示す標準読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4414",
+    "word": "sluggish",
+    "meaningJa": "動きの鈍い",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The old computer became sluggish after the update.",
+    "exampleJa": "古いコンピューターは更新後に動きが鈍くなった。",
+    "category": "動作・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "動作や反応の鈍さを表す発展読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4415",
+    "word": "agile",
+    "meaningJa": "機敏な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The agile cat jumped onto the narrow wall.",
+    "exampleJa": "機敏な猫が細い塀の上へ飛び乗った。",
+    "category": "動作・能力",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "素早く柔軟に動ける性質を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4416",
+    "word": "instinctive",
+    "meaningJa": "本能的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Her instinctive reaction was to protect the child.",
+    "exampleJa": "彼女は本能的にその子を守ろうとした。",
+    "category": "心理・行動",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "意識的な判断を介さない反応を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4417",
+    "word": "intuitive",
+    "meaningJa": "直感的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The diagram gives an intuitive explanation of the process.",
+    "exampleJa": "その図は過程を直感的に理解できるよう説明している。",
+    "category": "認知・理解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "考えずに把握できる性質を示す抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4418",
+    "word": "fleeting",
+    "meaningJa": "つかの間の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "A fleeting smile crossed his face.",
+    "exampleJa": "つかの間の笑みが彼の顔に浮かんだ。",
+    "category": "時間・感情",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "短時間で消えるものを描写する文学・読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4419",
+    "word": "erratic",
+    "meaningJa": "不規則な",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The bird made erratic movements before landing.",
+    "exampleJa": "その鳥は着地する前に不規則な動きをした。",
+    "category": "変化・状態",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "予測しにくい不規則な動きを示す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4420",
+    "word": "sporadic",
+    "meaningJa": "散発的な",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "Sporadic rain fell throughout the afternoon.",
+    "exampleJa": "午後の間、時折雨が降った。",
+    "category": "頻度・変化",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "出来事が時折ばらばらに起こることを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4421",
+    "word": "stagnant",
+    "meaningJa": "停滞した",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The stagnant economy limited new job opportunities.",
+    "exampleJa": "停滞した経済は新たな雇用機会を制限した。",
+    "category": "経済・変化",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "成長や動きが止まった状態を示す抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4422",
+    "word": "porous",
+    "meaningJa": "多孔質の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Porous stone allows water to pass through it.",
+    "exampleJa": "多孔質の石は水を通す。",
+    "category": "物質・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "小さな穴を多く持つ性質を示す科学読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4423",
+    "word": "translucent",
+    "meaningJa": "半透明の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The translucent curtain let soft light into the room.",
+    "exampleJa": "半透明のカーテンから柔らかな光が部屋に入った。",
+    "category": "光・物質",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "光は通すが向こうをはっきり見せない性質を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4424",
+    "word": "luminous",
+    "meaningJa": "光を放つ",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Luminous paint made the sign visible in the dark.",
+    "exampleJa": "光を放つ塗料のおかげで、その標識は暗闇でも見えた。",
+    "category": "光・物質",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "自ら光って見える性質を表す発展読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4425",
+    "word": "silhouette",
+    "meaningJa": "シルエット",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The silhouette of a bird appeared against the sunset.",
+    "exampleJa": "夕焼けを背景に鳥のシルエットが現れた。",
+    "category": "形・視覚",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "背景に浮かぶ暗い輪郭を示す描写語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4426",
+    "word": "contour",
+    "meaningJa": "輪郭",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The map shows the contour of the coastline.",
+    "exampleJa": "その地図は海岸線の輪郭を示している。",
+    "category": "形・地理",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物の外形や地形の線を示す読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4427",
+    "word": "pigment",
+    "meaningJa": "顔料；色素",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The painter mixed blue pigment with water.",
+    "exampleJa": "その画家は青い顔料を水に混ぜた。",
+    "category": "芸術・物質",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "色を作る物質を示す美術・科学の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4428",
+    "word": "rubble",
+    "meaningJa": "がれき",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Workers cleared the rubble from the street.",
+    "exampleJa": "作業員たちは通りからがれきを片づけた。",
+    "category": "建物・災害",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "壊れた建物の破片を表す報道・読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は不可算名詞で、壊れた建物などの破片の集まりを指します。"
+  },
+  {
+    "id": "v4429",
+    "word": "corrosion",
+    "meaningJa": "腐食",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Corrosion weakened the metal bridge over time.",
+    "exampleJa": "腐食によって金属製の橋は時間とともに弱くなった。",
+    "category": "物質・科学",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "金属などが徐々に傷む過程を示す科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4430",
+    "word": "decomposition",
+    "meaningJa": "分解",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Decomposition returns nutrients to the soil.",
+    "exampleJa": "分解によって栄養分が土壌に戻る。",
+    "category": "環境・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "有機物が分かれていく過程を示す科学読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4431",
+    "word": "pathogen",
+    "meaningJa": "病原体",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The researchers tested the water for a pathogen.",
+    "exampleJa": "研究者たちは水に病原体がいないか検査した。",
+    "category": "健康・科学",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "病気の原因となる生物などを指す科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4432",
+    "word": "hazardous",
+    "meaningJa": "危険な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Hazardous waste must be stored carefully.",
+    "exampleJa": "危険な廃棄物は慎重に保管しなければならない。",
+    "category": "安全・環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "健康や環境への危険を示す標準入試語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4433",
+    "word": "lethal",
+    "meaningJa": "致命的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The chemical can be lethal in large amounts.",
+    "exampleJa": "その化学物質は大量だと致命的になり得る。",
+    "category": "健康・危険",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生命に関わる危険の強さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4434",
+    "word": "mortality",
+    "meaningJa": "死亡率",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The report compares mortality across several age groups.",
+    "exampleJa": "その報告書は複数の年齢層の死亡率を比較している。",
+    "category": "健康・統計",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "集団における死亡の割合を表す発展読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "死亡や死亡率を指すほか、人や生物がいつか死ぬ性質を表すこともあります。"
+  },
+  {
+    "id": "v4435",
+    "word": "lifespan",
+    "meaningJa": "寿命",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The average lifespan of the plant depends on its environment.",
+    "exampleJa": "その植物の平均寿命は生育環境によって異なる。",
+    "category": "生命・時間",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生物が生きる期間を示す標準読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4436",
+    "word": "ancestry",
+    "meaningJa": "祖先の系統",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The family traced its ancestry through old records.",
+    "exampleJa": "その家族は古い記録をたどって祖先の系統を調べた。",
+    "category": "家族・歴史",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "先祖からのつながりを表す歴史読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4437",
+    "word": "lineage",
+    "meaningJa": "家系",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The document records the lineage of the royal family.",
+    "exampleJa": "その文書には王家の家系が記録されている。",
+    "category": "家族・歴史",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "世代を通じた血統や系譜を表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4438",
+    "word": "litigation",
+    "meaningJa": "訴訟",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The company faced litigation over the damaged products.",
+    "exampleJa": "その会社は破損した製品をめぐる訴訟に直面した。",
+    "category": "法律・社会",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "裁判を通じた争いを指す法律読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4439",
+    "word": "amnesty",
+    "meaningJa": "恩赦",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The government announced an amnesty for some prisoners.",
+    "exampleJa": "政府は一部の囚人に対する恩赦を発表した。",
+    "category": "政治・法律",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "刑罰の免除を示す政治・法律の専門寄りの語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4440",
+    "word": "boycott",
+    "meaningJa": "不買運動",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The boycott led several shops to change their policy.",
+    "exampleJa": "不買運動を受けて、いくつかの店が方針を変えた。",
+    "category": "社会・運動",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "抗議のために購入を控える集団行動を示す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "不買運動をする",
+        "example": "Some customers boycott the store over its policy.",
+        "exampleJa": "一部の客はその店の方針に抗議して不買運動をしている。"
+      }
+    ]
+  },
+  {
+    "id": "v4441",
+    "word": "riot",
+    "meaningJa": "暴動",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "A riot broke out after the announcement.",
+    "exampleJa": "その発表の後に暴動が起きた。",
+    "category": "社会・政治",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "集団による激しい騒乱を示す報道語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4442",
+    "word": "rebellion",
+    "meaningJa": "反乱",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The rebellion lasted for several months.",
+    "exampleJa": "その反乱は数か月続いた。",
+    "category": "政治・歴史",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "権力に対する組織的な抵抗を表す歴史語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4443",
+    "word": "ceasefire",
+    "meaningJa": "停戦",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Both sides agreed to a ceasefire before further talks.",
+    "exampleJa": "両陣営はさらなる協議の前に停戦に合意した。",
+    "category": "政治・紛争",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "戦闘の一時停止を示す国際政治の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4444",
+    "word": "eviction",
+    "meaningJa": "立ち退き",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The tenants faced eviction after months of unpaid rent.",
+    "exampleJa": "借り手たちは数か月家賃を滞納し、立ち退きに直面した。",
+    "category": "住居・法律",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "住居から退去させられることを示す社会・法律語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4445",
+    "word": "groundwater",
+    "meaningJa": "地下水",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The village uses groundwater for drinking water.",
+    "exampleJa": "その村は飲料水に地下水を利用している。",
+    "category": "環境・資源",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "地下にある水資源を示す環境読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4446",
+    "word": "chronology",
+    "meaningJa": "年代順；年表",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The book presents a clear chronology of the events.",
+    "exampleJa": "その本には出来事を年代順に整理した分かりやすい年表が載っている。",
+    "category": "歴史・記述",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "出来事の時間的な順序を示す学術語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4447",
+    "word": "allegory",
+    "meaningJa": "寓意物語",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The story is an allegory about the danger of greed.",
+    "exampleJa": "その物語は強欲の危険を示す寓意物語だ。",
+    "category": "文学・表現",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "物語全体で別の意味を表す文学概念。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4448",
+    "word": "motif",
+    "meaningJa": "反復して現れる主題",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The image of the sea is a recurring motif in the novel.",
+    "exampleJa": "海のイメージはその小説で繰り返し現れる主題だ。",
+    "category": "文学・表現",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "作品内で繰り返される題材やイメージを示す文学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4449",
+    "word": "resonance",
+    "meaningJa": "共鳴",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The hall gave her voice a warm resonance.",
+    "exampleJa": "そのホールでは彼女の声に温かみのある響きが加わった。",
+    "category": "音・物理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "音が響き合う性質を示す科学・芸術の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4450",
+    "word": "dissonance",
+    "meaningJa": "不協和音",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The composer used dissonance to create tension.",
+    "exampleJa": "作曲家は緊張感を生むために不協和音を用いた。",
+    "category": "音楽・表現",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "調和しない音の重なりを示す音楽語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4451",
+    "word": "compliance",
+    "meaningJa": "法令・規則の順守",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The company checks compliance with safety rules every month.",
+    "exampleJa": "その会社は毎月、安全規則の順守状況を確認する。",
+    "category": "法律・組織",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "制度文脈で規則に従う状態を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4452",
+    "word": "pollination",
+    "meaningJa": "受粉",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Bees play an important role in pollination.",
+    "exampleJa": "ミツバチは受粉に重要な役割を果たす。",
+    "category": "生態・植物",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "植物の繁殖を扱う説明文で重要な過程。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4453",
+    "word": "floodplain",
+    "meaningJa": "氾濫原",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The village sits on a floodplain beside the river.",
+    "exampleJa": "その村は川沿いの氾濫原にある。",
+    "category": "地理・環境",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "洪水と土地利用の説明に出る地形語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4454",
+    "word": "watershed",
+    "meaningJa": "流域",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The watershed supplies drinking water to several towns.",
+    "exampleJa": "その流域は複数の町に飲み水を供給している。",
+    "category": "地理・環境",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "水資源を考える際の地理的なまとまり。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "特に米語では「流域」。地理では「分水嶺」、比喩的には「重大な転機」の意味もあります。"
+  },
+  {
+    "id": "v4455",
+    "word": "inflammation",
+    "meaningJa": "炎症",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The doctor said the swelling was caused by inflammation.",
+    "exampleJa": "医師は、その腫れは炎症によるものだと言った。",
+    "category": "健康・医学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "身体の反応を述べる一般的な医学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4456",
+    "word": "prognosis",
+    "meaningJa": "予後；病気の経過の見通し",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The doctor discussed the prognosis with the patient.",
+    "exampleJa": "医師は患者と病気の今後の見通しについて話し合った。",
+    "category": "健康・医学",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "病気の今後の見通しを示す専門寄りの語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4457",
+    "word": "syndrome",
+    "meaningJa": "症候群",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The syndrome can affect both sleep and concentration.",
+    "exampleJa": "その症候群は睡眠と集中力の両方に影響することがある。",
+    "category": "健康・医学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "複数の症状のまとまりを示す医学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4458",
+    "word": "pluralism",
+    "meaningJa": "多元主義",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Pluralism allows different beliefs to coexist in society.",
+    "exampleJa": "多元主義は社会で異なる信念が共存することを認める。",
+    "category": "社会・思想",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "異なる価値観の共存を論じる抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4459",
+    "word": "abide",
+    "meaningJa": "従う",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "All visitors must abide by the museum rules.",
+    "exampleJa": "来館者は全員、博物館の規則に従わなければならない。",
+    "category": "規則・行動",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "abide byの形で規則に従うことを表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "abide by 規則・決定で「〜に従う・〜を守る」。"
+  },
+  {
+    "id": "v4460",
+    "word": "adhere",
+    "meaningJa": "固守する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The researchers adhere to strict safety procedures.",
+    "exampleJa": "研究者たちは厳格な安全手順を守る。",
+    "category": "規則・行動",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "adhere toの形で方針や手順を守ることを表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "adhere toで「〜を守る・〜に固執する」。物が「〜にくっつく」という意味もあります。"
+  },
+  {
+    "id": "v4461",
+    "word": "waive",
+    "meaningJa": "放棄する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The student may waive the right to appeal.",
+    "exampleJa": "その学生は異議申し立ての権利を放棄できる。",
+    "category": "法律・権利",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "権利や請求を自発的に放棄する法律寄りの語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4462",
+    "word": "ratify",
+    "meaningJa": "批准する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The government decided to ratify the treaty.",
+    "exampleJa": "政府はその条約を批准することにした。",
+    "category": "政治・国際",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "条約を正式に承認する政治・法律語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4463",
+    "word": "litigate",
+    "meaningJa": "訴訟を起こす",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The two firms chose to litigate rather than settle the dispute.",
+    "exampleJa": "その2社は紛争を和解で解決する代わりに訴訟を起こすことを選んだ。",
+    "category": "法律・紛争",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "裁判を通じて争いを解決する専門的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4464",
+    "word": "arbitrate",
+    "meaningJa": "仲裁する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "An independent panel will arbitrate the dispute.",
+    "exampleJa": "独立した委員会がその紛争を仲裁する。",
+    "category": "法律・紛争",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "第三者が争いを裁定する場面で使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4465",
+    "word": "legitimize",
+    "meaningJa": "正当化する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "A fair vote can help legitimize the new policy.",
+    "exampleJa": "公正な投票は新しい政策を正当なものと認めさせる助けになる。",
+    "category": "政治・社会",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "権力や方針の正統性を論じる抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4466",
+    "word": "authorize",
+    "meaningJa": "許可する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Only the manager can authorize a refund.",
+    "exampleJa": "払い戻しを許可できるのは責任者だけだ。",
+    "category": "組織・手続き",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "権限に基づく正式な許可を表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4467",
+    "word": "oversee",
+    "meaningJa": "監督する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "An engineer will oversee the bridge repairs.",
+    "exampleJa": "技師が橋の修理を監督する。",
+    "category": "仕事・管理",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "作業全体を見守り管理することを表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4468",
+    "word": "withhold",
+    "meaningJa": "差し控える",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The agency may withhold information during the investigation.",
+    "exampleJa": "その機関は調査中、情報の提供を差し控えることがある。",
+    "category": "情報・社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報や支払いを意図的に渡さない意味を持つ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4469",
+    "word": "authenticate",
+    "meaningJa": "本物と確認する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "Experts will authenticate the painting before the sale.",
+    "exampleJa": "専門家が販売前にその絵画を本物と確認する。",
+    "category": "証拠・確認",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "物の真偽や本人性を確かめる技術・制度語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4470",
+    "word": "certify",
+    "meaningJa": "証明する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "An inspector must certify that the building is safe.",
+    "exampleJa": "検査官はその建物が安全であることを証明しなければならない。",
+    "category": "証拠・確認",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "公的な資格や事実の保証を示す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4471",
+    "word": "allege",
+    "meaningJa": "主張する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The report does not allege that the data were altered.",
+    "exampleJa": "その報告書はデータが改変されたとは主張していない。",
+    "category": "議論・報道",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "未立証の事実を主張する報道・法律語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4472",
+    "word": "denounce",
+    "meaningJa": "公然と非難する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "Community leaders will denounce the violent attack.",
+    "exampleJa": "地域の指導者たちはその暴力的な攻撃を公然と非難するだろう。",
+    "category": "社会・批判",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "強い公的非難を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4473",
+    "word": "condone",
+    "meaningJa": "容認する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The school cannot condone cheating on exams.",
+    "exampleJa": "学校は試験での不正行為を容認できない。",
+    "category": "倫理・規則",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "不適切な行為を黙認するかどうかを述べる。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4474",
+    "word": "deter",
+    "meaningJa": "思いとどまらせる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Clear penalties can deter people from breaking the rules.",
+    "exampleJa": "明確な罰則は人々が規則を破るのを思いとどまらせうる。",
+    "category": "社会・行動",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "不利益を予期させて行動を抑える語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4475",
+    "word": "intensify",
+    "meaningJa": "強める",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The new evidence may intensify the debate.",
+    "exampleJa": "新たな証拠によって議論が激しくなるかもしれない。",
+    "category": "変化・程度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "程度や勢いが増すことを表す標準語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4476",
+    "word": "stagnate",
+    "meaningJa": "停滞する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Wages may stagnate when productivity stops rising.",
+    "exampleJa": "生産性の上昇が止まると、賃金は停滞することがある。",
+    "category": "経済・変化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "成長が止まり横ばいになる状態を示す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4477",
+    "word": "complement",
+    "meaningJa": "補完する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The two methods complement each other.",
+    "exampleJa": "その二つの方法は互いを補完する。",
+    "category": "関係・構成",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "異なる要素が互いの不足を補う意味。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「褒める」を意味するcomplimentとは別語です。"
+  },
+  {
+    "id": "v4478",
+    "word": "relinquish",
+    "meaningJa": "手放す",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The leader agreed to relinquish control of the project.",
+    "exampleJa": "その指導者は事業の主導権を手放すことに同意した。",
+    "category": "権利・所有",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "権限や所有を自ら手放す硬い表現。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4479",
+    "word": "forfeit",
+    "meaningJa": "失う",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "A player may forfeit the prize by breaking the rules.",
+    "exampleJa": "選手は規則違反によって賞を失うことがある。",
+    "category": "規則・権利",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "違反の結果として権利や利益を失う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4480",
+    "word": "evacuate",
+    "meaningJa": "避難する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Residents must evacuate before the storm reaches the coast.",
+    "exampleJa": "住民は嵐が海岸に達する前に避難しなければならない。",
+    "category": "災害・安全",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "危険な場所から離れる重要な防災語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4481",
+    "word": "relocate",
+    "meaningJa": "移転する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The company plans to relocate its office next year.",
+    "exampleJa": "その会社は来年、事務所を移転する予定だ。",
+    "category": "移動・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人や施設が別の場所へ移ることを示す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4482",
+    "word": "segregate",
+    "meaningJa": "分離する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The old rule would segregate students by background.",
+    "exampleJa": "その古い規則では、学生を出身によって分離することになる。",
+    "category": "社会・制度",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "集団を属性によって分ける歴史・社会語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4483",
+    "word": "marginalize",
+    "meaningJa": "周縁に追いやる",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The policy could marginalize small rural communities.",
+    "exampleJa": "その政策は地方の小さな共同体を周縁に追いやるおそれがある。",
+    "category": "社会・不平等",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "集団の発言力や参加機会を弱める抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4484",
+    "word": "stigmatize",
+    "meaningJa": "汚名を着せる",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "Such language can stigmatize people who seek help.",
+    "exampleJa": "そのような言葉は助けを求める人々に汚名を着せかねない。",
+    "category": "社会・偏見",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "否定的な社会的烙印を与えることを表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4485",
+    "word": "oppress",
+    "meaningJa": "抑圧する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The regime used harsh laws to oppress its critics.",
+    "exampleJa": "その政権は厳しい法律で批判者を抑圧した。",
+    "category": "政治・人権",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "権力によって自由を奪うことを表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4486",
+    "word": "empower",
+    "meaningJa": "力を与える",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The program aims to empower local communities.",
+    "exampleJa": "その計画は地域社会に力を与えることを目指す。",
+    "category": "社会・参加",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人が自ら決め行動する力を得る意味。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4487",
+    "word": "liberate",
+    "meaningJa": "解放する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Education can liberate people from limiting assumptions.",
+    "exampleJa": "教育は人々を狭い思い込みから解放しうる。",
+    "category": "自由・思想",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "束縛から自由にする物理的・抽象的な意味。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4488",
+    "word": "emancipate",
+    "meaningJa": "解放する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The reform sought to emancipate workers from unfair contracts.",
+    "exampleJa": "その改革は労働者を不公正な契約から解放しようとした。",
+    "category": "自由・権利",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "制度的な束縛からの解放を示す硬い語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4489",
+    "word": "assimilate",
+    "meaningJa": "同化する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "Newcomers may feel pressure to assimilate into the dominant culture.",
+    "exampleJa": "新しく来た人々は主流文化に同化する圧力を感じることがある。",
+    "category": "文化・社会",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "文化や集団に溶け込む過程を表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4490",
+    "word": "diversify",
+    "meaningJa": "多様化する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The town hopes to diversify its local economy.",
+    "exampleJa": "その町は地域経済を多様化したいと考えている。",
+    "category": "経済・変化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "種類や収入源を広げることを表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4491",
+    "word": "specialize",
+    "meaningJa": "専門とする",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "This clinic will specialize in care for young patients.",
+    "exampleJa": "この診療所は若い患者の診療を専門とする予定だ。",
+    "category": "仕事・専門",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "特定分野に活動を集中させる標準語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4492",
+    "word": "standardize",
+    "meaningJa": "標準化する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The team wants to standardize the testing process.",
+    "exampleJa": "そのチームは検査手順を標準化したいと考えている。",
+    "category": "制度・技術",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "手順や形式を共通の基準にそろえる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4493",
+    "word": "customize",
+    "meaningJa": "個別に調整する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Users can customize the display to suit their needs.",
+    "exampleJa": "利用者は必要に合わせて画面表示を個別に調整できる。",
+    "category": "技術・利用",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "個人の目的に合わせて設定を変える語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4494",
+    "word": "automate",
+    "meaningJa": "自動化する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The factory plans to automate several routine tasks.",
+    "exampleJa": "その工場はいくつかの定型作業を自動化する予定だ。",
+    "category": "技術・仕事",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "機械やソフトに作業を任せる変化を示す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4495",
+    "word": "digitize",
+    "meaningJa": "デジタル化する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The library will digitize its oldest newspapers.",
+    "exampleJa": "図書館は最も古い新聞をデジタル化する予定だ。",
+    "category": "技術・記録",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "紙などの情報を電子データに変える語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4496",
+    "word": "decode",
+    "meaningJa": "解読する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The students tried to decode the hidden message.",
+    "exampleJa": "学生たちは隠されたメッセージを解読しようとした。",
+    "category": "情報・理解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "符号化された情報を読み取ることを表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4497",
+    "word": "relay",
+    "meaningJa": "伝達する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Please relay the message to the rest of the team.",
+    "exampleJa": "その伝言をチームのほかの人たちに伝えてください。",
+    "category": "情報・伝達",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "受け取った情報を次へ伝える動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4498",
+    "word": "filter",
+    "meaningJa": "ろ過する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The device can filter dust from the air.",
+    "exampleJa": "その装置は空気中のほこりを取り除ける。",
+    "category": "科学・技術",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "不要物を通過前に取り除く基本的な技術語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4499",
+    "word": "calibrate",
+    "meaningJa": "校正する；基準に合わせて調整する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "Technicians must calibrate the sensor before each test.",
+    "exampleJa": "技術者は毎回の試験前にセンサーを基準に合わせて調整しなければならない。",
+    "category": "科学・測定",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "測定器を基準に合わせる専門的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4500",
+    "word": "debug",
+    "meaningJa": "プログラムの誤りを修正する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The students worked together to debug the program.",
+    "exampleJa": "学生たちは協力してプログラムの誤りを修正した。",
+    "category": "情報技術",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "プログラムの不具合を探して直す技術語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

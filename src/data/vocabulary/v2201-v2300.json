@@ -1,0 +1,2250 @@
+[
+  {
+    "id": "v2201",
+    "word": "rapid",
+    "meaningJa": "速い；急速な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The city has experienced rapid growth.",
+    "exampleJa": "その都市は急速な成長を経験してきました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "変化や動きの速さを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2202",
+    "word": "swift",
+    "meaningJa": "素早い；迅速な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The team made a swift decision.",
+    "exampleJa": "チームは迅速に決断しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "行動や反応の素早さを示す読解形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2203",
+    "word": "slow",
+    "meaningJa": "遅い；ゆっくりした",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The bus was slow because of traffic.",
+    "exampleJa": "バスは渋滞のため遅かったです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の速さを表す基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "遅くする；速度を落とす",
+        "example": "Heavy snow will slow the traffic.",
+        "exampleJa": "大雪で車の流れが遅くなるでしょう。"
+      }
+    ]
+  },
+  {
+    "id": "v2204",
+    "word": "frequent",
+    "meaningJa": "頻繁な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The region experiences frequent storms.",
+    "exampleJa": "その地域では頻繁に嵐が起こります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "出来事の回数の多さを説明する形容詞。 立命館2026第Ⅰ問の文脈で必要な別義を補足し、基本義とレベルは維持。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜を頻繁に訪れる；〜に通う",
+        "example": "Local students frequent this cafe after class.",
+        "exampleJa": "地元の学生たちは授業の後によくこのカフェを訪れる。"
+      }
+    ],
+    "usageNote": "動詞は場所を直接目的語に取る。形容詞「頻繁な」と区別する。"
+  },
+  {
+    "id": "v2205",
+    "word": "rare",
+    "meaningJa": "珍しい；まれな",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The museum displays a rare coin.",
+    "exampleJa": "その博物館は珍しい硬貨を展示しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "出現の少なさを示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2206",
+    "word": "scarce",
+    "meaningJa": "乏しい；不足している",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Clean water became scarce during the drought.",
+    "exampleJa": "干ばつの間、きれいな水が不足しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "必要な資源が十分にない状態を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2207",
+    "word": "abundant",
+    "meaningJa": "豊富な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The forest supports abundant wildlife.",
+    "exampleJa": "その森林は豊かな野生生物を育んでいます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "資源や存在量の豊かさを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2208",
+    "word": "partial",
+    "meaningJa": "部分的な；不公平な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The report offers only a partial explanation.",
+    "exampleJa": "その報告書は部分的な説明しか示していません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "全体ではない範囲を示す読解形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "偏った；不公平な",
+        "example": "The judge must not be partial to either side.",
+        "exampleJa": "裁判官はどちらの側にも偏ってはいけません。"
+      }
+    ]
+  },
+  {
+    "id": "v2209",
+    "word": "unequal",
+    "meaningJa": "等しくない；不平等な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The debate focused on unequal access to education.",
+    "exampleJa": "その討論は教育を受ける機会の不平等に焦点を当てました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "量や機会の違いを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2210",
+    "word": "similar",
+    "meaningJa": "似ている；同様の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The two schools have similar rules.",
+    "exampleJa": "二つの学校には似た規則があります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "比較で共通点を示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "similar toで「〜に似ている」を表します。"
+  },
+  {
+    "id": "v2211",
+    "word": "identical",
+    "meaningJa": "同一の；全く同じ",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The two boxes look identical.",
+    "exampleJa": "二つの箱は全く同じに見えます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "比較で違いがないことを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2212",
+    "word": "opposite",
+    "meaningJa": "反対の；向かい側の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The two groups reached opposite conclusions.",
+    "exampleJa": "二つの団体は反対の結論に達しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "位置や判断の対立を表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "other",
+        "meaningJa": "〜の向かいに",
+        "example": "The bank is opposite the station.",
+        "exampleJa": "銀行は駅の向かいにあります。"
+      }
+    ]
+  },
+  {
+    "id": "v2213",
+    "word": "independent",
+    "meaningJa": "独立した；自立した",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The report was prepared by an independent team.",
+    "exampleJa": "その報告書は独立したチームによって作成されました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "他からの支配や依存がない状態を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2214",
+    "word": "dependent",
+    "meaningJa": "依存している；左右される",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The village is dependent on tourism.",
+    "exampleJa": "その村は観光業に依存しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "他の条件や資源に頼る関係を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "dependent onで「〜に依存している・〜に左右される」を表します。"
+  },
+  {
+    "id": "v2215",
+    "word": "obviously",
+    "meaningJa": "明らかに",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The two accounts are obviously different.",
+    "exampleJa": "二つの説明は明らかに異なっています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "判断の明白さを示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2216",
+    "word": "merely",
+    "meaningJa": "単に；ただ〜だけ",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The change is merely a temporary measure.",
+    "exampleJa": "その変更は一時的な措置にすぎません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "対象の範囲や重要性を限定する副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2217",
+    "word": "hardly",
+    "meaningJa": "ほとんど〜ない",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "I could hardly hear the speaker.",
+    "exampleJa": "私は話し手の声をほとんど聞き取れませんでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "程度が極めて小さいことを否定的に表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「一生懸命に」はhardです。hardlyは「ほとんど〜ない」という否定的な意味です。"
+  },
+  {
+    "id": "v2218",
+    "word": "barely",
+    "meaningJa": "かろうじて；ほとんど〜ない",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "We barely had time to catch the train.",
+    "exampleJa": "私たちは電車に乗る時間にかろうじて間に合いました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "最低限に近い程度を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2219",
+    "word": "nevertheless",
+    "meaningJa": "それにもかかわらず",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The task was difficult; nevertheless, they finished it.",
+    "exampleJa": "その課題は難しかったですが、それにもかかわらず彼らはやり遂げました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "前の内容に反する展開を示す接続副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "接続副詞です。独立した二つの文をつなぐ場合は、ピリオドやセミコロンなどで区切ります。"
+  },
+  {
+    "id": "v2220",
+    "word": "nonetheless",
+    "meaningJa": "それにもかかわらず",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "The evidence is limited; nonetheless, it deserves attention.",
+    "exampleJa": "証拠は限られていますが、それでも注目する価値があります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "譲歩を伴う論理展開を表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2221",
+    "word": "furthermore",
+    "meaningJa": "さらに；その上",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The plan saves time; furthermore, it reduces waste.",
+    "exampleJa": "その計画は時間を節約し、その上、無駄を減らします。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "前の主張に根拠を加える接続副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "情報を追加する接続副詞です。andと同じ接続詞として文を直接つなぐものではありません。"
+  },
+  {
+    "id": "v2222",
+    "word": "moreover",
+    "meaningJa": "その上；さらに",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The room is spacious; moreover, it has a fine view.",
+    "exampleJa": "その部屋は広く、その上、眺めがよいです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報や根拠を追加する接続副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2223",
+    "word": "hence",
+    "meaningJa": "それゆえに",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "The road was closed; hence, we took another route.",
+    "exampleJa": "その道は閉鎖されていたので、私たちは別の経路を取りました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "結果や帰結を簡潔に示す論説の副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2224",
+    "word": "consequently",
+    "meaningJa": "その結果",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The river flooded; consequently, several roads were closed.",
+    "exampleJa": "川が氾濫し、その結果、いくつかの道路が閉鎖されました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "原因に続く結果を明示する副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2225",
+    "word": "accordingly",
+    "meaningJa": "それに応じて；したがって",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "The schedule changed, so we adjusted our plans accordingly.",
+    "exampleJa": "日程が変わったので、私たちはそれに応じて計画を調整しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "状況に合わせた対応を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2226",
+    "word": "meanwhile",
+    "meaningJa": "その間に；一方では",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "She prepared dinner; meanwhile, he set the table.",
+    "exampleJa": "彼女が夕食を準備し、その間に彼は食卓を整えました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "同時に進む出来事を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2227",
+    "word": "afterward",
+    "meaningJa": "その後",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "We watched the film and discussed it afterward.",
+    "exampleJa": "私たちは映画を見て、その後それについて話し合いました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "出来事の後の時間を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "afterwardsという形も使われます。意味の違いを学ぶ別見出しとしては数えません。"
+  },
+  {
+    "id": "v2228",
+    "word": "beforehand",
+    "meaningJa": "前もって",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "Please read the instructions beforehand.",
+    "exampleJa": "前もって指示を読んでください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "準備を先に行うことを示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2229",
+    "word": "previously",
+    "meaningJa": "以前に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The building was previously used as a school.",
+    "exampleJa": "その建物は以前、学校として使われていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "基準となる時点より前を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2230",
+    "word": "initially",
+    "meaningJa": "初めは；当初は",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The idea initially seemed impossible.",
+    "exampleJa": "その考えは当初、不可能に思えました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "後の変化と対比して初期の状態を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2231",
+    "word": "ultimately",
+    "meaningJa": "最終的には；究極的には",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The decision ultimately depends on the available evidence.",
+    "exampleJa": "その決定は最終的には利用できる証拠によって決まります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "過程の結末や根本的な条件を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2232",
+    "word": "simultaneously",
+    "meaningJa": "同時に",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "The two experiments were conducted simultaneously.",
+    "exampleJa": "二つの実験は同時に行われました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "複数の出来事の同時性を厳密に表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2233",
+    "word": "subsequently",
+    "meaningJa": "その後に",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "The results were subsequently published in a journal.",
+    "exampleJa": "その結果はその後、学術誌に掲載されました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "出来事の時間的な後続を表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2234",
+    "word": "respectively",
+    "meaningJa": "それぞれ；順に",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "The two boxes weigh three and five kilograms, respectively.",
+    "exampleJa": "二つの箱の重さは順に三キログラムと五キログラムです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "複数の対象と数値などの対応順を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "前に挙げた複数の対象と、後の数値などが同じ順で対応することを示します。"
+  },
+  {
+    "id": "v2235",
+    "word": "approximately",
+    "meaningJa": "およそ；約",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The journey takes approximately two hours.",
+    "exampleJa": "その移動には約二時間かかります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "数値が概算であることを示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2236",
+    "word": "roughly",
+    "meaningJa": "およそ；大ざっぱに",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "Roughly half the students chose the first option.",
+    "exampleJa": "およそ半数の学生が最初の選択肢を選びました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "概算や大まかな範囲を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "乱暴に；粗雑に",
+        "example": "The boxes were handled roughly during transport.",
+        "exampleJa": "箱は輸送中に乱暴に扱われました。"
+      }
+    ]
+  },
+  {
+    "id": "v2237",
+    "word": "precisely",
+    "meaningJa": "正確に；まさに",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The clock was set precisely to noon.",
+    "exampleJa": "その時計は正確に正午に合わせられました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "細部までの正確さを示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "まさに；ちょうど",
+        "example": "That is precisely the point I wanted to make.",
+        "exampleJa": "それこそまさに私が言いたかった点です。"
+      }
+    ]
+  },
+  {
+    "id": "v2238",
+    "word": "exactly",
+    "meaningJa": "正確に；ちょうど",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "There are exactly ten chairs in the room.",
+    "exampleJa": "その部屋にはちょうど十脚の椅子があります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "数や対応の一致を表す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2239",
+    "word": "completely",
+    "meaningJa": "完全に",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The road was completely covered with snow.",
+    "exampleJa": "その道路は完全に雪に覆われていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "状態が全体に及ぶことを示す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2240",
+    "word": "entirely",
+    "meaningJa": "全く；完全に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The decision was entirely her own.",
+    "exampleJa": "その決定は全く彼女自身のものでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "全体性や例外のなさを表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2241",
+    "word": "fully",
+    "meaningJa": "十分に；完全に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "We do not yet fully understand the process.",
+    "exampleJa": "私たちはその過程をまだ十分に理解していません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "必要な程度や全体への到達を表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2242",
+    "word": "partly",
+    "meaningJa": "部分的に；一部は",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The delay was partly caused by bad weather.",
+    "exampleJa": "遅れの原因の一部は悪天候でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "全体の一部分に限定する基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2243",
+    "word": "slightly",
+    "meaningJa": "少し；わずかに",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The temperature rose slightly overnight.",
+    "exampleJa": "気温は一晩でわずかに上がりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "変化や差の小ささを表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2244",
+    "word": "considerably",
+    "meaningJa": "かなり；相当に",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The new machine works considerably faster.",
+    "exampleJa": "新しい機械はかなり速く動きます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "比較や変化の大きさを示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2245",
+    "word": "significantly",
+    "meaningJa": "大幅に；有意に；重要なことに",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The new route significantly reduces travel time.",
+    "exampleJa": "新しい経路は移動時間を大幅に短縮します。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "変化や結果の重要さを評価する副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "一般的な「大幅に」のほか、統計の文脈では「統計的に有意に」という意味になります。"
+  },
+  {
+    "id": "v2246",
+    "word": "relatively",
+    "meaningJa": "比較的に",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The village is relatively close to the city.",
+    "exampleJa": "その村は都市から比較的近いです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "比較に基づく程度を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2247",
+    "word": "comparatively",
+    "meaningJa": "比較的に",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The second method is comparatively simple.",
+    "exampleJa": "二つ目の方法は比較的簡単です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "他との比較を踏まえた程度を表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2248",
+    "word": "increasingly",
+    "meaningJa": "ますます；次第に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The issue is becoming increasingly important.",
+    "exampleJa": "その問題はますます重要になっています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "程度が増していく変化を表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2249",
+    "word": "virtually",
+    "meaningJa": "事実上；ほとんど",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The two designs are virtually identical.",
+    "exampleJa": "二つの設計はほとんど同一です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "完全ではなくても実質的に近い状態を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「事実上・ほとんど」の意味では、完全な一致とは限らない点に注意します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "オンラインで；仮想的に",
+        "example": "Participants can attend the conference virtually.",
+        "exampleJa": "参加者はその会議にオンラインで出席できます。"
+      }
+    ]
+  },
+  {
+    "id": "v2250",
+    "word": "practically",
+    "meaningJa": "ほとんど；実際的に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The room was practically empty.",
+    "exampleJa": "その部屋はほとんど空でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "実質的な程度や実用性を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "実用的に；現実的に",
+        "example": "We need to think practically about the available space.",
+        "exampleJa": "私たちは利用できるスペースについて現実的に考える必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "v2251",
+    "word": "sovereignty",
+    "meaningJa": "主権",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The treaty recognizes the sovereignty of each nation.",
+    "exampleJa": "その条約は各国の主権を認めています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "国家の統治権という抽象的な政治概念を表し、発展的な社会論説で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2252",
+    "word": "autonomy",
+    "meaningJa": "自治；自律",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The school gives teachers considerable autonomy in planning lessons.",
+    "exampleJa": "その学校は授業計画に関して教師にかなりの裁量を与えています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "自己決定や組織の独立性を論じる教育・社会分野の抽象語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "個人の自己決定を指す場合と、地域や組織の自治を指す場合があります。"
+  },
+  {
+    "id": "v2253",
+    "word": "altruism",
+    "meaningJa": "利他主義；利他的な行動",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The study examines the role of altruism in human cooperation.",
+    "exampleJa": "その研究は人間の協力における利他的な行動の役割を調べています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "自己利益と他者への配慮を対比する心理・倫理の専門性がある概念として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2254",
+    "word": "paradigm",
+    "meaningJa": "典型的なモデル；考え方の枠組み",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The discovery challenged the dominant scientific paradigm.",
+    "exampleJa": "その発見は支配的な科学の枠組みに疑問を投げかけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "学問上の理論体系や認識の枠組みを指す抽象的な発展語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2255",
+    "word": "philosophy",
+    "meaningJa": "哲学",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She studies philosophy to explore questions about knowledge and justice.",
+    "exampleJa": "彼女は知識や正義についての問いを探究するために哲学を学んでいます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "知識や価値を扱う学問名として、人文系の標準的な読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "基本方針；人生観",
+        "example": "Her teaching philosophy emphasizes learning through experience.",
+        "exampleJa": "彼女の教育方針は経験を通じた学習を重視しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2256",
+    "word": "ethics",
+    "meaningJa": "倫理学；倫理",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The course explores ethics in scientific research.",
+    "exampleJa": "その授業では科学研究における倫理を探究します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "研究や社会の行動基準を論じる抽象語として、発展的な読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "学問としての「倫理学」は通常単数扱いです。行動を律する倫理原則を指すときは複数扱いになることがあります。"
+  },
+  {
+    "id": "v2257",
+    "word": "morality",
+    "meaningJa": "道徳；善悪の基準",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Ideas about morality can differ across cultures.",
+    "exampleJa": "道徳についての考え方は文化によって異なることがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "文化による善悪の判断の違いを扱う抽象的な社会読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2258",
+    "word": "moral",
+    "meaningJa": "道徳の；道徳的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The decision raises a difficult moral question.",
+    "exampleJa": "その決定は難しい道徳的な問題を提起します。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "善悪の判断に関わる形容詞として、標準的な社会・倫理の文章で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "教訓",
+        "example": "The moral of the story is to listen before judging.",
+        "exampleJa": "その話の教訓は判断する前に耳を傾けることです。"
+      }
+    ]
+  },
+  {
+    "id": "v2259",
+    "word": "dignity",
+    "meaningJa": "尊厳；品位",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Everyone deserves to be treated with dignity.",
+    "exampleJa": "誰もが尊厳をもって扱われるべきです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人権や福祉を論じる際の人間の価値を表す抽象語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2260",
+    "word": "integrity",
+    "meaningJa": "誠実さ；高潔さ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The journalist was respected for her integrity.",
+    "exampleJa": "その記者は誠実さによって尊敬されていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人物や組織の倫理的な一貫性を評価する発展的な語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "完全性；損なわれていない状態",
+        "example": "Engineers checked the structural integrity of the bridge.",
+        "exampleJa": "技師たちは橋の構造が損なわれていないかを確認しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2261",
+    "word": "vice",
+    "meaningJa": "悪徳；悪習",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The novel portrays greed as a destructive vice.",
+    "exampleJa": "その小説は欲深さを破壊的な悪徳として描いています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "徳や善悪を論じる際に用いる抽象的な評価語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2262",
+    "word": "conscience",
+    "meaningJa": "良心",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "His conscience would not allow him to hide the truth.",
+    "exampleJa": "彼の良心は真実を隠すことを許しませんでした。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "内面的な善悪の判断を表し、心理や倫理の読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "conscious（意識している）やconsciousness（意識）と区別します。"
+  },
+  {
+    "id": "v2263",
+    "word": "individuality",
+    "meaningJa": "個性；個人としての独自性",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Art classes can help children express their individuality.",
+    "exampleJa": "美術の授業は子どもが個性を表現する助けになります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "個人と集団の関係を論じる抽象名詞として教育・社会の文章で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2264",
+    "word": "solidarity",
+    "meaningJa": "連帯；結束",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The volunteers showed solidarity with families who had lost their homes.",
+    "exampleJa": "ボランティアは家を失った家族との連帯を示しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "共通の立場に基づく集団の結びつきを表す発展的な社会語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2265",
+    "word": "consensus",
+    "meaningJa": "意見の一致；合意",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The committee reached a consensus on the final proposal.",
+    "exampleJa": "委員会は最終提案について合意に達しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "集団の意思決定における意見の一致を表す読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "reach a consensus onで「〜について合意に達する」を表します。"
+  },
+  {
+    "id": "v2266",
+    "word": "controversy",
+    "meaningJa": "論争",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The proposal caused controversy among local residents.",
+    "exampleJa": "その提案は地元住民の間で論争を引き起こしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会的な意見対立を論じる文章で重要な抽象名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2267",
+    "word": "contradiction",
+    "meaningJa": "矛盾",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "There is a contradiction between the two reports.",
+    "exampleJa": "その二つの報告には矛盾があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "主張や証拠の不整合を表し、論証を追うための発展語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2268",
+    "word": "paradox",
+    "meaningJa": "逆説；一見矛盾した事柄",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "It is a paradox that greater choice can make decisions harder.",
+    "exampleJa": "選択肢が増えると決断が難しくなることがあるのは逆説的です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "一見した矛盾とその背景を説明する論説の概念語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2269",
+    "word": "dilemma",
+    "meaningJa": "ジレンマ；板挟み",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "She faced a dilemma between protecting a friend and telling the truth.",
+    "exampleJa": "彼女は友人を守ることと真実を話すことの間で板挟みになりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "相反する選択肢の間の困難を表す抽象的な心理・倫理語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2270",
+    "word": "complexity",
+    "meaningJa": "複雑さ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The diagram helps explain the complexity of the system.",
+    "exampleJa": "その図は仕組みの複雑さを説明する助けになります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "仕組みや課題の複雑さを述べる標準的な説明文の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2271",
+    "word": "uncertainty",
+    "meaningJa": "不確実性；確信のなさ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "There is still uncertainty about the cause of the decline.",
+    "exampleJa": "減少の原因にはまだ不確かな点があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "予測や知識の限界を表す名詞として、標準的な科学・社会読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2272",
+    "word": "probability",
+    "meaningJa": "確率；起こりそうな度合い",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The probability of rain is higher in the afternoon.",
+    "exampleJa": "雨が降る確率は午後の方が高いです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "出来事の起こりやすさを表し、数値や予測を含む標準読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "possibilityは起こり得ること、probabilityは起こりやすさやその確率に重点があります。"
+  },
+  {
+    "id": "v2273",
+    "word": "possibility",
+    "meaningJa": "可能性",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "There is a possibility that the event will be canceled.",
+    "exampleJa": "その行事が中止になる可能性があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "起こり得ることを述べる基本的な抽象名詞として高校基礎で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2274",
+    "word": "necessity",
+    "meaningJa": "必要性；必要なもの",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The storm reminded us of the necessity of emergency supplies.",
+    "exampleJa": "嵐によって私たちは非常用品の必要性を再認識しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "行動の必要性や必需品を表す名詞として標準入試の説明文で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2275",
+    "word": "inevitability",
+    "meaningJa": "不可避性；避けられないこと",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The essay questions the inevitability of conflict.",
+    "exampleJa": "その論説は対立が避けられないという考えに疑問を投げかけています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "出来事が避けられないという抽象的な性質を論じる発展語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2276",
+    "word": "feasibility",
+    "meaningJa": "実現可能性；実行可能性",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The team assessed the feasibility of building a bridge there.",
+    "exampleJa": "チームはそこに橋を建設することの実現可能性を評価しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "計画が現実に実行できるかを検討する専門性のある抽象名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2277",
+    "word": "legitimacy",
+    "meaningJa": "正当性；合法性",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The lack of public debate weakened the legitimacy of the decision.",
+    "exampleJa": "公開の議論が欠けていたことで、その決定の正当性が弱まりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "権力や判断が認められる根拠を論じる政治・社会の発展語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2278",
+    "word": "ideology",
+    "meaningJa": "思想体系；イデオロギー",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Political ideology can influence how people interpret the same event.",
+    "exampleJa": "政治的な思想体系は同じ出来事の解釈に影響することがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会や政治を捉える一連の考え方を表す抽象語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2279",
+    "word": "doctrine",
+    "meaningJa": "教義；主義",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The book traces the history of a religious doctrine.",
+    "exampleJa": "その本はある宗教の教義の歴史をたどっています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "宗教や政治の体系的な教えを表す専門性のある読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2280",
+    "word": "dogma",
+    "meaningJa": "教条；独断的な信条",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The author warns against accepting any theory as dogma.",
+    "exampleJa": "著者はどんな理論も絶対的な教条として受け入れないよう警告しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "批判を許さず受け入れられる信条を表す評価的な発展語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2281",
+    "word": "norm",
+    "meaningJa": "規範；標準",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "In this community, sharing tools is the norm.",
+    "exampleJa": "この地域では道具を共有することが普通です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会で当然とされる行動基準や標準を論じる抽象語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2282",
+    "word": "convention",
+    "meaningJa": "慣習；慣例",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Social convention often influences how people greet each other.",
+    "exampleJa": "社会的な慣習は人々の挨拶の仕方にしばしば影響します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会で共有される慣例を表す基本義を、標準的な文化の読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "大会；会議",
+        "example": "The annual convention brings together teachers from many countries.",
+        "exampleJa": "その年次大会には多くの国の教師が集まります。"
+      }
+    ]
+  },
+  {
+    "id": "v2283",
+    "word": "heritage",
+    "meaningJa": "文化遺産；受け継いだ伝統",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The festival celebrates the cultural heritage of the region.",
+    "exampleJa": "その祭りは地域の文化遺産をたたえています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地域の文化や歴史の継承を説明する標準的な読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2284",
+    "word": "legacy",
+    "meaningJa": "遺産；後世に残した影響",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The reforms left a lasting legacy in public education.",
+    "exampleJa": "その改革は公教育に長く続く影響を残しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "過去の行動が後世に残すものを比喩的に表す発展読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2285",
+    "word": "humanity",
+    "meaningJa": "人類；人間全体",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The discovery could benefit all of humanity.",
+    "exampleJa": "その発見は人類全体の役に立つ可能性があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人間全体をまとめて指す抽象名詞として、社会・科学の標準読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "人間性；思いやり",
+        "example": "The story shows the humanity of people helping strangers.",
+        "exampleJa": "その物語は見知らぬ人を助ける人々の思いやりを描いています。"
+      }
+    ]
+  },
+  {
+    "id": "v2286",
+    "word": "anthropology",
+    "meaningJa": "人類学",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "She studies anthropology to understand how cultures develop.",
+    "exampleJa": "彼女は文化の発展の仕方を理解するために人類学を学んでいます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人間や文化を研究する学問名として、発展的な人文・社会の文章で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2287",
+    "word": "sociology",
+    "meaningJa": "社会学",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The sociology course examines the relationship between work and family.",
+    "exampleJa": "その社会学の授業では仕事と家族の関係を考察します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会の構造や集団を研究する学問名として社会論説で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2288",
+    "word": "archaeology",
+    "meaningJa": "考古学",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Archaeology provides evidence about life in ancient cities.",
+    "exampleJa": "考古学は古代都市での生活についての証拠をもたらします。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "遺物から過去を研究する学問名として、歴史・科学の発展読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "archeologyという綴りもあります。同じ語の綴り違いとして扱います。"
+  },
+  {
+    "id": "v2289",
+    "word": "linguistics",
+    "meaningJa": "言語学",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Linguistics examines how languages change over time.",
+    "exampleJa": "言語学は言語が時とともにどう変化するかを調べます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "言語の仕組みを研究する学問名として、発展的な言語論の文章で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "学問名としては末尾がsでも単数扱いです。"
+  },
+  {
+    "id": "v2290",
+    "word": "theology",
+    "meaningJa": "神学",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The library has a collection of books on theology.",
+    "exampleJa": "その図書館には神学に関する本の蔵書があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "宗教的な信仰を研究する学問名として専門性の高い人文読解で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2291",
+    "word": "epistemology",
+    "meaningJa": "認識論",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Epistemology explores what it means to know something.",
+    "exampleJa": "認識論は何かを知るとはどういうことかを探究します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "知識の成立を問う哲学の専門分野であり、発展読解の補助語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2292",
+    "word": "methodology",
+    "meaningJa": "方法論；研究方法の体系",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The report explains the methodology used in the survey.",
+    "exampleJa": "その報告書は調査で用いた方法の体系を説明しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "研究手順の体系や根拠を表し、研究を紹介する発展的な文章で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "一つの手順を指すmethodに対し、研究などで使う方法の体系やその考え方を指します。"
+  },
+  {
+    "id": "v2293",
+    "word": "framework",
+    "meaningJa": "枠組み；骨組み",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The theory provides a framework for understanding social change.",
+    "exampleJa": "その理論は社会の変化を理解するための枠組みを提供します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "議論や分析を組み立てる枠組みを表す標準的な抽象語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "骨組み；構造",
+        "example": "Workers built a steel framework for the new hall.",
+        "exampleJa": "作業員は新しいホールの鉄骨の骨組みを建てました。"
+      }
+    ]
+  },
+  {
+    "id": "v2294",
+    "word": "standpoint",
+    "meaningJa": "立場；観点",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The proposal makes sense from an economic standpoint.",
+    "exampleJa": "その提案は経済的な観点からは理にかなっています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "意見を述べる立場を明示する標準的な論説の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2295",
+    "word": "viewpoint",
+    "meaningJa": "観点；見解",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The discussion helped me understand a different viewpoint.",
+    "exampleJa": "その議論は私が異なる見解を理解する助けになりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "他者の見方や意見を示す高校基礎の抽象名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2296",
+    "word": "outlook",
+    "meaningJa": "見通し；考え方",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The report describes the economic outlook for next year.",
+    "exampleJa": "その報告書は来年の経済の見通しを述べています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "将来の予測や物事に対する姿勢を述べる標準的な読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "物の見方；人生観",
+        "example": "Travel changed her outlook on life.",
+        "exampleJa": "旅行は彼女の人生観を変えました。"
+      }
+    ]
+  },
+  {
+    "id": "v2297",
+    "word": "rationale",
+    "meaningJa": "根拠；論理的な理由",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The report explains the rationale behind the new policy.",
+    "exampleJa": "その報告書は新しい政策の根拠を説明しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "行動や判断を支える筋道立った理由を表す硬い抽象語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2298",
+    "word": "premise",
+    "meaningJa": "前提",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The argument rests on a premise that has not been tested.",
+    "exampleJa": "その議論は検証されていない前提に基づいています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "論証の出発点となる仮定を表し、主張の構造を読むために学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形premisesは前提の複数を指すほか、「建物とその敷地」の意味にもなります。"
+  },
+  {
+    "id": "v2299",
+    "word": "proposition",
+    "meaningJa": "提案；主張",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The committee discussed a proposition to shorten working hours.",
+    "exampleJa": "委員会は労働時間を短縮する提案について議論しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "提案や検討すべき主張を示す硬い名詞として発展読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "命題",
+        "example": "The students had to prove a mathematical proposition.",
+        "exampleJa": "学生たちは数学の命題を証明しなければなりませんでした。"
+      }
+    ]
+  },
+  {
+    "id": "v2300",
+    "word": "inference",
+    "meaningJa": "推論；推論による結論",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The evidence does not support that inference.",
+    "exampleJa": "その証拠はその推論による結論を裏付けていません。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "証拠から結論を導く過程や結論を表し、論証を読むために学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "動詞はinfer（推論する）です。根拠のない当て推量だけを意味する語ではありません。"
+  }
+]

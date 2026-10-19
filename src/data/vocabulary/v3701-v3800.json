@@ -1,0 +1,2216 @@
+[
+  {
+    "id": "v3701",
+    "word": "raise",
+    "meaningJa": "上げる；持ち上げる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please raise your hand before speaking.",
+    "exampleJa": "発言する前に手を挙げてください。",
+    "category": "動作・変化",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "基本的な他動詞。riseとの使い分けを学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "目的語を取る他動詞。活用はraise–raised–raisedです。rise（上がる）は通常目的語を取りません。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "育てる",
+        "example": "They raise sheep on their farm.",
+        "exampleJa": "彼らは農場で羊を育てています。"
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "（問題などを）提起する",
+        "example": "These findings raise an important question.",
+        "exampleJa": "これらの発見は重要な問題を提起します。"
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "（資金を）集める",
+        "example": "The students hope to raise money for the library.",
+        "exampleJa": "生徒たちは図書館のために資金を集めたいと考えています。"
+      }
+    ]
+  },
+  {
+    "id": "v3702",
+    "word": "rise",
+    "meaningJa": "上がる；昇る",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Warm air tends to rise.",
+    "exampleJa": "暖かい空気は上昇する傾向があります。",
+    "category": "動作・変化",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "上下の動きや数量の変化を表す基本自動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "活用はrise–rose–risen。通常目的語を取らず、raise（〜を上げる）と区別します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "増える；上昇する",
+        "example": "Prices may rise next year.",
+        "exampleJa": "物価は来年上昇するかもしれません。"
+      }
+    ]
+  },
+  {
+    "id": "v3703",
+    "word": "lower",
+    "meaningJa": "下げる；低くする",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please lower your voice in the library.",
+    "exampleJa": "図書館では声を小さくしてください。",
+    "category": "動作・変化",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "音量や位置を下げる基本動作を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "ここでは動詞「下げる」。lowerにはlow（低い）の比較級としての用法もあります。"
+  },
+  {
+    "id": "v3704",
+    "word": "lay",
+    "meaningJa": "置く；横たえる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Please lay the books on the table.",
+    "exampleJa": "本をテーブルの上に置いてください。",
+    "category": "動作・変化",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "lieとの区別が必要な配置の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "他動詞で、活用はlay–laid–laid、進行形はlayingです。lie（横たわる）の過去形layと綴りが同じなので、目的語と時制を確認します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "（卵を）産む",
+        "example": "These birds lay their eggs in spring.",
+        "exampleJa": "これらの鳥は春に卵を産みます。"
+      }
+    ]
+  },
+  {
+    "id": "v3705",
+    "word": "hang",
+    "meaningJa": "掛ける；ぶら下がる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "You can hang your coat here.",
+    "exampleJa": "ここにコートを掛けられます。",
+    "category": "動作・変化",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の物の配置を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "掛ける・ぶら下がるの意味ではhang–hung–hungと活用します。絞首刑にする意味では通常hangedを使います。"
+  },
+  {
+    "id": "v3706",
+    "word": "similarly",
+    "meaningJa": "同様に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The two machines work similarly.",
+    "exampleJa": "その2台の機械は同じように動きます。",
+    "category": "論理・程度",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "共通点を述べる基本的な副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "文頭で使い、前の内容と似た例を導くこともあります。"
+  },
+  {
+    "id": "v3707",
+    "word": "namely",
+    "meaningJa": "すなわち；具体的には",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "We need one thing, namely time.",
+    "exampleJa": "私たちには一つ必要なもの、すなわち時間があります。",
+    "category": "論理・程度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "直前の内容を具体化する論理語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "前の語句が具体的に何を指すかを示します。単なる例示のfor exampleとは区別します。"
+  },
+  {
+    "id": "v3708",
+    "word": "alternatively",
+    "meaningJa": "別の方法として；あるいは",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "We could walk or alternatively take a bus.",
+    "exampleJa": "私たちは歩いてもよいし、別の方法としてバスに乗ってもよいでしょう。",
+    "category": "論理・程度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "別の選択肢を示す論理語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "alternately（交互に）と区別します。"
+  },
+  {
+    "id": "v3709",
+    "word": "admittedly",
+    "meaningJa": "確かに；認めざるを得ないが",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "The plan is admittedly expensive, but it may save time.",
+    "exampleJa": "その計画は確かに費用がかかりますが、時間を節約できるかもしれません。",
+    "category": "論理・程度",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "譲歩を示し論旨を追うための副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "不利な点などを認めたうえで、別の主張へ進むときに使います。"
+  },
+  {
+    "id": "v3710",
+    "word": "arguably",
+    "meaningJa": "おそらく；〜と言ってもよいほど",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "This is arguably the most important result of the study.",
+    "exampleJa": "これはその研究の最も重要な結果と言ってもよいでしょう。",
+    "category": "論理・程度",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "主張を断定せず評価する論説の副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "単なる確率よりも、そう主張できる根拠があることを含みます。"
+  },
+  {
+    "id": "v3711",
+    "word": "seemingly",
+    "meaningJa": "一見；見たところ",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The seemingly simple question was difficult to answer.",
+    "exampleJa": "一見簡単なその質問は答えるのが難しいものでした。",
+    "category": "論理・程度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "外見と実態を対比する副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "見たところそうであることを表し、実際もそうだとは断定しません。"
+  },
+  {
+    "id": "v3712",
+    "word": "essentially",
+    "meaningJa": "本質的には；基本的には",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The two proposals are essentially the same.",
+    "exampleJa": "その2つの提案は本質的には同じです。",
+    "category": "論理・程度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "細部を除き本質をまとめる副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主な性質や要点に注目する表現です。"
+  },
+  {
+    "id": "v3713",
+    "word": "regardless",
+    "meaningJa": "それでも；かまわずに",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "It began to rain, but they continued regardless.",
+    "exampleJa": "雨が降り始めましたが、彼らはそれでも続けました。",
+    "category": "論理・程度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "条件や障害に左右されないことを表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "regardless ofの形では、後ろに名詞などを置いて「〜にかかわらず」を表します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "〜にかかわらず（regardless of）",
+        "example": "Everyone can participate regardless of age.",
+        "exampleJa": "年齢にかかわらず誰でも参加できます。"
+      }
+    ]
+  },
+  {
+    "id": "v3714",
+    "word": "replicate",
+    "meaningJa": "再現する；複製する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Another team tried to replicate the experiment.",
+    "exampleJa": "別のチームがその実験を再現しようとしました。",
+    "category": "科学・調査",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "実験や検証の説明に必要な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "実験を同じ方法で繰り返すほか、物や結果を再現する意味があります。"
+  },
+  {
+    "id": "v3715",
+    "word": "reproducible",
+    "meaningJa": "再現できる；再現可能な",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The researchers checked whether the results were reproducible.",
+    "exampleJa": "研究者たちはその結果が再現可能かどうかを調べました。",
+    "category": "科学・調査",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "研究結果の検証を扱う発展読解の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "reproduce（再現する）から派生した形容詞です。"
+  },
+  {
+    "id": "v3716",
+    "word": "correlation",
+    "meaningJa": "相関；関連",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The study found a correlation between the two factors.",
+    "exampleJa": "その研究では2つの要因の間に相関が見つかりました。",
+    "category": "科学・調査",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "研究結果や統計の議論で使う抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "correlation between A and Bの形で2つのものの関連を表します。因果関係を意味するcausationとは区別します。"
+  },
+  {
+    "id": "v3717",
+    "word": "causation",
+    "meaningJa": "因果関係；原因となること",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The report distinguishes correlation from causation.",
+    "exampleJa": "その報告書は相関と因果関係を区別しています。",
+    "category": "科学・調査",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "因果の検証を扱う発展的な抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "単なる関連と、あるものが別のものを引き起こす関係を区別する際に使います。"
+  },
+  {
+    "id": "v3718",
+    "word": "causal",
+    "meaningJa": "因果関係の；原因となる",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The evidence suggests a causal link between the events.",
+    "exampleJa": "その証拠はそれらの出来事の間の因果関係を示唆しています。",
+    "category": "科学・調査",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "原因と結果を論じる形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "casual（普段着の・形式ばらない）とは綴りも意味も異なります。"
+  },
+  {
+    "id": "v3719",
+    "word": "criterion",
+    "meaningJa": "基準；判断の尺度",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Cost is not the only criterion for choosing a design.",
+    "exampleJa": "設計を選ぶ際の基準は費用だけではありません。",
+    "category": "科学・調査",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "判断や評価の議論で使う抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はcriteriaです。criteriaを別の見出し語として数えません。"
+  },
+  {
+    "id": "v3720",
+    "word": "random",
+    "meaningJa": "無作為の；でたらめな",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The computer selected a random number.",
+    "exampleJa": "コンピューターは無作為に数を一つ選びました。",
+    "category": "科学・調査",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "選択の方法を表す基本的な形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "at randomは「無作為に」。random sampleは「無作為標本」です。"
+  },
+  {
+    "id": "v3721",
+    "word": "sampling",
+    "meaningJa": "標本抽出；サンプリング",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The report explains the sampling method.",
+    "exampleJa": "その報告書は標本抽出の方法を説明しています。",
+    "category": "科学・調査",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "調査の方法を表す独立した学習価値のある名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "全体の一部を選んで調べる方法を指します。ここでは調査手法の名詞として扱います。"
+  },
+  {
+    "id": "v3722",
+    "word": "scrutiny",
+    "meaningJa": "綿密な調査；厳しい吟味",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The proposal came under close scrutiny.",
+    "exampleJa": "その提案は綿密な検討を受けました。",
+    "category": "科学・調査",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "主張や計画の厳しい検討を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は不可算名詞。under scrutinyは「調査・吟味を受けて」です。"
+  },
+  {
+    "id": "v3723",
+    "word": "falsify",
+    "meaningJa": "改ざんする；偽造する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The researcher refused to falsify the data.",
+    "exampleJa": "その研究者はデータを改ざんすることを拒みました。",
+    "category": "科学・調査",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "情報の信頼性を扱う発展読解の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "falsifyには、主張が誤りであると示す意味もあります。falseから派生した動詞です。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "誤りであると示す；反証する",
+        "example": "A single counterexample can falsify this claim.",
+        "exampleJa": "一つの反例でこの主張が誤りであると示すことができます。"
+      }
+    ]
+  },
+  {
+    "id": "v3724",
+    "word": "implausible",
+    "meaningJa": "もっともらしくない；信じがたい",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "His explanation seemed implausible to the investigators.",
+    "exampleJa": "彼の説明は調査員たちには信じがたいものに思えました。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "説明の妥当性を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "plausible（もっともらしい）の反対語。事実として不可能と断定する表現ではありません。"
+  },
+  {
+    "id": "v3725",
+    "word": "incredible",
+    "meaningJa": "信じられない；驚くほどの",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The view from the mountain was incredible.",
+    "exampleJa": "山からの眺めは驚くほど素晴らしいものでした。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "驚きや強い評価を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "文脈により「信じがたい」と「素晴らしい」の両方に使われます。"
+  },
+  {
+    "id": "v3726",
+    "word": "unequivocal",
+    "meaningJa": "明白な；曖昧さのない",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The committee gave an unequivocal answer.",
+    "exampleJa": "委員会は曖昧さのない回答を示しました。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "立場や判断の明確さを述べる発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "発言・支持・証拠などが明確であることを表します。"
+  },
+  {
+    "id": "v3727",
+    "word": "flawed",
+    "meaningJa": "欠陥のある；誤りを含む",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The argument rests on a flawed assumption.",
+    "exampleJa": "その議論は誤った仮定に基づいています。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "議論の問題点を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "flaw（欠陥）から派生した、性質を表す形容詞として扱います。"
+  },
+  {
+    "id": "v3728",
+    "word": "erroneous",
+    "meaningJa": "誤った；間違いのある",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The report was based on erroneous information.",
+    "exampleJa": "その報告書は誤った情報に基づいていました。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "情報や判断の誤りを表す改まった語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "error（誤り）に関連する形容詞です。"
+  },
+  {
+    "id": "v3729",
+    "word": "misleading",
+    "meaningJa": "誤解を招く",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The title of the article was misleading.",
+    "exampleJa": "その記事の題名は誤解を招くものでした。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報の伝え方を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "意図的なうそに限らず、受け手を誤った理解へ導く表現にも使います。"
+  },
+  {
+    "id": "v3730",
+    "word": "compelling",
+    "meaningJa": "非常に説得力のある；強く心を引く",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "She presented compelling evidence for her theory.",
+    "exampleJa": "彼女は自分の理論を支持する非常に説得力のある証拠を示しました。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "証拠や主張の強さを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "compelの単なる進行形とは別に、証拠や物語の性質を評価する形容詞として扱います。"
+  },
+  {
+    "id": "v3731",
+    "word": "persuasive",
+    "meaningJa": "説得力のある",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "He gave a persuasive explanation of the benefits.",
+    "exampleJa": "彼はその利点について説得力のある説明をしました。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "説明や主張の説得力を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "persuade（説得する）から派生した形容詞です。"
+  },
+  {
+    "id": "v3732",
+    "word": "convincing",
+    "meaningJa": "説得力のある；納得できる",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The witness gave a convincing account of the event.",
+    "exampleJa": "目撃者はその出来事について納得できる説明をしました。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "説明の信頼性を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "人が納得した状態を表すconvincedとは区別します。"
+  },
+  {
+    "id": "v3733",
+    "word": "debatable",
+    "meaningJa": "議論の余地がある",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Whether the plan will succeed is debatable.",
+    "exampleJa": "その計画が成功するかどうかには議論の余地があります。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "結論が確定していないことを述べる形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "誤りと断定するのではなく、異なる意見があり得ることを表します。"
+  },
+  {
+    "id": "v3734",
+    "word": "ritual",
+    "meaningJa": "儀式；決まった習慣",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Making tea is part of his morning ritual.",
+    "exampleJa": "お茶を入れることは彼の朝の決まった習慣の一部です。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "文化や日常の反復行動を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "宗教的な儀式に限らず、いつも決まった手順で行う習慣にも使います。"
+  },
+  {
+    "id": "v3735",
+    "word": "taboo",
+    "meaningJa": "タブー；社会的な禁忌",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The novel explores a social taboo.",
+    "exampleJa": "その小説は社会的なタブーを掘り下げています。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会や文化で避けられる事柄を述べる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "法律上の禁止とは限らず、社会や文化の規範による禁止・忌避を指します。"
+  },
+  {
+    "id": "v3736",
+    "word": "inclusion",
+    "meaningJa": "包含；受け入れること",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The teacher encouraged the inclusion of every student in the discussion.",
+    "exampleJa": "教師はすべての生徒が話し合いに加われるよう促しました。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会や教育で参加の範囲を述べる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "include（含む）に対応する名詞。inclusion ofで含まれる対象を示します。"
+  },
+  {
+    "id": "v3737",
+    "word": "exclusion",
+    "meaningJa": "除外；排除",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The exclusion of several examples weakened the argument.",
+    "exampleJa": "いくつかの例を除外したことで議論の説得力が弱まりました。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "議論や社会で対象から外すことを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "exclude（除外する）に対応する名詞。inclusionと対比して学びます。"
+  },
+  {
+    "id": "v3738",
+    "word": "integration",
+    "meaningJa": "統合；一体化",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The integration of the two systems took several months.",
+    "exampleJa": "2つのシステムの統合には数か月かかりました。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "制度・技術・社会の統合を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "integrateに対応する名詞で、複数の要素を一つにまとめることを表します。"
+  },
+  {
+    "id": "v3739",
+    "word": "ethnic",
+    "meaningJa": "民族の；民族的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The festival celebrates different ethnic traditions.",
+    "exampleJa": "その祭りはさまざまな民族の伝統をたたえています。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "文化や社会を説明する基本的な形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "民族の文化的背景などを表します。ethical（倫理的な）とは区別します。"
+  },
+  {
+    "id": "v3740",
+    "word": "migrant",
+    "meaningJa": "移住者；移動する人",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The story follows a migrant looking for work in a new city.",
+    "exampleJa": "その物語は新しい都市で仕事を探す移住者を追っています。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人の移動を扱う社会分野の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "国境を越える移動に限らず、国内の地域間を移動する人にも使います。"
+  },
+  {
+    "id": "v3741",
+    "word": "migration",
+    "meaningJa": "移住；移動；渡り",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The students studied the migration of birds.",
+    "exampleJa": "生徒たちは鳥の渡りを研究しました。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人や動物の移動を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "人の移住、鳥などの渡りに使います。技術分野ではデータなどの移行にも使われます。"
+  },
+  {
+    "id": "v3742",
+    "word": "collective",
+    "meaningJa": "集団の；共同の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Solving the problem requires collective effort.",
+    "exampleJa": "その問題を解決するには共同の努力が必要です。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "個人と集団を対比する論説の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "collective actionは「集団行動」、collective responsibilityは「共同責任」です。"
+  },
+  {
+    "id": "v3743",
+    "word": "conform",
+    "meaningJa": "従う；適合する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The design must conform to the agreed standards.",
+    "exampleJa": "その設計は合意された基準に適合しなければなりません。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "規範や基準との関係を述べる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "conform toで「規則・基準などに従う」。confirm（確認する）と混同しないようにします。"
+  },
+  {
+    "id": "v3744",
+    "word": "assimilation",
+    "meaningJa": "同化；吸収",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The essay discusses cultural assimilation.",
+    "exampleJa": "その論文は文化的な同化を論じています。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "文化や社会の変化を述べる発展的な抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "文化への同化のほか、知識などを吸収する意味にも使います。"
+  },
+  {
+    "id": "v3745",
+    "word": "multicultural",
+    "meaningJa": "多文化の；多文化から成る",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The school serves a multicultural community.",
+    "exampleJa": "その学校は多文化から成る地域社会のために教育を行っています。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "多様な文化が共存する社会を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "multi-は「多くの」を表します。"
+  },
+  {
+    "id": "v3746",
+    "word": "communal",
+    "meaningJa": "共同の；共有の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The residents share a communal kitchen.",
+    "exampleJa": "住民たちは共同の台所を使っています。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "地域や共同生活を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "集団の人々で共有する設備や活動などに使います。"
+  },
+  {
+    "id": "v3747",
+    "word": "individualism",
+    "meaningJa": "個人主義",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The essay compares individualism with group loyalty.",
+    "exampleJa": "その論文は個人主義と集団への忠誠心を比較しています。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "個人と集団の関係を論じる抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "個人の自立や自由などを重視する考え方で、必ずしも利己主義を意味しません。"
+  },
+  {
+    "id": "v3748",
+    "word": "conformity",
+    "meaningJa": "同調；適合",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The novel questions the demand for conformity.",
+    "exampleJa": "その小説は同調を求めることに疑問を投げかけています。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会的規範と個人の関係を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "conformに対応する名詞。in conformity withは「〜に従って・適合して」です。"
+  },
+  {
+    "id": "v3749",
+    "word": "deviate",
+    "meaningJa": "逸脱する；それる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "We should not deviate from the agreed plan.",
+    "exampleJa": "私たちは合意した計画からそれるべきではありません。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "規範や計画から外れることを述べる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常deviate fromの形で、基準や進路などから外れることを表します。"
+  },
+  {
+    "id": "v3750",
+    "word": "deviation",
+    "meaningJa": "逸脱；ずれ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The report noted a small deviation from the expected pattern.",
+    "exampleJa": "その報告書は予想されたパターンからの小さなずれを指摘しました。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "規範だけでなく測定や予測との差にも使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "deviateに対応する名詞。standard deviationは統計の「標準偏差」です。"
+  },
+  {
+    "id": "v3751",
+    "word": "staple",
+    "meaningJa": "主食",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Rice is a staple in many parts of Asia.",
+    "exampleJa": "米はアジアの多くの地域で主食です。",
+    "category": "食生活",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "食生活や農業の読解で重要な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「必需品」の意味もあり、文房具の「ホチキスの針」とは文脈で区別します。"
+  },
+  {
+    "id": "v3752",
+    "word": "puberty",
+    "meaningJa": "思春期；性的成熟期",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The body changes rapidly during puberty.",
+    "exampleJa": "思春期には体が急速に変化します。",
+    "category": "心身・発達",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "身体の成熟を扱う保健・発達の読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "身体が性的に成熟する時期を指し、adolescenceより身体的変化に重点があります。"
+  },
+  {
+    "id": "v3753",
+    "word": "motherhood",
+    "meaningJa": "母であること；母親としての生活",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The essay explores how motherhood changed her daily life.",
+    "exampleJa": "その随筆は母親になったことで彼女の日常生活がどう変わったかを考察しています。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "家族や社会的役割を扱う抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3754",
+    "word": "fatherhood",
+    "meaningJa": "父であること；父親としての生活",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The book describes the joys and challenges of fatherhood.",
+    "exampleJa": "その本は父親であることの喜びと難しさを描いています。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "家族や育児の役割を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3755",
+    "word": "orphanage",
+    "meaningJa": "孤児院",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She spent her early childhood in an orphanage.",
+    "exampleJa": "彼女は幼い頃を孤児院で過ごしました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "福祉や人物の生い立ちを扱う読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3756",
+    "word": "guardian",
+    "meaningJa": "保護者；後見人",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A parent or guardian must sign this form.",
+    "exampleJa": "親または保護者がこの用紙に署名しなければなりません。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "学校や手続きの案内に現れる基本的な社会語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3757",
+    "word": "custody",
+    "meaningJa": "親権；監護権",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The court granted her custody of the child.",
+    "exampleJa": "裁判所は彼女にその子の監護権を認めました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "家族と法制度の読解で使う抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "子どもを養育・保護する法的な権利や責任を指します。in police custodyでは「警察に拘束されて」の意味です。"
+  },
+  {
+    "id": "v3758",
+    "word": "upbringing",
+    "meaningJa": "育ち；しつけ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Her rural upbringing shaped her love of nature.",
+    "exampleJa": "田舎での育ちが彼女の自然への愛情を育みました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "家庭環境と人格形成を結び付ける読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3759",
+    "word": "vacuum",
+    "meaningJa": "真空",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Sound cannot travel through a vacuum.",
+    "exampleJa": "音は真空中を伝わることができません。",
+    "category": "科学・物理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物理や科学の基礎的な読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "vacuum cleanerは「掃除機」。動詞では「掃除機をかける」の意味もあります。"
+  },
+  {
+    "id": "v3760",
+    "word": "plumber",
+    "meaningJa": "配管工",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The plumber repaired the leaking pipe.",
+    "exampleJa": "配管工は水漏れしている管を修理しました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "住居や仕事の説明に使う職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3761",
+    "word": "electrician",
+    "meaningJa": "電気工事士",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "An electrician installed the new lights.",
+    "exampleJa": "電気工事士が新しい照明を取り付けました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "建物の設備や仕事を扱う職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3762",
+    "word": "carpenter",
+    "meaningJa": "大工",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The carpenter made a wooden table.",
+    "exampleJa": "大工は木のテーブルを作りました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な仕事やものづくりに関する職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3763",
+    "word": "barber",
+    "meaningJa": "理容師",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The barber cut my hair this morning.",
+    "exampleJa": "理容師は今朝私の髪を切りました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常生活の店やサービスに関する職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3764",
+    "word": "hairdresser",
+    "meaningJa": "美容師",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The hairdresser suggested a shorter style.",
+    "exampleJa": "美容師はもっと短い髪型を勧めました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な職業とサービスを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3765",
+    "word": "butcher",
+    "meaningJa": "肉屋；食肉処理・販売業者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The butcher cut the meat into small pieces.",
+    "exampleJa": "肉屋はその肉を小さく切りました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "買い物や食料の流通を扱う職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3766",
+    "word": "baker",
+    "meaningJa": "パン職人",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The baker starts work before sunrise.",
+    "exampleJa": "そのパン職人は日の出前に仕事を始めます。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食事や身近な仕事に関する基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3767",
+    "word": "cashier",
+    "meaningJa": "レジ係",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The cashier gave me a receipt.",
+    "exampleJa": "レジ係は私にレシートをくれました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "買い物の場面で使う基本的な職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3768",
+    "word": "receptionist",
+    "meaningJa": "受付係",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The receptionist showed us where to wait.",
+    "exampleJa": "受付係は待つ場所を私たちに教えてくれました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "施設や職場での案内に関する職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3769",
+    "word": "accountant",
+    "meaningJa": "会計士；経理担当者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The accountant checked the financial records.",
+    "exampleJa": "会計士は財務記録を確認しました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕事や企業活動を扱う基本的な社会語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3770",
+    "word": "librarian",
+    "meaningJa": "図書館員",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The librarian helped me find a book about birds.",
+    "exampleJa": "図書館員は鳥についての本を探すのを手伝ってくれました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校や地域の施設に関する基本的な職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3771",
+    "word": "veterinarian",
+    "meaningJa": "獣医師",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The veterinarian examined the injured dog.",
+    "exampleJa": "獣医師はけがをした犬を診察しました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "動物の保護や医療の読解に使う職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "日常会話ではvetと略すことがあります。"
+  },
+  {
+    "id": "v3772",
+    "word": "pharmacist",
+    "meaningJa": "薬剤師",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The pharmacist explained how to take the medicine.",
+    "exampleJa": "薬剤師は薬の飲み方を説明しました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "医療や健康を扱う読解で使う職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3773",
+    "word": "surgeon",
+    "meaningJa": "外科医",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The surgeon discussed the operation with the patient.",
+    "exampleJa": "外科医は患者とその手術について話し合いました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "医療分野でdoctorより具体的な役割を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3774",
+    "word": "physician",
+    "meaningJa": "医師",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The physician examined the patient carefully.",
+    "exampleJa": "医師は患者を注意深く診察しました。",
+    "category": "家族・職業",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "医療や健康についての文章で使われる職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "特に米語では医師一般を指します。内科医を指す用法もあります。"
+  },
+  {
+    "id": "v3775",
+    "word": "dust",
+    "meaningJa": "ほこり；ちり",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A layer of dust covered the old desk.",
+    "exampleJa": "古い机にはほこりが積もっていました。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "住居や掃除に関する日常的な基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3776",
+    "word": "clog",
+    "meaningJa": "詰まらせる；ふさぐ",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Leaves can clog the drain after heavy rain.",
+    "exampleJa": "大雨の後には葉が排水口を詰まらせることがあります。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "設備や流れの障害を説明する読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3777",
+    "word": "unpack",
+    "meaningJa": "荷物をほどく；取り出す",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "We will unpack our bags after lunch.",
+    "exampleJa": "私たちは昼食後にかばんの荷物を取り出します。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "旅行や引っ越しで独立して使う日常動作語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3778",
+    "word": "switch",
+    "meaningJa": "切り替える；変える",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "We need to switch to a cheaper plan.",
+    "exampleJa": "私たちはもっと安いプランに切り替える必要があります。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "選択や状態の変更を表す基本的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "名詞では「スイッチ；切り替え」。switch on/offで「電源を入れる／切る」。"
+  },
+  {
+    "id": "v3779",
+    "word": "socket",
+    "meaningJa": "差し込み口；コンセント",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Plug the lamp into the wall socket.",
+    "exampleJa": "ランプのプラグを壁のコンセントに差し込んでください。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "住居や電気設備を扱う具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "電気のコンセントにはoutletも使います。eye socketは「眼窩」です。"
+  },
+  {
+    "id": "v3780",
+    "word": "cord",
+    "meaningJa": "ひも；コード",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Tie the package with a piece of cord.",
+    "exampleJa": "ひもでその包みを縛ってください。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日用品や設備の説明に使う具体的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "電気器具の「コード」も表します。"
+  },
+  {
+    "id": "v3781",
+    "word": "screw",
+    "meaningJa": "ねじ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "One screw is missing from the chair.",
+    "exampleJa": "その椅子にはねじが一本足りません。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "道具や修理の説明に使う具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3782",
+    "word": "nail",
+    "meaningJa": "くぎ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He drove a nail into the wooden board.",
+    "exampleJa": "彼は木の板にくぎを打ち込みました。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な道具を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「爪」の意味もあります。"
+  },
+  {
+    "id": "v3783",
+    "word": "hammer",
+    "meaningJa": "金づち；ハンマー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Use a hammer to drive in the nail.",
+    "exampleJa": "くぎを打ち込むには金づちを使ってください。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な道具や作業に関する基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3784",
+    "word": "drill",
+    "meaningJa": "ドリル；穴あけ器",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She used a drill to make a hole in the wall.",
+    "exampleJa": "彼女はドリルで壁に穴を開けました。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "工作や設備の説明に使う具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "fire drillでは「消防訓練・避難訓練」。反復練習の意味もあります。"
+  },
+  {
+    "id": "v3785",
+    "word": "screwdriver",
+    "meaningJa": "ねじ回し；ドライバー",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "I need a screwdriver to tighten this screw.",
+    "exampleJa": "このねじを締めるにはねじ回しが必要です。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常の修理や道具の説明に使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3786",
+    "word": "wrench",
+    "meaningJa": "レンチ；スパナ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Use a wrench to loosen the nut.",
+    "exampleJa": "ナットを緩めるにはレンチを使ってください。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "機械や修理を説明する具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3787",
+    "word": "ladder",
+    "meaningJa": "はしご",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He climbed a ladder to reach the roof.",
+    "exampleJa": "彼は屋根に上がるためにはしごを登りました。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な道具や動作の描写に使う基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3788",
+    "word": "attic",
+    "meaningJa": "屋根裏部屋",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We keep old furniture in the attic.",
+    "exampleJa": "私たちは古い家具を屋根裏部屋に保管しています。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "住居や物語の場面を描写する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3789",
+    "word": "basement",
+    "meaningJa": "地下室；地下階",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The laundry room is in the basement.",
+    "exampleJa": "洗濯室は地下にあります。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "建物の案内や住居の描写に使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3790",
+    "word": "chimney",
+    "meaningJa": "煙突",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Smoke rose from the chimney.",
+    "exampleJa": "煙突から煙が上がりました。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "建物や生活風景を描写する具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3791",
+    "word": "porch",
+    "meaningJa": "玄関先の屋根付きスペース；ポーチ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She sat on the porch and watched the rain.",
+    "exampleJa": "彼女は玄関先の屋根付きスペースに座って雨を眺めました。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "住居や物語の場面を描写する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3792",
+    "word": "fence",
+    "meaningJa": "柵；囲い",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A wooden fence surrounds the garden.",
+    "exampleJa": "木の柵が庭を囲んでいます。",
+    "category": "生活・設備",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "住居や風景に関する基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3793",
+    "word": "firefighter",
+    "meaningJa": "消防士",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The firefighter carried the child to safety.",
+    "exampleJa": "消防士はその子を安全な場所まで運びました。",
+    "category": "職業",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "地域の仕事や防災に関する基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3794",
+    "word": "paramedic",
+    "meaningJa": "救急救命士；救急医療隊員",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The paramedic checked the injured man before the ambulance left.",
+    "exampleJa": "救急医療隊員は救急車が出発する前に負傷した男性の状態を確認しました。",
+    "category": "職業",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "事故や救急医療に関する読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "資格や業務範囲は国によって異なります。"
+  },
+  {
+    "id": "v3795",
+    "word": "lifeguard",
+    "meaningJa": "水難救助員；水泳監視員",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A lifeguard watched the swimmers from a tall chair.",
+    "exampleJa": "水泳監視員は高い椅子から泳いでいる人たちを見守っていました。",
+    "category": "職業",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "海やプールの安全に関する職業名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3796",
+    "word": "pier",
+    "meaningJa": "桟橋",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "We walked to the end of the pier.",
+    "exampleJa": "私たちは桟橋の先まで歩きました。",
+    "category": "交通・地理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "海辺や交通を扱う場面の具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3797",
+    "word": "canal",
+    "meaningJa": "運河",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The canal connects the river to the sea.",
+    "exampleJa": "その運河は川と海を結んでいます。",
+    "category": "交通・地理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地理や交通の読解に使う基本的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3798",
+    "word": "reservoir",
+    "meaningJa": "貯水池",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The reservoir supplies drinking water to nearby towns.",
+    "exampleJa": "その貯水池は近隣の町に飲料水を供給しています。",
+    "category": "環境・資源",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "水資源や環境の読解で重要な具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3799",
+    "word": "dam",
+    "meaningJa": "ダム；堰",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The dam controls the flow of the river.",
+    "exampleJa": "そのダムは川の流れを調節しています。",
+    "category": "環境・資源",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地理やエネルギーを扱う基本的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3800",
+    "word": "hygiene",
+    "meaningJa": "衛生；衛生管理",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Good hygiene helps prevent the spread of disease.",
+    "exampleJa": "適切な衛生管理は病気の拡大を防ぐのに役立ちます。",
+    "category": "健康・医療",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "健康や公衆衛生を扱う読解で重要な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

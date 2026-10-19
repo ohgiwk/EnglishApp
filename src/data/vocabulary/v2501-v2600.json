@@ -1,0 +1,2312 @@
+[
+  {
+    "id": "v2501",
+    "word": "activity",
+    "meaningJa": "活動",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Swimming is a popular summer activity.",
+    "exampleJa": "水泳は人気のある夏の活動です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校生活や余暇の行動を表す基本的な名詞として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2502",
+    "word": "athlete",
+    "meaningJa": "運動選手",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The athlete thanked her coach after the race.",
+    "exampleJa": "その選手はレースの後でコーチに感謝しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "スポーツをする人を指す身近な名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2503",
+    "word": "beat",
+    "meaningJa": "打つ；打ち負かす",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Our team hopes to beat the champions next week.",
+    "exampleJa": "私たちのチームは来週、優勝チームを破りたいと思っています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "打つ動作や競技で相手を破る基本義を中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "活用はbeat–beat–beatenです。相手を打ち負かす場合はbeat the opponent、試合に勝つ場合はwin the gameのように使い分けます。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "鼓動する；打ち鳴らす",
+        "example": "I could feel my heart beat faster as the race began.",
+        "exampleJa": "レースが始まると心臓が速く鼓動するのを感じました。"
+      }
+    ]
+  },
+  {
+    "id": "v2504",
+    "word": "chest",
+    "meaningJa": "胸；胸部",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He held the box against his chest.",
+    "exampleJa": "彼は箱を胸に抱えていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "体の身近な部分を示す基本名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2505",
+    "word": "advise",
+    "meaningJa": "助言する；勧める",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Teachers advise students to read widely.",
+    "exampleJa": "教師は生徒に幅広く読書するよう勧めます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "人に行動を勧める日常的な動詞として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "動詞adviseに対し、名詞「助言」はadviceです。advise someone to doで「人に〜するよう勧める」を表します。"
+  },
+  {
+    "id": "v2506",
+    "word": "cycle",
+    "meaningJa": "周期；循環",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The diagram shows the life cycle of a butterfly.",
+    "exampleJa": "その図はチョウの生活環を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "繰り返す過程を表す基本義を高校基礎に配置し、自転車に乗る動詞も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "自転車に乗る",
+        "example": "We cycle to the library when the weather is fine.",
+        "exampleJa": "私たちは天気がよいときは自転車で図書館に行きます。"
+      }
+    ]
+  },
+  {
+    "id": "v2507",
+    "word": "powerful",
+    "meaningJa": "強力な；力のある",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The boat has a powerful engine.",
+    "exampleJa": "そのボートには強力なエンジンが付いています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "力や影響の大きさを示す基本的な形容詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2508",
+    "word": "ambitious",
+    "meaningJa": "大きな志のある；意欲的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The team set an ambitious goal for the new project.",
+    "exampleJa": "チームは新しい企画に意欲的な目標を設定しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "目標の高さや強い意欲を表す高校基礎の人物・計画の描写語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2509",
+    "word": "institute",
+    "meaningJa": "研究所；専門機関",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She works at an institute that studies ocean life.",
+    "exampleJa": "彼女は海洋生物を研究する機関で働いています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "教育や研究を行う組織を指す高校基礎の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2510",
+    "word": "tip",
+    "meaningJa": "先端；助言",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The tip of the pencil broke during the test.",
+    "exampleJa": "試験中に鉛筆の先が折れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な物の先端を表す基本義として学び、助言や傾ける意味も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "助言；こつ",
+        "example": "She gave me a useful tip for remembering names.",
+        "exampleJa": "彼女は名前を覚えるための役立つこつを教えてくれました。"
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "傾ける；ある状態に移す",
+        "example": "A small mistake could tip the balance against us.",
+        "exampleJa": "小さな間違いで状況が私たちに不利に傾くおそれがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v2511",
+    "word": "endurance",
+    "meaningJa": "持久力；忍耐力",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The long race tested the endurance of every runner.",
+    "exampleJa": "その長いレースはすべての走者の持久力を試しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "困難な活動を続ける能力を表す標準的なスポーツ・心理読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2512",
+    "word": "fatigue",
+    "meaningJa": "疲労",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The workers reported fatigue after the long shift.",
+    "exampleJa": "作業員たちは長時間の勤務の後で疲労を訴えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "体や精神の疲れを表すやや改まった標準読解の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は不可算名詞です。日常的なtirednessより改まった文脈でも使います。"
+  },
+  {
+    "id": "v2513",
+    "word": "faint",
+    "meaningJa": "気を失う；失神する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "She felt as if she might faint in the crowded room.",
+    "exampleJa": "彼女は混雑した部屋で気を失いそうに感じました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "体調の変化を描写する基本的な動詞として高校基礎で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "かすかな；薄い",
+        "example": "We could hear a faint sound in the distance.",
+        "exampleJa": "遠くでかすかな音が聞こえました。"
+      }
+    ]
+  },
+  {
+    "id": "v2514",
+    "word": "obesity",
+    "meaningJa": "肥満",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The study examines social factors related to obesity.",
+    "exampleJa": "その研究は肥満に関連する社会的要因を調べています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "健康や社会環境を論じる文章で使う標準的な読解名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2515",
+    "word": "stability",
+    "meaningJa": "安定；安定性",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The extra support improved the stability of the table.",
+    "exampleJa": "追加の支えによってテーブルの安定性が向上しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物や状況が安定している性質を述べる標準的な抽象名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2516",
+    "word": "intensity",
+    "meaningJa": "強さ；強度",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The intensity of the light changed during the experiment.",
+    "exampleJa": "実験中に光の強度が変化しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "活動や現象の強さを数量的に述べる標準的な読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2517",
+    "word": "duration",
+    "meaningJa": "継続時間；期間",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The duration of each session is thirty minutes.",
+    "exampleJa": "各回の実施時間は30分です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "活動や現象が続く長さを説明する標準的な読解名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "for the duration ofで「〜が続く間ずっと」を表します。"
+  },
+  {
+    "id": "v2518",
+    "word": "prescribe",
+    "meaningJa": "処方する；指示する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "A doctor can prescribe medicine when it is needed.",
+    "exampleJa": "医師は必要なときに薬を処方できます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "医療や規則で指示を出す行為を表す標準的な読解動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2519",
+    "word": "prescription",
+    "meaningJa": "処方箋；処方",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She took the prescription to the pharmacy.",
+    "exampleJa": "彼女は処方箋を薬局に持って行きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "医療の場面で使う書類や指示を表す標準的な名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2520",
+    "word": "stroke",
+    "meaningJa": "一打；一振り",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "One stroke of the brush left a bright line.",
+    "exampleJa": "筆を一振りすると鮮やかな線が残りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "一回の動作を指す基本義を標準読解で学び、脳卒中の意味も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "脳卒中",
+        "example": "The study followed people recovering from a stroke.",
+        "exampleJa": "その研究は脳卒中から回復中の人々を追跡しました。"
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "なでる",
+        "example": "The child reached out to stroke the dog.",
+        "exampleJa": "その子は犬をなでようと手を伸ばしました。"
+      }
+    ]
+  },
+  {
+    "id": "v2521",
+    "word": "heighten",
+    "meaningJa": "高める；強める",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The sudden silence seemed to heighten the tension.",
+    "exampleJa": "突然の静けさは緊張を高めるように感じられました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "程度や感情をさらに強くする動詞として発展的な論説・描写で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2522",
+    "word": "genetics",
+    "meaningJa": "遺伝学",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Genetics helps researchers study inherited traits.",
+    "exampleJa": "遺伝学は研究者が遺伝する形質を研究する助けになります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "遺伝の仕組みを扱う学問名として発展的な科学読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "学問名の「遺伝学」は末尾がsでも単数扱いです。"
+  },
+  {
+    "id": "v2523",
+    "word": "sedentary",
+    "meaningJa": "座ってばかりの；身体活動の少ない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Her new job is more sedentary than her previous one.",
+    "exampleJa": "彼女の新しい仕事は前の仕事より座っている時間が長いです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生活や仕事での活動量を表す発展的な健康・社会読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2524",
+    "word": "potent",
+    "meaningJa": "強力な；大きな効果のある",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The image became a potent symbol of hope.",
+    "exampleJa": "その画像は希望を表す強力な象徴になりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "作用や影響が非常に強いことを表す発展的な形容詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2525",
+    "word": "impeccable",
+    "meaningJa": "非の打ち所がない；完璧な",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "Her impeccable preparation impressed the interviewers.",
+    "exampleJa": "彼女の完璧な準備は面接官に強い印象を与えました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "欠点のない高い質を評価する硬い表現として発展読解に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2526",
+    "word": "regimen",
+    "meaningJa": "規則的な生活・訓練の計画",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The coach designed a training regimen for the team.",
+    "exampleJa": "コーチはチームのために訓練計画を立てました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "運動や生活について定められた手順を表す専門性のある発展語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "食事・運動・治療などで続ける計画的な方法を指します。単なる一回の運動ではありません。"
+  },
+  {
+    "id": "v2527",
+    "word": "randomize",
+    "meaningJa": "無作為化する；無作為に割り当てる",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The program will randomize the order of the questions.",
+    "exampleJa": "プログラムは問題の順序を無作為に並べ替えます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "研究方法や処理の順序を説明する専門性のある発展読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "randomiseという綴りもあります。研究では対象を群へ無作為に割り当てる意味でも使います。"
+  },
+  {
+    "id": "v2528",
+    "word": "implant",
+    "meaningJa": "埋め込む；植え付ける",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The engineers plan to implant a sensor in the material.",
+    "exampleJa": "技師たちはその材料にセンサーを埋め込む計画です。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "内部へ装置や考えを入れる動作を表す発展的な科学・心理読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "動詞では後ろの音節、名詞では最初の音節に強勢を置きます。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "体内に埋め込む器具；移植物",
+        "example": "The engineer described the design of the implant.",
+        "exampleJa": "技師は体内に埋め込む器具の設計を説明しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2529",
+    "word": "chamber",
+    "meaningJa": "部屋；内部の空間",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The samples were placed in a sealed chamber.",
+    "exampleJa": "試料は密閉された室内に置かれました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "装置や建物などの区切られた空間を表す標準読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "心臓などの内部の腔",
+        "example": "The diagram labels each chamber of the heart.",
+        "exampleJa": "その図には心臓の各腔の名称が示されています。"
+      }
+    ]
+  },
+  {
+    "id": "v2530",
+    "word": "troublesome",
+    "meaningJa": "厄介な；面倒な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The old printer has become increasingly troublesome.",
+    "exampleJa": "その古いプリンターはますます厄介なものになっています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "問題を引き起こす性質を述べる高校基礎の形容詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2531",
+    "word": "team",
+    "meaningJa": "チーム；一緒に働く集団",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Our team practices after school.",
+    "exampleJa": "私たちのチームは放課後に練習します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校やスポーツで身近な集団を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2532",
+    "word": "coach",
+    "meaningJa": "コーチ；指導者",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The coach showed us how to hold the racket.",
+    "exampleJa": "コーチはラケットの持ち方を教えてくれました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "スポーツなどの指導者を指す具体的な基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "指導する；コーチする",
+        "example": "She will coach the younger players this season.",
+        "exampleJa": "彼女は今シーズン、年下の選手たちを指導します。"
+      },
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "長距離バス（主に英国）",
+        "example": "We traveled to the coast by coach.",
+        "exampleJa": "私たちは長距離バスで海岸へ行きました。"
+      }
+    ]
+  },
+  {
+    "id": "v2533",
+    "word": "score",
+    "meaningJa": "得点；点数",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The final score was three to one.",
+    "exampleJa": "最終得点は3対1でした。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "競技や試験の結果を示す身近な名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "得点する",
+        "example": "Our team needs to score one more goal.",
+        "exampleJa": "私たちのチームはもう一点取る必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "v2534",
+    "word": "victory",
+    "meaningJa": "勝利",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The players celebrated their first victory.",
+    "exampleJa": "選手たちは初めての勝利を祝いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "競争に勝つ結果を表す基本名詞として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2535",
+    "word": "defeat",
+    "meaningJa": "打ち負かす；破る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The young player managed to defeat the champion.",
+    "exampleJa": "その若い選手は優勝者を破ることができました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "競争相手を破る動作を表す高校基礎の読解動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "敗北",
+        "example": "The team learned from its recent defeat.",
+        "exampleJa": "チームは最近の敗北から学びました。"
+      }
+    ]
+  },
+  {
+    "id": "v2536",
+    "word": "opponent",
+    "meaningJa": "対戦相手；反対者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She shook hands with her opponent after the match.",
+    "exampleJa": "彼女は試合の後で対戦相手と握手しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "競技や議論で向き合う相手を指す高校基礎の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2537",
+    "word": "competitor",
+    "meaningJa": "競争相手；競技参加者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Each competitor received a number before the race.",
+    "exampleJa": "各競技参加者はレースの前に番号を受け取りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "競技の参加者や市場の競争相手を表す高校基礎の名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2538",
+    "word": "spectator",
+    "meaningJa": "観客；見物人",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "One spectator caught the ball near the fence.",
+    "exampleJa": "一人の観客がフェンスの近くでボールを捕りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "競技や出来事を見る人を表す標準的な社会・スポーツ読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2539",
+    "word": "medal",
+    "meaningJa": "メダル；勲章",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She won a silver medal in the swimming competition.",
+    "exampleJa": "彼女は水泳大会で銀メダルを獲得しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "競技の結果をたたえる具体的な物の名前として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2540",
+    "word": "trophy",
+    "meaningJa": "優勝杯；トロフィー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The captain lifted the trophy above his head.",
+    "exampleJa": "主将はトロフィーを頭上に掲げました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "競技で受け取る身近な賞の名前として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2541",
+    "word": "tournament",
+    "meaningJa": "大会；勝ち抜き戦",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The tournament will bring together teams from twelve schools.",
+    "exampleJa": "その大会には12校のチームが集まります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "複数の試合からなる競技大会を説明する高校基礎の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2542",
+    "word": "champion",
+    "meaningJa": "優勝者；チャンピオン",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The champion returned to defend her title.",
+    "exampleJa": "優勝者はタイトルを守るために戻ってきました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "競技で最もよい成績を収めた人を指す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "擁護者；支持者",
+        "example": "She became a champion of equal access to education.",
+        "exampleJa": "彼女は教育を受ける平等な機会の擁護者になりました。"
+      }
+    ]
+  },
+  {
+    "id": "v2543",
+    "word": "soccer",
+    "meaningJa": "サッカー",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We play soccer in the park on Sundays.",
+    "exampleJa": "私たちは日曜日に公園でサッカーをします。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近なスポーツ名として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主に米国などで用いる名称です。英国などでは一般にfootballと呼びます。"
+  },
+  {
+    "id": "v2544",
+    "word": "baseball",
+    "meaningJa": "野球",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "My brother enjoys watching baseball.",
+    "exampleJa": "兄は野球を見るのが好きです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常会話や学校生活で使うスポーツ名として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2545",
+    "word": "basketball",
+    "meaningJa": "バスケットボール",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We played basketball in the gym after school.",
+    "exampleJa": "私たちは放課後に体育館でバスケットボールをしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校で行う身近なスポーツ名として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2546",
+    "word": "tennis",
+    "meaningJa": "テニス",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She plays tennis with her friends every Saturday.",
+    "exampleJa": "彼女は毎週土曜日に友達とテニスをします。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "余暇や学校生活で使う基本的なスポーツ名として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2547",
+    "word": "volleyball",
+    "meaningJa": "バレーボール",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Our class played volleyball during the lunch break.",
+    "exampleJa": "私たちのクラスは昼休みにバレーボールをしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "学校生活に身近なスポーツ名として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2548",
+    "word": "badminton",
+    "meaningJa": "バドミントン",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "They practice badminton in the sports hall.",
+    "exampleJa": "彼らは体育館でバドミントンを練習します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な競技の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2549",
+    "word": "rugby",
+    "meaningJa": "ラグビー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He joined the school rugby club this spring.",
+    "exampleJa": "彼はこの春、学校のラグビー部に入りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校や地域の競技を指す具体的な基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2550",
+    "word": "golf",
+    "meaningJa": "ゴルフ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "My grandfather taught me how to play golf.",
+    "exampleJa": "祖父は私にゴルフの仕方を教えてくれました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "余暇の活動を表す身近なスポーツ名として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "play golfのように、競技名の前には通常冠詞を置きません。"
+  },
+  {
+    "id": "v2551",
+    "word": "muscle",
+    "meaningJa": "筋肉",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The diagram shows a muscle in the upper arm.",
+    "exampleJa": "その図は上腕の筋肉を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "体の構造や運動を説明する高校基礎の名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2552",
+    "word": "strength",
+    "meaningJa": "力；強さ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She used all her strength to open the heavy door.",
+    "exampleJa": "彼女は重いドアを開けるために全力を使いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "体力や物の強さを表す基本的な名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "長所；強み",
+        "example": "Her greatest strength is the ability to explain complex ideas.",
+        "exampleJa": "彼女の最大の強みは複雑な考えを説明する能力です。"
+      }
+    ]
+  },
+  {
+    "id": "v2553",
+    "word": "sweat",
+    "meaningJa": "汗",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Sweat ran down his face during the game.",
+    "exampleJa": "試合中、汗が彼の顔を流れ落ちました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な運動や暑さの描写に使う基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "汗をかく",
+        "example": "I began to sweat as the room grew warmer.",
+        "exampleJa": "部屋が暖かくなるにつれて汗をかき始めました。"
+      }
+    ]
+  },
+  {
+    "id": "v2554",
+    "word": "breath",
+    "meaningJa": "息；呼吸",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She took a deep breath before speaking.",
+    "exampleJa": "彼女は話す前に深呼吸をしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の身体動作を名詞として表す基本語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "名詞breath（息）と動詞breathe（呼吸する）は綴りと発音が異なります。"
+  },
+  {
+    "id": "v2555",
+    "word": "pulse",
+    "meaningJa": "脈；脈拍",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The nurse checked his pulse before the examination.",
+    "exampleJa": "看護師は診察前に彼の脈を確認しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "体の状態を描写する高校基礎の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2556",
+    "word": "heartbeat",
+    "meaningJa": "心拍；心臓の鼓動",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The device recorded each heartbeat during the test.",
+    "exampleJa": "その装置は検査中の一回一回の心拍を記録しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "心臓の動きを具体的に述べる科学・健康分野の高校基礎語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2557",
+    "word": "wrist",
+    "meaningJa": "手首",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She wears a watch on her left wrist.",
+    "exampleJa": "彼女は左手首に腕時計を着けています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "体の身近な部分を表す基本名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "語頭のwは発音しません。"
+  },
+  {
+    "id": "v2558",
+    "word": "ankle",
+    "meaningJa": "足首",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "His sock covered the small mark on his ankle.",
+    "exampleJa": "彼の靴下は足首の小さな跡を覆っていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "体の具体的な部分の名前として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2559",
+    "word": "elbow",
+    "meaningJa": "ひじ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He rested his elbow on the table.",
+    "exampleJa": "彼はテーブルにひじをつきました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な姿勢や動作を描く基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2560",
+    "word": "heel",
+    "meaningJa": "かかと；靴のかかと",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The heel of my shoe caught on the step.",
+    "exampleJa": "靴のかかとが段差に引っかかりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "体や靴の身近な部分を指す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2561",
+    "word": "hip",
+    "meaningJa": "腰；股関節の辺り",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She carried the child on her hip.",
+    "exampleJa": "彼女は子どもを腰に乗せて抱いていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "体の側面や姿勢を描写する基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2562",
+    "word": "waist",
+    "meaningJa": "腰回り；ウエスト",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The belt was too loose around his waist.",
+    "exampleJa": "そのベルトは彼の腰回りには緩すぎました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "体や衣服の寸法を示す身近な名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "waste（浪費・無駄にする）と同じ発音ですが意味と綴りが異なります。"
+  },
+  {
+    "id": "v2563",
+    "word": "spine",
+    "meaningJa": "背骨；脊柱",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The model shows the shape of the human spine.",
+    "exampleJa": "その模型は人間の背骨の形を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "骨格の構造を正確に説明する標準的な生物読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "本の背",
+        "example": "The title is printed on the spine of the book.",
+        "exampleJa": "題名は本の背に印刷されています。"
+      }
+    ]
+  },
+  {
+    "id": "v2564",
+    "word": "lung",
+    "meaningJa": "肺",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The image showed a small shadow in the left lung.",
+    "exampleJa": "その画像には左肺の小さな影が写っていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "呼吸に関わる器官の名前として高校基礎の科学読解で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2565",
+    "word": "liver",
+    "meaningJa": "肝臓",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The students studied a model of the liver.",
+    "exampleJa": "学生たちは肝臓の模型を調べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "体内の器官を具体的に区別する標準的な生物読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2566",
+    "word": "kidney",
+    "meaningJa": "腎臓",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The diagram labels the kidney and nearby organs.",
+    "exampleJa": "その図には腎臓と近くの器官の名称が示されています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "体内の器官を説明する標準的な生物読解の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2567",
+    "word": "bone",
+    "meaningJa": "骨",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The dog buried a bone in the garden.",
+    "exampleJa": "犬は庭に骨を埋めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "体の構造や身近な動物に関する基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2568",
+    "word": "skeleton",
+    "meaningJa": "骨格；骸骨",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The museum displays the skeleton of a large animal.",
+    "exampleJa": "その博物館は大きな動物の骨格を展示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "体全体を支える骨の構造を表す高校基礎の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2569",
+    "word": "skull",
+    "meaningJa": "頭蓋骨",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The scientist examined the shape of the skull.",
+    "exampleJa": "科学者は頭蓋骨の形を調べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生物や進化の説明で体の構造を区別する標準読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2570",
+    "word": "tendon",
+    "meaningJa": "腱",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The diagram shows how a tendon connects muscle to bone.",
+    "exampleJa": "その図は腱が筋肉と骨をどのようにつなぐかを示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "筋肉と骨のつながりを説明する専門的な解剖語として発展読解に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "筋肉と骨をつなぐ腱を指します。骨同士をつなぐ靱帯はligamentです。"
+  },
+  {
+    "id": "v2571",
+    "word": "ligament",
+    "meaningJa": "靱帯",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The model shows a ligament linking two bones.",
+    "exampleJa": "その模型は二つの骨をつなぐ靱帯を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "関節を支える組織を具体的に指す専門語として発展読解に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2572",
+    "word": "nerve",
+    "meaningJa": "神経",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The diagram traces the path of a nerve through the arm.",
+    "exampleJa": "その図は腕を通る神経の経路を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "感覚や体の働きを説明する高校基礎の生物読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "度胸；勇気",
+        "example": "He finally found the nerve to speak in public.",
+        "exampleJa": "彼はついに人前で話す勇気を出しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2573",
+    "word": "illness",
+    "meaningJa": "病気",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Her illness kept her away from school for a week.",
+    "exampleJa": "彼女は病気のため一週間学校を休みました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常生活で体調を述べる基本名詞として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2574",
+    "word": "heal",
+    "meaningJa": "治る；治す",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The small cut began to heal.",
+    "exampleJa": "その小さな切り傷は治り始めました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "傷などが回復する過程を描く高校基礎の動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "心の傷などを癒やす；修復する",
+        "example": "They hoped that honest discussion would heal the division.",
+        "exampleJa": "彼らは率直な議論で対立が解消されることを願いました。"
+      }
+    ]
+  },
+  {
+    "id": "v2575",
+    "word": "wound",
+    "meaningJa": "傷；外傷",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The nurse examined the wound on his hand.",
+    "exampleJa": "看護師は彼の手の傷を確認しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "体の損傷を具体的に説明する高校基礎の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "傷の意味では「ウーンド」に近い発音です。wind（巻く）の過去形woundとは発音が異なります。"
+  },
+  {
+    "id": "v2576",
+    "word": "injure",
+    "meaningJa": "けがをさせる；傷つける",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Falling branches can injure people below.",
+    "exampleJa": "落ちてくる枝は下にいる人にけがをさせることがあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "事故などによる身体の損傷を表す基本動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2577",
+    "word": "injury",
+    "meaningJa": "けが；負傷",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "An injury prevented him from joining the match.",
+    "exampleJa": "けがのため彼は試合に参加できませんでした。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学校やスポーツの日常的な出来事を述べる基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2578",
+    "word": "bleed",
+    "meaningJa": "出血する；血が出る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "His finger began to bleed after he cut it.",
+    "exampleJa": "指を切ると血が出始めました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "体に起きる具体的な変化を述べる高校基礎の動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "活用はbleed–bled–bledです。"
+  },
+  {
+    "id": "v2579",
+    "word": "bruise",
+    "meaningJa": "あざ；打撲傷",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She noticed a bruise on her leg.",
+    "exampleJa": "彼女は脚にあざがあることに気付きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的なけがの見た目を表す高校基礎の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "あざを作る；打ち傷を付ける",
+        "example": "Rough handling can bruise the fruit.",
+        "exampleJa": "乱暴に扱うと果物に傷が付くことがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v2580",
+    "word": "scar",
+    "meaningJa": "傷跡",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A small scar remained above his eyebrow.",
+    "exampleJa": "彼の眉の上には小さな傷跡が残っていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "過去の傷の跡を描写する高校基礎の具体語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2581",
+    "word": "dizzy",
+    "meaningJa": "めまいがする；ふらふらする",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "She felt dizzy after spinning around.",
+    "exampleJa": "彼女はぐるぐる回った後でめまいがしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "体の感覚や状態を具体的に描く高校基礎の形容詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2582",
+    "word": "fever",
+    "meaningJa": "発熱；熱",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He stayed home because he had a fever.",
+    "exampleJa": "彼は熱があったため家にいました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な体調を述べる基本名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2583",
+    "word": "sore",
+    "meaningJa": "痛む；ひりひりする",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "My feet were sore after the long walk.",
+    "exampleJa": "長く歩いた後で足が痛くなりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "体の部分の痛みを述べる日常的な形容詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2584",
+    "word": "ache",
+    "meaningJa": "痛み；うずき",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He felt a dull ache in his shoulder.",
+    "exampleJa": "彼は肩に鈍い痛みを感じました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "続く鈍い痛みを描く高校基礎の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "痛む；うずく",
+        "example": "My shoulders ache after carrying the heavy bag.",
+        "exampleJa": "重いかばんを運んだ後で肩が痛みます。"
+      }
+    ]
+  },
+  {
+    "id": "v2585",
+    "word": "painful",
+    "meaningJa": "痛い；苦痛な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The scratch was small but painful.",
+    "exampleJa": "そのひっかき傷は小さかったものの痛みがありました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身体的・精神的な痛みを形容する基本語として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2586",
+    "word": "acute",
+    "meaningJa": "深刻な；激しい",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The town faces an acute shortage of housing.",
+    "exampleJa": "その町は深刻な住宅不足に直面しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "問題や感覚の激しさを表す硬い形容詞として発展読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "急性の",
+        "example": "The report describes several cases of acute illness.",
+        "exampleJa": "その報告書はいくつかの急性疾患の症例を記述しています。"
+      },
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "鋭い；敏感な",
+        "example": "The animal has an acute sense of smell.",
+        "exampleJa": "その動物は鋭い嗅覚を持っています。"
+      }
+    ]
+  },
+  {
+    "id": "v2587",
+    "word": "chronic",
+    "meaningJa": "慢性的な；長く続く",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The region suffers from chronic water shortages.",
+    "exampleJa": "その地域は慢性的な水不足に苦しんでいます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "病気や問題が長く続く性質を表す発展的な社会・科学読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2588",
+    "word": "nutrient",
+    "meaningJa": "栄養素",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The researchers measured each nutrient in the sample.",
+    "exampleJa": "研究者たちは試料に含まれる各栄養素を測定しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "栄養や生物の成長を説明する標準的な科学読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2589",
+    "word": "nutritious",
+    "meaningJa": "栄養のある；栄養豊富な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The school provides nutritious lunches for the children.",
+    "exampleJa": "その学校は子どもたちに栄養のある昼食を提供しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "食べ物の性質を説明する標準的な生活・健康読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2590",
+    "word": "diet",
+    "meaningJa": "日常の食事；食生活",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The survey asked people about their daily diet.",
+    "exampleJa": "その調査では人々に日々の食生活について尋ねました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食べる物の習慣を表す基本義として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "普段食べる物全体も指します。減量を目的とする食事だけに限りません。"
+  },
+  {
+    "id": "v2591",
+    "word": "overweight",
+    "meaningJa": "太りすぎの；規定重量を超えた",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The airline charged extra because the suitcase was overweight.",
+    "exampleJa": "スーツケースが重量超過だったため、航空会社は追加料金を請求しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人や荷物が基準より重い状態を表す高校基礎の形容詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2592",
+    "word": "metabolism",
+    "meaningJa": "代謝；新陳代謝",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The study examines how temperature affects metabolism in fish.",
+    "exampleJa": "その研究は温度が魚の代謝にどう影響するかを調べています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "生物内部の物質変化をまとめて表す専門的な科学語として発展読解に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2593",
+    "word": "weary",
+    "meaningJa": "疲れ果てた；うんざりした",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The weary travelers rested beside the road.",
+    "exampleJa": "疲れ果てた旅行者たちは道のそばで休みました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "疲労や嫌気の強い状態を描写する標準読解の形容詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "weary ofで「〜にうんざりした」を表します。wary（用心深い）とは別の語です。"
+  },
+  {
+    "id": "v2594",
+    "word": "fragile",
+    "meaningJa": "壊れやすい；もろい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The fragile bowl was wrapped in soft paper.",
+    "exampleJa": "壊れやすい器は柔らかい紙で包まれていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物や状態が損なわれやすい性質を表す標準的な読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2595",
+    "word": "stiff",
+    "meaningJa": "硬い；こわばった",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "His legs felt stiff after the long journey.",
+    "exampleJa": "長い旅の後で彼の脚はこわばっていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "体や物が曲がりにくい状態を示す高校基礎の形容詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2596",
+    "word": "numb",
+    "meaningJa": "感覚がない；しびれた",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Her fingers were numb from the cold.",
+    "exampleJa": "彼女の指は寒さで感覚がなくなっていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "感覚の失われた状態を具体的に描く標準読解の形容詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2597",
+    "word": "nurse",
+    "meaningJa": "看護師",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The nurse spoke kindly to the child.",
+    "exampleJa": "看護師は子どもに優しく話しかけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な職業名として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "看護する；世話をする",
+        "example": "She stayed home to nurse her sick child.",
+        "exampleJa": "彼女は病気の子どもの世話をするために家にいました。"
+      }
+    ]
+  },
+  {
+    "id": "v2598",
+    "word": "ambulance",
+    "meaningJa": "救急車",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "An ambulance stopped outside the building.",
+    "exampleJa": "救急車が建物の外に止まりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な緊急車両を指す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2599",
+    "word": "clinic",
+    "meaningJa": "診療所；クリニック",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The clinic opens at nine in the morning.",
+    "exampleJa": "その診療所は朝9時に開きます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "地域にある身近な施設を表す基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2600",
+    "word": "ward",
+    "meaningJa": "病棟；病室",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The visitors waited outside the hospital ward.",
+    "exampleJa": "訪問者たちは病棟の外で待っていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "病院内の区画を具体的に示す標準的な読解名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "行政区；選挙区",
+        "example": "The council represents every ward in the city.",
+        "exampleJa": "その議会は市内のすべての行政区を代表しています。"
+      }
+    ]
+  }
+]

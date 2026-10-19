@@ -1,0 +1,2154 @@
+[
+  {
+    "id": "v2801",
+    "word": "ecological",
+    "meaningJa": "生態系の；生態学の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The project studies the ecological effects of farming.",
+    "exampleJa": "その計画は農業が生態系に及ぼす影響を調べます。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生態系への影響を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2802",
+    "word": "extinct",
+    "meaningJa": "絶滅した",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Many large animals became extinct long ago.",
+    "exampleJa": "多くの大型動物ははるか昔に絶滅しました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生物と環境の基本的な状態語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "すでに絶滅した状態です。endangeredは、まだ生存しているものの絶滅の危険がある状態です。"
+  },
+  {
+    "id": "v2803",
+    "word": "endangered",
+    "meaningJa": "絶滅の危機にある",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The island is home to several endangered species.",
+    "exampleJa": "その島には絶滅の危機にある種がいくつか生息しています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "保全の話題で独立して学ぶ価値のある形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "endangerの分詞形ですが、endangered speciesなどで定着した形容詞として収録しています。"
+  },
+  {
+    "id": "v2804",
+    "word": "herbivore",
+    "meaningJa": "草食動物",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "A rabbit is a herbivore.",
+    "exampleJa": "ウサギは草食動物です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "食物連鎖を読むための分類語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2805",
+    "word": "carnivore",
+    "meaningJa": "肉食動物",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The tiger is a large carnivore.",
+    "exampleJa": "トラは大型の肉食動物です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "食物連鎖を読むための分類語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2806",
+    "word": "amphibian",
+    "meaningJa": "両生類",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "A frog is an amphibian.",
+    "exampleJa": "カエルは両生類です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "動物の分類を表す科学語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2807",
+    "word": "vertebrate",
+    "meaningJa": "脊椎動物",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "A vertebrate has a backbone.",
+    "exampleJa": "脊椎動物には背骨があります。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "身体構造による生物分類の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2808",
+    "word": "invertebrate",
+    "meaningJa": "無脊椎動物",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "A butterfly is an invertebrate.",
+    "exampleJa": "チョウは無脊椎動物です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "身体構造による生物分類の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2809",
+    "word": "subspecies",
+    "meaningJa": "亜種",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Researchers identified a new subspecies of bird.",
+    "exampleJa": "研究者たちは鳥の新しい亜種を特定しました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "種の内部の分類を扱う発展科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "単数形も複数形もsubspeciesです。"
+  },
+  {
+    "id": "v2810",
+    "word": "flora",
+    "meaningJa": "植物相；ある地域の植物群",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The guide describes the flora of the island.",
+    "exampleJa": "その案内書は島の植物群について説明しています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "地域の生物相を論じる専門性のある語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "地域や時代の植物全体をまとめて指します。動物全体はfaunaです。"
+  },
+  {
+    "id": "v2811",
+    "word": "fauna",
+    "meaningJa": "動物相；ある地域の動物群",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The survey recorded the fauna of the wetland.",
+    "exampleJa": "その調査は湿地の動物群を記録しました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "地域の生物相を論じる専門性のある語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "地域や時代の動物全体をまとめて指します。植物全体はfloraです。"
+  },
+  {
+    "id": "v2812",
+    "word": "respiration",
+    "meaningJa": "呼吸",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "During respiration, cells release energy from nutrients.",
+    "exampleJa": "呼吸の過程で、細胞は栄養物からエネルギーを取り出します。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生命の基本的な働きを表す科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "日常的な息の出入りだけでなく、細胞が栄養物からエネルギーを取り出す過程も指します。"
+  },
+  {
+    "id": "v2813",
+    "word": "protein",
+    "meaningJa": "タンパク質",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Beans are a useful source of protein.",
+    "exampleJa": "豆は有用なタンパク質源です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "栄養や生命の話題に出る基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2814",
+    "word": "carbohydrate",
+    "meaningJa": "炭水化物",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Starch is a type of carbohydrate.",
+    "exampleJa": "でんぷんは炭水化物の一種です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "栄養素の種類を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2815",
+    "word": "vitamin",
+    "meaningJa": "ビタミン",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The study measured the vitamin content of the fruit.",
+    "exampleJa": "その研究は果物のビタミン含有量を測定しました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "食生活や栄養を読む基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2816",
+    "word": "enzyme",
+    "meaningJa": "酵素",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "This enzyme helps break down starch.",
+    "exampleJa": "この酵素はでんぷんの分解を助けます。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生体内の化学反応を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2817",
+    "word": "hormone",
+    "meaningJa": "ホルモン",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The hormone carries signals through the blood.",
+    "exampleJa": "そのホルモンは血液を通じて信号を伝えます。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "身体の調節機構を読む科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2818",
+    "word": "antibody",
+    "meaningJa": "抗体",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The antibody binds to a specific target.",
+    "exampleJa": "その抗体は特定の標的に結合します。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "免疫の仕組みを読む科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2819",
+    "word": "immunity",
+    "meaningJa": "免疫；免除",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The researchers studied immunity to the virus.",
+    "exampleJa": "研究者たちはそのウイルスに対する免疫を研究しました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "健康や感染症の文章に出る抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "法的文脈では、責任や処罰などからの「免除」も表します。"
+  },
+  {
+    "id": "v2820",
+    "word": "vaccine",
+    "meaningJa": "ワクチン",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The laboratory is developing a new vaccine.",
+    "exampleJa": "その研究所は新しいワクチンを開発しています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "公衆衛生の話題で使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2821",
+    "word": "vaccination",
+    "meaningJa": "ワクチン接種；予防接種",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The report compares vaccination rates across regions.",
+    "exampleJa": "その報告書は地域間のワクチン接種率を比較しています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "公衆衛生の取り組みを表す派生名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2822",
+    "word": "infectious",
+    "meaningJa": "感染性の；伝染性の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The team studies infectious diseases.",
+    "exampleJa": "そのチームは感染症を研究しています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "病気の性質を表す科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2823",
+    "word": "contagious",
+    "meaningJa": "伝染する；人に広がりやすい",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The illness is highly contagious.",
+    "exampleJa": "その病気は非常に伝染しやすいです。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "感染の広がりを説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2824",
+    "word": "epidemic",
+    "meaningJa": "流行；感染症の流行",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The epidemic disrupted life in the city.",
+    "exampleJa": "その感染症の流行は都市の生活を混乱させました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会と健康を結ぶ名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2825",
+    "word": "pandemic",
+    "meaningJa": "世界的な感染症の流行",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The pandemic affected international travel.",
+    "exampleJa": "その世界的な感染症の流行は国際旅行に影響を与えました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国際的な社会課題を読む名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2826",
+    "word": "sanitation",
+    "meaningJa": "衛生設備；衛生管理",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The village needs better sanitation.",
+    "exampleJa": "その村にはよりよい衛生設備が必要です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生活環境と公衆衛生を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2827",
+    "word": "wastewater",
+    "meaningJa": "廃水；排水",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The plant treats wastewater from nearby homes.",
+    "exampleJa": "その施設は近隣の住宅から出る排水を処理します。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "水資源と環境設備を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2828",
+    "word": "landfill",
+    "meaningJa": "ごみ埋立地；埋立処分",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The town plans to close its old landfill.",
+    "exampleJa": "町は古いごみ埋立地を閉鎖する予定です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "廃棄物処理を読む具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2829",
+    "word": "compost",
+    "meaningJa": "堆肥",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "We added compost to the garden soil.",
+    "exampleJa": "私たちは庭の土に堆肥を加えました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "資源循環と農業の具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2830",
+    "word": "biodegradable",
+    "meaningJa": "生分解性の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The company is testing biodegradable packaging.",
+    "exampleJa": "その会社は生分解性の包装材を試験しています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "素材の環境特性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "生物の働きで分解できる性質を指します。分解に必要な条件や期間は素材によって異なります。"
+  },
+  {
+    "id": "v2831",
+    "word": "nonrenewable",
+    "meaningJa": "再生不可能な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Coal is a nonrenewable resource.",
+    "exampleJa": "石炭は再生不可能な資源です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "エネルギー資源の性質を区別する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2832",
+    "word": "methane",
+    "meaningJa": "メタン",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The researchers measured methane in the air.",
+    "exampleJa": "研究者たちは空気中のメタンを測定しました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "気候やエネルギーの文章に出る物質名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2833",
+    "word": "nitrogen",
+    "meaningJa": "窒素",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Most of the air around us is nitrogen.",
+    "exampleJa": "私たちの周りの空気の大部分は窒素です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "大気や生態系を読む物質名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2834",
+    "word": "sulfur",
+    "meaningJa": "硫黄",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The sample contains a small amount of sulfur.",
+    "exampleJa": "その試料には少量の硫黄が含まれています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "環境や化学を読む物質名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "sulphurという綴りもあります。"
+  },
+  {
+    "id": "v2835",
+    "word": "deforestation",
+    "meaningJa": "森林破壊；森林伐採",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Deforestation has reduced the habitat of these birds.",
+    "exampleJa": "森林破壊によって、これらの鳥の生息地が減少しました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "森林と生物保全の中心語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2836",
+    "word": "desertification",
+    "meaningJa": "砂漠化",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The project aims to slow desertification.",
+    "exampleJa": "その計画は砂漠化を遅らせることを目指しています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "土地の環境変化を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2837",
+    "word": "irrigation",
+    "meaningJa": "灌漑；農地への給水",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The farmers built a new irrigation system.",
+    "exampleJa": "農家の人々は新しい灌漑設備を造りました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "農業と水利用を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2838",
+    "word": "iceberg",
+    "meaningJa": "氷山",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A huge iceberg floated past the ship.",
+    "exampleJa": "巨大な氷山が船のそばを漂って通り過ぎました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自然や地理の具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2839",
+    "word": "polar",
+    "meaningJa": "極地の；南極・北極の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The team collected data in polar regions.",
+    "exampleJa": "チームは極地でデータを収集しました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "極地の環境を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2840",
+    "word": "Arctic",
+    "meaningJa": "北極の；北極地方の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The plant can survive in Arctic conditions.",
+    "exampleJa": "その植物は北極地方の環境で生存できます。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地理や気候を読む形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2841",
+    "word": "Antarctic",
+    "meaningJa": "南極の；南極地方の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The ship entered Antarctic waters.",
+    "exampleJa": "船は南極の海域に入りました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地理や気候を読む形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2842",
+    "word": "equator",
+    "meaningJa": "赤道",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "This island lies close to the equator.",
+    "exampleJa": "この島は赤道の近くに位置しています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地理を説明する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2843",
+    "word": "hemisphere",
+    "meaningJa": "半球",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The northern hemisphere has summer when the southern hemisphere has winter.",
+    "exampleJa": "北半球が夏のとき、南半球は冬です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地球の地域を区分する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2844",
+    "word": "atmospheric",
+    "meaningJa": "大気の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The instrument measures atmospheric pressure.",
+    "exampleJa": "その計器は気圧を測定します。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "気象の説明で使う派生形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2845",
+    "word": "precipitation",
+    "meaningJa": "降水；降水量",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Annual precipitation varies greatly across the region.",
+    "exampleJa": "年間降水量はその地域内で大きく異なります。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "気候の数値や傾向を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "気象では雨だけでなく雪なども含む降水を指します。"
+  },
+  {
+    "id": "v2846",
+    "word": "evaporation",
+    "meaningJa": "蒸発",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Heat increases the rate of evaporation.",
+    "exampleJa": "熱は蒸発の速度を上げます。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "水の循環を説明する科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2847",
+    "word": "condensation",
+    "meaningJa": "凝結；結露",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Condensation formed on the cold window.",
+    "exampleJa": "冷たい窓に結露が生じました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物質の状態変化を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2848",
+    "word": "combustion",
+    "meaningJa": "燃焼",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The engine produces heat through combustion.",
+    "exampleJa": "そのエンジンは燃焼によって熱を生み出します。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "エネルギー変換を読む科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2849",
+    "word": "magnitude",
+    "meaningJa": "大きさ；規模",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The report reveals the magnitude of the problem.",
+    "exampleJa": "その報告書は問題の規模を明らかにしています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "数量や重要性の規模を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2850",
+    "word": "thermometer",
+    "meaningJa": "温度計；体温計",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The thermometer showed a temperature of twenty degrees.",
+    "exampleJa": "温度計は二十度を示していました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な測定器具の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2851",
+    "word": "deflation",
+    "meaningJa": "デフレーション；物価の持続的な下落",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The report examines the causes of deflation.",
+    "exampleJa": "その報告書はデフレーションの原因を検討しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物価の変動を読む経済語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2852",
+    "word": "tariff",
+    "meaningJa": "関税",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The government introduced a tariff on imported steel.",
+    "exampleJa": "政府は輸入鉄鋼に関税を導入しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "国際貿易の制度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2853",
+    "word": "expenditure",
+    "meaningJa": "支出；支出額",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The chart shows annual expenditure on education.",
+    "exampleJa": "その図は教育への年間支出額を示しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "予算や統計を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2854",
+    "word": "fiscal",
+    "meaningJa": "財政の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The committee discussed fiscal policy.",
+    "exampleJa": "委員会は財政政策を話し合いました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "政府の収入と支出を論じる形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "政府の税収・支出などの財政に関する語です。monetaryは通貨や金融に関する語です。"
+  },
+  {
+    "id": "v2855",
+    "word": "monetary",
+    "meaningJa": "通貨の；金融の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The bank announced a change in monetary policy.",
+    "exampleJa": "その銀行は金融政策の変更を発表しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "金融制度を読む形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "monetary policyは金融政策です。財政政策はfiscal policyといいます。"
+  },
+  {
+    "id": "v2856",
+    "word": "mortgage",
+    "meaningJa": "住宅などを担保にした融資；住宅ローン",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "They took out a mortgage to buy the house.",
+    "exampleJa": "彼らはその家を買うために住宅ローンを組みました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "住宅と金融の関係を読む名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2857",
+    "word": "bankruptcy",
+    "meaningJa": "破産",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The company filed for bankruptcy.",
+    "exampleJa": "その会社は破産を申請しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "企業の経営状態を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2858",
+    "word": "liability",
+    "meaningJa": "法的責任；負債",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The contract limits the liability of the supplier.",
+    "exampleJa": "その契約は供給業者の法的責任を制限しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "契約上の責任や会計を読む抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "会計では複数形liabilitiesで「負債」を表すことが多く、assets（資産）と対比されます。"
+  },
+  {
+    "id": "v2859",
+    "word": "dividend",
+    "meaningJa": "配当",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The company paid a dividend to its shareholders.",
+    "exampleJa": "その会社は株主に配当を支払いました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "企業と投資家の関係を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2860",
+    "word": "shareholder",
+    "meaningJa": "株主",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Each shareholder received a copy of the report.",
+    "exampleJa": "各株主は報告書を一部ずつ受け取りました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "企業の所有を表す社会語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2861",
+    "word": "stakeholder",
+    "meaningJa": "利害関係者",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Every stakeholder was invited to comment on the plan.",
+    "exampleJa": "すべての利害関係者が計画に意見を述べるよう招かれました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "事業や政策の関係者を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "株主だけでなく、従業員・顧客・地域住民など利害のある人々を含みます。"
+  },
+  {
+    "id": "v2862",
+    "word": "entrepreneur",
+    "meaningJa": "起業家",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The young entrepreneur started a small software company.",
+    "exampleJa": "その若い起業家は小さなソフトウェア会社を設立しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "事業の創出を読む職業語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2863",
+    "word": "competitive",
+    "meaningJa": "競争の激しい；競争力のある",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The company operates in a highly competitive market.",
+    "exampleJa": "その会社は非常に競争の激しい市場で事業を行っています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "競争の状況や能力を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2864",
+    "word": "outsourcing",
+    "meaningJa": "外部委託",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The report discusses the benefits of outsourcing.",
+    "exampleJa": "その報告書は外部委託の利点について論じています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "企業の業務分担を表す定着した名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "outsourceの動名詞形ですが、業務を外部に委託する方式を表す名詞として収録しています。"
+  },
+  {
+    "id": "v2865",
+    "word": "multinational",
+    "meaningJa": "多国籍の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "She works for a multinational company.",
+    "exampleJa": "彼女は多国籍企業で働いています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国際的な企業活動を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2866",
+    "word": "subsidiary",
+    "meaningJa": "子会社",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The group opened a subsidiary in Canada.",
+    "exampleJa": "その企業グループはカナダに子会社を設立しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "企業の支配関係を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2867",
+    "word": "merger",
+    "meaningJa": "合併",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The merger created a larger company.",
+    "exampleJa": "その合併により、より大きな会社が生まれました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "企業組織の変化を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2868",
+    "word": "acquisition",
+    "meaningJa": "取得；習得；買収",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Language acquisition begins early in life.",
+    "exampleJa": "言語の習得は人生の早い時期に始まります。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "学習と経済の双方で使う抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "買収；取得",
+        "example": "The acquisition of a smaller firm expanded the business.",
+        "exampleJa": "小規模な企業の買収により事業が拡大しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2869",
+    "word": "privatization",
+    "meaningJa": "民営化",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The debate focused on the privatization of public services.",
+    "exampleJa": "議論は公共サービスの民営化に焦点を当てていました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "公共部門の制度変更を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2870",
+    "word": "deregulation",
+    "meaningJa": "規制緩和",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Deregulation changed the transport industry.",
+    "exampleJa": "規制緩和は運輸業界を変えました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "経済制度の変更を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2871",
+    "word": "capitalism",
+    "meaningJa": "資本主義",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The course explores the history of capitalism.",
+    "exampleJa": "その授業では資本主義の歴史を探究します。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会経済の仕組みを表す基本用語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2872",
+    "word": "socialism",
+    "meaningJa": "社会主義",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The book compares different forms of socialism.",
+    "exampleJa": "その本は社会主義のさまざまな形態を比較しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会経済の仕組みを表す基本用語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2873",
+    "word": "communism",
+    "meaningJa": "共産主義",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The lecture examined the influence of communism.",
+    "exampleJa": "その講義は共産主義の影響を検討しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "歴史や政治思想を読む基本用語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2874",
+    "word": "parliamentary",
+    "meaningJa": "議会の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The country held a parliamentary election.",
+    "exampleJa": "その国は議会選挙を実施しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "政治制度に関する派生形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2875",
+    "word": "constitutional",
+    "meaningJa": "憲法の；憲法に定められた",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The court considered a constitutional question.",
+    "exampleJa": "裁判所は憲法上の問題を検討しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "法と政治の議論を読む形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2876",
+    "word": "referendum",
+    "meaningJa": "国民投票；住民投票",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The proposal will be put to a referendum.",
+    "exampleJa": "その提案は国民投票にかけられる予定です。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "直接投票による政治参加を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2877",
+    "word": "ballot",
+    "meaningJa": "投票；投票用紙",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The members chose their leader by secret ballot.",
+    "exampleJa": "会員たちは無記名投票で代表を選びました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "選挙や意思決定の方式を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2878",
+    "word": "electorate",
+    "meaningJa": "有権者全体",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The party tried to appeal to the entire electorate.",
+    "exampleJa": "その政党は有権者全体に訴えかけようとしました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "政治参加者を集合的に表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2879",
+    "word": "constituency",
+    "meaningJa": "選挙区；支持者層",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "She represents a rural constituency.",
+    "exampleJa": "彼女は農村部の選挙区を代表しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "選挙制度を読む発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2880",
+    "word": "cabinet",
+    "meaningJa": "戸棚；収納棚",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The plates are in the kitchen cabinet.",
+    "exampleJa": "皿は台所の戸棚にあります。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "基本義は身近な家具で判断し政治上の別義を補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "内閣",
+        "example": "The cabinet approved the proposal.",
+        "exampleJa": "内閣はその提案を承認しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2881",
+    "word": "ministry",
+    "meaningJa": "省；省庁",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The ministry published a report on education.",
+    "exampleJa": "その省は教育に関する報告書を発表しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "行政機関を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2882",
+    "word": "mayor",
+    "meaningJa": "市長；町長",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The mayor opened the new library.",
+    "exampleJa": "市長は新しい図書館を開館しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地域社会の役職を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2883",
+    "word": "governor",
+    "meaningJa": "知事；総督",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The governor visited the damaged bridge.",
+    "exampleJa": "知事は損傷した橋を訪れました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行政の役職を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2884",
+    "word": "embassy",
+    "meaningJa": "大使館",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The embassy is near the central station.",
+    "exampleJa": "大使館は中央駅の近くにあります。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国際関係や渡航の場面で使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2885",
+    "word": "ambassador",
+    "meaningJa": "大使",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The ambassador attended the ceremony.",
+    "exampleJa": "大使はその式典に出席しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国際関係の役職を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2886",
+    "word": "diplomat",
+    "meaningJa": "外交官",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The diplomat spoke with local officials.",
+    "exampleJa": "外交官は地元当局の職員と話しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国家間の交渉を担う職業の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2887",
+    "word": "diplomacy",
+    "meaningJa": "外交；外交手腕",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The dispute was resolved through diplomacy.",
+    "exampleJa": "その紛争は外交によって解決されました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "国際関係の手段を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2888",
+    "word": "diplomatic",
+    "meaningJa": "外交の；交渉上巧みな",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The two countries restored diplomatic relations.",
+    "exampleJa": "両国は外交関係を回復しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国際関係を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2889",
+    "word": "treaty",
+    "meaningJa": "条約",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The two countries signed a peace treaty.",
+    "exampleJa": "両国は平和条約に調印しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国家間の合意を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2890",
+    "word": "alliance",
+    "meaningJa": "同盟；提携",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The two parties formed an alliance.",
+    "exampleJa": "二つの政党は同盟を結びました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "組織や国家の協力関係を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2891",
+    "word": "sanction",
+    "meaningJa": "制裁；認可",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The trade sanction affected several industries.",
+    "exampleJa": "その貿易制裁はいくつかの産業に影響を与えました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "文脈で区別が必要な政治的多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「制裁」と「正式な認可」という異なる意味があります。文脈で区別します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "正式な認可",
+        "example": "The project received official sanction.",
+        "exampleJa": "その計画は正式な認可を受けました。"
+      }
+    ]
+  },
+  {
+    "id": "v2892",
+    "word": "sovereign",
+    "meaningJa": "主権を持つ",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The agreement respects the rights of sovereign states.",
+    "exampleJa": "その協定は主権国家の権利を尊重しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "国家の独立した権限を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2893",
+    "word": "colonial",
+    "meaningJa": "植民地の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The museum explores the colonial history of the region.",
+    "exampleJa": "その博物館は地域の植民地時代の歴史を探究しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "歴史上の支配関係を読む形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2894",
+    "word": "colony",
+    "meaningJa": "植民地；群生地",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The island was once a colony.",
+    "exampleJa": "その島はかつて植民地でした。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "歴史の基本語で生物学上の別義も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "群れ；群生地",
+        "example": "A colony of ants lives under the stone.",
+        "exampleJa": "アリの群れが石の下に住んでいます。"
+      }
+    ]
+  },
+  {
+    "id": "v2895",
+    "word": "empire",
+    "meaningJa": "帝国",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The empire controlled a vast area.",
+    "exampleJa": "その帝国は広大な地域を支配していました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "歴史や政治を読む基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2896",
+    "word": "immigration",
+    "meaningJa": "他国からの移住；入国管理",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The report examines immigration to the city.",
+    "exampleJa": "その報告書は国外からその都市への移住を検討しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国境を越えた人口移動を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "移住先の国の視点ではimmigration、出身国から出ていく視点ではemigrationです。"
+  },
+  {
+    "id": "v2897",
+    "word": "emigration",
+    "meaningJa": "国外への移住",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The study explores the causes of emigration.",
+    "exampleJa": "その研究は国外移住の原因を探究しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人口移動を出身国の視点で表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "国外に出て移住することです。移住先に入ることはimmigrationです。"
+  },
+  {
+    "id": "v2898",
+    "word": "immigrant",
+    "meaningJa": "移民；外国から移住してきた人",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The novel tells the story of a young immigrant.",
+    "exampleJa": "その小説は若い移民の物語を描いています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会や文化を読む基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "移住先から見た呼び方です。出身国から見て国外へ移住した人はemigrantです。"
+  },
+  {
+    "id": "v2899",
+    "word": "asylum",
+    "meaningJa": "保護；亡命者の庇護",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The family sought asylum in a neighboring country.",
+    "exampleJa": "その家族は隣国に庇護を求めました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "難民や国際社会の話題に出る語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2900",
+    "word": "indigenous",
+    "meaningJa": "先住の；その土地固有の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The forest contains many indigenous plants.",
+    "exampleJa": "その森には多くの在来の植物があります。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "文化と生態の双方で用いる形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "人々・文化では「先住の」、動植物では「その土地にもともと存在する」を表します。"
+  }
+]

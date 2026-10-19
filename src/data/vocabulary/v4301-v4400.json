@@ -1,0 +1,2119 @@
+[
+  {
+    "id": "v4301",
+    "word": "absurd",
+    "meaningJa": "ばかげた",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The claim that trees can grow without water is absurd.",
+    "exampleJa": "木が水なしで育つという主張はばかげている。",
+    "category": "判断・論理",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "主張や状況の不合理さを表す読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4302",
+    "word": "accountable",
+    "meaningJa": "説明責任がある",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The manager is accountable for the safety of the workers.",
+    "exampleJa": "その管理者は作業員の安全について説明責任がある。",
+    "category": "責任・社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "責任の所在を論じる社会的文脈で重要な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4303",
+    "word": "intense",
+    "meaningJa": "激しい、強烈な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The team faced intense pressure in the final minutes.",
+    "exampleJa": "そのチームは最後の数分間に強い重圧を受けた。",
+    "category": "程度・感情",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "感情や圧力などの強さを表す標準語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4304",
+    "word": "intermediate",
+    "meaningJa": "中級の、中間の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "This course is designed for intermediate learners.",
+    "exampleJa": "この講座は中級の学習者向けに作られている。",
+    "category": "段階・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "段階や水準の中間を示す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4305",
+    "word": "offset",
+    "meaningJa": "埋め合わせる、相殺する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The savings may offset the cost of the new equipment.",
+    "exampleJa": "その節約分で新しい設備の費用を埋め合わせられるかもしれない。",
+    "category": "経済・調整",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "損失や費用を別の利点で補う意味を持つ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4306",
+    "word": "prospective",
+    "meaningJa": "将来の、見込みのある",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Prospective students can visit the campus on Saturday.",
+    "exampleJa": "入学希望者は土曜日にキャンパスを見学できる。",
+    "category": "将来・進路",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "将来その立場になる可能性を示す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4307",
+    "word": "sophisticated",
+    "meaningJa": "高度な、洗練された",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The museum uses sophisticated tools to protect old paintings.",
+    "exampleJa": "その博物館は古い絵画を守るために高度な道具を使う。",
+    "category": "技術・評価",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "技術の高度さや表現の洗練を述べる読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4308",
+    "word": "strategic",
+    "meaningJa": "戦略的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The company made a strategic decision to open a smaller store.",
+    "exampleJa": "その会社は小規模な店を開くという戦略的な決定をした。",
+    "category": "計画・経営",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "長期目標を見据えた判断を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4309",
+    "word": "worthwhile",
+    "meaningJa": "やる価値のある",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "It is worthwhile to compare several sources before writing.",
+    "exampleJa": "書く前に複数の資料を比較することには価値がある。",
+    "category": "価値・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "行動にかける労力に見合う価値を表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4310",
+    "word": "complacent",
+    "meaningJa": "現状に満足して油断した",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The early success made the team complacent.",
+    "exampleJa": "初期の成功でそのチームは油断した。",
+    "category": "態度・心理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "満足から注意や努力が緩む含意を持つ発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4311",
+    "word": "dense",
+    "meaningJa": "密集した、密度の高い",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The path passes through dense forest.",
+    "exampleJa": "その小道は木々が密集した森を通っている。",
+    "category": "自然・密度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物の集まりの密度を述べる標準語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4312",
+    "word": "deploy",
+    "meaningJa": "配置する、展開する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The city will deploy more buses during the festival.",
+    "exampleJa": "市は祭りの期間中、バスをさらに配置する。",
+    "category": "配置・運用",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人員や資源を目的に応じて配置する読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4313",
+    "word": "diffuse",
+    "meaningJa": "広める、拡散させる",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The new windows diffuse the light evenly.",
+    "exampleJa": "新しい窓は光を均等に拡散させる。",
+    "category": "拡散・科学",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "物質や情報の広がりを述べる発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4314",
+    "word": "disperse",
+    "meaningJa": "散らばる、散らす",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The crowd began to disperse after the concert.",
+    "exampleJa": "コンサートの後、群衆は散り始めた。",
+    "category": "移動・分散",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "集まった人や物が散る意味を持つ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4315",
+    "word": "dispose",
+    "meaningJa": "処分する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Please dispose of the used batteries safely.",
+    "exampleJa": "使用済みの電池は安全に処分してください。",
+    "category": "廃棄・環境",
+    "usageNote": "「処分する」の意味では dispose of の形を取る。",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "廃棄を表す重要な句動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4316",
+    "word": "drastic",
+    "meaningJa": "抜本的な、極端な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "A drastic change in policy surprised local farmers.",
+    "exampleJa": "政策の抜本的な変更は地元の農家を驚かせた。",
+    "category": "変化・政策",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "変化や手段の大幅さを表す読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4317",
+    "word": "elevate",
+    "meaningJa": "高める",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Regular discussion can elevate the quality of the project.",
+    "exampleJa": "定期的な話し合いは企画の質を高めることができる。",
+    "category": "向上・評価",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "水準や地位を上げる抽象的な用法が重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4318",
+    "word": "endeavor",
+    "meaningJa": "努力する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The researchers endeavor to make the results easy to understand.",
+    "exampleJa": "研究者たちは結果を理解しやすくするよう努めている。",
+    "category": "努力・研究",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "目的達成に向けた努力を表す格式の高い語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4319",
+    "word": "finite",
+    "meaningJa": "有限の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Fresh water is a finite resource on this island.",
+    "exampleJa": "この島では淡水は有限の資源だ。",
+    "category": "資源・数量",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "資源や時間の限界を論じる際に必要な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4320",
+    "word": "inflate",
+    "meaningJa": "膨らませる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "We use a small pump to inflate the boat.",
+    "exampleJa": "私たちは小さなポンプを使ってボートを膨らませる。",
+    "category": "形状・変化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "空気を入れて膨らませる基本義を押さえる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4321",
+    "word": "intact",
+    "meaningJa": "無傷の；損なわれていない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The old bridge remained intact after the storm.",
+    "exampleJa": "その古い橋は嵐の後も損なわれずに残った。",
+    "category": "状態・保全",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "破損せず元の状態を保つ意味が重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4322",
+    "word": "interact",
+    "meaningJa": "互いに影響し合う、交流する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Children interact with one another through play.",
+    "exampleJa": "子どもたちは遊びを通じて互いに交流する。",
+    "category": "交流・関係",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人や要素の相互作用を表す標準語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4323",
+    "word": "ironic",
+    "meaningJa": "皮肉な、予想と逆の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "It is ironic that the fastest train arrived last.",
+    "exampleJa": "最も速い列車が最後に着いたとは皮肉だ。",
+    "category": "論理・評価",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "予想と結果の食い違いを評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4324",
+    "word": "penetrate",
+    "meaningJa": "入り込む、貫く",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Little sunlight can penetrate the thick clouds.",
+    "exampleJa": "厚い雲を通り抜けられる日光はわずかだ。",
+    "category": "移動・自然",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "障壁の内部へ入り込む意味を持つ読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4325",
+    "word": "peripheral",
+    "meaningJa": "周辺の、中心から外れた",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The report focuses on the main issue and leaves peripheral questions for later.",
+    "exampleJa": "その報告書は主要な問題に焦点を当て、周辺的な問いは後に回す。",
+    "category": "位置・論点",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "中心と周辺を対比する抽象的な読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4326",
+    "word": "proficient",
+    "meaningJa": "熟達した",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "She is proficient in reading scientific articles in English.",
+    "exampleJa": "彼女は英語の科学記事を読むことに熟達している。",
+    "category": "能力・学習",
+    "usageNote": "技能を示すときは proficient in の形をよく用いる。",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "特定の技能に習熟している状態を表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4327",
+    "word": "reverse",
+    "meaningJa": "逆転させる、逆にする",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The court decided to reverse its earlier decision.",
+    "exampleJa": "裁判所は以前の決定を覆すことにした。",
+    "category": "変化・判断",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "方向や判断を反対に変える意味を持つ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4328",
+    "word": "revive",
+    "meaningJa": "復活させる、回復する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Local artists hope to revive the town festival.",
+    "exampleJa": "地元の芸術家たちは町の祭りを復活させたいと考えている。",
+    "category": "再生・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "衰えた活動などを再び活発にする意味が重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4329",
+    "word": "speculate",
+    "meaningJa": "推測する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Experts speculate that the painting is more than a century old.",
+    "exampleJa": "専門家たちはその絵が100年以上前のものだと推測している。",
+    "category": "推論・研究",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "確定していない事柄について可能性を述べる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4330",
+    "word": "static",
+    "meaningJa": "静止した、変化のない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The chart shows a static picture of a changing situation.",
+    "exampleJa": "その図表は変化する状況の一時点を固定的に示している。",
+    "category": "変化・分析",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "動きや変化の欠如を示す分析語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4331",
+    "word": "straightforward",
+    "meaningJa": "分かりやすい、簡単な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The instructions are straightforward, so everyone can follow them.",
+    "exampleJa": "説明は分かりやすいので、誰でもそれに従える。",
+    "category": "説明・理解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "複雑でなく理解しやすい様子を表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4332",
+    "word": "symbolic",
+    "meaningJa": "象徴的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The ceremony was a symbolic start to the new project.",
+    "exampleJa": "その式典は新しい事業の象徴的な始まりだった。",
+    "category": "象徴・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "具体物や行為が別の意味を表す際に用いる。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4333",
+    "word": "amend",
+    "meaningJa": "修正する、改正する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The committee will amend the rules before the next meeting.",
+    "exampleJa": "委員会は次の会議までに規則を改正する。",
+    "category": "制度・修正",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "文書や規則の一部を改める意味が重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4334",
+    "word": "defy",
+    "meaningJa": "逆らう、拒む",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The villagers chose to defy the order to leave.",
+    "exampleJa": "村人たちは立ち退き命令に従わないことを選んだ。",
+    "category": "抵抗・社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "命令や予想に逆らう意味を持つ読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4335",
+    "word": "enrich",
+    "meaningJa": "豊かにする",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Reading stories from other countries can enrich our view of the world.",
+    "exampleJa": "ほかの国の物語を読むことは、私たちの世界観を豊かにし得る。",
+    "category": "学習・文化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "知識や経験の質を高める意味が重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4336",
+    "word": "equip",
+    "meaningJa": "装備させる、備えさせる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The program aims to equip students with practical skills.",
+    "exampleJa": "その講座は学生に実用的な技能を身につけさせることを目指す。",
+    "category": "準備・教育",
+    "usageNote": "equip A with B で「AにBを備えさせる」。",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "必要な道具や能力を与える意味が重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4337",
+    "word": "fade",
+    "meaningJa": "薄れる、色あせる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The colors of the old poster fade in direct sunlight.",
+    "exampleJa": "古いポスターの色は直射日光で色あせる。",
+    "category": "変化・視覚",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "色や記憶が徐々に弱まる基本的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4338",
+    "word": "hamper",
+    "meaningJa": "妨げる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Poor lighting can hamper careful reading.",
+    "exampleJa": "照明が不十分だと、注意深く読むことの妨げになり得る。",
+    "category": "障害・行動",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "活動の進行を困難にする意味を持つ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4339",
+    "word": "satisfy",
+    "meaningJa": "満たす、満足させる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The new plan must satisfy the needs of local residents.",
+    "exampleJa": "新しい計画は地元住民の要望を満たさなければならない。",
+    "category": "必要・評価",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "必要や条件を満たす標準的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4340",
+    "word": "signify",
+    "meaningJa": "意味する、示す",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "A change in tone may signify a change in attitude.",
+    "exampleJa": "口調の変化は態度の変化を示しているかもしれない。",
+    "category": "意味・推論",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "事実やしるしが何を意味するかを述べる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4341",
+    "word": "clarity",
+    "meaningJa": "明確さ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The editor changed the sentence for clarity.",
+    "exampleJa": "編集者は分かりやすさのためにその文を直した。",
+    "category": "表現・理解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "説明や思考の分かりやすさを表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4342",
+    "word": "clue",
+    "meaningJa": "手がかり",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The map gave us a clue about where to look.",
+    "exampleJa": "その地図はどこを探せばよいかの手がかりを与えた。",
+    "category": "発見・推論",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "問題解決の手がかりを表す基礎語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4343",
+    "word": "counterpart",
+    "meaningJa": "対応する人や物",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The Japanese scientist met her counterpart from Canada.",
+    "exampleJa": "その日本人科学者はカナダの同じ立場の研究者に会った。",
+    "category": "比較・役割",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "別の組織や国で同等の役割を持つ対象を指す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4344",
+    "word": "coverage",
+    "meaningJa": "報道、取り扱う範囲",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The newspaper gave the event wide coverage.",
+    "exampleJa": "新聞はその出来事を広く報道した。",
+    "category": "報道・情報",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "報道量や対象範囲を示す標準語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4345",
+    "word": "debris",
+    "meaningJa": "がれき、破片",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Volunteers cleared debris from the road after the storm.",
+    "exampleJa": "ボランティアたちは嵐の後、道路からがれきを片づけた。",
+    "category": "災害・物質",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "災害や破壊の後に残る破片を指す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は不可算名詞として使い、語末のsは発音しません。"
+  },
+  {
+    "id": "v4346",
+    "word": "deprivation",
+    "meaningJa": "欠乏、剥奪",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Sleep deprivation can make it hard to concentrate.",
+    "exampleJa": "睡眠不足になると集中しにくくなることがある。",
+    "category": "健康・不足",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "必要なものを十分に得られない状態を示す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4347",
+    "word": "emergence",
+    "meaningJa": "出現、発生",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The emergence of new shops changed the neighborhood.",
+    "exampleJa": "新しい店の出現がその地域を変えた。",
+    "category": "変化・社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "新しい現象が現れることを表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4348",
+    "word": "essence",
+    "meaningJa": "本質、最も重要な点",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The summary captures the essence of the argument.",
+    "exampleJa": "その要約は議論の本質を捉えている。",
+    "category": "論点・抽象",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "議論や物事の核心を示す重要な抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4349",
+    "word": "expertise",
+    "meaningJa": "専門知識、熟練した技能",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Her expertise in soil science helped the farmers.",
+    "exampleJa": "彼女の土壌科学の専門知識は農家の人たちの役に立った。",
+    "category": "知識・専門",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "特定分野で蓄積した知識や技能を表す。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4350",
+    "word": "prevalence",
+    "meaningJa": "普及、広く見られること",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The survey measured the prevalence of bicycle use in the city.",
+    "exampleJa": "その調査は市内で自転車がどれほど広く使われているかを測った。",
+    "category": "統計・社会",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "ある現象が集団内でどれほど見られるかを示す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4351",
+    "word": "amidst",
+    "meaningJa": "〜の真っただ中で",
+    "partOfSpeech": "other",
+    "level": 5,
+    "example": "The village remained calm amidst the storm.",
+    "exampleJa": "その村は嵐の真っただ中でも落ち着いていた。",
+    "category": "状況・関係",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "やや文語的な前置詞で、困難や混乱の中という読解表現に使う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "amid より文語的な形。前置詞として名詞句の前に置く。"
+  },
+  {
+    "id": "v4352",
+    "word": "predecessor",
+    "meaningJa": "前任者",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The new director asked her predecessor for advice.",
+    "exampleJa": "新しい責任者は前任者に助言を求めた。",
+    "category": "人・組織",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "役職や立場の継承を表す標準的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4353",
+    "word": "successor",
+    "meaningJa": "後任者、後継者",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The manager trained her successor before retiring.",
+    "exampleJa": "その管理者は退職前に後任者を育てた。",
+    "category": "人・組織",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "役職や事業の継承を読む際に必要な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4354",
+    "word": "conceptual",
+    "meaningJa": "概念上の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The students drew a conceptual map of the problem.",
+    "exampleJa": "生徒たちはその問題の概念図を描いた。",
+    "category": "思考・論理",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "具体物より概念間の関係に注目する発展的な形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4355",
+    "word": "intermittent",
+    "meaningJa": "断続的な",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "Intermittent rain delayed the outdoor concert.",
+    "exampleJa": "断続的な雨で屋外コンサートが遅れた。",
+    "category": "時間・変化",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "続いたり止んだりする状態を正確に表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4356",
+    "word": "persistent",
+    "meaningJa": "持続する、根強い",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Persistent noise made it hard to concentrate.",
+    "exampleJa": "絶え間ない騒音で集中しにくかった。",
+    "category": "時間・変化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "長く続く問題や努力を表す頻出の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4357",
+    "word": "mandate",
+    "meaningJa": "正式に与えられた権限",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The committee received a mandate to review the policy.",
+    "exampleJa": "委員会はその方針を見直す権限を与えられた。",
+    "category": "政治・制度",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "組織に与えられる正式な権限を示す制度的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "名詞では正式な権限・任務・命令。動詞では「義務づける」。"
+  },
+  {
+    "id": "v4358",
+    "word": "safeguard",
+    "meaningJa": "守る、保護する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The new rules safeguard the rights of local workers.",
+    "exampleJa": "新しい規則は地元の労働者の権利を守る。",
+    "category": "社会・制度",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "権利や利益を危険から守るという文脈で重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4359",
+    "word": "impede",
+    "meaningJa": "妨げる",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "Heavy traffic can impede the delivery of supplies.",
+    "exampleJa": "激しい交通渋滞は物資の配送を妨げることがある。",
+    "category": "行動・影響",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "進行を妨害する抽象的な因果関係を表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4360",
+    "word": "nurture",
+    "meaningJa": "育む",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Good teachers nurture curiosity in their students.",
+    "exampleJa": "よい教師は生徒の好奇心を育む。",
+    "category": "教育・成長",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "能力や態度を時間をかけて育てる意味を持つ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4361",
+    "word": "rebut",
+    "meaningJa": "反論する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The researcher used new evidence to rebut the claim.",
+    "exampleJa": "研究者は新たな証拠を使ってその主張に反論した。",
+    "category": "議論・論証",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "主張に証拠で反論する論証上の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4362",
+    "word": "validate",
+    "meaningJa": "妥当性を確かめる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The team repeated the test to validate the result.",
+    "exampleJa": "チームは結果の妥当性を確かめるために実験を繰り返した。",
+    "category": "研究・調査",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "結果や方法が妥当かを確かめる学術的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4363",
+    "word": "counterfeit",
+    "meaningJa": "偽造の",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The shop refused to accept a counterfeit bill.",
+    "exampleJa": "その店は偽札の受け取りを拒んだ。",
+    "category": "法律・取引",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "本物を装った物を表す特殊だが読解に有用な形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4364",
+    "word": "deceptive",
+    "meaningJa": "人を欺くような",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The advertisement was deceptive because it hid the full cost.",
+    "exampleJa": "その広告は総費用を隠していたため、人を欺くものだった。",
+    "category": "認識・判断",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人を欺く外観や情報を評価する、難関入試の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4365",
+    "word": "rudimentary",
+    "meaningJa": "初歩的な",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The children built a rudimentary shelter from branches.",
+    "exampleJa": "子どもたちは枝で簡単な作りの小屋を建てた。",
+    "category": "程度・発達",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "未発達で基本的な段階を示す読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4366",
+    "word": "outdated",
+    "meaningJa": "時代遅れの",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The library replaced its outdated computer system.",
+    "exampleJa": "図書館は時代遅れのコンピューターシステムを取り替えた。",
+    "category": "時間・変化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "技術や考え方が現在に合わないことを表す標準語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4367",
+    "word": "unprecedented",
+    "meaningJa": "前例のない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The city faced unprecedented demand for clean water.",
+    "exampleJa": "その市は清潔な水に対する前例のない需要に直面した。",
+    "category": "変化・社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "過去に例がない規模や事態を示す重要語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4368",
+    "word": "commonplace",
+    "meaningJa": "ありふれた",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Video calls have become commonplace in many workplaces.",
+    "exampleJa": "多くの職場でビデオ通話はありふれたものになった。",
+    "category": "社会・日常",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "珍しくない状態を示し、変化の説明にも使う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4369",
+    "word": "heterogeneous",
+    "meaningJa": "異質なものからなる",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The class was a heterogeneous group with varied interests.",
+    "exampleJa": "そのクラスは関心の異なる人々からなる多様な集団だった。",
+    "category": "分類・構成",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "構成要素の違いを示す専門寄りの読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4370",
+    "word": "homogeneous",
+    "meaningJa": "同質のものからなる",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The researchers needed a homogeneous sample for the experiment.",
+    "exampleJa": "研究者たちは実験のために均一な試料を必要とした。",
+    "category": "分類・構成",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "構成要素が均一である状態を表す学術的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4371",
+    "word": "discriminate",
+    "meaningJa": "見分ける",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The test helps students discriminate between fact and opinion.",
+    "exampleJa": "そのテストは生徒が事実と意見を見分ける助けになる。",
+    "category": "認識・判断",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "違いを識別する意味を基本義として学ぶ重要な多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "差別する",
+        "example": "Employers should not discriminate against older applicants.",
+        "exampleJa": "雇用主は年齢の高い応募者を差別すべきではない。"
+      }
+    ]
+  },
+  {
+    "id": "v4372",
+    "word": "aggregate",
+    "meaningJa": "合計の",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The report shows the aggregate cost of the project.",
+    "exampleJa": "その報告書は事業の総費用を示している。",
+    "category": "数量・統計",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "個別の数値をまとめた全体を示す統計的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4373",
+    "word": "integral",
+    "meaningJa": "不可欠な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Regular feedback is integral to the learning process.",
+    "exampleJa": "定期的なフィードバックは学習過程に不可欠だ。",
+    "category": "関係・重要性",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "全体を成り立たせる重要な部分を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4374",
+    "word": "deterrent",
+    "meaningJa": "抑止力",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Visible cameras can act as a deterrent to theft.",
+    "exampleJa": "目に見えるカメラは盗難の抑止力になり得る。",
+    "category": "社会・行動",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "ある行動を思いとどまらせる要因を表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4375",
+    "word": "stigma",
+    "meaningJa": "負の烙印、偏見",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The campaign aimed to reduce the stigma around seeking help.",
+    "exampleJa": "その運動は助けを求めることへの偏見を減らそうとした。",
+    "category": "社会・心理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "社会的な否定的評価を表す重要な社会語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4376",
+    "word": "confrontation",
+    "meaningJa": "対立、衝突",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Both sides tried to avoid a direct confrontation.",
+    "exampleJa": "双方は直接的な対立を避けようとした。",
+    "category": "対立・協力",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "意見や利害の正面衝突を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4377",
+    "word": "mediation",
+    "meaningJa": "仲介、調停",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Mediation helped the neighbors settle their dispute.",
+    "exampleJa": "調停は隣人たちが争いを解決する助けになった。",
+    "category": "対立・協力",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "第三者を介した紛争解決を表す社会語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4378",
+    "word": "arbitration",
+    "meaningJa": "仲裁",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The two companies agreed to settle the dispute through arbitration.",
+    "exampleJa": "両社は仲裁によって紛争を解決することに合意した。",
+    "category": "法律・取引",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "第三者の判断に委ねる紛争解決方法を表す専門語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4379",
+    "word": "entitlement",
+    "meaningJa": "受給資格、権利",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The new law expanded entitlement to free school meals.",
+    "exampleJa": "新しい法律は無料の学校給食を受ける権利を広げた。",
+    "category": "社会・制度",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "制度上与えられる権利や資格を表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "文脈により法的な受給資格や、当然受けられると考える権利を表す。"
+  },
+  {
+    "id": "v4380",
+    "word": "disparity",
+    "meaningJa": "格差",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The report found a large disparity in access to public transport.",
+    "exampleJa": "その報告書は公共交通へのアクセスに大きな格差があると指摘した。",
+    "category": "社会・格差",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "集団や地域の間の不均衡を表す重要な社会語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4381",
+    "word": "adversity",
+    "meaningJa": "逆境",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "She continued her studies despite adversity.",
+    "exampleJa": "彼女は逆境にもかかわらず勉強を続けた。",
+    "category": "人生・社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "困難な境遇をまとめて示す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4382",
+    "word": "livelihood",
+    "meaningJa": "生計",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Fishing provides a livelihood for many families in the town.",
+    "exampleJa": "漁業は町の多くの家庭の生計を支えている。",
+    "category": "労働・生活",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "働いて生活の糧を得ることを表す社会読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4383",
+    "word": "pollutant",
+    "meaningJa": "汚染物質",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The report identified a pollutant in the river.",
+    "exampleJa": "その報告書は川の中の汚染物質を特定した。",
+    "category": "環境・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "環境を汚す物質を指す基本的な環境語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4384",
+    "word": "toxic",
+    "meaningJa": "有毒な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The factory released toxic chemicals into the river.",
+    "exampleJa": "その工場は有毒な化学物質を川に排出した。",
+    "category": "環境・健康",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "健康や環境に害を及ぼす性質を表す標準語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4385",
+    "word": "toxicity",
+    "meaningJa": "毒性",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Scientists measured the toxicity of the water sample.",
+    "exampleJa": "科学者たちはその水の試料の毒性を測った。",
+    "category": "環境・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物質の有害性を表し、難関入試の科学・環境分野で学ぶ名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4386",
+    "word": "sentiment",
+    "meaningJa": "感情、意見",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Public sentiment toward the plan changed after the meeting.",
+    "exampleJa": "会議の後、その計画に対する世論は変わった。",
+    "category": "社会・心理",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "集団が抱く気持ちや意見を指す読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4387",
+    "word": "apathy",
+    "meaningJa": "無関心",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Apathy among voters worried the local candidates.",
+    "exampleJa": "有権者の無関心は地元の候補者たちを心配させた。",
+    "category": "社会・心理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "社会問題や他者への関心の欠如を表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4388",
+    "word": "vanity",
+    "meaningJa": "虚栄心",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "His vanity made it hard for him to accept criticism.",
+    "exampleJa": "彼の虚栄心のせいで、批判を受け入れるのは難しかった。",
+    "category": "感情・性格",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "自分をよく見せたい気持ちを表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4389",
+    "word": "arrogance",
+    "meaningJa": "傲慢さ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Her arrogance damaged the trust of her teammates.",
+    "exampleJa": "彼女の傲慢さはチームメートの信頼を損なった。",
+    "category": "感情・性格",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "自分を過大に評価する態度を示す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4390",
+    "word": "alienation",
+    "meaningJa": "疎外",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The long hours of remote work increased his sense of alienation.",
+    "exampleJa": "長時間の在宅勤務で、彼の疎外感は強まった。",
+    "category": "社会・心理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "集団や社会から切り離された感覚を示す抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4391",
+    "word": "isolation",
+    "meaningJa": "孤立",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Social isolation can affect the health of older people.",
+    "exampleJa": "社会的孤立は高齢者の健康に影響することがある。",
+    "category": "社会・心理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人とのつながりが断たれた状態を示す標準語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4392",
+    "word": "displacement",
+    "meaningJa": "移動、立ち退き",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The flood caused the displacement of hundreds of residents.",
+    "exampleJa": "洪水で何百人もの住民が住まいを追われた。",
+    "category": "社会・移動",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "災害などで人が元の場所を離れることを示す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "物理的な移動のほか、災害や紛争による住民の立ち退きにも使う。"
+  },
+  {
+    "id": "v4393",
+    "word": "urbanization",
+    "meaningJa": "都市化",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Rapid urbanization has changed farmland in the region.",
+    "exampleJa": "急速な都市化でその地域の農地は変わった。",
+    "category": "社会・都市",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人口や開発が都市へ集中する変化を表す重要語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4394",
+    "word": "logistics",
+    "meaningJa": "物流、物資の輸送管理",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The team handled the logistics of delivering food to the island.",
+    "exampleJa": "そのチームは島へ食料を届けるための輸送管理を担った。",
+    "category": "経済・物流",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物資の輸送・保管や活動の手配を表す、社会・経済の難関読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "語尾に s が付くが、物流や輸送管理を表す一つの分野として扱う。"
+  },
+  {
+    "id": "v4395",
+    "word": "collateral",
+    "meaningJa": "担保",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The bank asked for collateral before approving the loan.",
+    "exampleJa": "銀行は融資を承認する前に担保を求めた。",
+    "category": "経済・金融",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "融資の保証となる資産を指す金融語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4396",
+    "word": "entrepreneurship",
+    "meaningJa": "起業家精神、起業活動",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The course encourages entrepreneurship among young adults.",
+    "exampleJa": "その講座は若者の起業活動を奨励している。",
+    "category": "経済・仕事",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "新しい事業を始める姿勢や活動を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4397",
+    "word": "optimization",
+    "meaningJa": "最適化",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Route optimization reduced the delivery time.",
+    "exampleJa": "配送経路の最適化によって配達時間が短くなった。",
+    "category": "技術・方法",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "条件に合わせて最もよい形を探す技術的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4398",
+    "word": "discourse",
+    "meaningJa": "議論、言説",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "Public discourse about energy policy grew more intense.",
+    "exampleJa": "エネルギー政策をめぐる社会的な議論はさらに活発になった。",
+    "category": "議論・社会",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "社会や学術の場で交わされる議論を示す抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4399",
+    "word": "satire",
+    "meaningJa": "風刺",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The play uses satire to criticize unfair laws.",
+    "exampleJa": "その劇は不公平な法律を批判するために風刺を用いている。",
+    "category": "文学・表現",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "ユーモアや皮肉による社会批評を示す文学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4400",
+    "word": "figurative",
+    "meaningJa": "比喩的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The phrase has a figurative meaning in this poem.",
+    "exampleJa": "その表現はこの詩では比喩的な意味を持つ。",
+    "category": "言語・表現",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "文字どおりでない比喩表現を説明する、難関入試の文学・言語分野の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

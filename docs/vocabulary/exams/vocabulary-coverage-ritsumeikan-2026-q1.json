@@ -1,0 +1,100 @@
+{
+  "year": 2026,
+  "question": "立命館大学 2026年2月4日 英語 第Ⅰ問 本文",
+  "sourceUrl": "https://admission.ritsumei.ac.jp/assets/file/2027/admission/general/archive/question02.pdf",
+  "extraction": "pdfplumber; PDF pages 1–3 question I body; remove (cid:NNNN) footnote glyphs; exclude instructions, footnote glosses, attribution, footers, questions and options; all three pages visually checked",
+  "method": "NFKC, lowercase, remove /cNNN glyph labels, ASCII words with internal apostrophes; hyphens split; exact surface-form matching; no lemmatization or proper-name exclusion",
+  "textSha256": "0488029091bc6138bed2bd9d1536f0e897a0d3f072204b76a6b916b0539fa597",
+  "catalogSha256": "ca343cb218d5d7bf1f7cf7951f904193c5f5cd6ffb3d1521d81ffcfb0226ed00",
+  "catalogWords": 5011,
+  "totalTokens": 864,
+  "uniqueTypes": 409,
+  "matchedTokens": 587,
+  "matchedTypes": 216,
+  "tokenMatchPercent": 67.94,
+  "typeMatchPercent": 52.81,
+  "missingTop20": [
+    {
+      "word": "are",
+      "count": 10
+    },
+    {
+      "word": "forests",
+      "count": 9
+    },
+    {
+      "word": "is",
+      "count": 9
+    },
+    {
+      "word": "their",
+      "count": 7
+    },
+    {
+      "word": "was",
+      "count": 7
+    },
+    {
+      "word": "area",
+      "count": 6
+    },
+    {
+      "word": "trees",
+      "count": 6
+    },
+    {
+      "word": "fernbank",
+      "count": 5
+    },
+    {
+      "word": "overton",
+      "count": 4
+    },
+    {
+      "word": "visitors",
+      "count": 4
+    },
+    {
+      "word": "birds",
+      "count": 3
+    },
+    {
+      "word": "years",
+      "count": 3
+    },
+    {
+      "word": "ages",
+      "count": 2
+    },
+    {
+      "word": "anders",
+      "count": 2
+    },
+    {
+      "word": "had",
+      "count": 2
+    },
+    {
+      "word": "has",
+      "count": 2
+    },
+    {
+      "word": "hundreds",
+      "count": 2
+    },
+    {
+      "word": "invasive",
+      "count": 2
+    },
+    {
+      "word": "least",
+      "count": 2
+    },
+    {
+      "word": "made",
+      "count": 2
+    }
+  ],
+  "limitations": "Surface-form matches are not lemma coverage, comprehension or exam readiness. Inflections, contractions, names and PDF extraction artifacts may appear missing. This single public exam cannot establish advanced-university coverage.",
+  "pdfSha256": "4908241476f5b99b940271649927d4969301f807cb3517f5205640bad3f2ce55"
+}

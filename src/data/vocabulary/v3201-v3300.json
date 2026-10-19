@@ -1,0 +1,2194 @@
+[
+  {
+    "id": "v3201",
+    "word": "nephew",
+    "meaningJa": "甥",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "My nephew starts school next year.",
+    "exampleJa": "私の甥は来年学校に通い始めます。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な家族関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3202",
+    "word": "niece",
+    "meaningJa": "姪",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "My niece sent me a birthday card.",
+    "exampleJa": "私の姪は誕生日カードを送ってくれました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な家族関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3203",
+    "word": "grandson",
+    "meaningJa": "孫息子；男の孫",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Her grandson visits her every Sunday.",
+    "exampleJa": "彼女の孫息子は毎週日曜日に彼女を訪ねます。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "基本的な家族関係の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3204",
+    "word": "granddaughter",
+    "meaningJa": "孫娘；女の孫",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He taught his granddaughter how to ride a bicycle.",
+    "exampleJa": "彼は孫娘に自転車の乗り方を教えました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "基本的な家族関係の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3205",
+    "word": "grandchild",
+    "meaningJa": "孫",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Their youngest grandchild is three years old.",
+    "exampleJa": "彼らの一番下の孫は三歳です。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "性別を限定しない家族関係の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はgrandchildrenです。"
+  },
+  {
+    "id": "v3206",
+    "word": "grandparent",
+    "meaningJa": "祖父または祖母",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Each child invited a grandparent to the school event.",
+    "exampleJa": "子供たちはそれぞれ学校行事に祖父か祖母を招きました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "性別を限定しない家族関係の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "祖父母をまとめていうときは通常は複数形grandparentsを使います。"
+  },
+  {
+    "id": "v3207",
+    "word": "spouse",
+    "meaningJa": "配偶者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The invitation is for you and your spouse.",
+    "exampleJa": "その招待状はあなたと配偶者に宛てたものです。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会制度や手続きで使う家族語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3208",
+    "word": "bride",
+    "meaningJa": "花嫁；新婦",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The bride carried a small bouquet.",
+    "exampleJa": "花嫁は小さな花束を持っていました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な行事の人物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3209",
+    "word": "groom",
+    "meaningJa": "花婿；新郎",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The groom thanked everyone for coming.",
+    "exampleJa": "新郎は来てくれた皆に感謝しました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な行事の人物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "新郎の意味ではbridegroomともいいます。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜の毛並みを整える；手入れする",
+        "example": "They groom the horses every morning.",
+        "exampleJa": "彼らは毎朝馬の毛並みを手入れします。"
+      }
+    ]
+  },
+  {
+    "id": "v3210",
+    "word": "wedding",
+    "meaningJa": "結婚式",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We attended a wedding in the garden.",
+    "exampleJa": "私たちは庭で行われた結婚式に出席しました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の行事を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "結婚式という行事です。結婚という状態・関係はmarriageです。"
+  },
+  {
+    "id": "v3211",
+    "word": "divorce",
+    "meaningJa": "離婚",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The novel describes life after a divorce.",
+    "exampleJa": "その小説は離婚後の生活を描いています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "家族と社会の話題で使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3212",
+    "word": "widow",
+    "meaningJa": "夫を亡くした女性；未亡人",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The widow continued to run the family shop.",
+    "exampleJa": "夫を亡くしたその女性は家業の店を営み続けました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "家族状況を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3213",
+    "word": "toddler",
+    "meaningJa": "よちよち歩きの幼児",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The toddler reached for the colorful toy.",
+    "exampleJa": "よちよち歩きの幼児は色鮮やかなおもちゃに手を伸ばしました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "成長段階を表す具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3214",
+    "word": "teenager",
+    "meaningJa": "十代の若者",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "As a teenager, she enjoyed playing the guitar.",
+    "exampleJa": "十代のころ、彼女はギターを弾くことを楽しんでいました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "年齢層を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は13歳から19歳までを指します。日本語の「十代」全体とは範囲が異なります。"
+  },
+  {
+    "id": "v3215",
+    "word": "adolescent",
+    "meaningJa": "思春期の若者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The study followed the development of each adolescent.",
+    "exampleJa": "その研究はそれぞれの思春期の若者の発達を追跡しました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "発達や教育を読む名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "思春期の",
+        "example": "The study examines adolescent behavior.",
+        "exampleJa": "その研究は思春期の行動を調べています。"
+      }
+    ]
+  },
+  {
+    "id": "v3216",
+    "word": "adolescence",
+    "meaningJa": "思春期；青年期",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Many interests develop during adolescence.",
+    "exampleJa": "多くの興味関心は思春期に育ちます。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人の発達段階を表す抽象語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3217",
+    "word": "adult",
+    "meaningJa": "大人；成人",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Every child must be accompanied by an adult.",
+    "exampleJa": "すべての子供には大人の付き添いが必要です。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "人の年齢区分を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "成人の；成長した",
+        "example": "The survey included only adult participants.",
+        "exampleJa": "その調査には成人の参加者だけが含まれていました。"
+      }
+    ]
+  },
+  {
+    "id": "v3218",
+    "word": "adulthood",
+    "meaningJa": "成人期；大人であること",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Some childhood friendships continue into adulthood.",
+    "exampleJa": "子供時代の友情の中には成人期まで続くものがあります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生涯の段階を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3219",
+    "word": "infant",
+    "meaningJa": "乳児；幼い子供",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The infant slept quietly in the room.",
+    "exampleJa": "乳児は部屋で静かに眠っていました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "育児や発達の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3220",
+    "word": "infancy",
+    "meaningJa": "乳児期；幼少期",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The research focuses on learning in infancy.",
+    "exampleJa": "その研究は乳児期の学習に焦点を当てています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "初期の発達段階を論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3221",
+    "word": "childhood",
+    "meaningJa": "子供時代；幼少期",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She spent her childhood in a small town.",
+    "exampleJa": "彼女は小さな町で子供時代を過ごしました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "生い立ちを語る基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3222",
+    "word": "babysitter",
+    "meaningJa": "子守をする人；ベビーシッター",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The babysitter read a story to the children.",
+    "exampleJa": "ベビーシッターは子供たちに物語を読んであげました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "暮らしの役割を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3223",
+    "word": "sibling",
+    "meaningJa": "兄弟姉妹の一人",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Each participant was asked about a sibling.",
+    "exampleJa": "各参加者は兄弟姉妹の一人について尋ねられました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "性別を区別せず家族関係を論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "兄・弟・姉・妹を区別せずに表す語です。"
+  },
+  {
+    "id": "v3224",
+    "word": "twin",
+    "meaningJa": "双子の一人",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Each twin has a different favorite color.",
+    "exampleJa": "双子はそれぞれ好きな色が違います。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な家族関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3225",
+    "word": "orphan",
+    "meaningJa": "親を亡くした子供；孤児",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The main character of the story is an orphan.",
+    "exampleJa": "その物語の主人公は親を亡くした子供です。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物語や社会の話題で使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3226",
+    "word": "ancestor",
+    "meaningJa": "祖先",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "They found records of an ancestor who lived near the coast.",
+    "exampleJa": "彼らは海岸近くに住んでいた祖先の記録を見つけました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "歴史と家族の関係を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3227",
+    "word": "descendant",
+    "meaningJa": "子孫",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She is a descendant of the family that built the house.",
+    "exampleJa": "彼女はその家を建てた一族の子孫です。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "世代のつながりを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3228",
+    "word": "elderly",
+    "meaningJa": "高齢の；年配の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The program supports elderly residents.",
+    "exampleJa": "そのプログラムは高齢の住民を支援します。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会や暮らしで年齢層を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3229",
+    "word": "retirement",
+    "meaningJa": "退職；引退",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He took up painting after retirement.",
+    "exampleJa": "彼は退職後に絵を描き始めました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人生と仕事の段階を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3230",
+    "word": "retire",
+    "meaningJa": "退職する；引退する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "She plans to retire next year.",
+    "exampleJa": "彼女は来年退職する予定です。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕事や活動を終える基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3231",
+    "word": "household",
+    "meaningJa": "世帯；同居する家族",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Each household received a survey form.",
+    "exampleJa": "各世帯は調査用紙を受け取りました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会統計や生活の単位を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "同じ住居で暮らす人々を単位として指し、必ずしも血縁のあるfamilyと一致しません。"
+  },
+  {
+    "id": "v3232",
+    "word": "housework",
+    "meaningJa": "家事",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We share the housework equally.",
+    "exampleJa": "私たちは家事を平等に分担しています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の家庭内作業を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は不可算名詞です。宿題はhomeworkなので混同に注意します。"
+  },
+  {
+    "id": "v3233",
+    "word": "chore",
+    "meaningJa": "日常の雑用；家事",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Washing the dishes is my evening chore.",
+    "exampleJa": "皿洗いは私の夕方の日課です。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "繰り返し行う雑用を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3234",
+    "word": "errand",
+    "meaningJa": "使い走り；用事",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "I have an errand to do before lunch.",
+    "exampleJa": "昼食前に済ませる用事があります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常の外出目的を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3235",
+    "word": "allowance",
+    "meaningJa": "手当；小遣い",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She saves part of her weekly allowance.",
+    "exampleJa": "彼女は毎週の小遣いの一部を貯金します。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "暮らしのお金を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "考慮；余裕",
+        "example": "The schedule makes allowance for possible delays.",
+        "exampleJa": "その予定には遅れが生じる可能性を考慮した余裕があります。"
+      }
+    ]
+  },
+  {
+    "id": "v3236",
+    "word": "neighborhood",
+    "meaningJa": "近所；地域",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "There is a small park in our neighborhood.",
+    "exampleJa": "私たちの近所には小さな公園があります。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な地域を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "neighbourhoodという綴りもあります。"
+  },
+  {
+    "id": "v3237",
+    "word": "hometown",
+    "meaningJa": "故郷；生まれ育った町",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He returned to his hometown after many years.",
+    "exampleJa": "彼は何年もたって故郷に戻りました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "生い立ちや居住地を語る語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3238",
+    "word": "birthplace",
+    "meaningJa": "出生地；発祥の地",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The village is the birthplace of a famous writer.",
+    "exampleJa": "その村は有名な作家の出生地です。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人物や文化の由来を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3239",
+    "word": "residence",
+    "meaningJa": "住居；居住",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The form asks for your place of residence.",
+    "exampleJa": "その用紙は居住地を記入するよう求めています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会や手続きで使う住居の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3240",
+    "word": "tenant",
+    "meaningJa": "借家人；借り主",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The tenant reported a broken window.",
+    "exampleJa": "借家人は窓が壊れていることを報告しました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "住居の利用関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3241",
+    "word": "landlord",
+    "meaningJa": "家主；貸主",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The landlord arranged for the roof to be repaired.",
+    "exampleJa": "家主は屋根の修理を手配しました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "住居の貸し借りに関する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3242",
+    "word": "orchard",
+    "meaningJa": "果樹園",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "They planted apple trees in the orchard.",
+    "exampleJa": "彼らは果樹園にリンゴの木を植えました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な農業や景観の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3243",
+    "word": "meadow",
+    "meaningJa": "牧草地；草地",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Wild flowers grew in the meadow.",
+    "exampleJa": "野の花が草地に咲いていました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自然の風景を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3244",
+    "word": "lawn",
+    "meaningJa": "芝生；芝生の庭",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The children played on the lawn.",
+    "exampleJa": "子供たちは芝生で遊びました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な庭や公園の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3245",
+    "word": "hedge",
+    "meaningJa": "生け垣",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A tall hedge surrounds the garden.",
+    "exampleJa": "高い生け垣が庭を囲んでいます。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な景観を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3246",
+    "word": "cliff",
+    "meaningJa": "崖；絶壁",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The path runs along the top of the cliff.",
+    "exampleJa": "道は崖の上に沿って続いています。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地形や物語の描写に使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3247",
+    "word": "cave",
+    "meaningJa": "洞窟",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The explorers found a cave behind the waterfall.",
+    "exampleJa": "探検家たちは滝の裏に洞窟を見つけました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "自然の具体的な場所の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3248",
+    "word": "shore",
+    "meaningJa": "岸；海岸",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We walked along the shore of the lake.",
+    "exampleJa": "私たちは湖の岸沿いを歩きました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "水辺の地形を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "海・湖などの水際の陸地を指します。砂浜に限りません。"
+  },
+  {
+    "id": "v3249",
+    "word": "rainbow",
+    "meaningJa": "虹",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "A rainbow appeared after the rain.",
+    "exampleJa": "雨の後に虹が現れました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な天候の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3250",
+    "word": "breeze",
+    "meaningJa": "そよ風；微風",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A cool breeze came through the window.",
+    "exampleJa": "涼しいそよ風が窓から入ってきました。",
+    "category": "生活・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な天候の様子を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3251",
+    "word": "painting",
+    "meaningJa": "絵画；絵を描くこと",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The painting shows a quiet village.",
+    "exampleJa": "その絵画には静かな村が描かれています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な芸術作品を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "絵画作品を指す独立した名詞として収録しています。paintの活用形を別に数えたものではありません。"
+  },
+  {
+    "id": "v3252",
+    "word": "painter",
+    "meaningJa": "画家；塗装職人",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The painter used bright colors.",
+    "exampleJa": "その画家は明るい色を使いました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な職業や芸術家を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3253",
+    "word": "portrait",
+    "meaningJa": "肖像画；人物の描写",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The portrait hangs above the fireplace.",
+    "exampleJa": "肖像画は暖炉の上に掛かっています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人物を表現する作品の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3254",
+    "word": "sculpture",
+    "meaningJa": "彫刻；彫刻作品",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A stone sculpture stands in the park.",
+    "exampleJa": "公園に石の彫刻が立っています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "芸術の基本的な種類を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3255",
+    "word": "sculptor",
+    "meaningJa": "彫刻家",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The sculptor shaped the stone carefully.",
+    "exampleJa": "彫刻家は注意深く石を形作りました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "芸術の制作を担う職業語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3256",
+    "word": "pottery",
+    "meaningJa": "陶器；陶芸",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She learned pottery at a local workshop.",
+    "exampleJa": "彼女は地元の実習会で陶芸を学びました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生活と工芸を結ぶ語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "陶器全般や陶芸は通常不可算です。個々の作品はa piece of potteryなどと表します。"
+  },
+  {
+    "id": "v3257",
+    "word": "clay",
+    "meaningJa": "粘土",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The children made animals from clay.",
+    "exampleJa": "子供たちは粘土で動物を作りました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な素材を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3258",
+    "word": "marble",
+    "meaningJa": "大理石",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The floor is made of white marble.",
+    "exampleJa": "床は白い大理石でできています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "建築や彫刻の素材を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "ビー玉",
+        "example": "A blue marble rolled under the table.",
+        "exampleJa": "青いビー玉がテーブルの下に転がりました。"
+      }
+    ]
+  },
+  {
+    "id": "v3259",
+    "word": "bronze",
+    "meaningJa": "青銅；ブロンズ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The statue was cast in bronze.",
+    "exampleJa": "その像は青銅で鋳造されました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "芸術や歴史に関わる金属の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3260",
+    "word": "copper",
+    "meaningJa": "銅",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The wire is made of copper.",
+    "exampleJa": "その電線は銅でできています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生活や科学で使う金属の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3261",
+    "word": "canvas",
+    "meaningJa": "キャンバス；画布；帆布",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She placed a blank canvas on the easel.",
+    "exampleJa": "彼女は何も描かれていない画布を画架に置きました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "美術や布地を扱う具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3262",
+    "word": "masterpiece",
+    "meaningJa": "傑作；最高傑作",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Many critics consider the novel a masterpiece.",
+    "exampleJa": "多くの批評家はその小説を傑作と考えています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "作品の評価を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3263",
+    "word": "artwork",
+    "meaningJa": "美術作品",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The gallery displays artwork by local students.",
+    "exampleJa": "そのギャラリーは地元の生徒による美術作品を展示しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "芸術作品全般を指す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3264",
+    "word": "artistic",
+    "meaningJa": "芸術の；芸術的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The town encourages artistic activities.",
+    "exampleJa": "その町は芸術活動を奨励しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "芸術に関する性質を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3265",
+    "word": "realistic",
+    "meaningJa": "現実的な；写実的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "We need a realistic plan that we can carry out.",
+    "exampleJa": "私たちには実行できる現実的な計画が必要です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "実現性や表現の現実らしさを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3266",
+    "word": "medieval",
+    "meaningJa": "中世の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The town still has medieval walls.",
+    "exampleJa": "その町には今も中世の城壁があります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "歴史の時代区分を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3267",
+    "word": "prehistoric",
+    "meaningJa": "先史時代の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The cave contains prehistoric paintings.",
+    "exampleJa": "その洞窟には先史時代の絵があります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "文字記録以前の時代を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "文字による記録が残る以前の時代を指します。"
+  },
+  {
+    "id": "v3268",
+    "word": "archaeologist",
+    "meaningJa": "考古学者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The archaeologist examined the broken vessel.",
+    "exampleJa": "考古学者は壊れた器を調べました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "歴史を研究する職業語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3269",
+    "word": "artifact",
+    "meaningJa": "人工遺物；工芸品",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The museum displays an artifact found near the river.",
+    "exampleJa": "その博物館は川の近くで発見された人工遺物を展示しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人間の活動の痕跡を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "artefactという綴りもあります。"
+  },
+  {
+    "id": "v3270",
+    "word": "excavate",
+    "meaningJa": "〜を発掘する；掘る",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The team plans to excavate the ancient site.",
+    "exampleJa": "チームはその古代遺跡を発掘する予定です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "考古学や建設の作業を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3271",
+    "word": "relic",
+    "meaningJa": "遺物；名残",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The old bridge is a relic of the industrial era.",
+    "exampleJa": "その古い橋は工業時代の名残です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "過去から残る物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3272",
+    "word": "ruin",
+    "meaningJa": "〜を台無しにする；破壊する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Heavy rain could ruin the outdoor event.",
+    "exampleJa": "大雨は屋外の催しを台無しにするかもしれません。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "基本的な破壊の動詞で遺跡の名詞義も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "遺跡・廃墟を指す名詞は複数形ruinsで使うことも多くあります。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "廃墟；遺跡",
+        "example": "The old castle is now a ruin.",
+        "exampleJa": "その古い城は今では廃墟になっています。"
+      }
+    ]
+  },
+  {
+    "id": "v3273",
+    "word": "folklore",
+    "meaningJa": "民間伝承；民俗",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The course explores the folklore of the region.",
+    "exampleJa": "その授業では地域の民間伝承を探究します。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "文化の継承を論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3274",
+    "word": "myth",
+    "meaningJa": "神話；根拠のない通念",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The book tells a myth about the origin of the world.",
+    "exampleJa": "その本は世界の起源に関する神話を語っています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物語と社会的な通念を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "神話のほか、多くの人が信じているが根拠のない考えを指すことがあります。"
+  },
+  {
+    "id": "v3275",
+    "word": "legend",
+    "meaningJa": "伝説",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "According to legend, a dragon lived in this lake.",
+    "exampleJa": "伝説によると、この湖には竜が住んでいました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "文化的な物語を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "凡例；記号の説明",
+        "example": "The map has a legend in the corner.",
+        "exampleJa": "その地図には隅に凡例があります。"
+      }
+    ]
+  },
+  {
+    "id": "v3276",
+    "word": "fantasy",
+    "meaningJa": "空想；幻想",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The story mixes fantasy with everyday life.",
+    "exampleJa": "その物語は空想と日常生活を組み合わせています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "想像された世界を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3277",
+    "word": "biography",
+    "meaningJa": "伝記",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She wrote a biography of a famous scientist.",
+    "exampleJa": "彼女は有名な科学者の伝記を書きました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人物の生涯を扱う文章の種類。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "ある人の生涯を他者が書いたものです。自分自身について書くものはautobiographyです。"
+  },
+  {
+    "id": "v3278",
+    "word": "autobiography",
+    "meaningJa": "自伝",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "His autobiography describes his childhood in detail.",
+    "exampleJa": "彼の自伝は子供時代を詳しく描いています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "書き手自身の生涯を扱う文章の種類。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3279",
+    "word": "poetic",
+    "meaningJa": "詩の；詩的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The passage uses poetic language.",
+    "exampleJa": "その一節は詩的な言葉を用いています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "表現の性質を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3280",
+    "word": "verse",
+    "meaningJa": "詩；詩の一節",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The teacher read a short verse aloud.",
+    "exampleJa": "先生は短い詩の一節を声に出して読みました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "詩や歌の構成を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3281",
+    "word": "rhyme",
+    "meaningJa": "韻；押韻",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The poem uses rhyme at the end of each line.",
+    "exampleJa": "その詩は各行の末尾で韻を踏んでいます。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "言語表現の音の仕組みを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3282",
+    "word": "rhythm",
+    "meaningJa": "リズム；律動",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The dancers moved to the rhythm of the drums.",
+    "exampleJa": "踊り手たちは太鼓のリズムに合わせて動きました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "音楽や動きの規則性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3283",
+    "word": "melody",
+    "meaningJa": "旋律；メロディー",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She played a simple melody on the piano.",
+    "exampleJa": "彼女はピアノで簡単な旋律を弾きました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "音楽の基本的な要素を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3284",
+    "word": "harmony",
+    "meaningJa": "調和；和声",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The neighbors live in harmony.",
+    "exampleJa": "近所の人々は仲良く暮らしています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会と音楽の調和を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3285",
+    "word": "musical",
+    "meaningJa": "音楽の；音楽的な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "He showed musical talent at an early age.",
+    "exampleJa": "彼は幼いころに音楽の才能を示しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な芸術分野の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "ミュージカル",
+        "example": "The students performed a musical.",
+        "exampleJa": "生徒たちはミュージカルを上演しました。"
+      }
+    ]
+  },
+  {
+    "id": "v3286",
+    "word": "musician",
+    "meaningJa": "音楽家；演奏家",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The musician played for the children.",
+    "exampleJa": "音楽家は子供たちのために演奏しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な芸術家の職業語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3287",
+    "word": "composer",
+    "meaningJa": "作曲家",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The composer wrote music for the film.",
+    "exampleJa": "作曲家はその映画の音楽を書きました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "音楽を作る人を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3288",
+    "word": "conductor",
+    "meaningJa": "指揮者；車掌",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The conductor raised both hands.",
+    "exampleJa": "指揮者は両手を上げました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "音楽と交通で使う多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "指揮者・車掌のほか、科学では熱や電気を伝える導体を指します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "導体",
+        "example": "Copper is a good conductor of electricity.",
+        "exampleJa": "銅は電気をよく通す導体です。"
+      }
+    ]
+  },
+  {
+    "id": "v3289",
+    "word": "orchestra",
+    "meaningJa": "管弦楽団；オーケストラ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The orchestra began to play.",
+    "exampleJa": "オーケストラは演奏を始めました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "音楽の演奏集団を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3290",
+    "word": "opera",
+    "meaningJa": "オペラ；歌劇",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We watched an opera at the theater.",
+    "exampleJa": "私たちは劇場でオペラを見ました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "舞台芸術の種類を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3291",
+    "word": "ballet",
+    "meaningJa": "バレエ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She has studied ballet since childhood.",
+    "exampleJa": "彼女は子供のころからバレエを学んでいます。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "舞台芸術の種類を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3292",
+    "word": "drama",
+    "meaningJa": "演劇；劇",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The school offers classes in drama.",
+    "exampleJa": "その学校には演劇の授業があります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な表現活動を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3293",
+    "word": "actor",
+    "meaningJa": "俳優",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The actor appeared in several films.",
+    "exampleJa": "その俳優はいくつかの映画に出演しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な職業を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "性別を問わず俳優を指すことがあります。女性の俳優を特に指す語にactressがあります。"
+  },
+  {
+    "id": "v3294",
+    "word": "actress",
+    "meaningJa": "女優",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The actress spoke about her latest film.",
+    "exampleJa": "その女優は最新の映画について話しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な職業を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "女性の俳優を指します。性別を区別せずactorと呼ぶこともあります。"
+  },
+  {
+    "id": "v3295",
+    "word": "rehearsal",
+    "meaningJa": "リハーサル；稽古",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The final rehearsal starts at noon.",
+    "exampleJa": "最後のリハーサルは正午に始まります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "舞台活動の準備を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3296",
+    "word": "exhibition",
+    "meaningJa": "展覧会；展示",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The exhibition features photographs of the city.",
+    "exampleJa": "その展覧会は都市の写真を取り上げています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "芸術や社会活動の場を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3297",
+    "word": "gallery",
+    "meaningJa": "美術館；画廊",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The gallery is closed on Mondays.",
+    "exampleJa": "その美術館は月曜日には閉まっています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "作品を見る身近な場所の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3298",
+    "word": "architecture",
+    "meaningJa": "建築；建築様式",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The city is famous for its modern architecture.",
+    "exampleJa": "その都市は近代建築で有名です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会と芸術を結ぶ分野の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3299",
+    "word": "architect",
+    "meaningJa": "建築家",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The architect designed a new library.",
+    "exampleJa": "建築家は新しい図書館を設計しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な専門職を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3300",
+    "word": "ceremony",
+    "meaningJa": "式；式典",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The ceremony will take place in the main hall.",
+    "exampleJa": "式典は大ホールで行われます。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常や文化の行事を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

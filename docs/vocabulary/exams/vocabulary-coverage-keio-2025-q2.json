@@ -1,0 +1,369 @@
+{
+  "auditDate": "2026-10-02",
+  "sourcePage": "https://www.keio.ac.jp/ja/admissions/faculty/examinations/general-admissions/question-2025/",
+  "pdfSha256": "dd6e35cf8b2472fac48bfc4308637c20bb503dd7c616cc3e04f2a8d6cc2aa2b7",
+  "scope": "2025年度 慶應義塾大学理工学部 英語 第2問。PDF第4ページの本文7段落のみ。第5ページの設問は範囲確認に用いたが集計しない。他の大問は対象外。",
+  "transcription": "Manually transcribed and visually checked against rendered PDF page 4 at two resolutions; line wraps joined and annotation markers removed. Corrected racing after enlarged-page comparison. No independent second transcription. Source text and images are not redistributed.",
+  "body": {
+    "year": 2025,
+    "question": "慶應義塾大学 理工学部 英語 第2問 本文のみ（PDF第4ページ）",
+    "sourceUrl": "https://www.keio.ac.jp/files/dd6e35cf8b2472fac48bfc4308637c20bb503dd7c616cc3e04f2a8d6cc2aa2b7",
+    "extraction": "Manual transcription checked against rendered PDF page 4; seven body paragraphs only; excludes Japanese instructions, underline labels, footnotes, source credit, page number and all question text on page 5",
+    "method": "NFKC, lowercase, remove /cNNN glyph labels, ASCII words with internal apostrophes; hyphens split; exact surface-form matching; no lemmatization or proper-name exclusion",
+    "textSha256": "310380130aeecd04d5ddba9477ac296c72224e9d30d01cf7bcf96f45c51a2fe7",
+    "catalogSha256": "622c4d880bbbeccb77ba3f73550403efe17b3b1dd8f5396232d357ee95948922",
+    "catalogWords": 2500,
+    "totalTokens": 624,
+    "uniqueTypes": 341,
+    "matchedTokens": 376,
+    "matchedTypes": 166,
+    "tokenMatchPercent": 60.26,
+    "typeMatchPercent": 48.68,
+    "missingTop20": [
+      {
+        "word": "af",
+        "count": 13
+      },
+      {
+        "word": "athletes",
+        "count": 10
+      },
+      {
+        "word": "is",
+        "count": 6
+      },
+      {
+        "word": "endurance",
+        "count": 5
+      },
+      {
+        "word": "says",
+        "count": 5
+      },
+      {
+        "word": "are",
+        "count": 4
+      },
+      {
+        "word": "their",
+        "count": 4
+      },
+      {
+        "word": "cyclists",
+        "count": 3
+      },
+      {
+        "word": "factors",
+        "count": 3
+      },
+      {
+        "word": "gerche",
+        "count": 3
+      },
+      {
+        "word": "hours",
+        "count": 3
+      },
+      {
+        "word": "it's",
+        "count": 3
+      },
+      {
+        "word": "la",
+        "count": 3
+      },
+      {
+        "word": "training",
+        "count": 3
+      },
+      {
+        "word": "activity",
+        "count": 2
+      },
+      {
+        "word": "called",
+        "count": 2
+      },
+      {
+        "word": "cardiac",
+        "count": 2
+      },
+      {
+        "word": "chambers",
+        "count": 2
+      },
+      {
+        "word": "don't",
+        "count": 2
+      },
+      {
+        "word": "elliott",
+        "count": 2
+      }
+    ],
+    "limitations": "Surface-form matches are not lemma coverage, comprehension or exam readiness. Inflections, contractions, names and PDF extraction artifacts may appear missing. This single public exam cannot establish advanced-university coverage."
+  },
+  "verifiedInflectionExamples": [
+    {
+      "surface": "is",
+      "existingHeadword": "be",
+      "id": "v0016",
+      "count": 6
+    },
+    {
+      "surface": "are",
+      "existingHeadword": "be",
+      "id": "v0016",
+      "count": 4
+    },
+    {
+      "surface": "says",
+      "existingHeadword": "say",
+      "id": "v0292",
+      "count": 5
+    },
+    {
+      "surface": "factors",
+      "existingHeadword": "factor",
+      "id": "v1310",
+      "count": 3
+    },
+    {
+      "surface": "hours",
+      "existingHeadword": "hour",
+      "id": "v0567",
+      "count": 3
+    },
+    {
+      "surface": "patients",
+      "existingHeadword": "patient",
+      "id": "v0822",
+      "count": 2
+    },
+    {
+      "surface": "called",
+      "existingHeadword": "call",
+      "id": "v0222",
+      "count": 2
+    },
+    {
+      "surface": "years",
+      "existingHeadword": "year",
+      "id": "v0081",
+      "count": 2
+    },
+    {
+      "surface": "studies",
+      "existingHeadword": "study",
+      "id": "v0297",
+      "count": 2
+    },
+    {
+      "surface": "documented",
+      "existingHeadword": "document",
+      "id": "v1959",
+      "count": 1
+    },
+    {
+      "surface": "persists",
+      "existingHeadword": "persist",
+      "id": "v2033",
+      "count": 1
+    },
+    {
+      "surface": "hazards",
+      "existingHeadword": "hazard",
+      "id": "v1814",
+      "count": 1
+    },
+    {
+      "surface": "explored",
+      "existingHeadword": "explore",
+      "id": "v0972",
+      "count": 1
+    }
+  ],
+  "verifiedInflectionTokenCount": 33,
+  "missingHeadwordCandidates": [
+    {
+      "word": "activity",
+      "priorityGroup": "基礎・一般語",
+      "observedSurface": "activity"
+    },
+    {
+      "word": "athlete",
+      "priorityGroup": "基礎・一般語",
+      "observedSurface": "athletes"
+    },
+    {
+      "word": "beat",
+      "priorityGroup": "基礎・一般語",
+      "observedSurface": "beat"
+    },
+    {
+      "word": "chest",
+      "priorityGroup": "基礎・一般語",
+      "observedSurface": "chest"
+    },
+    {
+      "word": "advise",
+      "priorityGroup": "基礎・一般語",
+      "observedSurface": "advise"
+    },
+    {
+      "word": "cycle",
+      "priorityGroup": "基礎・一般語",
+      "observedSurface": "cycle"
+    },
+    {
+      "word": "powerful",
+      "priorityGroup": "基礎・一般語",
+      "observedSurface": "powerful"
+    },
+    {
+      "word": "ambitious",
+      "priorityGroup": "基礎・一般語",
+      "observedSurface": "ambitious"
+    },
+    {
+      "word": "institute",
+      "priorityGroup": "基礎・一般語",
+      "observedSurface": "institute"
+    },
+    {
+      "word": "tip",
+      "priorityGroup": "基礎・一般語",
+      "observedSurface": "tip"
+    },
+    {
+      "word": "endurance",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "endurance"
+    },
+    {
+      "word": "fatigue",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "fatigue"
+    },
+    {
+      "word": "faint",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "fainting"
+    },
+    {
+      "word": "obesity",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "obesity"
+    },
+    {
+      "word": "stability",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "stability"
+    },
+    {
+      "word": "intensity",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "intensity"
+    },
+    {
+      "word": "duration",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "duration"
+    },
+    {
+      "word": "prescribe",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "prescribed"
+    },
+    {
+      "word": "prescription",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "prescription"
+    },
+    {
+      "word": "stroke",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "stroke"
+    },
+    {
+      "word": "heighten",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "heighten"
+    },
+    {
+      "word": "genetics",
+      "priorityGroup": "標準読解・研究",
+      "observedSurface": "genetics"
+    },
+    {
+      "word": "sedentary",
+      "priorityGroup": "追加用法確認",
+      "observedSurface": "sedentary"
+    },
+    {
+      "word": "potent",
+      "priorityGroup": "追加用法確認",
+      "observedSurface": "potent"
+    },
+    {
+      "word": "impeccable",
+      "priorityGroup": "追加用法確認",
+      "observedSurface": "impeccable"
+    },
+    {
+      "word": "regimen",
+      "priorityGroup": "追加用法確認",
+      "observedSurface": "regimen"
+    },
+    {
+      "word": "randomize",
+      "priorityGroup": "追加用法確認",
+      "observedSurface": "randomize"
+    },
+    {
+      "word": "implant",
+      "priorityGroup": "追加用法確認",
+      "observedSurface": "implanted"
+    },
+    {
+      "word": "chamber",
+      "priorityGroup": "追加用法確認",
+      "observedSurface": "chambers"
+    },
+    {
+      "word": "troublesome",
+      "priorityGroup": "追加用法確認",
+      "observedSurface": "troublesome"
+    }
+  ],
+  "existingSenseChecks": [
+    {
+      "id": "v0822",
+      "word": "patient",
+      "result": "本文の名詞「患者」は既存の別義に収録済み。"
+    },
+    {
+      "id": "v0297",
+      "word": "study",
+      "result": "本文の名詞「研究」は既存の別義に収録済み。"
+    },
+    {
+      "id": "v1959",
+      "word": "document",
+      "result": "本文の分詞「記録された」は既存の動詞別義で扱える。"
+    },
+    {
+      "id": "v0725",
+      "word": "race",
+      "result": "本文のracingは心臓の速い鼓動を表す。現在は名詞の競走・人種のみで、動詞別義の追加を次回検討する。"
+    }
+  ],
+  "glossedTermsNotPrioritized": ["cardiologist", "arrhythmia", "apnea", "physiologist"],
+  "limitations": [
+    "全未一致語の原形統合ではない。13表記の手動確認を一致率に加算していない。",
+    "固有名詞・略語AF・所有格・短縮形も集計に残る。数字は計数しない。",
+    "試験内で日本語の語注がある専門用語は出現のみを理由に優先追加しない。",
+    "設問側は語彙数に含めず、本文中の医療情報の現在の妥当性は評価していない。",
+    "同じ大学・年度の2題目であり、複数大学・年度の網羅性は未検証。"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "year": 2025,
+  "question": "共通テスト本試験・英語リーディング・公開PDF全32ページ",
+  "sourceUrl": "https://www.dnc.ac.jp/albums/abm.php?d=771&f=abm00005957.pdf&n=2025_op_20_reading.pdf",
+  "extraction": "pypdf; all published PDF pages; includes instructions, options and figure text; excludes unextractable image text",
+  "method": "NFKC, lowercase, remove /cNNN glyph labels, ASCII words with internal apostrophes; hyphens split; exact surface-form matching; no lemmatization or proper-name exclusion",
+  "textSha256": "71a22a45fe592b2c72e7af7f9c8e32ef9a396718798ee2dbb815c663772865db",
+  "catalogSha256": "7a50f6fb3004de75c251d6fbae51a38e54bfa0824cd101db139cf7254242aaa0",
+  "catalogWords": 1050,
+  "totalTokens": 5571,
+  "uniqueTypes": 1615,
+  "matchedTokens": 3258,
+  "matchedTypes": 484,
+  "tokenMatchPercent": 58.48,
+  "typeMatchPercent": 29.97,
+  "missingTop20": [
+    {
+      "word": "is",
+      "count": 77
+    },
+    {
+      "word": "your",
+      "count": 46
+    },
+    {
+      "word": "are",
+      "count": 45
+    },
+    {
+      "word": "sleep",
+      "count": 45
+    },
+    {
+      "word": "was",
+      "count": 30
+    },
+    {
+      "word": "flying",
+      "count": 24
+    },
+    {
+      "word": "my",
+      "count": 22
+    },
+    {
+      "word": "exploration",
+      "count": 21
+    },
+    {
+      "word": "has",
+      "count": 17
+    },
+    {
+      "word": "animals",
+      "count": 16
+    },
+    {
+      "word": "our",
+      "count": 15
+    },
+    {
+      "word": "based",
+      "count": 14
+    },
+    {
+      "word": "m",
+      "count": 14
+    },
+    {
+      "word": "their",
+      "count": 13
+    },
+    {
+      "word": "me",
+      "count": 12
+    },
+    {
+      "word": "melody",
+      "count": 12
+    },
+    {
+      "word": "presentation",
+      "count": 12
+    },
+    {
+      "word": "said",
+      "count": 12
+    },
+    {
+      "word": "her",
+      "count": 11
+    },
+    {
+      "word": "slow",
+      "count": 11
+    }
+  ],
+  "limitations": "Surface-form matches are not lemma coverage, comprehension or exam readiness. Inflections, contractions, names and PDF extraction artifacts may appear missing. This single public exam cannot establish advanced-university coverage."
+}

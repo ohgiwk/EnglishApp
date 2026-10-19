@@ -1,5 +1,4 @@
 import { vocabularyWords } from './vocabulary'
-import { reorderExamples } from './reorder-examples'
 import type {
   VocabularyQuestion,
   ReorderQuestion,
@@ -22,6 +21,37 @@ const shuffle = <T>(values: T[], random: () => number): T[] => {
 
 const optionValue = (word: VocabularyWord, type: VocabularyQuestion['type']) =>
   type === 'en-to-ja' ? word.meaningJa : word.word
+
+// Prefer peers; small levels may borrow distractors from already accessible lower levels.
+const distractorOptions = (
+  word: VocabularyWord,
+  type: VocabularyQuestion['type'],
+  random: () => number,
+  candidates: VocabularyWord[] = vocabularyWords
+) => {
+  const peers = candidates.filter((candidate) => candidate.level === word.level)
+  const lower = candidates.filter((candidate) => candidate.level < word.level)
+  const pools = [
+    peers.filter((candidate) => candidate.partOfSpeech === word.partOfSpeech),
+    peers,
+    lower.filter((candidate) => candidate.partOfSpeech === word.partOfSpeech),
+    lower
+  ]
+  const seen = new Set([optionValue(word, type).toLowerCase()])
+  const options: string[] = []
+  for (const pool of pools) {
+    for (const candidate of shuffle(pool, random)) {
+      if (candidate.id === word.id) continue
+      const value = optionValue(candidate, type)
+      const key = value.toLowerCase()
+      if (seen.has(key)) continue
+      seen.add(key)
+      options.push(value)
+      if (options.length === 3) return options
+    }
+  }
+  return options
+}
 
 const exerciseTypes: VocabularyQuestion['type'][] = [
   'en-to-ja',
@@ -60,25 +90,16 @@ export const hasReorderExample = (word: VocabularyWord) => supportsSentenceExerc
 
 const reorderExample = (word: VocabularyWord) => {
   if (!hasReorderExample(word)) throw new Error(`No eligible reorder example for ${word.id}`)
-  const curated = reorderExamples[word.id]
-  if (!curated && hasUsableBilingualStructure(word)) {
-    return { sentence: word.example.trim(), sentenceJa: word.exampleJa.trim() }
-  }
-  if (!curated) throw new Error(`No eligible reorder example for ${word.id}`)
-  return { sentence: curated.english, sentenceJa: curated.japanese }
+  // Use the resolved catalog example for both display and sentence exercises.
+  return { sentence: word.example.trim(), sentenceJa: word.exampleJa.trim() }
 }
 
-export const buildFillBlank = (word: VocabularyWord, random: () => number = Math.random) => {
-  const pool = vocabularyWords.filter((candidate) => candidate.level === word.level)
-  const preferred = shuffle(
-    pool.filter((candidate) => candidate.partOfSpeech === word.partOfSpeech),
-    random
-  )
-  const alternatives = [
-    ...new Set([...preferred, ...shuffle(pool, random)].map((candidate) => candidate.word))
-  ]
-    .filter((value) => value.toLowerCase() !== word.word.toLowerCase())
-    .slice(0, 3)
+export const buildFillBlank = (
+  word: VocabularyWord,
+  random: () => number = Math.random,
+  candidates: VocabularyWord[] = vocabularyWords
+) => {
+  const alternatives = distractorOptions(word, 'fill-blank', random, candidates)
   const sentence = safeExample(word)
   const start = wordMatch(sentence, word.word)!.index
   return {
@@ -166,15 +187,7 @@ export function buildVocabularySession(
     if (type === 'reorder') {
       return { wordId: word.id, type, options: [], ...buildReorder(word, random) }
     }
-    const alternatives = levelPool.filter(
-      (candidate) => candidate.id !== word.id && candidate.partOfSpeech === word.partOfSpeech
-    )
-    const fallback = levelPool.filter((candidate) => candidate.id !== word.id)
-    const candidates = alternatives.length >= 3 ? alternatives : fallback
-    const wrong = shuffle(candidates, random)
-      .map((candidate) => optionValue(candidate, type))
-      .filter((value, optionIndex, all) => all.indexOf(value) === optionIndex)
-      .slice(0, 3)
+    const wrong = distractorOptions(word, type, random)
     return {
       wordId: word.id,
       type,
@@ -210,6 +223,7 @@ export function summarizeVocabularySession(
   const reward = rewardForAccuracy(accuracy, totalCount)
   return {
     sessionId: session.id,
+    ...(session.unitNumber === undefined ? {} : { unitNumber: session.unitNumber }),
     level: session.level,
     mode: session.mode,
     correctCount,

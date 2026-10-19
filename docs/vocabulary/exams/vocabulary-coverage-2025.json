@@ -1,0 +1,99 @@
+{
+  "year": 2025,
+  "question": "大学入学共通テスト 本試験 英語リーディング・公開PDF全文",
+  "sourceUrl": "https://www.dnc.ac.jp/albums/abm.php?d=771&f=abm00005957.pdf&n=2025_op_20_reading.pdf",
+  "extraction": "pypdf; all published PDF pages; includes instructions, options and figure text; excludes unextractable image text",
+  "method": "NFKC, lowercase, remove /cNNN glyph labels, ASCII words with internal apostrophes; hyphens split; exact surface-form matching; no lemmatization or proper-name exclusion",
+  "textSha256": "71a22a45fe592b2c72e7af7f9c8e32ef9a396718798ee2dbb815c663772865db",
+  "catalogSha256": "121bf3f77be1bf4fe6ed3ba2de6e3d94a8d5521d98a98de2f8f0a689feb9164e",
+  "catalogWords": 5000,
+  "totalTokens": 5571,
+  "uniqueTypes": 1615,
+  "matchedTokens": 3769,
+  "matchedTypes": 748,
+  "tokenMatchPercent": 67.65,
+  "typeMatchPercent": 46.32,
+  "missingTop20": [
+    {
+      "word": "is",
+      "count": 77
+    },
+    {
+      "word": "your",
+      "count": 46
+    },
+    {
+      "word": "are",
+      "count": 45
+    },
+    {
+      "word": "was",
+      "count": 30
+    },
+    {
+      "word": "flying",
+      "count": 24
+    },
+    {
+      "word": "my",
+      "count": 22
+    },
+    {
+      "word": "has",
+      "count": 17
+    },
+    {
+      "word": "animals",
+      "count": 16
+    },
+    {
+      "word": "our",
+      "count": 15
+    },
+    {
+      "word": "based",
+      "count": 14
+    },
+    {
+      "word": "m",
+      "count": 14
+    },
+    {
+      "word": "their",
+      "count": 13
+    },
+    {
+      "word": "me",
+      "count": 12
+    },
+    {
+      "word": "said",
+      "count": 12
+    },
+    {
+      "word": "her",
+      "count": 11
+    },
+    {
+      "word": "p",
+      "count": 10
+    },
+    {
+      "word": "patterns",
+      "count": 10
+    },
+    {
+      "word": "us",
+      "count": 10
+    },
+    {
+      "word": "were",
+      "count": 10
+    },
+    {
+      "word": "following",
+      "count": 9
+    }
+  ],
+  "limitations": "Surface-form matches are not lemma coverage, comprehension or exam readiness. Inflections, contractions, names and PDF extraction artifacts may appear missing. This single public exam cannot establish advanced-university coverage."
+}

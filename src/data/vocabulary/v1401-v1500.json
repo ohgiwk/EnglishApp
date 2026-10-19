@@ -1,0 +1,2238 @@
+[
+  {
+    "id": "v1401",
+    "word": "confident",
+    "meaningJa": "自信のある",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "She feels confident about her next interview.",
+    "exampleJa": "彼女は次の面接に自信を持っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の気持ちや態度を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1402",
+    "word": "humor",
+    "meaningJa": "ユーモア；おかしみ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "His sense of humor made the meeting enjoyable.",
+    "exampleJa": "彼のユーモアのセンスが会議を楽しくしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "対人関係や文章の調子を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "イギリス英語ではhumourと綴ります。"
+  },
+  {
+    "id": "v1403",
+    "word": "gene",
+    "meaningJa": "遺伝子",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The researchers studied a gene in the plant.",
+    "exampleJa": "研究者たちはその植物の遺伝子を調べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生命科学の文章で基本となる専門名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1404",
+    "word": "genetic",
+    "meaningJa": "遺伝の；遺伝子の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The team collected genetic information from the samples.",
+    "exampleJa": "チームは試料から遺伝情報を集めました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "遺伝子に関する性質を表し科学読解で独立した学習価値がある。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1405",
+    "word": "treatment",
+    "meaningJa": "治療；処置",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The doctor explained the treatment to the family.",
+    "exampleJa": "医師は家族に治療について説明しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "健康や医療の説明で使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "扱い；待遇",
+        "example": "All employees deserve fair treatment.",
+        "exampleJa": "すべての従業員は公平な待遇を受けるに値します。"
+      }
+    ]
+  },
+  {
+    "id": "v1406",
+    "word": "therapy",
+    "meaningJa": "療法；治療",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The hospital offers physical therapy after surgery.",
+    "exampleJa": "その病院は手術後の理学療法を提供しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "医療や心理に関する文章で治療法を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1407",
+    "word": "flexibility",
+    "meaningJa": "柔軟性",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The new schedule gives workers more flexibility.",
+    "exampleJa": "新しい勤務日程は働く人により大きな柔軟性を与えます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "制度や能力の柔軟さを論じる抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1408",
+    "word": "desirable",
+    "meaningJa": "望ましい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Previous experience is desirable for this position.",
+    "exampleJa": "この職には以前の経験があることが望ましいです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "条件や結果の評価を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1409",
+    "word": "preferable",
+    "meaningJa": "より望ましい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "A short delay is preferable to a serious mistake.",
+    "exampleJa": "少し遅れる方が重大な間違いをするより望ましいです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "二つの選択肢を比較して評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "preferable to Aで「Aより望ましい」。比較対象には通常thanではなくtoを使います。"
+  },
+  {
+    "id": "v1410",
+    "word": "beneficial",
+    "meaningJa": "有益な；役に立つ",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The new library is beneficial to the whole community.",
+    "exampleJa": "新しい図書館は地域社会全体に有益です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会や科学の効果を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1411",
+    "word": "promising",
+    "meaningJa": "有望な；見込みのある",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The experiment produced promising results.",
+    "exampleJa": "その実験は有望な結果をもたらしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "約束する動詞の活用とは別に見込みを評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「約束する」というpromiseの活用形としてではなく、「有望な」という形容詞の意味を学びます。"
+  },
+  {
+    "id": "v1412",
+    "word": "restore",
+    "meaningJa": "元に戻す；修復する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Volunteers helped restore the old theater.",
+    "exampleJa": "ボランティアは古い劇場を修復するのを手伝いました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "状態や機能の回復を表す読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1413",
+    "word": "recognition",
+    "meaningJa": "認識；識別",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Face recognition is one feature of the device.",
+    "exampleJa": "顔認識はその装置の機能の一つです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "認知や情報技術の仕組みを説明する抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "評価；承認",
+        "example": "The award gave her recognition for her work.",
+        "exampleJa": "その賞によって彼女の仕事が評価されました。"
+      }
+    ]
+  },
+  {
+    "id": "v1414",
+    "word": "manufacturing",
+    "meaningJa": "製造；製造業",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The city has a long history of manufacturing.",
+    "exampleJa": "その都市には製造業の長い歴史があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "産業分野を指す名詞として独立した学習価値がある。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "産業・活動を表す名詞です。動詞manufactureの活用形を数えるための登録ではありません。"
+  },
+  {
+    "id": "v1415",
+    "word": "aggressive",
+    "meaningJa": "攻撃的な；強引な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "His aggressive tone upset the other players.",
+    "exampleJa": "彼の攻撃的な口調はほかの選手たちを不快にしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人の態度や行動を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1416",
+    "word": "passenger",
+    "meaningJa": "乗客",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "One passenger left a bag on the train.",
+    "exampleJa": "一人の乗客が電車にかばんを置き忘れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "交通や旅行の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1417",
+    "word": "airport",
+    "meaningJa": "空港",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We arrived at the airport before noon.",
+    "exampleJa": "私たちは正午前に空港に到着しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "旅行で接する身近な施設の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1418",
+    "word": "ferry",
+    "meaningJa": "フェリー；渡し船",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We took a ferry to the island.",
+    "exampleJa": "私たちはフェリーでその島へ行きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "交通手段を表す具体的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1419",
+    "word": "decline",
+    "meaningJa": "減少する；衰える",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Sales often decline during the winter.",
+    "exampleJa": "売り上げは冬の間に減少することがよくあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数量や状態の低下を説明する基本的な読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "断る；辞退する",
+        "example": "You may decline the invitation if you are busy.",
+        "exampleJa": "忙しければその招待を断ってもかまいません。"
+      }
+    ]
+  },
+  {
+    "id": "v1420",
+    "word": "characteristic",
+    "meaningJa": "特徴；特性",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Patience is an important characteristic of a good teacher.",
+    "exampleJa": "忍耐力は良い教師の重要な特性です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人や物の特徴を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "特有の",
+        "example": "This pattern is characteristic of the region.",
+        "exampleJa": "この模様はその地域に特有のものです。"
+      }
+    ]
+  },
+  {
+    "id": "v1421",
+    "word": "symptom",
+    "meaningJa": "症状；兆候",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The nurse asked about each symptom.",
+    "exampleJa": "看護師はそれぞれの症状について尋ねました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "医療や問題の兆候を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1422",
+    "word": "infection",
+    "meaningJa": "感染；感染症",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The doctor checked for signs of infection.",
+    "exampleJa": "医師は感染の兆候がないか調べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "健康や公衆衛生の読解で使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1423",
+    "word": "immune",
+    "meaningJa": "免疫のある；影響を受けない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "No organization is immune to criticism.",
+    "exampleJa": "どの組織も批判を免れることはできません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "医学上の免疫から比喩的な影響の回避までを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "immune toで、病気に対する免疫があることや、批判などの影響を受けないことを表します。"
+  },
+  {
+    "id": "v1424",
+    "word": "mental",
+    "meaningJa": "精神の；心の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The school provides mental health support.",
+    "exampleJa": "その学校は心の健康を支える支援を提供しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "心の状態や活動を説明する基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1425",
+    "word": "physical",
+    "meaningJa": "身体の；物理的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The job requires physical strength.",
+    "exampleJa": "その仕事には体力が必要です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身体と精神を対比する際に重要な形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "物質の；物理的な",
+        "example": "Heat can change the physical properties of a material.",
+        "exampleJa": "熱は物質の物理的性質を変えることがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v1426",
+    "word": "recovery",
+    "meaningJa": "回復；復旧",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Her recovery took several weeks.",
+    "exampleJa": "彼女の回復には数週間かかりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "健康や経済の回復を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1427",
+    "word": "cure",
+    "meaningJa": "治す；治療する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Scientists hope to cure the disease one day.",
+    "exampleJa": "科学者たちはいつかその病気を治せるようになることを願っています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "病気を治す結果に焦点を当てる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "治療法",
+        "example": "Researchers are looking for a cure for the disease.",
+        "exampleJa": "研究者たちはその病気の治療法を探しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1428",
+    "word": "prevention",
+    "meaningJa": "予防；防止",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Fire prevention is part of the training.",
+    "exampleJa": "火災の予防はその研修の一部です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "安全や社会的対策を論じる抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1429",
+    "word": "threat",
+    "meaningJa": "脅威；脅し",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The storm poses a threat to coastal villages.",
+    "exampleJa": "その嵐は沿岸の村々に脅威をもたらしています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "危険や問題の影響を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1430",
+    "word": "harm",
+    "meaningJa": "害；損害",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The chemicals may cause harm to wildlife.",
+    "exampleJa": "その化学物質は野生生物に害を及ぼすかもしれません。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の危険や被害を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "害を与える",
+        "example": "Loud noise can harm your hearing.",
+        "exampleJa": "大きな騒音は聴力に害を与えることがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v1431",
+    "word": "harmful",
+    "meaningJa": "有害な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The factory stopped using harmful chemicals.",
+    "exampleJa": "その工場は有害な化学物質の使用をやめました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "環境や健康への悪影響を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1432",
+    "word": "sufficient",
+    "meaningJa": "十分な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "We have sufficient evidence to support the claim.",
+    "exampleJa": "私たちにはその主張を裏付ける十分な証拠があります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "議論で必要量が満たされていることを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1433",
+    "word": "efficient",
+    "meaningJa": "効率のよい",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The new machine is more efficient than the old one.",
+    "exampleJa": "新しい機械は古いものより効率がよいです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "資源や時間の使い方を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "時間や資源の無駄が少ないこと。effectiveは目的に対して効果があることを表します。"
+  },
+  {
+    "id": "v1434",
+    "word": "accurate",
+    "meaningJa": "正確な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The map provides accurate information about the area.",
+    "exampleJa": "その地図はその地域について正確な情報を提供しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報や測定の正しさを評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1435",
+    "word": "appropriate",
+    "meaningJa": "適切な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Please choose an appropriate title for the report.",
+    "exampleJa": "報告書に適切な題名を選んでください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "目的や状況への適合を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1436",
+    "word": "relevant",
+    "meaningJa": "関連のある",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Include only information that is relevant to the topic.",
+    "exampleJa": "その話題に関連のある情報だけを含めてください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "論点と情報の関係を示す重要形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "relevant toで「〜に関連のある」を表します。"
+  },
+  {
+    "id": "v1437",
+    "word": "reliable",
+    "meaningJa": "信頼できる",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "We need a reliable source of information.",
+    "exampleJa": "私たちは信頼できる情報源を必要としています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人や情報の信頼性を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1438",
+    "word": "capable",
+    "meaningJa": "能力のある；できる",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The robot is capable of carrying heavy boxes.",
+    "exampleJa": "そのロボットは重い箱を運ぶことができます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "能力や機能を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "capable ofの後には名詞や動名詞を置きます。"
+  },
+  {
+    "id": "v1439",
+    "word": "aware",
+    "meaningJa": "気づいている；認識している",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "We are aware of the risks.",
+    "exampleJa": "私たちはその危険を認識しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "知識や認識の有無を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "aware ofの後には名詞など、aware thatの後には文が続きます。"
+  },
+  {
+    "id": "v1440",
+    "word": "unlikely",
+    "meaningJa": "ありそうもない；しそうにない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The train is unlikely to arrive on time.",
+    "exampleJa": "その電車は時間どおりには到着しそうにありません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "出来事の可能性を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "be unlikely to doで「〜しそうにない」を表します。"
+  },
+  {
+    "id": "v1441",
+    "word": "severe",
+    "meaningJa": "厳しい；深刻な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The region faced a severe water shortage.",
+    "exampleJa": "その地域は深刻な水不足に直面しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "災害や問題の程度を表す読解形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1442",
+    "word": "moderate",
+    "meaningJa": "適度な；穏やかな",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The forecast predicts moderate winds tomorrow.",
+    "exampleJa": "天気予報は明日、適度な強さの風が吹くと予測しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "程度や立場が極端でないことを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1443",
+    "word": "gradual",
+    "meaningJa": "徐々の；緩やかな",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The graph shows a gradual increase in temperature.",
+    "exampleJa": "そのグラフは気温の緩やかな上昇を示しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "変化の速さを説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1444",
+    "word": "temporary",
+    "meaningJa": "一時的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The library has a temporary entrance at the back.",
+    "exampleJa": "その図書館には裏側に仮の入り口があります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "期間が限られる状態を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1445",
+    "word": "permanent",
+    "meaningJa": "永久の；恒久的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The museum needs a permanent home for the collection.",
+    "exampleJa": "その博物館には収蔵品を恒久的に置く場所が必要です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "持続する状態を一時的な状態と対比する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1446",
+    "word": "obvious",
+    "meaningJa": "明らかな",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "There is no obvious answer to this question.",
+    "exampleJa": "この問いには明らかな答えがありません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "判断や推論で明白さを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1447",
+    "word": "precise",
+    "meaningJa": "精密な；正確な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The engineer made a precise measurement of the gap.",
+    "exampleJa": "技術者はその隙間を精密に測定しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "科学や説明における細部の正確さを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1448",
+    "word": "stable",
+    "meaningJa": "安定した",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The bridge remained stable during the storm.",
+    "exampleJa": "その橋は嵐の間も安定した状態を保ちました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "状態や構造が変動しにくいことを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1449",
+    "word": "flexible",
+    "meaningJa": "柔軟な；融通の利く",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "We need a flexible plan for the trip.",
+    "exampleJa": "私たちは旅行のために柔軟な計画を必要としています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物の性質や変更への対応力を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1450",
+    "word": "complex",
+    "meaningJa": "複雑な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The diagram explains a complex process.",
+    "exampleJa": "その図は複雑な過程を説明しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕組みや問題の複雑さを述べる基本的な読解形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1451",
+    "word": "abstract",
+    "meaningJa": "抽象的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The lesson begins with an abstract idea.",
+    "exampleJa": "その授業は抽象的な考えから始まります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "具体例と対比して概念を論じる形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "要旨；概要",
+        "example": "Read the abstract before the full paper.",
+        "exampleJa": "論文全体を読む前に要旨を読んでください。"
+      }
+    ]
+  },
+  {
+    "id": "v1452",
+    "word": "concrete",
+    "meaningJa": "具体的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Please give a concrete example of the problem.",
+    "exampleJa": "その問題の具体例を挙げてください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "説明や議論に具体性を求める基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "コンクリート",
+        "example": "The bridge is made of concrete.",
+        "exampleJa": "その橋はコンクリートでできています。"
+      }
+    ]
+  },
+  {
+    "id": "v1453",
+    "word": "apparent",
+    "meaningJa": "明らかな；見かけの",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The reason for the change soon became apparent.",
+    "exampleJa": "変更の理由はすぐに明らかになりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "明白さと外見上の印象を文脈で区別する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "明らかなという意味のほか、外からはそう見えるという意味もあります。文脈で判断します。"
+  },
+  {
+    "id": "v1454",
+    "word": "distinct",
+    "meaningJa": "明確に異なる；はっきりした",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The study identified two distinct groups.",
+    "exampleJa": "その研究は明確に異なる二つの集団を特定しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "分類や比較における違いを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1455",
+    "word": "evident",
+    "meaningJa": "明白な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Her relief was evident in her smile.",
+    "exampleJa": "彼女がほっとしたことは笑顔から明らかでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "証拠や観察から明白であることを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1456",
+    "word": "considerable",
+    "meaningJa": "かなりの；相当な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The repairs required considerable effort.",
+    "exampleJa": "その修理には相当な労力が必要でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "量や程度の大きさを示す読解形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "considerate（思いやりのある）と区別します。"
+  },
+  {
+    "id": "v1457",
+    "word": "substantial",
+    "meaningJa": "相当な；かなりの",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The project received substantial support from residents.",
+    "exampleJa": "その計画は住民から相当な支援を受けました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "規模や重要性が十分に大きいことを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1458",
+    "word": "enormous",
+    "meaningJa": "非常に大きい；莫大な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "An enormous tree stood beside the house.",
+    "exampleJa": "家のそばに非常に大きな木が立っていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "具体物から数量まで大きさを強調する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1459",
+    "word": "tremendous",
+    "meaningJa": "非常に大きい；すさまじい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The team made a tremendous effort to finish on time.",
+    "exampleJa": "チームは時間内に終えるために多大な努力をしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "程度を強調し成果や努力を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1460",
+    "word": "remarkable",
+    "meaningJa": "注目すべき；驚くべき",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The students made remarkable progress in a month.",
+    "exampleJa": "生徒たちは一か月で目覚ましい進歩を遂げました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "変化や成果が際立つことを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1461",
+    "word": "vital",
+    "meaningJa": "極めて重要な；不可欠な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Clean water is vital to every community.",
+    "exampleJa": "きれいな水はどの地域社会にも不可欠です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生命や社会の維持に必要な条件を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1462",
+    "word": "fundamental",
+    "meaningJa": "根本的な；基本的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The two plans differ in a fundamental way.",
+    "exampleJa": "二つの計画は根本的な点で異なります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "議論や仕組みの根底にある性質を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1463",
+    "word": "primary",
+    "meaningJa": "主な；第一の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Our primary concern is the safety of the children.",
+    "exampleJa": "私たちの一番の関心事は子供たちの安全です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "優先順位や主要な役割を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1464",
+    "word": "secondary",
+    "meaningJa": "二次的な；副次的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Cost is a secondary concern in this case.",
+    "exampleJa": "この場合、費用は二次的な関心事です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "主なものに対する順位や役割を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1465",
+    "word": "major",
+    "meaningJa": "主要な；重大な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The storm caused major damage to the bridge.",
+    "exampleJa": "その嵐は橋に重大な被害をもたらしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "規模や重要性が大きいことを示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1466",
+    "word": "minor",
+    "meaningJa": "小さい；重要でない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "We made a minor change to the schedule.",
+    "exampleJa": "私たちは日程を少し変更しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "程度や重要性が比較的小さいことを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1467",
+    "word": "relative",
+    "meaningJa": "相対的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The chart shows the relative sizes of the planets.",
+    "exampleJa": "その図は惑星の相対的な大きさを示しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "比較対象との関係に基づく性質を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "親戚",
+        "example": "A relative helped us move to the new house.",
+        "exampleJa": "親戚が私たちの新居への引っ越しを手伝ってくれました。"
+      }
+    ]
+  },
+  {
+    "id": "v1468",
+    "word": "absolute",
+    "meaningJa": "絶対的な；完全な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The results cannot be predicted with absolute certainty.",
+    "exampleJa": "結果を完全な確実性をもって予測することはできません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "相対性との対比や程度の完全さを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1469",
+    "word": "virtual",
+    "meaningJa": "仮想の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Visitors can take a virtual tour of the museum.",
+    "exampleJa": "来館者は博物館の仮想ツアーに参加できます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報技術によって再現された空間を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "事実上の",
+        "example": "The company has a virtual monopoly in the region.",
+        "exampleJa": "その会社はその地域で事実上の独占状態にあります。"
+      }
+    ]
+  },
+  {
+    "id": "v1470",
+    "word": "artificial",
+    "meaningJa": "人工の；人造の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The plants grow under artificial light.",
+    "exampleJa": "その植物は人工の光の下で育ちます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自然と対比して人が作ったものを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1471",
+    "word": "natural",
+    "meaningJa": "自然の；天然の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The island has a beautiful natural harbor.",
+    "exampleJa": "その島には美しい天然の港があります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "自然環境や物の由来を説明する基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1472",
+    "word": "conscious",
+    "meaningJa": "意識している；意識のある",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "She was conscious of the camera beside her.",
+    "exampleJa": "彼女は隣にあるカメラを意識していました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "心理的な認識と覚醒状態を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "conscious ofで「〜を意識している」を表します。"
+  },
+  {
+    "id": "v1473",
+    "word": "unconscious",
+    "meaningJa": "意識を失った；無意識の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The injured man was unconscious when help arrived.",
+    "exampleJa": "救助が到着したとき、けがをした男性は意識を失っていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "意識の有無や無自覚な行動を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1474",
+    "word": "rational",
+    "meaningJa": "理性的な；合理的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "We need a rational explanation for the decision.",
+    "exampleJa": "私たちはその決定について合理的な説明を必要としています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "思考や判断の合理性を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1475",
+    "word": "emotional",
+    "meaningJa": "感情の；感情的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The film had a strong emotional effect on the audience.",
+    "exampleJa": "その映画は観客の感情に強い影響を与えました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "感情に関わる作用や状態を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1476",
+    "word": "logical",
+    "meaningJa": "論理的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Her argument follows a logical sequence.",
+    "exampleJa": "彼女の議論は論理的な順序に沿っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "主張や推論のつながりを評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1477",
+    "word": "reasonable",
+    "meaningJa": "合理的な；妥当な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "That seems like a reasonable explanation.",
+    "exampleJa": "それは妥当な説明のように思えます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "判断や条件が道理にかなうことを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1478",
+    "word": "irrational",
+    "meaningJa": "非合理的な；理性に欠ける",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Fear can lead to irrational decisions.",
+    "exampleJa": "恐怖は非合理的な決定につながることがあります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "心理や意思決定の議論で合理性の欠如を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1479",
+    "word": "subjective",
+    "meaningJa": "主観的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Our impressions of beauty are often subjective.",
+    "exampleJa": "美しさに対する私たちの印象はしばしば主観的です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "個人の判断と客観的な根拠を区別する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1480",
+    "word": "positive",
+    "meaningJa": "前向きな；肯定的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "She has a positive attitude toward the change.",
+    "exampleJa": "彼女はその変化に前向きな態度を取っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "態度や評価の方向を示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "陽性の",
+        "example": "The laboratory reported a positive test result.",
+        "exampleJa": "検査室は陽性の検査結果を報告しました。"
+      }
+    ]
+  },
+  {
+    "id": "v1481",
+    "word": "negative",
+    "meaningJa": "否定的な；悪い",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The proposal received a negative response.",
+    "exampleJa": "その提案には否定的な反応が寄せられました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "評価や影響の方向を示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "陰性の",
+        "example": "The laboratory reported a negative test result.",
+        "exampleJa": "検査室は陰性の検査結果を報告しました。"
+      }
+    ]
+  },
+  {
+    "id": "v1482",
+    "word": "optimistic",
+    "meaningJa": "楽観的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The farmers are optimistic about the next harvest.",
+    "exampleJa": "農家の人たちは次の収穫について楽観的です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "将来の見通しや心理的態度を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1483",
+    "word": "pessimistic",
+    "meaningJa": "悲観的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "He is pessimistic about the future of the business.",
+    "exampleJa": "彼はその事業の将来について悲観的です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "将来への否定的な見通しを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1484",
+    "word": "skeptical",
+    "meaningJa": "懐疑的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The scientist remained skeptical of the claim.",
+    "exampleJa": "その科学者はその主張に懐疑的なままでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "根拠への疑いを示す学術的議論の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "イギリス英語ではscepticalという綴りも使います。"
+  },
+  {
+    "id": "v1485",
+    "word": "critical",
+    "meaningJa": "批判的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The article was critical of the new policy.",
+    "exampleJa": "その記事は新しい政策に批判的でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "主張や政策への批判的評価を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "批判的なという意味のほか、極めて重要なという意味にも注意します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "極めて重要な；重大な",
+        "example": "Timing is critical to the success of the experiment.",
+        "exampleJa": "タイミングは実験の成功に極めて重要です。"
+      }
+    ]
+  },
+  {
+    "id": "v1486",
+    "word": "controversial",
+    "meaningJa": "議論を呼ぶ；論争の的となる",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The committee discussed a controversial proposal.",
+    "exampleJa": "委員会は議論を呼ぶ提案について話し合いました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会的な意見の対立を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1487",
+    "word": "conventional",
+    "meaningJa": "従来の；慣習的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The new method differs from the conventional approach.",
+    "exampleJa": "新しい方法は従来のやり方とは異なります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "新しい方法と既存の習慣を対比する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1488",
+    "word": "traditional",
+    "meaningJa": "伝統的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The festival features traditional music and dance.",
+    "exampleJa": "その祭りでは伝統的な音楽や踊りが披露されます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "文化や継承された習慣を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1489",
+    "word": "innovative",
+    "meaningJa": "革新的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The company developed an innovative way to recycle plastic.",
+    "exampleJa": "その会社はプラスチックを再利用する革新的な方法を開発しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "技術や制度の新しさを評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1490",
+    "word": "creative",
+    "meaningJa": "創造的な；独創的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The children found a creative solution to the puzzle.",
+    "exampleJa": "子供たちはそのパズルの独創的な解き方を見つけました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "新しい考えを生む能力や方法を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1491",
+    "word": "original",
+    "meaningJa": "元の；最初の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "We decided to keep the original design.",
+    "exampleJa": "私たちは元の設計を維持することにしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "変更前の状態や由来を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "独創的な",
+        "example": "The student presented an original idea.",
+        "exampleJa": "その学生は独創的な考えを発表しました。"
+      }
+    ]
+  },
+  {
+    "id": "v1492",
+    "word": "ordinary",
+    "meaningJa": "普通の；ありふれた",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "It began as an ordinary day at school.",
+    "exampleJa": "それは学校でのいつもどおりの一日として始まりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な状態を説明する基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1493",
+    "word": "typical",
+    "meaningJa": "典型的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "This is a typical example of the local architecture.",
+    "exampleJa": "これはその地域の建築の典型的な例です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "集団や種類を代表する性質を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1494",
+    "word": "unique",
+    "meaningJa": "唯一の；独特の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Each island has a unique history.",
+    "exampleJa": "それぞれの島には独自の歴史があります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "ほかにない特徴や個別性を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1495",
+    "word": "specific",
+    "meaningJa": "特定の；具体的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The instructions describe a specific method.",
+    "exampleJa": "説明書は特定の方法を説明しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "対象や条件を限定して示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1496",
+    "word": "global",
+    "meaningJa": "世界的な；地球全体の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The conference focused on global environmental problems.",
+    "exampleJa": "その会議は地球規模の環境問題に焦点を当てました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "国境を越える課題や規模を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1497",
+    "word": "domestic",
+    "meaningJa": "国内の；家庭の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The airline plans to add more domestic flights.",
+    "exampleJa": "その航空会社は国内便をさらに増やす予定です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国際との対比や家庭内の範囲を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "国内に関する場合と、家庭に関する場合があります。"
+  },
+  {
+    "id": "v1498",
+    "word": "rural",
+    "meaningJa": "田舎の；農村の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Many rural communities depend on farming.",
+    "exampleJa": "多くの農村の地域社会は農業に依存しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地域や人口の比較で農村部を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1499",
+    "word": "urban",
+    "meaningJa": "都市の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The study examines urban transport systems.",
+    "exampleJa": "その研究は都市の交通制度を調べています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地域や社会問題で都市部を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1500",
+    "word": "internal",
+    "meaningJa": "内部の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The report describes the internal structure of the device.",
+    "exampleJa": "その報告書は装置の内部構造を説明しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "組織や構造の内側を示す読解形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

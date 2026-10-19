@@ -1,0 +1,2305 @@
+[
+  {
+    "id": "v2401",
+    "word": "observer",
+    "meaningJa": "観察者；監視員",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Each observer recorded the behavior of one animal.",
+    "exampleJa": "それぞれの観察者が一匹の動物の行動を記録しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "出来事を見て記録する人を表す基本的な研究・社会読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2402",
+    "word": "exploration",
+    "meaningJa": "探検；探究",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Space exploration has changed our view of the universe.",
+    "exampleJa": "宇宙探査は私たちの宇宙観を変えてきました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "未知の場所や課題を調べる活動を表す高校基礎の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2403",
+    "word": "inventor",
+    "meaningJa": "発明家",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The inventor tested a new type of engine.",
+    "exampleJa": "その発明家は新しい種類のエンジンを試験しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "新しい物を作り出す人を指す具体的な名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2404",
+    "word": "detect",
+    "meaningJa": "検出する；見つける",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The sensor can detect small changes in temperature.",
+    "exampleJa": "そのセンサーは小さな温度変化を検出できます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "見えにくい変化や存在を見つける行為を表す標準的な科学読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2405",
+    "word": "measurement",
+    "meaningJa": "測定；測定値",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The measurement showed that the water level had risen.",
+    "exampleJa": "その測定によって水位が上昇していたことが分かりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数値による観察やその結果を説明する高校基礎の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2406",
+    "word": "calculation",
+    "meaningJa": "計算",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A simple calculation showed that we needed more paint.",
+    "exampleJa": "簡単な計算で、さらに塗料が必要だと分かりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数量を求める作業を名詞として述べる高校基礎の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2407",
+    "word": "predict",
+    "meaningJa": "予測する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "It is difficult to predict the exact arrival time.",
+    "exampleJa": "正確な到着時刻を予測することは難しいです。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "今後の出来事を見通す基本的な読解動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "predict that節やpredict what will happenのように、予測する内容を続けられます。"
+  },
+  {
+    "id": "v2408",
+    "word": "prediction",
+    "meaningJa": "予測；予言",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The results supported her prediction about plant growth.",
+    "exampleJa": "その結果は植物の成長についての彼女の予測を裏付けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "予測した内容を名詞として示す研究・説明文の基礎語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2409",
+    "word": "forecast",
+    "meaningJa": "予報；予測",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The weather forecast warned of heavy rain.",
+    "exampleJa": "天気予報は大雨への注意を呼びかけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "天候や将来の状況を知らせる具体的な基本義として高校基礎で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "予測する；予報する",
+        "example": "Experts forecast a rise in demand for electricity.",
+        "exampleJa": "専門家たちは電力需要の増加を予測しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2410",
+    "word": "experimental",
+    "meaningJa": "実験の；試験的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The team compared the experimental results with its predictions.",
+    "exampleJa": "チームは実験結果を自分たちの予測と比較しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "研究結果の性質や試行段階を示す形容詞として標準入試で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2411",
+    "word": "microscope",
+    "meaningJa": "顕微鏡",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We examined a leaf under the microscope.",
+    "exampleJa": "私たちは顕微鏡で葉を観察しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "学校での科学実験を説明する具体的な機器名として高校基礎で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "顕微鏡で観察する場合はunder a microscope、望遠鏡を通して見る場合はthrough a telescopeなどと表します。"
+  },
+  {
+    "id": "v2412",
+    "word": "telescope",
+    "meaningJa": "望遠鏡",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She used a telescope to observe the moon.",
+    "exampleJa": "彼女は月を観察するために望遠鏡を使いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "遠くの物を観察する具体的な機器名として高校基礎で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2413",
+    "word": "lens",
+    "meaningJa": "レンズ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He cleaned the camera lens with a soft cloth.",
+    "exampleJa": "彼は柔らかい布でカメラのレンズを拭きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "光学機器の部品を表す具体的な名詞として高校基礎で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "物事を見る視点",
+        "example": "The essay examines history through the lens of everyday life.",
+        "exampleJa": "その論説は日常生活という視点から歴史を考察しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2414",
+    "word": "magnify",
+    "meaningJa": "拡大する；大きく見せる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "This lens can magnify tiny objects.",
+    "exampleJa": "このレンズは小さな物を大きく見せることができます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物を大きく見せる働きを説明する標準的な科学読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "増大させる；誇張する",
+        "example": "Repeated rumors can magnify public anxiety.",
+        "exampleJa": "うわさが繰り返されると人々の不安が増大することがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v2415",
+    "word": "visible",
+    "meaningJa": "目に見える",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The island is visible from the top of the hill.",
+    "exampleJa": "その島は丘の頂上から見えます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "目で確認できる状態を表す基本的な描写語として高校基礎で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "visible to the naked eyeで「肉眼で見える」を表します。"
+  },
+  {
+    "id": "v2416",
+    "word": "invisible",
+    "meaningJa": "目に見えない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The tiny particles are invisible to the naked eye.",
+    "exampleJa": "その小さな粒子は肉眼では見えません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "通常の視覚では見えない状態を述べる基本的な科学読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2417",
+    "word": "transparent",
+    "meaningJa": "透明な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The insects were kept in a transparent box.",
+    "exampleJa": "その昆虫は透明な箱の中で飼われていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "光を通して中が見える性質を表す標準的な描写語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "明白な；隠し事のない",
+        "example": "The selection process should be fair and transparent.",
+        "exampleJa": "選考過程は公平で透明性のあるものであるべきです。"
+      }
+    ]
+  },
+  {
+    "id": "v2418",
+    "word": "opaque",
+    "meaningJa": "不透明な；光を通さない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The liquid was stored in an opaque bottle.",
+    "exampleJa": "その液体は光を通さない瓶に保存されていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "光を通さない物質の性質と比喩的な不明瞭さを表す発展読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "理解しにくい；不明瞭な",
+        "example": "The report was full of opaque technical language.",
+        "exampleJa": "その報告書は理解しにくい専門用語でいっぱいでした。"
+      }
+    ]
+  },
+  {
+    "id": "v2419",
+    "word": "ray",
+    "meaningJa": "光線",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A ray of sunlight entered through the curtain.",
+    "exampleJa": "一筋の日光がカーテンの隙間から差し込みました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "光を線状に捉える具体的な名詞として高校基礎の描写で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2420",
+    "word": "beam",
+    "meaningJa": "光線；光の束",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A beam of light swept across the dark room.",
+    "exampleJa": "一筋の光が暗い部屋を横切りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "一定の方向に進む光を描写する高校基礎の具体語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "梁；横木",
+        "example": "A wooden beam supports the ceiling.",
+        "exampleJa": "木の梁が天井を支えています。"
+      }
+    ]
+  },
+  {
+    "id": "v2421",
+    "word": "radioactive",
+    "meaningJa": "放射性の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The container holds a small amount of radioactive material.",
+    "exampleJa": "その容器には少量の放射性物質が入っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "放射線を出す物質の性質を表す専門性のある科学読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2422",
+    "word": "atomic",
+    "meaningJa": "原子の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The diagram shows the atomic structure of the material.",
+    "exampleJa": "その図は物質の原子構造を示しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物質の構造を原子の水準で説明する標準的な科学語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2423",
+    "word": "molecular",
+    "meaningJa": "分子の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The researchers studied changes in molecular structure.",
+    "exampleJa": "研究者たちは分子構造の変化を調べました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "分子の水準で性質や変化を説明する発展的な科学読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2424",
+    "word": "proton",
+    "meaningJa": "陽子",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "A proton has a positive electric charge.",
+    "exampleJa": "陽子は正の電荷を持っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "原子を構成する粒子の専門名として発展的な科学読解の補助語に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2425",
+    "word": "neutron",
+    "meaningJa": "中性子",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "A neutron has no electric charge.",
+    "exampleJa": "中性子は電荷を持っていません。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "原子核を構成する粒子の専門名として発展的な科学読解の補助語に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2426",
+    "word": "nucleus",
+    "meaningJa": "核；原子核",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The nucleus lies at the center of an atom.",
+    "exampleJa": "原子核は原子の中心にあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "原子や細胞の中心的な部分を指す専門性のある読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はnucleiです。原子核のほか、細胞核や集団の中心部分も指します。"
+  },
+  {
+    "id": "v2427",
+    "word": "nuclear",
+    "meaningJa": "原子核の；原子力の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The report compares nuclear power with other energy sources.",
+    "exampleJa": "その報告書は原子力を他のエネルギー源と比較しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "エネルギーや科学技術の社会的な議論で使う標準読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2428",
+    "word": "ion",
+    "meaningJa": "イオン；電荷を持つ原子や分子",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "An ion may carry a positive or a negative charge.",
+    "exampleJa": "イオンは正または負の電荷を持つことがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物質の電気的性質を説明する専門性のある科学語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2429",
+    "word": "isotope",
+    "meaningJa": "同位体",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The laboratory uses an isotope to trace the movement of water.",
+    "exampleJa": "その研究室は水の移動を追跡するために同位体を使っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "原子の種類や物質の追跡に関わる専門用語として発展読解に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2430",
+    "word": "magnet",
+    "meaningJa": "磁石",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The magnet picked up several iron pins.",
+    "exampleJa": "磁石はいくつかの鉄のピンを引き付けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な物や学校の実験で使う具体的な道具名として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2431",
+    "word": "magnetic",
+    "meaningJa": "磁気の；磁石の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The compass responds to a magnetic field.",
+    "exampleJa": "方位磁針は磁場に反応します。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "磁力に関係する性質を表す基本的な科学読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2432",
+    "word": "electrical",
+    "meaningJa": "電気の；電気に関する",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The building needs new electrical wiring.",
+    "exampleJa": "その建物には新しい電気配線が必要です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "電気の設備や仕組みを説明する基本的な形容詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "electricも「電気の」ですが、electricalは配線・設備・工学など電気に関する仕組みを述べるときによく使います。"
+  },
+  {
+    "id": "v2433",
+    "word": "electronic",
+    "meaningJa": "電子の；電子機器の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The museum displays early electronic devices.",
+    "exampleJa": "その博物館は初期の電子機器を展示しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報機器や電子技術を表す基本的な読解形容詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "電気一般を表すelectricalと区別し、電子回路を使う機器やデータの形式などを指します。"
+  },
+  {
+    "id": "v2434",
+    "word": "voltage",
+    "meaningJa": "電圧",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The meter measures the voltage across the battery.",
+    "exampleJa": "その計器は電池の両端の電圧を測定します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "電気回路の性質を数値で説明する標準的な科学語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2435",
+    "word": "momentum",
+    "meaningJa": "運動量；勢い",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "At the same speed, a heavier cart has more momentum.",
+    "exampleJa": "同じ速さでは、重い台車の方が運動量が大きくなります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物体の運動の量や活動の勢いを表す発展的な読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "活動の勢い；推進力",
+        "example": "The campaign gained momentum after the public meeting.",
+        "exampleJa": "その運動は公開集会の後で勢いを増しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2436",
+    "word": "width",
+    "meaningJa": "幅",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We measured the width of the doorway.",
+    "exampleJa": "私たちは戸口の幅を測りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な物の寸法を表す基本的な名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2437",
+    "word": "diameter",
+    "meaningJa": "直径",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The diameter of the circle is ten centimeters.",
+    "exampleJa": "その円の直径は10センチメートルです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "図形や物体の大きさを正確に説明する標準的な科学語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2438",
+    "word": "radius",
+    "meaningJa": "半径",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The radius of the circle is five centimeters.",
+    "exampleJa": "その円の半径は5センチメートルです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "中心からの距離を表す図形・数量の標準的な読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形にはradiiとradiusesがあります。"
+  },
+  {
+    "id": "v2439",
+    "word": "circumference",
+    "meaningJa": "円周；周囲の長さ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "We measured the circumference of the tree trunk.",
+    "exampleJa": "私たちは木の幹の周囲の長さを測りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "丸い物の周囲の長さを示す専門性のある数量表現として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2440",
+    "word": "contract",
+    "meaningJa": "契約；契約書",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She read the contract carefully before signing it.",
+    "exampleJa": "彼女は署名する前に契約書を注意深く読みました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕事や取引で使う基本義を高校基礎に配置し、科学の動詞用法は別義で補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "名詞は最初の音節、動詞は後ろの音節に強勢を置きます。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "収縮する；縮める",
+        "example": "The metal will contract as it cools.",
+        "exampleJa": "その金属は冷えるにつれて収縮します。"
+      }
+    ]
+  },
+  {
+    "id": "v2441",
+    "word": "compress",
+    "meaningJa": "圧縮する；押し縮める",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The machine can compress the waste into small blocks.",
+    "exampleJa": "その機械は廃棄物を小さな塊に圧縮できます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物の体積や情報量を小さくする動作を示す標準的な読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2442",
+    "word": "dissolve",
+    "meaningJa": "溶ける；溶かす",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Stir the water to dissolve the sugar.",
+    "exampleJa": "砂糖を溶かすために水をかき混ぜてください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物質が液体に溶け込む変化を説明する標準的な科学読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2443",
+    "word": "solvent",
+    "meaningJa": "溶媒；溶剤",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The chemist selected a solvent for the experiment.",
+    "exampleJa": "その化学者は実験用の溶媒を選びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物質を溶かす液体を表す専門性のある科学読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2444",
+    "word": "soluble",
+    "meaningJa": "溶ける；溶解性のある",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The powder is soluble in water.",
+    "exampleJa": "その粉末は水に溶けます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物質が溶ける性質を述べる専門的な形容詞として発展読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "soluble in waterで「水に溶ける」を表します。"
+  },
+  {
+    "id": "v2445",
+    "word": "evaporate",
+    "meaningJa": "蒸発する；蒸発させる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Water will evaporate faster in a warm room.",
+    "exampleJa": "水は暖かい部屋ではより速く蒸発します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "液体から気体への変化を表す標準的な科学読解の動詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2446",
+    "word": "condense",
+    "meaningJa": "凝縮する；凝結する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Water vapor can condense on a cold window.",
+    "exampleJa": "水蒸気は冷たい窓で凝結することがあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "気体の凝縮や内容の要約を表す発展読解の動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "要約する；短くまとめる",
+        "example": "Please condense the discussion into three main points.",
+        "exampleJa": "その議論を三つの要点にまとめてください。"
+      }
+    ]
+  },
+  {
+    "id": "v2447",
+    "word": "vapor",
+    "meaningJa": "蒸気",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Water vapor is present in the air around us.",
+    "exampleJa": "私たちの周りの空気には水蒸気が含まれています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物質の気体の状態を表す名詞として標準的な自然科学読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "英国ではvapourと綴ります。同じ語の綴り違いとして扱います。"
+  },
+  {
+    "id": "v2448",
+    "word": "fluid",
+    "meaningJa": "流体；液体",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The pump moves fluid through the pipes.",
+    "exampleJa": "そのポンプは配管を通して流体を移動させます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "流れる物質をまとめて指す名詞として標準的な科学読解で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "科学では液体だけでなく気体も含む「流体」を指します。文脈によっては液体に限定した意味でも使います。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "流動的な；変化しやすい",
+        "example": "The schedule remains fluid while talks continue.",
+        "exampleJa": "協議が続いている間、日程は流動的なままです。"
+      }
+    ]
+  },
+  {
+    "id": "v2449",
+    "word": "crystal",
+    "meaningJa": "結晶；水晶",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A small crystal formed at the bottom of the dish.",
+    "exampleJa": "皿の底に小さな結晶ができました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物質の具体的な形や鉱物を指す高校基礎の科学語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2450",
+    "word": "rust",
+    "meaningJa": "さび",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "There was rust on the old bicycle chain.",
+    "exampleJa": "古い自転車のチェーンにはさびが付いていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な金属の変化を示す具体的な名詞として高校基礎で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "さびる；さびさせる",
+        "example": "Iron tools can rust in damp air.",
+        "exampleJa": "鉄の道具は湿った空気の中でさびることがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v2451",
+    "word": "worm",
+    "meaningJa": "ミミズ；細長い虫",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A worm moved through the wet soil.",
+    "exampleJa": "ミミズが湿った土の中を動いていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な生き物を描写する具体的な名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2452",
+    "word": "beetle",
+    "meaningJa": "甲虫",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We found a small beetle under a stone.",
+    "exampleJa": "私たちは石の下に小さな甲虫を見つけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "昆虫の種類を具体的に区別する自然分野の高校基礎語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2453",
+    "word": "mosquito",
+    "meaningJa": "蚊",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A mosquito landed on my arm.",
+    "exampleJa": "蚊が私の腕に止まりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常生活で接する身近な虫の名前として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2454",
+    "word": "spider",
+    "meaningJa": "クモ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "A spider was hanging from the ceiling.",
+    "exampleJa": "クモが天井からぶら下がっていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な小動物の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2455",
+    "word": "caterpillar",
+    "meaningJa": "毛虫；イモムシ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The caterpillar was eating a green leaf.",
+    "exampleJa": "イモムシが緑の葉を食べていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "昆虫の成長や植物との関係を描く高校基礎の具体語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "チョウやガの幼虫を指します。毛のある毛虫だけでなく、イモムシも含みます。"
+  },
+  {
+    "id": "v2456",
+    "word": "nest",
+    "meaningJa": "巣",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The bird built a nest in the tree.",
+    "exampleJa": "その鳥は木に巣を作りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な生き物の住みかを表す具体的な基本語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2457",
+    "word": "hive",
+    "meaningJa": "ミツバチの巣；巣箱",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The bees returned to the hive before sunset.",
+    "exampleJa": "ミツバチは日没前に巣へ戻りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "昆虫の生活や養蜂を説明する高校基礎の名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2458",
+    "word": "web",
+    "meaningJa": "クモの巣；網状のもの",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The spider repaired its web after the rain.",
+    "exampleJa": "クモは雨の後で巣を修繕しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な自然物の基本義を中学標準で学び、情報分野の意味も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "ウェブ；インターネット上の情報網",
+        "example": "She found the museum schedule on the web.",
+        "exampleJa": "彼女は博物館の予定をウェブで見つけました。"
+      }
+    ]
+  },
+  {
+    "id": "v2459",
+    "word": "feather",
+    "meaningJa": "羽；羽毛",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A white feather floated down from the branch.",
+    "exampleJa": "白い羽が枝からふわりと落ちてきました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "鳥の体を構成する具体的な部分の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "一本ずつの羽をfeather、飛ぶための翼全体をwingと区別します。"
+  },
+  {
+    "id": "v2460",
+    "word": "fur",
+    "meaningJa": "毛皮；動物の柔らかい毛",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The rabbit has thick white fur.",
+    "exampleJa": "そのウサギには厚い白い毛が生えています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "動物の外見や体の特徴を示す基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "動物に生えている毛全体を指すときは通常不可算です。"
+  },
+  {
+    "id": "v2461",
+    "word": "claw",
+    "meaningJa": "かぎ爪",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The cat caught the fabric with one claw.",
+    "exampleJa": "猫は一本のかぎ爪を布に引っかけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "動物の体や行動を具体的に描写する高校基礎の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2462",
+    "word": "beak",
+    "meaningJa": "くちばし",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The bird held a twig in its beak.",
+    "exampleJa": "その鳥はくちばしに小枝をくわえていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "鳥の体の特徴を説明する高校基礎の具体語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2463",
+    "word": "wing",
+    "meaningJa": "翼；羽",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The bird had an injured wing.",
+    "exampleJa": "その鳥は片方の翼をけがしていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "動物の体の部分を表す身近な名詞として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "建物の棟；組織の一派",
+        "example": "The hospital opened a new wing for children.",
+        "exampleJa": "その病院は子ども用の新しい病棟を開設しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2464",
+    "word": "tail",
+    "meaningJa": "尾；しっぽ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The dog wagged its tail when we arrived.",
+    "exampleJa": "私たちが到着すると犬はしっぽを振りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な動物の体や動作を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2465",
+    "word": "horn",
+    "meaningJa": "角；警笛",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The goat rubbed its horn against the fence.",
+    "exampleJa": "ヤギは角を柵にこすりつけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "動物の体の具体的な部分を基本義として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "警笛；クラクション",
+        "example": "The driver sounded the horn to warn the cyclist.",
+        "exampleJa": "運転手は自転車の人に注意を促すためにクラクションを鳴らしました。"
+      }
+    ]
+  },
+  {
+    "id": "v2466",
+    "word": "hoof",
+    "meaningJa": "ひづめ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The horse lifted one hoof from the mud.",
+    "exampleJa": "馬は泥の中から一本のひづめを持ち上げました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "動物の足の形を正確に描写する標準読解の具体語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形にはhoovesとhoofsがあります。"
+  },
+  {
+    "id": "v2467",
+    "word": "paw",
+    "meaningJa": "動物の足；足先",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The dog placed a paw on my knee.",
+    "exampleJa": "犬は私の膝に前足を置きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "動物の足を人の手足と区別して表す高校基礎の語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2468",
+    "word": "fin",
+    "meaningJa": "ひれ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A fin appeared above the surface of the water.",
+    "exampleJa": "ひれが水面の上に現れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "水中の生き物の体の特徴を表す高校基礎の具体語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2469",
+    "word": "gill",
+    "meaningJa": "えら",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The diagram shows the structure of a fish gill.",
+    "exampleJa": "その図は魚のえらの構造を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "水中生物の呼吸器官を指す科学分野の標準読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "えら全体を述べるときには複数形gillsがよく使われます。"
+  },
+  {
+    "id": "v2470",
+    "word": "shell",
+    "meaningJa": "殻；貝殻",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The child found a shell on the beach.",
+    "exampleJa": "その子は浜辺で貝殻を見つけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な自然物や動物の外側を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2471",
+    "word": "bark",
+    "meaningJa": "樹皮",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The bark of the old tree was rough.",
+    "exampleJa": "その古い木の樹皮はざらざらしていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "木の表面を具体的に描写する高校基礎の自然語彙として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "ほえる",
+        "example": "The dog began to bark when the doorbell rang.",
+        "exampleJa": "玄関のベルが鳴ると犬はほえ始めました。"
+      }
+    ]
+  },
+  {
+    "id": "v2472",
+    "word": "trunk",
+    "meaningJa": "木の幹",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The tree trunk was too wide for me to reach around.",
+    "exampleJa": "その木の幹は太すぎて、私の両手では抱えきれませんでした。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "植物の主要な部分を表す基本義として高校基礎で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "象の鼻",
+        "example": "The elephant reached for the fruit with its trunk.",
+        "exampleJa": "象は鼻を伸ばして果物を取ろうとしました。"
+      },
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "車の荷物入れ（主に米国）",
+        "example": "We put the suitcases in the trunk of the car.",
+        "exampleJa": "私たちはスーツケースを車のトランクに入れました。"
+      }
+    ]
+  },
+  {
+    "id": "v2473",
+    "word": "twig",
+    "meaningJa": "小枝",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A dry twig snapped under my foot.",
+    "exampleJa": "乾いた小枝が私の足の下で折れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "細い枝を具体的に描写する高校基礎の自然語彙として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2474",
+    "word": "leaf",
+    "meaningJa": "葉",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "A yellow leaf fell into the pond.",
+    "exampleJa": "黄色い葉が池に落ちました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "植物の身近な部分を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はleavesです。"
+  },
+  {
+    "id": "v2475",
+    "word": "bud",
+    "meaningJa": "芽；つぼみ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A small bud appeared at the end of the branch.",
+    "exampleJa": "枝の先に小さな芽が出ました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "植物の成長の初期段階を描く高校基礎の具体語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2476",
+    "word": "blossom",
+    "meaningJa": "花；開花",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The apple trees were covered in blossom.",
+    "exampleJa": "リンゴの木は花で覆われていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "果樹などの花や開花の様子を表す高校基礎の自然語彙として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "花が咲く；発展する",
+        "example": "The trees will blossom in spring.",
+        "exampleJa": "その木々は春に花を咲かせます。"
+      }
+    ]
+  },
+  {
+    "id": "v2477",
+    "word": "petal",
+    "meaningJa": "花びら",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A pink petal floated on the water.",
+    "exampleJa": "ピンク色の花びらが水に浮かんでいました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "花の構造や様子を具体的に描写する高校基礎の語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2478",
+    "word": "pollen",
+    "meaningJa": "花粉",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The bee carried pollen from one flower to another.",
+    "exampleJa": "ミツバチは一つの花から別の花へ花粉を運びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "植物の繁殖や生物間の関係を説明する標準的な自然科学語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は不可算名詞です。個々の粒を数えるときはa grain of pollenなどを使います。"
+  },
+  {
+    "id": "v2479",
+    "word": "nectar",
+    "meaningJa": "花の蜜",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The butterfly drank nectar from the flower.",
+    "exampleJa": "チョウは花から蜜を吸いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "花と昆虫の関係を説明する標準読解の具体語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2480",
+    "word": "seed",
+    "meaningJa": "種；種子",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She planted a seed in a small pot.",
+    "exampleJa": "彼女は小さな鉢に種をまきました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "植物の栽培や成長を表す身近な基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "始まり；原因となるもの",
+        "example": "That conversation planted a seed of doubt in her mind.",
+        "exampleJa": "その会話は彼女の心に疑念の種をまきました。"
+      }
+    ]
+  },
+  {
+    "id": "v2481",
+    "word": "seedling",
+    "meaningJa": "実生；種から育った苗",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Each seedling was moved into a separate pot.",
+    "exampleJa": "種から育った苗は一つずつ別々の鉢に移されました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "植物の成長段階を区別する標準的な農業・生物読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "種から育った若い植物を指します。saplingは若い木を指します。"
+  },
+  {
+    "id": "v2482",
+    "word": "sapling",
+    "meaningJa": "若木",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The volunteers planted a sapling beside the path.",
+    "exampleJa": "ボランティアたちは小道のそばに若木を植えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "木の成長段階を細かく示す語として森林に関する発展読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2483",
+    "word": "sprout",
+    "meaningJa": "芽を出す",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The seeds began to sprout after a few days.",
+    "exampleJa": "数日後、種は芽を出し始めました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "植物の成長を具体的に説明する高校基礎の動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "新芽",
+        "example": "A green sprout appeared in the pot.",
+        "exampleJa": "鉢に緑の新芽が出ました。"
+      }
+    ]
+  },
+  {
+    "id": "v2484",
+    "word": "shrub",
+    "meaningJa": "低木",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A flowering shrub grows beside the gate.",
+    "exampleJa": "門のそばに花の咲く低木が生えています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "植生や庭の構成を具体的に説明する標準読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2485",
+    "word": "weed",
+    "meaningJa": "雑草",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A weed was growing between the stones.",
+    "exampleJa": "石の間に雑草が生えていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "庭や道で見かける身近な植物を指す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "草取りをする",
+        "example": "We need to weed the vegetable garden this weekend.",
+        "exampleJa": "私たちは今週末に菜園の草取りをする必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "v2486",
+    "word": "thorn",
+    "meaningJa": "とげ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A thorn caught on the sleeve of my jacket.",
+    "exampleJa": "とげが上着の袖に引っかかりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "植物の形や触れたときの出来事を描写する高校基礎の語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2487",
+    "word": "vine",
+    "meaningJa": "つる植物；つる",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A vine climbed up the garden wall.",
+    "exampleJa": "つる植物が庭の壁を上に伸びていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "植物の生え方や形を具体的に説明する標準読解の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2488",
+    "word": "marine",
+    "meaningJa": "海の；海洋の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The scientists study marine life near the island.",
+    "exampleJa": "科学者たちはその島の近くの海洋生物を研究しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "海の生態系や環境を説明する標準的な科学読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2489",
+    "word": "aquatic",
+    "meaningJa": "水生の；水の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The pond supports a variety of aquatic plants.",
+    "exampleJa": "その池ではさまざまな水生植物が育っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "水中に生きる性質を陸上と対比する発展的な生物読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2490",
+    "word": "terrestrial",
+    "meaningJa": "陸上の；地球の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The study compares aquatic and terrestrial habitats.",
+    "exampleJa": "その研究は水中と陸上の生息地を比較しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生物の生息環境や地球に関する性質を示す発展的な科学語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2491",
+    "word": "organic",
+    "meaningJa": "有機物の；生物由来の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Fallen leaves add organic matter to the soil.",
+    "exampleJa": "落ち葉は土壌に有機物を加えます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物質や環境を説明する有機物の意味を標準的な科学読解で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "有機栽培の；有機農業の",
+        "example": "The shop sells organic vegetables from local farms.",
+        "exampleJa": "その店は地元の農場から仕入れた有機栽培の野菜を売っています。"
+      }
+    ]
+  },
+  {
+    "id": "v2492",
+    "word": "inorganic",
+    "meaningJa": "無機の；無機物の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The lesson compares organic and inorganic compounds.",
+    "exampleJa": "その授業では有機化合物と無機化合物を比較します。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物質の分類を説明する専門性のある形容詞として発展読解で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2493",
+    "word": "sediment",
+    "meaningJa": "堆積物；沈殿物",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The river carries sediment toward the sea.",
+    "exampleJa": "その川は堆積物を海へと運びます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "地形や水の作用でたまる物質を表す発展的な環境・地学語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2494",
+    "word": "erode",
+    "meaningJa": "侵食する；徐々に損なう",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Strong waves can erode the coast.",
+    "exampleJa": "強い波は海岸を侵食することがあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物理的な削り取りと比喩的な弱体化を表す発展読解の動詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "徐々に損なう；弱める",
+        "example": "Repeated mistakes can erode public trust.",
+        "exampleJa": "間違いを繰り返すことは人々の信頼を徐々に損なうおそれがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v2495",
+    "word": "tide",
+    "meaningJa": "潮；潮の満ち引き",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The tide was coming in as we left the beach.",
+    "exampleJa": "私たちが浜辺を離れるとき、潮が満ちてきていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "海辺の自然の変化を表す基本的な高校読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2496",
+    "word": "coral",
+    "meaningJa": "サンゴ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Many small fish sheltered among the coral.",
+    "exampleJa": "多くの小魚がサンゴの間に身を隠していました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "海の生態系を描写する具体的な高校基礎の名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2497",
+    "word": "alga",
+    "meaningJa": "藻；藻類",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "This alga grows in fresh water.",
+    "exampleJa": "この藻は淡水で育ちます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "水中の生物や生態系の働きを扱う発展的な科学読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はalgaeです。藻類全体を述べる文章では複数形がよく使われます。同じ見出しで学びます。"
+  },
+  {
+    "id": "v2498",
+    "word": "plankton",
+    "meaningJa": "プランクトン",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The researchers collected plankton from the lake.",
+    "exampleJa": "研究者たちは湖からプランクトンを採取しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "水中の食物網や生態系を説明する専門性のある読解語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は不可算名詞です。水中を漂って生活する生物をまとめて指します。"
+  },
+  {
+    "id": "v2499",
+    "word": "moss",
+    "meaningJa": "コケ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Green moss covered the damp stones.",
+    "exampleJa": "緑色のコケが湿った石を覆っていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "湿った場所の植生を描写する標準的な自然読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2500",
+    "word": "fern",
+    "meaningJa": "シダ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A fern grew in the shade beneath the tree.",
+    "exampleJa": "木の下の日陰にシダが生えていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "森林などの植生を具体的に示す標準読解の名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

@@ -6,6 +6,7 @@ import {
   EXAM_SIZE,
   EXAM_PASS_COUNT,
   examAnswer,
+  examProgress,
   grantExamEligibility,
   lastVocabularyLevel
 } from '../../domain/promotion-exam'
@@ -18,7 +19,8 @@ export function createPromotionExamActions(
     return (
       level === s.value.unlockedVocabularyLevel &&
       level < lastVocabularyLevel &&
-      s.value.eligibleExamLevels.includes(level)
+      s.value.eligibleExamLevels.includes(level) &&
+      examProgress(level, s.value.wordProgress).available
     )
   }
   function startPromotionExam(level: number) {

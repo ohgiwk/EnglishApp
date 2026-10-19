@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "v3401",
+    "word": "elusive",
+    "meaningJa": "つかまえにくい；理解しにくい",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "A clear explanation remains elusive.",
+    "exampleJa": "明確な説明は依然として得られていません。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "捉えにくさを表す発展読解語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "捕まえにくい対象のほか、答えや成功などがなかなか得られない場合にも使います。"
+  },
+  {
+    "id": "v3402",
+    "word": "lucrative",
+    "meaningJa": "利益の大きい；もうかる",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The company found a lucrative market overseas.",
+    "exampleJa": "その会社は海外に利益の大きい市場を見つけました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "収益性を評価する社会経済語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3403",
+    "word": "imminent",
+    "meaningJa": "差し迫った；今にも起こりそうな",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The dark clouds suggested that a storm was imminent.",
+    "exampleJa": "暗い雲は嵐が今にも来そうなことを示していました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "近い将来の切迫を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "今にも起こりそうなこと。eminent（著名な）やimmanent（内在する）とは異なります。"
+  },
+  {
+    "id": "v3404",
+    "word": "deception",
+    "meaningJa": "欺き；だますこと",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The report exposed a deliberate deception.",
+    "exampleJa": "その報告書は意図的な欺きを明らかにしました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報や行為の不誠実さを論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3405",
+    "word": "ubiquitous",
+    "meaningJa": "至る所にある；遍在する",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "Digital screens have become ubiquitous in daily life.",
+    "exampleJa": "デジタル画面は日常生活の至る所に見られるようになりました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "広範な普及を表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3406",
+    "word": "pervasive",
+    "meaningJa": "広く行き渡った；浸透した",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The study examines the pervasive influence of advertising.",
+    "exampleJa": "その研究は広告の広く行き渡った影響を調べています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "影響が全体に及ぶことを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3407",
+    "word": "prevalent",
+    "meaningJa": "広く見られる；普及した",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "This belief was prevalent at the time.",
+    "exampleJa": "この考えは当時広く見られました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "ある時代や集団での広がりを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3408",
+    "word": "predominant",
+    "meaningJa": "支配的な；最も有力な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Cost was the predominant factor in the decision.",
+    "exampleJa": "費用がその決定の最も有力な要因でした。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "要因間の優勢を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3409",
+    "word": "paramount",
+    "meaningJa": "最も重要な",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "Safety is paramount in the design of the bridge.",
+    "exampleJa": "橋の設計では安全性が最も重要です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "最優先の重要性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3410",
+    "word": "foremost",
+    "meaningJa": "第一の；最も優れた",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "She is one of the foremost experts in the field.",
+    "exampleJa": "彼女はその分野の第一人者の一人です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "順位や卓越性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3411",
+    "word": "prior",
+    "meaningJa": "前の；先立つ",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "No prior experience is required for this course.",
+    "exampleJa": "この講座には事前の経験は必要ありません。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "時間や順序の先行を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "prior to ...で「〜より前に」。単なる時間的先行の場合もあり、優先度が高いとは限りません。"
+  },
+  {
+    "id": "v3412",
+    "word": "subsequent",
+    "meaningJa": "その後の；続いて起こる",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Subsequent studies confirmed the result.",
+    "exampleJa": "その後の研究でその結果が確認されました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "研究や出来事の順序を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3413",
+    "word": "consecutive",
+    "meaningJa": "連続した",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "It rained for five consecutive days.",
+    "exampleJa": "五日連続で雨が降りました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "途切れのない順序を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "間を置かずに連続することを表します。"
+  },
+  {
+    "id": "v3414",
+    "word": "successive",
+    "meaningJa": "相次ぐ；連続する",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Successive storms damaged the coast.",
+    "exampleJa": "相次ぐ嵐が海岸に被害を与えました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "出来事が続く様子を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3415",
+    "word": "simultaneous",
+    "meaningJa": "同時の；同時に起こる",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The experiment measured simultaneous changes in light and heat.",
+    "exampleJa": "その実験は光と熱の同時の変化を測定しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "複数の出来事の時間関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3416",
+    "word": "reciprocal",
+    "meaningJa": "相互の；互恵的な",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The agreement created reciprocal obligations.",
+    "exampleJa": "その合意は相互の義務を生みました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "双方に対応する関係を表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3417",
+    "word": "mutual",
+    "meaningJa": "相互の；共通の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The partnership is based on mutual trust.",
+    "exampleJa": "その協力関係は相互の信頼に基づいています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "双方に共通する関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3418",
+    "word": "inclusive",
+    "meaningJa": "包括的な；多様な人を受け入れる",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The school aims to create an inclusive environment.",
+    "exampleJa": "学校は多様な人を受け入れる環境を作ることを目指しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "参加範囲や包摂を論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3419",
+    "word": "exclusive",
+    "meaningJa": "独占的な；限定された",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The newspaper obtained an exclusive interview.",
+    "exampleJa": "その新聞は独占インタビューを実現しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "利用や権利の範囲を限定する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3420",
+    "word": "exhaustive",
+    "meaningJa": "徹底的な；漏れのない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The team conducted an exhaustive search.",
+    "exampleJa": "チームは漏れのない徹底的な調査を行いました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "検討範囲の網羅性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "漏れなく徹底した、という意味です。exhausted（疲れ切った）と区別します。"
+  },
+  {
+    "id": "v3421",
+    "word": "comprehensive",
+    "meaningJa": "包括的な；総合的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The report provides a comprehensive overview of the problem.",
+    "exampleJa": "その報告書は問題の総合的な概観を示しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "広い範囲を扱うことを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3422",
+    "word": "versatile",
+    "meaningJa": "多用途の；多才な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "This versatile tool has many uses.",
+    "exampleJa": "この多用途の道具にはさまざまな使い道があります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "応用範囲や能力の広さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3423",
+    "word": "resilient",
+    "meaningJa": "回復力のある；立ち直りの早い",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The community proved resilient after the disaster.",
+    "exampleJa": "地域社会は災害後に回復力があることを示しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "困難からの回復を論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3424",
+    "word": "susceptible",
+    "meaningJa": "影響を受けやすい；かかりやすい",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The material is susceptible to damage from heat.",
+    "exampleJa": "その素材は熱による損傷を受けやすいです。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "外的要因への影響の受けやすさを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "susceptible to ...で「〜の影響を受けやすい／〜にかかりやすい」。"
+  },
+  {
+    "id": "v3425",
+    "word": "vulnerable",
+    "meaningJa": "傷つきやすい；被害を受けやすい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The village is vulnerable to flooding.",
+    "exampleJa": "その村は洪水の被害を受けやすいです。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "保護や対策の必要性を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "vulnerable to ...で「〜による被害や影響を受けやすい」。"
+  },
+  {
+    "id": "v3426",
+    "word": "durable",
+    "meaningJa": "丈夫な；長持ちする",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The bags are made of durable material.",
+    "exampleJa": "そのかばんは丈夫な素材でできています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "素材や製品の耐久性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3427",
+    "word": "enduring",
+    "meaningJa": "長く続く；永続的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The book has had an enduring influence on education.",
+    "exampleJa": "その本は教育に長く続く影響を与えてきました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "効果や関係の持続を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "長く続く性質を表す形容詞として収録しています。endureの進行形として数えていません。"
+  },
+  {
+    "id": "v3428",
+    "word": "perpetual",
+    "meaningJa": "絶え間ない；永続する",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The noise seemed to be perpetual.",
+    "exampleJa": "騒音は絶え間なく続くようでした。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "終わりの見えない継続を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3429",
+    "word": "provisional",
+    "meaningJa": "暫定的な；仮の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "We reached a provisional agreement.",
+    "exampleJa": "私たちは暫定的な合意に達しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "正式決定前の状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3430",
+    "word": "preliminary",
+    "meaningJa": "予備的な；準備の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The preliminary results look promising.",
+    "exampleJa": "予備的な結果は有望に見えます。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "本格的な検討の前段階を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3431",
+    "word": "ultimate",
+    "meaningJa": "最終的な；究極の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The ultimate goal is to reduce waste.",
+    "exampleJa": "最終的な目標は廃棄物を減らすことです。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "過程の終点や目的を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3432",
+    "word": "optimum",
+    "meaningJa": "最適の；最良の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The team searched for the optimum temperature.",
+    "exampleJa": "チームは最適な温度を探しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "条件下の最良の値を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "最適な状態；最適値",
+        "example": "We adjusted the temperature to find the optimum.",
+        "exampleJa": "私たちは最適値を見つけるために温度を調整しました。"
+      }
+    ]
+  },
+  {
+    "id": "v3433",
+    "word": "maximum",
+    "meaningJa": "最大限；最大値",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The hall can hold a maximum of two hundred people.",
+    "exampleJa": "そのホールには最大二百人が入れます。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数量の上限を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "最大の；最高の",
+        "example": "The maximum speed is shown on the sign.",
+        "exampleJa": "最高速度は標識に示されています。"
+      }
+    ]
+  },
+  {
+    "id": "v3434",
+    "word": "minimum",
+    "meaningJa": "最小限；最小値",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We kept the cost to a minimum.",
+    "exampleJa": "私たちは費用を最小限に抑えました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数量の下限を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "最小の；最低の",
+        "example": "The course has a minimum age requirement.",
+        "exampleJa": "その講座には最低年齢の条件があります。"
+      }
+    ]
+  },
+  {
+    "id": "v3435",
+    "word": "sparse",
+    "meaningJa": "まばらな；乏しい",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Vegetation is sparse on the rocky slope.",
+    "exampleJa": "岩の多い斜面には植物がまばらにしか生えていません。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "密度の低さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3436",
+    "word": "plentiful",
+    "meaningJa": "豊富な；十分にある",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Fresh fruit is plentiful in summer.",
+    "exampleJa": "夏には新鮮な果物が豊富です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な量の多さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3437",
+    "word": "ample",
+    "meaningJa": "十分な；豊富な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "We had ample time to prepare.",
+    "exampleJa": "私たちには準備する時間が十分にありました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "必要を上回る余裕を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3438",
+    "word": "sheer",
+    "meaningJa": "まったくの；ものすごい",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The sheer size of the building surprised us.",
+    "exampleJa": "その建物のものすごい大きさに私たちは驚きました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "程度や性質を強調する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "切り立った；ほぼ垂直の",
+        "example": "The path ended at a sheer cliff.",
+        "exampleJa": "道は切り立った崖で終わっていました。"
+      }
+    ]
+  },
+  {
+    "id": "v3439",
+    "word": "mere",
+    "meaningJa": "単なる；ほんの",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "A mere guess is not enough to support the claim.",
+    "exampleJa": "単なる推測ではその主張を裏付けるのに十分ではありません。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "重要性や数量を限定する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3440",
+    "word": "respective",
+    "meaningJa": "それぞれの；各自の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The students returned to their respective classrooms.",
+    "exampleJa": "生徒たちはそれぞれの教室に戻りました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "対応する複数の対象を示す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数の人や物それぞれに対応することを表します。respectful（敬意を示す）とは異なります。"
+  },
+  {
+    "id": "v3441",
+    "word": "rigid",
+    "meaningJa": "硬い；柔軟性のない",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The frame is made of rigid plastic.",
+    "exampleJa": "その枠は硬いプラスチックでできています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物性と考え方の硬さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "融通の利かない；厳格な",
+        "example": "The rigid schedule left no room for discussion.",
+        "exampleJa": "融通の利かない予定には議論の余地がありませんでした。"
+      }
+    ]
+  },
+  {
+    "id": "v3442",
+    "word": "adaptive",
+    "meaningJa": "適応する；適応的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The system uses adaptive controls.",
+    "exampleJa": "そのシステムは状況に応じて変わる制御を用います。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "変化に応じる仕組みを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3443",
+    "word": "adaptable",
+    "meaningJa": "適応力のある",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Successful teams need adaptable members.",
+    "exampleJa": "成功するチームには適応力のあるメンバーが必要です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "変化への対応能力を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3444",
+    "word": "transient",
+    "meaningJa": "一時的な；つかの間の",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The effect was transient and soon disappeared.",
+    "exampleJa": "その効果は一時的で、まもなく消えました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "短時間しか続かない状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3445",
+    "word": "tangible",
+    "meaningJa": "具体的な；実感できる；触れられる",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The project produced tangible benefits.",
+    "exampleJa": "その計画は実感できる利益をもたらしました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "抽象的でない成果を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3446",
+    "word": "intangible",
+    "meaningJa": "形のない；触れられない",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "Trust is an intangible asset for an organization.",
+    "exampleJa": "信頼は組織にとって形のない資産です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "物理的に捉えられない価値を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3447",
+    "word": "conspicuous",
+    "meaningJa": "目立つ；顕著な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The red sign was conspicuous against the white wall.",
+    "exampleJa": "赤い看板は白い壁を背景に目立っていました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "知覚や比較での目立ちやすさを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3448",
+    "word": "subtle",
+    "meaningJa": "微妙な；気づきにくい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "There is a subtle difference between the two colors.",
+    "exampleJa": "その二つの色には微妙な違いがあります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "小さな差や巧妙さを読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "bは通常発音しません。容易には気づかない微妙さや巧妙さを表します。"
+  },
+  {
+    "id": "v3449",
+    "word": "profound",
+    "meaningJa": "深い；重大な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The discovery had a profound effect on science.",
+    "exampleJa": "その発見は科学に重大な影響を与えました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "影響や理解の深さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3450",
+    "word": "superficial",
+    "meaningJa": "表面的な；浅い",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The report offers only a superficial analysis.",
+    "exampleJa": "その報告書は表面的な分析しか示していません。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "理解や分析の深さを評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3451",
+    "word": "avalanche",
+    "meaningJa": "雪崩",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The avalanche blocked the mountain road.",
+    "exampleJa": "雪崩が山道をふさぎました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "自然災害の種類を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3452",
+    "word": "landslide",
+    "meaningJa": "地滑り；土砂崩れ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Heavy rain caused a landslide near the village.",
+    "exampleJa": "大雨が村の近くで地滑りを引き起こしました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "自然災害と土地の変化を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3453",
+    "word": "mist",
+    "meaningJa": "霧；かすみ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A thin mist covered the lake.",
+    "exampleJa": "薄い霧が湖を覆っていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な景色を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "fogと同じく霧を表しますが、一般にmistの方が薄い霧を指します。"
+  },
+  {
+    "id": "v3454",
+    "word": "frost",
+    "meaningJa": "霜；凍結",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The grass was covered with frost.",
+    "exampleJa": "草は霜に覆われていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な冬の自然現象を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3455",
+    "word": "snowflake",
+    "meaningJa": "雪片；一ひらの雪",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A snowflake landed on my sleeve.",
+    "exampleJa": "一ひらの雪が私の袖に落ちました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な雪の具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3456",
+    "word": "blizzard",
+    "meaningJa": "猛吹雪",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The blizzard forced the airport to close.",
+    "exampleJa": "猛吹雪のため空港は閉鎖せざるを得ませんでした。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "激しい天候を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3457",
+    "word": "gust",
+    "meaningJa": "突風",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A sudden gust of wind blew the door shut.",
+    "exampleJa": "突然の突風でドアが勢いよく閉まりました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "風の急な変化を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3458",
+    "word": "hail",
+    "meaningJa": "ひょう",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Large pieces of hail hit the roof.",
+    "exampleJa": "大きなひょうの粒が屋根に当たりました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "降水の種類を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3459",
+    "word": "icicle",
+    "meaningJa": "つらら",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "An icicle hung from the edge of the roof.",
+    "exampleJa": "屋根の端からつららが下がっていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "寒冷な景色を描く具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3460",
+    "word": "dew",
+    "meaningJa": "露",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Morning dew shone on the leaves.",
+    "exampleJa": "朝露が葉の上で輝いていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な水分の自然現象を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3461",
+    "word": "sunrise",
+    "meaningJa": "日の出",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We reached the hill before sunrise.",
+    "exampleJa": "私たちは日の出前に丘に着きました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "一日の時間を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3462",
+    "word": "sunset",
+    "meaningJa": "日没；夕焼け",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The sky turned orange at sunset.",
+    "exampleJa": "日没時に空はオレンジ色になりました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "一日の時間と景色を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3463",
+    "word": "dawn",
+    "meaningJa": "夜明け；始まり",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The birds began to sing at dawn.",
+    "exampleJa": "鳥たちは夜明けにさえずり始めました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "時間と物語の始まりを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3464",
+    "word": "dusk",
+    "meaningJa": "夕暮れ；薄暮",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We returned home at dusk.",
+    "exampleJa": "私たちは夕暮れに家に戻りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "一日の終わりの時間を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "日没後、暗くなっていく時間帯です。dawnは夜明けです。"
+  },
+  {
+    "id": "v3465",
+    "word": "twilight",
+    "meaningJa": "薄明かり；薄暮",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The hills were purple in the twilight.",
+    "exampleJa": "薄明かりの中で丘は紫色に見えました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "光の弱い時間帯を描く語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "日の出前や日没後の薄明かりを指し、夕方だけに限りません。"
+  },
+  {
+    "id": "v3466",
+    "word": "daylight",
+    "meaningJa": "日光；昼の明るさ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "There was enough daylight to finish the work.",
+    "exampleJa": "仕事を終えるのに十分な昼の明るさがありました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の光を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3467",
+    "word": "moonlight",
+    "meaningJa": "月光；月明かり",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The path was visible in the moonlight.",
+    "exampleJa": "月明かりで小道が見えました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な夜の光を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3468",
+    "word": "sunshine",
+    "meaningJa": "日光；日差し",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The room was filled with warm sunshine.",
+    "exampleJa": "部屋には暖かな日差しが満ちていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常的な天候の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3469",
+    "word": "canyon",
+    "meaningJa": "峡谷",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A narrow river flows through the canyon.",
+    "exampleJa": "細い川が峡谷を流れています。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地形の種類を区別する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3470",
+    "word": "plateau",
+    "meaningJa": "高原；台地",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The town lies on a high plateau.",
+    "exampleJa": "その町は高い台地の上にあります。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地理と比喩的な停滞を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "停滞期；横ばいの状態",
+        "example": "Sales reached a plateau after months of growth.",
+        "exampleJa": "数か月の成長の後、売上は横ばいになりました。"
+      }
+    ]
+  },
+  {
+    "id": "v3471",
+    "word": "dune",
+    "meaningJa": "砂丘",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Wind slowly changes the shape of the dune.",
+    "exampleJa": "風が砂丘の形をゆっくり変えます。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "砂地の地形を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3472",
+    "word": "gulf",
+    "meaningJa": "湾；大きな隔たり",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Several rivers flow into the gulf.",
+    "exampleJa": "いくつかの川がその湾に流れ込んでいます。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地形と抽象的な隔たりの多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "大きな隔たり；溝",
+        "example": "There is a gulf between their views.",
+        "exampleJa": "彼らの見解には大きな隔たりがあります。"
+      }
+    ]
+  },
+  {
+    "id": "v3473",
+    "word": "strait",
+    "meaningJa": "海峡",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The ship passed through a narrow strait.",
+    "exampleJa": "船は狭い海峡を通過しました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "海上の地理を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3474",
+    "word": "peninsula",
+    "meaningJa": "半島",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The village is near the tip of the peninsula.",
+    "exampleJa": "村は半島の先端近くにあります。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地理の基本的な分類語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3475",
+    "word": "creek",
+    "meaningJa": "小川；入り江",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We crossed the creek on a wooden bridge.",
+    "exampleJa": "私たちは木の橋で小川を渡りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "小さな水辺の地形を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "米国では主に小川、英国では海岸の小さな入り江を指すことがあります。"
+  },
+  {
+    "id": "v3476",
+    "word": "waterfall",
+    "meaningJa": "滝",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We heard the waterfall before we saw it.",
+    "exampleJa": "私たちは滝を見る前にその音を聞きました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な自然の場所を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3477",
+    "word": "marsh",
+    "meaningJa": "湿地；沼地",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Birds nested in the reeds of the marsh.",
+    "exampleJa": "鳥は湿地のアシの中に巣を作りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "水辺の生息環境を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3478",
+    "word": "swamp",
+    "meaningJa": "沼地；湿地",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The explorers moved slowly through the swamp.",
+    "exampleJa": "探検家たちは沼地をゆっくり進みました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "湿った土地の生息環境を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3479",
+    "word": "wetland",
+    "meaningJa": "湿地",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The wetland provides a home for many birds.",
+    "exampleJa": "その湿地は多くの鳥にすみかを提供します。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "環境保全の地形を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "湿地全般を指します。まとまった湿地帯について複数形wetlandsもよく使います。"
+  },
+  {
+    "id": "v3480",
+    "word": "jungle",
+    "meaningJa": "ジャングル；密林",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The team followed a path through the jungle.",
+    "exampleJa": "チームは密林の中の道を進みました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "自然環境を表す身近な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3481",
+    "word": "rainforest",
+    "meaningJa": "雨林",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The rainforest contains a wide variety of plants.",
+    "exampleJa": "その雨林には多種多様な植物があります。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "気候と生態系を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "雨の多い地域の森林を指します。熱帯雨林はtropical rainforestですが、温帯にも雨林があります。"
+  },
+  {
+    "id": "v3482",
+    "word": "savanna",
+    "meaningJa": "サバンナ；熱帯の草原",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Herds of animals moved across the savanna.",
+    "exampleJa": "動物の群れがサバンナを移動しました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "植生の種類を表す地理語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "savannahという綴りもあります。"
+  },
+  {
+    "id": "v3483",
+    "word": "woodland",
+    "meaningJa": "森林地帯；林",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The path leads into the woodland.",
+    "exampleJa": "道は林の中へ続いています。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な樹木のある地形の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3484",
+    "word": "wilderness",
+    "meaningJa": "荒野；人の手がほとんど入っていない土地",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "They spent a week in the wilderness.",
+    "exampleJa": "彼らは人の手がほとんど入っていない土地で一週間過ごしました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人と自然の関係を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3485",
+    "word": "prairie",
+    "meaningJa": "大草原；プレーリー",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Tall grass covered the prairie.",
+    "exampleJa": "背の高い草が大草原を覆っていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "草原の種類を表す地理語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3486",
+    "word": "pasture",
+    "meaningJa": "牧草地；放牧地",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The cows returned to the pasture.",
+    "exampleJa": "牛たちは放牧地に戻りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "農業と土地利用を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3487",
+    "word": "berry",
+    "meaningJa": "ベリー；小さな果実",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A red berry grew at the end of the branch.",
+    "exampleJa": "枝の先に赤い実がなっていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な植物の実を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3488",
+    "word": "nut",
+    "meaningJa": "木の実；ナッツ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The squirrel carried a nut in its mouth.",
+    "exampleJa": "リスは木の実を口にくわえて運びました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な食べ物と植物の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "ナット；ねじを固定する金具",
+        "example": "Tighten the nut with a wrench.",
+        "exampleJa": "レンチでナットを締めてください。"
+      }
+    ]
+  },
+  {
+    "id": "v3489",
+    "word": "pebble",
+    "meaningJa": "小石",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She picked up a smooth pebble on the beach.",
+    "exampleJa": "彼女は浜辺で滑らかな小石を拾いました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な自然物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3490",
+    "word": "gravel",
+    "meaningJa": "砂利",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The path is covered with gravel.",
+    "exampleJa": "小道は砂利で覆われています。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な地面の素材を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は不可算名詞で、砂利をまとめて指します。"
+  },
+  {
+    "id": "v3491",
+    "word": "bloom",
+    "meaningJa": "花が咲く；開花する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "These flowers bloom in spring.",
+    "exampleJa": "これらの花は春に咲きます。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "植物の変化を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3492",
+    "word": "horizon",
+    "meaningJa": "地平線；水平線",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The sun disappeared below the horizon.",
+    "exampleJa": "太陽は水平線の下に沈みました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "風景や視野を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "視野や経験の範囲を指すときは、broaden your horizons（視野を広げる）のように複数形も使います。"
+  },
+  {
+    "id": "v3493",
+    "word": "peak",
+    "meaningJa": "頂上；最高点",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Snow covered the mountain peak.",
+    "exampleJa": "雪が山頂を覆っていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "高さや程度の頂点を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "最高点に達する",
+        "example": "Demand is expected to peak in summer.",
+        "exampleJa": "需要は夏に最高点に達すると予想されています。"
+      }
+    ]
+  },
+  {
+    "id": "v3494",
+    "word": "summit",
+    "meaningJa": "山頂；首脳会議",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The climbers reached the summit before noon.",
+    "exampleJa": "登山者たちは正午前に山頂に着きました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "地形と国際会議の多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "首脳会議",
+        "example": "The leaders met at an international summit.",
+        "exampleJa": "指導者たちは国際首脳会議で会いました。"
+      }
+    ]
+  },
+  {
+    "id": "v3495",
+    "word": "ridge",
+    "meaningJa": "尾根；細長い隆起",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "We walked along the ridge between two valleys.",
+    "exampleJa": "私たちは二つの谷の間の尾根に沿って歩きました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "細かな地形を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3496",
+    "word": "slope",
+    "meaningJa": "斜面；傾斜",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The children climbed the grassy slope.",
+    "exampleJa": "子供たちは草に覆われた斜面を登りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な地面の形を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3497",
+    "word": "terrain",
+    "meaningJa": "地形；地勢",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The rough terrain made travel difficult.",
+    "exampleJa": "起伏の激しい地形のため移動は困難でした。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "地域全体の地形の性質を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "地面の起伏や性質に着目する語です。景色の見た目を表すlandscapeと使い分けます。"
+  },
+  {
+    "id": "v3498",
+    "word": "arid",
+    "meaningJa": "乾燥した；雨の少ない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Few trees grow in this arid region.",
+    "exampleJa": "この乾燥した地域には木がほとんど育ちません。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "気候の乾燥を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3499",
+    "word": "barren",
+    "meaningJa": "不毛の；作物の育たない",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The land became barren after years of erosion.",
+    "exampleJa": "長年の侵食によってその土地は不毛になりました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "土地の生産性や欠如を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3500",
+    "word": "fertile",
+    "meaningJa": "肥沃な；生産力のある",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The river valley has fertile soil.",
+    "exampleJa": "川の流域には肥沃な土壌があります。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "土地や発想の生産性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

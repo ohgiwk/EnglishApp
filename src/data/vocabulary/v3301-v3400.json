@@ -1,0 +1,2202 @@
+[
+  {
+    "id": "v3301",
+    "word": "recruit",
+    "meaningJa": "〜を募集する；採用する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The company plans to recruit ten engineers.",
+    "exampleJa": "その会社は技術者を十人採用する予定です。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人材を集める社会的動作の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3302",
+    "word": "recruitment",
+    "meaningJa": "募集；採用",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The university began the recruitment of new staff.",
+    "exampleJa": "大学は新しい職員の募集を始めました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人材募集の過程を表す派生名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3303",
+    "word": "unemployed",
+    "meaningJa": "失業中の；職のない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The program supports unemployed workers.",
+    "exampleJa": "そのプログラムは失業中の労働者を支援します。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会や仕事の状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3304",
+    "word": "professional",
+    "meaningJa": "職業上の；専門的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "She sought professional advice about the design.",
+    "exampleJa": "彼女は設計について専門的な助言を求めました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "専門性や職業との関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "専門家；職業として行う人",
+        "example": "She is a trained professional.",
+        "exampleJa": "彼女は訓練を受けた専門家です。"
+      }
+    ]
+  },
+  {
+    "id": "v3305",
+    "word": "vocational",
+    "meaningJa": "職業の；職業教育の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The college offers vocational training.",
+    "exampleJa": "その学校は職業訓練を提供しています。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "教育と仕事の接続を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3306",
+    "word": "workplace",
+    "meaningJa": "職場",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Everyone should feel respected in the workplace.",
+    "exampleJa": "誰もが職場で尊重されていると感じられるべきです。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な働く場所の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3307",
+    "word": "workforce",
+    "meaningJa": "労働力；従業員全体",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The company has a workforce of two hundred.",
+    "exampleJa": "その会社には二百人の従業員がいます。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "労働者を集合的に表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3308",
+    "word": "personnel",
+    "meaningJa": "職員；人員",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Only authorized personnel may enter this room.",
+    "exampleJa": "許可された職員だけがこの部屋に入れます。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "組織の人員を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "組織の職員を集合的に指す語です。personal（個人的な）と混同しないようにします。"
+  },
+  {
+    "id": "v3309",
+    "word": "coworker",
+    "meaningJa": "同僚；一緒に働く人",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "My coworker helped me finish the report.",
+    "exampleJa": "同僚は私が報告書を仕上げるのを手伝ってくれました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な仕事上の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "co-workerという表記もあります。"
+  },
+  {
+    "id": "v3310",
+    "word": "supervisor",
+    "meaningJa": "監督者；上司",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The supervisor checked the work carefully.",
+    "exampleJa": "監督者は作業を注意深く確認しました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "組織内の役割を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3311",
+    "word": "supervise",
+    "meaningJa": "〜を監督する；指導する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "An experienced teacher will supervise the activity.",
+    "exampleJa": "経験豊かな教師がその活動を監督します。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "作業や活動の管理を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3312",
+    "word": "manager",
+    "meaningJa": "管理者；経営者",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The manager welcomed the new employees.",
+    "exampleJa": "管理者は新入社員を歓迎しました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な仕事の役割を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3313",
+    "word": "management",
+    "meaningJa": "管理；経営；経営陣",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Good time management is important for this project.",
+    "exampleJa": "この計画には適切な時間管理が重要です。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕事や活動の管理を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3314",
+    "word": "executive",
+    "meaningJa": "重役；幹部",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The executive explained the new business plan.",
+    "exampleJa": "その幹部は新しい事業計画を説明しました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "組織の意思決定者を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3315",
+    "word": "administrator",
+    "meaningJa": "管理者；行政担当者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The administrator handles requests from students.",
+    "exampleJa": "管理者は学生からの要望に対応します。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "制度を運営する役割を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3316",
+    "word": "administer",
+    "meaningJa": "〜を管理する；運営する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The local council will administer the new program.",
+    "exampleJa": "地方議会は新しい事業を運営します。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "制度や手続きを実施する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3317",
+    "word": "leader",
+    "meaningJa": "指導者；リーダー",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The leader listened to every member of the group.",
+    "exampleJa": "リーダーはグループの全員の話を聞きました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な集団の役割を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3318",
+    "word": "conference",
+    "meaningJa": "会議；学会",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Researchers gathered for an international conference.",
+    "exampleJa": "研究者たちは国際会議のために集まりました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会や学術の集会を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3319",
+    "word": "meeting",
+    "meaningJa": "会合；会議",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The meeting starts at ten.",
+    "exampleJa": "会議は十時に始まります。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常的な集まりを表す独立した名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "会合・会議を指す名詞として収録しています。meetの進行形を別に数えたものではありません。"
+  },
+  {
+    "id": "v3320",
+    "word": "appointment",
+    "meaningJa": "予約；約束；任命",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "I have an appointment with my teacher after school.",
+    "exampleJa": "私は放課後に先生と会う約束があります。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常の予定と人事を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3321",
+    "word": "appoint",
+    "meaningJa": "〜を任命する；指名する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The board will appoint a new director.",
+    "exampleJa": "理事会は新しい理事を任命します。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "組織の役割を決める動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "appoint A as Bなどの形で「AをBに任命する」と表します。"
+  },
+  {
+    "id": "v3322",
+    "word": "nominate",
+    "meaningJa": "〜を候補に指名する；推薦する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Each class can nominate a candidate.",
+    "exampleJa": "各クラスは候補者を一人推薦できます。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "選出前の推薦を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "候補者として指名することで、その時点で選挙に当選したとは限りません。"
+  },
+  {
+    "id": "v3323",
+    "word": "elect",
+    "meaningJa": "〜を選挙で選ぶ",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The members elect a new chair every year.",
+    "exampleJa": "会員は毎年新しい議長を選挙で選びます。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "集団の意思決定を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3324",
+    "word": "dismiss",
+    "meaningJa": "〜を退ける；解雇する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We should not dismiss the idea without discussion.",
+    "exampleJa": "議論せずにその考えを退けるべきではありません。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "意見の扱いや人事の多義動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜を解雇する",
+        "example": "The company decided to dismiss the employee.",
+        "exampleJa": "その会社は従業員を解雇することにしました。"
+      }
+    ]
+  },
+  {
+    "id": "v3325",
+    "word": "resign",
+    "meaningJa": "辞任する；辞職する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "She decided to resign from the committee.",
+    "exampleJa": "彼女は委員会を辞任することにしました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "役割から退くことを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "resign from ...は「〜を辞任する」。resign oneself to ...は「〜を仕方なく受け入れる」。"
+  },
+  {
+    "id": "v3326",
+    "word": "promotion",
+    "meaningJa": "昇進；促進；販売促進",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He received a promotion after years of hard work.",
+    "exampleJa": "彼は長年の努力の末に昇進しました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕事や活動の前進を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3327",
+    "word": "delegate",
+    "meaningJa": "代表者；使節",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Each country sent a delegate to the conference.",
+    "exampleJa": "各国は会議に代表者を送りました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "集団を代表する人物の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜を委任する；任せる",
+        "example": "Managers need to delegate tasks to others.",
+        "exampleJa": "管理者は他の人に仕事を任せる必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "v3328",
+    "word": "deputy",
+    "meaningJa": "代理人；副官；次席者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The director asked her deputy to lead the meeting.",
+    "exampleJa": "部長は次席者に会議を進行するよう頼みました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "組織の代理権限を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3329",
+    "word": "represent",
+    "meaningJa": "〜を代表する；表す",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The symbol can represent several different ideas.",
+    "exampleJa": "その記号はいくつかの異なる考えを表すことができます。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "代表と表象を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3330",
+    "word": "negotiation",
+    "meaningJa": "交渉；協議",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The agreement followed weeks of negotiation.",
+    "exampleJa": "その合意は数週間の交渉を経て成立しました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "合意に至る過程を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3331",
+    "word": "bargain",
+    "meaningJa": "お買い得品；取引",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "This coat was a real bargain.",
+    "exampleJa": "このコートは本当にお買い得でした。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "買い物や合意に関する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "値段などを交渉する",
+        "example": "They bargain with the seller over the price.",
+        "exampleJa": "彼らは売り手と値段を交渉します。"
+      }
+    ]
+  },
+  {
+    "id": "v3332",
+    "word": "agreement",
+    "meaningJa": "合意；協定；一致",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We reached an agreement about the schedule.",
+    "exampleJa": "私たちは予定について合意に達しました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な意思の一致を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3333",
+    "word": "disagreement",
+    "meaningJa": "意見の相違；不一致",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "There was some disagreement over the cost.",
+    "exampleJa": "費用について多少の意見の相違がありました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "対話における不一致を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3334",
+    "word": "approval",
+    "meaningJa": "承認；賛成",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The plan needs approval from the committee.",
+    "exampleJa": "その計画には委員会の承認が必要です。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "許可や賛同を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3335",
+    "word": "approve",
+    "meaningJa": "〜を承認する；賛成する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The council voted to approve the proposal.",
+    "exampleJa": "議会はその提案を承認する票決をしました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "意思決定の基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "approve a planは「計画を正式に承認する」、approve of ...は「〜をよいと思う／賛成する」。"
+  },
+  {
+    "id": "v3336",
+    "word": "disapprove",
+    "meaningJa": "不賛成である；よくないと思う",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Many residents disapprove of the new plan.",
+    "exampleJa": "多くの住民は新しい計画に不賛成です。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "否定的な評価を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常はdisapprove of ...の形で「〜に不賛成である」と表します。"
+  },
+  {
+    "id": "v3337",
+    "word": "collaborate",
+    "meaningJa": "協力する；共同で取り組む",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The two laboratories will collaborate on the project.",
+    "exampleJa": "二つの研究所はその計画で共同研究を行います。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "共同作業を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "collaborate with ... on ...で「〜と協力して〜に取り組む」。"
+  },
+  {
+    "id": "v3338",
+    "word": "collaboration",
+    "meaningJa": "協力；共同作業",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The discovery was the result of close collaboration.",
+    "exampleJa": "その発見は緊密な共同作業の成果でした。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "共同で生み出す過程を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3339",
+    "word": "cooperative",
+    "meaningJa": "協力的な；共同の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The students were cooperative during the activity.",
+    "exampleJa": "生徒たちは活動中、協力的でした。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "他者と協力する態度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3340",
+    "word": "coordinate",
+    "meaningJa": "〜を調整する；連携させる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We need to coordinate our efforts.",
+    "exampleJa": "私たちは取り組みを連携させる必要があります。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "複数の活動の調整を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3341",
+    "word": "teamwork",
+    "meaningJa": "共同作業；チームワーク",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The task requires good teamwork.",
+    "exampleJa": "その課題には良好なチームワークが必要です。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な協力活動の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3342",
+    "word": "partnership",
+    "meaningJa": "協力関係；共同事業",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The school formed a partnership with a local museum.",
+    "exampleJa": "学校は地元の博物館と協力関係を結びました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "組織間の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3343",
+    "word": "participant",
+    "meaningJa": "参加者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Each participant received a map.",
+    "exampleJa": "各参加者は地図を受け取りました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "活動や研究の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3344",
+    "word": "participation",
+    "meaningJa": "参加；関与",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The event encourages participation from all age groups.",
+    "exampleJa": "その催しはあらゆる年齢層の参加を促しています。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "活動への関わりを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3345",
+    "word": "contribution",
+    "meaningJa": "貢献；寄付；寄稿",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Her contribution helped the project succeed.",
+    "exampleJa": "彼女の貢献は計画の成功に役立ちました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "集団への働きかけを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3346",
+    "word": "donation",
+    "meaningJa": "寄付；寄贈",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The library received a large donation of books.",
+    "exampleJa": "図書館は大量の本の寄贈を受けました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会への支援を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3347",
+    "word": "donor",
+    "meaningJa": "寄付者；提供者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "An anonymous donor paid for the new equipment.",
+    "exampleJa": "匿名の寄付者が新しい設備の費用を支払いました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "支援を提供する人物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3348",
+    "word": "donate",
+    "meaningJa": "〜を寄付する；寄贈する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "They decided to donate books to the school.",
+    "exampleJa": "彼らは学校に本を寄贈することにしました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会への支援行動を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3349",
+    "word": "volunteer",
+    "meaningJa": "ボランティア；志願者",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A volunteer showed us around the park.",
+    "exampleJa": "ボランティアが私たちに公園を案内してくれました。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な社会参加を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "自ら申し出る；志願する",
+        "example": "Several students volunteer to clean the park.",
+        "exampleJa": "数人の生徒は公園の清掃を自ら申し出ます。"
+      }
+    ]
+  },
+  {
+    "id": "v3350",
+    "word": "voluntary",
+    "meaningJa": "自発的な；任意の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Participation in the survey is voluntary.",
+    "exampleJa": "調査への参加は任意です。",
+    "category": "社会・仕事",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "強制されない行動を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "自分の意思によることを表します。必ずしも無給という意味に限りません。"
+  },
+  {
+    "id": "v3351",
+    "word": "shall",
+    "meaningJa": "〜しましょうか；〜するものとする",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Shall we start the meeting now?",
+    "exampleJa": "今、会議を始めましょうか。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "提案をする基本的な助動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "Shall I ...?は申し出、Shall we ...?は提案によく使います。規則などでは義務を定める用法もあります。"
+  },
+  {
+    "id": "v3352",
+    "word": "ought",
+    "meaningJa": "（ought toで）〜すべきだ",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "We ought to check the facts first.",
+    "exampleJa": "私たちはまず事実を確認すべきです。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "助言や義務を表す助動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常はought to＋動詞の原形。ought to have＋過去分詞で「〜すべきだった」などを表します。"
+  },
+  {
+    "id": "v3353",
+    "word": "dare",
+    "meaningJa": "あえて〜する；〜する勇気がある",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Few people dare to question the decision.",
+    "exampleJa": "あえてその決定に疑問を呈する人はほとんどいません。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "勇気やためらいを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "一般動詞ではdare to ...。助動詞の用法では否定や疑問でtoを使わずdare not ...などと表します。"
+  },
+  {
+    "id": "v3354",
+    "word": "whichever",
+    "meaningJa": "どちらの〜でも；どれを〜しても",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "Choose whichever seat you prefer.",
+    "exampleJa": "好きな席をどれでも選んでください。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "選択範囲を示す複合関係語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3355",
+    "word": "lest",
+    "meaningJa": "〜しないように；〜するといけないので",
+    "partOfSpeech": "other",
+    "level": 6,
+    "example": "She spoke quietly lest she wake the baby.",
+    "exampleJa": "赤ちゃんを起こさないよう、彼女は静かに話しました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "望ましくない結果の回避を表す文章語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3356",
+    "word": "throughout",
+    "meaningJa": "〜の至る所に；〜の間ずっと",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "The road remained closed throughout the winter.",
+    "exampleJa": "その道路は冬の間ずっと閉鎖されたままでした。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "空間や時間の全体を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3357",
+    "word": "beside",
+    "meaningJa": "〜のそばに；〜の隣に",
+    "partOfSpeech": "other",
+    "level": 1,
+    "example": "She sat beside her brother.",
+    "exampleJa": "彼女は兄の隣に座りました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な位置関係を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "位置を表す「〜のそばに」。besides（〜に加えて）とは異なります。"
+  },
+  {
+    "id": "v3358",
+    "word": "besides",
+    "meaningJa": "〜に加えて；〜のほかに",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "Besides English, she speaks French.",
+    "exampleJa": "英語に加えて、彼女はフランス語を話します。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "追加の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "その上；さらに",
+        "example": "The room is small; besides, it is noisy.",
+        "exampleJa": "その部屋は狭く、その上うるさいです。"
+      }
+    ]
+  },
+  {
+    "id": "v3359",
+    "word": "regarding",
+    "meaningJa": "〜に関して",
+    "partOfSpeech": "other",
+    "level": 4,
+    "example": "Please contact us regarding your application.",
+    "exampleJa": "申請に関して私たちに連絡してください。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "話題の対象を示す前置詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "ここでは前置詞として定着した「〜に関して」を扱います。regardの進行形として数えていません。"
+  },
+  {
+    "id": "v3360",
+    "word": "concerning",
+    "meaningJa": "〜に関して；〜について",
+    "partOfSpeech": "other",
+    "level": 4,
+    "example": "The report contains information concerning the project.",
+    "exampleJa": "その報告書には計画に関する情報が含まれています。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "論述の対象を示す前置詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "ここでは前置詞「〜について」を扱います。形容詞では「懸念を生じさせる」という意味もあります。"
+  },
+  {
+    "id": "v3361",
+    "word": "via",
+    "meaningJa": "〜を経由して；〜を通じて",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "We traveled to the island via the mainland.",
+    "exampleJa": "私たちは本土を経由して島へ行きました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "経路や手段を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3362",
+    "word": "versus",
+    "meaningJa": "〜対；〜と対比して",
+    "partOfSpeech": "other",
+    "level": 4,
+    "example": "The debate focused on speed versus accuracy.",
+    "exampleJa": "議論は速さと正確さの対比に焦点を当てていました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "対立や比較の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "vs.やv.と略記することがあります。"
+  },
+  {
+    "id": "v3363",
+    "word": "unlike",
+    "meaningJa": "〜とは違って",
+    "partOfSpeech": "other",
+    "level": 2,
+    "example": "Unlike her sister, she enjoys cold weather.",
+    "exampleJa": "姉とは違って、彼女は寒い天気を楽しみます。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な比較を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3364",
+    "word": "apart",
+    "meaningJa": "離れて；ばらばらに",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The two houses stand far apart.",
+    "exampleJa": "二軒の家は遠く離れて建っています。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "距離や分離を表す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3365",
+    "word": "onto",
+    "meaningJa": "〜の上へ",
+    "partOfSpeech": "other",
+    "level": 2,
+    "example": "The cat jumped onto the table.",
+    "exampleJa": "猫はテーブルの上へ跳び乗りました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "移動先を表す基本的な前置詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3366",
+    "word": "nearby",
+    "meaningJa": "近くに；近くで",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "My grandparents live nearby.",
+    "exampleJa": "私の祖父母は近くに住んでいます。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な位置を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "近くの",
+        "example": "We visited a nearby village.",
+        "exampleJa": "私たちは近くの村を訪れました。"
+      }
+    ]
+  },
+  {
+    "id": "v3367",
+    "word": "aboard",
+    "meaningJa": "船・乗り物に乗って",
+    "partOfSpeech": "other",
+    "level": 3,
+    "example": "We spent the night aboard the ship.",
+    "exampleJa": "私たちは船に乗って一夜を過ごしました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "交通や旅行を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3368",
+    "word": "indeed",
+    "meaningJa": "確かに；実に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The task was difficult indeed.",
+    "exampleJa": "その課題は実に難しいものでした。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "強調や確認を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3369",
+    "word": "somewhat",
+    "meaningJa": "いくぶん；やや",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The new method is somewhat faster.",
+    "exampleJa": "新しい方法はいくぶん速いです。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "程度を控えめに表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3370",
+    "word": "somehow",
+    "meaningJa": "どうにかして；どういうわけか",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "We must somehow finish the work today.",
+    "exampleJa": "私たちはどうにかして今日中に仕事を終えなければなりません。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "手段が明確でない状況を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "どういうわけか",
+        "example": "Somehow the key had disappeared.",
+        "exampleJa": "どういうわけか鍵がなくなっていました。"
+      }
+    ]
+  },
+  {
+    "id": "v3371",
+    "word": "anytime",
+    "meaningJa": "いつでも",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "You can call me anytime.",
+    "exampleJa": "いつでも電話してよいですよ。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な時間の自由を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3372",
+    "word": "hereby",
+    "meaningJa": "これによって；ここに",
+    "partOfSpeech": "adverb",
+    "level": 6,
+    "example": "The committee hereby announces the result.",
+    "exampleJa": "委員会はここに結果を発表します。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "正式な宣言で使う文章語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3373",
+    "word": "whereby",
+    "meaningJa": "それによって〜する",
+    "partOfSpeech": "other",
+    "level": 6,
+    "example": "They devised a system whereby students can share ideas.",
+    "exampleJa": "彼らは生徒が考えを共有できる仕組みを考案しました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "先行する方法や仕組みを説明する関係語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3374",
+    "word": "formerly",
+    "meaningJa": "以前は；かつて",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The building was formerly a school.",
+    "exampleJa": "その建物は以前は学校でした。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "過去の状態を示す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3375",
+    "word": "presently",
+    "meaningJa": "現在；まもなく",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The library is presently closed for repairs.",
+    "exampleJa": "図書館は現在、修理のため閉まっています。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "現在の状態と近い未来を表す多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「現在」と「まもなく」の両方の用法があるため、文脈で判断します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "まもなく",
+        "example": "The doctor will see you presently.",
+        "exampleJa": "医師はまもなくあなたを診察します。"
+      }
+    ]
+  },
+  {
+    "id": "v3376",
+    "word": "currently",
+    "meaningJa": "現在；今のところ",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "She is currently studying biology.",
+    "exampleJa": "彼女は現在、生物学を学んでいます。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "現時点の状況を示す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3377",
+    "word": "thereafter",
+    "meaningJa": "その後；それ以後",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "The rules changed, and costs fell thereafter.",
+    "exampleJa": "規則が変わり、その後費用が下がりました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "出来事の後の期間を表す文章語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3378",
+    "word": "henceforth",
+    "meaningJa": "今後は；これからは",
+    "partOfSpeech": "adverb",
+    "level": 6,
+    "example": "All reports will henceforth be submitted online.",
+    "exampleJa": "今後はすべての報告書をオンラインで提出することになります。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "現在以後の方針を示す文章語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3379",
+    "word": "upward",
+    "meaningJa": "上方へ；上向きに",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "Warm air moves upward.",
+    "exampleJa": "暖かい空気は上方へ動きます。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "方向や変化を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3380",
+    "word": "downward",
+    "meaningJa": "下方へ；下向きに",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The path slopes downward toward the river.",
+    "exampleJa": "小道は川に向かって下方へ傾斜しています。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "方向や変化を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3381",
+    "word": "inward",
+    "meaningJa": "内側へ；内面へ",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The door opens inward.",
+    "exampleJa": "ドアは内側へ開きます。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "内側への向きを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3382",
+    "word": "outward",
+    "meaningJa": "外側へ；外に向かって",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The branches spread outward.",
+    "exampleJa": "枝は外側へ広がっています。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "外側への向きを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3383",
+    "word": "clockwise",
+    "meaningJa": "時計回りに",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "Turn the handle clockwise.",
+    "exampleJa": "取っ手を時計回りに回してください。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "回転方向を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3384",
+    "word": "overseas",
+    "meaningJa": "海外へ；海外で",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "She hopes to study overseas.",
+    "exampleJa": "彼女は海外で学ぶことを望んでいます。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "旅行や留学の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3385",
+    "word": "inland",
+    "meaningJa": "内陸へ；内陸で",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The town lies ten kilometers inland.",
+    "exampleJa": "その町は十キロメートル内陸にあります。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "海岸から見た位置を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3386",
+    "word": "elsewhere",
+    "meaningJa": "ほかの場所に；ほかの場所で",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The shop was closed, so we ate elsewhere.",
+    "exampleJa": "店が閉まっていたので、私たちは別の場所で食事をしました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "場所の代替を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3387",
+    "word": "anyhow",
+    "meaningJa": "とにかく；いずれにせよ",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "It may rain, but we will go anyhow.",
+    "exampleJa": "雨が降るかもしれませんが、私たちはいずれにせよ行きます。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "事情にかかわらない判断を示す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3388",
+    "word": "anyway",
+    "meaningJa": "とにかく；それでも",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "I was tired, but I joined the game anyway.",
+    "exampleJa": "私は疲れていましたが、それでも試合に参加しました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "会話の展開や譲歩を示す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3389",
+    "word": "altogether",
+    "meaningJa": "全部で；まったく",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "There were twenty people altogether.",
+    "exampleJa": "全部で二十人いました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "合計や全体を示す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "一語で「全部で／まったく」。all togetherの二語では「みんな一緒に」を表します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "完全に；まったく",
+        "example": "That is an altogether different question.",
+        "exampleJa": "それはまったく別の問題です。"
+      }
+    ]
+  },
+  {
+    "id": "v3390",
+    "word": "wholly",
+    "meaningJa": "完全に；まったく",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The two accounts are not wholly different.",
+    "exampleJa": "その二つの説明は完全に異なるわけではありません。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "全体の程度を論じる副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3391",
+    "word": "partially",
+    "meaningJa": "部分的に；一部は",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The road was partially blocked by fallen trees.",
+    "exampleJa": "倒木によって道路は一部ふさがれていました。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "全体と部分の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3392",
+    "word": "literally",
+    "meaningJa": "文字どおりに",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "Do not take every expression literally.",
+    "exampleJa": "すべての表現を文字どおりに受け取らないでください。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "言葉の解釈を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3393",
+    "word": "scarcely",
+    "meaningJa": "ほとんど〜ない",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "There was scarcely enough room to stand.",
+    "exampleJa": "立つ場所がかろうじてある程度でした。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "不足や否定に近い程度を表す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "「ほとんど〜ない」という否定に近い意味で、程度の少なさを表します。"
+  },
+  {
+    "id": "v3394",
+    "word": "primarily",
+    "meaningJa": "主として；第一に",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The project is primarily concerned with water quality.",
+    "exampleJa": "その計画は主として水質に関わっています。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "重要性や範囲の中心を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3395",
+    "word": "chiefly",
+    "meaningJa": "主に；主として",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The town depends chiefly on tourism.",
+    "exampleJa": "その町は主に観光業に依存しています。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "中心的な要因を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3396",
+    "word": "mainly",
+    "meaningJa": "主に；たいていは",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The shop sells mainly local products.",
+    "exampleJa": "その店は主に地元の製品を売っています。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "中心となる範囲を示す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3397",
+    "word": "exclusively",
+    "meaningJa": "もっぱら；〜だけに限って",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "The room is used exclusively for meetings.",
+    "exampleJa": "その部屋は会議のためだけに使われます。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "範囲の排他性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3398",
+    "word": "mutually",
+    "meaningJa": "互いに；相互に",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The agreement is mutually beneficial.",
+    "exampleJa": "その合意は双方に利益をもたらします。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "双方向の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3399",
+    "word": "presumably",
+    "meaningJa": "おそらく；推測するに",
+    "partOfSpeech": "adverb",
+    "level": 5,
+    "example": "The lights are off, so presumably nobody is home.",
+    "exampleJa": "明かりが消えているので、おそらく誰も家にいません。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "根拠からの推測を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3400",
+    "word": "undoubtedly",
+    "meaningJa": "疑いなく；確かに",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "The discovery was undoubtedly important.",
+    "exampleJa": "その発見は疑いなく重要でした。",
+    "category": "論理",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "話し手の確信を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

@@ -1,0 +1,2276 @@
+[
+  {
+    "id": "v2601",
+    "word": "apartment",
+    "meaningJa": "アパートの一戸；集合住宅の住戸",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She lives in a small apartment near the station.",
+    "exampleJa": "彼女は駅の近くの小さなアパートに住んでいます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な住居の種類を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "集合住宅の建物全体ではなく、通常はその中の一戸を指します。英国ではflatともいいます。"
+  },
+  {
+    "id": "v2602",
+    "word": "toilet",
+    "meaningJa": "トイレ；便器",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The toilet is at the end of the hall.",
+    "exampleJa": "トイレは廊下の突き当たりにあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常的に利用する設備を指す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2603",
+    "word": "curtain",
+    "meaningJa": "カーテン",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She opened the curtain to let in the morning light.",
+    "exampleJa": "彼女は朝の光を入れるためにカーテンを開けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "部屋の身近な備品を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2604",
+    "word": "carpet",
+    "meaningJa": "じゅうたん；カーペット",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The room has a soft blue carpet.",
+    "exampleJa": "その部屋には柔らかい青いカーペットが敷かれています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "住まいの床を覆う身近な物の名前として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2605",
+    "word": "rug",
+    "meaningJa": "敷物；小さなじゅうたん",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A small rug lay beside the bed.",
+    "exampleJa": "ベッドのそばに小さな敷物がありました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "部屋の一部に敷く物を表す具体的な名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2606",
+    "word": "sofa",
+    "meaningJa": "ソファー",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We sat on the sofa and looked at old photos.",
+    "exampleJa": "私たちはソファーに座って昔の写真を見ました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な家具の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2607",
+    "word": "cushion",
+    "meaningJa": "クッション",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She placed a cushion behind her back.",
+    "exampleJa": "彼女は背中の後ろにクッションを置きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "体を支える身近な物を指す基本義として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "衝撃を和らげる",
+        "example": "The thick grass helped cushion the fall.",
+        "exampleJa": "厚く生えた草が落下の衝撃を和らげました。"
+      }
+    ]
+  },
+  {
+    "id": "v2608",
+    "word": "pillow",
+    "meaningJa": "枕",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He put a clean cover on the pillow.",
+    "exampleJa": "彼は枕にきれいなカバーを掛けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "毎日の生活で使う寝具の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2609",
+    "word": "blanket",
+    "meaningJa": "毛布",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She covered the sleeping child with a blanket.",
+    "exampleJa": "彼女は眠っている子どもに毛布を掛けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な寝具の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "包括的な；一律の",
+        "example": "The proposal calls for a blanket ban on parking in the square.",
+        "exampleJa": "その提案は広場での駐車を一律に禁止するよう求めています。"
+      }
+    ]
+  },
+  {
+    "id": "v2610",
+    "word": "mattress",
+    "meaningJa": "マットレス；敷き布団",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The new mattress was firmer than the old one.",
+    "exampleJa": "新しいマットレスは古いものより硬めでした。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "寝具の種類や特徴を説明する高校基礎の具体語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2611",
+    "word": "cupboard",
+    "meaningJa": "戸棚",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The cups are in the cupboard above the sink.",
+    "exampleJa": "カップは流しの上の戸棚にあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "台所などの収納家具を指す基本名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "pは発音せず、「カバード」に近い発音です。"
+  },
+  {
+    "id": "v2612",
+    "word": "wardrobe",
+    "meaningJa": "洋服だんす；衣装",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He hung his jacket in the wardrobe.",
+    "exampleJa": "彼は洋服だんすにジャケットを掛けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "衣類の収納や持ち物を説明する高校基礎の具体語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "持っている衣服全体",
+        "example": "She added a warm coat to her winter wardrobe.",
+        "exampleJa": "彼女は冬物の衣服に暖かいコートを加えました。"
+      }
+    ]
+  },
+  {
+    "id": "v2613",
+    "word": "closet",
+    "meaningJa": "収納室；押し入れ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We keep our coats in the hall closet.",
+    "exampleJa": "私たちは玄関の収納室にコートをしまっています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "家の中の収納場所を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2614",
+    "word": "drawer",
+    "meaningJa": "引き出し",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "I found the key in the top drawer.",
+    "exampleJa": "私は一番上の引き出しで鍵を見つけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "家具の身近な部分を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2615",
+    "word": "shelf",
+    "meaningJa": "棚；棚板",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She put the vase on a high shelf.",
+    "exampleJa": "彼女は花瓶を高い棚に置きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "物の置き場所を表す基本名詞として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はshelvesです。"
+  },
+  {
+    "id": "v2616",
+    "word": "sink",
+    "meaningJa": "沈む；沈める",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "The stone began to sink as soon as it touched the water.",
+    "exampleJa": "石は水に触れるとすぐに沈み始めました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "水中に沈む基本的な動作を中学標準で学び、流しの名詞用法も補う。 立命館2026第Ⅰ問の文脈で必要な別義を補足し、基本義とレベルは維持。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "活用はsink–sank–sunkです。名詞では台所などの流しを指します。 carbon sinkは、放出するより多くの炭素を吸収する森林や海洋などの吸収源をいう。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "流し；洗面台",
+        "example": "He washed the vegetables in the kitchen sink.",
+        "exampleJa": "彼は台所の流しで野菜を洗いました。"
+      },
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "（炭素などの）吸収源",
+        "example": "A growing forest can act as a carbon sink.",
+        "exampleJa": "成長している森林は炭素の吸収源として働くことがある。"
+      }
+    ]
+  },
+  {
+    "id": "v2617",
+    "word": "tap",
+    "meaningJa": "蛇口；軽くたたくこと",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Please turn off the tap after washing your hands.",
+    "exampleJa": "手を洗ったら蛇口を閉めてください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の水回りの設備を基本義として学び、軽打の動詞も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "軽くたたく",
+        "example": "Please tap the screen to start the video.",
+        "exampleJa": "画面を軽くたたいて動画を開始してください。"
+      },
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "資源などを活用する",
+        "example": "The project aims to tap local knowledge.",
+        "exampleJa": "その企画は地域の知識を活用することを目指しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2618",
+    "word": "faucet",
+    "meaningJa": "蛇口（主に米国）",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Water was dripping from the kitchen faucet.",
+    "exampleJa": "台所の蛇口から水が滴っていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "水回りの身近な設備名として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主に米国で使います。英国では通常tapといいます。"
+  },
+  {
+    "id": "v2619",
+    "word": "kettle",
+    "meaningJa": "やかん；湯沸かし器",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He filled the kettle with fresh water.",
+    "exampleJa": "彼はやかんに新しい水を入れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "台所で使う基本的な道具の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2620",
+    "word": "oven",
+    "meaningJa": "オーブン；天火",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She took the bread out of the oven.",
+    "exampleJa": "彼女はオーブンからパンを取り出しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "調理に使う身近な機器の名前として中学標準で扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2621",
+    "word": "stove",
+    "meaningJa": "コンロ；ストーブ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The soup was warming on the stove.",
+    "exampleJa": "スープがコンロの上で温められていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "調理や暖房に使う身近な器具を指す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "暖房器具のほか、特に米国では調理用のコンロやレンジも指します。"
+  },
+  {
+    "id": "v2622",
+    "word": "refrigerator",
+    "meaningJa": "冷蔵庫",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The milk is on the top shelf of the refrigerator.",
+    "exampleJa": "牛乳は冷蔵庫の一番上の棚にあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "家庭の身近な電化製品の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "日常会話では短縮形fridgeもよく使います。同じ見出しで学びます。"
+  },
+  {
+    "id": "v2623",
+    "word": "freezer",
+    "meaningJa": "冷凍庫",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We keep frozen vegetables in the freezer.",
+    "exampleJa": "私たちは冷凍野菜を冷凍庫に保存しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食品の保存に使う身近な機器名として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2624",
+    "word": "microwave",
+    "meaningJa": "電子レンジ；マイクロ波",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He warmed the rice in the microwave.",
+    "exampleJa": "彼は電子レンジでご飯を温めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "調理器具としての身近な基本義を中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "マイクロ波",
+        "example": "The experiment measured the strength of a microwave signal.",
+        "exampleJa": "その実験ではマイクロ波の信号の強さを測定しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2625",
+    "word": "toaster",
+    "meaningJa": "トースター",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She put two slices of bread in the toaster.",
+    "exampleJa": "彼女はトースターにパンを二枚入れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "朝食などで使う具体的な機器名として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2626",
+    "word": "dishwasher",
+    "meaningJa": "食器洗い機",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We loaded the plates into the dishwasher.",
+    "exampleJa": "私たちは皿を食器洗い機に入れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "家庭の家事に関わる具体的な機器名として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2627",
+    "word": "laundry",
+    "meaningJa": "洗濯物；洗濯",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He hung the laundry outside to dry.",
+    "exampleJa": "彼は乾かすために洗濯物を外に干しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の家事や衣類を表す基本名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "洗濯物全体を指すときは不可算です。do the laundryで「洗濯をする」を表します。"
+  },
+  {
+    "id": "v2628",
+    "word": "detergent",
+    "meaningJa": "洗剤",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The label explains how much detergent to use.",
+    "exampleJa": "ラベルには使う洗剤の量が説明されています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生活用品の説明や環境の題材で用いる標準的な読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2629",
+    "word": "broom",
+    "meaningJa": "ほうき",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She swept the leaves away with a broom.",
+    "exampleJa": "彼女はほうきで落ち葉を掃きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "掃除に使う身近な道具の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2630",
+    "word": "mop",
+    "meaningJa": "モップ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He used a mop to clean the wet floor.",
+    "exampleJa": "彼は濡れた床を掃除するためにモップを使いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "家事の具体的な道具を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2631",
+    "word": "bucket",
+    "meaningJa": "バケツ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She carried a bucket of water to the garden.",
+    "exampleJa": "彼女は水の入ったバケツを庭へ運びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の作業に使う身近な容器の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2632",
+    "word": "hanger",
+    "meaningJa": "ハンガー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He put the shirt on a hanger.",
+    "exampleJa": "彼はシャツをハンガーに掛けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "衣類を収納する身近な道具名として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2633",
+    "word": "mirror",
+    "meaningJa": "鏡",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She checked her hair in the mirror.",
+    "exampleJa": "彼女は鏡で髪形を確認しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "家の中で日常的に使う物の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "反映する；よく似る",
+        "example": "The results mirror changes in public opinion.",
+        "exampleJa": "その結果は世論の変化を反映しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2634",
+    "word": "toothbrush",
+    "meaningJa": "歯ブラシ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "I packed my toothbrush in a small bag.",
+    "exampleJa": "私は小さなかばんに歯ブラシを入れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "毎日の生活で使う身近な道具の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2635",
+    "word": "napkin",
+    "meaningJa": "ナプキン；口を拭く布や紙",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He wiped his mouth with a napkin.",
+    "exampleJa": "彼はナプキンで口を拭きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食事の場面で使う基本的な名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2636",
+    "word": "mug",
+    "meaningJa": "マグカップ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She poured hot tea into a large mug.",
+    "exampleJa": "彼女は大きなマグカップに熱いお茶を注ぎました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "飲食に使う身近な容器を指す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2637",
+    "word": "chopsticks",
+    "meaningJa": "箸",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She taught her friend how to use chopsticks.",
+    "exampleJa": "彼女は友達に箸の使い方を教えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な食器の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は複数形で使い、一膳はa pair of chopsticksと表します。一本だけならa chopstickです。"
+  },
+  {
+    "id": "v2638",
+    "word": "tray",
+    "meaningJa": "盆；トレー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He carried the cups on a tray.",
+    "exampleJa": "彼はトレーにカップを載せて運びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食事や物を運ぶ場面の基本的な道具名として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2639",
+    "word": "saucepan",
+    "meaningJa": "片手鍋",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The sauce was simmering in a small saucepan.",
+    "exampleJa": "ソースは小さな片手鍋でことこと煮えていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "調理器具の種類を具体的に区別する高校基礎の語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2640",
+    "word": "pan",
+    "meaningJa": "鍋；フライパン",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She heated some oil in a pan.",
+    "exampleJa": "彼女はフライパンで少量の油を熱しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "調理に使う基本的な容器の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2641",
+    "word": "pot",
+    "meaningJa": "鍋；つぼ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He stirred the soup in the large pot.",
+    "exampleJa": "彼は大きな鍋のスープをかき混ぜました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "調理や収納に使う身近な容器の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2642",
+    "word": "lid",
+    "meaningJa": "ふた",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She put the lid back on the box.",
+    "exampleJa": "彼女は箱にふたを戻しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "容器の身近な部分を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2643",
+    "word": "jar",
+    "meaningJa": "広口瓶；保存瓶",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We keep the jam in a glass jar.",
+    "exampleJa": "私たちはガラス瓶にジャムを入れて保存しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食品などを入れる身近な容器の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2644",
+    "word": "carton",
+    "meaningJa": "紙製の容器；厚紙の箱",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He carried a carton of milk home.",
+    "exampleJa": "彼は牛乳を一パック家へ持ち帰りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "食品の包装や数量を説明する高校基礎の具体語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2645",
+    "word": "packet",
+    "meaningJa": "小包み；小袋",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She opened a packet of biscuits.",
+    "exampleJa": "彼女はビスケットの袋を開けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "包装や少量のまとまりを指す高校基礎の名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2646",
+    "word": "cotton",
+    "meaningJa": "綿；綿布",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The shirt is made of soft cotton.",
+    "exampleJa": "そのシャツは柔らかい綿でできています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "衣類に使う身近な素材を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2647",
+    "word": "wool",
+    "meaningJa": "羊毛；毛糸",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She bought some wool to make a scarf.",
+    "exampleJa": "彼女はマフラーを作るために毛糸を買いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "衣服や手芸の身近な素材名として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2648",
+    "word": "silk",
+    "meaningJa": "絹；絹織物",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The scarf is made of blue silk.",
+    "exampleJa": "そのスカーフは青い絹でできています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "衣服の素材を説明する具体的な基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2649",
+    "word": "fabric",
+    "meaningJa": "織物；布地",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She chose a strong fabric for the curtains.",
+    "exampleJa": "彼女はカーテン用に丈夫な布地を選びました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "材料の性質や製品を説明する高校基礎の読解語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "社会などの構造；構成",
+        "example": "These small businesses form part of the social fabric.",
+        "exampleJa": "こうした小規模事業は社会の構造の一部を形成しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2650",
+    "word": "cloth",
+    "meaningJa": "布；布切れ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He wiped the table with a damp cloth.",
+    "exampleJa": "彼は湿った布でテーブルを拭きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な素材や掃除道具を表す基本名詞として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "材料としての布は不可算、拭くための一枚の布などは可算です。衣服を表すclothesとは区別します。"
+  },
+  {
+    "id": "v2651",
+    "word": "clothes",
+    "meaningJa": "衣服；服",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She packed her clothes for the trip.",
+    "exampleJa": "彼女は旅行のために服を荷造りしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常的な持ち物を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数扱いです。一着はa piece of clothingなどで表し、a clothesとはしません。"
+  },
+  {
+    "id": "v2652",
+    "word": "clothing",
+    "meaningJa": "衣類",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The shop sells warm clothing for winter.",
+    "exampleJa": "その店は冬用の暖かい衣類を売っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "衣類全体をまとめて指す基本的な不可算名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "衣類全体を指す不可算名詞です。clothesは複数扱い、clothは布を指します。"
+  },
+  {
+    "id": "v2653",
+    "word": "blouse",
+    "meaningJa": "ブラウス",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She wore a white blouse to the meeting.",
+    "exampleJa": "彼女は会議に白いブラウスを着て行きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な衣服の種類を表す具体的な名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2654",
+    "word": "skirt",
+    "meaningJa": "スカート",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The blue skirt matches her jacket.",
+    "exampleJa": "その青いスカートは彼女のジャケットに合っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な衣服の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2655",
+    "word": "pants",
+    "meaningJa": "ズボン（主に米国）",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "These pants are too long for me.",
+    "exampleJa": "このズボンは私には長すぎます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の衣服を表す基本名詞として学び、地域差を注記する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "米国ではズボン、英国では通常下着を指します。複数扱いで、一着はa pair of pantsです。"
+  },
+  {
+    "id": "v2656",
+    "word": "jeans",
+    "meaningJa": "ジーンズ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He bought a new pair of jeans.",
+    "exampleJa": "彼は新しいジーンズを一本買いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な衣服の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数扱いで、一本はa pair of jeansと表します。"
+  },
+  {
+    "id": "v2657",
+    "word": "shorts",
+    "meaningJa": "半ズボン；ショートパンツ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She wore shorts on the hot summer day.",
+    "exampleJa": "彼女は暑い夏の日に半ズボンをはいていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常的な衣服の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数扱いで、一着はa pair of shortsと表します。"
+  },
+  {
+    "id": "v2658",
+    "word": "jacket",
+    "meaningJa": "ジャケット；上着",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He hung his jacket by the door.",
+    "exampleJa": "彼はドアのそばに上着を掛けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な衣服の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2659",
+    "word": "sweater",
+    "meaningJa": "セーター",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "This sweater keeps me warm on cold mornings.",
+    "exampleJa": "このセーターは寒い朝に暖かくしてくれます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の衣服を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2660",
+    "word": "cardigan",
+    "meaningJa": "カーディガン",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She put on a cardigan before going outside.",
+    "exampleJa": "彼女は外に出る前にカーディガンを着ました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "衣服の具体的な種類を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2661",
+    "word": "suit",
+    "meaningJa": "スーツ；一そろいの服",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He wore a dark suit to the interview.",
+    "exampleJa": "彼は面接に暗い色のスーツを着て行きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "衣服としての身近な基本義を中学標準で学び、動詞も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "都合がよい；似合う",
+        "example": "Would Friday afternoon suit you?",
+        "exampleJa": "金曜日の午後はご都合がよいですか。"
+      }
+    ]
+  },
+  {
+    "id": "v2662",
+    "word": "tie",
+    "meaningJa": "結ぶ；縛る",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please tie the bag with this string.",
+    "exampleJa": "このひもで袋を結んでください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な物を結ぶ基本動作として学び、ネクタイなどの名詞用法も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "過去形・過去分詞はtied、現在分詞はtyingです。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "ネクタイ",
+        "example": "He wore a blue tie with his suit.",
+        "exampleJa": "彼はスーツに青いネクタイを着けていました。"
+      },
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "結びつき；引き分け",
+        "example": "The match ended in a tie.",
+        "exampleJa": "その試合は引き分けに終わりました。"
+      }
+    ]
+  },
+  {
+    "id": "v2663",
+    "word": "stocking",
+    "meaningJa": "ストッキング；長靴下",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She found a small hole in her stocking.",
+    "exampleJa": "彼女はストッキングに小さな穴を見つけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "衣服の細かな種類を描写する高校基礎の名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2664",
+    "word": "boot",
+    "meaningJa": "ブーツ；長靴",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Mud covered the bottom of his boot.",
+    "exampleJa": "泥が彼のブーツの底に付いていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "履物の具体的な種類を示す基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "車の荷物入れ（主に英国）",
+        "example": "We put the bags in the boot of the car.",
+        "exampleJa": "私たちは車のトランクにかばんを入れました。"
+      }
+    ]
+  },
+  {
+    "id": "v2665",
+    "word": "sandal",
+    "meaningJa": "サンダル",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The strap on my sandal broke.",
+    "exampleJa": "私のサンダルのひもが切れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な履物の名前として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2666",
+    "word": "slipper",
+    "meaningJa": "スリッパ；室内履き",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "One slipper was hidden under the bed.",
+    "exampleJa": "片方のスリッパがベッドの下に隠れていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "家の中で使う具体的な物の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2667",
+    "word": "cap",
+    "meaningJa": "帽子；キャップ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He wore a red cap on the hike.",
+    "exampleJa": "彼はハイキングで赤い帽子をかぶっていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な持ち物を表す基本義として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "上限",
+        "example": "The plan sets a cap on annual spending.",
+        "exampleJa": "その計画は年間支出に上限を設けています。"
+      }
+    ]
+  },
+  {
+    "id": "v2668",
+    "word": "belt",
+    "meaningJa": "ベルト；帯",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She fastened the belt around her waist.",
+    "exampleJa": "彼女は腰にベルトを締めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "衣服に関する身近な物の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2669",
+    "word": "sleeve",
+    "meaningJa": "袖",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He rolled up the sleeve of his shirt.",
+    "exampleJa": "彼はシャツの袖をまくりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "衣服の具体的な部分を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2670",
+    "word": "collar",
+    "meaningJa": "襟；首輪",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The collar of his shirt was slightly bent.",
+    "exampleJa": "彼のシャツの襟は少し曲がっていました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "衣服や身近な物の部分を表す基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2671",
+    "word": "zipper",
+    "meaningJa": "ファスナー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The zipper on my bag is stuck.",
+    "exampleJa": "かばんのファスナーが引っかかっています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の衣服やかばんの部品を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主に米国で使い、英国ではzipともいいます。"
+  },
+  {
+    "id": "v2672",
+    "word": "seam",
+    "meaningJa": "縫い目；つなぎ目",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The seam of the bag began to split.",
+    "exampleJa": "かばんの縫い目が裂け始めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物の作りや接合部分を説明する高校基礎の具体語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2673",
+    "word": "needle",
+    "meaningJa": "針",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She put the thread through the needle.",
+    "exampleJa": "彼女は針に糸を通しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "裁縫などで使う身近な道具の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "指針",
+        "example": "The needle on the meter moved slowly.",
+        "exampleJa": "計器の針はゆっくり動きました。"
+      }
+    ]
+  },
+  {
+    "id": "v2674",
+    "word": "stitch",
+    "meaningJa": "一針；縫い目",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He added one final stitch to the torn pocket.",
+    "exampleJa": "彼は破れたポケットに最後の一針を加えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "裁縫や物の作りを具体的に描写する高校基礎の語として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "縫う",
+        "example": "She will stitch the torn fabric together.",
+        "exampleJa": "彼女は裂けた布を縫い合わせます。"
+      }
+    ]
+  },
+  {
+    "id": "v2675",
+    "word": "peel",
+    "meaningJa": "皮をむく",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Please peel the potatoes before cooking them.",
+    "exampleJa": "調理する前にジャガイモの皮をむいてください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "調理の基本的な動作を示す語として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "果物などの皮",
+        "example": "He dropped the orange peel into the bin.",
+        "exampleJa": "彼はオレンジの皮をごみ箱に入れました。"
+      }
+    ]
+  },
+  {
+    "id": "v2676",
+    "word": "slice",
+    "meaningJa": "薄切り；一切れ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She put a slice of cheese on the bread.",
+    "exampleJa": "彼女はパンにチーズを一枚載せました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食事の数量や形を示す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "薄く切る",
+        "example": "Please slice the bread before serving it.",
+        "exampleJa": "出す前にパンを薄く切ってください。"
+      }
+    ]
+  },
+  {
+    "id": "v2677",
+    "word": "chop",
+    "meaningJa": "切り刻む；ぶつ切りにする",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Chop the carrots into small pieces.",
+    "exampleJa": "ニンジンを小さく切ってください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "調理で材料を切る基本動作として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2678",
+    "word": "cereal",
+    "meaningJa": "朝食用シリアル；穀類",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He ate a bowl of cereal before school.",
+    "exampleJa": "彼は学校へ行く前にシリアルを一杯食べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "朝食の身近な食品を基本義として扱い、農業の意味も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "穀物；穀類の作物",
+        "example": "Wheat is an important cereal grown in this region.",
+        "exampleJa": "小麦はこの地域で栽培される重要な穀物です。"
+      }
+    ]
+  },
+  {
+    "id": "v2679",
+    "word": "oats",
+    "meaningJa": "エンバク；オーツ麦",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She cooked oats with milk for breakfast.",
+    "exampleJa": "彼女は朝食にオーツ麦を牛乳で煮ました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "穀物の種類を説明する高校基礎の食・農業語彙として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "穀物としては通常複数形で使います。oat milkのように別の名詞を修飾するときはoatになります。"
+  },
+  {
+    "id": "v2680",
+    "word": "wheat",
+    "meaningJa": "小麦",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The farmer grows wheat in this field.",
+    "exampleJa": "その農家はこの畑で小麦を栽培しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "食料生産や原材料を説明する高校基礎の名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2681",
+    "word": "barley",
+    "meaningJa": "大麦",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The soup contains barley and vegetables.",
+    "exampleJa": "そのスープには大麦と野菜が入っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "食品や農業で穀物の種類を区別する高校基礎の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2682",
+    "word": "lentil",
+    "meaningJa": "レンズ豆",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A lentil is a small seed used in many dishes.",
+    "exampleJa": "レンズ豆は多くの料理で使われる小さな種子です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "世界の食文化や農作物を具体的に説明する標準読解の語として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2683",
+    "word": "garlic",
+    "meaningJa": "ニンニク",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She added garlic to the sauce.",
+    "exampleJa": "彼女はソースにニンニクを加えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "料理の身近な材料を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は不可算です。ニンニク一片はa clove of garlicと表します。"
+  },
+  {
+    "id": "v2684",
+    "word": "ginger",
+    "meaningJa": "ショウガ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He sliced fresh ginger for the soup.",
+    "exampleJa": "彼はスープ用に新鮮なショウガを薄切りにしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な食材や風味を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2685",
+    "word": "spinach",
+    "meaningJa": "ホウレンソウ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We washed the spinach before cooking it.",
+    "exampleJa": "私たちは調理する前にホウレンソウを洗いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な野菜の名前として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2686",
+    "word": "broccoli",
+    "meaningJa": "ブロッコリー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The children grew broccoli in the school garden.",
+    "exampleJa": "子どもたちは学校の菜園でブロッコリーを育てました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な野菜の名前として基本語に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2687",
+    "word": "cauliflower",
+    "meaningJa": "カリフラワー",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She cut the cauliflower into small pieces.",
+    "exampleJa": "彼女はカリフラワーを小さく切り分けました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "食品の種類を具体的に説明する高校基礎の名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2688",
+    "word": "radish",
+    "meaningJa": "ラディッシュ；ダイコン類",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He pulled a red radish from the soil.",
+    "exampleJa": "彼は土から赤いラディッシュを引き抜きました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な野菜の種類を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2689",
+    "word": "peach",
+    "meaningJa": "桃",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She picked a ripe peach from the tree.",
+    "exampleJa": "彼女は木から熟した桃をもぎました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な果物の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2690",
+    "word": "pear",
+    "meaningJa": "梨",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He put a pear in his lunch bag.",
+    "exampleJa": "彼は昼食用の袋に梨を入れました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な果物の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "pair（一組）と同じ発音ですが綴りと意味が異なります。"
+  },
+  {
+    "id": "v2691",
+    "word": "plum",
+    "meaningJa": "スモモ；プラム",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The plum was sweet and juicy.",
+    "exampleJa": "そのプラムは甘くてみずみずしかったです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食生活で使う具体的な果物名として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2692",
+    "word": "grape",
+    "meaningJa": "ブドウ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "A grape rolled off the plate.",
+    "exampleJa": "ブドウが一粒、皿から転がり落ちました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な果物を表す基本名詞として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2693",
+    "word": "strawberry",
+    "meaningJa": "イチゴ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She placed a strawberry on top of the cake.",
+    "exampleJa": "彼女はケーキの上にイチゴを載せました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な果物の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2694",
+    "word": "lemon",
+    "meaningJa": "レモン",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He squeezed a lemon into the bowl.",
+    "exampleJa": "彼はボウルにレモンを絞りました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な果物や調理材料の名前として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2695",
+    "word": "lime",
+    "meaningJa": "ライム",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She added a slice of lime to the water.",
+    "exampleJa": "彼女は水にライムの薄切りを加えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "料理や飲み物で使う具体的な果物名として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2696",
+    "word": "watermelon",
+    "meaningJa": "スイカ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "We shared a watermelon after the picnic.",
+    "exampleJa": "私たちはピクニックの後でスイカを分けて食べました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な果物の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2697",
+    "word": "pineapple",
+    "meaningJa": "パイナップル",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "He cut the pineapple into rings.",
+    "exampleJa": "彼はパイナップルを輪切りにしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な果物の名前として基礎に配置する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2698",
+    "word": "mango",
+    "meaningJa": "マンゴー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The mango was soft and ready to eat.",
+    "exampleJa": "そのマンゴーは柔らかく食べ頃でした。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食文化や日常の食事に関わる具体的な果物名として学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2699",
+    "word": "coconut",
+    "meaningJa": "ココナッツ；ヤシの実",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She sprinkled coconut over the cake.",
+    "exampleJa": "彼女はケーキにココナッツを振りかけました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "食材や植物の実を表す具体的な基本名詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2700",
+    "word": "avocado",
+    "meaningJa": "アボカド",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He added avocado to the salad.",
+    "exampleJa": "彼はサラダにアボカドを加えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の食事に使う具体的な食品名として中学標準で学ぶ。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

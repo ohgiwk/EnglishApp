@@ -13,7 +13,12 @@ import {
 import { examProgress, lastVocabularyLevel } from '../domain/promotion-exam'
 import BaseDialog from '../components/BaseDialog.vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
-import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
+import {
+  vocabularyLevels,
+  vocabularyWords,
+  vocabularyReviewPending,
+  vocabularyExpansionPending
+} from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
 import type { VocabularyQuestionCount, VocabularySessionMode, VocabularyStatus } from '../types'
 
@@ -56,9 +61,6 @@ const selectedQuestionCount = computed({
   get: () => store.s.lastSelectedVocabularyQuestionCount,
   set: (count: VocabularyQuestionCount) => store.setVocabularyQuestionCount(count)
 })
-const selectedQuestionCountLabel = computed(
-  () => questionCounts.find((item) => item.value === selectedQuestionCount.value)?.label
-)
 const statusOptions: { value: VocabularyStatus; label: string; detail: string }[] = [
   { value: 'new', label: '未学習', detail: 'まだ取り組んでいない単語' },
   { value: 'learning', label: '学習中', detail: '練習を始めた単語' },
@@ -71,6 +73,16 @@ const availableWordCount = computed(
       const status = store.s.wordProgress[word.id]?.status ?? 'new'
       return word.level === selectedLevel.value && selectedStatuses.value.includes(status)
     }).length
+)
+const actualQuestionCount = computed(() =>
+  selectedQuestionCount.value === 'all'
+    ? availableWordCount.value
+    : Math.min(selectedQuestionCount.value, availableWordCount.value)
+)
+const selectedQuestionCountLabel = computed(() => `${actualQuestionCount.value}問`)
+const fewerQuestionsAvailable = computed(
+  () =>
+    selectedQuestionCount.value !== 'all' && availableWordCount.value < selectedQuestionCount.value
 )
 function toggleStatus(status: VocabularyStatus) {
   const current = selectedStatuses.value
@@ -131,6 +143,7 @@ onBeforeUnmount(() => {
 })
 function start() {
   store.startVocabularySession(selectedLevel.value, selectedMode.value, selectedQuestionCount.value)
+  if (!store.s.activeVocabularySession) return
   router.push(`/learn/session/${selectedLevel.value}`)
 }
 </script>
@@ -142,6 +155,10 @@ function start() {
       <h1>一緒に覚えよう</h1>
       <p>ひとつ覚えるたび、世界が広がる。</p>
     </header>
+    <p v-if="vocabularyExpansionPending || vocabularyReviewPending" class="word-level-hint">
+      <span v-if="vocabularyExpansionPending">大学受験向けに語彙を拡充中です。</span>
+      <span v-if="vocabularyReviewPending">レベルは一部見直し中です。</span>
+    </p>
 
     <div class="learn-hero">
       <div>
@@ -193,6 +210,10 @@ function start() {
       </p>
       <p v-else-if="store.s.passedExamLevels.includes(selectedLevel)">
         レベル{{ selectedLevel }}の昇級試験は合格済みです。
+      </p>
+      <p v-else-if="!promotionProgress.available">
+        このレベルの昇級試験は語彙の追加を準備中です。20語以上の収録後に受験できます。
+        取得済みの受験資格・合格履歴は保持されます。
       </p>
       <p v-else-if="store.canTakeExam(selectedLevel)">
         レベル{{ selectedLevel }}の昇級試験を受験できます。
@@ -380,6 +401,9 @@ function start() {
         </label>
       </div>
       <p :class="{ empty: availableWordCount === 0 }">対象：{{ availableWordCount }}語</p>
+      <p v-if="fewerQuestionsAvailable && availableWordCount > 0" class="available-count-note">
+        対象の単語数が指定した問題数より少ないため、{{ actualQuestionCount }}問で出題します。
+      </p>
     </fieldset>
 
     <div class="learn-links">

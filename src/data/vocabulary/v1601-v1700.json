@@ -1,0 +1,2233 @@
+[
+  {
+    "id": "v1601",
+    "word": "demonstrate",
+    "meaningJa": "示す；実演する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The experiment will demonstrate how the device works.",
+    "exampleJa": "その実験は装置がどのように動くかを示します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "証拠や実演によって説明する読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1602",
+    "word": "illustrate",
+    "meaningJa": "例で説明する；図解する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "These examples illustrate the main point.",
+    "exampleJa": "これらの例は要点を説明しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "具体例と主張の関係を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1603",
+    "word": "emphasize",
+    "meaningJa": "強調する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The speakers emphasize the importance of cooperation.",
+    "exampleJa": "講演者たちは協力の重要性を強調します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "筆者や話者が重視する点を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1604",
+    "word": "clarify",
+    "meaningJa": "明確にする",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Please clarify the purpose of the survey.",
+    "exampleJa": "調査の目的を明確にしてください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "曖昧な内容や論点を明確にする動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1605",
+    "word": "justify",
+    "meaningJa": "正当化する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The results do not justify the high cost.",
+    "exampleJa": "その結果は高い費用を正当化するものではありません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "判断や行為の妥当性を論じる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1606",
+    "word": "verify",
+    "meaningJa": "検証する；確かめる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "We need to verify the accuracy of the data.",
+    "exampleJa": "私たちはデータの正確さを検証する必要があります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "根拠に基づいて真偽や正確さを調べる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1607",
+    "word": "reject",
+    "meaningJa": "拒否する；退ける",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The committee may reject the proposal.",
+    "exampleJa": "委員会はその提案を退けるかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "提案や考えを受け入れないことを示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1608",
+    "word": "acknowledge",
+    "meaningJa": "認める",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We must acknowledge the limits of this method.",
+    "exampleJa": "私たちはこの方法の限界を認めなければなりません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "事実や問題の存在を認める読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1609",
+    "word": "assert",
+    "meaningJa": "断言する；主張する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The authors assert that the change is necessary.",
+    "exampleJa": "著者たちはその変更が必要だと主張しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "意見を明確かつ強く述べる論説の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1610",
+    "word": "advocate",
+    "meaningJa": "支持する；提唱する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Some researchers advocate a different approach.",
+    "exampleJa": "別の方法を提唱する研究者もいます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "政策や方法への積極的な支持を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "支持者；提唱者",
+        "example": "She is an advocate of equal access to education.",
+        "exampleJa": "彼女は教育を受ける機会の平等を支持しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1611",
+    "word": "criticize",
+    "meaningJa": "批判する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Several residents criticize the new parking rules.",
+    "exampleJa": "何人かの住民が新しい駐車規則を批判しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "意見や制度の問題を指摘する基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1612",
+    "word": "evaluate",
+    "meaningJa": "評価する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The team will evaluate the results next week.",
+    "exampleJa": "チームは来週その結果を評価します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "根拠に基づき価値や効果を判断する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1613",
+    "word": "assess",
+    "meaningJa": "評価する；査定する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Engineers will assess the damage to the bridge.",
+    "exampleJa": "技術者たちは橋の被害を評価します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "状態や程度を調べて判断する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1614",
+    "word": "estimate",
+    "meaningJa": "見積もる；推定する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Can you estimate the cost of the repairs?",
+    "exampleJa": "修理費を見積もれますか。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数量や費用を概算する基本的な読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "見積もり；推定",
+        "example": "The builder gave us an estimate for the repairs.",
+        "exampleJa": "建築業者は私たちに修理の見積もりを出しました。"
+      }
+    ]
+  },
+  {
+    "id": "v1615",
+    "word": "perceive",
+    "meaningJa": "知覚する；捉える",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "People may perceive the same event differently.",
+    "exampleJa": "人々は同じ出来事を異なって捉えることがあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "感覚や認識の違いを説明する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1616",
+    "word": "comprehend",
+    "meaningJa": "理解する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "It takes time to comprehend a complex theory.",
+    "exampleJa": "複雑な理論を理解するには時間がかかります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "複雑な内容の理解を表す読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1617",
+    "word": "grasp",
+    "meaningJa": "しっかりつかむ；理解する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Grasp the handle firmly before lifting the box.",
+    "exampleJa": "箱を持ち上げる前に取っ手をしっかりつかんでください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "具体的な動作から理解の比喩へ広がる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "理解する",
+        "example": "It is difficult to grasp the main idea without an example.",
+        "exampleJa": "例がなければ要点を理解するのは難しいです。"
+      }
+    ]
+  },
+  {
+    "id": "v1618",
+    "word": "specify",
+    "meaningJa": "明示する；指定する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Please specify the date of your arrival.",
+    "exampleJa": "到着日を明示してください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "条件や情報を正確に示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1619",
+    "word": "classify",
+    "meaningJa": "分類する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Scientists classify these plants by their flowers.",
+    "exampleJa": "科学者たちはこれらの植物を花によって分類します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "特徴に基づいて種類を分ける研究上の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1620",
+    "word": "categorize",
+    "meaningJa": "分類する；区分する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We categorize the responses by topic.",
+    "exampleJa": "私たちは回答を話題別に分類します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報や対象を整理する読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1621",
+    "word": "differentiate",
+    "meaningJa": "区別する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The test helps differentiate between the two conditions.",
+    "exampleJa": "その検査は二つの状態を区別するのに役立ちます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "似た対象の差異を見分ける学術的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "differentiate between A and Bで「AとBを区別する」を表します。"
+  },
+  {
+    "id": "v1622",
+    "word": "correlate",
+    "meaningJa": "相関する；関連づける",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The two measurements do not always correlate.",
+    "exampleJa": "二つの測定値は必ずしも相関するとは限りません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "研究結果の関連を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "correlate withで相関関係を表します。相関があることだけでは因果関係があるとは限りません。"
+  },
+  {
+    "id": "v1623",
+    "word": "associate",
+    "meaningJa": "関連づける；連想する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Many people associate this song with summer.",
+    "exampleJa": "多くの人はこの歌から夏を連想します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "事物や概念の結び付きを示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "associate A with Bで「AをBと結び付ける」を表します。"
+  },
+  {
+    "id": "v1624",
+    "word": "attribute",
+    "meaningJa": "原因だと考える；帰する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The researchers attribute the difference to age.",
+    "exampleJa": "研究者たちはその違いの原因を年齢に帰しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "原因や帰属先を説明する抽象的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "attribute A to Bで「Aの原因をBに帰する」を表します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "特性；属性",
+        "example": "Patience is a useful attribute for a teacher.",
+        "exampleJa": "忍耐力は教師にとって役立つ特性です。"
+      }
+    ]
+  },
+  {
+    "id": "v1625",
+    "word": "derive",
+    "meaningJa": "得る；由来する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Many English words derive from Latin.",
+    "exampleJa": "多くの英単語はラテン語に由来します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "起源や情報の出所を説明する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1626",
+    "word": "originate",
+    "meaningJa": "始まる；起こる；由来する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Where did this custom originate?",
+    "exampleJa": "この習慣はどこで始まったのですか。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物事の起源や発生を表す読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1627",
+    "word": "stem",
+    "meaningJa": "生じる；由来する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "These problems stem from poor communication.",
+    "exampleJa": "これらの問題は意思疎通の不足から生じています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "原因と結果のつながりを示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "動詞ではstem fromで「〜から生じる」を表します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "茎",
+        "example": "The flower has a long stem.",
+        "exampleJa": "その花には長い茎があります。"
+      }
+    ]
+  },
+  {
+    "id": "v1628",
+    "word": "emerge",
+    "meaningJa": "現れる；明らかになる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "New ideas often emerge during a discussion.",
+    "exampleJa": "話し合いの最中に新しい考えが現れることはよくあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "新たな事物や事実の出現を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1629",
+    "word": "generate",
+    "meaningJa": "生み出す；発生させる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The panels generate electricity from sunlight.",
+    "exampleJa": "そのパネルは太陽光から電気を生み出します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "エネルギーや成果を生む過程を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1630",
+    "word": "trigger",
+    "meaningJa": "引き起こす；きっかけとなる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Heavy rain can trigger a landslide.",
+    "exampleJa": "大雨は地滑りを引き起こすことがあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "出来事や反応の直接のきっかけを示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "引き金；きっかけ",
+        "example": "The argument was a trigger for wider debate.",
+        "exampleJa": "その口論はより広い議論のきっかけとなりました。"
+      }
+    ]
+  },
+  {
+    "id": "v1631",
+    "word": "induce",
+    "meaningJa": "引き起こす；誘発する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The experiment may induce a change in the material.",
+    "exampleJa": "その実験は物質に変化を引き起こすかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "研究や因果関係の説明で変化をもたらす動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1632",
+    "word": "facilitate",
+    "meaningJa": "促進する；容易にする",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Clear instructions facilitate communication.",
+    "exampleJa": "明確な指示は意思疎通を円滑にします。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "活動や過程を容易にする抽象的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1633",
+    "word": "promote",
+    "meaningJa": "促進する；推進する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The program aims to promote cultural exchange.",
+    "exampleJa": "その事業は文化交流を促進することを目指しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "活動や変化を進める基本的な読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "昇進させる",
+        "example": "The company plans to promote her to manager.",
+        "exampleJa": "その会社は彼女を管理職に昇進させる予定です。"
+      }
+    ]
+  },
+  {
+    "id": "v1634",
+    "word": "enhance",
+    "meaningJa": "高める；向上させる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The new lighting will enhance the display.",
+    "exampleJa": "新しい照明は展示をより引き立てるでしょう。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "質や効果の向上を説明する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1635",
+    "word": "reinforce",
+    "meaningJa": "強化する；補強する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The new findings reinforce the earlier conclusion.",
+    "exampleJa": "新たな研究結果は以前の結論を補強しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "根拠や構造をさらに強くする動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1636",
+    "word": "strengthen",
+    "meaningJa": "強くする；強化する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Regular practice can strengthen your skills.",
+    "exampleJa": "定期的な練習は技能を高めることができます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "能力や関係が強くなる変化を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1637",
+    "word": "weaken",
+    "meaningJa": "弱める；弱くなる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Cracks can weaken the structure of a building.",
+    "exampleJa": "ひびは建物の構造を弱めることがあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "力や構造の低下を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1638",
+    "word": "undermine",
+    "meaningJa": "徐々に損なう；弱体化させる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "False information can undermine public trust.",
+    "exampleJa": "誤った情報は人々の信頼を損なうことがあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "基盤や信頼が弱まる過程を示す論説の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1639",
+    "word": "inhibit",
+    "meaningJa": "抑制する；妨げる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "A lack of light can inhibit plant growth.",
+    "exampleJa": "光の不足は植物の生長を妨げることがあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生物や心理の働きを抑える学術的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1640",
+    "word": "restrict",
+    "meaningJa": "制限する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The rules restrict access to the laboratory.",
+    "exampleJa": "その規則は実験室への立ち入りを制限しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "行動や範囲への制約を説明する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1641",
+    "word": "regulate",
+    "meaningJa": "規制する；調整する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The device helps regulate the flow of water.",
+    "exampleJa": "その装置は水の流れを調整するのに役立ちます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "制度や仕組みで働きを調整する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1642",
+    "word": "impose",
+    "meaningJa": "課す；押し付ける",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The school may impose limits on phone use.",
+    "exampleJa": "学校は電話の使用に制限を課すかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "規則や負担を相手に課す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "impose A on Bで「AをBに課す」を表します。"
+  },
+  {
+    "id": "v1643",
+    "word": "compel",
+    "meaningJa": "強いる；余儀なくさせる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The evidence may compel us to revise the theory.",
+    "exampleJa": "その証拠は私たちに理論の修正を迫るかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "強い理由や力による行動の強制を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "compel 人 to doで「人に〜することを強いる」を表します。"
+  },
+  {
+    "id": "v1644",
+    "word": "oblige",
+    "meaningJa": "義務づける；余儀なくさせる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The rules oblige visitors to wear a badge.",
+    "exampleJa": "その規則は訪問者にバッジの着用を義務づけています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "規則や事情が行動を必要にすることを示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "oblige 人 to doで「人に〜することを義務づける」を表します。"
+  },
+  {
+    "id": "v1645",
+    "word": "discourage",
+    "meaningJa": "落胆させる；思いとどまらせる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Do not let one mistake discourage you.",
+    "exampleJa": "一度の間違いで落胆しないでください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "意欲の低下や行為の抑止を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "discourage 人 from doingで「人が〜するのを思いとどまらせる」を表します。"
+  },
+  {
+    "id": "v1646",
+    "word": "motivate",
+    "meaningJa": "動機づける；意欲を起こさせる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Clear goals can motivate students to study.",
+    "exampleJa": "明確な目標は生徒の学習意欲を高めることがあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行動の理由や意欲を説明する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1647",
+    "word": "stimulate",
+    "meaningJa": "刺激する；促す",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The questions stimulate further discussion.",
+    "exampleJa": "それらの質問はさらに議論を促します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "活動や反応を活発にする動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1648",
+    "word": "inspire",
+    "meaningJa": "奮い立たせる；着想を与える",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Her story may inspire others to try again.",
+    "exampleJa": "彼女の話はほかの人たちを再挑戦へと奮い立たせるかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人の意欲や創造性への影響を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1649",
+    "word": "ensure",
+    "meaningJa": "確実にする",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Check the figures to ensure accuracy.",
+    "exampleJa": "正確さを確保するために数値を確認してください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "必要な結果が実現するようにする動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1650",
+    "word": "assure",
+    "meaningJa": "保証する；安心させる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "I can assure you that the file is safe.",
+    "exampleJa": "そのファイルが安全であることを保証できます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人に確信を与える発言を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "assure 人 that ...で人に確信を与えます。ensureは結果を確実にすることを表します。"
+  },
+  {
+    "id": "v1651",
+    "word": "guarantee",
+    "meaningJa": "保証する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Hard work does not always guarantee success.",
+    "exampleJa": "努力が必ずしも成功を保証するわけではありません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "結果や品質を保証する基本的な読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "保証；保証書",
+        "example": "The watch comes with a one-year guarantee.",
+        "exampleJa": "その時計には一年間の保証が付いています。"
+      }
+    ]
+  },
+  {
+    "id": "v1652",
+    "word": "attain",
+    "meaningJa": "達成する；到達する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The team hopes to attain its goal this year.",
+    "exampleJa": "チームは今年その目標を達成することを望んでいます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "目標や水準への到達を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1653",
+    "word": "fulfill",
+    "meaningJa": "果たす；満たす",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We must fulfill our promise to the community.",
+    "exampleJa": "私たちは地域社会への約束を果たさなければなりません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "約束や必要条件を満たすことを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "イギリス英語ではfulfilという綴りも使います。"
+  },
+  {
+    "id": "v1654",
+    "word": "retain",
+    "meaningJa": "保持する；維持する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "This material can retain heat for a long time.",
+    "exampleJa": "この素材は長時間熱を保つことができます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "性質や情報を失わずに保つことを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1655",
+    "word": "sustain",
+    "meaningJa": "維持する；支える",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The small farm cannot sustain a large population.",
+    "exampleJa": "その小さな農場では多くの人口を養うことはできません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "活動や生命を長期に支えることを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1656",
+    "word": "endure",
+    "meaningJa": "耐える；持ちこたえる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The travelers had to endure the extreme cold.",
+    "exampleJa": "旅行者たちは厳しい寒さに耐えなければなりませんでした。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "困難な状態への耐久を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1657",
+    "word": "undergo",
+    "meaningJa": "経験する；受ける",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The building will undergo major repairs.",
+    "exampleJa": "その建物は大規模な修理を受けます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "変化や処置を受ける対象に注目する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1658",
+    "word": "encounter",
+    "meaningJa": "遭遇する；出会う",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Travelers sometimes encounter unexpected problems.",
+    "exampleJa": "旅行者は時に予期しない問題に遭遇します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "予期しない人や問題との出会いを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "遭遇；出会い",
+        "example": "An unexpected encounter changed her plans.",
+        "exampleJa": "思いがけない出会いが彼女の計画を変えました。"
+      }
+    ]
+  },
+  {
+    "id": "v1659",
+    "word": "confront",
+    "meaningJa": "直面する；立ち向かう",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We must confront the problem directly.",
+    "exampleJa": "私たちはその問題に正面から向き合わなければなりません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "問題や対立に向き合う行為を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1660",
+    "word": "cope",
+    "meaningJa": "対処する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The town needs help to cope with the flood.",
+    "exampleJa": "その町は洪水に対処するための支援を必要としています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "困難を何とか処理することを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "cope withで「〜に対処する」を表します。"
+  },
+  {
+    "id": "v1661",
+    "word": "tackle",
+    "meaningJa": "取り組む",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The group will tackle the issue of food waste.",
+    "exampleJa": "その団体は食品廃棄の問題に取り組みます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "難しい問題に積極的に取り組む動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1662",
+    "word": "resolve",
+    "meaningJa": "解決する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The two sides hope to resolve the dispute peacefully.",
+    "exampleJa": "双方はその争いを平和的に解決することを望んでいます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "対立や難題を解決へ導く動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "決意する",
+        "example": "We must resolve to prevent the same mistake.",
+        "exampleJa": "私たちは同じ間違いを防ぐ決意をしなければなりません。"
+      }
+    ]
+  },
+  {
+    "id": "v1663",
+    "word": "eliminate",
+    "meaningJa": "取り除く；排除する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The new design will eliminate unnecessary steps.",
+    "exampleJa": "新しい設計は不要な手順をなくします。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "問題の原因や無駄を完全に除く動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1664",
+    "word": "exclude",
+    "meaningJa": "除外する；締め出す",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The prices exclude the cost of delivery.",
+    "exampleJa": "その価格には配送料が含まれていません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "範囲に含めないことを示す論理上重要な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1665",
+    "word": "incorporate",
+    "meaningJa": "組み入れる；取り込む",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The plan will incorporate suggestions from residents.",
+    "exampleJa": "その計画には住民からの提案が組み入れられます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "要素を全体の一部に取り込む抽象的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1666",
+    "word": "integrate",
+    "meaningJa": "統合する；一体化する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The project aims to integrate art and science.",
+    "exampleJa": "その計画は芸術と科学を統合することを目指しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "異なる要素を一体として機能させる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1667",
+    "word": "compose",
+    "meaningJa": "作曲する；構成する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "She likes to compose music for the piano.",
+    "exampleJa": "彼女はピアノ曲を作曲するのが好きです。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "創作を基本義とし構成を表す読解用法にも広がる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "構成する",
+        "example": "Several different materials compose the outer layer.",
+        "exampleJa": "いくつかの異なる素材が外側の層を構成しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1668",
+    "word": "constitute",
+    "meaningJa": "構成する；〜に相当する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "These changes constitute a major improvement.",
+    "exampleJa": "これらの変更は大きな改善に相当します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "要素と全体や評価上の位置付けを表す抽象動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1669",
+    "word": "comprise",
+    "meaningJa": "〜から成る；含む",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The collection will comprise fifty paintings.",
+    "exampleJa": "そのコレクションは五十点の絵画から成る予定です。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "全体と構成要素の関係を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "全体を主語にし、構成要素を目的語に置けます。consist ofとの構文の違いに注意します。"
+  },
+  {
+    "id": "v1670",
+    "word": "transform",
+    "meaningJa": "一変させる；変形させる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The new railway will transform the region.",
+    "exampleJa": "新しい鉄道はその地域を一変させるでしょう。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "形や性質の大きな変化を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1671",
+    "word": "convert",
+    "meaningJa": "変える；転換する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The device can convert sunlight into electricity.",
+    "exampleJa": "その装置は太陽光を電気に変えることができます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "形態や用途の転換を説明する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "convert A into Bで「AをBに変える」を表します。"
+  },
+  {
+    "id": "v1672",
+    "word": "modify",
+    "meaningJa": "修正する；変更する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We need to modify the design slightly.",
+    "exampleJa": "私たちは設計を少し修正する必要があります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "一部を調整して変更することを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1673",
+    "word": "adjust",
+    "meaningJa": "調整する；適応する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Please adjust the height of the chair.",
+    "exampleJa": "椅子の高さを調整してください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な調整から環境への適応までを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "適応する；慣れる",
+        "example": "It takes time to adjust to a new school.",
+        "exampleJa": "新しい学校に慣れるには時間がかかります。"
+      }
+    ]
+  },
+  {
+    "id": "v1674",
+    "word": "alter",
+    "meaningJa": "変える；変わる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "New evidence may alter our understanding of the event.",
+    "exampleJa": "新しい証拠によって、その出来事への私たちの理解が変わるかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "性質や状況の変更を表す読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1675",
+    "word": "vary",
+    "meaningJa": "異なる；変動する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Prices vary from store to store.",
+    "exampleJa": "価格は店によって異なります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "対象間の違いや変動を説明する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1676",
+    "word": "differ",
+    "meaningJa": "異なる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The two reports differ in several important ways.",
+    "exampleJa": "二つの報告書はいくつかの重要な点で異なります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "比較や対比で違いを示す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "differ fromで「〜と異なる」、differ inで「〜の点で異なる」を表します。"
+  },
+  {
+    "id": "v1677",
+    "word": "evolve",
+    "meaningJa": "進化する；発展する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Languages continue to evolve over time.",
+    "exampleJa": "言語は時間とともに変化し続けます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生物や制度が徐々に変化する過程を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1678",
+    "word": "proceed",
+    "meaningJa": "進む；続行する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We cannot proceed without more information.",
+    "exampleJa": "さらに情報がなければ、私たちは先に進めません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "手順や活動を先へ進める動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1679",
+    "word": "precede",
+    "meaningJa": "先行する；先に起こる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "A short introduction will precede the discussion.",
+    "exampleJa": "討論の前に短い導入があります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "時間や順序の前後関係を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1680",
+    "word": "exceed",
+    "meaningJa": "超える",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The final cost may exceed our budget.",
+    "exampleJa": "最終的な費用は私たちの予算を超えるかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "数値や基準を超えることを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1681",
+    "word": "surpass",
+    "meaningJa": "上回る；しのぐ",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The results surpass our expectations.",
+    "exampleJa": "その結果は私たちの期待を上回っています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "能力や成果が比較対象を上回ることを示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1682",
+    "word": "abandon",
+    "meaningJa": "捨てる；断念する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "They had to abandon the plan because of the storm.",
+    "exampleJa": "彼らは嵐のため計画を断念しなければなりませんでした。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "計画や対象を手放すことを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1683",
+    "word": "abolish",
+    "meaningJa": "廃止する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The committee voted to abolish the old rule.",
+    "exampleJa": "委員会は古い規則を廃止することを投票で決めました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "制度や慣習をなくす政策上の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1684",
+    "word": "prohibit",
+    "meaningJa": "禁止する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The rules prohibit smoking inside the building.",
+    "exampleJa": "その規則は建物内での喫煙を禁止しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "規則による行動の禁止を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "prohibit 人 from doingで「人が〜するのを禁止する」を表します。"
+  },
+  {
+    "id": "v1685",
+    "word": "tolerate",
+    "meaningJa": "我慢する；容認する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The manager will not tolerate rude behavior.",
+    "exampleJa": "その管理者は失礼な振る舞いを容認しません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "不快なものへの許容を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1686",
+    "word": "resist",
+    "meaningJa": "抵抗する；こらえる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Some people resist changes to their daily routine.",
+    "exampleJa": "日課の変更に抵抗する人もいます。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "力や変化への抵抗を表す基本的な読解動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1687",
+    "word": "oppose",
+    "meaningJa": "反対する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Many residents oppose the construction of the road.",
+    "exampleJa": "多くの住民がその道路の建設に反対しています。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "意見や計画への反対を直接示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1688",
+    "word": "consent",
+    "meaningJa": "同意する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "All participants must consent to the interview.",
+    "exampleJa": "参加者全員が面接に同意しなければなりません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "許可や自発的な同意を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "consent toで「〜に同意する」を表します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "同意；承諾",
+        "example": "They used the photograph with her consent.",
+        "exampleJa": "彼らは彼女の同意を得てその写真を使用しました。"
+      }
+    ]
+  },
+  {
+    "id": "v1689",
+    "word": "comply",
+    "meaningJa": "従う；応じる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "All visitors must comply with the safety rules.",
+    "exampleJa": "訪問者全員が安全規則に従わなければなりません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "要求や規則への遵守を示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "comply withで「規則・要求などに従う」を表します。"
+  },
+  {
+    "id": "v1690",
+    "word": "obey",
+    "meaningJa": "従う",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "Drivers must obey the traffic signals.",
+    "exampleJa": "運転者は交通信号に従わなければなりません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "指示や規則に従う基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1691",
+    "word": "violate",
+    "meaningJa": "違反する；侵害する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The new policy must not violate basic rights.",
+    "exampleJa": "新しい方針は基本的な権利を侵害してはいけません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "規則違反や権利侵害を論じる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1692",
+    "word": "interrupt",
+    "meaningJa": "中断する；遮る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Please do not interrupt the speaker.",
+    "exampleJa": "話し手の話を遮らないでください。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "会話や活動を途中で止める動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1693",
+    "word": "interfere",
+    "meaningJa": "干渉する；妨げる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Loud music can interfere with sleep.",
+    "exampleJa": "大きな音の音楽は睡眠を妨げることがあります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "活動への妨害や不必要な介入を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1694",
+    "word": "intervene",
+    "meaningJa": "介入する；仲裁する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The teacher had to intervene in the argument.",
+    "exampleJa": "先生はその口論の仲裁に入らなければなりませんでした。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "問題の解決のため途中に入る動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1695",
+    "word": "disrupt",
+    "meaningJa": "混乱させる；中断させる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Heavy snow may disrupt train services.",
+    "exampleJa": "大雪は列車の運行を乱すかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "正常な活動の流れを乱す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1696",
+    "word": "deteriorate",
+    "meaningJa": "悪化する；劣化する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The condition of the road may deteriorate in winter.",
+    "exampleJa": "道路の状態は冬に悪化するかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "状態や質が次第に悪くなることを示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1697",
+    "word": "decay",
+    "meaningJa": "腐る；衰える",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Fallen leaves decay on the forest floor.",
+    "exampleJa": "落ち葉は林床で腐敗します。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "自然物や構造の衰退を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1698",
+    "word": "collapse",
+    "meaningJa": "崩れる；崩壊する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The old wall could collapse in a strong wind.",
+    "exampleJa": "その古い壁は強風で崩れる可能性があります。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "構造や制度が急に崩れることを示す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "崩壊；倒壊",
+        "example": "The collapse of the bridge blocked the road.",
+        "exampleJa": "橋の崩落によって道路がふさがれました。"
+      }
+    ]
+  },
+  {
+    "id": "v1699",
+    "word": "diminish",
+    "meaningJa": "減少する；減らす",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The noise began to diminish as the train moved away.",
+    "exampleJa": "電車が遠ざかるにつれて騒音は小さくなり始めました。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "程度や重要性の減少を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1700",
+    "word": "shrink",
+    "meaningJa": "縮む；縮小する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "This shirt may shrink in hot water.",
+    "exampleJa": "このシャツはお湯で縮むかもしれません。",
+    "category": "動作",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な物や規模が小さくなる変化を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "過去形はshrank、過去分詞はshrunkです。"
+  }
+]

@@ -1,0 +1,2203 @@
+[
+  {
+    "id": "v3601",
+    "word": "cash",
+    "meaningJa": "現金",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "I paid for the ticket in cash.",
+    "exampleJa": "私は切符の代金を現金で払いました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "買い物の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3602",
+    "word": "coin",
+    "meaningJa": "硬貨；コイン",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "A coin fell from his pocket.",
+    "exampleJa": "彼のポケットから硬貨が落ちました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近なお金の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3603",
+    "word": "banknote",
+    "meaningJa": "紙幣",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She put a banknote in her wallet.",
+    "exampleJa": "彼女は財布に紙幣を入れました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常のお金の形を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "米国では紙幣をbillともいいます。"
+  },
+  {
+    "id": "v3604",
+    "word": "euro",
+    "meaningJa": "ユーロ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The postcard costs one euro.",
+    "exampleJa": "その絵はがきは一ユーロです。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "通貨の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3605",
+    "word": "yen",
+    "meaningJa": "円；日本の通貨単位",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The pencil costs one hundred yen.",
+    "exampleJa": "その鉛筆は百円です。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な通貨の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "金額を表すときの複数形もyenです。"
+  },
+  {
+    "id": "v3606",
+    "word": "penny",
+    "meaningJa": "ペニー；少額の硬貨",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He found a penny on the pavement.",
+    "exampleJa": "彼は歩道で一ペニー硬貨を見つけました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "海外の生活や物語に出る貨幣語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "英国の金額では複数形pence、個々の硬貨ではpenniesを使います。米国では一セント硬貨をpennyとも呼びます。"
+  },
+  {
+    "id": "v3607",
+    "word": "payment",
+    "meaningJa": "支払い；支払金",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Payment is due at the end of the month.",
+    "exampleJa": "支払いは月末が期限です。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "買い物や仕事の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3608",
+    "word": "payable",
+    "meaningJa": "支払うべき；支払い可能な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The fee is payable in advance.",
+    "exampleJa": "料金は前払いです。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "取引の条件を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3609",
+    "word": "overdue",
+    "meaningJa": "期限を過ぎた；遅れている",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The library book is overdue.",
+    "exampleJa": "図書館の本は返却期限を過ぎています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "期限や遅れを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3610",
+    "word": "receipt",
+    "meaningJa": "領収書；受領",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Please keep your receipt.",
+    "exampleJa": "領収書を保管してください。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の買い物で使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "pは通常発音しません。領収書のほか、受け取ることを表す受領の意味もあります。"
+  },
+  {
+    "id": "v3611",
+    "word": "invoice",
+    "meaningJa": "請求書",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The supplier sent an invoice for the equipment.",
+    "exampleJa": "供給業者は設備の請求書を送りました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "仕事上の取引を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3612",
+    "word": "refund",
+    "meaningJa": "払い戻し；返金",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The customer requested a refund.",
+    "exampleJa": "客は払い戻しを求めました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常の取引の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3613",
+    "word": "discount",
+    "meaningJa": "割引",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The shop offers a discount to students.",
+    "exampleJa": "その店は学生に割引を提供しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な買い物の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜を重視しない；割り引いて考える",
+        "example": "We should not discount the possibility of error.",
+        "exampleJa": "私たちは誤りの可能性を軽視すべきではありません。"
+      }
+    ]
+  },
+  {
+    "id": "v3614",
+    "word": "coupon",
+    "meaningJa": "割引券；クーポン",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Use this coupon when you buy the book.",
+    "exampleJa": "本を買うときにこの割引券を使ってください。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "買い物や案内を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3615",
+    "word": "voucher",
+    "meaningJa": "引換券；商品券",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She received a gift voucher for the bookstore.",
+    "exampleJa": "彼女は書店の商品券を受け取りました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "買い物の仕組みを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3616",
+    "word": "deposit",
+    "meaningJa": "預金；手付金",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "They paid a small deposit to reserve the room.",
+    "exampleJa": "彼らは部屋を予約するために少額の手付金を払いました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生活や取引で使う多義名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "堆積物；鉱床",
+        "example": "The river left a deposit of sand.",
+        "exampleJa": "川は砂の堆積物を残しました。"
+      }
+    ]
+  },
+  {
+    "id": "v3617",
+    "word": "withdrawal",
+    "meaningJa": "引き出し；撤退；取り下げ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The bank recorded the withdrawal from the account.",
+    "exampleJa": "銀行は口座からの引き出しを記録しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "取り出すことや撤退を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3618",
+    "word": "withdraw",
+    "meaningJa": "〜を引き出す；撤退する；取り下げる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "She decided to withdraw her application.",
+    "exampleJa": "彼女は申請を取り下げることにしました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会や取引で使う多義動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "過去形はwithdrew、過去分詞はwithdrawnです。"
+  },
+  {
+    "id": "v3619",
+    "word": "debit",
+    "meaningJa": "口座からの引き落とし；借方",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The statement shows a debit for the monthly fee.",
+    "exampleJa": "明細には月額料金の引き落としが記されています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "会計や口座の記録を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3620",
+    "word": "credit",
+    "meaningJa": "信用；功績；単位",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The team deserves credit for its hard work.",
+    "exampleJa": "チームは懸命な努力に対して評価を受けるに値します。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "功績と信用を表す多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "履修単位",
+        "example": "The course is worth one credit.",
+        "exampleJa": "その授業は一単位に相当します。"
+      }
+    ]
+  },
+  {
+    "id": "v3621",
+    "word": "creditor",
+    "meaningJa": "債権者；貸し手",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The company reached an agreement with its main creditor.",
+    "exampleJa": "その会社は主な債権者と合意に達しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "債権関係を読む経済語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3622",
+    "word": "debtor",
+    "meaningJa": "債務者；借り手",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The debtor promised to repay the loan.",
+    "exampleJa": "借り手は融資を返済すると約束しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "債務関係を読む経済語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3623",
+    "word": "repayment",
+    "meaningJa": "返済",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The agreement sets out the repayment schedule.",
+    "exampleJa": "その合意には返済日程が記されています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "取引の過程を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3624",
+    "word": "repay",
+    "meaningJa": "〜を返済する；報いる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "I will repay the money next week.",
+    "exampleJa": "私は来週そのお金を返します。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "借りたものを返す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3625",
+    "word": "installment",
+    "meaningJa": "分割払いの一回分；連載の一回分",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The first installment is due next month.",
+    "exampleJa": "分割払いの初回分は来月が支払期限です。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "分割した支払いや作品を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "instalmentという綴りもあります。"
+  },
+  {
+    "id": "v3626",
+    "word": "fee",
+    "meaningJa": "料金；手数料；謝礼",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The course fee includes all materials.",
+    "exampleJa": "講座の料金にはすべての教材が含まれています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な費用の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3627",
+    "word": "toll",
+    "meaningJa": "通行料；犠牲者数",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Drivers pay a toll to cross the bridge.",
+    "exampleJa": "運転者は橋を渡るために通行料を払います。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "交通や社会報道の多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3628",
+    "word": "expensive",
+    "meaningJa": "高価な；費用のかかる",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "This bag is too expensive for me.",
+    "exampleJa": "このかばんは私には高価すぎます。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常的な値段を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3629",
+    "word": "inexpensive",
+    "meaningJa": "安価な；費用のかからない",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "We found an inexpensive place to stay.",
+    "exampleJa": "私たちは安価に泊まれる場所を見つけました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な値段を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3630",
+    "word": "savings",
+    "meaningJa": "貯金；節約した額",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She used her savings to buy a bicycle.",
+    "exampleJa": "彼女は貯金を使って自転車を買いました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生活と家計の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "貯金や節約額はこの複数形で使うのが一般的です。saveの活用形として数えていません。"
+  },
+  {
+    "id": "v3631",
+    "word": "frugal",
+    "meaningJa": "倹約的な；質素な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "They live a frugal life in the countryside.",
+    "exampleJa": "彼らは田舎で質素な生活を送っています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "資源やお金の使い方を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3632",
+    "word": "economical",
+    "meaningJa": "経済的な；無駄のない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The new machine is economical to run.",
+    "exampleJa": "新しい機械は運転費用が安く済みます。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "資源消費の効率を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "お金や資源を無駄にしないことです。economicは「経済の／経済に関する」。"
+  },
+  {
+    "id": "v3633",
+    "word": "financial",
+    "meaningJa": "財政の；金融の；金銭上の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The project received financial support.",
+    "exampleJa": "その計画は資金面の支援を受けました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会や生活の資金を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3634",
+    "word": "fund",
+    "meaningJa": "資金；基金",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The school set up a fund for new books.",
+    "exampleJa": "学校は新しい本のための基金を設けました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "活動を支える資金の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3635",
+    "word": "investor",
+    "meaningJa": "投資家；出資者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The investor asked about the business plan.",
+    "exampleJa": "投資家は事業計画について質問しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "経済活動の人物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3636",
+    "word": "invest",
+    "meaningJa": "投資する；〜を投入する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The city will invest in public transport.",
+    "exampleJa": "市は公共交通に投資します。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "資金や労力の投入を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3637",
+    "word": "equity",
+    "meaningJa": "公平；株主資本；持分",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The policy aims to promote equity in education.",
+    "exampleJa": "その政策は教育の公平を促進することを目指しています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会と経済の異なる文脈で使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "株主資本；持分",
+        "example": "The report shows the value of shareholder equity.",
+        "exampleJa": "その報告書は株主資本の額を示しています。"
+      }
+    ]
+  },
+  {
+    "id": "v3638",
+    "word": "stake",
+    "meaningJa": "利害関係；出資持分；くい",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Residents have a stake in the future of the town.",
+    "exampleJa": "住民は町の将来に利害関係を持っています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "関与や利益の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3639",
+    "word": "insure",
+    "meaningJa": "〜に保険をかける",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "They decided to insure the house.",
+    "exampleJa": "彼らは家に保険をかけることにしました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生活と保険に関する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "保険をかける意味で使います。ensureは「確実にする」、assureは人に「保証する／安心させる」などの意味です。"
+  },
+  {
+    "id": "v3640",
+    "word": "premium",
+    "meaningJa": "保険料；割増金",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The annual premium is listed in the document.",
+    "exampleJa": "年間の保険料はその文書に記載されています。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "取引の料金を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3641",
+    "word": "bonus",
+    "meaningJa": "賞与；追加の利益",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The workers received a bonus at the end of the year.",
+    "exampleJa": "従業員は年末に賞与を受け取りました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕事や利益を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3642",
+    "word": "commission",
+    "meaningJa": "委員会；手数料；依頼",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The commission published its findings.",
+    "exampleJa": "委員会は調査結果を公表しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "組織と取引の多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3643",
+    "word": "compensation",
+    "meaningJa": "補償；報酬",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The company offered compensation for the damage.",
+    "exampleJa": "その会社は損害に対する補償を申し出ました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "損失への対応や報酬を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3644",
+    "word": "compensate",
+    "meaningJa": "〜を補償する；埋め合わせる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The payment will compensate workers for lost wages.",
+    "exampleJa": "その支払いは労働者の失われた賃金を補償します。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "損失の埋め合わせを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3645",
+    "word": "grant",
+    "meaningJa": "〜を与える；認める",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The school may grant permission for the event.",
+    "exampleJa": "学校はその催しの許可を与えるかもしれません。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "権利や承認を与える動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "助成金；給付金",
+        "example": "The team received a research grant.",
+        "exampleJa": "チームは研究助成金を受け取りました。"
+      }
+    ]
+  },
+  {
+    "id": "v3646",
+    "word": "affluent",
+    "meaningJa": "裕福な；豊かな",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The survey compared affluent and poorer neighborhoods.",
+    "exampleJa": "その調査は裕福な地区とより貧しい地区を比較しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "社会の富の分布を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3647",
+    "word": "wealthy",
+    "meaningJa": "裕福な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "A wealthy family donated the building.",
+    "exampleJa": "裕福な一家がその建物を寄贈しました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "経済的な状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3648",
+    "word": "prosperous",
+    "meaningJa": "繁栄した；裕福な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Trade helped the town become prosperous.",
+    "exampleJa": "貿易はその町が繁栄する助けになりました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地域や社会の豊かさを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3649",
+    "word": "luxury",
+    "meaningJa": "ぜいたく；ぜいたく品",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A private garden is a luxury in this crowded city.",
+    "exampleJa": "この混み合った都市では個人の庭はぜいたくなものです。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "必要を超える豊かさを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3650",
+    "word": "goods",
+    "meaningJa": "商品；品物",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The truck delivered goods to the store.",
+    "exampleJa": "トラックは店に商品を届けました。",
+    "category": "社会・経済",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の流通を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "商品・品物の意味では複数扱いです。good（よい）の単なる複数形ではありません。"
+  },
+  {
+    "id": "v3651",
+    "word": "zip",
+    "meaningJa": "ファスナー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The zip on my bag is broken.",
+    "exampleJa": "私のかばんのファスナーは壊れています。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な衣服やかばんの部品を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "ファスナーの意味で、特にイギリス英語で使われます。zipperも同じ意味です。"
+  },
+  {
+    "id": "v3652",
+    "word": "hood",
+    "meaningJa": "フード；頭巾",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She pulled her hood over her head.",
+    "exampleJa": "彼女はフードを引っ張って頭にかぶりました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "衣服の部分を表す生活語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "（車の）ボンネット",
+        "example": "He opened the hood to inspect the engine.",
+        "exampleJa": "彼はエンジンを調べるためにボンネットを開けました。"
+      }
+    ],
+    "usageNote": "車のボンネットを指すhoodは主にアメリカ英語で、イギリス英語ではbonnetといいます。"
+  },
+  {
+    "id": "v3653",
+    "word": "costume",
+    "meaningJa": "衣装；仮装の服",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He wore a pirate costume to the party.",
+    "exampleJa": "彼はパーティーに海賊の衣装を着ていきました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行事や文化の説明に使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3654",
+    "word": "outfit",
+    "meaningJa": "ひとそろいの服",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She chose a simple outfit for the interview.",
+    "exampleJa": "彼女は面接用に簡素な服の組み合わせを選びました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "衣服の組み合わせをまとめて表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3655",
+    "word": "garment",
+    "meaningJa": "衣服（の一着）",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Each garment has a label inside.",
+    "exampleJa": "それぞれの衣服には内側にラベルがあります。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "衣料品や産業に関する説明文の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3656",
+    "word": "textile",
+    "meaningJa": "織物；布地",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The museum displays a textile made by hand.",
+    "exampleJa": "その博物館は手作りの織物を展示しています。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "産業や文化史を読むための素材語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3657",
+    "word": "linen",
+    "meaningJa": "麻布；リネン",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "This shirt is made of linen.",
+    "exampleJa": "このシャツは麻布でできています。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "衣服の素材を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "素材としての麻布を指すほか、シーツ・テーブルクロスなどの布製品をまとめて指すこともあります。"
+  },
+  {
+    "id": "v3658",
+    "word": "nylon",
+    "meaningJa": "ナイロン",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The rope is made of nylon.",
+    "exampleJa": "そのロープはナイロン製です。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な人工素材を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3659",
+    "word": "polyester",
+    "meaningJa": "ポリエステル",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "This fabric contains polyester.",
+    "exampleJa": "この布地にはポリエステルが含まれています。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "衣料や素材に関する説明文の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3660",
+    "word": "tailor",
+    "meaningJa": "仕立て屋",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The tailor measured my shoulders.",
+    "exampleJa": "仕立て屋は私の肩幅を測りました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "衣服に関係する職業の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "目的に合わせて調整する",
+        "example": "We tailor each lesson to the needs of the students.",
+        "exampleJa": "私たちは各授業を生徒の必要に合わせて調整します。"
+      }
+    ]
+  },
+  {
+    "id": "v3661",
+    "word": "apron",
+    "meaningJa": "エプロン",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Put on an apron before cooking.",
+    "exampleJa": "料理の前にエプロンを着けてください。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "家庭で身に着ける物の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3662",
+    "word": "handkerchief",
+    "meaningJa": "ハンカチ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He took a handkerchief from his pocket.",
+    "exampleJa": "彼はポケットからハンカチを取り出しました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の持ち物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3663",
+    "word": "handbag",
+    "meaningJa": "ハンドバッグ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She left her handbag on the chair.",
+    "exampleJa": "彼女は椅子にハンドバッグを置き忘れました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常のかばんを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3664",
+    "word": "perfume",
+    "meaningJa": "香水",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She bought a small bottle of perfume.",
+    "exampleJa": "彼女は小さな瓶に入った香水を買いました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身支度や買い物の場面の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3665",
+    "word": "necklace",
+    "meaningJa": "ネックレス",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The necklace was a gift from my aunt.",
+    "exampleJa": "そのネックレスはおばからの贈り物でした。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な装飾品の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3666",
+    "word": "bracelet",
+    "meaningJa": "ブレスレット；腕輪",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He wears a silver bracelet.",
+    "exampleJa": "彼は銀のブレスレットを着けています。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "装飾品の描写に使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3667",
+    "word": "earring",
+    "meaningJa": "イヤリング；ピアス",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "I found one earring under the table.",
+    "exampleJa": "私はテーブルの下で耳飾りを片方見つけました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の装飾品を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "耳に着ける装飾品全般を指し、日本語の「イヤリング」と「ピアス」の両方を含みます。"
+  },
+  {
+    "id": "v3668",
+    "word": "jewel",
+    "meaningJa": "宝石",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A red jewel was set in the ring.",
+    "exampleJa": "その指輪には赤い宝石がはめ込まれていました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "装飾や物語の描写に使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3669",
+    "word": "jewelry",
+    "meaningJa": "宝飾品；装身具",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The shop sells handmade jewelry.",
+    "exampleJa": "その店は手作りの宝飾品を売っています。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "買い物や工芸の説明に使う集合的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通常は不可算名詞です。1点はa piece of jewelryと数えます。イギリス英語ではjewelleryとも綴ります。"
+  },
+  {
+    "id": "v3670",
+    "word": "accessory",
+    "meaningJa": "付属品；装飾品",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A scarf can be a useful accessory.",
+    "exampleJa": "スカーフは便利な装飾品になり得ます。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "衣服や製品の付属品を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3671",
+    "word": "fashionable",
+    "meaningJa": "流行の；おしゃれな",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "These shoes are fashionable but uncomfortable.",
+    "exampleJa": "この靴はおしゃれですが履き心地がよくありません。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "流行や服装への評価を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3672",
+    "word": "casual",
+    "meaningJa": "普段着の；形式ばらない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "You can wear casual clothes to the picnic.",
+    "exampleJa": "ピクニックには普段着で来てかまいません。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "服装や雰囲気を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3673",
+    "word": "formal",
+    "meaningJa": "正式な；格式ばった",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The school sent a formal invitation.",
+    "exampleJa": "学校は正式な招待状を送りました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会的な手続きや場面を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3674",
+    "word": "striped",
+    "meaningJa": "しま模様の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "He wore a striped shirt.",
+    "exampleJa": "彼はしま模様のシャツを着ていました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "模様を表す定着した形容詞として扱う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3675",
+    "word": "waterproof",
+    "meaningJa": "防水の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Keep the map in a waterproof bag.",
+    "exampleJa": "地図は防水の袋に入れておいてください。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "製品の機能を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3676",
+    "word": "barefoot",
+    "meaningJa": "裸足の；裸足で",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The children were barefoot on the beach.",
+    "exampleJa": "子供たちは浜辺で裸足でした。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生活や物語の状態描写に使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "形容詞のほか、副詞としてwalk barefoot（裸足で歩く）のようにも使います。"
+  },
+  {
+    "id": "v3677",
+    "word": "naked",
+    "meaningJa": "裸の；覆いのない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The baby was naked before the bath.",
+    "exampleJa": "その赤ちゃんは入浴前に裸でした。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身体や物の状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3678",
+    "word": "undress",
+    "meaningJa": "服を脱ぐ；服を脱がせる",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "The child can undress without help.",
+    "exampleJa": "その子は手助けなしで服を脱げます。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身支度の基本動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3679",
+    "word": "wrinkle",
+    "meaningJa": "しわ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "There is a wrinkle in my shirt.",
+    "exampleJa": "私のシャツにしわがあります。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "衣服や皮膚の描写に使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3680",
+    "word": "patch",
+    "meaningJa": "継ぎ当て；当て布",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She sewed a patch over the hole.",
+    "exampleJa": "彼女は穴の上に当て布を縫い付けました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "修繕の基本義から広がる多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "（周囲と異なる）小さな区域；一帯",
+        "example": "A small patch of snow remained in the shade.",
+        "exampleJa": "日陰には小さな雪の一帯が残っていました。"
+      }
+    ]
+  },
+  {
+    "id": "v3681",
+    "word": "attire",
+    "meaningJa": "服装；衣装",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Formal attire is required for the ceremony.",
+    "exampleJa": "その式典には正装が必要です。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "服装を表す改まった表現。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3682",
+    "word": "apparel",
+    "meaningJa": "衣料品；衣服",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The company sells sports apparel.",
+    "exampleJa": "その会社はスポーツ衣料を販売しています。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "衣料産業や商業の文章で使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3683",
+    "word": "footwear",
+    "meaningJa": "履物",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Comfortable footwear is essential for this walk.",
+    "exampleJa": "この散策には履き心地のよい履物が欠かせません。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "履物をまとめて表す集合的な語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "履物全般を指す不可算名詞で、通常footwearsとはしません。"
+  },
+  {
+    "id": "v3684",
+    "word": "vest",
+    "meaningJa": "ベスト；チョッキ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He wore a vest over his shirt.",
+    "exampleJa": "彼はシャツの上にベストを着ていました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "衣服の種類を表す語。英米差は注記する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "ここではアメリカ英語の「ベスト・チョッキ」。イギリス英語では肌着の意味でも使われ、チョッキはwaistcoatといいます。"
+  },
+  {
+    "id": "v3685",
+    "word": "sweatshirt",
+    "meaningJa": "スウェットシャツ；トレーナー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "I put on a sweatshirt after practice.",
+    "exampleJa": "私は練習のあとトレーナーを着ました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の衣服と和製英語の違いを学ぶ語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "日本語の衣服の「トレーナー」に当たります。英語のtrainerは指導者などを指し、イギリス英語のtrainersは運動靴です。"
+  },
+  {
+    "id": "v3686",
+    "word": "overcoat",
+    "meaningJa": "オーバーコート；厚手の外套",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He hung his overcoat by the door.",
+    "exampleJa": "彼はドアのそばにオーバーコートを掛けました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "防寒着や人物の描写に使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3687",
+    "word": "sneaker",
+    "meaningJa": "スニーカー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "There is a hole in my left sneaker.",
+    "exampleJa": "私の左のスニーカーには穴があります。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な履物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主にアメリカ英語。イギリス英語ではtrainerともいいます。通常、両足分は複数形sneakersで表します。"
+  },
+  {
+    "id": "v3688",
+    "word": "ribbon",
+    "meaningJa": "リボン",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She tied a ribbon around the box.",
+    "exampleJa": "彼女は箱にリボンを結びました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の装飾を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3689",
+    "word": "buckle",
+    "meaningJa": "バックル；留め金",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The buckle on this belt is loose.",
+    "exampleJa": "このベルトの留め金は緩んでいます。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "衣服や道具の部品を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3690",
+    "word": "cuff",
+    "meaningJa": "袖口",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The cuff of his shirt was wet.",
+    "exampleJa": "彼のシャツの袖口はぬれていました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "衣服の細部や人物描写の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3691",
+    "word": "hem",
+    "meaningJa": "裾；縁の折り返し",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The hem of the skirt reached her ankles.",
+    "exampleJa": "スカートの裾は彼女の足首までありました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "衣服の細部を描写する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3692",
+    "word": "lining",
+    "meaningJa": "裏地；内張り",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The jacket has a warm lining.",
+    "exampleJa": "そのジャケットには暖かい裏地が付いています。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "独立した素材・構造の意味を持つ名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3693",
+    "word": "lace",
+    "meaningJa": "レース（網状の布）",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The dress was decorated with lace.",
+    "exampleJa": "そのドレスはレースで飾られていました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "衣服や工芸品の素材を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "靴ひも",
+        "example": "The lace on my right shoe came loose.",
+        "exampleJa": "私の右の靴のひもがほどけました。"
+      }
+    ]
+  },
+  {
+    "id": "v3694",
+    "word": "velvet",
+    "meaningJa": "ビロード；ベルベット",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The curtains are made of red velvet.",
+    "exampleJa": "そのカーテンは赤いビロードでできています。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "素材や質感の描写に使う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3695",
+    "word": "denim",
+    "meaningJa": "デニム生地",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He bought a jacket made of denim.",
+    "exampleJa": "彼はデニム生地のジャケットを買いました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常の衣料素材を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3696",
+    "word": "satin",
+    "meaningJa": "サテン；繻子",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The cushion was covered in smooth satin.",
+    "exampleJa": "そのクッションは滑らかなサテンで覆われていました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "布地の質感や装飾を描写する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3697",
+    "word": "fleece",
+    "meaningJa": "（羊の）毛；フリース生地",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The sheep had a thick fleece.",
+    "exampleJa": "その羊には厚い毛が生えていました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "動物の毛と衣服の素材を結ぶ語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "フリースの上着",
+        "example": "She packed a fleece for the cold evening.",
+        "exampleJa": "彼女は寒い夜に備えてフリースの上着を荷物に入れました。"
+      }
+    ]
+  },
+  {
+    "id": "v3698",
+    "word": "embroidery",
+    "meaningJa": "刺繍；刺繍作品",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The bag was decorated with colorful embroidery.",
+    "exampleJa": "そのかばんは色鮮やかな刺繍で飾られていました。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "工芸や文化に関する文章の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3699",
+    "word": "dye",
+    "meaningJa": "染める",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "They use plants to dye the cloth.",
+    "exampleJa": "彼らは植物を使って布を染めます。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "衣料や伝統工芸の動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "dyeの進行形はdyeing、過去形はdyed。die（死ぬ）の進行形dyingと区別します。"
+  },
+  {
+    "id": "v3700",
+    "word": "bleach",
+    "meaningJa": "漂白する；色を薄くする",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Strong sunlight can bleach the fabric.",
+    "exampleJa": "強い日光は布地の色を薄くすることがあります。",
+    "category": "生活・衣服",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "素材の変化や加工を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

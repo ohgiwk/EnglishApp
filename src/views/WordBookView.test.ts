@@ -6,7 +6,7 @@ import { createPinia, setActivePinia } from 'pinia'
 import { createMemoryHistory, createRouter } from 'vue-router'
 import WordBookView from './WordBookView.vue'
 import { useAppStore } from '../stores/app'
-import { vocabularyWords } from '../data/vocabulary'
+import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
 import * as vocabularyAccess from '../domain/vocabulary-access'
 
 vi.mock('../speech', () => ({
@@ -72,7 +72,7 @@ it('prevents viewing or searching locked vocabulary', async () => {
     wrapper.findAll('.word-list button').some((row) => row.find('b').text() === lockedWord.word)
   ).toBe(false)
   expect(wrapper.findAll('.word-list em').every((row) => row.text() === 'Lv.1')).toBe(true)
-  expect(wrapper.get('h1').text()).toBe('150 Words')
+  expect(wrapper.get('h1').text()).toBe(`${vocabularyLevels[0].wordCount.toLocaleString()} Words`)
 })
 it('switches unlocked levels, resets pagination and supports keyboard tabs', async () => {
   vi.spyOn(vocabularyAccess, 'accessibleVocabularyLevel').mockImplementation((level) => level)
@@ -109,8 +109,12 @@ it('loads more only near the end and stops observing after the last word', async
   expect(wrapper.findAll('.word-list button')).toHaveLength(60)
   await intersect()
   expect(wrapper.findAll('.word-list button')).toHaveLength(120)
-  await intersect()
-  expect(wrapper.findAll('.word-list button')).toHaveLength(150)
+  for (let loaded = 120; loaded < vocabularyLevels[0].wordCount; loaded += 60) {
+    await intersect()
+    expect(wrapper.findAll('.word-list button')).toHaveLength(
+      Math.min(loaded + 60, vocabularyLevels[0].wordCount)
+    )
+  }
   expect(wrapper.find('.word-load-trigger').exists()).toBe(false)
   expect(disconnect).toHaveBeenCalled()
   await wrapper.get('input').setValue('the')
@@ -120,3 +124,56 @@ it('loads more only near the end and stops observing after the last word', async
   await intersect()
   expect(wrapper.findAll('.word-list button')).toHaveLength(120)
 })
+
+it.each([1, 2, 3, 4, 5, 6])('searches and filters learning status in level %i', async (level) => {
+  const store = await setup()
+  const word = vocabularyWords.find((word) => word.level === level)!
+  store.s.wordProgress[word.id] = {
+    status: 'mastered',
+    correctSessions: ['a', 'b'],
+    correctCount: 2,
+    incorrectCount: 0,
+    lastStudiedAt: '2026-09-30T00:00:00.000Z'
+  }
+  await wrapper.get(`#word-level-${level}`).trigger('click')
+  await wrapper.get('input').setValue(word.word.toUpperCase())
+  await wrapper.get('select[aria-label="品詞"]').setValue(word.partOfSpeech)
+  await wrapper.get('select[aria-label="学習状態"]').setValue('mastered')
+  expect(wrapper.findAll('.word-list button')).toHaveLength(1)
+  expect(wrapper.get('.word-list b').text()).toBe(word.word)
+  await wrapper.get('select[aria-label="学習状態"]').setValue('new')
+  expect(wrapper.findAll('.word-list b').some((item) => item.text() === word.word)).toBe(false)
+})
+
+it('finds capitalized headwords and shows additional meanings', async () => {
+  await setup()
+  await wrapper.get('input').setValue('i')
+  while (wrapper.find('.word-load-trigger').exists()) await intersect()
+  expect(wrapper.findAll('.word-list b').some((item) => item.text() === 'I')).toBe(true)
+  await wrapper.get('#word-level-2').trigger('click')
+  await wrapper.get('input').setValue('address')
+  await wrapper.get('.word-list button').trigger('click')
+  expect(document.querySelector('[aria-label="ほかの重要な意味"]')?.textContent).toContain(
+    '対処する、取り組む'
+  )
+  expect(document.querySelector('.word-modal')?.textContent).toContain(
+    'We must address this problem together.'
+  )
+})
+
+it.each(['gay', 'staff', 'March'])(
+  'shows the usage note for %s while keeping its alternate meanings',
+  async (head) => {
+    await setup()
+    const word = vocabularyWords.find((word) => word.word === head)!
+    await wrapper.get(`#word-level-${word.level}`).trigger('click')
+    await wrapper.get('input').setValue(head.toLowerCase())
+    await wrapper.get('.word-list button').trigger('click')
+    const dialog = document.querySelector('.word-modal')!
+    expect(dialog.textContent).toContain(word.usageNote)
+    expect(dialog.querySelector('h2')?.textContent).toBe(word.meaningJa)
+    expect(dialog.querySelector('[aria-label="ほかの重要な意味"]')?.textContent).toContain(
+      word.additionalMeanings![0].meaningJa
+    )
+  }
+)

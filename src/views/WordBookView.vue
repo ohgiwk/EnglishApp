@@ -10,7 +10,7 @@ import {
   Volume2,
   X
 } from '@lucide/vue'
-import { vocabularyLevels, vocabularyWords } from '../data/vocabulary'
+import { vocabularyLevels, vocabularyWords, vocabularyReviewPending } from '../data/vocabulary'
 import { englishSpeechAvailable } from '../speech'
 import BaseDialog from '../components/BaseDialog.vue'
 import { useEnglishSpeech } from '../composables/useEnglishSpeech'
@@ -64,7 +64,7 @@ const filtered = computed(() =>
   unlockedWords.value.filter((word) => {
     const needle = search.value.trim().toLowerCase()
     return (
-      (!needle || word.word.includes(needle) || word.meaningJa.includes(needle)) &&
+      (!needle || word.word.toLowerCase().includes(needle) || word.meaningJa.includes(needle)) &&
       word.level === level.value &&
       (!part.value || word.partOfSpeech === part.value) &&
       (!status.value || statusOf(word) === status.value)
@@ -114,6 +114,9 @@ const { speak, cancel } = useEnglishSpeech()
       </div>
       <p>解放済みの単語を、レベル別に確認しよう。</p>
     </header>
+    <p v-if="vocabularyReviewPending" class="word-level-hint">
+      <span v-if="vocabularyReviewPending">レベルは一部見直し中です。</span>
+    </p>
 
     <div class="word-level-tabs" role="tablist" aria-label="単語のレベル" @keydown="navigateTabs">
       <button
@@ -156,6 +159,9 @@ const { speak, cancel } = useEnglishSpeech()
           <option value="mastered">習得済み</option>
         </select>
       </div>
+      <p class="word-level-hint">
+        {{ vocabularyLevels.find((item) => item.id === level)?.subtitle }}（目安）
+      </p>
       <div class="word-count">{{ filtered.length }} words</div>
 
       <p v-if="!filtered.length" class="word-empty" role="status">
@@ -201,6 +207,23 @@ const { speak, cancel } = useEnglishSpeech()
       </div>
       <span class="part-badge">{{ selected.partOfSpeech }}</span>
       <h2>{{ selected.meaningJa }}</h2>
+      <p v-if="selected.usageNote" class="word-level-hint">{{ selected.usageNote }}</p>
+      <p v-if="selected.editorial?.reviewStatus === 'needs-review'" class="word-level-hint">
+        この単語のレベル・語義は見直し中です。
+      </p>
+      <section v-if="selected.additionalMeanings?.length" aria-label="ほかの重要な意味">
+        <h3>ほかの重要な意味</h3>
+        <div
+          v-for="meaning in selected.additionalMeanings"
+          :key="meaning.meaningJa"
+          class="example-card"
+        >
+          <b>{{ meaning.meaningJa }}</b>
+          <span class="part-badge">{{ meaning.partOfSpeech }}</span>
+          <p>{{ meaning.example }}</p>
+          <small>{{ meaning.exampleJa }}</small>
+        </div>
+      </section>
       <div class="example-card">
         <BookOpen />
         <p>{{ selected.example }}</p>

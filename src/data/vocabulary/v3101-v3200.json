@@ -1,0 +1,2186 @@
+[
+  {
+    "id": "v3101",
+    "word": "magazine",
+    "meaningJa": "雑誌",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "She reads a science magazine every month.",
+    "exampleJa": "彼女は毎月科学雑誌を読んでいます。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な読み物を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3102",
+    "word": "newspaper",
+    "meaningJa": "新聞",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "My father reads the newspaper after breakfast.",
+    "exampleJa": "父は朝食後に新聞を読みます。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常生活の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3103",
+    "word": "audience",
+    "meaningJa": "観客；聴衆",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The audience listened quietly to the speaker.",
+    "exampleJa": "聴衆は静かに話し手の話を聞きました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "催しや発表の場面で使う基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "観客・聴衆を集団として表します。一人一人はmembers of the audienceなどと表現します。"
+  },
+  {
+    "id": "v3104",
+    "word": "client",
+    "meaningJa": "顧客；依頼人",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The designer discussed the plan with her client.",
+    "exampleJa": "デザイナーは依頼人と計画について話し合いました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕事やサービスの関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "専門的なサービスの依頼人を指すことが多く、商品を買うcustomerと使い分けることがあります。"
+  },
+  {
+    "id": "v3105",
+    "word": "brand",
+    "meaningJa": "ブランド；商標",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "This brand is known for its simple designs.",
+    "exampleJa": "このブランドは簡素なデザインで知られています。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "買い物や製品を語る基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3106",
+    "word": "publish",
+    "meaningJa": "〜を出版する；公表する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The team will publish its findings next month.",
+    "exampleJa": "チームは来月、研究結果を公表します。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "出版や研究の情報発信を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3107",
+    "word": "circulate",
+    "meaningJa": "循環する；〜を回覧する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Warm air can circulate through these openings.",
+    "exampleJa": "暖かい空気はこれらの開口部を通って循環できます。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物や情報の移動を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3108",
+    "word": "circulation",
+    "meaningJa": "循環；流通；発行部数",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Exercise affects blood circulation.",
+    "exampleJa": "運動は血液の循環に影響を与えます。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "身体や情報の流れを表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "発行部数；配布部数",
+        "example": "The magazine has a circulation of ten thousand.",
+        "exampleJa": "その雑誌の発行部数は一万部です。"
+      }
+    ]
+  },
+  {
+    "id": "v3109",
+    "word": "editorial",
+    "meaningJa": "社説；論説",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The editorial criticized the new policy.",
+    "exampleJa": "その社説は新しい政策を批判しました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "報道における意見表明を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "編集の",
+        "example": "The editorial team checked every article.",
+        "exampleJa": "編集チームはすべての記事を確認しました。"
+      }
+    ]
+  },
+  {
+    "id": "v3110",
+    "word": "bulletin",
+    "meaningJa": "速報；公報",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The radio station issued a weather bulletin.",
+    "exampleJa": "ラジオ局は気象速報を放送しました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "短い公式情報を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3111",
+    "word": "newsletter",
+    "meaningJa": "会報；定期的な案内便り",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The school sends a newsletter to parents each month.",
+    "exampleJa": "学校は毎月保護者に便りを送ります。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な情報共有の形式を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3112",
+    "word": "subscriber",
+    "meaningJa": "購読者；加入者",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Each subscriber receives a weekly email.",
+    "exampleJa": "各購読者は毎週メールを受け取ります。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "継続的な情報利用者を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3113",
+    "word": "subscription",
+    "meaningJa": "定期購読；継続利用契約",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "My subscription to the magazine ends in June.",
+    "exampleJa": "その雑誌の私の定期購読契約は六月に終了します。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報やサービスの利用形態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3114",
+    "word": "rumor",
+    "meaningJa": "うわさ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The rumor spread quickly through the town.",
+    "exampleJa": "そのうわさは町中に素早く広まりました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報の伝わり方を語る基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "rumourという綴りもあります。未確認の情報やうわさを指します。"
+  },
+  {
+    "id": "v3115",
+    "word": "gossip",
+    "meaningJa": "うわさ話；陰口",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She avoids gossip about her colleagues.",
+    "exampleJa": "彼女は同僚についてのうわさ話を避けています。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常の会話内容を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3116",
+    "word": "credible",
+    "meaningJa": "信頼できる；もっともらしい",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The witness gave a credible account of the event.",
+    "exampleJa": "目撃者はその出来事について信頼できる説明をしました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報の信頼性を評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "信じられるだけの説得力があることを表し、事実だと証明済みとは限りません。"
+  },
+  {
+    "id": "v3117",
+    "word": "unreliable",
+    "meaningJa": "信頼できない；当てにならない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The old clock is unreliable.",
+    "exampleJa": "その古い時計は当てになりません。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人や物の信頼性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3118",
+    "word": "trustworthy",
+    "meaningJa": "信頼できる；信用に足る",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "We need a trustworthy source of information.",
+    "exampleJa": "私たちには信頼できる情報源が必要です。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人や情報への信頼を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3119",
+    "word": "confidential",
+    "meaningJa": "機密の；秘密の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The report contains confidential information.",
+    "exampleJa": "その報告書には機密情報が含まれています。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報の公開範囲を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "公開を制限する秘密の情報に使います。anonymous（匿名の）とは異なります。"
+  },
+  {
+    "id": "v3120",
+    "word": "disclose",
+    "meaningJa": "〜を明らかにする；開示する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The company agreed to disclose the results.",
+    "exampleJa": "その会社は結果を開示することに同意しました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "隠れていた情報の公開を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3121",
+    "word": "disclosure",
+    "meaningJa": "開示；暴露",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The disclosure of the error led to a review.",
+    "exampleJa": "その誤りの開示を受けて見直しが行われました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報公開の過程を読む名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3122",
+    "word": "anonymous",
+    "meaningJa": "匿名の；作者不明の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The library received an anonymous donation.",
+    "exampleJa": "図書館は匿名の寄付を受けました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "身元が示されない状態を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3123",
+    "word": "anonymity",
+    "meaningJa": "匿名であること；匿名性",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The survey protects the anonymity of participants.",
+    "exampleJa": "その調査は参加者の匿名性を守ります。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報社会の仕組みを論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3124",
+    "word": "identification",
+    "meaningJa": "識別；身元確認；身分証明書",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Visitors must show identification at the entrance.",
+    "exampleJa": "訪問者は入り口で身分証明書を提示しなければなりません。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "身元や対象の確認を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "身分証明書の意味ではIDと略されます。"
+  },
+  {
+    "id": "v3125",
+    "word": "verification",
+    "meaningJa": "確認；検証",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The results require independent verification.",
+    "exampleJa": "その結果には独立した検証が必要です。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "情報の正しさの確認を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3126",
+    "word": "browse",
+    "meaningJa": "拾い読みする；ざっと見る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "You can browse the books before choosing one.",
+    "exampleJa": "一冊を選ぶ前に本をざっと見ることができます。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "情報を気軽に探す動作を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3127",
+    "word": "webpage",
+    "meaningJa": "ウェブページ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The webpage contains a map of the campus.",
+    "exampleJa": "そのウェブページにはキャンパスの地図が載っています。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な情報媒体を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3128",
+    "word": "hyperlink",
+    "meaningJa": "ハイパーリンク",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Click the hyperlink to open the document.",
+    "exampleJa": "ハイパーリンクをクリックして文書を開いてください。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "デジタル情報のつながりを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3129",
+    "word": "link",
+    "meaningJa": "つながり；関連；リンク",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The study found a link between sleep and memory.",
+    "exampleJa": "その研究は睡眠と記憶の関連を見いだしました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "具体的にも抽象的にも使う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜を結びつける",
+        "example": "This road will link the two villages.",
+        "exampleJa": "この道路は二つの村を結びます。"
+      }
+    ]
+  },
+  {
+    "id": "v3130",
+    "word": "broadband",
+    "meaningJa": "ブロードバンド；高速通信回線",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Broadband is available in most homes in the town.",
+    "exampleJa": "その町の大半の家庭では高速通信回線を利用できます。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "通信環境を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3131",
+    "word": "antenna",
+    "meaningJa": "アンテナ；触角",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The radio has a long antenna.",
+    "exampleJa": "そのラジオには長いアンテナがあります。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "通信装置を表す語で生物上の別義も補う。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "通信装置の複数形はantennas、生物の触角の複数形は通常antennaeです。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "触角",
+        "example": "The insect moved one antenna.",
+        "exampleJa": "その昆虫は片方の触角を動かしました。"
+      }
+    ]
+  },
+  {
+    "id": "v3132",
+    "word": "transmitter",
+    "meaningJa": "送信機；伝達するもの",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The transmitter sends a signal every minute.",
+    "exampleJa": "その送信機は毎分信号を送ります。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "通信の仕組みを読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3133",
+    "word": "receiver",
+    "meaningJa": "受信機；受け取る人",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The receiver converts the signal into sound.",
+    "exampleJa": "その受信機は信号を音に変えます。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "通信と受け渡しを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3134",
+    "word": "optical",
+    "meaningJa": "光の；視覚の；光学の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The laboratory uses optical instruments.",
+    "exampleJa": "その研究室は光学機器を使っています。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "光や視覚の技術を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3135",
+    "word": "fiber",
+    "meaningJa": "繊維",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Cotton is a natural fiber.",
+    "exampleJa": "綿は天然繊維です。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "素材を表し通信にも関わる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "fibreという綴りもあります。"
+  },
+  {
+    "id": "v3136",
+    "word": "semiconductor",
+    "meaningJa": "半導体",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The factory produces semiconductor devices.",
+    "exampleJa": "その工場は半導体装置を製造しています。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "電子技術や産業を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3137",
+    "word": "chip",
+    "meaningJa": "かけら；小片；チップ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A small chip of wood fell onto the floor.",
+    "exampleJa": "小さな木片が床に落ちました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "具体的な小片を基本義とする多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "集積回路；半導体チップ",
+        "example": "The device uses a tiny chip to store data.",
+        "exampleJa": "その装置は小さな半導体チップを使ってデータを保存します。"
+      }
+    ]
+  },
+  {
+    "id": "v3138",
+    "word": "processor",
+    "meaningJa": "処理装置；プロセッサー",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The computer has a powerful processor.",
+    "exampleJa": "そのコンピューターには高性能な処理装置があります。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報処理の装置を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3139",
+    "word": "storage",
+    "meaningJa": "保管；保存；貯蔵場所",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The building provides storage for farm equipment.",
+    "exampleJa": "その建物には農機具を保管する場所があります。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物と情報の保管を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3140",
+    "word": "backup",
+    "meaningJa": "予備；控え；バックアップ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Keep a backup of your important files.",
+    "exampleJa": "重要なファイルのバックアップを保存しておいてください。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常の備えやデータ保存を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "一語のbackupは名詞などとして使います。動詞の「控えを取る」はback upと二語で書きます。"
+  },
+  {
+    "id": "v3141",
+    "word": "digit",
+    "meaningJa": "数字；桁",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Write one digit in each box.",
+    "exampleJa": "各枠に数字を一つ書いてください。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数の表記を説明する基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "0〜9などの一つの数字を指します。three digitsは三桁を表します。"
+  },
+  {
+    "id": "v3142",
+    "word": "binary",
+    "meaningJa": "二進法の；二つからなる",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Computers can represent numbers in binary form.",
+    "exampleJa": "コンピューターは数を二進法で表せます。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "数や分類の方式を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3143",
+    "word": "numerical",
+    "meaningJa": "数の；数値の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The report includes numerical data.",
+    "exampleJa": "その報告書には数値データが含まれています。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "数量に関する情報を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3144",
+    "word": "interface",
+    "meaningJa": "接点；操作画面；接続部分",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The application has a simple interface.",
+    "exampleJa": "そのアプリケーションには簡素な操作画面があります。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人と装置などの接点を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3145",
+    "word": "interactive",
+    "meaningJa": "双方向の；対話型の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The museum has an interactive display.",
+    "exampleJa": "その博物館には来館者が操作できる展示があります。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報や反応のやり取りを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3146",
+    "word": "simulation",
+    "meaningJa": "模擬実験；シミュレーション",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The simulation shows how traffic moves through the city.",
+    "exampleJa": "そのシミュレーションは都市内の交通の流れを示します。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "現象の再現を論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3147",
+    "word": "simulate",
+    "meaningJa": "〜を模擬する；再現する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The model can simulate changes in temperature.",
+    "exampleJa": "そのモデルは気温の変化を再現できます。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "現象を仮想的に再現する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3148",
+    "word": "obsolete",
+    "meaningJa": "時代遅れの；廃れた",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The new system made the old equipment obsolete.",
+    "exampleJa": "新しいシステムによって古い装置は時代遅れになりました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "技術や制度の変化を論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3149",
+    "word": "upgrade",
+    "meaningJa": "〜を改良する；性能を上げる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The school plans to upgrade its computers.",
+    "exampleJa": "学校はコンピューターの性能を上げる予定です。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な技術改善を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3150",
+    "word": "malfunction",
+    "meaningJa": "故障；機能不全",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "A mechanical malfunction stopped the machine.",
+    "exampleJa": "機械的な故障でその機械は停止しました。",
+    "category": "情報社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "技術上の不具合を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3151",
+    "word": "inherent",
+    "meaningJa": "本来備わっている；内在する",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Every method has inherent limitations.",
+    "exampleJa": "どの方法にも本来備わる限界があります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "性質に伴う条件を論じる形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "inherent in ...で「〜に本来備わっている」。"
+  },
+  {
+    "id": "v3152",
+    "word": "innate",
+    "meaningJa": "生まれつきの；先天的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The study explores innate differences in behavior.",
+    "exampleJa": "その研究は行動の先天的な違いを探究しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "生得性と学習を区別する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "生まれつき備わっている性質を表し、後から学んだ性質と区別します。"
+  },
+  {
+    "id": "v3153",
+    "word": "implicit",
+    "meaningJa": "暗黙の；明言されていない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The agreement rests on an implicit promise of cooperation.",
+    "exampleJa": "その合意は協力するという暗黙の約束に基づいています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "明示されない前提を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "直接述べられていなくても読み取れることを表します。explicitは明確に述べられたことです。"
+  },
+  {
+    "id": "v3154",
+    "word": "explicit",
+    "meaningJa": "明確な；明示的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The teacher gave explicit instructions for the task.",
+    "exampleJa": "教師は課題について明確な指示を出しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "説明の明確さを評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3155",
+    "word": "ambiguous",
+    "meaningJa": "曖昧な；複数の解釈ができる",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The wording of the question is ambiguous.",
+    "exampleJa": "その質問の言い回しは複数の解釈ができます。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "解釈の不確定さを論じる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "二通り以上に解釈できる曖昧さです。vagueは詳細や輪郭がはっきりしないことを表します。"
+  },
+  {
+    "id": "v3156",
+    "word": "vague",
+    "meaningJa": "曖昧な；はっきりしない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "He gave only a vague description of the place.",
+    "exampleJa": "彼はその場所について曖昧な説明しかしませんでした。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な不明瞭さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3157",
+    "word": "approximate",
+    "meaningJa": "おおよその；近似の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The map shows the approximate location of the village.",
+    "exampleJa": "その地図は村のおおよその位置を示しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数値や場所の精度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3158",
+    "word": "probable",
+    "meaningJa": "起こりそうな；ありそうな",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The report lists the probable causes of the failure.",
+    "exampleJa": "その報告書は故障の原因として考えられるものを挙げています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "可能性の高さを表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "possibleよりも、起こる可能性が高いと見込む表現です。"
+  },
+  {
+    "id": "v3159",
+    "word": "feasible",
+    "meaningJa": "実行可能な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The engineers proposed a feasible solution.",
+    "exampleJa": "技術者たちは実行可能な解決策を提案しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "計画の実現性を評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3160",
+    "word": "viable",
+    "meaningJa": "実行可能な；存続できる",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "We need a viable alternative to the current system.",
+    "exampleJa": "現行の制度に代わる実行可能な案が必要です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "継続して成り立つ見込みを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3161",
+    "word": "inevitable",
+    "meaningJa": "避けられない；必然的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Some delay was inevitable after the storm.",
+    "exampleJa": "嵐の後、多少の遅れは避けられませんでした。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "結果の不可避性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3162",
+    "word": "unavoidable",
+    "meaningJa": "避けられない",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The road closure made a detour unavoidable.",
+    "exampleJa": "道路の閉鎖によって迂回は避けられなくなりました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "回避できない事情を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3163",
+    "word": "uncertain",
+    "meaningJa": "確かでない；不確かな",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The cause of the change remains uncertain.",
+    "exampleJa": "その変化の原因は依然として不確かです。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "知識や見通しの不確実さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3164",
+    "word": "dubious",
+    "meaningJa": "疑わしい；疑念を抱く",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The claim rests on dubious evidence.",
+    "exampleJa": "その主張は疑わしい証拠に基づいています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "信頼性への疑念を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3165",
+    "word": "doubtful",
+    "meaningJa": "疑わしい；自信がない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "It is doubtful whether the plan will work.",
+    "exampleJa": "その計画がうまくいくかは疑わしいです。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な疑念を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3166",
+    "word": "questionable",
+    "meaningJa": "疑問のある；問題のある",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The study relied on a questionable assumption.",
+    "exampleJa": "その研究は疑問のある仮定に頼っていました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "根拠や妥当性への疑問を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3167",
+    "word": "conclusive",
+    "meaningJa": "決定的な；結論を確定させる",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The results provide conclusive evidence.",
+    "exampleJa": "その結果は決定的な証拠を示しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "証拠の確定力を評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3168",
+    "word": "inconclusive",
+    "meaningJa": "結論を出せない；決め手を欠く",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The first experiment produced inconclusive results.",
+    "exampleJa": "最初の実験では結論を出せない結果が得られました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "証拠の限界を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3169",
+    "word": "decisive",
+    "meaningJa": "決定的な；決断力のある",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The final experiment played a decisive role.",
+    "exampleJa": "最後の実験は決定的な役割を果たしました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "結果への大きな影響を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "決断力のある",
+        "example": "A decisive leader can act quickly in a crisis.",
+        "exampleJa": "決断力のある指導者は危機に際して素早く行動できます。"
+      }
+    ]
+  },
+  {
+    "id": "v3170",
+    "word": "definite",
+    "meaningJa": "明確な；確定した",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "We have no definite plans for the weekend.",
+    "exampleJa": "私たちには週末の確定した予定がありません。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常の確定度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3171",
+    "word": "definitive",
+    "meaningJa": "最終的な；決定版の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The committee has not reached a definitive conclusion.",
+    "exampleJa": "委員会はまだ最終的な結論に達していません。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "判断の最終性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "最終的・権威ある決定版という意味です。definiteは明確または確定していることを表します。"
+  },
+  {
+    "id": "v3172",
+    "word": "irrelevant",
+    "meaningJa": "関係のない；的外れな",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "That detail is irrelevant to the question.",
+    "exampleJa": "その細かな点は質問と関係がありません。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "議論の関連性を判断する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3173",
+    "word": "pertinent",
+    "meaningJa": "関連のある；適切な",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "She asked a pertinent question about the evidence.",
+    "exampleJa": "彼女は証拠について適切な質問をしました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "論点に直接関わることを表す発展語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3174",
+    "word": "applicable",
+    "meaningJa": "適用できる；当てはまる",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The rule is applicable to all members.",
+    "exampleJa": "その規則はすべての会員に適用できます。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "規則や知識の適用範囲を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3175",
+    "word": "adequate",
+    "meaningJa": "十分な；適切な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The room has adequate lighting for reading.",
+    "exampleJa": "その部屋には読書に十分な明るさがあります。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "必要を満たす程度を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3176",
+    "word": "inadequate",
+    "meaningJa": "不十分な；不適切な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The available evidence is inadequate for a firm conclusion.",
+    "exampleJa": "利用できる証拠は確かな結論を出すには不十分です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "必要条件の不足を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3177",
+    "word": "insufficient",
+    "meaningJa": "不十分な；足りない",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "There was insufficient time to finish the task.",
+    "exampleJa": "課題を終えるには時間が足りませんでした。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "数量や程度の不足を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3178",
+    "word": "excessive",
+    "meaningJa": "過度の；多すぎる",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Excessive noise made concentration difficult.",
+    "exampleJa": "過度の騒音のため集中するのが困難でした。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "程度が適切な範囲を超えることを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3179",
+    "word": "deficient",
+    "meaningJa": "不足している；欠けている",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The soil is deficient in certain minerals.",
+    "exampleJa": "その土壌は特定のミネラルが不足しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "必要な成分などの欠如を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3180",
+    "word": "equivalent",
+    "meaningJa": "同等の；相当する",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The two courses require an equivalent amount of work.",
+    "exampleJa": "その二つの授業は同程度の学習量を必要とします。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "量や価値の対応を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3181",
+    "word": "comparable",
+    "meaningJa": "比較できる；同程度の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The two cities have comparable populations.",
+    "exampleJa": "その二つの都市の人口は同程度です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "比較の可能性や近さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "比較できる、または同程度であること。comparativeは比較に関する方法などを表します。"
+  },
+  {
+    "id": "v3182",
+    "word": "comparative",
+    "meaningJa": "比較による；比較的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The report presents a comparative study of the two systems.",
+    "exampleJa": "その報告書は二つの制度の比較研究を示しています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "比較という方法を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3183",
+    "word": "contrary",
+    "meaningJa": "反対の；相反する",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The result was contrary to our expectations.",
+    "exampleJa": "結果は私たちの予想に反していました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "予想や主張と反対の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3184",
+    "word": "contradictory",
+    "meaningJa": "矛盾した；相反する",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The witnesses gave contradictory accounts.",
+    "exampleJa": "目撃者たちは互いに矛盾する説明をしました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "両立しない情報の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3185",
+    "word": "consistent",
+    "meaningJa": "一貫した；矛盾しない",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The results are consistent with the theory.",
+    "exampleJa": "その結果は理論と矛盾しません。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "結果や説明の整合性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "consistent with ...で「〜と一致する／矛盾しない」。"
+  },
+  {
+    "id": "v3186",
+    "word": "inconsistent",
+    "meaningJa": "一貫しない；矛盾する",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "His answer was inconsistent with the evidence.",
+    "exampleJa": "彼の答えは証拠と矛盾していました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "説明の不整合を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3187",
+    "word": "coherent",
+    "meaningJa": "筋の通った；まとまりのある",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "She presented a coherent explanation.",
+    "exampleJa": "彼女は筋の通った説明を示しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "説明や文章のまとまりを評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3188",
+    "word": "incoherent",
+    "meaningJa": "筋の通らない；まとまりのない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The report was too incoherent to follow.",
+    "exampleJa": "その報告書はまとまりがなさすぎて理解できませんでした。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "意味のつながりの欠如を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3189",
+    "word": "legitimate",
+    "meaningJa": "正当な；合法的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "Residents raised legitimate concerns about the project.",
+    "exampleJa": "住民はその計画について正当な懸念を示しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "主張や行動の正当性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3190",
+    "word": "valid",
+    "meaningJa": "有効な；妥当な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "This ticket is valid for one day.",
+    "exampleJa": "この切符は一日有効です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "日常的な有効性と論理的妥当性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "切符や契約などの有効性のほか、主張や理由の妥当性も表します。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "妥当な；正当な",
+        "example": "She raised a valid objection.",
+        "exampleJa": "彼女は妥当な異議を唱えました。"
+      }
+    ]
+  },
+  {
+    "id": "v3191",
+    "word": "invalid",
+    "meaningJa": "無効な；妥当でない",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The password is invalid.",
+    "exampleJa": "そのパスワードは無効です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "有効性の否定を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3192",
+    "word": "impartial",
+    "meaningJa": "公平な；偏りのない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The committee needs an impartial observer.",
+    "exampleJa": "その委員会には公平な観察者が必要です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "判断する立場の公平さを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "どちらの側にもえこひいきせず公平に判断することを表します。"
+  },
+  {
+    "id": "v3193",
+    "word": "neutral",
+    "meaningJa": "中立の；偏らない",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The mediator remained neutral during the debate.",
+    "exampleJa": "調停者は討論中、中立を保ちました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "争いにおける立場を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3194",
+    "word": "generic",
+    "meaningJa": "一般的な；特定でない",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The report uses generic terms instead of brand names.",
+    "exampleJa": "その報告書はブランド名ではなく一般名称を使っています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "固有のものと一般的なものを区別する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3195",
+    "word": "novel",
+    "meaningJa": "小説",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She borrowed a novel from the library.",
+    "exampleJa": "彼女は図書館から小説を借りました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な本の種類を基本義とする多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "斬新な；新しい",
+        "example": "The researchers developed a novel method.",
+        "exampleJa": "研究者たちは斬新な方法を開発しました。"
+      }
+    ]
+  },
+  {
+    "id": "v3196",
+    "word": "radical",
+    "meaningJa": "根本的な；急進的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The plan requires a radical change in our approach.",
+    "exampleJa": "その計画には私たちの方法を根本的に変えることが必要です。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "変化の大きさや思想の方向を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3197",
+    "word": "immense",
+    "meaningJa": "非常に大きい；莫大な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The project required an immense amount of work.",
+    "exampleJa": "その計画には莫大な作業量が必要でした。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "数量や規模の大きさを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3198",
+    "word": "vast",
+    "meaningJa": "広大な；膨大な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The forest covers a vast area.",
+    "exampleJa": "その森は広大な地域に広がっています。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "広さや量を表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3199",
+    "word": "minimal",
+    "meaningJa": "最小限の；ごくわずかな",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The change had a minimal effect on the results.",
+    "exampleJa": "その変更が結果に与えた影響はごくわずかでした。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "程度の小ささを表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3200",
+    "word": "optimal",
+    "meaningJa": "最適な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The team searched for the optimal solution.",
+    "exampleJa": "チームは最適な解決策を探しました。",
+    "category": "社会・読解",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "条件下で最もよい選択を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

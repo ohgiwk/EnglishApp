@@ -1,0 +1,286 @@
+{
+  "auditDate": "2026-10-02",
+  "sourcePage": "https://www.keio.ac.jp/ja/admissions/faculty/examinations/general-admissions/question-2025/",
+  "pdfSha256": "dd6e35cf8b2472fac48bfc4308637c20bb503dd7c616cc3e04f2a8d6cc2aa2b7",
+  "scope": "2025年度 慶應義塾大学理工学部 英語 第1問のみ。PDF第2ページの本文4段落と第3ページの設問英語を別集計。他の大問は対象外。",
+  "transcription": "Manually transcribed and visually checked against rendered official PDF pages; punctuation normalized; line wraps joined; numbered blanks remain unanswered. No complete OCR or independent second transcription. Source text and images are not redistributed.",
+  "body": {
+    "year": 2025,
+    "question": "慶應義塾大学 理工学部 英語 第1問 本文のみ（PDF第2ページ）",
+    "sourceUrl": "https://www.keio.ac.jp/files/dd6e35cf8b2472fac48bfc4308637c20bb503dd7c616cc3e04f2a8d6cc2aa2b7",
+    "extraction": "Manual transcription checked against PDF page 2; four body paragraphs only; excludes Japanese instructions, annotation markers, footnote, source credit and page number; blanks remain unanswered",
+    "method": "NFKC, lowercase, remove /cNNN glyph labels, ASCII words with internal apostrophes; hyphens split; exact surface-form matching; no lemmatization or proper-name exclusion",
+    "textSha256": "d2785eb1946cb6e1726af4ee8b0dcc94f9fa72011fbd2604ea3ff4dd692a28aa",
+    "catalogSha256": "2bdebc7668a71a5f68778072884f564990e12e69e5ae4892b71e448005a2f6ff",
+    "catalogWords": 2000,
+    "totalTokens": 635,
+    "uniqueTypes": 310,
+    "matchedTokens": 371,
+    "matchedTypes": 139,
+    "tokenMatchPercent": 58.43,
+    "typeMatchPercent": 44.84,
+    "missingTop20": [
+      {
+        "word": "men",
+        "count": 12
+      },
+      {
+        "word": "women",
+        "count": 11
+      },
+      {
+        "word": "their",
+        "count": 8
+      },
+      {
+        "word": "emotions",
+        "count": 6
+      },
+      {
+        "word": "was",
+        "count": 6
+      },
+      {
+        "word": "were",
+        "count": 6
+      },
+      {
+        "word": "are",
+        "count": 5
+      },
+      {
+        "word": "feeling",
+        "count": 5
+      },
+      {
+        "word": "is",
+        "count": 5
+      },
+      {
+        "word": "been",
+        "count": 4
+      },
+      {
+        "word": "feelings",
+        "count": 4
+      },
+      {
+        "word": "passions",
+        "count": 4
+      },
+      {
+        "word": "understanding",
+        "count": 4
+      },
+      {
+        "word": "lorde",
+        "count": 3
+      },
+      {
+        "word": "ancient",
+        "count": 2
+      },
+      {
+        "word": "argued",
+        "count": 2
+      },
+      {
+        "word": "audre",
+        "count": 2
+      },
+      {
+        "word": "extreme",
+        "count": 2
+      },
+      {
+        "word": "feminist",
+        "count": 2
+      },
+      {
+        "word": "final",
+        "count": 2
+      }
+    ],
+    "limitations": "Surface-form matches are not lemma coverage, comprehension or exam readiness. Inflections, contractions, names and PDF extraction artifacts may appear missing. This single public exam cannot establish advanced-university coverage."
+  },
+  "questionEnglish": {
+    "year": 2025,
+    "question": "慶應義塾大学 理工学部 英語 第1問 設問1–5の英語部分（PDF第3ページ）",
+    "sourceUrl": "https://www.keio.ac.jp/files/dd6e35cf8b2472fac48bfc4308637c20bb503dd7c616cc3e04f2a8d6cc2aa2b7",
+    "extraction": "Manual transcription checked against PDF page 3; English options and pronunciation target words; excludes Japanese instructions, numbering and page number",
+    "method": "NFKC, lowercase, remove /cNNN glyph labels, ASCII words with internal apostrophes; hyphens split; exact surface-form matching; no lemmatization or proper-name exclusion",
+    "textSha256": "27b89a80819e9deb0b7d5b03ac08aa731ef4889adc1de0783179a73f85db58fc",
+    "catalogSha256": "2bdebc7668a71a5f68778072884f564990e12e69e5ae4892b71e448005a2f6ff",
+    "catalogWords": 2000,
+    "totalTokens": 204,
+    "uniqueTypes": 153,
+    "matchedTokens": 79,
+    "matchedTypes": 51,
+    "tokenMatchPercent": 38.73,
+    "typeMatchPercent": 33.33,
+    "missingTop20": [
+      {
+        "word": "are",
+        "count": 5
+      },
+      {
+        "word": "feeling",
+        "count": 4
+      },
+      {
+        "word": "lorde",
+        "count": 3
+      },
+      {
+        "word": "men",
+        "count": 3
+      },
+      {
+        "word": "rationality",
+        "count": 3
+      },
+      {
+        "word": "wollstonecraft",
+        "count": 3
+      },
+      {
+        "word": "women",
+        "count": 3
+      },
+      {
+        "word": "believes",
+        "count": 2
+      },
+      {
+        "word": "greek",
+        "count": 2
+      },
+      {
+        "word": "nussbaum",
+        "count": 2
+      },
+      {
+        "word": "philosophy",
+        "count": 2
+      },
+      {
+        "word": "shell",
+        "count": 2
+      },
+      {
+        "word": "shock",
+        "count": 2
+      },
+      {
+        "word": "accelerated",
+        "count": 1
+      },
+      {
+        "word": "according",
+        "count": 1
+      },
+      {
+        "word": "aesthetic",
+        "count": 1
+      },
+      {
+        "word": "ancient",
+        "count": 1
+      },
+      {
+        "word": "antagonist",
+        "count": 1
+      },
+      {
+        "word": "approaches",
+        "count": 1
+      },
+      {
+        "word": "arithmetical",
+        "count": 1
+      }
+    ],
+    "limitations": "Surface-form matches are not lemma coverage, comprehension or exam readiness. Inflections, contractions, names and PDF extraction artifacts may appear missing. This single public exam cannot establish advanced-university coverage."
+  },
+  "verifiedInflectionExamples": [
+    {
+      "surface": "men",
+      "existingHeadword": "man",
+      "id": "v0249",
+      "count": 12
+    },
+    {
+      "surface": "women",
+      "existingHeadword": "woman",
+      "id": "v0573",
+      "count": 11
+    },
+    {
+      "surface": "emotions",
+      "existingHeadword": "emotion",
+      "id": "v1332",
+      "count": 6
+    },
+    {
+      "surface": "was",
+      "existingHeadword": "be",
+      "id": "v0016",
+      "count": 6
+    },
+    {
+      "surface": "were",
+      "existingHeadword": "be",
+      "id": "v0016",
+      "count": 6
+    },
+    {
+      "surface": "are",
+      "existingHeadword": "be",
+      "id": "v0016",
+      "count": 5
+    },
+    {
+      "surface": "is",
+      "existingHeadword": "be",
+      "id": "v0016",
+      "count": 5
+    },
+    {
+      "surface": "been",
+      "existingHeadword": "be",
+      "id": "v0016",
+      "count": 4
+    },
+    {
+      "surface": "argued",
+      "existingHeadword": "argue",
+      "id": "v1016",
+      "count": 2
+    }
+  ],
+  "verifiedInflectionTokenCount": 57,
+  "missingHeadwordCandidates": [
+    "ancient",
+    "prominent",
+    "external",
+    "genuine",
+    "rationality",
+    "cognitive",
+    "hostility",
+    "segregation",
+    "dichotomy",
+    "aftermath",
+    "dire",
+    "impending",
+    "elusive",
+    "lucrative",
+    "imminent",
+    "deception"
+  ],
+  "limitations": [
+    "本文に年代表記の末尾sや序数末尾thが残り、固有名詞・所有格・引用内の語も計数する。",
+    "9表記の手動確認は一部のみ。全語の原形統合率や文脈での語義一致率は算出していない。",
+    "設問の語句の並びを単語単位に分割しており、熟語・構文・発音知識は評価していない。",
+    "単一の長文と選択肢の分析であり、難関大学全体の対応や合格可能性を証明しない。"
+  ]
+}

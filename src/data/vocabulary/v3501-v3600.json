@@ -1,0 +1,2200 @@
+[
+  {
+    "id": "v3501",
+    "word": "giraffe",
+    "meaningJa": "キリン",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The giraffe reached the leaves on the tall tree.",
+    "exampleJa": "キリンは高い木の葉に届きました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な動物名を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3502",
+    "word": "zebra",
+    "meaningJa": "シマウマ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A zebra stood beside the water.",
+    "exampleJa": "シマウマが水辺に立っていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な動物名を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3503",
+    "word": "panda",
+    "meaningJa": "パンダ",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The panda was eating bamboo.",
+    "exampleJa": "パンダは竹を食べていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "親しみのある動物の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3504",
+    "word": "koala",
+    "meaningJa": "コアラ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A koala rested in the tree.",
+    "exampleJa": "コアラが木の上で休んでいました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "動物の具体的な種類を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3505",
+    "word": "kangaroo",
+    "meaningJa": "カンガルー",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The kangaroo moved across the open field.",
+    "exampleJa": "カンガルーは開けた野原を移動しました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な動物名を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3506",
+    "word": "gorilla",
+    "meaningJa": "ゴリラ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The gorilla sat in the shade.",
+    "exampleJa": "ゴリラは日陰に座っていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "動物の具体的な種類を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3507",
+    "word": "chimpanzee",
+    "meaningJa": "チンパンジー",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The chimpanzee used a stick to reach the food.",
+    "exampleJa": "チンパンジーは棒を使って食べ物を取りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "動物の認知や行動の文章に出る語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3508",
+    "word": "ape",
+    "meaningJa": "類人猿",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A gorilla is a large ape.",
+    "exampleJa": "ゴリラは大型の類人猿です。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人と動物の比較を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "類人猿を指す語で、通常の用法ではmonkeyと区別します。"
+  },
+  {
+    "id": "v3509",
+    "word": "deer",
+    "meaningJa": "シカ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A deer crossed the road ahead of us.",
+    "exampleJa": "私たちの前でシカが道路を横切りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な野生動物の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "単数形も複数形もdeerです。"
+  },
+  {
+    "id": "v3510",
+    "word": "donkey",
+    "meaningJa": "ロバ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The donkey carried supplies up the hill.",
+    "exampleJa": "ロバは物資を丘の上へ運びました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "家畜や物語の具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3511",
+    "word": "camel",
+    "meaningJa": "ラクダ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The camel walked slowly across the sand.",
+    "exampleJa": "ラクダは砂の上をゆっくり歩いて渡りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "動物と地域の文化に関わる語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3512",
+    "word": "squirrel",
+    "meaningJa": "リス",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A squirrel ran along the branch.",
+    "exampleJa": "リスが枝に沿って走りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な自然の動物名。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3513",
+    "word": "seal",
+    "meaningJa": "アザラシ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The seal rested on a rock near the shore.",
+    "exampleJa": "アザラシは岸の近くの岩で休んでいました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "動物の基本義と別義を分けて扱う語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜を密封する；封印する",
+        "example": "Seal the envelope before posting it.",
+        "exampleJa": "投函する前に封筒を封じてください。"
+      },
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "印章；封印",
+        "example": "The letter bore the official seal.",
+        "exampleJa": "その手紙には公印が押されていました。"
+      }
+    ]
+  },
+  {
+    "id": "v3514",
+    "word": "dolphin",
+    "meaningJa": "イルカ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A dolphin jumped out of the water.",
+    "exampleJa": "イルカが水面から跳び上がりました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な海の動物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3515",
+    "word": "whale",
+    "meaningJa": "クジラ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We saw a whale from the boat.",
+    "exampleJa": "私たちは船からクジラを見ました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な海の動物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3516",
+    "word": "shark",
+    "meaningJa": "サメ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A shark swam past the divers.",
+    "exampleJa": "サメが潜水者たちのそばを泳いで通りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "海の生物を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3517",
+    "word": "octopus",
+    "meaningJa": "タコ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The octopus hid among the rocks.",
+    "exampleJa": "タコは岩の間に隠れました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "海の生物を表す具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3518",
+    "word": "squid",
+    "meaningJa": "イカ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A squid moved through the clear water.",
+    "exampleJa": "イカは澄んだ水の中を移動しました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "海の生物や食品の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3519",
+    "word": "jellyfish",
+    "meaningJa": "クラゲ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A jellyfish drifted near the surface.",
+    "exampleJa": "クラゲが水面近くを漂っていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "海の生物を表す具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3520",
+    "word": "turtle",
+    "meaningJa": "カメ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The turtle climbed onto a log.",
+    "exampleJa": "カメは丸太の上に登りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な動物名を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3521",
+    "word": "tortoise",
+    "meaningJa": "リクガメ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The tortoise moved slowly through the grass.",
+    "exampleJa": "リクガメは草の中をゆっくり進みました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "カメの種類を区別する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "陸上で生活するリクガメを指します。turtleは地域や文脈によりカメ全般や水生のカメを指します。"
+  },
+  {
+    "id": "v3522",
+    "word": "crocodile",
+    "meaningJa": "ワニ；クロコダイル",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The crocodile lay near the riverbank.",
+    "exampleJa": "ワニは川岸の近くに横たわっていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自然の動物を具体的に表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3523",
+    "word": "lizard",
+    "meaningJa": "トカゲ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A small lizard climbed the wall.",
+    "exampleJa": "小さなトカゲが壁を登りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な動物名を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3524",
+    "word": "frog",
+    "meaningJa": "カエル",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The frog jumped into the pond.",
+    "exampleJa": "カエルは池に跳び込みました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な動物の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3525",
+    "word": "bat",
+    "meaningJa": "コウモリ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A bat flew out of the cave.",
+    "exampleJa": "コウモリが洞窟から飛び出しました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "動物を基本義とする多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "バット",
+        "example": "He picked up a wooden bat.",
+        "exampleJa": "彼は木製のバットを手に取りました。"
+      }
+    ]
+  },
+  {
+    "id": "v3526",
+    "word": "rat",
+    "meaningJa": "ネズミ；大型のネズミ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A rat ran behind the boxes.",
+    "exampleJa": "ネズミが箱の後ろを走りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "生活や科学に出る動物の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "一般にmouseより大きいネズミを指す語です。すべてのネズミを一律にratと訳すわけではありません。"
+  },
+  {
+    "id": "v3527",
+    "word": "hamster",
+    "meaningJa": "ハムスター",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The hamster filled its cheeks with food.",
+    "exampleJa": "ハムスターは頬に食べ物を詰めました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な飼育動物の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3528",
+    "word": "penguin",
+    "meaningJa": "ペンギン",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "The penguin dived into the sea.",
+    "exampleJa": "ペンギンは海に飛び込みました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "親しみのある鳥の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3529",
+    "word": "eagle",
+    "meaningJa": "ワシ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "An eagle circled above the valley.",
+    "exampleJa": "ワシが谷の上を旋回していました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自然や物語に出る鳥の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3530",
+    "word": "owl",
+    "meaningJa": "フクロウ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We heard an owl in the forest.",
+    "exampleJa": "私たちは森でフクロウの鳴き声を聞きました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な鳥の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3531",
+    "word": "crow",
+    "meaningJa": "カラス",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A crow landed on the fence.",
+    "exampleJa": "カラスが柵にとまりました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な鳥の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3532",
+    "word": "sparrow",
+    "meaningJa": "スズメ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A sparrow picked up a seed.",
+    "exampleJa": "スズメは種を拾い上げました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な鳥の具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3533",
+    "word": "pigeon",
+    "meaningJa": "ハト",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The pigeon rested on the roof.",
+    "exampleJa": "ハトは屋根の上で休んでいました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "街で見られる鳥の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3534",
+    "word": "parrot",
+    "meaningJa": "オウム；インコ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The parrot repeated a short phrase.",
+    "exampleJa": "オウムは短い言葉を繰り返しました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な鳥の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "〜を意味を考えず繰り返す",
+        "example": "Students should not simply parrot the textbook.",
+        "exampleJa": "生徒は教科書をただ意味も考えず繰り返すべきではありません。"
+      }
+    ]
+  },
+  {
+    "id": "v3535",
+    "word": "swan",
+    "meaningJa": "ハクチョウ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A swan glided across the lake.",
+    "exampleJa": "ハクチョウが湖面を滑るように進みました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "水辺の鳥の具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3536",
+    "word": "goose",
+    "meaningJa": "ガチョウ；ガン",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The goose walked toward the pond.",
+    "exampleJa": "ガチョウは池の方へ歩きました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "家禽や野鳥を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はgeeseです。"
+  },
+  {
+    "id": "v3537",
+    "word": "wasp",
+    "meaningJa": "ハチ；スズメバチなど",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A wasp flew around the fruit basket.",
+    "exampleJa": "ハチが果物のかごの周りを飛んでいました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "昆虫を区別する具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3538",
+    "word": "moth",
+    "meaningJa": "ガ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A moth flew toward the lamp.",
+    "exampleJa": "ガがランプの方へ飛びました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な昆虫を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3539",
+    "word": "snail",
+    "meaningJa": "カタツムリ；巻き貝",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A snail moved across a wet leaf.",
+    "exampleJa": "カタツムリがぬれた葉の上を進みました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な小動物を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3540",
+    "word": "algae",
+    "meaningJa": "藻類",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Green algae covered part of the pond.",
+    "exampleJa": "緑色の藻類が池の一部を覆っていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "水域の生態系を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "単数形algaに対する複数形ですが、藻類をまとめて指すこの形がよく使われるため見出しにしています。algaは別見出しとして数えていません。"
+  },
+  {
+    "id": "v3541",
+    "word": "yeast",
+    "meaningJa": "酵母；イースト",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "We added yeast to the dough.",
+    "exampleJa": "私たちは生地に酵母を加えました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "食品と微生物を結ぶ語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3542",
+    "word": "microbe",
+    "meaningJa": "微生物",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "A microbe can be too small to see without a microscope.",
+    "exampleJa": "微生物は顕微鏡なしには見えないほど小さいことがあります。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "見えない生物の世界を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "微生物を表す語です。microorganismも同様の意味で使われます。"
+  },
+  {
+    "id": "v3543",
+    "word": "microorganism",
+    "meaningJa": "微生物",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The researchers examined the microorganism under a microscope.",
+    "exampleJa": "研究者たちは顕微鏡でその微生物を調べました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "科学の文章で使う生物の総称。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3544",
+    "word": "primate",
+    "meaningJa": "霊長類",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "A chimpanzee is a primate.",
+    "exampleJa": "チンパンジーは霊長類です。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人と動物の系統を読む分類語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3545",
+    "word": "rodent",
+    "meaningJa": "げっ歯類",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "A mouse is a small rodent.",
+    "exampleJa": "ハツカネズミは小型のげっ歯類です。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "動物の分類を読む科学語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3546",
+    "word": "oak",
+    "meaningJa": "オーク；ナラ・カシ類",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "An old oak stands beside the path.",
+    "exampleJa": "小道の脇に古いオークの木が立っています。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "樹木や景観を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "ナラ・カシなどを含む樹木の総称として使います。"
+  },
+  {
+    "id": "v3547",
+    "word": "pine",
+    "meaningJa": "マツ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The pine stayed green through the winter.",
+    "exampleJa": "マツは冬の間も緑色を保っていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な樹木の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "恋い慕う；切望する",
+        "example": "They pine for their distant home.",
+        "exampleJa": "彼らは遠く離れた故郷を恋い慕っています。"
+      }
+    ]
+  },
+  {
+    "id": "v3548",
+    "word": "maple",
+    "meaningJa": "カエデ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The maple has bright red leaves in autumn.",
+    "exampleJa": "そのカエデは秋に鮮やかな赤い葉をつけます。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な樹木の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3549",
+    "word": "bamboo",
+    "meaningJa": "竹",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "They built a fence from bamboo.",
+    "exampleJa": "彼らは竹で柵を作りました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "植物と生活の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "植物や材料をまとめて指すときは不可算として使います。"
+  },
+  {
+    "id": "v3550",
+    "word": "cactus",
+    "meaningJa": "サボテン",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A cactus grew in a pot by the window.",
+    "exampleJa": "サボテンが窓際の鉢で育っていました。",
+    "category": "環境",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な植物の具体語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はcactiまたはcactusesです。"
+  },
+  {
+    "id": "v3551",
+    "word": "mathematical",
+    "meaningJa": "数学の；数学的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The problem requires mathematical reasoning.",
+    "exampleJa": "その問題には数学的な推論が必要です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "学習や科学の分野を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3552",
+    "word": "mathematician",
+    "meaningJa": "数学者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The mathematician developed a new method.",
+    "exampleJa": "数学者は新しい方法を開発しました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "研究を担う職業の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3553",
+    "word": "statistics",
+    "meaningJa": "統計；統計学",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She studies statistics at university.",
+    "exampleJa": "彼女は大学で統計学を学んでいます。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会や科学の数値を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "学問としての統計学は単数扱いです。統計上の数値や資料を指すときは複数扱いになります。statisticを別見出しにして水増ししていません。"
+  },
+  {
+    "id": "v3554",
+    "word": "statistical",
+    "meaningJa": "統計の；統計的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The report includes statistical analysis.",
+    "exampleJa": "その報告書には統計分析が含まれています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "数値に基づく分析を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3555",
+    "word": "variable",
+    "meaningJa": "変数；変わり得る要因",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The experiment changed only one variable.",
+    "exampleJa": "その実験では変数を一つだけ変えました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "実験や比較の条件を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "変わりやすい；可変の",
+        "example": "The weather is highly variable in spring.",
+        "exampleJa": "春の天気は非常に変わりやすいです。"
+      }
+    ]
+  },
+  {
+    "id": "v3556",
+    "word": "constant",
+    "meaningJa": "絶え間ない；一定の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The temperature remained constant.",
+    "exampleJa": "温度は一定のままでした。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "継続性や不変性を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3557",
+    "word": "equation",
+    "meaningJa": "方程式；等式",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The students solved the equation together.",
+    "exampleJa": "生徒たちは一緒に方程式を解きました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "数量の関係を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3558",
+    "word": "formula",
+    "meaningJa": "公式；方式",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The formula gives the area of a circle.",
+    "exampleJa": "その公式で円の面積が求められます。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "一般的な計算や方法を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3559",
+    "word": "proof",
+    "meaningJa": "証拠；証明",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The claim needs proof.",
+    "exampleJa": "その主張には証拠が必要です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "論証の根拠を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3560",
+    "word": "calculator",
+    "meaningJa": "計算機；電卓",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "You may use a calculator for this exercise.",
+    "exampleJa": "この練習問題では電卓を使ってもよいです。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な学習道具の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3561",
+    "word": "addition",
+    "meaningJa": "追加；加法",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The addition of a new bus route improved access.",
+    "exampleJa": "新しいバス路線の追加で交通の便がよくなりました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数量や構成の追加を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3562",
+    "word": "subtraction",
+    "meaningJa": "引き算；減法",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The lesson focuses on subtraction.",
+    "exampleJa": "その授業は引き算に焦点を当てています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "基本的な計算の種類を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3563",
+    "word": "multiplication",
+    "meaningJa": "掛け算；乗法",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The students practiced multiplication.",
+    "exampleJa": "生徒たちは掛け算を練習しました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "基本的な計算の種類を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3564",
+    "word": "subtract",
+    "meaningJa": "〜を引く；差し引く",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Subtract three from ten.",
+    "exampleJa": "十から三を引いてください。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数量を減らす基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "subtract A from Bは「BからAを引く」。引く順序に注意します。"
+  },
+  {
+    "id": "v3565",
+    "word": "sum",
+    "meaningJa": "合計；金額",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The sum of these numbers is twenty.",
+    "exampleJa": "これらの数の合計は二十です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数量をまとめる基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3566",
+    "word": "fraction",
+    "meaningJa": "分数；一部分",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Only a fraction of the work is finished.",
+    "exampleJa": "仕事のごく一部しか終わっていません。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "部分と全体の関係を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3567",
+    "word": "decimal",
+    "meaningJa": "十進法の；小数の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Write the answer as a decimal number.",
+    "exampleJa": "答えを小数で書いてください。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "数の表し方を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3568",
+    "word": "percentage",
+    "meaningJa": "百分率；割合",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A large percentage of students walk to school.",
+    "exampleJa": "生徒の大きな割合が徒歩で通学します。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "統計を読む基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3569",
+    "word": "ratio",
+    "meaningJa": "比；比率",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The ratio of boys to girls is two to three.",
+    "exampleJa": "男子と女子の比は二対三です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "二つの数量の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3570",
+    "word": "proportion",
+    "meaningJa": "割合；比率",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A high proportion of the land is forest.",
+    "exampleJa": "その土地の大きな割合が森林です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "全体の中の量を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3571",
+    "word": "quantitative",
+    "meaningJa": "量的な；数量に関する",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The study uses quantitative data.",
+    "exampleJa": "その研究は量的なデータを使っています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "研究の情報形式を区別する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "量や数値に着目することです。性質や内容に着目するqualitativeと対比されます。"
+  },
+  {
+    "id": "v3572",
+    "word": "qualitative",
+    "meaningJa": "質的な；性質に関する",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The team conducted qualitative interviews.",
+    "exampleJa": "チームは質的な聞き取り調査を行いました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "数値以外の性質を扱う研究語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "性質や内容に着目することです。数値を扱うquantitativeと対比されます。"
+  },
+  {
+    "id": "v3573",
+    "word": "meter",
+    "meaningJa": "メートル；計器",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The table is one meter wide.",
+    "exampleJa": "そのテーブルの幅は一メートルです。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な長さの単位と計器の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "長さの単位は英国ではmetreとも書きます。計器を指す語は通常meterです。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "計器；測定器",
+        "example": "The meter records how much water we use.",
+        "exampleJa": "その計器は私たちが使う水の量を記録します。"
+      }
+    ]
+  },
+  {
+    "id": "v3574",
+    "word": "centimeter",
+    "meaningJa": "センチメートル",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The seedling grew one centimeter in a week.",
+    "exampleJa": "苗は一週間で一センチメートル伸びました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な長さの単位の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "centimetreという綴りもあります。"
+  },
+  {
+    "id": "v3575",
+    "word": "kilometer",
+    "meaningJa": "キロメートル",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The station is one kilometer from here.",
+    "exampleJa": "駅はここから一キロメートルの距離にあります。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な距離の単位の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "kilometreという綴りもあります。"
+  },
+  {
+    "id": "v3576",
+    "word": "kilogram",
+    "meaningJa": "キログラム",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The package weighs one kilogram.",
+    "exampleJa": "その荷物は一キログラムあります。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な計量単位の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3577",
+    "word": "gram",
+    "meaningJa": "グラム",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The sample weighs less than a gram.",
+    "exampleJa": "その試料の重さは一グラム未満です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な計量単位の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3578",
+    "word": "pound",
+    "meaningJa": "ポンド；重さや通貨の単位",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The cake costs one pound.",
+    "exampleJa": "そのケーキの値段は一ポンドです。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "単位や海外の生活を読む語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "重さの単位と、英国などの通貨単位の両方を指します。文脈で区別します。"
+  },
+  {
+    "id": "v3579",
+    "word": "liter",
+    "meaningJa": "リットル",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The bottle holds one liter of water.",
+    "exampleJa": "その瓶には一リットルの水が入ります。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な体積の単位の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "litreという綴りもあります。"
+  },
+  {
+    "id": "v3580",
+    "word": "mile",
+    "meaningJa": "マイル；距離の単位",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We walked a mile along the river.",
+    "exampleJa": "私たちは川沿いを一マイル歩きました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "距離の表現を読む基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3581",
+    "word": "cube",
+    "meaningJa": "立方体；さいころ状の物",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The child made a cube from paper.",
+    "exampleJa": "子供は紙で立方体を作りました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "立体の形を表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3582",
+    "word": "sphere",
+    "meaningJa": "球；範囲；領域",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A sphere has a curved surface.",
+    "exampleJa": "球には曲面があります。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "形と抽象的な領域を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "領域；範囲",
+        "example": "The decision lies within the public sphere.",
+        "exampleJa": "その決定は公共の領域に属します。"
+      }
+    ]
+  },
+  {
+    "id": "v3583",
+    "word": "cylinder",
+    "meaningJa": "円柱；筒",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The container is shaped like a cylinder.",
+    "exampleJa": "その容器は円柱の形をしています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "立体や機械の形を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3584",
+    "word": "cone",
+    "meaningJa": "円錐；コーン",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The object has the shape of a cone.",
+    "exampleJa": "その物体は円錐の形をしています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な立体の形を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3585",
+    "word": "pyramid",
+    "meaningJa": "ピラミッド；角錐",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The students built a pyramid from blocks.",
+    "exampleJa": "生徒たちは積み木でピラミッドを作りました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "建造物と立体の基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3586",
+    "word": "triangle",
+    "meaningJa": "三角形",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Draw a triangle on the paper.",
+    "exampleJa": "紙に三角形を描いてください。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "基本的な平面図形の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3587",
+    "word": "rectangle",
+    "meaningJa": "長方形",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The garden is shaped like a rectangle.",
+    "exampleJa": "その庭は長方形をしています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "基本的な平面図形の語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3588",
+    "word": "oval",
+    "meaningJa": "楕円形の；卵形の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "They sat around an oval table.",
+    "exampleJa": "彼らは楕円形のテーブルを囲んで座りました。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身近な形状を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3589",
+    "word": "horizontal",
+    "meaningJa": "水平の；横の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "Draw a horizontal line across the page.",
+    "exampleJa": "ページを横切る水平な線を引いてください。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "方向や図形を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3590",
+    "word": "vertical",
+    "meaningJa": "垂直の；縦の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The chart has a vertical axis.",
+    "exampleJa": "その図には縦軸があります。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "方向や図形を説明する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3591",
+    "word": "parallel",
+    "meaningJa": "平行の；並行する",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The two roads are parallel.",
+    "exampleJa": "その二本の道路は平行です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "位置と抽象的な対応を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3592",
+    "word": "perpendicular",
+    "meaningJa": "垂直な；直角をなす",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "These two lines are perpendicular to each other.",
+    "exampleJa": "この二本の線は互いに直角をなしています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "二つの線や面の位置関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "perpendicular to ...で「〜と直角をなす」。verticalは通常、地面に対して垂直な方向を表します。"
+  },
+  {
+    "id": "v3593",
+    "word": "angle",
+    "meaningJa": "角；角度；観点",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Measure the angle between the two lines.",
+    "exampleJa": "二本の線の間の角度を測ってください。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "形と視点を表す多義語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "観点；見方",
+        "example": "We examined the problem from another angle.",
+        "exampleJa": "私たちは別の観点から問題を検討しました。"
+      }
+    ]
+  },
+  {
+    "id": "v3594",
+    "word": "curve",
+    "meaningJa": "曲線；曲がり",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The road follows the curve of the river.",
+    "exampleJa": "道路は川の曲がりに沿っています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "線や経路の形を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3595",
+    "word": "circular",
+    "meaningJa": "円形の；循環する",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The room has a circular window.",
+    "exampleJa": "その部屋には円形の窓があります。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "形や循環の性質を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3596",
+    "word": "linear",
+    "meaningJa": "直線の；線形の",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The graph shows a linear relationship.",
+    "exampleJa": "そのグラフは線形の関係を示しています。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "数量や構造の関係を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3597",
+    "word": "precision",
+    "meaningJa": "精密さ；正確さ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The task requires great precision.",
+    "exampleJa": "その作業には非常に高い精密さが必要です。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "測定や作業の細かさを評価する語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3598",
+    "word": "exact",
+    "meaningJa": "正確な；まさにその",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "Please tell me the exact time.",
+    "exampleJa": "正確な時刻を教えてください。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常的な正確さを表す基本語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v3599",
+    "word": "margin",
+    "meaningJa": "余白；差；余裕",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Write your notes in the margin.",
+    "exampleJa": "余白にメモを書いてください。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "具体的な余白と数量の差を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "差；余裕",
+        "example": "The candidate won by a narrow margin.",
+        "exampleJa": "その候補者は僅差で勝ちました。"
+      }
+    ]
+  },
+  {
+    "id": "v3600",
+    "word": "interval",
+    "meaningJa": "間隔；合間",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "There is a short interval between the two sessions.",
+    "exampleJa": "二つの講習の間には短い休憩時間があります。",
+    "category": "社会・科学",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "時間や空間の間を表す語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

@@ -1,0 +1,2230 @@
+[
+  {
+    "id": "v2101",
+    "word": "bright",
+    "meaningJa": "明るい；輝く",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The room is bright in the morning.",
+    "exampleJa": "その部屋は朝には明るいです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な光の状態を表す基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "賢い；見込みのある",
+        "example": "The teacher described her as a bright student.",
+        "exampleJa": "先生は彼女を賢い生徒だと評しました。"
+      }
+    ]
+  },
+  {
+    "id": "v2102",
+    "word": "pale",
+    "meaningJa": "青白い；淡い",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "She wore a pale blue shirt.",
+    "exampleJa": "彼女は淡い青色のシャツを着ていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "顔色や色の薄さを説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2103",
+    "word": "vivid",
+    "meaningJa": "鮮やかな；生き生きした",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The artist used vivid colors.",
+    "exampleJa": "その画家は鮮やかな色を使いました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "色や記憶の鮮明さを表す読解形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2104",
+    "word": "dull",
+    "meaningJa": "退屈な；鈍い",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The lecture was long and dull.",
+    "exampleJa": "その講義は長く退屈でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "興味や鋭さが乏しい状態を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2105",
+    "word": "shiny",
+    "meaningJa": "光る；つやのある",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The child picked up a shiny stone.",
+    "exampleJa": "その子は光る石を拾いました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な物の表面を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2106",
+    "word": "rough",
+    "meaningJa": "粗い；荒れた",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The road has a rough surface.",
+    "exampleJa": "その道路は表面がでこぼこしています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "手触りや状態の荒さを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "大まかな；おおよその",
+        "example": "This is only a rough estimate of the cost.",
+        "exampleJa": "これは費用の大まかな見積もりにすぎません。"
+      }
+    ]
+  },
+  {
+    "id": "v2107",
+    "word": "smooth",
+    "meaningJa": "滑らかな；順調な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The table has a smooth wooden surface.",
+    "exampleJa": "そのテーブルは木の表面が滑らかです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "手触りや進行の滑らかさを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2108",
+    "word": "thick",
+    "meaningJa": "厚い；太い",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "He wore a thick coat in winter.",
+    "exampleJa": "彼は冬に厚いコートを着ていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な物の厚みを表す基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2109",
+    "word": "thin",
+    "meaningJa": "薄い；細い",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The book has thin pages.",
+    "exampleJa": "その本のページは薄いです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "物の厚さや細さを表す基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2110",
+    "word": "narrow",
+    "meaningJa": "狭い",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "A narrow path leads to the beach.",
+    "exampleJa": "狭い小道が浜辺に続いています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "幅や範囲の小ささを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2111",
+    "word": "shallow",
+    "meaningJa": "浅い",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The water is shallow near the shore.",
+    "exampleJa": "岸の近くは水が浅いです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "深さの小ささを説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2112",
+    "word": "steep",
+    "meaningJa": "急な；険しい",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The road becomes steep near the summit.",
+    "exampleJa": "頂上の近くで道は急になります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "傾斜や増加の急さを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2113",
+    "word": "sharp",
+    "meaningJa": "鋭い；よく切れる",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "Be careful with that sharp knife.",
+    "exampleJa": "そのよく切れる包丁に気を付けてください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "刃や先端の鋭さを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "急激な；鋭敏な",
+        "example": "The graph shows a sharp rise in prices.",
+        "exampleJa": "そのグラフは物価の急激な上昇を示しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2114",
+    "word": "blunt",
+    "meaningJa": "鈍い；遠慮のない",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The blunt knife could not cut the rope.",
+    "exampleJa": "その切れないナイフではロープを切れませんでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "鋭さの欠如や直接的な表現を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2115",
+    "word": "loose",
+    "meaningJa": "緩い；固定されていない",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "One button on my coat is loose.",
+    "exampleJa": "私のコートのボタンが一つ緩んでいます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "物の固定や締まりを説明する基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "loose（緩い）とlose（失う）は綴り・発音とも異なります。"
+  },
+  {
+    "id": "v2116",
+    "word": "tight",
+    "meaningJa": "きつい；しっかりした",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "These shoes are too tight for me.",
+    "exampleJa": "この靴は私にはきつすぎます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "締まりや余裕の少なさを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2117",
+    "word": "liquid",
+    "meaningJa": "液体",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Pour the liquid into the bottle.",
+    "exampleJa": "液体をボトルに注いでください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物質の基本的な状態を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "液体の",
+        "example": "The experiment uses a liquid fuel.",
+        "exampleJa": "その実験は液体燃料を使います。"
+      }
+    ]
+  },
+  {
+    "id": "v2118",
+    "word": "empty",
+    "meaningJa": "空の",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The classroom was empty after school.",
+    "exampleJa": "放課後の教室には誰もいませんでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "中に何もない状態を表す基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "空にする",
+        "example": "Please empty the bin before leaving.",
+        "exampleJa": "出かける前にごみ箱を空にしてください。"
+      }
+    ]
+  },
+  {
+    "id": "v2119",
+    "word": "stale",
+    "meaningJa": "新鮮でない；古くなった",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The bread tasted stale.",
+    "exampleJa": "そのパンは古くなった味がしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "食品や発想の新鮮さの欠如を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2120",
+    "word": "ripe",
+    "meaningJa": "熟した",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The peaches are ripe and ready to eat.",
+    "exampleJa": "桃は熟して食べ頃です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "果物の成熟を説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2121",
+    "word": "raw",
+    "meaningJa": "生の；未加工の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The salad contains raw carrots.",
+    "exampleJa": "そのサラダには生のニンジンが入っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "調理や加工をしていない状態を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "未加工の；未処理の",
+        "example": "The researchers examined the raw data.",
+        "exampleJa": "研究者たちは未処理のデータを調べました。"
+      }
+    ]
+  },
+  {
+    "id": "v2122",
+    "word": "bitter",
+    "meaningJa": "苦い；つらい",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The tea has a bitter taste.",
+    "exampleJa": "そのお茶には苦みがあります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "味を基本義とし感情にも広がる形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2123",
+    "word": "sour",
+    "meaningJa": "酸っぱい",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "This apple tastes sour.",
+    "exampleJa": "このリンゴは酸っぱい味がします。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の味を表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2124",
+    "word": "salty",
+    "meaningJa": "塩辛い",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The soup is too salty for me.",
+    "exampleJa": "そのスープは私には塩辛すぎます。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事の味を表す基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2125",
+    "word": "spicy",
+    "meaningJa": "香辛料の効いた；辛い",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "He enjoys spicy food.",
+    "exampleJa": "彼は香辛料の効いた食べ物が好きです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "食事の好みを説明する基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2126",
+    "word": "mild",
+    "meaningJa": "穏やかな；温和な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "We had a mild winter this year.",
+    "exampleJa": "今年の冬は穏やかでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "天候や性質の激しくなさを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2127",
+    "word": "tender",
+    "meaningJa": "柔らかい；優しい",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The meat is tender and easy to cut.",
+    "exampleJa": "その肉は柔らかく切りやすいです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物の柔らかさや感情の優しさを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2128",
+    "word": "tough",
+    "meaningJa": "丈夫な；手ごわい",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "We faced a tough decision.",
+    "exampleJa": "私たちは難しい決断に直面しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "耐久性や困難の大きさを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2129",
+    "word": "dirty",
+    "meaningJa": "汚れた",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "Put the dirty clothes in the basket.",
+    "exampleJa": "汚れた服をかごに入れてください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の清潔さを説明する基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2130",
+    "word": "neat",
+    "meaningJa": "きちんとした；整った",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "Her handwriting is neat and clear.",
+    "exampleJa": "彼女の筆跡は整っていて読みやすいです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "形や整理の整然さを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2131",
+    "word": "messy",
+    "meaningJa": "散らかった；乱雑な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The kitchen was messy after dinner.",
+    "exampleJa": "夕食後の台所は散らかっていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の整理状態を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2132",
+    "word": "tidy",
+    "meaningJa": "きちんと片付いた",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "He keeps his desk tidy.",
+    "exampleJa": "彼は机をきちんと片付けています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な場所の整理状態を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "片付ける",
+        "example": "I need to tidy my room before dinner.",
+        "exampleJa": "私は夕食前に部屋を片付ける必要があります。"
+      }
+    ]
+  },
+  {
+    "id": "v2133",
+    "word": "convenient",
+    "meaningJa": "便利な；都合のよい",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The hotel is in a convenient location.",
+    "exampleJa": "そのホテルは便利な場所にあります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "生活の利便性を評価する基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "場所・時間・方法などが便利であることを表します。人の気分が快適なことにはcomfortableなどを使います。"
+  },
+  {
+    "id": "v2134",
+    "word": "inconvenient",
+    "meaningJa": "不便な；都合の悪い",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The meeting is at an inconvenient time for me.",
+    "exampleJa": "会議は私にとって都合の悪い時間にあります。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "予定や条件の不便さを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2135",
+    "word": "comfortable",
+    "meaningJa": "快適な；心地よい",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "This chair is comfortable to sit in.",
+    "exampleJa": "この椅子は座り心地がよいです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "生活や身体の快適さを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2136",
+    "word": "uncomfortable",
+    "meaningJa": "不快な；落ち着かない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The long silence made everyone uncomfortable.",
+    "exampleJa": "長い沈黙で皆が落ち着かなくなりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "身体や心理の不快さを説明する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2137",
+    "word": "pleasant",
+    "meaningJa": "楽しい；快い",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "We had a pleasant afternoon in the park.",
+    "exampleJa": "私たちは公園で楽しい午後を過ごしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "経験や感覚のよさを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2138",
+    "word": "unpleasant",
+    "meaningJa": "不快な；嫌な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "An unpleasant smell came from the drain.",
+    "exampleJa": "排水口から不快なにおいがしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "好ましくない感覚を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2139",
+    "word": "polite",
+    "meaningJa": "礼儀正しい",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The staff were polite and helpful.",
+    "exampleJa": "職員たちは礼儀正しく親切でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "人の応対を評価する基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2140",
+    "word": "rude",
+    "meaningJa": "失礼な；無礼な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "It is rude to interrupt someone repeatedly.",
+    "exampleJa": "何度も人の話を遮るのは失礼です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "礼儀や対人態度を説明する基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2141",
+    "word": "seldom",
+    "meaningJa": "めったに〜ない",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "She seldom watches television.",
+    "exampleJa": "彼女はめったにテレビを見ません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "頻度の低さを表す読解副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "頻度を表す否定的な副詞です。通常はnotを重ねません。"
+  },
+  {
+    "id": "v2142",
+    "word": "rarely",
+    "meaningJa": "めったに〜ない",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The lake rarely freezes in winter.",
+    "exampleJa": "その湖は冬でもめったに凍りません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "出来事の頻度の低さを示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "頻度を表す否定的な副詞です。通常はnotを重ねません。"
+  },
+  {
+    "id": "v2143",
+    "word": "recently",
+    "meaningJa": "最近",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "We recently moved to a new apartment.",
+    "exampleJa": "私たちは最近、新しいアパートに引っ越しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "近い過去を表す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2144",
+    "word": "lately",
+    "meaningJa": "最近；このところ",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "I have been busy lately.",
+    "exampleJa": "私はこのところ忙しくしています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "現在に近い期間を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "最近まで続いている状態について、現在完了形などとよく使います。"
+  },
+  {
+    "id": "v2145",
+    "word": "eventually",
+    "meaningJa": "最終的に；結局",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The two groups eventually reached an agreement.",
+    "exampleJa": "二つの団体は最終的に合意に達しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "時間や過程を経た結果を表す読解副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "時間や過程を経た結果として「最終的に」。possibly（ひょっとすると）とは異なります。"
+  },
+  {
+    "id": "v2146",
+    "word": "finally",
+    "meaningJa": "ついに；最後に",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The train finally arrived at noon.",
+    "exampleJa": "電車はついに正午に到着しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "経過の終わりや結果を表す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2147",
+    "word": "immediately",
+    "meaningJa": "直ちに；すぐに",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "She answered the question immediately.",
+    "exampleJa": "彼女はその質問にすぐに答えました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "時間の隔たりがないことを示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2148",
+    "word": "gradually",
+    "meaningJa": "徐々に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The sky gradually became brighter.",
+    "exampleJa": "空は徐々に明るくなりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "変化が少しずつ進むことを示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "急な変化を表すsuddenlyと対比して覚えましょう。"
+  },
+  {
+    "id": "v2149",
+    "word": "suddenly",
+    "meaningJa": "突然",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The lights suddenly went out.",
+    "exampleJa": "照明が突然消えました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "予期しない急な出来事を表す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2150",
+    "word": "carefully",
+    "meaningJa": "注意深く；丁寧に",
+    "partOfSpeech": "adverb",
+    "level": 1,
+    "example": "Please read the instructions carefully.",
+    "exampleJa": "指示を注意深く読んでください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "行為の丁寧さや注意を示す基礎副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2151",
+    "word": "honest",
+    "meaningJa": "正直な；誠実な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "Please give me an honest answer.",
+    "exampleJa": "正直な答えをください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "人の誠実さを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "語頭のhを発音しないため、単数名詞の前ではan honest personのようになります。"
+  },
+  {
+    "id": "v2152",
+    "word": "dishonest",
+    "meaningJa": "不正直な；不誠実な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The report described the claim as dishonest.",
+    "exampleJa": "その報告書はその主張を不誠実だと評しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "事実や行為への誠実さの欠如を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2153",
+    "word": "modest",
+    "meaningJa": "謙虚な；控えめな",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "She is modest about her achievements.",
+    "exampleJa": "彼女は自分の業績について謙虚です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自己評価や規模の控えめさを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "ささやかな；ほどほどの",
+        "example": "The project made a modest profit.",
+        "exampleJa": "その事業はささやかな利益を上げました。"
+      }
+    ]
+  },
+  {
+    "id": "v2154",
+    "word": "humble",
+    "meaningJa": "謙虚な；質素な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "Despite his success, he remained humble.",
+    "exampleJa": "成功しても彼は謙虚なままでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "地位や成功への控えめな態度を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2155",
+    "word": "proud",
+    "meaningJa": "誇りに思う；誇らしい",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "They are proud of their school.",
+    "exampleJa": "彼らは自分たちの学校を誇りに思っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "人や成果への誇りを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "be proud ofで「〜を誇りに思う」を表します。"
+  },
+  {
+    "id": "v2156",
+    "word": "ashamed",
+    "meaningJa": "恥じて；恥ずかしく思って",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "He felt ashamed of his rude behavior.",
+    "exampleJa": "彼は自分の失礼な振る舞いを恥じました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行為や状態への恥の感情を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "be ashamed ofで「〜を恥じている」を表します。"
+  },
+  {
+    "id": "v2157",
+    "word": "shy",
+    "meaningJa": "内気な；恥ずかしがりの",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The shy child stood beside her mother.",
+    "exampleJa": "その内気な子は母親のそばに立っていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "身近な性格を表す基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2158",
+    "word": "brave",
+    "meaningJa": "勇敢な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The brave firefighter entered the burning house.",
+    "exampleJa": "勇敢な消防士は燃えている家に入りました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "恐れに立ち向かう性質を示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2159",
+    "word": "cowardly",
+    "meaningJa": "臆病な；卑怯な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The story contrasts brave and cowardly behavior.",
+    "exampleJa": "その物語は勇敢な行動と臆病な行動を対比しています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "勇気の欠如を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "語尾はlyですが、ここでは形容詞です。"
+  },
+  {
+    "id": "v2160",
+    "word": "calm",
+    "meaningJa": "落ち着いた；穏やかな",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "Her calm voice helped everyone relax.",
+    "exampleJa": "彼女の落ち着いた声は皆を安心させました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "感情や状況の穏やかさを示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "落ち着かせる；静める",
+        "example": "Her words helped calm the frightened child.",
+        "exampleJa": "彼女の言葉はおびえた子供を落ち着かせるのに役立ちました。"
+      }
+    ]
+  },
+  {
+    "id": "v2161",
+    "word": "nervous",
+    "meaningJa": "緊張した；神経質な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "I felt nervous before the interview.",
+    "exampleJa": "私は面接の前に緊張しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な緊張や不安を表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "神経の",
+        "example": "The diagram shows the nervous system.",
+        "exampleJa": "その図は神経系を示しています。"
+      }
+    ]
+  },
+  {
+    "id": "v2162",
+    "word": "anxious",
+    "meaningJa": "心配して；切望して",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The parents were anxious about the delay.",
+    "exampleJa": "両親はその遅れを心配していました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "不安や強い願望を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "切望して",
+        "example": "The students were anxious to hear the results.",
+        "exampleJa": "学生たちは結果を聞きたくてたまりませんでした。"
+      }
+    ]
+  },
+  {
+    "id": "v2163",
+    "word": "eager",
+    "meaningJa": "熱望して；熱心な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The students were eager to begin the experiment.",
+    "exampleJa": "生徒たちは実験を始めたくてたまりませんでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行為に向かう強い意欲を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "be eager to doで「しきりに〜したがっている」を表します。"
+  },
+  {
+    "id": "v2164",
+    "word": "willing",
+    "meaningJa": "進んで〜する；いとわない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "She is willing to help with the project.",
+    "exampleJa": "彼女はその計画を手伝うことをいといません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自発的に行動を受け入れる態度を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "be willing to doで「進んで〜する・〜してもよいと思っている」を表します。"
+  },
+  {
+    "id": "v2165",
+    "word": "unwilling",
+    "meaningJa": "気が進まない；したがらない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "He was unwilling to change his plan.",
+    "exampleJa": "彼は自分の計画を変えたがりませんでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行為を受け入れたくない態度を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2166",
+    "word": "reluctant",
+    "meaningJa": "気が進まない；渋っている",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "They were reluctant to leave their hometown.",
+    "exampleJa": "彼らは故郷を離れることに気が進みませんでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "行動へのためらいを表す読解形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "be reluctant to doで「〜するのに気が進まない」を表します。"
+  },
+  {
+    "id": "v2167",
+    "word": "curious",
+    "meaningJa": "好奇心の強い；知りたがる",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The curious child asked many questions.",
+    "exampleJa": "その好奇心の強い子はたくさん質問しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な学習意欲や関心を表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "奇妙な；不思議な",
+        "example": "There was a curious pattern on the stone.",
+        "exampleJa": "その石には不思議な模様がありました。"
+      }
+    ]
+  },
+  {
+    "id": "v2168",
+    "word": "silly",
+    "meaningJa": "ばかげた；愚かな",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "It was a silly mistake, but we corrected it.",
+    "exampleJa": "それはばかげた間違いでしたが、私たちは訂正しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "軽率さやばかばかしさを評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2169",
+    "word": "foolish",
+    "meaningJa": "愚かな；分別のない",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "It would be foolish to ignore the warning.",
+    "exampleJa": "警告を無視するのは愚かなことでしょう。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "判断の適切さを評価する基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2170",
+    "word": "wise",
+    "meaningJa": "賢明な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "She made a wise choice.",
+    "exampleJa": "彼女は賢明な選択をしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "経験や判断のよさを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2171",
+    "word": "clever",
+    "meaningJa": "賢い；巧妙な",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The student found a clever solution.",
+    "exampleJa": "その生徒は巧妙な解決策を見つけました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "頭の働きや工夫のよさを示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2172",
+    "word": "intelligent",
+    "meaningJa": "知的な；理解力のある",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The discussion included several intelligent questions.",
+    "exampleJa": "その討論にはいくつかの知的な質問がありました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "理解や思考の能力を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2173",
+    "word": "stupid",
+    "meaningJa": "愚かな；ばかな",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "It was a stupid decision to leave without a map.",
+    "exampleJa": "地図を持たずに出発したのは愚かな判断でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "判断の悪さを強く表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2174",
+    "word": "lazy",
+    "meaningJa": "怠惰な；のんびりした",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "We spent a lazy afternoon by the lake.",
+    "exampleJa": "私たちは湖のほとりでのんびりした午後を過ごしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "活動の少なさを表す日常の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2175",
+    "word": "passive",
+    "meaningJa": "受動的な；消極的な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The course encourages students to become active rather than passive learners.",
+    "exampleJa": "その授業は学生が受け身ではなく積極的に学ぶよう促します。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "働きかけを受ける態度や状態を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2176",
+    "word": "quiet",
+    "meaningJa": "静かな",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The library is quiet in the morning.",
+    "exampleJa": "その図書館は朝には静かです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の音や活動の少なさを表す基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2177",
+    "word": "noisy",
+    "meaningJa": "騒がしい",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The restaurant was too noisy for conversation.",
+    "exampleJa": "そのレストランは騒がしすぎて会話ができませんでした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の音の多さを表す基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2178",
+    "word": "silent",
+    "meaningJa": "無言の；音のしない",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The audience remained silent during the performance.",
+    "exampleJa": "観客は上演中静かにしていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "発話や音がない状態を示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2179",
+    "word": "gentle",
+    "meaningJa": "優しい；穏やかな",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "A gentle wind moved the curtains.",
+    "exampleJa": "穏やかな風がカーテンを揺らしました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "態度や力の穏やかさを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2180",
+    "word": "fierce",
+    "meaningJa": "激しい；どう猛な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "A fierce storm struck the coast.",
+    "exampleJa": "激しい嵐が海岸を襲いました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "力や対立の激しさを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2181",
+    "word": "cruel",
+    "meaningJa": "残酷な；冷酷な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The novel describes a cruel ruler.",
+    "exampleJa": "その小説は残酷な支配者を描いています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "苦痛を与える態度を評価する形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2182",
+    "word": "generous",
+    "meaningJa": "気前のよい；寛大な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "A generous donor paid for the new library.",
+    "exampleJa": "気前のよい寄付者が新しい図書館の費用を負担しました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "他者への与え方や寛容さを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "たっぷりの；豊富な",
+        "example": "The recipe calls for a generous amount of cheese.",
+        "exampleJa": "そのレシピではチーズをたっぷり使います。"
+      }
+    ]
+  },
+  {
+    "id": "v2183",
+    "word": "selfish",
+    "meaningJa": "自分勝手な；利己的な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "It is selfish to take all the food for yourself.",
+    "exampleJa": "食べ物を全部独り占めするのは自分勝手です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "他者より自分の利益を優先する態度を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2184",
+    "word": "greedy",
+    "meaningJa": "欲張りな；貪欲な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The story is about a greedy king.",
+    "exampleJa": "その物語は欲張りな王についてのものです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "必要以上に欲しがる態度を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2185",
+    "word": "impatient",
+    "meaningJa": "いら立った；待ちきれない",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The passengers grew impatient with the delay.",
+    "exampleJa": "乗客たちは遅れにいら立つようになりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "待つことへの不満や焦りを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2186",
+    "word": "lonely",
+    "meaningJa": "孤独な；寂しい",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "She felt lonely in the unfamiliar city.",
+    "exampleJa": "彼女は不慣れな都市で寂しく感じました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "人とのつながりが乏しい心情を示す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2187",
+    "word": "asleep",
+    "meaningJa": "眠っている",
+    "partOfSpeech": "adjective",
+    "level": 1,
+    "example": "The baby is asleep in the next room.",
+    "exampleJa": "赤ちゃんは隣の部屋で眠っています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "睡眠中の状態を表す基礎形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主にbeやfallなどの後に置きます。名詞の前で「眠っている子供」と言う場合は通常a sleeping childです。"
+  },
+  {
+    "id": "v2188",
+    "word": "awake",
+    "meaningJa": "目が覚めている",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "He was still awake at midnight.",
+    "exampleJa": "彼は真夜中にもまだ起きていました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "睡眠と対比する基本的な状態の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2189",
+    "word": "alive",
+    "meaningJa": "生きている",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The plant is still alive despite the cold.",
+    "exampleJa": "その植物は寒さにもかかわらずまだ生きています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "生存の状態を表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "主にbeなどの後に置きます。名詞の前では通常livingやliveを使います。"
+  },
+  {
+    "id": "v2190",
+    "word": "sudden",
+    "meaningJa": "突然の",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "A sudden change in weather stopped the game.",
+    "exampleJa": "天候の突然の変化で試合が中止になりました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "予期しない変化を表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2191",
+    "word": "clearly",
+    "meaningJa": "はっきりと；明らかに",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "Please speak clearly so everyone can hear.",
+    "exampleJa": "皆に聞こえるようにはっきり話してください。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "伝達や認識の明瞭さを示す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2192",
+    "word": "nearly",
+    "meaningJa": "ほとんど；もう少しで",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The work is nearly finished.",
+    "exampleJa": "仕事はほとんど終わっています。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "到達点に近い程度を表す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2193",
+    "word": "fairly",
+    "meaningJa": "かなり；公平に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The test was fairly easy.",
+    "exampleJa": "その試験はかなり簡単でした。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "程度や公正さを文脈で区別する副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adverb",
+        "meaningJa": "公平に；公正に",
+        "example": "The teacher treated every student fairly.",
+        "exampleJa": "先生はすべての生徒を公平に扱いました。"
+      }
+    ]
+  },
+  {
+    "id": "v2194",
+    "word": "extremely",
+    "meaningJa": "極めて；非常に",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "The room was extremely cold.",
+    "exampleJa": "その部屋は極めて寒かったです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "程度の強さを明示する副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2195",
+    "word": "particularly",
+    "meaningJa": "特に；とりわけ",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "I particularly enjoyed the final chapter.",
+    "exampleJa": "私は特に最後の章を楽しみました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "対象を特に取り立てる副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2196",
+    "word": "probably",
+    "meaningJa": "おそらく",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "It will probably rain this evening.",
+    "exampleJa": "今晩はおそらく雨が降るでしょう。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "確実ではない見込みを表す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2197",
+    "word": "certainly",
+    "meaningJa": "確かに；きっと",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The trip was certainly worth the effort.",
+    "exampleJa": "その旅行には確かに努力する価値がありました。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "確信や同意を示す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2198",
+    "word": "possibly",
+    "meaningJa": "ひょっとすると；もしかすると",
+    "partOfSpeech": "adverb",
+    "level": 3,
+    "example": "We could possibly finish before noon.",
+    "exampleJa": "私たちはもしかすると正午前に終えられるかもしれません。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "実現の可能性を控えめに述べる副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2199",
+    "word": "actually",
+    "meaningJa": "実際には；実は",
+    "partOfSpeech": "adverb",
+    "level": 2,
+    "example": "The book is actually easier than it looks.",
+    "exampleJa": "その本は実際には見た目より簡単です。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "予想と事実の違いを示す基本副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v2200",
+    "word": "apparently",
+    "meaningJa": "どうやら；見たところ",
+    "partOfSpeech": "adverb",
+    "level": 4,
+    "example": "Apparently, the meeting has been postponed.",
+    "exampleJa": "どうやら会議は延期されたようです。",
+    "category": "性質・状態",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "間接的な情報や外見に基づく判断を示す副詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

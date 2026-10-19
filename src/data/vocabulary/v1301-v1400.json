@@ -1,0 +1,2224 @@
+[
+  {
+    "id": "v1301",
+    "word": "concept",
+    "meaningJa": "概念；考え",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The teacher explained the concept of gravity.",
+    "exampleJa": "先生は重力という概念を説明しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "抽象的な考えを整理する重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1302",
+    "word": "theory",
+    "meaningJa": "理論；説",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The experiment supports this theory.",
+    "exampleJa": "その実験はこの理論を裏付けています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "科学や議論の説明体系を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1303",
+    "word": "principle",
+    "meaningJa": "原理；原則",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The machine works on a simple principle.",
+    "exampleJa": "その機械は単純な原理で動きます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "仕組みや判断基準を表す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "原理・原則はprincipleです。principal（主要な・校長）とは綴りが異なります。"
+  },
+  {
+    "id": "v1304",
+    "word": "assumption",
+    "meaningJa": "仮定；思い込み",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The plan rests on an unrealistic assumption.",
+    "exampleJa": "その計画は非現実的な仮定に基づいています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "議論の前提を検討する入試読解語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1305",
+    "word": "argument",
+    "meaningJa": "議論；主張；口論",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Her argument is supported by clear evidence.",
+    "exampleJa": "彼女の主張は明確な証拠に裏付けられています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "論証や意見対立を表す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "口論",
+        "example": "They had an argument about money.",
+        "exampleJa": "彼らはお金のことで口論しました。"
+      }
+    ]
+  },
+  {
+    "id": "v1306",
+    "word": "explanation",
+    "meaningJa": "説明",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Your explanation helped me understand the problem.",
+    "exampleJa": "あなたの説明で私は問題を理解できました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学習や会話の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1307",
+    "word": "conclusion",
+    "meaningJa": "結論；終わり",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We reached the same conclusion after examining the data.",
+    "exampleJa": "データを調べた結果、私たちは同じ結論に達しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "議論の到達点を示す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1308",
+    "word": "perspective",
+    "meaningJa": "視点；見方",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Travel can give us a new perspective on life.",
+    "exampleJa": "旅行は人生について新しい視点を与えてくれます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "異なる立場を比較する入試読解語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1309",
+    "word": "aspect",
+    "meaningJa": "側面；観点",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We need to consider every aspect of the problem.",
+    "exampleJa": "私たちは問題のあらゆる側面を考える必要があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "対象の一面を切り分ける読解語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1310",
+    "word": "factor",
+    "meaningJa": "要因；要素",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Cost is an important factor in this decision.",
+    "exampleJa": "費用はこの決定の重要な要因です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "原因や判断材料を示す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1311",
+    "word": "feature",
+    "meaningJa": "特徴；特色",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The most useful feature of the phone is its camera.",
+    "exampleJa": "その電話で最も便利な機能はカメラです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "対象の特徴や機能を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1312",
+    "word": "function",
+    "meaningJa": "機能；働き",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The main function of roots is to absorb water.",
+    "exampleJa": "根の主な働きは水を吸収することです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "構造の役割を説明する重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "機能する",
+        "example": "The machine cannot function without electricity.",
+        "exampleJa": "その機械は電気なしでは機能しません。"
+      }
+    ]
+  },
+  {
+    "id": "v1313",
+    "word": "structure",
+    "meaningJa": "構造；組織",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The structure of the building is simple.",
+    "exampleJa": "その建物の構造は単純です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物や社会の組み立てを示す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1314",
+    "word": "context",
+    "meaningJa": "文脈；背景",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The meaning of a phrase can depend on its context.",
+    "exampleJa": "表現の意味は文脈によって変わることがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "意味と周囲の条件を結ぶ入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1315",
+    "word": "circumstance",
+    "meaningJa": "状況；事情",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A change in circumstance forced them to move.",
+    "exampleJa": "事情の変化により、彼らは引っ越さざるを得なくなりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "判断や行動を取り巻く条件を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "周囲の事情全般を指すときは複数形circumstancesもよく使います。"
+  },
+  {
+    "id": "v1316",
+    "word": "approach",
+    "meaningJa": "方法；取り組み方；接近",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We need a different approach to this problem.",
+    "exampleJa": "私たちはこの問題に別の取り組み方をする必要があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "問題解決の方法を表す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "近づく；取り組む",
+        "example": "Please approach the problem from another angle.",
+        "exampleJa": "別の角度からその問題に取り組んでください。"
+      }
+    ]
+  },
+  {
+    "id": "v1317",
+    "word": "method",
+    "meaningJa": "方法",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "This method saves both time and money.",
+    "exampleJa": "この方法は時間とお金の両方を節約します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "手段を説明する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1318",
+    "word": "process",
+    "meaningJa": "過程；工程",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Learning a language is a gradual process.",
+    "exampleJa": "言語を学ぶことは段階的な過程です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "時間に沿った変化を示す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "処理する",
+        "example": "The computer can process large amounts of data.",
+        "exampleJa": "そのコンピューターは大量のデータを処理できます。"
+      }
+    ]
+  },
+  {
+    "id": "v1319",
+    "word": "procedure",
+    "meaningJa": "手順；手続き",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Please follow the correct procedure for using the machine.",
+    "exampleJa": "機械を使うための正しい手順に従ってください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "作業や制度の手順を示す入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1320",
+    "word": "strategy",
+    "meaningJa": "戦略；方策",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The team developed a new strategy for winning.",
+    "exampleJa": "チームは勝つための新しい戦略を立てました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "目標達成に向けた方策を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1321",
+    "word": "technique",
+    "meaningJa": "技法；技術",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She taught us a useful technique for remembering names.",
+    "exampleJa": "彼女は名前を覚えるのに役立つ方法を教えてくれました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "具体的な技能や方法を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1322",
+    "word": "experiment",
+    "meaningJa": "実験",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The students carried out an experiment with water.",
+    "exampleJa": "生徒たちは水を使った実験を行いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "科学の検証過程を示す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1323",
+    "word": "observation",
+    "meaningJa": "観察；観察結果",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Careful observation helps us notice small changes.",
+    "exampleJa": "注意深い観察は小さな変化に気づく助けになります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "研究や認識の過程を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1324",
+    "word": "analysis",
+    "meaningJa": "分析",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The analysis revealed a clear difference between the groups.",
+    "exampleJa": "分析によって両グループの明確な違いがわかりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "情報を分けて検討する入試読解語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はanalysesです。"
+  },
+  {
+    "id": "v1325",
+    "word": "investigation",
+    "meaningJa": "調査；捜査",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The investigation into the accident took several weeks.",
+    "exampleJa": "事故の調査には数週間かかりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "事実や原因の究明を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1326",
+    "word": "survey",
+    "meaningJa": "調査；アンケート",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The survey asked students about their reading habits.",
+    "exampleJa": "その調査は生徒に読書習慣について尋ねました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "データ収集や社会調査を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1327",
+    "word": "discovery",
+    "meaningJa": "発見",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The discovery of the old letter surprised us.",
+    "exampleJa": "古い手紙の発見は私たちを驚かせました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "新しい事実を見つける基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1328",
+    "word": "invention",
+    "meaningJa": "発明；発明品",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The invention of the telephone changed communication.",
+    "exampleJa": "電話の発明は意思疎通の方法を変えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "技術や歴史に関する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1329",
+    "word": "innovation",
+    "meaningJa": "革新；新しい工夫",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Innovation can change the way we work.",
+    "exampleJa": "革新は私たちの働き方を変えることがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "技術や社会の変化を論じる入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1330",
+    "word": "wisdom",
+    "meaningJa": "知恵；賢明さ",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Experience can be a source of wisdom.",
+    "exampleJa": "経験は知恵の源となり得ます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "知識の活用や判断力を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1331",
+    "word": "intelligence",
+    "meaningJa": "知能；知性",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The study examines the relationship between sleep and intelligence.",
+    "exampleJa": "その研究は睡眠と知能の関係を調べています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "認知や科学の文章で使う名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1332",
+    "word": "emotion",
+    "meaningJa": "感情",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Music can express emotion without words.",
+    "exampleJa": "音楽は言葉なしに感情を表現できます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "心理を説明する重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1333",
+    "word": "attitude",
+    "meaningJa": "態度；考え方",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Her positive attitude encouraged the team.",
+    "exampleJa": "彼女の前向きな態度はチームを励ましました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行動の背景となる姿勢を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1334",
+    "word": "belief",
+    "meaningJa": "信念；信じていること",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "This belief is shared by many people.",
+    "exampleJa": "この考えは多くの人に共有されています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "価値観や認識を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1335",
+    "word": "awareness",
+    "meaningJa": "認識；気づき",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The campaign raised awareness of environmental problems.",
+    "exampleJa": "その活動は環境問題への認識を高めました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会課題への認識を表す入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1336",
+    "word": "consciousness",
+    "meaningJa": "意識；自覚",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The patient regained consciousness after a few minutes.",
+    "exampleJa": "患者は数分後に意識を取り戻しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "心理・哲学・身体状態の抽象的な読解語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1337",
+    "word": "perception",
+    "meaningJa": "知覚；認識",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Our experience influences our perception of the world.",
+    "exampleJa": "私たちの経験は世界の捉え方に影響します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "知覚や解釈を論じる入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1338",
+    "word": "motivation",
+    "meaningJa": "動機；意欲",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Curiosity is a strong motivation for learning.",
+    "exampleJa": "好奇心は学習の強い動機です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "行動を促す心理を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1339",
+    "word": "curiosity",
+    "meaningJa": "好奇心",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The strange sound aroused her curiosity.",
+    "exampleJa": "奇妙な音が彼女の好奇心をかき立てました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "学習や探索を促す心理を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1340",
+    "word": "creativity",
+    "meaningJa": "創造性；創造力",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The activity encourages creativity in children.",
+    "exampleJa": "その活動は子どもたちの創造性を育みます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "新しい物を生む能力を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1341",
+    "word": "imagination",
+    "meaningJa": "想像力；想像",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Use your imagination to create a new character.",
+    "exampleJa": "想像力を使って新しい登場人物を作ってください。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "創作や思考の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1342",
+    "word": "identity",
+    "meaningJa": "身元；自己認識；同一性",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Language can be an important part of cultural identity.",
+    "exampleJa": "言語は文化的な自己認識の重要な一部となり得ます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "文化や自己を論じる抽象的な入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "身元",
+        "example": "The officer asked for proof of identity.",
+        "exampleJa": "その係官は身元を証明するものを求めました。"
+      }
+    ]
+  },
+  {
+    "id": "v1343",
+    "word": "personality",
+    "meaningJa": "性格；個性",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Her cheerful personality makes people feel welcome.",
+    "exampleJa": "彼女の明るい性格は人々に歓迎されていると感じさせます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人の特性を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1344",
+    "word": "responsibility",
+    "meaningJa": "責任",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "We all have a responsibility to protect nature.",
+    "exampleJa": "私たちは皆、自然を守る責任があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会的な義務や役割を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "take responsibility forで「〜の責任を負う」を表します。"
+  },
+  {
+    "id": "v1345",
+    "word": "independence",
+    "meaningJa": "独立；自立",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Living alone helped him gain independence.",
+    "exampleJa": "一人暮らしは彼が自立する助けになりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "個人や国の自立を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1346",
+    "word": "diversity",
+    "meaningJa": "多様性",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The city is known for its cultural diversity.",
+    "exampleJa": "その都市は文化の多様性で知られています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会や生態の違いの豊かさを示す入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1347",
+    "word": "tradition",
+    "meaningJa": "伝統",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The festival is an important local tradition.",
+    "exampleJa": "その祭りは地元の大切な伝統です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "文化の継承に関する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1348",
+    "word": "civilization",
+    "meaningJa": "文明",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The river supported the growth of an ancient civilization.",
+    "exampleJa": "その川は古代文明の発展を支えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "歴史や文化の大きな単位を示す入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1349",
+    "word": "generation",
+    "meaningJa": "世代；発生",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Each generation faces different challenges.",
+    "exampleJa": "それぞれの世代は異なる課題に直面します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "時間や社会の継承を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "発生；生成",
+        "example": "The generation of electricity requires energy.",
+        "exampleJa": "発電にはエネルギーが必要です。"
+      }
+    ]
+  },
+  {
+    "id": "v1350",
+    "word": "individual",
+    "meaningJa": "個人；個体",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Every individual has different needs.",
+    "exampleJa": "個人はそれぞれ異なる必要を持っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "集団と個を対比する重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "集団に対する1人・1個体を表します。形容詞では「個々の」です。",
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "個々の；個人の",
+        "example": "The plan should meet individual needs.",
+        "exampleJa": "その計画は個々の必要に応じるべきです。"
+      }
+    ]
+  },
+  {
+    "id": "v1351",
+    "word": "community",
+    "meaningJa": "地域社会；共同体",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The whole community helped clean the park.",
+    "exampleJa": "地域の人々全体が公園の清掃を手伝いました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "身近な社会集団を示す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1352",
+    "word": "citizen",
+    "meaningJa": "市民；国民",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Every citizen has a role in the community.",
+    "exampleJa": "すべての市民は地域社会で役割を持っています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会の構成員と権利を論じる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1353",
+    "word": "consumer",
+    "meaningJa": "消費者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The survey asked each consumer about food prices.",
+    "exampleJa": "その調査は各消費者に食品の価格について尋ねました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "経済活動の主体を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1354",
+    "word": "producer",
+    "meaningJa": "生産者；制作者",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The farmer is a local producer of rice.",
+    "exampleJa": "その農家は地元の米の生産者です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "経済や制作の役割を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1355",
+    "word": "resource",
+    "meaningJa": "資源；役立つ手段",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Water is a valuable resource.",
+    "exampleJa": "水は貴重な資源です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "環境や経済を説明する重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1356",
+    "word": "energy",
+    "meaningJa": "エネルギー；活力",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The sun provides energy for life on Earth.",
+    "exampleJa": "太陽は地球上の生命にエネルギーを供給します。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "生活や科学の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1357",
+    "word": "fuel",
+    "meaningJa": "燃料",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The car uses less fuel than older models.",
+    "exampleJa": "その車は古い型より少ない燃料で走ります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "資源や交通を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1358",
+    "word": "electricity",
+    "meaningJa": "電気；電力",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The storm cut off the electricity.",
+    "exampleJa": "嵐で電気が止まりました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "生活や科学の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1359",
+    "word": "carbon",
+    "meaningJa": "炭素",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Carbon is found in all living things.",
+    "exampleJa": "炭素はすべての生物に含まれています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "環境や物質の読解に必要な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1360",
+    "word": "oxygen",
+    "meaningJa": "酸素",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Fish obtain oxygen from water.",
+    "exampleJa": "魚は水から酸素を得ます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生命や科学を説明する名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1361",
+    "word": "hydrogen",
+    "meaningJa": "水素",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Hydrogen is the lightest element.",
+    "exampleJa": "水素は最も軽い元素です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物質やエネルギーの入試読解語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1362",
+    "word": "atmosphere",
+    "meaningJa": "大気；雰囲気",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The atmosphere surrounds the Earth.",
+    "exampleJa": "大気は地球を取り巻いています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "環境と場の印象を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "雰囲気",
+        "example": "The cafe has a friendly atmosphere.",
+        "exampleJa": "そのカフェには親しみやすい雰囲気があります。"
+      }
+    ]
+  },
+  {
+    "id": "v1363",
+    "word": "ecosystem",
+    "meaningJa": "生態系",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Removing one species can affect the whole ecosystem.",
+    "exampleJa": "1つの種を取り除くと生態系全体に影響することがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生物と環境の相互関係を示す入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1364",
+    "word": "habitat",
+    "meaningJa": "生息地；生育地",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The wetland is an important habitat for birds.",
+    "exampleJa": "その湿地は鳥にとって重要な生息地です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "環境保全を論じる入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1365",
+    "word": "species",
+    "meaningJa": "種（生物の分類）",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "This species of bird lives only on the island.",
+    "exampleJa": "この種の鳥はその島にしか生息していません。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "生物や環境の読解に必要な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "単数形も複数形もspeciesです。単語数を増やすために形の違いを別登録しません。"
+  },
+  {
+    "id": "v1366",
+    "word": "evolution",
+    "meaningJa": "進化；発展",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The museum explains the evolution of life.",
+    "exampleJa": "その博物館は生命の進化を説明しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "生物や歴史的変化を論じる入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1367",
+    "word": "adaptation",
+    "meaningJa": "適応；改作",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Thick fur is an adaptation to cold conditions.",
+    "exampleJa": "厚い毛皮は寒い環境への適応です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "環境と生物の関係を表す入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "noun",
+        "meaningJa": "改作；翻案",
+        "example": "The film is an adaptation of a famous novel.",
+        "exampleJa": "その映画は有名な小説を改作したものです。"
+      }
+    ]
+  },
+  {
+    "id": "v1368",
+    "word": "nutrition",
+    "meaningJa": "栄養；栄養摂取",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Good nutrition is important for growth.",
+    "exampleJa": "よい栄養摂取は成長に重要です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "健康や食生活を論じる入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1369",
+    "word": "conflict",
+    "meaningJa": "対立；争い",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The two groups tried to resolve the conflict.",
+    "exampleJa": "その2つの集団は対立を解決しようとしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会や心理の不一致を表す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1370",
+    "word": "cooperation",
+    "meaningJa": "協力",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The project requires cooperation between schools.",
+    "exampleJa": "その計画には学校同士の協力が必要です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会的な共同活動を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1371",
+    "word": "relationship",
+    "meaningJa": "関係",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "They have a close relationship with their neighbors.",
+    "exampleJa": "彼らは近所の人たちと親密な関係にあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "人や物事の関係を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1372",
+    "word": "communication",
+    "meaningJa": "意思疎通；伝達",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Clear communication helps prevent mistakes.",
+    "exampleJa": "明確な意思疎通は間違いを防ぐ助けになります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "人々の交流を示す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1373",
+    "word": "interaction",
+    "meaningJa": "相互作用；交流",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The study examines interaction between people and machines.",
+    "exampleJa": "その研究は人と機械の相互作用を調べています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "双方向の働きを論じる入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1374",
+    "word": "habit",
+    "meaningJa": "習慣；癖",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Reading before bed is a good habit.",
+    "exampleJa": "寝る前の読書はよい習慣です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常の繰り返す行動を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1375",
+    "word": "tendency",
+    "meaningJa": "傾向",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "There is a tendency to spend more time online.",
+    "exampleJa": "オンラインで過ごす時間が増える傾向があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "一般的な変化や行動の方向を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1376",
+    "word": "trend",
+    "meaningJa": "傾向；流行",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The graph shows a trend toward smaller families.",
+    "exampleJa": "グラフは家族の人数が少なくなる傾向を示しています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "社会や数値の動向を示す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1377",
+    "word": "phenomenon",
+    "meaningJa": "現象",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The scientist could not explain the strange phenomenon.",
+    "exampleJa": "科学者はその奇妙な現象を説明できませんでした。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "観察される事象を抽象化する入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "複数形はphenomenaです。"
+  },
+  {
+    "id": "v1378",
+    "word": "impact",
+    "meaningJa": "影響；衝撃",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The new road had a major impact on the town.",
+    "exampleJa": "新しい道路は町に大きな影響を与えました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "因果関係の大きさを示す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1379",
+    "word": "drawback",
+    "meaningJa": "欠点；不利な点",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The main drawback of this plan is its cost.",
+    "exampleJa": "この計画の主な欠点は費用です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "比較や評価に使う入試読解語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1380",
+    "word": "alternative",
+    "meaningJa": "代わりのもの；選択肢",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Cycling is an alternative to driving.",
+    "exampleJa": "自転車は車の運転に代わる手段です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "代替手段を示す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "代わりの",
+        "example": "We found an alternative route to the station.",
+        "exampleJa": "私たちは駅へ行く別の道を見つけました。"
+      }
+    ]
+  },
+  {
+    "id": "v1381",
+    "word": "option",
+    "meaningJa": "選択肢",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "We have another option if it rains.",
+    "exampleJa": "雨が降った場合には別の選択肢があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "選択を説明する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1382",
+    "word": "priority",
+    "meaningJa": "優先事項；優先すること",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Safety is our first priority.",
+    "exampleJa": "安全は私たちの最優先事項です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "判断の順序を論じる入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1383",
+    "word": "objective",
+    "meaningJa": "目的；目標",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The main objective is to reduce waste.",
+    "exampleJa": "主な目的は廃棄物を減らすことです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "活動の目標を示す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "客観的な",
+        "example": "We need an objective assessment of the results.",
+        "exampleJa": "私たちは結果について客観的な評価を必要としています。"
+      }
+    ]
+  },
+  {
+    "id": "v1384",
+    "word": "goal",
+    "meaningJa": "目標；ゴール",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "My goal is to read one book every week.",
+    "exampleJa": "私の目標は毎週本を1冊読むことです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "目指すものを表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1385",
+    "word": "challenge",
+    "meaningJa": "難しい課題；挑戦",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Learning a new language can be a challenge.",
+    "exampleJa": "新しい言語を学ぶことは難しい挑戦になり得ます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "困難に向き合う基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "異議を唱える；挑む",
+        "example": "New evidence may challenge the old theory.",
+        "exampleJa": "新しい証拠は古い理論に異議を唱えるものとなるかもしれません。"
+      }
+    ]
+  },
+  {
+    "id": "v1386",
+    "word": "difficulty",
+    "meaningJa": "困難；難しさ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "He had difficulty finding the address.",
+    "exampleJa": "彼はその住所を見つけるのに苦労しました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "行動の難しさを示す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "have difficulty doingで「〜するのに苦労する」を表します。"
+  },
+  {
+    "id": "v1387",
+    "word": "obstacle",
+    "meaningJa": "障害；妨げ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Lack of money was an obstacle to the project.",
+    "exampleJa": "資金不足が計画の障害でした。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "目標を妨げる要因を示す入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1388",
+    "word": "potential",
+    "meaningJa": "可能性；潜在能力",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "This idea has the potential to change our lives.",
+    "exampleJa": "この考えは私たちの生活を変える可能性があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "未実現の能力や可能性を示す重要名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "adjective",
+        "meaningJa": "潜在的な；可能性のある",
+        "example": "The report identifies potential risks.",
+        "exampleJa": "その報告書は潜在的な危険を特定しています。"
+      }
+    ]
+  },
+  {
+    "id": "v1389",
+    "word": "capacity",
+    "meaningJa": "容量；収容力；能力",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The hall has a capacity of two hundred people.",
+    "exampleJa": "そのホールには200人を収容できます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "量の限界や能力を示す入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "容器・施設の収容量のほか、人や組織の能力も表します。"
+  },
+  {
+    "id": "v1390",
+    "word": "capability",
+    "meaningJa": "能力；機能",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The device has the capability to record sound.",
+    "exampleJa": "その装置には音を録音する機能があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "具体的な遂行能力を示す入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1391",
+    "word": "skill",
+    "meaningJa": "技能；技術",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Cooking is a useful skill.",
+    "exampleJa": "料理は役立つ技能です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "学習で身に付く能力を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1392",
+    "word": "talent",
+    "meaningJa": "才能",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She has a talent for drawing.",
+    "exampleJa": "彼女には絵を描く才能があります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "個人の能力を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1393",
+    "word": "merit",
+    "meaningJa": "長所；価値",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "We should judge the idea on its merit.",
+    "exampleJa": "私たちはその考え自体の価値で判断すべきです。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "評価の根拠や長所を示す入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1394",
+    "word": "virtue",
+    "meaningJa": "美徳；長所",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Patience is an important virtue.",
+    "exampleJa": "忍耐は大切な美徳です。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "倫理や価値判断を論じる入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1395",
+    "word": "fault",
+    "meaningJa": "欠点；責任；故障",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The accident was not your fault.",
+    "exampleJa": "その事故はあなたのせいではありませんでした。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "責任や不具合を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1396",
+    "word": "error",
+    "meaningJa": "誤り；間違い",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "There is an error in this calculation.",
+    "exampleJa": "この計算には誤りがあります。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "計算や情報の正誤を示す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1397",
+    "word": "mistake",
+    "meaningJa": "間違い",
+    "partOfSpeech": "noun",
+    "level": 1,
+    "example": "Everyone can learn from a mistake.",
+    "exampleJa": "誰でも間違いから学ぶことができます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 1,
+      "reason": "日常の失敗を表す基礎名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "additionalMeanings": [
+      {
+        "partOfSpeech": "verb",
+        "meaningJa": "取り違える",
+        "example": "Do not mistake confidence for knowledge.",
+        "exampleJa": "自信と知識を取り違えてはいけません。"
+      }
+    ]
+  },
+  {
+    "id": "v1398",
+    "word": "bias",
+    "meaningJa": "偏り；偏見",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The researchers tried to avoid bias in the survey.",
+    "exampleJa": "研究者たちは調査で偏りを避けようとしました。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "判断や研究の偏りを論じる入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v1399",
+    "word": "prejudice",
+    "meaningJa": "偏見；先入観",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Education can help reduce prejudice.",
+    "exampleJa": "教育は偏見を減らす助けになり得ます。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "社会の不公平な判断を論じる入試語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "十分な根拠なく人や集団を判断する先入観です。biasは調査や情報などの偏りにも使います。"
+  },
+  {
+    "id": "v1400",
+    "word": "stereotype",
+    "meaningJa": "固定観念；決めつけたイメージ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The story challenges a common stereotype about older people.",
+    "exampleJa": "その物語は高齢者についての一般的な固定観念に疑問を投げかけています。",
+    "category": "人・もの",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "集団の捉え方を批判的に論じる発展読解語彙。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

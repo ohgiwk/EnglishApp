@@ -9,9 +9,10 @@ import {
   rewardForAccuracy,
   summarizeVocabularySession
 } from './vocabulary-engine'
-import { reorderExamples } from './reorder-examples'
 import { vocabularyLevels, vocabularyWords } from './vocabulary'
-import { exampleSourceFor } from './vocabulary-examples'
+import catalog from './vocabulary-catalog'
+
+const levelOneCount = vocabularyLevels[0].wordCount
 
 describe('vocabulary data', () => {
   it('blanks the whole target word instead of a substring in another word', () => {
@@ -52,15 +53,15 @@ describe('vocabulary data', () => {
     ;[ids[0], ids[1]] = [ids[1], ids[0]]
     expect(isCorrectReorder(question, ids)).toBe(false)
   })
-  it('contains exactly 1,000 complete, unique words in the planned level sizes', () => {
-    expect(vocabularyWords).toHaveLength(1000)
-    expect(new Set(vocabularyWords.map((word) => word.id)).size).toBe(1000)
-    expect(new Set(vocabularyWords.map((word) => word.word)).size).toBe(1000)
+  it('contains unique complete words and derives actual level sizes', () => {
+    expect(vocabularyWords).toHaveLength(5034)
+    expect(new Set(vocabularyWords.map((word) => word.id)).size).toBe(vocabularyWords.length)
+    expect(new Set(vocabularyWords.map((word) => word.word)).size).toBe(vocabularyWords.length)
     expect(
       vocabularyLevels.map(
         (level) => vocabularyWords.filter((word) => word.level === level.id).length
       )
-    ).toEqual([150, 170, 170, 170, 170, 170])
+    ).toEqual(vocabularyLevels.map((level) => level.wordCount))
     expect(
       vocabularyWords.every(
         (word) =>
@@ -86,11 +87,13 @@ describe('vocabulary data', () => {
   })
 
   it('keeps example generation auditable and varied across all levels', () => {
-    const sources = vocabularyWords.map(exampleSourceFor)
+    const sources = vocabularyWords.map((word) => word.exampleInfo?.source)
     expect(sources.filter((source) => source === 'curated').length).toBe(
-      Object.keys(reorderExamples).length
+      catalog.filter((word) => word.exampleInfo?.source === 'curated').length
     )
-    expect(sources.filter((source) => source === 'core').length).toBeGreaterThanOrEqual(60)
+    expect(sources.filter((source) => source === 'authored').length).toBe(
+      catalog.filter((word) => word.exampleInfo?.source === 'authored').length
+    )
     expect(sources.filter((source) => source === 'generated').length).toBe(
       vocabularyWords.filter((word) => word.exampleInfo?.reviewStatus === 'needs-review').length
     )
@@ -100,16 +103,15 @@ describe('vocabulary data', () => {
         .filter((word) => word.level === level.id)
         .map((word) => word.example)
       expect(new Set(examples).size).toBe(examples.length)
-      expect(examples.some((example) => example.includes(' after class.'))).toBe(true)
-      expect(examples.some((example) => !example.includes(' after class.'))).toBe(true)
+      expect(examples.every((example) => example.length > 0)).toBe(true)
     }
   })
 
   it('uses authored, varied examples for every level-one word and enables sentence practice', () => {
     const words = vocabularyWords.filter((word) => word.level === 1)
-    expect(words).toHaveLength(150)
+    expect(words).toHaveLength(levelOneCount)
     for (const word of words) {
-      expect(exampleSourceFor(word)).not.toBe('generated')
+      expect(word.exampleInfo?.source).not.toBe('generated')
       expect(supportsSentenceExercise(word, 'fill-blank')).toBe(true)
       expect(supportsSentenceExercise(word, 'reorder')).toBe(true)
       const fill = buildFillBlank(word)
@@ -118,7 +120,7 @@ describe('vocabulary data', () => {
       )
       expect(buildReorder(word, () => 0.42).promptJa).toBe(word.exampleJa)
     }
-    expect(new Set(words.map((word) => word.example)).size).toBe(150)
+    expect(new Set(words.map((word) => word.example)).size).toBe(levelOneCount)
   })
 
   it('uses natural representative sentences for common grammatical roles', () => {
@@ -135,23 +137,27 @@ describe('vocabulary data', () => {
 
   it('builds a shuffled full-level mixed session without duplicate words', () => {
     const session = buildVocabularySession(1, {}, () => 0.42, 'test-session')
-    expect(session.questions).toHaveLength(150)
-    expect(new Set(session.questions.map((question) => question.wordId)).size).toBe(150)
+    expect(session.questions).toHaveLength(levelOneCount)
+    expect(new Set(session.questions.map((question) => question.wordId)).size).toBe(levelOneCount)
     expect(new Set(session.questions.map((question) => question.wordId))).toEqual(
       new Set(vocabularyWords.filter((word) => word.level === 1).map((word) => word.id))
     )
     expect(session.mode).toBe('mixed')
     expect(
       session.questions.filter((question) => question.type === 'en-to-ja').length
-    ).toBeGreaterThanOrEqual(30)
-    expect(session.questions.filter((question) => question.type === 'ja-to-en')).toHaveLength(30)
-    expect(session.questions.filter((question) => question.type === 'flashcard')).toHaveLength(30)
+    ).toBeGreaterThanOrEqual(Math.floor(levelOneCount / 5))
+    expect(session.questions.filter((question) => question.type === 'ja-to-en')).toHaveLength(
+      Math.floor((levelOneCount + 3) / 5)
+    )
+    expect(session.questions.filter((question) => question.type === 'flashcard')).toHaveLength(
+      Math.floor((levelOneCount + 2) / 5)
+    )
     expect(
       session.questions.filter((question) => question.type === 'fill-blank').length
-    ).toBeLessThanOrEqual(30)
+    ).toBeLessThanOrEqual(Math.ceil(levelOneCount / 5))
     expect(
       session.questions.filter((question) => question.type === 'reorder').length
-    ).toBeLessThanOrEqual(30)
+    ).toBeLessThanOrEqual(Math.ceil(levelOneCount / 5))
     for (const question of session.questions.filter(
       (item) => item.type === 'en-to-ja' || item.type === 'ja-to-en'
     )) {
@@ -229,8 +235,8 @@ describe('vocabulary data', () => {
     (mode) => {
       const session = buildVocabularySession(1, {}, () => 0.42, 'test-session', mode)
       expect(session.mode).toBe(mode)
-      expect(session.questions).toHaveLength(150)
-      expect(new Set(session.questions.map((question) => question.wordId)).size).toBe(150)
+      expect(session.questions).toHaveLength(levelOneCount)
+      expect(new Set(session.questions.map((question) => question.wordId)).size).toBe(levelOneCount)
       expect(
         session.questions.every((question) =>
           mode === 'reorder' || mode === 'fill-blank'
@@ -257,16 +263,19 @@ describe('vocabulary data', () => {
     expect(new Set(reorder.tokens.map((token) => token.id))).toEqual(new Set(reorder.correctOrder))
     expect(reorder.tokens.map((token) => token.id)).not.toEqual(reorder.correctOrder)
     expect(reorder.prompt).toContain(word.word)
-    expect(reorder.promptJa).toBe(reorderExamples[word.id].japanese)
+    expect(reorder.promptJa).toBe(word.exampleJa)
   })
 
-  it('generates valid fill payloads for all vocabulary words', () => {
-    for (const word of vocabularyWords) {
-      const fill = buildFillBlank(word)
-      expect(fill.prompt).toContain('____')
-      expect(fill.answer).toBe(word.word)
+  it.each(vocabularyLevels)(
+    'generates valid fill payloads for every word in level $id',
+    (level) => {
+      for (const word of vocabularyWords.filter((word) => word.level === level.id)) {
+        const fill = buildFillBlank(word)
+        expect(fill.prompt).toContain('____')
+        expect(fill.answer).toBe(word.word)
+      }
     }
-  })
+  )
 
   it('keeps every level word in reorder sessions and safely falls back when needed', () => {
     for (const level of vocabularyLevels) {
@@ -302,15 +311,16 @@ describe('vocabulary data', () => {
     }
   })
 
-  it('keeps every curated reorder pair natural and structurally valid', () => {
-    for (const [wordId, example] of Object.entries(reorderExamples)) {
-      const word = vocabularyWords.find((item) => item.id === wordId)!
+  it('keeps every authored or retained curated pair natural and structurally valid', () => {
+    for (const word of vocabularyWords.filter(
+      (word) => word.exampleInfo?.reviewStatus === 'authored'
+    )) {
       expect(word).toBeTruthy()
       const reorder = buildReorder(word, () => 0.42)
       expect(reorder.tokens.length).toBeGreaterThan(1)
       expect(reorder.tokens).toHaveLength(reorder.correctOrder.length)
-      expect(reorder.prompt).toBe(example.english)
-      expect(reorder.promptJa).toBe(example.japanese)
+      expect(reorder.prompt).toBe(word.example)
+      expect(reorder.promptJa).toBe(word.exampleJa)
       expect(reorder.prompt.toLocaleLowerCase()).toContain(word.word.toLocaleLowerCase())
       expect(reorder.prompt).not.toMatch(/["'“”‘’[\]]/)
       expect(reorder.prompt).not.toMatch(/\bthe word\b/i)

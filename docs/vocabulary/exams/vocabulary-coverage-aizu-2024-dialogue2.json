@@ -1,0 +1,371 @@
+{
+  "year": 2024,
+  "question": "会津大学 一般選抜 英語 第4問・第2対話 本文のみ",
+  "sourceUrl": "https://u-aizu.ac.jp/files/page/others/General2024.pdf",
+  "extraction": "manual visual transcription; PDF page 31 (1-based); all 13 nonempty dialogue turns; excludes speaker labels, annotation markers, final blank, graph on page 30, instructions, questions and options",
+  "method": "NFKC, lowercase, remove /cNNN glyph labels, ASCII words with internal apostrophes; hyphens split; exact surface-form matching; no lemmatization or proper-name exclusion",
+  "textSha256": "f0546237a22ee79540b3e48a46d3626b1891031a1f9cb8614832a02b1ff417fc",
+  "catalogSha256": "121bf3f77be1bf4fe6ed3ba2de6e3d94a8d5521d98a98de2f8f0a689feb9164e",
+  "catalogWords": 5000,
+  "totalTokens": 236,
+  "uniqueTypes": 145,
+  "matchedTokens": 162,
+  "matchedTypes": 94,
+  "tokenMatchPercent": 68.64,
+  "typeMatchPercent": 64.83,
+  "missingTop20": [
+    {
+      "word": "are",
+      "count": 5
+    },
+    {
+      "word": "ai",
+      "count": 4
+    },
+    {
+      "word": "chatgpt",
+      "count": 4
+    },
+    {
+      "word": "that's",
+      "count": 4
+    },
+    {
+      "word": "students",
+      "count": 3
+    },
+    {
+      "word": "tasks",
+      "count": 3
+    },
+    {
+      "word": "becoming",
+      "count": 2
+    },
+    {
+      "word": "graph",
+      "count": 2
+    },
+    {
+      "word": "is",
+      "count": 2
+    },
+    {
+      "word": "it's",
+      "count": 2
+    },
+    {
+      "word": "really",
+      "count": 2
+    },
+    {
+      "word": "your",
+      "count": 2
+    },
+    {
+      "word": "absolutely",
+      "count": 1
+    },
+    {
+      "word": "according",
+      "count": 1
+    },
+    {
+      "word": "ais",
+      "count": 1
+    },
+    {
+      "word": "applications",
+      "count": 1
+    },
+    {
+      "word": "asked",
+      "count": 1
+    },
+    {
+      "word": "been",
+      "count": 1
+    },
+    {
+      "word": "boring",
+      "count": 1
+    },
+    {
+      "word": "careful",
+      "count": 1
+    }
+  ],
+  "limitations": "Surface-form matches are not lemma coverage, comprehension or exam readiness. Inflections, contractions, names and PDF extraction artifacts may appear missing. This single public exam cannot establish advanced-university coverage. Dialogue body only, not the complete question or exam; graph and options excluded. Manual missing-form classification is editorial and does not provide a lemma coverage percentage.",
+  "pdfSha256": "2ed9669052dbd2d59bc150da0cb3b7a9d72c90da074f18ef28df961a005099d5",
+  "pdfPages": 44,
+  "bodyPdfPagesOneBased": [31],
+  "catalogSnapshotDate": "2026-10-19",
+  "transcriptionReview": {
+    "method": "manual comparison with rendered PDF page; second-agent image verification found no omissions or typos",
+    "requestedModel": "gpt-6-luna",
+    "resolvedModel": "unavailable",
+    "nonemptyTurns": 13,
+    "blankTurnExcluded": true
+  },
+  "missingClassification": {
+    "inflections": {
+      "types": 29,
+      "tokens": 39,
+      "words": [
+        {
+          "word": "are",
+          "count": 5
+        },
+        {
+          "word": "students",
+          "count": 3
+        },
+        {
+          "word": "tasks",
+          "count": 3
+        },
+        {
+          "word": "becoming",
+          "count": 2
+        },
+        {
+          "word": "is",
+          "count": 2
+        },
+        {
+          "word": "applications",
+          "count": 1
+        },
+        {
+          "word": "asked",
+          "count": 1
+        },
+        {
+          "word": "been",
+          "count": 1
+        },
+        {
+          "word": "boring",
+          "count": 1
+        },
+        {
+          "word": "choices",
+          "count": 1
+        },
+        {
+          "word": "companies",
+          "count": 1
+        },
+        {
+          "word": "consequences",
+          "count": 1
+        },
+        {
+          "word": "discussions",
+          "count": 1
+        },
+        {
+          "word": "exciting",
+          "count": 1
+        },
+        {
+          "word": "finding",
+          "count": 1
+        },
+        {
+          "word": "freeing",
+          "count": 1
+        },
+        {
+          "word": "had",
+          "count": 1
+        },
+        {
+          "word": "handling",
+          "count": 1
+        },
+        {
+          "word": "jobs",
+          "count": 1
+        },
+        {
+          "word": "lacking",
+          "count": 1
+        },
+        {
+          "word": "lonelier",
+          "count": 1
+        },
+        {
+          "word": "lost",
+          "count": 1
+        },
+        {
+          "word": "made",
+          "count": 1
+        },
+        {
+          "word": "policies",
+          "count": 1
+        },
+        {
+          "word": "providing",
+          "count": 1
+        },
+        {
+          "word": "shows",
+          "count": 1
+        },
+        {
+          "word": "tools",
+          "count": 1
+        },
+        {
+          "word": "using",
+          "count": 1
+        },
+        {
+          "word": "wanted",
+          "count": 1
+        }
+      ]
+    },
+    "contractionsOrPossessive": {
+      "types": 6,
+      "tokens": 10,
+      "words": [
+        {
+          "word": "that's",
+          "count": 4
+        },
+        {
+          "word": "it's",
+          "count": 2
+        },
+        {
+          "word": "don't",
+          "count": 1
+        },
+        {
+          "word": "people's",
+          "count": 1
+        },
+        {
+          "word": "shouldn't",
+          "count": 1
+        },
+        {
+          "word": "you're",
+          "count": 1
+        }
+      ]
+    },
+    "pronounForms": {
+      "types": 4,
+      "tokens": 5,
+      "words": [
+        {
+          "word": "your",
+          "count": 2
+        },
+        {
+          "word": "me",
+          "count": 1
+        },
+        {
+          "word": "my",
+          "count": 1
+        },
+        {
+          "word": "them",
+          "count": 1
+        }
+      ]
+    },
+    "properNamesOrAbbreviations": {
+      "types": 4,
+      "tokens": 10,
+      "words": [
+        {
+          "word": "ai",
+          "count": 4
+        },
+        {
+          "word": "ais",
+          "count": 1
+        },
+        {
+          "word": "chatgpt",
+          "count": 4
+        },
+        {
+          "word": "emi",
+          "count": 1
+        }
+      ]
+    },
+    "unlistedBasicHeadwords": {
+      "types": 7,
+      "tokens": 9,
+      "words": [
+        {
+          "word": "graph",
+          "count": 2
+        },
+        {
+          "word": "really",
+          "count": 2
+        },
+        {
+          "word": "absolutely",
+          "count": 1
+        },
+        {
+          "word": "careful",
+          "count": 1
+        },
+        {
+          "word": "seven",
+          "count": 1
+        },
+        {
+          "word": "yes",
+          "count": 1
+        },
+        {
+          "word": "hey",
+          "count": 1
+        }
+      ]
+    },
+    "fixedExpression": {
+      "types": 1,
+      "tokens": 1,
+      "words": [
+        {
+          "word": "according",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "missingBaseCandidates": [
+    {
+      "surface": "tasks",
+      "base": "task"
+    },
+    {
+      "surface": "jobs",
+      "base": "job"
+    },
+    {
+      "surface": "lost",
+      "base": "lose"
+    },
+    {
+      "surface": "boring",
+      "base": "bore",
+      "note": "Review adjective learning value separately; do not assume verb alone covers the adjective."
+    }
+  ]
+}

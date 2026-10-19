@@ -1,0 +1,2110 @@
+[
+  {
+    "id": "v4901",
+    "word": "trash",
+    "meaningJa": "ごみ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Please put the trash in the bin before you leave.",
+    "exampleJa": "帰る前にごみを箱に入れてください。",
+    "category": "日常生活",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "日常のごみを表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4902",
+    "word": "gasp",
+    "meaningJa": "息をのむ",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The audience began to gasp when the lights went out.",
+    "exampleJa": "明かりが消えると観客は息をのんだ。",
+    "category": "身体・感情",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "驚きや苦しさで急に息を吸う動作を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4903",
+    "word": "glow",
+    "meaningJa": "ほのかに光る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The lanterns glow softly along the path at night.",
+    "exampleJa": "夜には小道沿いのランタンが柔らかく光る。",
+    "category": "光・自然",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "強く照らすのではなく穏やかに光ることを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4904",
+    "word": "shine",
+    "meaningJa": "光る",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "The stars shine brightly above the village.",
+    "exampleJa": "村の上空で星が明るく輝いている。",
+    "category": "光・自然",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "光を放つことを表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4905",
+    "word": "flicker",
+    "meaningJa": "ちらつく",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The candle began to flicker in the breeze.",
+    "exampleJa": "そよ風でろうそくの炎がちらつき始めた。",
+    "category": "光・自然",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "光や炎が不規則に明滅する様子を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4906",
+    "word": "drown",
+    "meaningJa": "溺死する；溺死させる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The lifeguard acted quickly so the child would not drown.",
+    "exampleJa": "監視員はその子が溺死しないよう素早く行動した。",
+    "category": "身体・安全",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "水中で呼吸できず死亡することを表し、物語や事故報道の理解に必要な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4907",
+    "word": "dive",
+    "meaningJa": "潜る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The diver will dive beneath the surface to inspect the boat.",
+    "exampleJa": "潜水士は船を調べるために水面下へ潜る予定だ。",
+    "category": "運動・行動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "水中へ頭から入る、または潜る動作を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4908",
+    "word": "drift",
+    "meaningJa": "漂う",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Small clouds drift across the evening sky.",
+    "exampleJa": "小さな雲が夕空を漂う。",
+    "category": "移動・自然",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "流れに任せてゆっくり移動することを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4909",
+    "word": "hike",
+    "meaningJa": "ハイキングをする",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "We plan to hike through the forest this weekend.",
+    "exampleJa": "私たちは今週末、森をハイキングする予定だ。",
+    "category": "余暇・運動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "自然の中を長く歩く活動を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4910",
+    "word": "parade",
+    "meaningJa": "行進、パレード",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The parade passed through the town square at noon.",
+    "exampleJa": "正午にパレードが町の広場を通った。",
+    "category": "行事・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "祝賀や主張のための集団行進を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4911",
+    "word": "crowd",
+    "meaningJa": "群衆",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A crowd gathered outside the station after the concert.",
+    "exampleJa": "コンサート後、駅の外に群衆が集まった。",
+    "category": "人・社会",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "大勢の人の集まりを表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4912",
+    "word": "flock",
+    "meaningJa": "鳥の群れ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A flock of birds crossed the lake before sunset.",
+    "exampleJa": "日没前に鳥の群れが湖を渡った。",
+    "category": "動物・自然",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "鳥などの動物の群れを表す集合名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4913",
+    "word": "herd",
+    "meaningJa": "家畜の群れ",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The farmer guided the herd across the field.",
+    "exampleJa": "農夫は家畜の群れを野原の向こうへ導いた。",
+    "category": "動物・農業",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "牛など大型の動物がまとまった群れを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4914",
+    "word": "bundle",
+    "meaningJa": "束",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "She carried a bundle of old letters under her arm.",
+    "exampleJa": "彼女は古い手紙の束を腕に抱えていた。",
+    "category": "物・数量",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物をひとまとめにした状態を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4915",
+    "word": "pile",
+    "meaningJa": "積み重ね、山",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A pile of books stood beside the desk.",
+    "exampleJa": "机の横に本の山があった。",
+    "category": "物・数量",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物を無造作に積み上げた山を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4916",
+    "word": "stack",
+    "meaningJa": "積み重ね",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A neat stack of papers waited on her desk.",
+    "exampleJa": "机の上にきれいに積まれた書類があった。",
+    "category": "物・数量",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物を整えて重ねたものを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4917",
+    "word": "crust",
+    "meaningJa": "表面の固い皮",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The bread had a crisp crust and a soft center.",
+    "exampleJa": "そのパンは皮がぱりっとして中は柔らかかった。",
+    "category": "食べ物",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "パンなどの外側の固い部分を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "パンなどの固い外側のほか、the crustは地球などの「地殻」を指すこともあります。"
+  },
+  {
+    "id": "v4918",
+    "word": "shatter",
+    "meaningJa": "粉々に砕ける",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The glass could shatter if it falls onto the stone floor.",
+    "exampleJa": "そのガラスは石の床に落ちると粉々に砕けるかもしれない。",
+    "category": "変化・物質",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "ガラスなどが多数の破片に割れることを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4919",
+    "word": "puddle",
+    "meaningJa": "水たまり",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A small puddle formed near the gate after the rain.",
+    "exampleJa": "雨の後、門の近くに小さな水たまりができた。",
+    "category": "自然・天候",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "雨などで地面にたまった浅い水を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4920",
+    "word": "cottage",
+    "meaningJa": "小さな田舎家",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "They rented a cottage beside the lake for a week.",
+    "exampleJa": "彼らは湖畔の小さな家を一週間借りた。",
+    "category": "住居・生活",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "田舎や保養地にある小さな家を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4921",
+    "word": "moisture",
+    "meaningJa": "水分、湿気",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The soil needs enough moisture for the seeds to grow.",
+    "exampleJa": "種が育つには土に十分な水分が必要だ。",
+    "category": "自然・環境",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "物や空気に含まれる少量の水分を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4922",
+    "word": "stress",
+    "meaningJa": "精神的な負担、ストレス",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "Regular breaks can help reduce stress during exams.",
+    "exampleJa": "定期的な休憩は試験中のストレスを減らすのに役立つ。",
+    "category": "心理・健康",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "心身にかかる負担を表す身近な基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4923",
+    "word": "trauma",
+    "meaningJa": "心的外傷",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The story explores how trauma can affect a family for years.",
+    "exampleJa": "その物語は心的外傷が何年も家族に影響し得ることを描いている。",
+    "category": "心理・健康",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "強い体験が残す心理的な傷を論じる際の名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4924",
+    "word": "outage",
+    "meaningJa": "供給の停止、停電",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The power outage lasted for two hours.",
+    "exampleJa": "停電は二時間続いた。",
+    "category": "技術・生活",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "電力や通信などの供給・サービスの一時停止を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4925",
+    "word": "proficiency",
+    "meaningJa": "熟達度、習熟度",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "Language proficiency improves with steady practice.",
+    "exampleJa": "語学の習熟度は継続的な練習で高まる。",
+    "category": "学習・能力",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "技能や言語を十分に使える能力を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4926",
+    "word": "parameter",
+    "meaningJa": "条件を定める値、パラメーター",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The researcher changed one parameter in the model.",
+    "exampleJa": "研究者はモデル内の一つのパラメーターを変更した。",
+    "category": "研究・技術",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "モデルや計算の条件を決める値を表す学術語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4927",
+    "word": "globalization",
+    "meaningJa": "グローバル化",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Globalization has changed how many companies buy materials.",
+    "exampleJa": "グローバル化は多くの企業の原材料の調達方法を変えた。",
+    "category": "経済・社会",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "国境を越えた経済や文化の結びつきの拡大を表す評論語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4928",
+    "word": "questionnaire",
+    "meaningJa": "質問票",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "Each student filled out a questionnaire after the lesson.",
+    "exampleJa": "各生徒は授業後に質問票に記入した。",
+    "category": "調査・学習",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "調査で回答を集めるための質問用紙を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4929",
+    "word": "recyclable",
+    "meaningJa": "リサイクル可能な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "This container is recyclable in our city.",
+    "exampleJa": "この容器は私たちの市ではリサイクルできる。",
+    "category": "環境・生活",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "材料が回収・再利用の対象となることを示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4930",
+    "word": "hereditary",
+    "meaningJa": "遺伝性の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The doctor explained that the condition may be hereditary.",
+    "exampleJa": "医師はその病気が遺伝性である可能性を説明した。",
+    "category": "生物・健康",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "形質や病気が親から子へ受け継がれることを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "遺伝による性質のほか、地位や称号が「世襲の」であることも表します。"
+  },
+  {
+    "id": "v4931",
+    "word": "behavioral",
+    "meaningJa": "行動に関する",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The team studied behavioral differences among the birds.",
+    "exampleJa": "研究チームはその鳥たちの行動上の違いを調べた。",
+    "category": "心理・生物",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "人や動物の行動に関わる性質を表す学術的形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4932",
+    "word": "philosophical",
+    "meaningJa": "哲学的な",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The novel raises philosophical questions about free will.",
+    "exampleJa": "その小説は自由意志について哲学的な問いを投げかける。",
+    "category": "思想・文化",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "存在や知識などの根本問題を考察する文脈で使う形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4933",
+    "word": "municipal",
+    "meaningJa": "市の、自治体の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The municipal library is open on Sundays.",
+    "exampleJa": "市立図書館は日曜日も開いている。",
+    "category": "行政・社会",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "市や地方自治体に属する制度・施設を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4934",
+    "word": "regional",
+    "meaningJa": "地域の",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "The museum displays regional art from the last century.",
+    "exampleJa": "その博物館は前世紀の地域の芸術作品を展示している。",
+    "category": "地域・文化",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "特定の地域に属することを表す基本的な形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4935",
+    "word": "analogous",
+    "meaningJa": "類似した",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The two situations are analogous in several important ways.",
+    "exampleJa": "その二つの状況はいくつかの重要な点で類似している。",
+    "category": "比較・論理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "構造や性質が対応して似ていることを論じる形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "analogous toで「〜に類似した」。"
+  },
+  {
+    "id": "v4936",
+    "word": "hesitant",
+    "meaningJa": "ためらっている",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "She was hesitant to share her opinion with the group.",
+    "exampleJa": "彼女は集団に自分の意見を伝えるのをためらっていた。",
+    "category": "心理・態度",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "判断や行動に踏み切れずためらう様子を表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4937",
+    "word": "housing",
+    "meaningJa": "住宅、住居の供給",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The town needs more affordable housing for young families.",
+    "exampleJa": "その町には若い家族のための手頃な価格の住宅がもっと必要だ。",
+    "category": "住居・社会",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "住宅全般やその供給を表す社会問題の基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4938",
+    "word": "hypothetical",
+    "meaningJa": "仮定上の",
+    "partOfSpeech": "adjective",
+    "level": 5,
+    "example": "The teacher used a hypothetical case to explain the rule.",
+    "exampleJa": "先生はその規則を説明するために仮定上の事例を使った。",
+    "category": "論理・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "実際とは限らない想定例や状況を示す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4939",
+    "word": "speculative",
+    "meaningJa": "推測に基づく",
+    "partOfSpeech": "adjective",
+    "level": 6,
+    "example": "The report is speculative because the data are incomplete.",
+    "exampleJa": "データが不完全なので、その報告は推測に基づいている。",
+    "category": "論理・研究",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "十分な根拠がなく推測に頼ることを示す評論の形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4940",
+    "word": "synthesize",
+    "meaningJa": "統合する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Students must synthesize ideas from several articles.",
+    "exampleJa": "生徒は複数の記事の考えを統合しなければならない。",
+    "category": "思考・学習",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "複数の情報や考えをまとめて新たな全体にする動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4941",
+    "word": "quantify",
+    "meaningJa": "数量で示す",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "It is difficult to quantify the value of friendship.",
+    "exampleJa": "友情の価値を数量で示すのは難しい。",
+    "category": "研究・思考",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "程度や量を数値として表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4942",
+    "word": "underscore",
+    "meaningJa": "強調する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The survey results underscore the need for better access.",
+    "exampleJa": "調査結果はより良い利用機会の必要性を強調している。",
+    "category": "議論・表現",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "事実や主張の重要性を明確に強調する評論の動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4943",
+    "word": "confound",
+    "meaningJa": "困惑させる",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The unexpected result may confound even experienced researchers.",
+    "exampleJa": "その予想外の結果は経験豊富な研究者さえ困惑させるかもしれない。",
+    "category": "心理・研究",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "理解や予測を難しくして相手を困惑させる発展的動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4944",
+    "word": "elicit",
+    "meaningJa": "引き出す",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "The question may elicit different answers from each student.",
+    "exampleJa": "その質問は生徒ごとに異なる答えを引き出すかもしれない。",
+    "category": "対話・研究",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "質問や刺激によって反応・情報を引き出す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4945",
+    "word": "symbolize",
+    "meaningJa": "象徴する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The open door may symbolize a new beginning.",
+    "exampleJa": "開いた扉は新しい始まりを象徴しているのかもしれない。",
+    "category": "文化・表現",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "具体物が抽象的な考えを象徴することを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4946",
+    "word": "ascribe",
+    "meaningJa": "（原因を）〜に帰する",
+    "partOfSpeech": "verb",
+    "level": 6,
+    "example": "Some historians ascribe the change to economic pressure.",
+    "exampleJa": "一部の歴史家はその変化を経済的圧力のせいだと考える。",
+    "category": "因果・論理",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "結果や性質の原因・由来を何かに帰属させる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "ascribe A to Bで「AをBに帰する・AはBによると考える」。"
+  },
+  {
+    "id": "v4947",
+    "word": "coercion",
+    "meaningJa": "強制、威圧",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The agreement was reached without coercion.",
+    "exampleJa": "その合意は強制されることなく成立した。",
+    "category": "社会・法律",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "圧力や脅しで人に行動を強いることを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4948",
+    "word": "statute",
+    "meaningJa": "制定法",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The new statute sets clear limits on data collection.",
+    "exampleJa": "新しい制定法はデータ収集に明確な制限を設けている。",
+    "category": "法律・制度",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "立法機関が制定した法規を指す法律用語。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4949",
+    "word": "reciprocity",
+    "meaningJa": "相互主義、互恵",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The partnership depends on trust and reciprocity.",
+    "exampleJa": "その協力関係は信頼と互恵に支えられている。",
+    "category": "社会・関係",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "互いに利益や行為を返し合う関係を表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4950",
+    "word": "subsistence",
+    "meaningJa": "最低限の生計",
+    "partOfSpeech": "noun",
+    "level": 6,
+    "example": "The family relied on farming for subsistence.",
+    "exampleJa": "その家族は最低限の生計を農業に頼っていた。",
+    "category": "生活・経済",
+    "editorial": {
+      "recommendedLevel": 6,
+      "reason": "生きていくために必要な最低限の生活・食料を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4951",
+    "word": "alley",
+    "meaningJa": "路地",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "A narrow alley runs behind the old shops.",
+    "exampleJa": "古い店の裏には狭い路地が通っている。",
+    "category": "街・場所",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "街中の狭い通路を表す、情景描写で有用な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4952",
+    "word": "apology",
+    "meaningJa": "謝罪",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "She offered an apology for her mistake.",
+    "exampleJa": "彼女は自分の間違いについて謝罪した。",
+    "category": "人間関係",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "謝る行為を表す基本名詞で、対人場面に頻出する。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4953",
+    "word": "awful",
+    "meaningJa": "ひどい",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "We had awful weather during the trip.",
+    "exampleJa": "旅行中はひどい天気だった。",
+    "category": "評価・程度",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "悪い状態を強く評価する日常的な形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4954",
+    "word": "beard",
+    "meaningJa": "あごひげ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "His beard turned gray as he grew older.",
+    "exampleJa": "彼が年を重ねるにつれて、あごひげは白くなった。",
+    "category": "身体・外見",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "人物の外見を描写する基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4955",
+    "word": "beg",
+    "meaningJa": "懇願する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The child began to beg for another chance.",
+    "exampleJa": "その子はもう一度機会をくれるよう懇願し始めた。",
+    "category": "行動・意志",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "切実に頼む行為を表し、askとの強さの違いが重要。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4956",
+    "word": "blind",
+    "meaningJa": "目の見えない",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The blind musician recognized every voice.",
+    "exampleJa": "その目の見えない音楽家は全員の声を聞き分けた。",
+    "category": "身体・状態",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "視覚の状態を表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4957",
+    "word": "bounce",
+    "meaningJa": "跳ねる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The ball will bounce higher on a hard floor.",
+    "exampleJa": "そのボールは硬い床ではもっと高く跳ねる。",
+    "category": "動き",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物が面に当たって跳ね返る動作を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4958",
+    "word": "breadth",
+    "meaningJa": "幅、広がり",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The breadth of her research impressed the committee.",
+    "exampleJa": "彼女の研究の幅広さは委員会に強い印象を与えた。",
+    "category": "規模・程度",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "物理的な幅から知識や活動の広がりにも使う抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4959",
+    "word": "cheat",
+    "meaningJa": "不正をする",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Do not cheat during the exam.",
+    "exampleJa": "試験中に不正をしてはいけない。",
+    "category": "行動・倫理",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "試験などで規則を破り利益を得る行為を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4960",
+    "word": "column",
+    "meaningJa": "柱、縦の列",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Write your answers in the right column.",
+    "exampleJa": "答えを右の列に書いてください。",
+    "category": "形・構造",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "表や紙面の縦の区画を表し、情報整理に必要な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4961",
+    "word": "confuse",
+    "meaningJa": "混乱させる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Similar names can confuse new students.",
+    "exampleJa": "似た名前は新入生を混乱させることがある。",
+    "category": "認識・思考",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人が区別や理解をできなくなることを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4962",
+    "word": "decorate",
+    "meaningJa": "飾る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "They decorate the hall with paper flowers.",
+    "exampleJa": "彼らは紙の花でホールを飾る。",
+    "category": "行動・生活",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "場所や物に飾りを加える日常的な動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4963",
+    "word": "delight",
+    "meaningJa": "喜び",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "The news brought delight to the whole family.",
+    "exampleJa": "その知らせは家族全員に喜びをもたらした。",
+    "category": "感情",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "強い喜びを表し、読解文でも用いられる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4964",
+    "word": "dirt",
+    "meaningJa": "土、汚れ",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "There was dirt on the kitchen floor.",
+    "exampleJa": "台所の床に汚れがあった。",
+    "category": "生活・自然",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "地面の土や表面の汚れを表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4965",
+    "word": "drum",
+    "meaningJa": "太鼓",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "A drum sounded at the start of the parade.",
+    "exampleJa": "行進の始まりに太鼓が鳴った。",
+    "category": "音楽・文化",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "打楽器を表す日常的な名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4966",
+    "word": "elegant",
+    "meaningJa": "優雅な",
+    "partOfSpeech": "adjective",
+    "level": 4,
+    "example": "The dancer made an elegant movement.",
+    "exampleJa": "その踊り手は優雅な動きを見せた。",
+    "category": "外見・評価",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "動作や形の洗練された美しさを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4967",
+    "word": "excite",
+    "meaningJa": "興奮させる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The final match will excite many fans.",
+    "exampleJa": "決勝戦は多くのファンを興奮させるだろう。",
+    "category": "感情",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人の期待や強い関心を高める他動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4968",
+    "word": "fancy",
+    "meaningJa": "凝った、高級な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "They chose a fancy restaurant for the celebration.",
+    "exampleJa": "彼らはお祝いに高級なレストランを選んだ。",
+    "category": "評価・生活",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "普通より装飾的または高級なものを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4969",
+    "word": "fetch",
+    "meaningJa": "取ってくる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Please fetch a blanket from the bedroom.",
+    "exampleJa": "寝室から毛布を取ってきてください。",
+    "category": "行動・生活",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "離れた所へ行って物を持ち帰る動作を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4970",
+    "word": "flee",
+    "meaningJa": "逃げる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The villagers had to flee the rising water.",
+    "exampleJa": "村人たちは増水から逃げなければならなかった。",
+    "category": "移動・危険",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "危険な場所から急いで離れる動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4971",
+    "word": "funeral",
+    "meaningJa": "葬儀",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "Many neighbors attended the funeral.",
+    "exampleJa": "多くの近所の人が葬儀に参列した。",
+    "category": "社会・文化",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人の死後に行う式を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4972",
+    "word": "grace",
+    "meaningJa": "優雅さ",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "She moved across the stage with grace.",
+    "exampleJa": "彼女は優雅に舞台を横切った。",
+    "category": "外見・評価",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "動きや態度の自然な美しさを表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4973",
+    "word": "guard",
+    "meaningJa": "守る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Two officers guard the entrance at night.",
+    "exampleJa": "夜は二人の警官が入口を警備する。",
+    "category": "安全・行動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "人や場所を危険から守る行為を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4974",
+    "word": "hint",
+    "meaningJa": "手がかり",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The map gave us a hint about the route.",
+    "exampleJa": "その地図は道順についての手がかりを与えてくれた。",
+    "category": "認識・情報",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "答えや方法を間接的に示す情報を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4975",
+    "word": "hover",
+    "meaningJa": "空中でとどまる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "A small bird seemed to hover above the flowers.",
+    "exampleJa": "小さな鳥が花の上で空中にとどまっているように見えた。",
+    "category": "動き・自然",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "一点の近くで空中にとどまる動きを表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4976",
+    "word": "hunt",
+    "meaningJa": "狩る",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The foxes hunt small animals at night.",
+    "exampleJa": "キツネは夜に小動物を狩る。",
+    "category": "自然・行動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "獲物を追って捕らえる行為を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4977",
+    "word": "jail",
+    "meaningJa": "拘置所；刑務所",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "He spent a year in jail for the crime.",
+    "exampleJa": "彼はその犯罪で一年間刑務所に入った。",
+    "category": "社会・法律",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "犯罪者などを拘束する施設を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4978",
+    "word": "journal",
+    "meaningJa": "日記、記録",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She kept a journal during her journey.",
+    "exampleJa": "彼女は旅の間、日記をつけた。",
+    "category": "記録・文章",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "日々の出来事や考えを書き留める記録を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "日記・記録のほか、研究成果を発表する「学術誌」を指します。"
+  },
+  {
+    "id": "v4979",
+    "word": "label",
+    "meaningJa": "ラベル、表示札",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The label shows where the food was made.",
+    "exampleJa": "そのラベルには食品の生産地が示されている。",
+    "category": "情報・生活",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "物の内容や名称を示す札を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4980",
+    "word": "lamp",
+    "meaningJa": "ランプ、照明器具",
+    "partOfSpeech": "noun",
+    "level": 2,
+    "example": "The lamp beside the bed gave a soft light.",
+    "exampleJa": "ベッドの横のランプが柔らかな光を放っていた。",
+    "category": "生活・道具",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "室内を照らす器具を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4981",
+    "word": "mercy",
+    "meaningJa": "慈悲、情け",
+    "partOfSpeech": "noun",
+    "level": 5,
+    "example": "The judge showed mercy to the young offender.",
+    "exampleJa": "裁判官はその若い違反者に情けを示した。",
+    "category": "倫理・感情",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "罰せられる人への思いやりを表す抽象名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4982",
+    "word": "nightmare",
+    "meaningJa": "悪夢",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "After the frightening film, he had a nightmare.",
+    "exampleJa": "怖い映画を見た後、彼は悪夢を見た。",
+    "category": "睡眠・感情",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "恐ろしい夢を表し、比喩にも使われる名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4983",
+    "word": "odd",
+    "meaningJa": "奇妙な",
+    "partOfSpeech": "adjective",
+    "level": 3,
+    "example": "An odd sound came from the empty room.",
+    "exampleJa": "誰もいない部屋から奇妙な音がした。",
+    "category": "評価・性質",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "普通と違って不思議に感じられることを表す形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "奇妙なのほか、「奇数の」「半端な」の意味があります。"
+  },
+  {
+    "id": "v4984",
+    "word": "offend",
+    "meaningJa": "不快にさせる；気分を害させる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "A careless joke can offend someone deeply.",
+    "exampleJa": "不注意な冗談は人を深く傷つけることがある。",
+    "category": "人間関係",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "言葉や行動で相手の感情を傷つける動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4985",
+    "word": "panic",
+    "meaningJa": "パニックになる",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "Try not to panic when the alarm sounds.",
+    "exampleJa": "警報が鳴っても慌てないようにしてください。",
+    "category": "感情・行動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "危険や不安で落ち着きを失う行為を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4986",
+    "word": "pause",
+    "meaningJa": "一時停止する",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The speaker will pause after each question.",
+    "exampleJa": "話し手は各質問の後で少し間を置く。",
+    "category": "時間・行動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "動作や発話を短時間止める動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4987",
+    "word": "pity",
+    "meaningJa": "同情",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "She felt pity for the injured dog.",
+    "exampleJa": "彼女はけがをした犬に同情を感じた。",
+    "category": "感情",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "苦しむ相手を気の毒に思う感情を表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4988",
+    "word": "plunge",
+    "meaningJa": "急に落ちる",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "The temperature may plunge after sunset.",
+    "exampleJa": "日没後に気温が急に下がるかもしれない。",
+    "category": "変化・動き",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "急激な下落を表し、数値の変化にも使う動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4989",
+    "word": "quarrel",
+    "meaningJa": "口論",
+    "partOfSpeech": "noun",
+    "level": 4,
+    "example": "A small quarrel began over the seating plan.",
+    "exampleJa": "座席の配置をめぐって小さな口論が始まった。",
+    "category": "人間関係",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "人同士の言い争いを表す名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4990",
+    "word": "rebel",
+    "meaningJa": "反逆する",
+    "partOfSpeech": "verb",
+    "level": 5,
+    "example": "Some citizens rebel against unfair rules.",
+    "exampleJa": "不公平な規則に反発する市民もいる。",
+    "category": "社会・行動",
+    "editorial": {
+      "recommendedLevel": 5,
+      "reason": "権威や規則に対して公然と抵抗する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4991",
+    "word": "rid",
+    "meaningJa": "取り除く",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "We need to rid the room of dust.",
+    "exampleJa": "部屋からほこりを取り除く必要がある。",
+    "category": "除去・行動",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "rid A of Bの形で不要なものを除く動詞。注意すべき構文がある。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "rid A of Bで「AからBを取り除く」。get rid of Bは「Bを取り除く・処分する」。"
+  },
+  {
+    "id": "v4992",
+    "word": "shade",
+    "meaningJa": "日陰",
+    "partOfSpeech": "noun",
+    "level": 3,
+    "example": "The children rested in the shade of a tree.",
+    "exampleJa": "子どもたちは木陰で休んだ。",
+    "category": "光・自然",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "光が遮られた場所を表す基本名詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    },
+    "usageNote": "日陰のほか、色の「濃淡・色合い」を指します。"
+  },
+  {
+    "id": "v4993",
+    "word": "smell",
+    "meaningJa": "においがする",
+    "partOfSpeech": "verb",
+    "level": 2,
+    "example": "The flowers smell sweet in the morning.",
+    "exampleJa": "その花は朝に甘い香りがする。",
+    "category": "感覚",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "嗅覚で感じる性質を表す基本動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4994",
+    "word": "snap",
+    "meaningJa": "ぽきっと折れる",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The thin branch may snap in a strong wind.",
+    "exampleJa": "その細い枝は強風でぽきっと折れるかもしれない。",
+    "category": "動き・変化",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "急に鋭い音を立てて折れる動作を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4995",
+    "word": "starve",
+    "meaningJa": "飢える",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "Many animals starve when food becomes scarce.",
+    "exampleJa": "食べ物が乏しくなると多くの動物が飢える。",
+    "category": "生命・生活",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "食料不足で苦しむ状態を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4996",
+    "word": "steer",
+    "meaningJa": "操縦する",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "She learned to steer the boat across the lake.",
+    "exampleJa": "彼女は湖を渡る船の操縦を学んだ。",
+    "category": "移動・行動",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "乗り物の進む方向を操作する動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4997",
+    "word": "swear",
+    "meaningJa": "誓う",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "They swear to keep the plan secret.",
+    "exampleJa": "彼らはその計画を秘密にすると誓う。",
+    "category": "言語・約束",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "強い決意や約束を言葉にする動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4998",
+    "word": "swell",
+    "meaningJa": "膨らむ",
+    "partOfSpeech": "verb",
+    "level": 4,
+    "example": "The river may swell after heavy rain.",
+    "exampleJa": "大雨の後、川の水かさが増すかもしれない。",
+    "category": "変化・自然",
+    "editorial": {
+      "recommendedLevel": 4,
+      "reason": "量や大きさが増す様子を表す動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v4999",
+    "word": "trap",
+    "meaningJa": "閉じ込める",
+    "partOfSpeech": "verb",
+    "level": 3,
+    "example": "The fallen rocks could trap hikers in the cave.",
+    "exampleJa": "落ちた岩が洞窟内の登山者を閉じ込めるかもしれない。",
+    "category": "危険・行動",
+    "editorial": {
+      "recommendedLevel": 3,
+      "reason": "逃げ道をふさいで動けなくする動詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  },
+  {
+    "id": "v5000",
+    "word": "ugly",
+    "meaningJa": "醜い",
+    "partOfSpeech": "adjective",
+    "level": 2,
+    "example": "The wall had an ugly stain near the window.",
+    "exampleJa": "その壁には窓の近くに見苦しい染みがあった。",
+    "category": "外見・評価",
+    "editorial": {
+      "recommendedLevel": 2,
+      "reason": "外見が美しくないことを表す基本形容詞。",
+      "references": ["editorial-policy-v1"],
+      "reviewStatus": "reviewed"
+    },
+    "exampleInfo": {
+      "source": "authored",
+      "reviewStatus": "authored",
+      "allowedExercises": ["en-to-ja", "ja-to-en", "flashcard", "fill-blank", "reorder"]
+    }
+  }
+]

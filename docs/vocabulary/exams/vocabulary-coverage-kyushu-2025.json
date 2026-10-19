@@ -1,0 +1,110 @@
+{
+  "year": 2025,
+  "question": "九州大学 前期 英語・公開部分のみ（長文本文非公開）",
+  "sourceUrl": "https://www.kyushu-u.ac.jp/f/61067/2025_eigo_kyudai.pdf",
+  "extraction": "pypdf; all published PDF pages; includes instructions, options and figure text; excludes unextractable image text",
+  "method": "NFKC, lowercase, remove /cNNN glyph labels, ASCII words with internal apostrophes; hyphens split; exact surface-form matching; no lemmatization or proper-name exclusion",
+  "textSha256": "22339443a8759965b44cf62025929f80049551059e1d7c2ed5bb96fc7e62e74f",
+  "catalogSha256": "387eb7b9e8d1579ab48f7560ace60ef2201ee2781ff2cae8fde12f44e76015a6",
+  "catalogWords": 1400,
+  "totalTokens": 809,
+  "uniqueTypes": 382,
+  "matchedTokens": 399,
+  "matchedTypes": 152,
+  "tokenMatchPercent": 49.32,
+  "typeMatchPercent": 39.79,
+  "missingTop20": [
+    {
+      "word": "machi",
+      "count": 13
+    },
+    {
+      "word": "d",
+      "count": 10
+    },
+    {
+      "word": "is",
+      "count": 10
+    },
+    {
+      "word": "ai",
+      "count": 9
+    },
+    {
+      "word": "b",
+      "count": 8
+    },
+    {
+      "word": "c",
+      "count": 7
+    },
+    {
+      "word": "your",
+      "count": 7
+    },
+    {
+      "word": "f",
+      "count": 6
+    },
+    {
+      "word": "gene",
+      "count": 6
+    },
+    {
+      "word": "company's",
+      "count": 5
+    },
+    {
+      "word": "e",
+      "count": 5
+    },
+    {
+      "word": "its",
+      "count": 5
+    },
+    {
+      "word": "problems",
+      "count": 5
+    },
+    {
+      "word": "treatment",
+      "count": 5
+    },
+    {
+      "word": "airport",
+      "count": 4
+    },
+    {
+      "word": "am",
+      "count": 4
+    },
+    {
+      "word": "are",
+      "count": 4
+    },
+    {
+      "word": "boarding",
+      "count": 4
+    },
+    {
+      "word": "hearing",
+      "count": 4
+    },
+    {
+      "word": "https",
+      "count": 4
+    }
+  ],
+  "limitations": "Surface-form matches are not lemma coverage, comprehension or exam readiness. Inflections, contractions, names and PDF extraction artifacts may appear missing. This single public exam cannot establish advanced-university coverage.",
+  "auditDate": "2026-10-02",
+  "scope": {
+    "pdfPages": 20,
+    "questions": "1–5の公開部分。1–3の長文本文と5の資料は非公開。試験全体の読解語彙を測定していない。",
+    "included": "表紙・受験番号記入例・設問・選択肢・注・出典URL・英作文指示・旅程表の抽出可能テキスト",
+    "visualCheck": "PDF第10ページ（冊子7ページ）の設問2・問3/4を画像と照合。全ページの文字精度検証は未実施。",
+    "extractionIssues": [
+      "flexibilityがflexi bilityに分割される。集計用テキストは未補正。",
+      "設問記号・URL・固有名詞・活用形・抽出ノイズを含む。"
+    ]
+  }
+}

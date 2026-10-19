@@ -213,8 +213,21 @@ export interface VocabularyWord {
   example: string
   exampleJa: string
   category: string
+  editorial?: {
+    recommendedLevel: number
+    reason: string
+    references: string[]
+    reviewStatus: 'reviewed' | 'needs-review'
+  }
+  usageNote?: string
+  additionalMeanings?: {
+    partOfSpeech: VocabularyPartOfSpeech
+    meaningJa: string
+    example: string
+    exampleJa: string
+  }[]
   exampleInfo?: {
-    source: 'curated' | 'core' | 'generated'
+    source: 'curated' | 'core' | 'generated' | 'authored'
     reviewStatus: 'authored' | 'needs-review'
     allowedExercises: VocabularyQuestionType[]
   }
@@ -225,6 +238,7 @@ export interface VocabularyLevel {
   title: string
   subtitle: string
   wordCount: number
+  targetWordCount: number
   color: string
 }
 
@@ -279,6 +293,7 @@ export interface VocabularyAnswer {
 }
 
 export interface VocabularySession {
+  unitNumber?: number
   id: string
   level: number
   mode: VocabularySessionMode
@@ -289,6 +304,7 @@ export interface VocabularySession {
 }
 
 export interface VocabularyResult {
+  unitNumber?: number
   unlockedExamLevel?: number
   sessionId: string
   level: number
