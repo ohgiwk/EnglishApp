@@ -179,6 +179,15 @@
   justify-content: space-between;
 }
 
+.reset-section {
+  margin-top: 22px;
+}
+
+.reset-button {
+  color: #b32646;
+  border-color: #b32646;
+}
+
 .settings-title h2 {
   margin: 3px 0 0;
   font-size: 19px;

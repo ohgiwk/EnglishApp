@@ -139,10 +139,13 @@ export const useAppStore = defineStore('app', () => {
   }
 
   function reset() {
+    const fresh = defaults()
+    saveError.value = writeSave(fresh)
+    if (saveError.value) return false
     activeExam.value = null
-    s.value = defaults()
+    s.value = fresh
     loaded.error = null
-    persist()
+    return true
   }
 
   return {
