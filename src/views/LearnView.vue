@@ -16,8 +16,7 @@ import EmmaPortrait from '../components/EmmaPortrait.vue'
 import {
   vocabularyLevels,
   vocabularyWords,
-  vocabularyReviewPending,
-  vocabularyExpansionPending
+  vocabularyReviewPending
 } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
 import type { VocabularyQuestionCount, VocabularySessionMode, VocabularyStatus } from '../types'
@@ -155,8 +154,7 @@ function start() {
       <h1>一緒に覚えよう</h1>
       <p>ひとつ覚えるたび、世界が広がる。</p>
     </header>
-    <p v-if="vocabularyExpansionPending || vocabularyReviewPending" class="word-level-hint">
-      <span v-if="vocabularyExpansionPending">大学受験向けに語彙を拡充中です。</span>
+    <p v-if="vocabularyReviewPending" class="word-level-hint">
       <span v-if="vocabularyReviewPending">レベルは一部見直し中です。</span>
     </p>
 

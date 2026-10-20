@@ -42,7 +42,7 @@ it('shows actual question counts when a level or status filter has fewer eligibl
   })
   const count = eligibleWords.length
   expect(count).toBeLessThan(50)
-  expect(wrapper.text()).toContain('大学受験向けに語彙を拡充中です。')
+  expect(wrapper.text()).not.toContain('大学受験向けに語彙を拡充中です。')
   expect(wrapper.text()).not.toContain('レベルは一部見直し中です。')
   expect(wrapper.get('.available-count-note').text()).toContain(`${count}問で出題`)
   expect(wrapper.text()).toContain(`対象：${count}語`)
