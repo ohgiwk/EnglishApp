@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import SpeechPlaybackIcon from '../components/SpeechPlaybackIcon.vue'
 import { computed } from 'vue'
 import { useAppStore } from '../stores/app'
 import { vocabularyWords } from '../data/vocabulary'
@@ -53,7 +54,7 @@ const entries = computed(
           :aria-label="`${entry.word.word}の発音`"
           @click="speech.speak(entry.word.word)"
         >
-          発音を聞く
+          <SpeechPlaybackIcon :text="entry.word.word" /> 発音を聞く
         </button>
       </div>
     </template>

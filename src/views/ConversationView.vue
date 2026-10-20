@@ -1,7 +1,8 @@
 <script setup lang="ts">
+import SpeechPlaybackIcon from '../components/SpeechPlaybackIcon.vue'
 import { computed, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import { Check, ChevronLeft, ChevronRight, Languages, ScrollText, Volume2, X } from '@lucide/vue'
+import { Check, ChevronLeft, ChevronRight, Languages, ScrollText, X } from '@lucide/vue'
 import { chapters } from '../data/chapters'
 import { getStoryFlow } from '../data/story-flows'
 import { choiceResultFor, storyArtworkStage } from '../data/story-engine'
@@ -167,7 +168,7 @@ function speak(text: string) {
         @click.stop="speak(dialogue.english)"
         @keyup.stop
       >
-        <Volume2 />
+        <SpeechPlaybackIcon :text="fill(dialogue.english)" />
       </button>
       <h2>{{ fill(dialogue.english) }}</h2>
       <p v-if="store.s.showTranslation">{{ fill(dialogue.japanese) }}</p>
@@ -244,7 +245,7 @@ function speak(text: string) {
           aria-label="自然な表現を再生"
           @click="speak(feedback.naturalExpression)"
         >
-          <Volume2 />
+          <SpeechPlaybackIcon :text="fill(feedback.naturalExpression)" />
         </button>
       </div>
       <button class="primary" type="button" @click="acknowledgeFeedback">

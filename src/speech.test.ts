@@ -1,6 +1,9 @@
 // @vitest-environment happy-dom
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { effectScope } from 'vue'
+import { effectScope, nextTick } from 'vue'
+import { mount } from '@vue/test-utils'
+import SpeechPlaybackIcon from './components/SpeechPlaybackIcon.vue'
+import { speechPlayback } from './speech-playback'
 import {
   cancelEnglishSpeech,
   setAmericanVoicePreference,
@@ -60,6 +63,49 @@ describe('speech lifecycle', () => {
     localStorage.setItem('love-language-speech-volume', '0')
     await speakAmericanEnglish('Hello')
     expect(synthesis.speak.mock.calls.at(-1)![0].volume).toBe(0)
+  })
+
+  it('shows loading and animated playback only for the matching text, then clears on end', async () => {
+    const icon = mount(SpeechPlaybackIcon, { props: { text: 'Hello' } })
+    const other = mount(SpeechPlaybackIcon, { props: { text: 'Other' } })
+    const pending = speakAmericanEnglish('Hello')
+    await nextTick()
+    expect(icon.classes()).toContain('loading')
+    expect(other.classes()).not.toContain('loading')
+    await pending
+    const utterance = synthesis.speak.mock.calls.at(-1)![0]
+    utterance.onstart()
+    await nextTick()
+    expect(icon.attributes('aria-label')).toBe('再生中')
+    expect(icon.find('.speech-wave').exists()).toBe(true)
+    utterance.onend()
+    await nextTick()
+    expect(icon.find('.speech-wave').exists()).toBe(false)
+    expect(speechPlayback.value).toBeNull()
+    icon.unmount()
+    other.unmount()
+  })
+
+  it('ignores stale playback events and clears on cancellation and failure', async () => {
+    await speakAmericanEnglish('Old')
+    const old = synthesis.speak.mock.calls.at(-1)![0]
+    await speakAmericanEnglish('New')
+    const current = synthesis.speak.mock.calls.at(-1)![0]
+    current.onstart()
+    old.onend()
+    expect(speechPlayback.value).toMatchObject({ text: 'New', phase: 'playing' })
+    current.onerror()
+    expect(speechPlayback.value).toBeNull()
+    await speakAmericanEnglish('Canceled')
+    const canceled = synthesis.speak.mock.calls.at(-1)![0]
+    cancelEnglishSpeech()
+    canceled.onstart()
+    expect(speechPlayback.value).toBeNull()
+    synthesis.speak.mockImplementation(() => {
+      throw new Error('Unavailable')
+    })
+    await speakAmericanEnglish('Blocked')
+    expect(speechPlayback.value).toBeNull()
   })
 
   it('plays only the latest delayed request', async () => {

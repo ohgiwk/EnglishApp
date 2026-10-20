@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { Check, RotateCcw, ChevronRight, Volume2 } from '@lucide/vue'
+import SpeechPlaybackIcon from '../SpeechPlaybackIcon.vue'
+import { Check, RotateCcw, ChevronRight } from '@lucide/vue'
 import BaseDialog from '../BaseDialog.vue'
 import type { VocabularyWord } from '../../types'
 import type { vocabularyPresentation } from '../../domain/vocabulary-presentation'
@@ -48,7 +49,7 @@ const emit = defineEmits<{ next: []; replay: [] }>()
           aria-label="正解の英文を再生"
           @click="emit('replay')"
         >
-          <Volume2 :size="16" /> 英文の発音
+          <SpeechPlaybackIcon :text="presentation.answerSpeech" /> 英文の発音
         </button>
       </div>
     </div>

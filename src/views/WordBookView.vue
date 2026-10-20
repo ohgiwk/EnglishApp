@@ -1,15 +1,7 @@
 <script setup lang="ts">
+import SpeechPlaybackIcon from '../components/SpeechPlaybackIcon.vue'
 import { computed, onBeforeUnmount, ref, watch } from 'vue'
-import {
-  BookOpen,
-  Check,
-  ChevronLeft,
-  ChevronRight,
-  LockKeyhole,
-  Search,
-  Volume2,
-  X
-} from '@lucide/vue'
+import { BookOpen, Check, ChevronLeft, ChevronRight, LockKeyhole, Search, X } from '@lucide/vue'
 import { vocabularyLevels, vocabularyWords, vocabularyReviewPending } from '../data/vocabulary'
 import { englishSpeechAvailable } from '../speech'
 import BaseDialog from '../components/BaseDialog.vue'
@@ -203,7 +195,13 @@ const { speak, cancel } = useEnglishSpeech()
       <p class="eyebrow">LEVEL {{ selected.level }} · {{ selected.category }}</p>
       <div class="word-title">
         <h1 id="word-detail-title">{{ selected.word }}</h1>
-        <button :disabled="!speechAvailable" @click="speak(selected.word)"><Volume2 /></button>
+        <button
+          :disabled="!speechAvailable"
+          :aria-label="`${selected.word}の発音`"
+          @click="speak(selected.word)"
+        >
+          <SpeechPlaybackIcon :text="selected.word" />
+        </button>
       </div>
       <span class="part-badge">{{ selected.partOfSpeech }}</span>
       <h2>{{ selected.meaningJa }}</h2>
@@ -229,7 +227,7 @@ const { speak, cancel } = useEnglishSpeech()
         <p>{{ selected.example }}</p>
         <small>{{ selected.exampleJa }}</small>
         <button :disabled="!speechAvailable" @click="speak(selected.example)">
-          <Volume2 /> 例文を聞く
+          <SpeechPlaybackIcon :text="selected.example" /> 例文を聞く
         </button>
       </div>
       <div class="word-detail-progress">

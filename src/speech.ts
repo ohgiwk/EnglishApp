@@ -1,5 +1,6 @@
 import { curatedVoices } from './voice-catalog'
 import { getAudioVolume } from './audio-preferences'
+import { speechPlayback } from './speech-playback'
 
 const normalizedLanguage = (voice: SpeechSynthesisVoice) =>
   voice.lang.toLowerCase().replace('_', '-')
@@ -103,6 +104,7 @@ export async function speakAmericanEnglish(text: string) {
     pendingSpeech = null
   }
   window.speechSynthesis.cancel()
+  speechPlayback.value = { text, phase: 'loading' }
   const voice = await waitForAmericanVoice()
   if (request !== speechRequest) return
   const utterance = new SpeechSynthesisUtterance(text)
@@ -110,7 +112,20 @@ export async function speakAmericanEnglish(text: string) {
   utterance.rate = 0.9
   utterance.volume = getAudioVolume('speech') / 100
   utterance.voice = voice
-  window.speechSynthesis.speak(utterance)
+  utterance.onstart = () => {
+    if (request === speechRequest) speechPlayback.value = { text, phase: 'playing' }
+  }
+  const finished = () => {
+    if (request !== speechRequest) return
+    speechPlayback.value = null
+  }
+  utterance.onend = finished
+  utterance.onerror = finished
+  try {
+    window.speechSynthesis.speak(utterance)
+  } catch {
+    finished()
+  }
 }
 
 export function speakAmericanEnglishAfterPause(text: string, delayMs = 180) {
@@ -123,6 +138,7 @@ export function speakAmericanEnglishAfterPause(text: string, delayMs = 180) {
 
 export function cancelEnglishSpeech() {
   speechRequest += 1
+  speechPlayback.value = null
   if (pendingSpeech) {
     clearTimeout(pendingSpeech)
     pendingSpeech = null

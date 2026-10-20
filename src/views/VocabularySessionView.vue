@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import SpeechPlaybackIcon from '../components/SpeechPlaybackIcon.vue'
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { onBeforeRouteLeave, useRoute, useRouter } from 'vue-router'
 import { Volume2, VolumeX, X } from '@lucide/vue'
@@ -144,7 +145,7 @@ function confirmInterruption() {
             aria-label="単語を再生"
             @click="replay(false)"
           >
-            <Volume2 :size="16" /> 発音
+            <SpeechPlaybackIcon :text="presentation.questionSpeech" /> 発音
           </button>
         </div>
         <div v-if="presentation.questionSpeech" class="word-prompt">
