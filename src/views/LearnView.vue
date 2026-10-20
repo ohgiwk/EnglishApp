@@ -23,6 +23,9 @@ const showPromotionInfo = ref(false)
 const levelMenuOpen = ref(false)
 const levelPicker = ref<HTMLElement | null>(null)
 const levelTrigger = ref<HTMLButtonElement | null>(null)
+const startButton = ref<HTMLButtonElement | null>(null)
+const showFixedStart = ref(false)
+let startObserver: IntersectionObserver | undefined
 const selectedLevelDefinition = computed(() =>
   vocabularyLevels.find((level) => level.id === selectedLevel.value)
 )
@@ -121,10 +124,20 @@ function handleLevelMenuKeydown(event: KeyboardEvent) {
   levelTrigger.value?.focus()
 }
 onMounted(() => {
+  if (startButton.value && typeof IntersectionObserver !== 'undefined') {
+    startObserver = new IntersectionObserver(
+      ([entry]) => {
+        if (entry) showFixedStart.value = entry.boundingClientRect.bottom <= 16
+      },
+      { rootMargin: '-16px 0px 0px 0px', threshold: 0 }
+    )
+    startObserver.observe(startButton.value)
+  }
   document.addEventListener('pointerdown', closeLevelMenu)
   document.addEventListener('keydown', handleLevelMenuKeydown)
 })
 onBeforeUnmount(() => {
+  startObserver?.disconnect()
   document.removeEventListener('pointerdown', closeLevelMenu)
   document.removeEventListener('keydown', handleLevelMenuKeydown)
 })
@@ -151,7 +164,7 @@ function start() {
         <span>Today's study</span>
         <h2>“Ready for a little<br />word practice?”</h2>
         <p>少しだけ単語の練習、しない？</p>
-        <button :disabled="availableWordCount === 0" @click="start">
+        <button ref="startButton" :disabled="availableWordCount === 0" @click="start">
           <Play :size="18" fill="currentColor" />
           <span>LEVEL {{ selectedLevel }}をスタート</span>
           <small>
@@ -391,6 +404,21 @@ function start() {
         対象の単語数が指定した問題数より少ないため、{{ actualQuestionCount }}問で出題します。
       </p>
     </fieldset>
+    <Transition name="learn-fixed-start">
+      <button
+        v-if="showFixedStart"
+        class="learn-fixed-start"
+        :disabled="availableWordCount === 0"
+        @click="start"
+      >
+        <Play :size="18" fill="currentColor" />
+        <span>LEVEL {{ selectedLevel }}をスタート</span>
+        <small
+          >{{ selectedQuestionCountLabel }} ·
+          {{ modes.find((mode) => mode.id === selectedMode)?.label }}</small
+        >
+      </button>
+    </Transition>
   </section>
 </template>
 

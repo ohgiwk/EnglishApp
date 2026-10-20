@@ -85,3 +85,61 @@ it('starts from the selected level with no unit selector, ignoring legacy unit U
   ).toEqual(new Set(expected.map((word) => word.id)))
   expect(store.s.activeVocabularySession?.unitNumber).toBeUndefined()
 })
+
+it('shows a fixed start after the original scrolls above the viewport, sharing current settings', async () => {
+  vi.stubGlobal('localStorage', { getItem: () => null, setItem: vi.fn() })
+  let notify!: IntersectionObserverCallback
+  const observe = vi.fn()
+  const disconnect = vi.fn()
+  vi.stubGlobal(
+    'IntersectionObserver',
+    class {
+      constructor(callback: IntersectionObserverCallback) {
+        notify = callback
+      }
+      observe = observe
+      disconnect = disconnect
+    }
+  )
+  const pinia = createPinia()
+  setActivePinia(pinia)
+  const store = useAppStore()
+  const router = createRouter({
+    history: createMemoryHistory(),
+    routes: [
+      { path: '/', component: LearnView },
+      { path: '/learn/session/:level', component: { template: '<div />' } }
+    ]
+  })
+  await router.push('/')
+  wrapper = mount(LearnView, {
+    global: { plugins: [pinia, router], stubs: { EmmaPortrait: true } }
+  })
+  const scrollTo = async (bottom: number) => {
+    notify(
+      [{ boundingClientRect: { bottom } } as IntersectionObserverEntry],
+      {} as IntersectionObserver
+    )
+    await wrapper!.vm.$nextTick()
+  }
+  expect(observe).toHaveBeenCalledWith(wrapper.get('.learn-hero button').element)
+  expect(wrapper.find('.learn-fixed-start').exists()).toBe(false)
+  await scrollTo(-10)
+  expect(wrapper.get('.learn-fixed-start').text()).toContain('LEVEL 1をスタート')
+  await wrapper.get('input[name="question-count"][value="20"]').setValue()
+  await wrapper.get('input[name="practice-mode"][value="flashcard"]').setValue()
+  expect(wrapper.get('.learn-fixed-start').text()).toContain('20問 · カード')
+  store.setVocabularyStatuses(['mastered'])
+  await wrapper.vm.$nextTick()
+  expect(wrapper.get('.learn-fixed-start').attributes('disabled')).toBeDefined()
+  store.setVocabularyStatuses(['new'])
+  await scrollTo(200)
+  expect(wrapper.find('.learn-fixed-start').exists()).toBe(false)
+  await scrollTo(-10)
+  await wrapper.get('.learn-fixed-start').trigger('click')
+  expect(store.s.activeVocabularySession?.questions).toHaveLength(20)
+  expect(store.s.activeVocabularySession?.mode).toBe('flashcard')
+  wrapper.unmount()
+  wrapper = undefined
+  expect(disconnect).toHaveBeenCalledOnce()
+})
