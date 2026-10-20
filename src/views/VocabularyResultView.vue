@@ -21,6 +21,7 @@ const store = useAppStore()
 const router = useRouter()
 const result = computed(() => store.s.lastVocabularyResult)
 const animatedAccuracy = ref(0)
+const wordsExpanded = ref(false)
 let accuracyFrame = 0
 onMounted(() => {
   const target = result.value?.accuracy ?? 0
@@ -43,6 +44,9 @@ const studiedWords = computed(() =>
     const word = vocabularyWords.find((item) => item.id === answer.wordId)
     return word ? [{ word, answer }] : []
   })
+)
+const visibleStudiedWords = computed(() =>
+  wordsExpanded.value ? studiedWords.value : studiedWords.value.slice(0, 10)
 )
 const comment = computed(() => {
   if (!result.value) return ''
@@ -115,11 +119,22 @@ function retry() {
       今日の関係値ボーナスは獲得済みです。XPと単語進捗は加算されています。
     </p>
 
+    <div class="card result-study-summary" aria-label="単語の学習状況">
+      <div>
+        <strong>{{ store.masteredVocabularyCount }}</strong
+        ><span>Mastered</span>
+      </div>
+      <div>
+        <strong>{{ store.todayVocabularyWordCount }}</strong
+        ><span>Today</span>
+      </div>
+    </div>
+
     <div class="card result-list">
-      <h2><BookMarked /> 今回学習した単語</h2>
+      <h2><BookMarked /> 今回学習した単語（{{ studiedWords.length }}語）</h2>
       <p v-if="!studiedWords.length">この学習結果には単語ごとの記録がありません。</p>
       <div
-        v-for="entry in studiedWords"
+        v-for="entry in visibleStudiedWords"
         :key="entry.word.id"
         class="result-word-row"
         :class="entry.answer.correct ? 'is-correct' : 'is-incorrect'"
@@ -134,6 +149,19 @@ function retry() {
           {{ entry.answer.correct ? '正解' : '不正解' }}
         </span>
       </div>
+      <button
+        v-if="studiedWords.length > 10"
+        class="secondary result-list-toggle"
+        type="button"
+        :aria-expanded="wordsExpanded"
+        @click="wordsExpanded = !wordsExpanded"
+      >
+        {{
+          wordsExpanded
+            ? '閉じる（先頭10件を表示）'
+            : `すべて表示（残り${studiedWords.length - 10}語）`
+        }}
+      </button>
     </div>
 
     <button class="primary" @click="retry"><RotateCcw /> 同じモードでもう一度</button>

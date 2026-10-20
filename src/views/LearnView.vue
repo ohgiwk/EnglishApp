@@ -1,15 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
-import {
-  BookMarked,
-  ChevronDown,
-  ChevronRight,
-  LockKeyhole,
-  Info,
-  MessageSquareText,
-  Play
-} from '@lucide/vue'
+import { ChevronDown, LockKeyhole, Info, Play } from '@lucide/vue'
 import { examProgress, lastVocabularyLevel } from '../domain/promotion-exam'
 import BaseDialog from '../components/BaseDialog.vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
@@ -399,20 +391,6 @@ function start() {
         対象の単語数が指定した問題数より少ないため、{{ actualQuestionCount }}問で出題します。
       </p>
     </fieldset>
-
-    <div class="learn-links">
-      <RouterLink to="/learn/words"
-        ><BookMarked /><span
-          ><b>Word Book</b
-          ><small>{{ vocabularyWords.length.toLocaleString() }}語から検索する</small></span
-        ><ChevronRight
-      /></RouterLink>
-      <RouterLink to="/learn/review"
-        ><MessageSquareText /><span
-          ><b>Conversation Review</b><small>ストーリーで出会った表現</small></span
-        ><ChevronRight
-      /></RouterLink>
-    </div>
   </section>
 </template>
 
