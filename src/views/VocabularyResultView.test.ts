@@ -16,6 +16,7 @@ beforeEach(() => {
 })
 afterEach(() => {
   wrapper?.unmount()
+  vi.useRealTimers()
   vi.unstubAllGlobals()
 })
 function setup(count: number) {
@@ -93,4 +94,37 @@ it('shows current mastered and today totals in the status panel', () => {
   const panels = render().findAll('.result-study-summary > div')
   expect(panels[0].text()).toBe('1Mastered')
   expect(panels[1].text()).toBe('23Today')
+})
+
+it('shows rewards then switches once to current totals without captions', async () => {
+  vi.useFakeTimers()
+  const store = setup(10)
+  store.s.xp = 350
+  store.progress.affection = 42
+  store.progress.trust = 28
+  store.s.lastVocabularyResult!.affectionChange = 2
+  store.s.lastVocabularyResult!.trustChange = 1
+  const view = render()
+  const values = () => view.findAll('.reward-grid b').map((item) => item.text())
+  expect(values()).toEqual(['+10', '+2', '+1'])
+  expect(view.get('.reward-grid').text()).not.toContain('今回獲得')
+  await vi.advanceTimersByTimeAsync(2500)
+  expect(values()).toEqual(['350', '42', '28'])
+  expect(view.get('.reward-grid').text()).not.toContain('現在')
+  store.s.xp = 360
+  await view.vm.$nextTick()
+  expect(values()[0]).toBe('360')
+  await vi.advanceTimersByTimeAsync(10000)
+  expect(values()).toEqual(['360', '42', '28'])
+  view.unmount()
+  wrapper = undefined
+  expect(vi.getTimerCount()).toBe(0)
+})
+
+it('cancels the pending total switch when leaving early', () => {
+  vi.useFakeTimers()
+  setup(10)
+  render().unmount()
+  wrapper = undefined
+  expect(vi.getTimerCount()).toBe(0)
 })

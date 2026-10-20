@@ -1961,3 +1961,24 @@
   width: 100%;
   margin-top: 12px;
 }
+
+.reward-value-enter-active,
+.reward-value-leave-active {
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+.reward-value-enter-from {
+  opacity: 0;
+  transform: translateY(8px);
+}
+.reward-value-leave-to {
+  opacity: 0;
+  transform: translateY(-8px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .reward-value-enter-active,
+  .reward-value-leave-active {
+    transition: none;
+  }
+}

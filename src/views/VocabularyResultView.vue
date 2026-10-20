@@ -21,9 +21,14 @@ const store = useAppStore()
 const router = useRouter()
 const result = computed(() => store.s.lastVocabularyResult)
 const animatedAccuracy = ref(0)
+const showCurrentRewards = ref(false)
+let rewardTimer: ReturnType<typeof setTimeout> | undefined
 const wordsExpanded = ref(false)
 let accuracyFrame = 0
 onMounted(() => {
+  rewardTimer = setTimeout(() => {
+    showCurrentRewards.value = true
+  }, 2500)
   const target = result.value?.accuracy ?? 0
   if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
     animatedAccuracy.value = target
@@ -38,7 +43,10 @@ onMounted(() => {
   }
   accuracyFrame = requestAnimationFrame(animate)
 })
-onBeforeUnmount(() => cancelAnimationFrame(accuracyFrame))
+onBeforeUnmount(() => {
+  cancelAnimationFrame(accuracyFrame)
+  clearTimeout(rewardTimer)
+})
 const studiedWords = computed(() =>
   (result.value?.answers ?? []).flatMap((answer) => {
     const word = vocabularyWords.find((item) => item.id === answer.wordId)
@@ -102,18 +110,32 @@ function retry() {
     </div>
 
     <div class="reward-grid">
-      <span
-        ><b>+{{ result.earnedXp }}</b
-        ><small>English XP</small></span
-      >
-      <span
-        ><Heart /><b>+{{ result.affectionChange }}</b
-        ><small>Affection - 愛情</small></span
-      >
-      <span
-        ><ShieldCheck /><b>+{{ result.trustChange }}</b
-        ><small>Trust - 信頼</small></span
-      >
+      <span>
+        <Transition name="reward-value" mode="out-in">
+          <b :key="showCurrentRewards ? 'total' : 'earned'">{{
+            showCurrentRewards ? store.s.xp : `+${result.earnedXp}`
+          }}</b>
+        </Transition>
+        <small>English XP</small>
+      </span>
+      <span>
+        <Heart />
+        <Transition name="reward-value" mode="out-in">
+          <b :key="showCurrentRewards ? 'total' : 'earned'">{{
+            showCurrentRewards ? store.progress.affection : `+${result.affectionChange}`
+          }}</b>
+        </Transition>
+        <small>Affection - 愛情</small>
+      </span>
+      <span>
+        <ShieldCheck />
+        <Transition name="reward-value" mode="out-in">
+          <b :key="showCurrentRewards ? 'total' : 'earned'">{{
+            showCurrentRewards ? store.progress.trust : `+${result.trustChange}`
+          }}</b>
+        </Transition>
+        <small>Trust - 信頼</small>
+      </span>
     </div>
     <p v-if="result.affectionChange === 0" class="reward-note">
       今日の関係値ボーナスは獲得済みです。XPと単語進捗は加算されています。
