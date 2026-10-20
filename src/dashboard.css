@@ -540,3 +540,28 @@
     font-size: 7px;
   }
 }
+
+.volume-control {
+  display: grid;
+  gap: 12px;
+  margin-top: 24px;
+}
+.volume-control label {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+.volume-control input[type='range'] {
+  width: 100%;
+  min-height: 32px;
+  accent-color: var(--pink);
+}
+.volume-previews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.settings-section + .settings-section {
+  margin-top: 22px;
+}

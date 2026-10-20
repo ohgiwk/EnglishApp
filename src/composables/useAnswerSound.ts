@@ -1,4 +1,5 @@
 import { onScopeDispose, watch, type Ref } from 'vue'
+import { getAudioVolume } from '../audio-preferences'
 
 // Short synthesized chimes keep feedback available offline without audio downloads.
 export function useAnswerSound(muted: Ref<boolean>) {
@@ -26,6 +27,8 @@ export function useAnswerSound(muted: Ref<boolean>) {
       if (context.state === 'suspended') await context.resume()
       if (muted.value || disposed || currentRequest !== request) return
       const start = context.currentTime
+      const volume = getAudioVolume('effects') / 100
+      if (volume === 0) return
       const notes = correct
         ? [
             { frequency: 659.25, offset: 0 },
@@ -44,7 +47,7 @@ export function useAnswerSound(muted: Ref<boolean>) {
         oscillator.type = 'sine'
         oscillator.frequency.setValueAtTime(note.frequency, at)
         gain.gain.setValueAtTime(0, at)
-        gain.gain.linearRampToValueAtTime(correct ? 0.09 : 0.07, at + 0.012)
+        gain.gain.linearRampToValueAtTime((correct ? 0.27 : 0.21) * volume, at + 0.012)
         gain.gain.exponentialRampToValueAtTime(0.001, at + duration)
         gain.gain.setValueAtTime(0, at + duration + 0.01)
         oscillator.connect(gain)

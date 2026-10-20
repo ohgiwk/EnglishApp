@@ -2,6 +2,7 @@
 import { afterEach, beforeEach, expect, it, vi } from 'vitest'
 import { effectScope, ref } from 'vue'
 import { useAnswerSound } from './useAnswerSound'
+import { setAudioVolume } from '../audio-preferences'
 
 let scope: ReturnType<typeof effectScope>
 const oscillators: Array<{ start: ReturnType<typeof vi.fn>; stop: ReturnType<typeof vi.fn> }> = []
@@ -12,6 +13,11 @@ beforeEach(() => {
   vi.useFakeTimers()
   oscillators.length = 0
   close.mockClear()
+  const data = new Map<string, string>()
+  vi.stubGlobal('localStorage', {
+    getItem: (key: string) => data.get(key) ?? null,
+    setItem: (key: string, value: string) => data.set(key, value)
+  })
   audioState = 'running'
   resume = () => Promise.resolve()
   vi.stubGlobal(
@@ -94,4 +100,15 @@ it('does not fail the answer when audio is blocked or unavailable', async () => 
   vi.stubGlobal('AudioContext', undefined)
   const unavailable = scope.run(() => useAnswerSound(ref(false)))!
   await expect(unavailable.play(true)).resolves.toBeUndefined()
+})
+
+it('silences effects at zero volume without disabling answer playback later', async () => {
+  const sound = scope.run(() => useAnswerSound(ref(false)))!
+  setAudioVolume('effects', 0)
+  await sound.play(true)
+  await sound.play(false)
+  expect(oscillators).toHaveLength(0)
+  setAudioVolume('effects', 50)
+  await sound.play(false)
+  expect(oscillators).toHaveLength(2)
 })

@@ -53,6 +53,15 @@ afterEach(() => {
 })
 
 describe('speech lifecycle', () => {
+  it('applies saved speech volume including silence', async () => {
+    localStorage.setItem('love-language-speech-volume', '35')
+    await speakAmericanEnglish('Hello')
+    expect(synthesis.speak.mock.calls.at(-1)![0].volume).toBe(0.35)
+    localStorage.setItem('love-language-speech-volume', '0')
+    await speakAmericanEnglish('Hello')
+    expect(synthesis.speak.mock.calls.at(-1)![0].volume).toBe(0)
+  })
+
   it('plays only the latest delayed request', async () => {
     speakAmericanEnglishAfterPause('old')
     speakAmericanEnglishAfterPause('new')

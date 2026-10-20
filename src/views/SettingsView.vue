@@ -5,6 +5,8 @@ import { useRouter } from 'vue-router'
 import BaseDialog from '../components/BaseDialog.vue'
 import { useAppStore } from '../stores/app'
 import { useEnglishSpeech } from '../composables/useEnglishSpeech'
+import { useAnswerSound } from '../composables/useAnswerSound'
+import { getAudioVolume, setAudioVolume, type AudioChannel } from '../audio-preferences'
 import { voiceGroups, displayVoiceName } from '../voice-catalog'
 import {
   englishSpeechAvailable,
@@ -14,6 +16,14 @@ import {
 } from '../speech'
 
 const { speak } = useEnglishSpeech()
+const speechVolume = ref(getAudioVolume('speech'))
+const effectsVolume = ref(getAudioVolume('effects'))
+const answerSound = useAnswerSound(ref(false))
+function changeVolume(channel: AudioChannel, event: Event) {
+  const value = setAudioVolume(channel, Number((event.target as HTMLInputElement).value))
+  if (channel === 'speech') speechVolume.value = value
+  else effectsVolume.value = value
+}
 const router = useRouter()
 const store = useAppStore()
 const showResetDialog = ref(false)
@@ -89,6 +99,55 @@ function previewVoice(voiceId: string) {
     <section class="settings-section">
       <div class="settings-title">
         <div>
+          <p class="eyebrow">VOLUME</p>
+          <h2>音量</h2>
+        </div>
+        <Volume2 />
+      </div>
+      <p>読み上げ音声と効果音を個別に調整できます。0%で消音になります。</p>
+      <div class="volume-control">
+        <label for="speech-volume"
+          >読み上げ音声 <output>{{ speechVolume }}%</output></label
+        >
+        <input
+          id="speech-volume"
+          type="range"
+          min="0"
+          max="100"
+          step="1"
+          :value="speechVolume"
+          @input="changeVolume('speech', $event)"
+        />
+        <button class="secondary" type="button" @click="previewVoice(selectedVoice)">
+          読み上げを試聴
+        </button>
+      </div>
+      <div class="volume-control">
+        <label for="effects-volume"
+          >効果音 <output>{{ effectsVolume }}%</output></label
+        >
+        <input
+          id="effects-volume"
+          type="range"
+          min="0"
+          max="100"
+          step="1"
+          :value="effectsVolume"
+          @input="changeVolume('effects', $event)"
+        />
+        <div class="volume-previews">
+          <button class="secondary" type="button" @click="answerSound.play(true)">
+            正解音を試聴
+          </button>
+          <button class="secondary" type="button" @click="answerSound.play(false)">
+            不正解音を試聴
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="settings-section">
+      <div class="settings-title">
+        <div>
           <p class="eyebrow">VOICE</p>
           <h2>読み上げ音声</h2>
         </div>
@@ -143,7 +202,7 @@ function previewVoice(voiceId: string) {
         </div>
       </div>
       <p>
-        単語の学習履歴・成績・昇級試験・ストーリーの進行・親密度・経験値を削除し、名前やキャラクター選択も初期状態に戻します。読み上げ音声の設定は保持されます。
+        単語の学習履歴・成績・昇級試験・ストーリーの進行・親密度・経験値を削除し、名前やキャラクター選択も初期状態に戻します。読み上げ音声と音量の設定は保持されます。
       </p>
       <button class="secondary reset-button" type="button" @click="confirmReset">
         学習データをリセット
