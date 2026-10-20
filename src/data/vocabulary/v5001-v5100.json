@@ -44,7 +44,7 @@
   {
     "id": "v5003",
     "word": "absolutely",
-    "meaningJa": "完全に；まったく",
+    "meaningJa": "完全に、まったく",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "You are absolutely right about the date.",
@@ -191,7 +191,7 @@
   {
     "id": "v5010",
     "word": "lose",
-    "meaningJa": "なくす；失う",
+    "meaningJa": "なくす、失う",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "Please do not lose your ticket before the show.",
@@ -305,7 +305,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "主要な；中心的な",
+        "meaningJa": "主要な、中心的な",
         "example": "Trust is central to their relationship.",
         "exampleJa": "信頼は彼らの関係で中心的な役割を果たす。"
       }
@@ -377,7 +377,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "攪乱；環境などを乱すこと",
+        "meaningJa": "攪乱、環境などを乱すこと",
         "example": "The fence reduces human disturbance to nesting birds.",
         "exampleJa": "その柵は巣作りをする鳥に対する人間の妨害を減らす。"
       }
@@ -511,7 +511,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adverb",
-        "meaningJa": "悪い方向に；悪影響を及ぼして",
+        "meaningJa": "悪い方向に、悪影響を及ぼして",
         "example": "Lack of sleep can negatively affect memory.",
         "exampleJa": "睡眠不足は記憶に悪影響を及ぼすことがある。"
       }
@@ -562,7 +562,7 @@
   {
     "id": "v5026",
     "word": "permanently",
-    "meaningJa": "永久に；恒久的に",
+    "meaningJa": "永久に、恒久的に",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "The old shop closed permanently last month.",
@@ -646,7 +646,7 @@
   {
     "id": "v5030",
     "word": "studio",
-    "meaningJa": "スタジオ；制作室",
+    "meaningJa": "スタジオ、制作室",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She recorded her first song in a small studio.",
@@ -752,7 +752,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adverb",
-        "meaningJa": "（upwards ofで）〜を超えて；〜以上で",
+        "meaningJa": "（upwards ofで）〜を超えて、〜以上で",
         "example": "The repair will cost upwards of fifty dollars.",
         "exampleJa": "その修理には50ドル以上かかるだろう。"
       }

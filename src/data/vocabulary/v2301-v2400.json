@@ -2,7 +2,7 @@
   {
     "id": "v2301",
     "word": "neither",
-    "meaningJa": "どちらの〜もない；どちらも〜ない",
+    "meaningJa": "どちらの〜もない、どちらも〜ない",
     "partOfSpeech": "other",
     "level": 2,
     "example": "Neither answer is correct.",
@@ -46,7 +46,7 @@
   {
     "id": "v2303",
     "word": "anywhere",
-    "meaningJa": "どこかに；どこでも",
+    "meaningJa": "どこかに、どこでも",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "You can sit anywhere in this room.",
@@ -89,7 +89,7 @@
   {
     "id": "v2305",
     "word": "everywhere",
-    "meaningJa": "至る所に；どこでも",
+    "meaningJa": "至る所に、どこでも",
     "partOfSpeech": "adverb",
     "level": 1,
     "example": "There were flowers everywhere in the garden.",
@@ -110,7 +110,7 @@
   {
     "id": "v2306",
     "word": "somewhere",
-    "meaningJa": "どこかに；どこかで",
+    "meaningJa": "どこかに、どこかで",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "I left my umbrella somewhere in the building.",
@@ -131,7 +131,7 @@
   {
     "id": "v2307",
     "word": "upstairs",
-    "meaningJa": "上の階へ；上の階に",
+    "meaningJa": "上の階へ、上の階に",
     "partOfSpeech": "adverb",
     "level": 1,
     "example": "She went upstairs to get her bag.",
@@ -152,7 +152,7 @@
   {
     "id": "v2308",
     "word": "downstairs",
-    "meaningJa": "下の階へ；下の階に",
+    "meaningJa": "下の階へ、下の階に",
     "partOfSpeech": "adverb",
     "level": 1,
     "example": "We went downstairs for breakfast.",
@@ -173,7 +173,7 @@
   {
     "id": "v2309",
     "word": "indoors",
-    "meaningJa": "屋内で；屋内へ",
+    "meaningJa": "屋内で、屋内へ",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "The children stayed indoors during the storm.",
@@ -194,7 +194,7 @@
   {
     "id": "v2310",
     "word": "outdoors",
-    "meaningJa": "屋外で；屋外へ",
+    "meaningJa": "屋外で、屋外へ",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "We ate lunch outdoors in the sunshine.",
@@ -215,7 +215,7 @@
   {
     "id": "v2311",
     "word": "abroad",
-    "meaningJa": "外国へ；外国で",
+    "meaningJa": "外国へ、外国で",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "My brother hopes to study abroad next year.",
@@ -237,7 +237,7 @@
   {
     "id": "v2312",
     "word": "ahead",
-    "meaningJa": "前方に；先に",
+    "meaningJa": "前方に、先に",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "There is a narrow bridge ahead.",
@@ -257,7 +257,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adverb",
-        "meaningJa": "先に；前もって",
+        "meaningJa": "先に、前もって",
         "example": "We planned ahead to avoid the holiday crowds.",
         "exampleJa": "私たちは休日の混雑を避けるために前もって計画を立てました。"
       }
@@ -266,7 +266,7 @@
   {
     "id": "v2313",
     "word": "backward",
-    "meaningJa": "後ろへ；後ろ向きに",
+    "meaningJa": "後ろへ、後ろ向きに",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "He took a step backward to make room.",
@@ -288,7 +288,7 @@
   {
     "id": "v2314",
     "word": "sideways",
-    "meaningJa": "横へ；横向きに",
+    "meaningJa": "横へ、横向きに",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "We had to move sideways through the narrow gap.",
@@ -330,7 +330,7 @@
   {
     "id": "v2316",
     "word": "underneath",
-    "meaningJa": "〜の下に；〜に覆われて",
+    "meaningJa": "〜の下に、〜に覆われて",
     "partOfSpeech": "other",
     "level": 3,
     "example": "She found a coin underneath the sofa.",
@@ -436,7 +436,7 @@
   {
     "id": "v2321",
     "word": "scooter",
-    "meaningJa": "スクーター；キックスケーター",
+    "meaningJa": "スクーター、キックスケーター",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She rides a scooter to the nearby shop.",
@@ -479,7 +479,7 @@
   {
     "id": "v2323",
     "word": "van",
-    "meaningJa": "バン；小型の貨物車",
+    "meaningJa": "バン、小型の貨物車",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The delivery van arrived before noon.",
@@ -565,7 +565,7 @@
   {
     "id": "v2327",
     "word": "license",
-    "meaningJa": "免許；許可証",
+    "meaningJa": "免許、許可証",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She showed her license at the rental counter.",
@@ -586,7 +586,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "許可する；使用権を与える",
+        "meaningJa": "許可する、使用権を与える",
         "example": "The company will license its software to local schools.",
         "exampleJa": "その会社は地元の学校にソフトウェアの使用権を与えます。"
       }
@@ -617,7 +617,7 @@
   {
     "id": "v2329",
     "word": "timetable",
-    "meaningJa": "時刻表；時間割",
+    "meaningJa": "時刻表、時間割",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Please check the timetable before leaving home.",
@@ -658,7 +658,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "逸脱；従来との違い",
+        "meaningJa": "逸脱、従来との違い",
         "example": "The new design marks a departure from tradition.",
         "exampleJa": "その新しいデザインは伝統からの脱却を示しています。"
       }
@@ -709,7 +709,7 @@
   {
     "id": "v2333",
     "word": "cabin",
-    "meaningJa": "小屋；船室・客室",
+    "meaningJa": "小屋、船室・客室",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We stayed in a small cabin beside the lake.",
@@ -729,7 +729,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "船室；航空機の客室",
+        "meaningJa": "船室、航空機の客室",
         "example": "The cabin became quiet after the lights were dimmed.",
         "exampleJa": "照明が暗くされると機内は静かになりました。"
       }
@@ -760,7 +760,7 @@
   {
     "id": "v2335",
     "word": "pilot",
-    "meaningJa": "操縦士；パイロット",
+    "meaningJa": "操縦士、パイロット",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The pilot welcomed the passengers aboard.",
@@ -789,7 +789,7 @@
   {
     "id": "v2336",
     "word": "flight",
-    "meaningJa": "飛行；航空便",
+    "meaningJa": "飛行、航空便",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Our flight to Osaka leaves at nine.",
@@ -831,7 +831,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "心に抱く；かくまう",
+        "meaningJa": "心に抱く、かくまう",
         "example": "Some residents still harbor doubts about the plan.",
         "exampleJa": "一部の住民は今もその計画に疑念を抱いています。"
       }
@@ -840,7 +840,7 @@
   {
     "id": "v2338",
     "word": "port",
-    "meaningJa": "港；港町",
+    "meaningJa": "港、港町",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The ship will stop at a small port tomorrow.",
@@ -860,7 +860,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "接続口；ポート",
+        "meaningJa": "接続口、ポート",
         "example": "Connect the cable to the correct port on the computer.",
         "exampleJa": "ケーブルをコンピューターの正しい接続口につないでください。"
       }
@@ -869,7 +869,7 @@
   {
     "id": "v2339",
     "word": "dock",
-    "meaningJa": "埠頭；船着き場",
+    "meaningJa": "埠頭、船着き場",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We waited on the dock for the boat.",
@@ -889,7 +889,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "入港する；接岸する",
+        "meaningJa": "入港する、接岸する",
         "example": "The ferry will dock at the island in an hour.",
         "exampleJa": "フェリーは1時間後にその島に接岸します。"
       }
@@ -962,7 +962,7 @@
   {
     "id": "v2343",
     "word": "workbook",
-    "meaningJa": "問題集；学習用作業帳",
+    "meaningJa": "問題集、学習用作業帳",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "We completed two pages in the workbook.",
@@ -983,7 +983,7 @@
   {
     "id": "v2344",
     "word": "glue",
-    "meaningJa": "のり；接着剤",
+    "meaningJa": "のり、接着剤",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "Use a little glue to attach the paper flower.",
@@ -1003,7 +1003,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "のりで貼る；接着する",
+        "meaningJa": "のりで貼る、接着する",
         "example": "Please glue the photo onto the card.",
         "exampleJa": "写真をカードにのりで貼り付けてください。"
       }
@@ -1054,7 +1054,7 @@
   {
     "id": "v2347",
     "word": "marker",
-    "meaningJa": "マーカーペン；目印",
+    "meaningJa": "マーカーペン、目印",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "Write your name with a black marker.",
@@ -1074,7 +1074,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "目印；標識",
+        "meaningJa": "目印、標識",
         "example": "We placed a marker beside each newly planted tree.",
         "exampleJa": "私たちは新しく植えた木のそばにそれぞれ目印を置きました。"
       }
@@ -1168,7 +1168,7 @@
   {
     "id": "v2352",
     "word": "cafeteria",
-    "meaningJa": "食堂；カフェテリア",
+    "meaningJa": "食堂、カフェテリア",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We had lunch in the school cafeteria.",
@@ -1210,7 +1210,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "主要な；最も重要な",
+        "meaningJa": "主要な、最も重要な",
         "example": "The principal cause of the delay was a shortage of materials.",
         "exampleJa": "遅れの主な原因は材料不足でした。"
       }
@@ -1219,7 +1219,7 @@
   {
     "id": "v2354",
     "word": "pupil",
-    "meaningJa": "児童；生徒",
+    "meaningJa": "児童、生徒",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Each pupil received a new notebook.",
@@ -1270,7 +1270,7 @@
   {
     "id": "v2356",
     "word": "absence",
-    "meaningJa": "不在；欠席",
+    "meaningJa": "不在、欠席",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The teacher asked about his absence from class.",
@@ -1290,7 +1290,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "欠如；存在しないこと",
+        "meaningJa": "欠如、存在しないこと",
         "example": "The absence of evidence does not prove the claim false.",
         "exampleJa": "証拠がないことは、その主張が誤りである証明にはなりません。"
       }
@@ -1299,7 +1299,7 @@
   {
     "id": "v2357",
     "word": "grade",
-    "meaningJa": "成績；評価の等級",
+    "meaningJa": "成績、評価の等級",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She received a good grade on her science project.",
@@ -1325,7 +1325,7 @@
       },
       {
         "partOfSpeech": "verb",
-        "meaningJa": "採点する；等級を付ける",
+        "meaningJa": "採点する、等級を付ける",
         "example": "The teacher will grade the essays this weekend.",
         "exampleJa": "先生は今週末に作文を採点します。"
       }
@@ -1334,7 +1334,7 @@
   {
     "id": "v2358",
     "word": "quiz",
-    "meaningJa": "小テスト；クイズ",
+    "meaningJa": "小テスト、クイズ",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "We had a short quiz at the end of the lesson.",
@@ -1355,7 +1355,7 @@
   {
     "id": "v2359",
     "word": "academy",
-    "meaningJa": "専門学校；学術団体",
+    "meaningJa": "専門学校、学術団体",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She studied painting at an art academy.",
@@ -1376,7 +1376,7 @@
   {
     "id": "v2360",
     "word": "academic",
-    "meaningJa": "学問の；学業の",
+    "meaningJa": "学問の、学業の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The school offers support for academic writing.",
@@ -1396,7 +1396,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "大学教員；研究者",
+        "meaningJa": "大学教員、研究者",
         "example": "An academic from the local university led the discussion.",
         "exampleJa": "地元の大学の研究者が議論を進行しました。"
       }
@@ -1405,7 +1405,7 @@
   {
     "id": "v2361",
     "word": "scholar",
-    "meaningJa": "学者；研究者",
+    "meaningJa": "学者、研究者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The scholar spent years studying ancient letters.",
@@ -1426,7 +1426,7 @@
   {
     "id": "v2362",
     "word": "tutor",
-    "meaningJa": "家庭教師；個別指導の先生",
+    "meaningJa": "家庭教師、個別指導の先生",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A tutor helped him understand the difficult chapter.",
@@ -1447,7 +1447,7 @@
   {
     "id": "v2363",
     "word": "lecturer",
-    "meaningJa": "講師；講演者",
+    "meaningJa": "講師、講演者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The lecturer answered questions after the talk.",
@@ -1468,7 +1468,7 @@
   {
     "id": "v2364",
     "word": "kindergarten",
-    "meaningJa": "幼稚園；就学前教育のクラス",
+    "meaningJa": "幼稚園、就学前教育のクラス",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The children grow flowers at their kindergarten.",
@@ -1490,7 +1490,7 @@
   {
     "id": "v2365",
     "word": "nursery",
-    "meaningJa": "保育施設；子ども部屋",
+    "meaningJa": "保育施設、子ども部屋",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She takes her son to the nursery before work.",
@@ -1510,7 +1510,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "苗木栽培場；苗木販売所",
+        "meaningJa": "苗木栽培場、苗木販売所",
         "example": "We bought young apple trees from a local nursery.",
         "exampleJa": "私たちは地元の苗木販売所でリンゴの若木を買いました。"
       }
@@ -1519,7 +1519,7 @@
   {
     "id": "v2366",
     "word": "preschool",
-    "meaningJa": "就学前教育の施設；幼稚園・保育園",
+    "meaningJa": "就学前教育の施設、幼稚園・保育園",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The preschool provides time for music and outdoor play.",
@@ -1584,7 +1584,7 @@
   {
     "id": "v2369",
     "word": "enroll",
-    "meaningJa": "入学する；登録する",
+    "meaningJa": "入学する、登録する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "You can enroll in the course online.",
@@ -1606,7 +1606,7 @@
   {
     "id": "v2370",
     "word": "absent",
-    "meaningJa": "欠席して；不在の",
+    "meaningJa": "欠席して、不在の",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "He was absent from school yesterday.",
@@ -1628,7 +1628,7 @@
   {
     "id": "v2371",
     "word": "compulsory",
-    "meaningJa": "義務的な；必修の",
+    "meaningJa": "義務的な、必修の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "This course is compulsory for all new students.",
@@ -1649,7 +1649,7 @@
   {
     "id": "v2372",
     "word": "mandatory",
-    "meaningJa": "義務付けられた；必須の",
+    "meaningJa": "義務付けられた、必須の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "Attendance at the safety workshop is mandatory.",
@@ -1670,7 +1670,7 @@
   {
     "id": "v2373",
     "word": "optional",
-    "meaningJa": "任意の；選択できる",
+    "meaningJa": "任意の、選択できる",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The afternoon workshop is optional.",
@@ -1733,7 +1733,7 @@
   {
     "id": "v2376",
     "word": "arithmetic",
-    "meaningJa": "算数；四則計算",
+    "meaningJa": "算数、四則計算",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The game helps children practice basic arithmetic.",
@@ -1817,7 +1817,7 @@
   {
     "id": "v2380",
     "word": "mathematics",
-    "meaningJa": "数学；算数",
+    "meaningJa": "数学、算数",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "Mathematics is my favorite subject.",
@@ -1839,7 +1839,7 @@
   {
     "id": "v2381",
     "word": "punctuation",
-    "meaningJa": "句読法；句読点",
+    "meaningJa": "句読法、句読点",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Correct punctuation makes a sentence easier to read.",
@@ -1881,7 +1881,7 @@
   {
     "id": "v2383",
     "word": "fluent",
-    "meaningJa": "流暢な；すらすら話せる",
+    "meaningJa": "流暢な、すらすら話せる",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "He is fluent in both English and Spanish.",
@@ -1903,7 +1903,7 @@
   {
     "id": "v2384",
     "word": "spelling",
-    "meaningJa": "綴り；綴り方",
+    "meaningJa": "綴り、綴り方",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "Please check the spelling of your name.",
@@ -1924,7 +1924,7 @@
   {
     "id": "v2385",
     "word": "revise",
-    "meaningJa": "修正する；改訂する",
+    "meaningJa": "修正する、改訂する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We need to revise the plan before the meeting.",
@@ -1976,7 +1976,7 @@
   {
     "id": "v2387",
     "word": "recite",
-    "meaningJa": "暗唱する；朗読する",
+    "meaningJa": "暗唱する、朗読する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The students will recite a poem at the ceremony.",
@@ -1997,7 +1997,7 @@
   {
     "id": "v2388",
     "word": "repetition",
-    "meaningJa": "繰り返し；反復",
+    "meaningJa": "繰り返し、反復",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Repetition can help us remember unfamiliar sounds.",
@@ -2018,7 +2018,7 @@
   {
     "id": "v2389",
     "word": "instruct",
-    "meaningJa": "指示する；教える",
+    "meaningJa": "指示する、教える",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The guide will instruct visitors to keep away from the edge.",
@@ -2061,7 +2061,7 @@
   {
     "id": "v2391",
     "word": "bibliography",
-    "meaningJa": "参考文献一覧；書誌",
+    "meaningJa": "参考文献一覧、書誌",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The bibliography lists all the books used in the research.",
@@ -2082,7 +2082,7 @@
   {
     "id": "v2392",
     "word": "citation",
-    "meaningJa": "引用；出典の明示",
+    "meaningJa": "引用、出典の明示",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Each citation should identify the source clearly.",
@@ -2103,7 +2103,7 @@
   {
     "id": "v2393",
     "word": "plagiarism",
-    "meaningJa": "盗用；剽窃",
+    "meaningJa": "盗用、剽窃",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The university teaches students how to avoid plagiarism.",
@@ -2124,7 +2124,7 @@
   {
     "id": "v2394",
     "word": "evaluation",
-    "meaningJa": "評価；査定",
+    "meaningJa": "評価、査定",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The evaluation considered both accuracy and clarity.",
@@ -2145,7 +2145,7 @@
   {
     "id": "v2395",
     "word": "diligence",
-    "meaningJa": "勤勉さ；入念さ",
+    "meaningJa": "勤勉さ、入念さ",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Her diligence helped the team finish the project on time.",
@@ -2166,7 +2166,7 @@
   {
     "id": "v2396",
     "word": "comprehension",
-    "meaningJa": "理解；理解力",
+    "meaningJa": "理解、理解力",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The questions test reading comprehension.",
@@ -2187,7 +2187,7 @@
   {
     "id": "v2397",
     "word": "faculty",
-    "meaningJa": "学部；教員陣",
+    "meaningJa": "学部、教員陣",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The faculty of engineering offers a course in robotics.",
@@ -2214,7 +2214,7 @@
       },
       {
         "partOfSpeech": "noun",
-        "meaningJa": "能力；機能",
+        "meaningJa": "能力、機能",
         "example": "Language relies on the human faculty for symbolic thought.",
         "exampleJa": "言語は人間の記号を用いて考える能力に依存しています。"
       }
@@ -2223,7 +2223,7 @@
   {
     "id": "v2398",
     "word": "campus",
-    "meaningJa": "大学の構内；キャンパス",
+    "meaningJa": "大学の構内、キャンパス",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "There is a small lake on the campus.",
@@ -2244,7 +2244,7 @@
   {
     "id": "v2399",
     "word": "dormitory",
-    "meaningJa": "学生寮；寄宿舎",
+    "meaningJa": "学生寮、寄宿舎",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She lives in a dormitory near the library.",
@@ -2285,7 +2285,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "均一な；一様な",
+        "meaningJa": "均一な、一様な",
         "example": "The seeds need a uniform temperature to grow well.",
         "exampleJa": "その種がよく育つには一定の温度が必要です。"
       }

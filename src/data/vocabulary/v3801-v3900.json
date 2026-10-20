@@ -23,7 +23,7 @@
   {
     "id": "v3802",
     "word": "ingredient",
-    "meaningJa": "材料；成分",
+    "meaningJa": "材料、成分",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The main ingredient in this soup is pumpkin.",
@@ -44,7 +44,7 @@
   {
     "id": "v3803",
     "word": "recipe",
-    "meaningJa": "調理法；レシピ",
+    "meaningJa": "調理法、レシピ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "I followed the recipe to make the bread.",
@@ -107,7 +107,7 @@
   {
     "id": "v3806",
     "word": "owe",
-    "meaningJa": "借りがある；支払う義務がある",
+    "meaningJa": "借りがある、支払う義務がある",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "I owe my brother ten dollars.",
@@ -128,7 +128,7 @@
   {
     "id": "v3807",
     "word": "shipment",
-    "meaningJa": "出荷品；発送",
+    "meaningJa": "出荷品、発送",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The shipment arrived a day earlier than expected.",
@@ -212,7 +212,7 @@
   {
     "id": "v3811",
     "word": "commute",
-    "meaningJa": "通勤する；通学する",
+    "meaningJa": "通勤する、通学する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Many people commute by train every day.",
@@ -233,7 +233,7 @@
   {
     "id": "v3812",
     "word": "detour",
-    "meaningJa": "迂回路；回り道",
+    "meaningJa": "迂回路、回り道",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "We took a detour because the bridge was closed.",
@@ -254,7 +254,7 @@
   {
     "id": "v3813",
     "word": "congestion",
-    "meaningJa": "混雑；渋滞",
+    "meaningJa": "混雑、渋滞",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Traffic congestion made the trip much longer.",
@@ -275,7 +275,7 @@
   {
     "id": "v3814",
     "word": "crew",
-    "meaningJa": "乗組員；作業員たち",
+    "meaningJa": "乗組員、作業員たち",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The crew checked the boat before it left the port.",
@@ -296,7 +296,7 @@
   {
     "id": "v3815",
     "word": "soil",
-    "meaningJa": "土壌；土",
+    "meaningJa": "土壌、土",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The soil is rich enough to grow vegetables.",
@@ -317,7 +317,7 @@
   {
     "id": "v3816",
     "word": "harvest",
-    "meaningJa": "収穫；収穫物",
+    "meaningJa": "収穫、収穫物",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The apple harvest was small this year.",
@@ -359,7 +359,7 @@
   {
     "id": "v3818",
     "word": "offspring",
-    "meaningJa": "子；子孫",
+    "meaningJa": "子、子孫",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The bird feeds its offspring in the nest.",
@@ -381,7 +381,7 @@
   {
     "id": "v3819",
     "word": "trait",
-    "meaningJa": "特徴；特性",
+    "meaningJa": "特徴、特性",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Patience is a useful trait for a teacher.",
@@ -402,7 +402,7 @@
   {
     "id": "v3820",
     "word": "limb",
-    "meaningJa": "手足；四肢",
+    "meaningJa": "手足、四肢",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The animal had injured a limb and could not run.",
@@ -444,7 +444,7 @@
   {
     "id": "v3822",
     "word": "remedy",
-    "meaningJa": "治療法；改善策",
+    "meaningJa": "治療法、改善策",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The committee proposed a remedy for the shortage of staff.",
@@ -507,7 +507,7 @@
   {
     "id": "v3825",
     "word": "deficiency",
-    "meaningJa": "不足；欠乏",
+    "meaningJa": "不足、欠乏",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "A vitamin deficiency can affect your health.",
@@ -549,7 +549,7 @@
   {
     "id": "v3827",
     "word": "quarantine",
-    "meaningJa": "隔離；検疫",
+    "meaningJa": "隔離、検疫",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The animal remained in quarantine after arriving from abroad.",
@@ -612,7 +612,7 @@
   {
     "id": "v3830",
     "word": "utensil",
-    "meaningJa": "調理器具；食器",
+    "meaningJa": "調理器具、食器",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Each utensil was washed after dinner.",
@@ -675,7 +675,7 @@
   {
     "id": "v3833",
     "word": "bolt",
-    "meaningJa": "ボルト；締め付け用のねじ",
+    "meaningJa": "ボルト、締め付け用のねじ",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "One bolt was loose, so the chair was unstable.",
@@ -696,7 +696,7 @@
   {
     "id": "v3834",
     "word": "pipe",
-    "meaningJa": "管；パイプ",
+    "meaningJa": "管、パイプ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Water leaked from a pipe under the sink.",
@@ -759,7 +759,7 @@
   {
     "id": "v3837",
     "word": "policy",
-    "meaningJa": "方針；政策",
+    "meaningJa": "方針、政策",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The school changed its policy on mobile phones.",
@@ -780,7 +780,7 @@
   {
     "id": "v3838",
     "word": "bond",
-    "meaningJa": "絆；結びつき",
+    "meaningJa": "絆、結びつき",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Shared experiences created a strong bond between them.",
@@ -864,7 +864,7 @@
   {
     "id": "v3842",
     "word": "notable",
-    "meaningJa": "注目すべき；著しい",
+    "meaningJa": "注目すべき、著しい",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "There was a notable change in her writing style.",
@@ -885,7 +885,7 @@
   {
     "id": "v3843",
     "word": "synthetic",
-    "meaningJa": "合成の；人工の",
+    "meaningJa": "合成の、人工の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The jacket is made from synthetic fibers.",
@@ -927,7 +927,7 @@
   {
     "id": "v3845",
     "word": "isolated",
-    "meaningJa": "孤立した；離れた",
+    "meaningJa": "孤立した、離れた",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The isolated village was difficult to reach in winter.",
@@ -948,7 +948,7 @@
   {
     "id": "v3846",
     "word": "accessible",
-    "meaningJa": "利用しやすい；行きやすい",
+    "meaningJa": "利用しやすい、行きやすい",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The library is accessible by bus.",
@@ -990,7 +990,7 @@
   {
     "id": "v3848",
     "word": "volatile",
-    "meaningJa": "変動しやすい；不安定な",
+    "meaningJa": "変動しやすい、不安定な",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "Prices for the material remained volatile.",
@@ -1011,7 +1011,7 @@
   {
     "id": "v3849",
     "word": "abrupt",
-    "meaningJa": "突然の；急な",
+    "meaningJa": "突然の、急な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The discussion came to an abrupt end.",
@@ -1032,7 +1032,7 @@
   {
     "id": "v3850",
     "word": "practical",
-    "meaningJa": "実用的な；現実的な",
+    "meaningJa": "実用的な、現実的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "She offered a practical solution to the problem.",
@@ -1053,7 +1053,7 @@
   {
     "id": "v3851",
     "word": "accompany",
-    "meaningJa": "同行する；伴う",
+    "meaningJa": "同行する、伴う",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "A teacher will accompany the students on the trip.",
@@ -1074,7 +1074,7 @@
   {
     "id": "v3852",
     "word": "admire",
-    "meaningJa": "感心する；称賛する",
+    "meaningJa": "感心する、称賛する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "I admire her patience with young children.",
@@ -1095,7 +1095,7 @@
   {
     "id": "v3853",
     "word": "alarm",
-    "meaningJa": "不安にさせる；警戒させる",
+    "meaningJa": "不安にさせる、警戒させる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The warning may alarm the workers.",
@@ -1116,7 +1116,7 @@
   {
     "id": "v3854",
     "word": "anticipate",
-    "meaningJa": "予期する；見越す",
+    "meaningJa": "予期する、見越す",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "We anticipate heavy traffic after the concert.",
@@ -1137,7 +1137,7 @@
   {
     "id": "v3855",
     "word": "appeal",
-    "meaningJa": "魅力がある；訴える",
+    "meaningJa": "魅力がある、訴える",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The plan may appeal to families with young children.",
@@ -1180,7 +1180,7 @@
   {
     "id": "v3857",
     "word": "boost",
-    "meaningJa": "高める；押し上げる",
+    "meaningJa": "高める、押し上げる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Regular practice can boost your confidence.",
@@ -1222,7 +1222,7 @@
   {
     "id": "v3859",
     "word": "capture",
-    "meaningJa": "捕らえる；捉える",
+    "meaningJa": "捕らえる、捉える",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The camera can capture small changes in light.",
@@ -1243,7 +1243,7 @@
   {
     "id": "v3860",
     "word": "concern",
-    "meaningJa": "懸念；関心",
+    "meaningJa": "懸念、関心",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Her main concern was the safety of the children.",
@@ -1285,7 +1285,7 @@
   {
     "id": "v3862",
     "word": "dispute",
-    "meaningJa": "論争；争い",
+    "meaningJa": "論争、争い",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The dispute over the land lasted for years.",
@@ -1327,7 +1327,7 @@
   {
     "id": "v3864",
     "word": "dominate",
-    "meaningJa": "支配する；大部分を占める",
+    "meaningJa": "支配する、大部分を占める",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "One topic began to dominate the discussion.",
@@ -1348,7 +1348,7 @@
   {
     "id": "v3865",
     "word": "expose",
-    "meaningJa": "さらす；明らかにする",
+    "meaningJa": "さらす、明らかにする",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The report may expose problems in the system.",
@@ -1369,7 +1369,7 @@
   {
     "id": "v3866",
     "word": "foster",
-    "meaningJa": "育む；促進する",
+    "meaningJa": "育む、促進する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Group work can foster trust among students.",
@@ -1390,7 +1390,7 @@
   {
     "id": "v3867",
     "word": "initiate",
-    "meaningJa": "始める；開始する",
+    "meaningJa": "始める、開始する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The school will initiate a new reading program.",
@@ -1411,7 +1411,7 @@
   {
     "id": "v3868",
     "word": "invoke",
-    "meaningJa": "引き合いに出す；援用する",
+    "meaningJa": "引き合いに出す、援用する",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The speaker chose to invoke an old promise.",
@@ -1432,7 +1432,7 @@
   {
     "id": "v3869",
     "word": "isolate",
-    "meaningJa": "孤立させる；切り離す",
+    "meaningJa": "孤立させる、切り離す",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The researchers tried to isolate one factor in the experiment.",
@@ -1453,7 +1453,7 @@
   {
     "id": "v3870",
     "word": "launch",
-    "meaningJa": "開始する；打ち上げる",
+    "meaningJa": "開始する、打ち上げる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The library will launch a new service next month.",
@@ -1474,7 +1474,7 @@
   {
     "id": "v3871",
     "word": "monitor",
-    "meaningJa": "監視する；継続して観察する",
+    "meaningJa": "監視する、継続して観察する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Doctors will monitor his condition overnight.",
@@ -1495,7 +1495,7 @@
   {
     "id": "v3872",
     "word": "neglect",
-    "meaningJa": "怠る；放置する",
+    "meaningJa": "怠る、放置する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Do not neglect the small details of the plan.",
@@ -1537,7 +1537,7 @@
   {
     "id": "v3874",
     "word": "rely",
-    "meaningJa": "頼る；依存する",
+    "meaningJa": "頼る、依存する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Many people rely on buses to get to work.",
@@ -1601,7 +1601,7 @@
   {
     "id": "v3877",
     "word": "abuse",
-    "meaningJa": "乱用する；虐待する",
+    "meaningJa": "乱用する、虐待する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "People should not abuse their position of power.",
@@ -1622,7 +1622,7 @@
   {
     "id": "v3878",
     "word": "accuse",
-    "meaningJa": "非難する；告発する",
+    "meaningJa": "非難する、告発する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "They did not accuse her of breaking the rule.",
@@ -1644,7 +1644,7 @@
   {
     "id": "v3879",
     "word": "aid",
-    "meaningJa": "援助；助け",
+    "meaningJa": "援助、助け",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The village received aid after the flood.",
@@ -1665,7 +1665,7 @@
   {
     "id": "v3880",
     "word": "aim",
-    "meaningJa": "目指す；狙う",
+    "meaningJa": "目指す、狙う",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We aim to finish the project by Friday.",
@@ -1791,7 +1791,7 @@
   {
     "id": "v3886",
     "word": "campaign",
-    "meaningJa": "運動；キャンペーン",
+    "meaningJa": "運動、キャンペーン",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The students started a campaign to save water.",
@@ -1833,7 +1833,7 @@
   {
     "id": "v3888",
     "word": "confess",
-    "meaningJa": "告白する；認める",
+    "meaningJa": "告白する、認める",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "She decided to confess her mistake to the team.",
@@ -1896,7 +1896,7 @@
   {
     "id": "v3891",
     "word": "defend",
-    "meaningJa": "守る；弁護する",
+    "meaningJa": "守る、弁護する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The lawyer will defend her client in court.",
@@ -1917,7 +1917,7 @@
   {
     "id": "v3892",
     "word": "desire",
-    "meaningJa": "望む；欲する",
+    "meaningJa": "望む、欲する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Many students desire more time to read.",
@@ -1938,7 +1938,7 @@
   {
     "id": "v3893",
     "word": "disturb",
-    "meaningJa": "邪魔をする；不安にさせる",
+    "meaningJa": "邪魔をする、不安にさせる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Please do not disturb the birds in the garden.",
@@ -1959,7 +1959,7 @@
   {
     "id": "v3894",
     "word": "doubt",
-    "meaningJa": "疑う；疑問に思う",
+    "meaningJa": "疑う、疑問に思う",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "I doubt that the train will arrive on time.",
@@ -1980,7 +1980,7 @@
   {
     "id": "v3895",
     "word": "earn",
-    "meaningJa": "稼ぐ；得る",
+    "meaningJa": "稼ぐ、得る",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "She hopes to earn enough money for the trip.",
@@ -2064,7 +2064,7 @@
   {
     "id": "v3899",
     "word": "intend",
-    "meaningJa": "意図する；つもりである",
+    "meaningJa": "意図する、つもりである",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "I intend to finish the report tonight.",

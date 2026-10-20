@@ -955,7 +955,7 @@
   {
     "id": "v4146",
     "word": "terminal",
-    "meaningJa": "交通機関の発着施設；ターミナル",
+    "meaningJa": "交通機関の発着施設、ターミナル",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The bus terminal was crowded in the morning.",
@@ -1275,7 +1275,7 @@
   {
     "id": "v4161",
     "word": "category",
-    "meaningJa": "部類；分類項目",
+    "meaningJa": "部類、分類項目",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "This book belongs to a different category from the others.",
@@ -1569,7 +1569,7 @@
   {
     "id": "v4175",
     "word": "enforcement",
-    "meaningJa": "法令などの執行；取り締まり",
+    "meaningJa": "法令などの執行、取り締まり",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Strict enforcement of the rule reduced illegal parking.",

@@ -276,13 +276,13 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "〜を密封する；封印する",
+        "meaningJa": "〜を密封する、封印する",
         "example": "Seal the envelope before posting it.",
         "exampleJa": "投函する前に封筒を封じてください。"
       },
       {
         "partOfSpeech": "noun",
-        "meaningJa": "印章；封印",
+        "meaningJa": "印章、封印",
         "example": "The letter bore the official seal.",
         "exampleJa": "その手紙には公印が押されていました。"
       }
@@ -460,7 +460,7 @@
   {
     "id": "v3522",
     "word": "crocodile",
-    "meaningJa": "ワニ；クロコダイル",
+    "meaningJa": "ワニ、クロコダイル",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The crocodile lay near the riverbank.",
@@ -552,7 +552,7 @@
   {
     "id": "v3526",
     "word": "rat",
-    "meaningJa": "ネズミ；大型のネズミ",
+    "meaningJa": "ネズミ、大型のネズミ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A rat ran behind the boxes.",
@@ -721,7 +721,7 @@
   {
     "id": "v3534",
     "word": "parrot",
-    "meaningJa": "オウム；インコ",
+    "meaningJa": "オウム、インコ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The parrot repeated a short phrase.",
@@ -771,7 +771,7 @@
   {
     "id": "v3536",
     "word": "goose",
-    "meaningJa": "ガチョウ；ガン",
+    "meaningJa": "ガチョウ、ガン",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The goose walked toward the pond.",
@@ -793,7 +793,7 @@
   {
     "id": "v3537",
     "word": "wasp",
-    "meaningJa": "ハチ；スズメバチなど",
+    "meaningJa": "ハチ、スズメバチなど",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A wasp flew around the fruit basket.",
@@ -835,7 +835,7 @@
   {
     "id": "v3539",
     "word": "snail",
-    "meaningJa": "カタツムリ；巻き貝",
+    "meaningJa": "カタツムリ、巻き貝",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A snail moved across a wet leaf.",
@@ -878,7 +878,7 @@
   {
     "id": "v3541",
     "word": "yeast",
-    "meaningJa": "酵母；イースト",
+    "meaningJa": "酵母、イースト",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "We added yeast to the dough.",
@@ -984,7 +984,7 @@
   {
     "id": "v3546",
     "word": "oak",
-    "meaningJa": "オーク；ナラ・カシ類",
+    "meaningJa": "オーク、ナラ・カシ類",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "An old oak stands beside the path.",
@@ -1026,7 +1026,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "恋い慕う；切望する",
+        "meaningJa": "恋い慕う、切望する",
         "example": "They pine for their distant home.",
         "exampleJa": "彼らは遠く離れた故郷を恋い慕っています。"
       }
@@ -1100,7 +1100,7 @@
   {
     "id": "v3551",
     "word": "mathematical",
-    "meaningJa": "数学の；数学的な",
+    "meaningJa": "数学の、数学的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The problem requires mathematical reasoning.",
@@ -1142,7 +1142,7 @@
   {
     "id": "v3553",
     "word": "statistics",
-    "meaningJa": "統計；統計学",
+    "meaningJa": "統計、統計学",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "She studies statistics at university.",
@@ -1164,7 +1164,7 @@
   {
     "id": "v3554",
     "word": "statistical",
-    "meaningJa": "統計の；統計的な",
+    "meaningJa": "統計の、統計的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The report includes statistical analysis.",
@@ -1185,7 +1185,7 @@
   {
     "id": "v3555",
     "word": "variable",
-    "meaningJa": "変数；変わり得る要因",
+    "meaningJa": "変数、変わり得る要因",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The experiment changed only one variable.",
@@ -1205,7 +1205,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "変わりやすい；可変の",
+        "meaningJa": "変わりやすい、可変の",
         "example": "The weather is highly variable in spring.",
         "exampleJa": "春の天気は非常に変わりやすいです。"
       }
@@ -1214,7 +1214,7 @@
   {
     "id": "v3556",
     "word": "constant",
-    "meaningJa": "絶え間ない；一定の",
+    "meaningJa": "絶え間ない、一定の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The temperature remained constant.",
@@ -1235,7 +1235,7 @@
   {
     "id": "v3557",
     "word": "equation",
-    "meaningJa": "方程式；等式",
+    "meaningJa": "方程式、等式",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The students solved the equation together.",
@@ -1256,7 +1256,7 @@
   {
     "id": "v3558",
     "word": "formula",
-    "meaningJa": "公式；方式",
+    "meaningJa": "公式、方式",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The formula gives the area of a circle.",
@@ -1277,7 +1277,7 @@
   {
     "id": "v3559",
     "word": "proof",
-    "meaningJa": "証拠；証明",
+    "meaningJa": "証拠、証明",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The claim needs proof.",
@@ -1298,7 +1298,7 @@
   {
     "id": "v3560",
     "word": "calculator",
-    "meaningJa": "計算機；電卓",
+    "meaningJa": "計算機、電卓",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "You may use a calculator for this exercise.",
@@ -1319,7 +1319,7 @@
   {
     "id": "v3561",
     "word": "addition",
-    "meaningJa": "追加；加法",
+    "meaningJa": "追加、加法",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The addition of a new bus route improved access.",
@@ -1340,7 +1340,7 @@
   {
     "id": "v3562",
     "word": "subtraction",
-    "meaningJa": "引き算；減法",
+    "meaningJa": "引き算、減法",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The lesson focuses on subtraction.",
@@ -1361,7 +1361,7 @@
   {
     "id": "v3563",
     "word": "multiplication",
-    "meaningJa": "掛け算；乗法",
+    "meaningJa": "掛け算、乗法",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The students practiced multiplication.",
@@ -1382,7 +1382,7 @@
   {
     "id": "v3564",
     "word": "subtract",
-    "meaningJa": "〜を引く；差し引く",
+    "meaningJa": "〜を引く、差し引く",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Subtract three from ten.",
@@ -1404,7 +1404,7 @@
   {
     "id": "v3565",
     "word": "sum",
-    "meaningJa": "合計；金額",
+    "meaningJa": "合計、金額",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The sum of these numbers is twenty.",
@@ -1425,7 +1425,7 @@
   {
     "id": "v3566",
     "word": "fraction",
-    "meaningJa": "分数；一部分",
+    "meaningJa": "分数、一部分",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Only a fraction of the work is finished.",
@@ -1446,7 +1446,7 @@
   {
     "id": "v3567",
     "word": "decimal",
-    "meaningJa": "十進法の；小数の",
+    "meaningJa": "十進法の、小数の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "Write the answer as a decimal number.",
@@ -1467,7 +1467,7 @@
   {
     "id": "v3568",
     "word": "percentage",
-    "meaningJa": "百分率；割合",
+    "meaningJa": "百分率、割合",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A large percentage of students walk to school.",
@@ -1488,7 +1488,7 @@
   {
     "id": "v3569",
     "word": "ratio",
-    "meaningJa": "比；比率",
+    "meaningJa": "比、比率",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The ratio of boys to girls is two to three.",
@@ -1509,7 +1509,7 @@
   {
     "id": "v3570",
     "word": "proportion",
-    "meaningJa": "割合；比率",
+    "meaningJa": "割合、比率",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "A high proportion of the land is forest.",
@@ -1530,7 +1530,7 @@
   {
     "id": "v3571",
     "word": "quantitative",
-    "meaningJa": "量的な；数量に関する",
+    "meaningJa": "量的な、数量に関する",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The study uses quantitative data.",
@@ -1552,7 +1552,7 @@
   {
     "id": "v3572",
     "word": "qualitative",
-    "meaningJa": "質的な；性質に関する",
+    "meaningJa": "質的な、性質に関する",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The team conducted qualitative interviews.",
@@ -1574,7 +1574,7 @@
   {
     "id": "v3573",
     "word": "meter",
-    "meaningJa": "メートル；計器",
+    "meaningJa": "メートル、計器",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The table is one meter wide.",
@@ -1595,7 +1595,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "計器；測定器",
+        "meaningJa": "計器、測定器",
         "example": "The meter records how much water we use.",
         "exampleJa": "その計器は私たちが使う水の量を記録します。"
       }
@@ -1690,7 +1690,7 @@
   {
     "id": "v3578",
     "word": "pound",
-    "meaningJa": "ポンド；重さや通貨の単位",
+    "meaningJa": "ポンド、重さや通貨の単位",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The cake costs one pound.",
@@ -1734,7 +1734,7 @@
   {
     "id": "v3580",
     "word": "mile",
-    "meaningJa": "マイル；距離の単位",
+    "meaningJa": "マイル、距離の単位",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We walked a mile along the river.",
@@ -1755,7 +1755,7 @@
   {
     "id": "v3581",
     "word": "cube",
-    "meaningJa": "立方体；さいころ状の物",
+    "meaningJa": "立方体、さいころ状の物",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The child made a cube from paper.",
@@ -1776,7 +1776,7 @@
   {
     "id": "v3582",
     "word": "sphere",
-    "meaningJa": "球；範囲；領域",
+    "meaningJa": "球、範囲、領域",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "A sphere has a curved surface.",
@@ -1796,7 +1796,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "領域；範囲",
+        "meaningJa": "領域、範囲",
         "example": "The decision lies within the public sphere.",
         "exampleJa": "その決定は公共の領域に属します。"
       }
@@ -1805,7 +1805,7 @@
   {
     "id": "v3583",
     "word": "cylinder",
-    "meaningJa": "円柱；筒",
+    "meaningJa": "円柱、筒",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The container is shaped like a cylinder.",
@@ -1826,7 +1826,7 @@
   {
     "id": "v3584",
     "word": "cone",
-    "meaningJa": "円錐；コーン",
+    "meaningJa": "円錐、コーン",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The object has the shape of a cone.",
@@ -1847,7 +1847,7 @@
   {
     "id": "v3585",
     "word": "pyramid",
-    "meaningJa": "ピラミッド；角錐",
+    "meaningJa": "ピラミッド、角錐",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The students built a pyramid from blocks.",
@@ -1910,7 +1910,7 @@
   {
     "id": "v3588",
     "word": "oval",
-    "meaningJa": "楕円形の；卵形の",
+    "meaningJa": "楕円形の、卵形の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "They sat around an oval table.",
@@ -1931,7 +1931,7 @@
   {
     "id": "v3589",
     "word": "horizontal",
-    "meaningJa": "水平の；横の",
+    "meaningJa": "水平の、横の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "Draw a horizontal line across the page.",
@@ -1952,7 +1952,7 @@
   {
     "id": "v3590",
     "word": "vertical",
-    "meaningJa": "垂直の；縦の",
+    "meaningJa": "垂直の、縦の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The chart has a vertical axis.",
@@ -1973,7 +1973,7 @@
   {
     "id": "v3591",
     "word": "parallel",
-    "meaningJa": "平行の；並行する",
+    "meaningJa": "平行の、並行する",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The two roads are parallel.",
@@ -1994,7 +1994,7 @@
   {
     "id": "v3592",
     "word": "perpendicular",
-    "meaningJa": "垂直な；直角をなす",
+    "meaningJa": "垂直な、直角をなす",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "These two lines are perpendicular to each other.",
@@ -2016,7 +2016,7 @@
   {
     "id": "v3593",
     "word": "angle",
-    "meaningJa": "角；角度；観点",
+    "meaningJa": "角、角度、観点",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Measure the angle between the two lines.",
@@ -2036,7 +2036,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "観点；見方",
+        "meaningJa": "観点、見方",
         "example": "We examined the problem from another angle.",
         "exampleJa": "私たちは別の観点から問題を検討しました。"
       }
@@ -2045,7 +2045,7 @@
   {
     "id": "v3594",
     "word": "curve",
-    "meaningJa": "曲線；曲がり",
+    "meaningJa": "曲線、曲がり",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The road follows the curve of the river.",
@@ -2066,7 +2066,7 @@
   {
     "id": "v3595",
     "word": "circular",
-    "meaningJa": "円形の；循環する",
+    "meaningJa": "円形の、循環する",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The room has a circular window.",
@@ -2087,7 +2087,7 @@
   {
     "id": "v3596",
     "word": "linear",
-    "meaningJa": "直線の；線形の",
+    "meaningJa": "直線の、線形の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The graph shows a linear relationship.",
@@ -2108,7 +2108,7 @@
   {
     "id": "v3597",
     "word": "precision",
-    "meaningJa": "精密さ；正確さ",
+    "meaningJa": "精密さ、正確さ",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The task requires great precision.",
@@ -2129,7 +2129,7 @@
   {
     "id": "v3598",
     "word": "exact",
-    "meaningJa": "正確な；まさにその",
+    "meaningJa": "正確な、まさにその",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "Please tell me the exact time.",
@@ -2150,7 +2150,7 @@
   {
     "id": "v3599",
     "word": "margin",
-    "meaningJa": "余白；差；余裕",
+    "meaningJa": "余白、差、余裕",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Write your notes in the margin.",
@@ -2170,7 +2170,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "差；余裕",
+        "meaningJa": "差、余裕",
         "example": "The candidate won by a narrow margin.",
         "exampleJa": "その候補者は僅差で勝ちました。"
       }
@@ -2179,7 +2179,7 @@
   {
     "id": "v3600",
     "word": "interval",
-    "meaningJa": "間隔；合間",
+    "meaningJa": "間隔、合間",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "There is a short interval between the two sessions.",

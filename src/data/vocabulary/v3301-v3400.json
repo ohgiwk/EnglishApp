@@ -2,7 +2,7 @@
   {
     "id": "v3301",
     "word": "recruit",
-    "meaningJa": "〜を募集する；採用する",
+    "meaningJa": "〜を募集する、採用する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The company plans to recruit ten engineers.",
@@ -23,7 +23,7 @@
   {
     "id": "v3302",
     "word": "recruitment",
-    "meaningJa": "募集；採用",
+    "meaningJa": "募集、採用",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The university began the recruitment of new staff.",
@@ -44,7 +44,7 @@
   {
     "id": "v3303",
     "word": "unemployed",
-    "meaningJa": "失業中の；職のない",
+    "meaningJa": "失業中の、職のない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The program supports unemployed workers.",
@@ -65,7 +65,7 @@
   {
     "id": "v3304",
     "word": "professional",
-    "meaningJa": "職業上の；専門的な",
+    "meaningJa": "職業上の、専門的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "She sought professional advice about the design.",
@@ -85,7 +85,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "専門家；職業として行う人",
+        "meaningJa": "専門家、職業として行う人",
         "example": "She is a trained professional.",
         "exampleJa": "彼女は訓練を受けた専門家です。"
       }
@@ -94,7 +94,7 @@
   {
     "id": "v3305",
     "word": "vocational",
-    "meaningJa": "職業の；職業教育の",
+    "meaningJa": "職業の、職業教育の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The college offers vocational training.",
@@ -136,7 +136,7 @@
   {
     "id": "v3307",
     "word": "workforce",
-    "meaningJa": "労働力；従業員全体",
+    "meaningJa": "労働力、従業員全体",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The company has a workforce of two hundred.",
@@ -157,7 +157,7 @@
   {
     "id": "v3308",
     "word": "personnel",
-    "meaningJa": "職員；人員",
+    "meaningJa": "職員、人員",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Only authorized personnel may enter this room.",
@@ -179,7 +179,7 @@
   {
     "id": "v3309",
     "word": "coworker",
-    "meaningJa": "同僚；一緒に働く人",
+    "meaningJa": "同僚、一緒に働く人",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "My coworker helped me finish the report.",
@@ -201,7 +201,7 @@
   {
     "id": "v3310",
     "word": "supervisor",
-    "meaningJa": "監督者；上司",
+    "meaningJa": "監督者、上司",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The supervisor checked the work carefully.",
@@ -222,7 +222,7 @@
   {
     "id": "v3311",
     "word": "supervise",
-    "meaningJa": "〜を監督する；指導する",
+    "meaningJa": "〜を監督する、指導する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "An experienced teacher will supervise the activity.",
@@ -243,7 +243,7 @@
   {
     "id": "v3312",
     "word": "manager",
-    "meaningJa": "管理者；経営者",
+    "meaningJa": "管理者、経営者",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The manager welcomed the new employees.",
@@ -264,7 +264,7 @@
   {
     "id": "v3313",
     "word": "management",
-    "meaningJa": "管理；経営；経営陣",
+    "meaningJa": "管理、経営、経営陣",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Good time management is important for this project.",
@@ -285,7 +285,7 @@
   {
     "id": "v3314",
     "word": "executive",
-    "meaningJa": "重役；幹部",
+    "meaningJa": "重役、幹部",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The executive explained the new business plan.",
@@ -306,7 +306,7 @@
   {
     "id": "v3315",
     "word": "administrator",
-    "meaningJa": "管理者；行政担当者",
+    "meaningJa": "管理者、行政担当者",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The administrator handles requests from students.",
@@ -327,7 +327,7 @@
   {
     "id": "v3316",
     "word": "administer",
-    "meaningJa": "〜を管理する；運営する",
+    "meaningJa": "〜を管理する、運営する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The local council will administer the new program.",
@@ -348,7 +348,7 @@
   {
     "id": "v3317",
     "word": "leader",
-    "meaningJa": "指導者；リーダー",
+    "meaningJa": "指導者、リーダー",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The leader listened to every member of the group.",
@@ -369,7 +369,7 @@
   {
     "id": "v3318",
     "word": "conference",
-    "meaningJa": "会議；学会",
+    "meaningJa": "会議、学会",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Researchers gathered for an international conference.",
@@ -390,7 +390,7 @@
   {
     "id": "v3319",
     "word": "meeting",
-    "meaningJa": "会合；会議",
+    "meaningJa": "会合、会議",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The meeting starts at ten.",
@@ -412,7 +412,7 @@
   {
     "id": "v3320",
     "word": "appointment",
-    "meaningJa": "予約；約束；任命",
+    "meaningJa": "予約、約束、任命",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "I have an appointment with my teacher after school.",
@@ -433,7 +433,7 @@
   {
     "id": "v3321",
     "word": "appoint",
-    "meaningJa": "〜を任命する；指名する",
+    "meaningJa": "〜を任命する、指名する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The board will appoint a new director.",
@@ -455,7 +455,7 @@
   {
     "id": "v3322",
     "word": "nominate",
-    "meaningJa": "〜を候補に指名する；推薦する",
+    "meaningJa": "〜を候補に指名する、推薦する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Each class can nominate a candidate.",
@@ -498,7 +498,7 @@
   {
     "id": "v3324",
     "word": "dismiss",
-    "meaningJa": "〜を退ける；解雇する",
+    "meaningJa": "〜を退ける、解雇する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We should not dismiss the idea without discussion.",
@@ -527,7 +527,7 @@
   {
     "id": "v3325",
     "word": "resign",
-    "meaningJa": "辞任する；辞職する",
+    "meaningJa": "辞任する、辞職する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "She decided to resign from the committee.",
@@ -549,7 +549,7 @@
   {
     "id": "v3326",
     "word": "promotion",
-    "meaningJa": "昇進；促進；販売促進",
+    "meaningJa": "昇進、促進、販売促進",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "He received a promotion after years of hard work.",
@@ -570,7 +570,7 @@
   {
     "id": "v3327",
     "word": "delegate",
-    "meaningJa": "代表者；使節",
+    "meaningJa": "代表者、使節",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Each country sent a delegate to the conference.",
@@ -590,7 +590,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "〜を委任する；任せる",
+        "meaningJa": "〜を委任する、任せる",
         "example": "Managers need to delegate tasks to others.",
         "exampleJa": "管理者は他の人に仕事を任せる必要があります。"
       }
@@ -599,7 +599,7 @@
   {
     "id": "v3328",
     "word": "deputy",
-    "meaningJa": "代理人；副官；次席者",
+    "meaningJa": "代理人、副官、次席者",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The director asked her deputy to lead the meeting.",
@@ -620,7 +620,7 @@
   {
     "id": "v3329",
     "word": "represent",
-    "meaningJa": "〜を代表する；表す",
+    "meaningJa": "〜を代表する、表す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The symbol can represent several different ideas.",
@@ -641,7 +641,7 @@
   {
     "id": "v3330",
     "word": "negotiation",
-    "meaningJa": "交渉；協議",
+    "meaningJa": "交渉、協議",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The agreement followed weeks of negotiation.",
@@ -662,7 +662,7 @@
   {
     "id": "v3331",
     "word": "bargain",
-    "meaningJa": "お買い得品；取引",
+    "meaningJa": "お買い得品、取引",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "This coat was a real bargain.",
@@ -691,7 +691,7 @@
   {
     "id": "v3332",
     "word": "agreement",
-    "meaningJa": "合意；協定；一致",
+    "meaningJa": "合意、協定、一致",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We reached an agreement about the schedule.",
@@ -712,7 +712,7 @@
   {
     "id": "v3333",
     "word": "disagreement",
-    "meaningJa": "意見の相違；不一致",
+    "meaningJa": "意見の相違、不一致",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "There was some disagreement over the cost.",
@@ -733,7 +733,7 @@
   {
     "id": "v3334",
     "word": "approval",
-    "meaningJa": "承認；賛成",
+    "meaningJa": "承認、賛成",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The plan needs approval from the committee.",
@@ -754,7 +754,7 @@
   {
     "id": "v3335",
     "word": "approve",
-    "meaningJa": "〜を承認する；賛成する",
+    "meaningJa": "〜を承認する、賛成する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The council voted to approve the proposal.",
@@ -776,7 +776,7 @@
   {
     "id": "v3336",
     "word": "disapprove",
-    "meaningJa": "不賛成である；よくないと思う",
+    "meaningJa": "不賛成である、よくないと思う",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Many residents disapprove of the new plan.",
@@ -798,7 +798,7 @@
   {
     "id": "v3337",
     "word": "collaborate",
-    "meaningJa": "協力する；共同で取り組む",
+    "meaningJa": "協力する、共同で取り組む",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The two laboratories will collaborate on the project.",
@@ -820,7 +820,7 @@
   {
     "id": "v3338",
     "word": "collaboration",
-    "meaningJa": "協力；共同作業",
+    "meaningJa": "協力、共同作業",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The discovery was the result of close collaboration.",
@@ -841,7 +841,7 @@
   {
     "id": "v3339",
     "word": "cooperative",
-    "meaningJa": "協力的な；共同の",
+    "meaningJa": "協力的な、共同の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The students were cooperative during the activity.",
@@ -862,7 +862,7 @@
   {
     "id": "v3340",
     "word": "coordinate",
-    "meaningJa": "〜を調整する；連携させる",
+    "meaningJa": "〜を調整する、連携させる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We need to coordinate our efforts.",
@@ -883,7 +883,7 @@
   {
     "id": "v3341",
     "word": "teamwork",
-    "meaningJa": "共同作業；チームワーク",
+    "meaningJa": "共同作業、チームワーク",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The task requires good teamwork.",
@@ -904,7 +904,7 @@
   {
     "id": "v3342",
     "word": "partnership",
-    "meaningJa": "協力関係；共同事業",
+    "meaningJa": "協力関係、共同事業",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The school formed a partnership with a local museum.",
@@ -946,7 +946,7 @@
   {
     "id": "v3344",
     "word": "participation",
-    "meaningJa": "参加；関与",
+    "meaningJa": "参加、関与",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The event encourages participation from all age groups.",
@@ -967,7 +967,7 @@
   {
     "id": "v3345",
     "word": "contribution",
-    "meaningJa": "貢献；寄付；寄稿",
+    "meaningJa": "貢献、寄付、寄稿",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Her contribution helped the project succeed.",
@@ -988,7 +988,7 @@
   {
     "id": "v3346",
     "word": "donation",
-    "meaningJa": "寄付；寄贈",
+    "meaningJa": "寄付、寄贈",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The library received a large donation of books.",
@@ -1009,7 +1009,7 @@
   {
     "id": "v3347",
     "word": "donor",
-    "meaningJa": "寄付者；提供者",
+    "meaningJa": "寄付者、提供者",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "An anonymous donor paid for the new equipment.",
@@ -1030,7 +1030,7 @@
   {
     "id": "v3348",
     "word": "donate",
-    "meaningJa": "〜を寄付する；寄贈する",
+    "meaningJa": "〜を寄付する、寄贈する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "They decided to donate books to the school.",
@@ -1051,7 +1051,7 @@
   {
     "id": "v3349",
     "word": "volunteer",
-    "meaningJa": "ボランティア；志願者",
+    "meaningJa": "ボランティア、志願者",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A volunteer showed us around the park.",
@@ -1071,7 +1071,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "自ら申し出る；志願する",
+        "meaningJa": "自ら申し出る、志願する",
         "example": "Several students volunteer to clean the park.",
         "exampleJa": "数人の生徒は公園の清掃を自ら申し出ます。"
       }
@@ -1080,7 +1080,7 @@
   {
     "id": "v3350",
     "word": "voluntary",
-    "meaningJa": "自発的な；任意の",
+    "meaningJa": "自発的な、任意の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Participation in the survey is voluntary.",
@@ -1102,7 +1102,7 @@
   {
     "id": "v3351",
     "word": "shall",
-    "meaningJa": "〜しましょうか；〜するものとする",
+    "meaningJa": "〜しましょうか、〜するものとする",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Shall we start the meeting now?",
@@ -1146,7 +1146,7 @@
   {
     "id": "v3353",
     "word": "dare",
-    "meaningJa": "あえて〜する；〜する勇気がある",
+    "meaningJa": "あえて〜する、〜する勇気がある",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Few people dare to question the decision.",
@@ -1168,7 +1168,7 @@
   {
     "id": "v3354",
     "word": "whichever",
-    "meaningJa": "どちらの〜でも；どれを〜しても",
+    "meaningJa": "どちらの〜でも、どれを〜しても",
     "partOfSpeech": "other",
     "level": 3,
     "example": "Choose whichever seat you prefer.",
@@ -1189,7 +1189,7 @@
   {
     "id": "v3355",
     "word": "lest",
-    "meaningJa": "〜しないように；〜するといけないので",
+    "meaningJa": "〜しないように、〜するといけないので",
     "partOfSpeech": "other",
     "level": 6,
     "example": "She spoke quietly lest she wake the baby.",
@@ -1210,7 +1210,7 @@
   {
     "id": "v3356",
     "word": "throughout",
-    "meaningJa": "〜の至る所に；〜の間ずっと",
+    "meaningJa": "〜の至る所に、〜の間ずっと",
     "partOfSpeech": "other",
     "level": 3,
     "example": "The road remained closed throughout the winter.",
@@ -1231,7 +1231,7 @@
   {
     "id": "v3357",
     "word": "beside",
-    "meaningJa": "〜のそばに；〜の隣に",
+    "meaningJa": "〜のそばに、〜の隣に",
     "partOfSpeech": "other",
     "level": 1,
     "example": "She sat beside her brother.",
@@ -1253,7 +1253,7 @@
   {
     "id": "v3358",
     "word": "besides",
-    "meaningJa": "〜に加えて；〜のほかに",
+    "meaningJa": "〜に加えて、〜のほかに",
     "partOfSpeech": "other",
     "level": 3,
     "example": "Besides English, she speaks French.",
@@ -1273,7 +1273,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adverb",
-        "meaningJa": "その上；さらに",
+        "meaningJa": "その上、さらに",
         "example": "The room is small; besides, it is noisy.",
         "exampleJa": "その部屋は狭く、その上うるさいです。"
       }
@@ -1304,7 +1304,7 @@
   {
     "id": "v3360",
     "word": "concerning",
-    "meaningJa": "〜に関して；〜について",
+    "meaningJa": "〜に関して、〜について",
     "partOfSpeech": "other",
     "level": 4,
     "example": "The report contains information concerning the project.",
@@ -1326,7 +1326,7 @@
   {
     "id": "v3361",
     "word": "via",
-    "meaningJa": "〜を経由して；〜を通じて",
+    "meaningJa": "〜を経由して、〜を通じて",
     "partOfSpeech": "other",
     "level": 3,
     "example": "We traveled to the island via the mainland.",
@@ -1347,7 +1347,7 @@
   {
     "id": "v3362",
     "word": "versus",
-    "meaningJa": "〜対；〜と対比して",
+    "meaningJa": "〜対、〜と対比して",
     "partOfSpeech": "other",
     "level": 4,
     "example": "The debate focused on speed versus accuracy.",
@@ -1390,7 +1390,7 @@
   {
     "id": "v3364",
     "word": "apart",
-    "meaningJa": "離れて；ばらばらに",
+    "meaningJa": "離れて、ばらばらに",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "The two houses stand far apart.",
@@ -1432,7 +1432,7 @@
   {
     "id": "v3366",
     "word": "nearby",
-    "meaningJa": "近くに；近くで",
+    "meaningJa": "近くに、近くで",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "My grandparents live nearby.",
@@ -1482,7 +1482,7 @@
   {
     "id": "v3368",
     "word": "indeed",
-    "meaningJa": "確かに；実に",
+    "meaningJa": "確かに、実に",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "The task was difficult indeed.",
@@ -1503,7 +1503,7 @@
   {
     "id": "v3369",
     "word": "somewhat",
-    "meaningJa": "いくぶん；やや",
+    "meaningJa": "いくぶん、やや",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The new method is somewhat faster.",
@@ -1524,7 +1524,7 @@
   {
     "id": "v3370",
     "word": "somehow",
-    "meaningJa": "どうにかして；どういうわけか",
+    "meaningJa": "どうにかして、どういうわけか",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "We must somehow finish the work today.",
@@ -1574,7 +1574,7 @@
   {
     "id": "v3372",
     "word": "hereby",
-    "meaningJa": "これによって；ここに",
+    "meaningJa": "これによって、ここに",
     "partOfSpeech": "adverb",
     "level": 6,
     "example": "The committee hereby announces the result.",
@@ -1616,7 +1616,7 @@
   {
     "id": "v3374",
     "word": "formerly",
-    "meaningJa": "以前は；かつて",
+    "meaningJa": "以前は、かつて",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The building was formerly a school.",
@@ -1637,7 +1637,7 @@
   {
     "id": "v3375",
     "word": "presently",
-    "meaningJa": "現在；まもなく",
+    "meaningJa": "現在、まもなく",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The library is presently closed for repairs.",
@@ -1667,7 +1667,7 @@
   {
     "id": "v3376",
     "word": "currently",
-    "meaningJa": "現在；今のところ",
+    "meaningJa": "現在、今のところ",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "She is currently studying biology.",
@@ -1688,7 +1688,7 @@
   {
     "id": "v3377",
     "word": "thereafter",
-    "meaningJa": "その後；それ以後",
+    "meaningJa": "その後、それ以後",
     "partOfSpeech": "adverb",
     "level": 5,
     "example": "The rules changed, and costs fell thereafter.",
@@ -1709,7 +1709,7 @@
   {
     "id": "v3378",
     "word": "henceforth",
-    "meaningJa": "今後は；これからは",
+    "meaningJa": "今後は、これからは",
     "partOfSpeech": "adverb",
     "level": 6,
     "example": "All reports will henceforth be submitted online.",
@@ -1730,7 +1730,7 @@
   {
     "id": "v3379",
     "word": "upward",
-    "meaningJa": "上方へ；上向きに",
+    "meaningJa": "上方へ、上向きに",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "Warm air moves upward.",
@@ -1751,7 +1751,7 @@
   {
     "id": "v3380",
     "word": "downward",
-    "meaningJa": "下方へ；下向きに",
+    "meaningJa": "下方へ、下向きに",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "The path slopes downward toward the river.",
@@ -1772,7 +1772,7 @@
   {
     "id": "v3381",
     "word": "inward",
-    "meaningJa": "内側へ；内面へ",
+    "meaningJa": "内側へ、内面へ",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The door opens inward.",
@@ -1793,7 +1793,7 @@
   {
     "id": "v3382",
     "word": "outward",
-    "meaningJa": "外側へ；外に向かって",
+    "meaningJa": "外側へ、外に向かって",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The branches spread outward.",
@@ -1835,7 +1835,7 @@
   {
     "id": "v3384",
     "word": "overseas",
-    "meaningJa": "海外へ；海外で",
+    "meaningJa": "海外へ、海外で",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "She hopes to study overseas.",
@@ -1856,7 +1856,7 @@
   {
     "id": "v3385",
     "word": "inland",
-    "meaningJa": "内陸へ；内陸で",
+    "meaningJa": "内陸へ、内陸で",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "The town lies ten kilometers inland.",
@@ -1877,7 +1877,7 @@
   {
     "id": "v3386",
     "word": "elsewhere",
-    "meaningJa": "ほかの場所に；ほかの場所で",
+    "meaningJa": "ほかの場所に、ほかの場所で",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "The shop was closed, so we ate elsewhere.",
@@ -1898,7 +1898,7 @@
   {
     "id": "v3387",
     "word": "anyhow",
-    "meaningJa": "とにかく；いずれにせよ",
+    "meaningJa": "とにかく、いずれにせよ",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "It may rain, but we will go anyhow.",
@@ -1919,7 +1919,7 @@
   {
     "id": "v3388",
     "word": "anyway",
-    "meaningJa": "とにかく；それでも",
+    "meaningJa": "とにかく、それでも",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "I was tired, but I joined the game anyway.",
@@ -1940,7 +1940,7 @@
   {
     "id": "v3389",
     "word": "altogether",
-    "meaningJa": "全部で；まったく",
+    "meaningJa": "全部で、まったく",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "There were twenty people altogether.",
@@ -1961,7 +1961,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adverb",
-        "meaningJa": "完全に；まったく",
+        "meaningJa": "完全に、まったく",
         "example": "That is an altogether different question.",
         "exampleJa": "それはまったく別の問題です。"
       }
@@ -1970,7 +1970,7 @@
   {
     "id": "v3390",
     "word": "wholly",
-    "meaningJa": "完全に；まったく",
+    "meaningJa": "完全に、まったく",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The two accounts are not wholly different.",
@@ -1991,7 +1991,7 @@
   {
     "id": "v3391",
     "word": "partially",
-    "meaningJa": "部分的に；一部は",
+    "meaningJa": "部分的に、一部は",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The road was partially blocked by fallen trees.",
@@ -2055,7 +2055,7 @@
   {
     "id": "v3394",
     "word": "primarily",
-    "meaningJa": "主として；第一に",
+    "meaningJa": "主として、第一に",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The project is primarily concerned with water quality.",
@@ -2076,7 +2076,7 @@
   {
     "id": "v3395",
     "word": "chiefly",
-    "meaningJa": "主に；主として",
+    "meaningJa": "主に、主として",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The town depends chiefly on tourism.",
@@ -2097,7 +2097,7 @@
   {
     "id": "v3396",
     "word": "mainly",
-    "meaningJa": "主に；たいていは",
+    "meaningJa": "主に、たいていは",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "The shop sells mainly local products.",
@@ -2118,7 +2118,7 @@
   {
     "id": "v3397",
     "word": "exclusively",
-    "meaningJa": "もっぱら；〜だけに限って",
+    "meaningJa": "もっぱら、〜だけに限って",
     "partOfSpeech": "adverb",
     "level": 5,
     "example": "The room is used exclusively for meetings.",
@@ -2139,7 +2139,7 @@
   {
     "id": "v3398",
     "word": "mutually",
-    "meaningJa": "互いに；相互に",
+    "meaningJa": "互いに、相互に",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The agreement is mutually beneficial.",
@@ -2160,7 +2160,7 @@
   {
     "id": "v3399",
     "word": "presumably",
-    "meaningJa": "おそらく；推測するに",
+    "meaningJa": "おそらく、推測するに",
     "partOfSpeech": "adverb",
     "level": 5,
     "example": "The lights are off, so presumably nobody is home.",
@@ -2181,7 +2181,7 @@
   {
     "id": "v3400",
     "word": "undoubtedly",
-    "meaningJa": "疑いなく；確かに",
+    "meaningJa": "疑いなく、確かに",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The discovery was undoubtedly important.",

@@ -2,7 +2,7 @@
   {
     "id": "v2901",
     "word": "crouch",
-    "meaningJa": "しゃがむ；身をかがめる",
+    "meaningJa": "しゃがむ、身をかがめる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We had to crouch to enter the low passage.",
@@ -23,7 +23,7 @@
   {
     "id": "v2902",
     "word": "lean",
-    "meaningJa": "傾く；寄りかかる",
+    "meaningJa": "傾く、寄りかかる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Do not lean against the glass door.",
@@ -44,7 +44,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "脂肪の少ない；無駄のない",
+        "meaningJa": "脂肪の少ない、無駄のない",
         "example": "This recipe uses lean meat.",
         "exampleJa": "このレシピでは脂肪の少ない肉を使います。"
       }
@@ -53,7 +53,7 @@
   {
     "id": "v2903",
     "word": "roam",
-    "meaningJa": "歩き回る；放浪する",
+    "meaningJa": "歩き回る、放浪する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Wild horses roam across the plain.",
@@ -95,7 +95,7 @@
   {
     "id": "v2905",
     "word": "dash",
-    "meaningJa": "突進する；急いで走る",
+    "meaningJa": "突進する、急いで走る",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We had to dash to catch the bus.",
@@ -115,7 +115,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "ダッシュ記号；少量",
+        "meaningJa": "ダッシュ記号、少量",
         "example": "Add a dash of salt to the soup.",
         "exampleJa": "スープに塩を少量加えてください。"
       }
@@ -124,7 +124,7 @@
   {
     "id": "v2906",
     "word": "stumble",
-    "meaningJa": "つまずく；よろめく",
+    "meaningJa": "つまずく、よろめく",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Be careful not to stumble over the cable.",
@@ -145,7 +145,7 @@
   {
     "id": "v2907",
     "word": "tumble",
-    "meaningJa": "転がり落ちる；倒れ込む",
+    "meaningJa": "転がり落ちる、倒れ込む",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Loose stones may tumble down the slope.",
@@ -251,7 +251,7 @@
   {
     "id": "v2912",
     "word": "wink",
-    "meaningJa": "ウインクする；片目をつぶる",
+    "meaningJa": "ウインクする、片目をつぶる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "I saw him wink at his friend.",
@@ -294,7 +294,7 @@
   {
     "id": "v2914",
     "word": "grin",
-    "meaningJa": "にっと笑う；歯を見せて笑う",
+    "meaningJa": "にっと笑う、歯を見せて笑う",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The children grin when they see the puppy.",
@@ -357,7 +357,7 @@
   {
     "id": "v2917",
     "word": "sniff",
-    "meaningJa": "鼻をすする；くんくん嗅ぐ",
+    "meaningJa": "鼻をすする、くんくん嗅ぐ",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The dogs sniff the bags carefully.",
@@ -420,7 +420,7 @@
   {
     "id": "v2920",
     "word": "weep",
-    "meaningJa": "泣く；涙を流す",
+    "meaningJa": "泣く、涙を流す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The story made her weep.",
@@ -484,7 +484,7 @@
   {
     "id": "v2923",
     "word": "mumble",
-    "meaningJa": "ぼそぼそ言う；不明瞭に話す",
+    "meaningJa": "ぼそぼそ言う、不明瞭に話す",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Please speak clearly and do not mumble.",
@@ -527,7 +527,7 @@
   {
     "id": "v2925",
     "word": "murmur",
-    "meaningJa": "静かにつぶやく；ささやく",
+    "meaningJa": "静かにつぶやく、ささやく",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The guests murmur softly in the hall.",
@@ -548,7 +548,7 @@
   {
     "id": "v2926",
     "word": "groan",
-    "meaningJa": "うめく；不満の声を上げる",
+    "meaningJa": "うめく、不満の声を上げる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The heavy workload made everyone groan.",
@@ -569,7 +569,7 @@
   {
     "id": "v2927",
     "word": "moan",
-    "meaningJa": "うめく；嘆く",
+    "meaningJa": "うめく、嘆く",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We heard the injured animal moan.",
@@ -632,7 +632,7 @@
   {
     "id": "v2930",
     "word": "suck",
-    "meaningJa": "〜を吸う；吸い込む",
+    "meaningJa": "〜を吸う、吸い込む",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The pump can suck water out of the tank.",
@@ -653,7 +653,7 @@
   {
     "id": "v2931",
     "word": "bite",
-    "meaningJa": "〜をかむ；かみつく",
+    "meaningJa": "〜をかむ、かみつく",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Be careful because this dog may bite.",
@@ -696,7 +696,7 @@
   {
     "id": "v2933",
     "word": "gulp",
-    "meaningJa": "〜をごくりと飲む；急いで飲み込む",
+    "meaningJa": "〜をごくりと飲む、急いで飲み込む",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Do not gulp your drink too quickly.",
@@ -717,7 +717,7 @@
   {
     "id": "v2934",
     "word": "spit",
-    "meaningJa": "〜を吐き出す；つばを吐く",
+    "meaningJa": "〜を吐き出す、つばを吐く",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Please spit out the seeds.",
@@ -768,7 +768,7 @@
   {
     "id": "v2936",
     "word": "inhale",
-    "meaningJa": "〜を吸い込む；息を吸う",
+    "meaningJa": "〜を吸い込む、息を吸う",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The machine measures how much air people inhale.",
@@ -790,7 +790,7 @@
   {
     "id": "v2937",
     "word": "exhale",
-    "meaningJa": "〜を吐き出す；息を吐く",
+    "meaningJa": "〜を吐き出す、息を吐く",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We exhale air through the nose or mouth.",
@@ -833,7 +833,7 @@
   {
     "id": "v2939",
     "word": "tremble",
-    "meaningJa": "震える；おののく",
+    "meaningJa": "震える、おののく",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Her hands began to tremble with fear.",
@@ -897,7 +897,7 @@
   {
     "id": "v2942",
     "word": "clap",
-    "meaningJa": "手をたたく；拍手する",
+    "meaningJa": "手をたたく、拍手する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The audience began to clap.",
@@ -918,7 +918,7 @@
   {
     "id": "v2943",
     "word": "beckon",
-    "meaningJa": "手招きする；合図して呼ぶ",
+    "meaningJa": "手招きする、合図して呼ぶ",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "She will beckon to us when it is time to enter.",
@@ -960,7 +960,7 @@
   {
     "id": "v2945",
     "word": "cuddle",
-    "meaningJa": "〜を優しく抱きしめる；寄り添う",
+    "meaningJa": "〜を優しく抱きしめる、寄り添う",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The children cuddle their soft toys.",
@@ -981,7 +981,7 @@
   {
     "id": "v2946",
     "word": "pinch",
-    "meaningJa": "〜をつまむ；つねる",
+    "meaningJa": "〜をつまむ、つねる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Pinch the edges of the dough together.",
@@ -1010,7 +1010,7 @@
   {
     "id": "v2947",
     "word": "punch",
-    "meaningJa": "〜を拳で殴る；穴を開ける",
+    "meaningJa": "〜を拳で殴る、穴を開ける",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Use this tool to punch a hole in the paper.",
@@ -1052,7 +1052,7 @@
   {
     "id": "v2949",
     "word": "scratch",
-    "meaningJa": "〜をひっかく；かく",
+    "meaningJa": "〜をひっかく、かく",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "These branches may scratch the window.",
@@ -1094,7 +1094,7 @@
   {
     "id": "v2951",
     "word": "pat",
-    "meaningJa": "〜を軽くたたく；優しくなでる",
+    "meaningJa": "〜を軽くたたく、優しくなでる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "She reached down to pat the dog.",
@@ -1136,7 +1136,7 @@
   {
     "id": "v2953",
     "word": "prod",
-    "meaningJa": "〜を突く；促す",
+    "meaningJa": "〜を突く、促す",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "He used a stick to prod the soft ground.",
@@ -1177,7 +1177,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "理解；把握",
+        "meaningJa": "理解、把握",
         "example": "She has a good grip on the main issues.",
         "exampleJa": "彼女は主要な問題をよく把握しています。"
       }
@@ -1207,7 +1207,7 @@
   {
     "id": "v2956",
     "word": "cling",
-    "meaningJa": "しがみつく；くっつく",
+    "meaningJa": "しがみつく、くっつく",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Wet leaves cling to the window.",
@@ -1250,7 +1250,7 @@
   {
     "id": "v2958",
     "word": "haul",
-    "meaningJa": "〜を苦労して運ぶ；引っ張る",
+    "meaningJa": "〜を苦労して運ぶ、引っ張る",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The workers haul heavy boxes onto the truck.",
@@ -1271,7 +1271,7 @@
   {
     "id": "v2959",
     "word": "shove",
-    "meaningJa": "〜を強く押す；押し込む",
+    "meaningJa": "〜を強く押す、押し込む",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Do not shove people in the queue.",
@@ -1334,7 +1334,7 @@
   {
     "id": "v2962",
     "word": "spin",
-    "meaningJa": "回転する；〜を回す",
+    "meaningJa": "回転する、〜を回す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The wheels spin freely.",
@@ -1356,7 +1356,7 @@
   {
     "id": "v2963",
     "word": "rotate",
-    "meaningJa": "回転する；〜を回転させる",
+    "meaningJa": "回転する、〜を回転させる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Rotate the image to the left.",
@@ -1377,7 +1377,7 @@
   {
     "id": "v2964",
     "word": "whirl",
-    "meaningJa": "くるくる回る；渦を巻く",
+    "meaningJa": "くるくる回る、渦を巻く",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Dry leaves whirl in the wind.",
@@ -1398,7 +1398,7 @@
   {
     "id": "v2965",
     "word": "sway",
-    "meaningJa": "揺れる；〜を揺らす",
+    "meaningJa": "揺れる、〜を揺らす",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Tall trees sway in the breeze.",
@@ -1427,7 +1427,7 @@
   {
     "id": "v2966",
     "word": "tilt",
-    "meaningJa": "〜を傾ける；傾く",
+    "meaningJa": "〜を傾ける、傾く",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Tilt the bowl to pour out the water.",
@@ -1554,7 +1554,7 @@
   {
     "id": "v2972",
     "word": "fasten",
-    "meaningJa": "〜を留める；締める",
+    "meaningJa": "〜を留める、締める",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please fasten your seat belt.",
@@ -1576,7 +1576,7 @@
   {
     "id": "v2973",
     "word": "unfasten",
-    "meaningJa": "〜を外す；緩めて開く",
+    "meaningJa": "〜を外す、緩めて開く",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Unfasten the strap before opening the bag.",
@@ -1597,7 +1597,7 @@
   {
     "id": "v2974",
     "word": "loosen",
-    "meaningJa": "〜を緩める；緩む",
+    "meaningJa": "〜を緩める、緩む",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Loosen the lid slightly before lifting it.",
@@ -1618,7 +1618,7 @@
   {
     "id": "v2975",
     "word": "tighten",
-    "meaningJa": "〜を締める；きつくする",
+    "meaningJa": "〜を締める、きつくする",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Use a tool to tighten the screw.",
@@ -1681,7 +1681,7 @@
   {
     "id": "v2978",
     "word": "splash",
-    "meaningJa": "〜をはねかける；はねる",
+    "meaningJa": "〜をはねかける、はねる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Do not splash water on the camera.",
@@ -1702,7 +1702,7 @@
   {
     "id": "v2979",
     "word": "sprinkle",
-    "meaningJa": "〜を振りかける；まく",
+    "meaningJa": "〜を振りかける、まく",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Sprinkle some sugar over the fruit.",
@@ -1723,7 +1723,7 @@
   {
     "id": "v2980",
     "word": "scatter",
-    "meaningJa": "〜をまき散らす；散らばる",
+    "meaningJa": "〜をまき散らす、散らばる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The wind can scatter seeds over long distances.",
@@ -1744,7 +1744,7 @@
   {
     "id": "v2981",
     "word": "scrape",
-    "meaningJa": "〜をこすり取る；こすりつける",
+    "meaningJa": "〜をこすり取る、こすりつける",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Scrape the mud off your shoes.",
@@ -1786,7 +1786,7 @@
   {
     "id": "v2983",
     "word": "stain",
-    "meaningJa": "しみ；汚れ",
+    "meaningJa": "しみ、汚れ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "There is a coffee stain on the tablecloth.",
@@ -1815,7 +1815,7 @@
   {
     "id": "v2984",
     "word": "soak",
-    "meaningJa": "〜を浸す；ずぶぬれにする",
+    "meaningJa": "〜を浸す、ずぶぬれにする",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Soak the cloth in warm water.",
@@ -1858,7 +1858,7 @@
   {
     "id": "v2986",
     "word": "moist",
-    "meaningJa": "適度に湿った；しっとりした",
+    "meaningJa": "適度に湿った、しっとりした",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The cake stayed moist inside the container.",
@@ -1880,7 +1880,7 @@
   {
     "id": "v2987",
     "word": "humid",
-    "meaningJa": "湿度の高い；蒸し暑い",
+    "meaningJa": "湿度の高い、蒸し暑い",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The weather is hot and humid today.",
@@ -1923,7 +1923,7 @@
   {
     "id": "v2989",
     "word": "bland",
-    "meaningJa": "味の薄い；特徴に乏しい",
+    "meaningJa": "味の薄い、特徴に乏しい",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The soup tasted bland without salt.",
@@ -1944,7 +1944,7 @@
   {
     "id": "v2990",
     "word": "crisp",
-    "meaningJa": "ぱりっとした；歯切れのよい",
+    "meaningJa": "ぱりっとした、歯切れのよい",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The salad contains crisp lettuce.",
@@ -1965,7 +1965,7 @@
   {
     "id": "v2991",
     "word": "crunchy",
-    "meaningJa": "かりかりした；歯ごたえのある",
+    "meaningJa": "かりかりした、歯ごたえのある",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "These biscuits are crunchy.",
@@ -2007,7 +2007,7 @@
   {
     "id": "v2993",
     "word": "sticky",
-    "meaningJa": "粘着性のある；べたべたする",
+    "meaningJa": "粘着性のある、べたべたする",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The spilled juice made the table sticky.",
@@ -2028,7 +2028,7 @@
   {
     "id": "v2994",
     "word": "greasy",
-    "meaningJa": "油っぽい；油で汚れた",
+    "meaningJa": "油っぽい、油で汚れた",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The paper bag became greasy.",
@@ -2049,7 +2049,7 @@
   {
     "id": "v2995",
     "word": "muddy",
-    "meaningJa": "泥だらけの；ぬかるんだ",
+    "meaningJa": "泥だらけの、ぬかるんだ",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The path became muddy after the storm.",
@@ -2070,7 +2070,7 @@
   {
     "id": "v2996",
     "word": "dusty",
-    "meaningJa": "ほこりっぽい；ほこりをかぶった",
+    "meaningJa": "ほこりっぽい、ほこりをかぶった",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "We found a dusty box in the attic.",
@@ -2112,7 +2112,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "腕が鈍った；知識が古くなった",
+        "meaningJa": "腕が鈍った、知識が古くなった",
         "example": "My French is rusty after years without practice.",
         "exampleJa": "何年も練習していないので、私のフランス語の腕は鈍っています。"
       }
@@ -2121,7 +2121,7 @@
   {
     "id": "v2998",
     "word": "sturdy",
-    "meaningJa": "頑丈な；丈夫な",
+    "meaningJa": "頑丈な、丈夫な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "We need a sturdy table for the heavy equipment.",
@@ -2163,7 +2163,7 @@
   {
     "id": "v3000",
     "word": "plump",
-    "meaningJa": "ふっくらした；丸々とした",
+    "meaningJa": "ふっくらした、丸々とした",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "She picked a plump tomato from the garden.",

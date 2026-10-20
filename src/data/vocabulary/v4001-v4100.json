@@ -465,7 +465,7 @@
   {
     "id": "v4023",
     "word": "occasion",
-    "meaningJa": "機会；出来事",
+    "meaningJa": "機会、出来事",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The wedding was a happy occasion for the family.",
@@ -507,7 +507,7 @@
   {
     "id": "v4025",
     "word": "agenda",
-    "meaningJa": "議事日程；議題一覧",
+    "meaningJa": "議事日程、議題一覧",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The first item on the agenda is the school budget.",
@@ -909,7 +909,7 @@
   {
     "id": "v4044",
     "word": "achievement",
-    "meaningJa": "成果；達成",
+    "meaningJa": "成果、達成",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Finishing the project was a major achievement for the team.",
@@ -930,7 +930,7 @@
   {
     "id": "v4045",
     "word": "vulnerability",
-    "meaningJa": "脆弱性；傷つきやすさ",
+    "meaningJa": "脆弱性、傷つきやすさ",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The drought revealed the vulnerability of the water system.",

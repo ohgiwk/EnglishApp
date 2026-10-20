@@ -2,7 +2,7 @@
   {
     "id": "v1901",
     "word": "debate",
-    "meaningJa": "討論；議論",
+    "meaningJa": "討論、議論",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The class held a debate about school uniforms.",
@@ -22,7 +22,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "討論する；検討する",
+        "meaningJa": "討論する、検討する",
         "example": "The members will debate the proposal tomorrow.",
         "exampleJa": "委員たちは明日その提案を討論します。"
       }
@@ -31,7 +31,7 @@
   {
     "id": "v1902",
     "word": "presentation",
-    "meaningJa": "発表；提示",
+    "meaningJa": "発表、提示",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She gave a presentation about her hometown.",
@@ -52,7 +52,7 @@
   {
     "id": "v1903",
     "word": "interview",
-    "meaningJa": "面接；インタビュー",
+    "meaningJa": "面接、インタビュー",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He prepared carefully for the job interview.",
@@ -72,7 +72,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "面接する；取材する",
+        "meaningJa": "面接する、取材する",
         "example": "We will interview three candidates this afternoon.",
         "exampleJa": "私たちは今日の午後、三人の候補者を面接します。"
       }
@@ -81,7 +81,7 @@
   {
     "id": "v1904",
     "word": "journalism",
-    "meaningJa": "報道；ジャーナリズム",
+    "meaningJa": "報道、ジャーナリズム",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The course examines the role of journalism in society.",
@@ -102,7 +102,7 @@
   {
     "id": "v1905",
     "word": "journalist",
-    "meaningJa": "記者；報道関係者",
+    "meaningJa": "記者、報道関係者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The journalist interviewed local residents.",
@@ -164,7 +164,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "放送；放送番組",
+        "meaningJa": "放送、放送番組",
         "example": "The broadcast begins at six in the evening.",
         "exampleJa": "その放送は夕方六時に始まります。"
       }
@@ -194,7 +194,7 @@
   {
     "id": "v1909",
     "word": "advertising",
-    "meaningJa": "広告活動；広告業",
+    "meaningJa": "広告活動、広告業",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The company spends little on advertising.",
@@ -216,7 +216,7 @@
   {
     "id": "v1910",
     "word": "publicity",
-    "meaningJa": "宣伝；世間の注目",
+    "meaningJa": "宣伝、世間の注目",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The event received a great deal of publicity.",
@@ -237,7 +237,7 @@
   {
     "id": "v1911",
     "word": "propaganda",
-    "meaningJa": "宣伝；政治的宣伝",
+    "meaningJa": "宣伝、政治的宣伝",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The exhibition examines wartime propaganda.",
@@ -258,7 +258,7 @@
   {
     "id": "v1912",
     "word": "media",
-    "meaningJa": "メディア；報道機関",
+    "meaningJa": "メディア、報道機関",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The local media reported the opening of the library.",
@@ -280,7 +280,7 @@
   {
     "id": "v1913",
     "word": "medium",
-    "meaningJa": "媒体；手段",
+    "meaningJa": "媒体、手段",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Radio remains an important medium of communication.",
@@ -309,7 +309,7 @@
   {
     "id": "v1914",
     "word": "platform",
-    "meaningJa": "乗降場；演壇；基盤",
+    "meaningJa": "乗降場、演壇、基盤",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We waited on the platform for the next train.",
@@ -329,7 +329,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "活動基盤；プラットフォーム",
+        "meaningJa": "活動基盤、プラットフォーム",
         "example": "The online platform connects artists with customers.",
         "exampleJa": "そのオンライン基盤は芸術家と顧客を結び付けます。"
       }
@@ -338,7 +338,7 @@
   {
     "id": "v1915",
     "word": "algorithm",
-    "meaningJa": "アルゴリズム；計算手順",
+    "meaningJa": "アルゴリズム、計算手順",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The programmer designed an algorithm to sort the data.",
@@ -380,7 +380,7 @@
   {
     "id": "v1917",
     "word": "hardware",
-    "meaningJa": "ハードウェア；機器類",
+    "meaningJa": "ハードウェア、機器類",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The school replaced its old computer hardware.",
@@ -424,7 +424,7 @@
   {
     "id": "v1919",
     "word": "device",
-    "meaningJa": "装置；機器；工夫",
+    "meaningJa": "装置、機器、工夫",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "This device measures the temperature of the water.",
@@ -445,7 +445,7 @@
   {
     "id": "v1920",
     "word": "keyboard",
-    "meaningJa": "キーボード；鍵盤",
+    "meaningJa": "キーボード、鍵盤",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She placed the keyboard beside the monitor.",
@@ -466,7 +466,7 @@
   {
     "id": "v1921",
     "word": "printer",
-    "meaningJa": "プリンター；印刷機",
+    "meaningJa": "プリンター、印刷機",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The printer is out of paper.",
@@ -529,7 +529,7 @@
   {
     "id": "v1924",
     "word": "password",
-    "meaningJa": "パスワード；合言葉",
+    "meaningJa": "パスワード、合言葉",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She entered her password to open the account.",
@@ -571,7 +571,7 @@
   {
     "id": "v1926",
     "word": "access",
-    "meaningJa": "利用する機会；接近；アクセス",
+    "meaningJa": "利用する機会、接近、アクセス",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "All students have access to the library.",
@@ -592,7 +592,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "利用する；アクセスする",
+        "meaningJa": "利用する、アクセスする",
         "example": "Students can access the materials from home.",
         "exampleJa": "学生は自宅からその教材を利用できます。"
       }
@@ -601,7 +601,7 @@
   {
     "id": "v1927",
     "word": "security",
-    "meaningJa": "安全；警備；保障",
+    "meaningJa": "安全、警備、保障",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The museum improved security after the incident.",
@@ -686,7 +686,7 @@
   {
     "id": "v1931",
     "word": "disinformation",
-    "meaningJa": "偽情報；意図的な虚偽情報",
+    "meaningJa": "偽情報、意図的な虚偽情報",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The report investigates a campaign of disinformation.",
@@ -708,7 +708,7 @@
   {
     "id": "v1932",
     "word": "credibility",
-    "meaningJa": "信頼性；信憑性",
+    "meaningJa": "信頼性、信憑性",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The error damaged the credibility of the report.",
@@ -729,7 +729,7 @@
   {
     "id": "v1933",
     "word": "accuracy",
-    "meaningJa": "正確さ；精度",
+    "meaningJa": "正確さ、精度",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "We checked the accuracy of the figures.",
@@ -750,7 +750,7 @@
   {
     "id": "v1934",
     "word": "reliability",
-    "meaningJa": "信頼性；確実性",
+    "meaningJa": "信頼性、確実性",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The team tested the reliability of the equipment.",
@@ -771,7 +771,7 @@
   {
     "id": "v1935",
     "word": "validity",
-    "meaningJa": "妥当性；有効性",
+    "meaningJa": "妥当性、有効性",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The researcher questioned the validity of the conclusion.",
@@ -792,7 +792,7 @@
   {
     "id": "v1936",
     "word": "transparency",
-    "meaningJa": "透明性；透明さ",
+    "meaningJa": "透明性、透明さ",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The proposal calls for greater transparency in decision making.",
@@ -990,7 +990,7 @@
   {
     "id": "v1945",
     "word": "satellite",
-    "meaningJa": "衛星；人工衛星",
+    "meaningJa": "衛星、人工衛星",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The satellite sent images of the storm.",
@@ -1011,7 +1011,7 @@
   {
     "id": "v1946",
     "word": "sensor",
-    "meaningJa": "センサー；感知器",
+    "meaningJa": "センサー、感知器",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "A sensor turns on the light when someone enters.",
@@ -1032,7 +1032,7 @@
   {
     "id": "v1947",
     "word": "transmission",
-    "meaningJa": "伝達；送信；伝播",
+    "meaningJa": "伝達、送信、伝播",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The researchers studied the transmission of sound through water.",
@@ -1053,7 +1053,7 @@
   {
     "id": "v1948",
     "word": "laboratory",
-    "meaningJa": "実験室；研究所",
+    "meaningJa": "実験室、研究所",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The students worked in the laboratory after lunch.",
@@ -1116,7 +1116,7 @@
   {
     "id": "v1951",
     "word": "engineer",
-    "meaningJa": "技術者；技師",
+    "meaningJa": "技術者、技師",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The engineer inspected the bridge.",
@@ -1137,7 +1137,7 @@
   {
     "id": "v1952",
     "word": "technician",
-    "meaningJa": "技術員；専門技術者",
+    "meaningJa": "技術員、専門技術者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A technician repaired the laboratory equipment.",
@@ -1158,7 +1158,7 @@
   {
     "id": "v1953",
     "word": "circuit",
-    "meaningJa": "回路；周回路",
+    "meaningJa": "回路、周回路",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The students built a simple electric circuit.",
@@ -1179,7 +1179,7 @@
   {
     "id": "v1954",
     "word": "battery",
-    "meaningJa": "電池；バッテリー",
+    "meaningJa": "電池、バッテリー",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The clock needs a new battery.",
@@ -1200,7 +1200,7 @@
   {
     "id": "v1955",
     "word": "cable",
-    "meaningJa": "ケーブル；太い綱",
+    "meaningJa": "ケーブル、太い綱",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The cable connects the computer to the printer.",
@@ -1221,7 +1221,7 @@
   {
     "id": "v1956",
     "word": "code",
-    "meaningJa": "符号；コード；規則",
+    "meaningJa": "符号、コード、規則",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Each product has a different code.",
@@ -1241,7 +1241,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "規範；規則",
+        "meaningJa": "規範、規則",
         "example": "The school has a code of conduct.",
         "exampleJa": "その学校には行動規範があります。"
       }
@@ -1250,7 +1250,7 @@
   {
     "id": "v1957",
     "word": "file",
-    "meaningJa": "ファイル；書類のとじ込み",
+    "meaningJa": "ファイル、書類のとじ込み",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Save the file before closing the program.",
@@ -1270,7 +1270,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "提出する；整理して保管する",
+        "meaningJa": "提出する、整理して保管する",
         "example": "Please file the report by the end of the week.",
         "exampleJa": "今週末までに報告書を提出してください。"
       }
@@ -1279,7 +1279,7 @@
   {
     "id": "v1958",
     "word": "folder",
-    "meaningJa": "フォルダー；書類ばさみ",
+    "meaningJa": "フォルダー、書類ばさみ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She put the documents in a blue folder.",
@@ -1300,7 +1300,7 @@
   {
     "id": "v1959",
     "word": "document",
-    "meaningJa": "文書；書類",
+    "meaningJa": "文書、書類",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Please read the document before the meeting.",
@@ -1371,7 +1371,7 @@
   {
     "id": "v1962",
     "word": "update",
-    "meaningJa": "更新する；最新にする",
+    "meaningJa": "更新する、最新にする",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We need to update the contact list.",
@@ -1392,7 +1392,7 @@
   {
     "id": "v1963",
     "word": "install",
-    "meaningJa": "設置する；インストールする",
+    "meaningJa": "設置する、インストールする",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "They will install a new heating system.",
@@ -1455,7 +1455,7 @@
   {
     "id": "v1966",
     "word": "click",
-    "meaningJa": "クリックする；カチッと音を立てる",
+    "meaningJa": "クリックする、カチッと音を立てる",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "Click the button to open the menu.",
@@ -1497,7 +1497,7 @@
   {
     "id": "v1968",
     "word": "attach",
-    "meaningJa": "取り付ける；添付する",
+    "meaningJa": "取り付ける、添付する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Please attach a photograph to the form.",
@@ -1519,7 +1519,7 @@
   {
     "id": "v1969",
     "word": "detach",
-    "meaningJa": "取り外す；切り離す",
+    "meaningJa": "取り外す、切り離す",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "You can detach the handle for cleaning.",
@@ -1540,7 +1540,7 @@
   {
     "id": "v1970",
     "word": "disconnect",
-    "meaningJa": "接続を切る；切り離す",
+    "meaningJa": "接続を切る、切り離す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Disconnect the cable before moving the printer.",
@@ -1561,7 +1561,7 @@
   {
     "id": "v1971",
     "word": "plug",
-    "meaningJa": "プラグ；栓",
+    "meaningJa": "プラグ、栓",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The plug does not fit this socket.",
@@ -1625,7 +1625,7 @@
   {
     "id": "v1974",
     "word": "mend",
-    "meaningJa": "繕う；修理する",
+    "meaningJa": "繕う、修理する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "She learned to mend a torn shirt.",
@@ -1646,7 +1646,7 @@
   {
     "id": "v1975",
     "word": "assemble",
-    "meaningJa": "組み立てる；集める",
+    "meaningJa": "組み立てる、集める",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We used the instructions to assemble the desk.",
@@ -1688,7 +1688,7 @@
   {
     "id": "v1977",
     "word": "construct",
-    "meaningJa": "建設する；組み立てる",
+    "meaningJa": "建設する、組み立てる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The town plans to construct a new bridge.",
@@ -1730,7 +1730,7 @@
   {
     "id": "v1979",
     "word": "design",
-    "meaningJa": "設計する；デザインする",
+    "meaningJa": "設計する、デザインする",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The students will design a new school garden.",
@@ -1750,7 +1750,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "設計；意匠",
+        "meaningJa": "設計、意匠",
         "example": "The new design uses less material.",
         "exampleJa": "新しい設計は材料の使用量が少なくなっています。"
       }
@@ -1759,7 +1759,7 @@
   {
     "id": "v1980",
     "word": "operate",
-    "meaningJa": "操作する；作動する；運営する",
+    "meaningJa": "操作する、作動する、運営する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Only trained staff may operate this machine.",
@@ -1780,7 +1780,7 @@
   {
     "id": "v1981",
     "word": "conduct",
-    "meaningJa": "行う；実施する",
+    "meaningJa": "行う、実施する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The researchers will conduct a survey next month.",
@@ -1800,7 +1800,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "行動；振る舞い",
+        "meaningJa": "行動、振る舞い",
         "example": "The coach praised their conduct during the match.",
         "exampleJa": "監督は試合中の彼らの振る舞いを褒めました。"
       }
@@ -1809,7 +1809,7 @@
   {
     "id": "v1982",
     "word": "implement",
-    "meaningJa": "実施する；実行する",
+    "meaningJa": "実施する、実行する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The school will implement the new plan in April.",
@@ -1830,7 +1830,7 @@
   {
     "id": "v1983",
     "word": "execute",
-    "meaningJa": "実行する；遂行する",
+    "meaningJa": "実行する、遂行する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The computer can execute the instructions quickly.",
@@ -1851,7 +1851,7 @@
   {
     "id": "v1984",
     "word": "undertake",
-    "meaningJa": "引き受ける；着手する",
+    "meaningJa": "引き受ける、着手する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The team will undertake a study of local wildlife.",
@@ -1872,7 +1872,7 @@
   {
     "id": "v1985",
     "word": "engage",
-    "meaningJa": "従事する；関わらせる",
+    "meaningJa": "従事する、関わらせる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Students engage in discussion during the seminar.",
@@ -1894,7 +1894,7 @@
   {
     "id": "v1986",
     "word": "commit",
-    "meaningJa": "投入する；約束する；犯す",
+    "meaningJa": "投入する、約束する、犯す",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The company will commit more resources to training.",
@@ -1916,7 +1916,7 @@
   {
     "id": "v1987",
     "word": "devote",
-    "meaningJa": "捧げる；充てる",
+    "meaningJa": "捧げる、充てる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "She plans to devote more time to reading.",
@@ -1959,7 +1959,7 @@
   {
     "id": "v1989",
     "word": "assign",
-    "meaningJa": "割り当てる；課す",
+    "meaningJa": "割り当てる、課す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The teacher will assign a role to each student.",
@@ -1981,7 +1981,7 @@
   {
     "id": "v1990",
     "word": "allocate",
-    "meaningJa": "割り当てる；配分する",
+    "meaningJa": "割り当てる、配分する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "We must allocate enough time for the discussion.",
@@ -2002,7 +2002,7 @@
   {
     "id": "v1991",
     "word": "distribute",
-    "meaningJa": "配る；分配する",
+    "meaningJa": "配る、分配する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Volunteers distribute meals to older residents.",
@@ -2023,7 +2023,7 @@
   {
     "id": "v1992",
     "word": "deliver",
-    "meaningJa": "届ける；配達する",
+    "meaningJa": "届ける、配達する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The shop will deliver the table tomorrow.",
@@ -2043,7 +2043,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "述べる；行う",
+        "meaningJa": "述べる、行う",
         "example": "She will deliver a speech at the ceremony.",
         "exampleJa": "彼女は式典でスピーチを行います。"
       }
@@ -2073,7 +2073,7 @@
   {
     "id": "v1994",
     "word": "transfer",
-    "meaningJa": "移す；移動する",
+    "meaningJa": "移す、移動する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We need to transfer the files to another computer.",
@@ -2094,7 +2094,7 @@
   {
     "id": "v1995",
     "word": "transmit",
-    "meaningJa": "伝える；送信する",
+    "meaningJa": "伝える、送信する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The device can transmit data over long distances.",
@@ -2115,7 +2115,7 @@
   {
     "id": "v1996",
     "word": "emit",
-    "meaningJa": "放出する；発する",
+    "meaningJa": "放出する、発する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The lamp can emit light in several colors.",
@@ -2136,7 +2136,7 @@
   {
     "id": "v1997",
     "word": "utilize",
-    "meaningJa": "利用する；活用する",
+    "meaningJa": "利用する、活用する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The project will utilize existing equipment.",
@@ -2157,7 +2157,7 @@
   {
     "id": "v1998",
     "word": "exploit",
-    "meaningJa": "利用する；搾取する",
+    "meaningJa": "利用する、搾取する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The company plans to exploit the new technology.",
@@ -2178,7 +2178,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "搾取する；不当に利用する",
+        "meaningJa": "搾取する、不当に利用する",
         "example": "The article criticizes businesses that exploit workers.",
         "exampleJa": "その記事は労働者を搾取する企業を批判しています。"
       }
@@ -2209,7 +2209,7 @@
   {
     "id": "v2000",
     "word": "delay",
-    "meaningJa": "遅らせる；遅れる",
+    "meaningJa": "遅らせる、遅れる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Heavy traffic may delay the bus.",
@@ -2229,7 +2229,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "遅れ；延期",
+        "meaningJa": "遅れ、延期",
         "example": "The train arrived after a short delay.",
         "exampleJa": "電車は少し遅れて到着しました。"
       }

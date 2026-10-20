@@ -13,11 +13,7 @@ import {
 import { examProgress, lastVocabularyLevel } from '../domain/promotion-exam'
 import BaseDialog from '../components/BaseDialog.vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
-import {
-  vocabularyLevels,
-  vocabularyWords,
-  vocabularyReviewPending
-} from '../data/vocabulary'
+import { vocabularyLevels, vocabularyWords, vocabularyReviewPending } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
 import type { VocabularyQuestionCount, VocabularySessionMode, VocabularyStatus } from '../types'
 

@@ -2,7 +2,7 @@
   {
     "id": "v1201",
     "word": "introduce",
-    "meaningJa": "紹介する；導入する",
+    "meaningJa": "紹介する、導入する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Let me introduce my friend to you.",
@@ -53,7 +53,7 @@
   {
     "id": "v1203",
     "word": "describe",
-    "meaningJa": "描写する；説明する",
+    "meaningJa": "描写する、説明する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please describe the bag you lost.",
@@ -95,7 +95,7 @@
   {
     "id": "v1205",
     "word": "relax",
-    "meaningJa": "くつろぐ；力を抜く",
+    "meaningJa": "くつろぐ、力を抜く",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "I like to relax with a book after work.",
@@ -137,7 +137,7 @@
   {
     "id": "v1207",
     "word": "worry",
-    "meaningJa": "心配する；心配させる",
+    "meaningJa": "心配する、心配させる",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "Do not worry about small mistakes.",
@@ -201,7 +201,7 @@
   {
     "id": "v1210",
     "word": "realize",
-    "meaningJa": "気づく；実現する",
+    "meaningJa": "気づく、実現する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "I did not realize how late it was.",
@@ -252,7 +252,7 @@
   {
     "id": "v1212",
     "word": "suppose",
-    "meaningJa": "思う；仮定する",
+    "meaningJa": "思う、仮定する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "I suppose you are right.",
@@ -273,7 +273,7 @@
   {
     "id": "v1213",
     "word": "wonder",
-    "meaningJa": "〜かと思う；不思議に思う",
+    "meaningJa": "〜かと思う、不思議に思う",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "I wonder why the shop is closed.",
@@ -293,7 +293,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "驚き；驚くべきもの",
+        "meaningJa": "驚き、驚くべきもの",
         "example": "The children looked at the stars in wonder.",
         "exampleJa": "子どもたちは驚きの気持ちで星を見つめました。"
       }
@@ -302,7 +302,7 @@
   {
     "id": "v1214",
     "word": "guess",
-    "meaningJa": "推測する；当てる",
+    "meaningJa": "推測する、当てる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Can you guess the answer?",
@@ -323,7 +323,7 @@
   {
     "id": "v1215",
     "word": "depend",
-    "meaningJa": "依存する；〜次第である",
+    "meaningJa": "依存する、〜次第である",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Plants depend on sunlight for energy.",
@@ -345,7 +345,7 @@
   {
     "id": "v1216",
     "word": "belong",
-    "meaningJa": "属する；所有物である",
+    "meaningJa": "属する、所有物である",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "These books belong to the library.",
@@ -367,7 +367,7 @@
   {
     "id": "v1217",
     "word": "contain",
-    "meaningJa": "含む；中に入っている",
+    "meaningJa": "含む、中に入っている",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "This bottle can contain two liters of water.",
@@ -388,7 +388,7 @@
   {
     "id": "v1218",
     "word": "involve",
-    "meaningJa": "伴う；関わらせる；含む",
+    "meaningJa": "伴う、関わらせる、含む",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The job will involve working with children.",
@@ -409,7 +409,7 @@
   {
     "id": "v1219",
     "word": "require",
-    "meaningJa": "必要とする；要求する",
+    "meaningJa": "必要とする、要求する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Some plants require very little water.",
@@ -430,7 +430,7 @@
   {
     "id": "v1220",
     "word": "obtain",
-    "meaningJa": "得る；入手する",
+    "meaningJa": "得る、入手する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "You can obtain more information from the office.",
@@ -451,7 +451,7 @@
   {
     "id": "v1221",
     "word": "accomplish",
-    "meaningJa": "成し遂げる；達成する",
+    "meaningJa": "成し遂げる、達成する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We can accomplish more by working together.",
@@ -472,7 +472,7 @@
   {
     "id": "v1222",
     "word": "create",
-    "meaningJa": "作り出す；創造する",
+    "meaningJa": "作り出す、創造する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The students will create a new game.",
@@ -493,7 +493,7 @@
   {
     "id": "v1223",
     "word": "invent",
-    "meaningJa": "発明する；考案する",
+    "meaningJa": "発明する、考案する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "She hopes to invent a useful machine.",
@@ -535,7 +535,7 @@
   {
     "id": "v1225",
     "word": "identify",
-    "meaningJa": "特定する；見分ける",
+    "meaningJa": "特定する、見分ける",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Can you identify this plant from its leaves?",
@@ -556,7 +556,7 @@
   {
     "id": "v1226",
     "word": "define",
-    "meaningJa": "定義する；明確にする",
+    "meaningJa": "定義する、明確にする",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We need to define the purpose of the study.",
@@ -577,7 +577,7 @@
   {
     "id": "v1227",
     "word": "indicate",
-    "meaningJa": "示す；指し示す",
+    "meaningJa": "示す、指し示す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "These marks indicate the correct route.",
@@ -598,7 +598,7 @@
   {
     "id": "v1228",
     "word": "reveal",
-    "meaningJa": "明らかにする；見せる",
+    "meaningJa": "明らかにする、見せる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The results reveal a clear pattern.",
@@ -619,7 +619,7 @@
   {
     "id": "v1229",
     "word": "prove",
-    "meaningJa": "証明する；〜だとわかる",
+    "meaningJa": "証明する、〜だとわかる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The experiment may prove our theory wrong.",
@@ -640,7 +640,7 @@
   {
     "id": "v1230",
     "word": "confirm",
-    "meaningJa": "確認する；裏付ける",
+    "meaningJa": "確認する、裏付ける",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Please confirm the date of the meeting.",
@@ -661,7 +661,7 @@
   {
     "id": "v1231",
     "word": "deny",
-    "meaningJa": "否定する；拒む",
+    "meaningJa": "否定する、拒む",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "They deny that the problem exists.",
@@ -682,7 +682,7 @@
   {
     "id": "v1232",
     "word": "admit",
-    "meaningJa": "認める；入ることを許す",
+    "meaningJa": "認める、入ることを許す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "I admit that I made a mistake.",
@@ -703,7 +703,7 @@
   {
     "id": "v1233",
     "word": "contrast",
-    "meaningJa": "対比する；対照をなす",
+    "meaningJa": "対比する、対照をなす",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The report will contrast the two approaches.",
@@ -723,7 +723,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "対照；相違",
+        "meaningJa": "対照、相違",
         "example": "There is a sharp contrast between the two cities.",
         "exampleJa": "その2都市は鮮やかな対照をなしています。"
       }
@@ -732,7 +732,7 @@
   {
     "id": "v1234",
     "word": "examine",
-    "meaningJa": "調べる；検討する；診察する",
+    "meaningJa": "調べる、検討する、診察する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We must examine the evidence carefully.",
@@ -753,7 +753,7 @@
   {
     "id": "v1235",
     "word": "investigate",
-    "meaningJa": "調査する；究明する",
+    "meaningJa": "調査する、究明する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Scientists will investigate the cause of the change.",
@@ -774,7 +774,7 @@
   {
     "id": "v1236",
     "word": "observe",
-    "meaningJa": "観察する；気づく",
+    "meaningJa": "観察する、気づく",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We can observe birds from this window.",
@@ -794,7 +794,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "守る；遵守する",
+        "meaningJa": "守る、遵守する",
         "example": "Visitors must observe the safety rules.",
         "exampleJa": "訪問者は安全規則を守らなければなりません。"
       }
@@ -825,7 +825,7 @@
   {
     "id": "v1238",
     "word": "conclude",
-    "meaningJa": "結論を出す；終える",
+    "meaningJa": "結論を出す、終える",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We cannot conclude that the method is safe yet.",
@@ -868,7 +868,7 @@
   {
     "id": "v1240",
     "word": "convince",
-    "meaningJa": "納得させる；確信させる",
+    "meaningJa": "納得させる、確信させる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The evidence should convince them that we are right.",
@@ -889,7 +889,7 @@
   {
     "id": "v1241",
     "word": "encourage",
-    "meaningJa": "励ます；促す",
+    "meaningJa": "励ます、促す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Teachers encourage students to ask questions.",
@@ -932,7 +932,7 @@
   {
     "id": "v1243",
     "word": "permit",
-    "meaningJa": "許可する；可能にする",
+    "meaningJa": "許可する、可能にする",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The rules permit visitors to take photographs.",
@@ -961,7 +961,7 @@
   {
     "id": "v1244",
     "word": "forbid",
-    "meaningJa": "禁じる；禁止する",
+    "meaningJa": "禁じる、禁止する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The rules forbid smoking in the building.",
@@ -983,7 +983,7 @@
   {
     "id": "v1245",
     "word": "escape",
-    "meaningJa": "逃げる；逃れる",
+    "meaningJa": "逃げる、逃れる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The bird managed to escape from the cage.",
@@ -1004,7 +1004,7 @@
   {
     "id": "v1246",
     "word": "survive",
-    "meaningJa": "生き残る；存続する",
+    "meaningJa": "生き残る、存続する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "These plants can survive in dry conditions.",
@@ -1025,7 +1025,7 @@
   {
     "id": "v1247",
     "word": "suffer",
-    "meaningJa": "苦しむ；被害を受ける",
+    "meaningJa": "苦しむ、被害を受ける",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Many people suffer from lack of sleep.",
@@ -1046,7 +1046,7 @@
   {
     "id": "v1248",
     "word": "recover",
-    "meaningJa": "回復する；取り戻す",
+    "meaningJa": "回復する、取り戻す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The forest will take years to recover.",
@@ -1067,7 +1067,7 @@
   {
     "id": "v1249",
     "word": "decrease",
-    "meaningJa": "減る；減らす",
+    "meaningJa": "減る、減らす",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The new machines may decrease energy use.",
@@ -1096,7 +1096,7 @@
   {
     "id": "v1250",
     "word": "expand",
-    "meaningJa": "拡大する；広がる",
+    "meaningJa": "拡大する、広がる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The company plans to expand its business abroad.",
@@ -1117,7 +1117,7 @@
   {
     "id": "v1251",
     "word": "extend",
-    "meaningJa": "延ばす；広げる",
+    "meaningJa": "延ばす、広げる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We need to extend the deadline by a week.",
@@ -1138,7 +1138,7 @@
   {
     "id": "v1252",
     "word": "spread",
-    "meaningJa": "広がる；広げる",
+    "meaningJa": "広がる、広げる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The news began to spread through the town.",
@@ -1159,7 +1159,7 @@
   {
     "id": "v1253",
     "word": "replace",
-    "meaningJa": "取り替える；取って代わる",
+    "meaningJa": "取り替える、取って代わる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We should replace the broken window.",
@@ -1180,7 +1180,7 @@
   {
     "id": "v1254",
     "word": "remove",
-    "meaningJa": "取り除く；外す",
+    "meaningJa": "取り除く、外す",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please remove your shoes at the entrance.",
@@ -1201,7 +1201,7 @@
   {
     "id": "v1255",
     "word": "release",
-    "meaningJa": "解放する；放出する；公表する",
+    "meaningJa": "解放する、放出する、公表する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "They will release the bird back into the wild.",
@@ -1221,7 +1221,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "公開；放出",
+        "meaningJa": "公開、放出",
         "example": "The release of the report was delayed.",
         "exampleJa": "報告書の公開は遅れました。"
       }
@@ -1230,7 +1230,7 @@
   {
     "id": "v1256",
     "word": "maintain",
-    "meaningJa": "維持する；主張する",
+    "meaningJa": "維持する、主張する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "It takes effort to maintain good health.",
@@ -1259,7 +1259,7 @@
   {
     "id": "v1257",
     "word": "preserve",
-    "meaningJa": "保存する；守る",
+    "meaningJa": "保存する、守る",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We must preserve these historic buildings.",
@@ -1280,7 +1280,7 @@
   {
     "id": "v1258",
     "word": "conserve",
-    "meaningJa": "保全する；節約する",
+    "meaningJa": "保全する、節約する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Turning off unused lights helps conserve energy.",
@@ -1301,7 +1301,7 @@
   {
     "id": "v1259",
     "word": "consume",
-    "meaningJa": "消費する；食べる",
+    "meaningJa": "消費する、食べる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Older machines often consume more electricity.",
@@ -1343,7 +1343,7 @@
   {
     "id": "v1261",
     "word": "reflect",
-    "meaningJa": "反射する；反映する；熟考する",
+    "meaningJa": "反射する、反映する、熟考する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "These results reflect changes in society.",
@@ -1363,7 +1363,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "反射する；映す",
+        "meaningJa": "反射する、映す",
         "example": "Mirrors reflect light.",
         "exampleJa": "鏡は光を反射します。"
       }
@@ -1372,7 +1372,7 @@
   {
     "id": "v1262",
     "word": "respond",
-    "meaningJa": "応答する；反応する",
+    "meaningJa": "応答する、反応する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Please respond to this message by Friday.",
@@ -1414,7 +1414,7 @@
   {
     "id": "v1264",
     "word": "relate",
-    "meaningJa": "関連付ける；関係がある",
+    "meaningJa": "関連付ける、関係がある",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Try to relate the new ideas to your own experience.",
@@ -1435,7 +1435,7 @@
   {
     "id": "v1265",
     "word": "refer",
-    "meaningJa": "言及する；参照する",
+    "meaningJa": "言及する、参照する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Please refer to the map on the next page.",
@@ -1456,7 +1456,7 @@
   {
     "id": "v1266",
     "word": "regard",
-    "meaningJa": "〜と見なす；考える",
+    "meaningJa": "〜と見なす、考える",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Many people regard her as a great artist.",
@@ -1500,7 +1500,7 @@
   {
     "id": "v1268",
     "word": "occur",
-    "meaningJa": "起こる；生じる",
+    "meaningJa": "起こる、生じる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Earthquakes can occur without warning.",
@@ -1563,7 +1563,7 @@
   {
     "id": "v1271",
     "word": "arise",
-    "meaningJa": "生じる；起こる",
+    "meaningJa": "生じる、起こる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "New problems may arise as the city grows.",
@@ -1584,7 +1584,7 @@
   {
     "id": "v1272",
     "word": "consist",
-    "meaningJa": "成り立つ；構成される",
+    "meaningJa": "成り立つ、構成される",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The course will consist of ten lessons.",
@@ -1606,7 +1606,7 @@
   {
     "id": "v1273",
     "word": "combine",
-    "meaningJa": "結合する；組み合わせる",
+    "meaningJa": "結合する、組み合わせる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We can combine these two ideas into one plan.",
@@ -1627,7 +1627,7 @@
   {
     "id": "v1274",
     "word": "divide",
-    "meaningJa": "分ける；割る",
+    "meaningJa": "分ける、割る",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Divide the class into four groups.",
@@ -1648,7 +1648,7 @@
   {
     "id": "v1275",
     "word": "collect",
-    "meaningJa": "集める；回収する",
+    "meaningJa": "集める、回収する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We collect old newspapers for recycling.",
@@ -1669,7 +1669,7 @@
   {
     "id": "v1276",
     "word": "gather",
-    "meaningJa": "集まる；集める",
+    "meaningJa": "集まる、集める",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The students gather in the hall every morning.",
@@ -1690,7 +1690,7 @@
   {
     "id": "v1277",
     "word": "select",
-    "meaningJa": "選ぶ；選び出す",
+    "meaningJa": "選ぶ、選び出す",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please select one answer from the list.",
@@ -1711,7 +1711,7 @@
   {
     "id": "v1278",
     "word": "solve",
-    "meaningJa": "解く；解決する",
+    "meaningJa": "解く、解決する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We worked together to solve the problem.",
@@ -1732,7 +1732,7 @@
   {
     "id": "v1279",
     "word": "settle",
-    "meaningJa": "解決する；落ち着く；定住する",
+    "meaningJa": "解決する、落ち着く、定住する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "They hope to settle the dispute soon.",
@@ -1761,7 +1761,7 @@
   {
     "id": "v1280",
     "word": "arrange",
-    "meaningJa": "手配する；並べる",
+    "meaningJa": "手配する、並べる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Can you arrange a meeting for next week?",
@@ -1782,7 +1782,7 @@
   {
     "id": "v1281",
     "word": "organize",
-    "meaningJa": "組織する；準備する；整理する",
+    "meaningJa": "組織する、準備する、整理する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The students will organize a charity event.",
@@ -1804,7 +1804,7 @@
   {
     "id": "v1282",
     "word": "attend",
-    "meaningJa": "出席する；通う",
+    "meaningJa": "出席する、通う",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "I plan to attend the meeting tomorrow.",
@@ -1876,7 +1876,7 @@
   {
     "id": "v1285",
     "word": "remind",
-    "meaningJa": "思い出させる；念を押す",
+    "meaningJa": "思い出させる、念を押す",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please remind me to return this book.",
@@ -1898,7 +1898,7 @@
   {
     "id": "v1286",
     "word": "warn",
-    "meaningJa": "警告する；注意する",
+    "meaningJa": "警告する、注意する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The signs warn drivers about the sharp turn.",
@@ -1919,7 +1919,7 @@
   {
     "id": "v1287",
     "word": "inform",
-    "meaningJa": "知らせる；通知する",
+    "meaningJa": "知らせる、通知する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Please inform us of any changes.",
@@ -1941,7 +1941,7 @@
   {
     "id": "v1288",
     "word": "announce",
-    "meaningJa": "発表する；知らせる",
+    "meaningJa": "発表する、知らせる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "They will announce the results tomorrow.",
@@ -2004,7 +2004,7 @@
   {
     "id": "v1291",
     "word": "regret",
-    "meaningJa": "後悔する；残念に思う",
+    "meaningJa": "後悔する、残念に思う",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "I regret saying those unkind words.",
@@ -2025,7 +2025,7 @@
   {
     "id": "v1292",
     "word": "appreciate",
-    "meaningJa": "感謝する；よさを理解する",
+    "meaningJa": "感謝する、よさを理解する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "I appreciate your help with the project.",
@@ -2046,7 +2046,7 @@
   {
     "id": "v1293",
     "word": "deserve",
-    "meaningJa": "値する；受けるにふさわしい",
+    "meaningJa": "値する、受けるにふさわしい",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "You deserve a rest after all that work.",
@@ -2089,7 +2089,7 @@
   {
     "id": "v1295",
     "word": "seek",
-    "meaningJa": "求める；探す",
+    "meaningJa": "求める、探す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Many students seek advice from their teachers.",
@@ -2110,7 +2110,7 @@
   {
     "id": "v1296",
     "word": "pursue",
-    "meaningJa": "追求する；追う",
+    "meaningJa": "追求する、追う",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "She decided to pursue a career in science.",
@@ -2160,7 +2160,7 @@
   {
     "id": "v1298",
     "word": "struggle",
-    "meaningJa": "苦闘する；懸命に努力する",
+    "meaningJa": "苦闘する、懸命に努力する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Some students struggle to understand the new topic.",
@@ -2210,7 +2210,7 @@
   {
     "id": "v1300",
     "word": "adapt",
-    "meaningJa": "適応する；適合させる",
+    "meaningJa": "適応する、適合させる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Animals must adapt to changes in their environment.",

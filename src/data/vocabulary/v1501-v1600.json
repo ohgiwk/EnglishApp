@@ -403,7 +403,7 @@
   {
     "id": "v1520",
     "word": "snack",
-    "meaningJa": "軽食；おやつ",
+    "meaningJa": "軽食、おやつ",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The children had a snack after school.",
@@ -486,7 +486,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "ピーマン類の実；トウガラシ類の実",
+        "meaningJa": "ピーマン類の実、トウガラシ類の実",
         "example": "She sliced a red pepper for the salad.",
         "exampleJa": "彼女はサラダ用に赤いパプリカを薄く切りました。"
       }
@@ -495,7 +495,7 @@
   {
     "id": "v1524",
     "word": "flour",
-    "meaningJa": "小麦粉；穀物の粉",
+    "meaningJa": "小麦粉、穀物の粉",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Mix the flour with water in a bowl.",
@@ -517,7 +517,7 @@
   {
     "id": "v1525",
     "word": "bottle",
-    "meaningJa": "瓶；ボトル",
+    "meaningJa": "瓶、ボトル",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She filled the bottle with water.",
@@ -558,7 +558,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "板；プレート",
+        "meaningJa": "板、プレート",
         "example": "A metal plate covered the opening.",
         "exampleJa": "金属板がその開口部を覆っていました。"
       }
@@ -567,7 +567,7 @@
   {
     "id": "v1527",
     "word": "bowl",
-    "meaningJa": "鉢；ボウル；茶碗",
+    "meaningJa": "鉢、ボウル、茶碗",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "He carried a bowl of rice to the table.",
@@ -638,7 +638,7 @@
   {
     "id": "v1530",
     "word": "knife",
-    "meaningJa": "ナイフ；包丁",
+    "meaningJa": "ナイフ、包丁",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "He cut the bread with a knife.",
@@ -723,7 +723,7 @@
   {
     "id": "v1534",
     "word": "yard",
-    "meaningJa": "庭；敷地",
+    "meaningJa": "庭、敷地",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The children played in the yard.",
@@ -752,7 +752,7 @@
   {
     "id": "v1535",
     "word": "garage",
-    "meaningJa": "車庫；ガレージ",
+    "meaningJa": "車庫、ガレージ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We keep our bicycles in the garage.",
@@ -838,7 +838,7 @@
   {
     "id": "v1539",
     "word": "entrance",
-    "meaningJa": "入り口；入場",
+    "meaningJa": "入り口、入場",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We met near the main entrance.",
@@ -879,7 +879,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "出る；退出する",
+        "meaningJa": "出る、退出する",
         "example": "Please exit the building through the rear door.",
         "exampleJa": "裏口から建物を出てください。"
       }
@@ -1015,7 +1015,7 @@
   {
     "id": "v1547",
     "word": "traffic",
-    "meaningJa": "交通；交通量",
+    "meaningJa": "交通、交通量",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "There is heavy traffic on this road.",
@@ -1036,7 +1036,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "通信量；アクセス量",
+        "meaningJa": "通信量、アクセス量",
         "example": "The website receives more traffic in the evening.",
         "exampleJa": "そのウェブサイトは夕方にアクセス量が増えます。"
       }
@@ -1109,7 +1109,7 @@
   {
     "id": "v1551",
     "word": "ticket",
-    "meaningJa": "切符；入場券",
+    "meaningJa": "切符、入場券",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "I bought a ticket for the concert.",
@@ -1194,7 +1194,7 @@
   {
     "id": "v1555",
     "word": "passport",
-    "meaningJa": "パスポート；旅券",
+    "meaningJa": "パスポート、旅券",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "He showed his passport at the airport.",
@@ -1257,7 +1257,7 @@
   {
     "id": "v1558",
     "word": "beach",
-    "meaningJa": "浜辺；海水浴場",
+    "meaningJa": "浜辺、海水浴場",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "We walked along the beach at sunset.",
@@ -1299,7 +1299,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "見捨てる；放棄する",
+        "meaningJa": "見捨てる、放棄する",
         "example": "She would never desert a friend in trouble.",
         "exampleJa": "彼女は困っている友達を決して見捨てません。"
       }
@@ -1350,7 +1350,7 @@
   {
     "id": "v1562",
     "word": "cafe",
-    "meaningJa": "カフェ；喫茶店",
+    "meaningJa": "カフェ、喫茶店",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "We met at a cafe near the station.",
@@ -1372,7 +1372,7 @@
   {
     "id": "v1563",
     "word": "museum",
-    "meaningJa": "博物館；美術館",
+    "meaningJa": "博物館、美術館",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The museum displays old farming tools.",
@@ -1393,7 +1393,7 @@
   {
     "id": "v1564",
     "word": "stadium",
-    "meaningJa": "競技場；スタジアム",
+    "meaningJa": "競技場、スタジアム",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Thousands of fans gathered at the stadium.",
@@ -1414,7 +1414,7 @@
   {
     "id": "v1565",
     "word": "bench",
-    "meaningJa": "ベンチ；長椅子",
+    "meaningJa": "ベンチ、長椅子",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "An old man was reading on the bench.",
@@ -1477,7 +1477,7 @@
   {
     "id": "v1568",
     "word": "journey",
-    "meaningJa": "旅；移動",
+    "meaningJa": "旅、移動",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The journey took three hours by train.",
@@ -1498,7 +1498,7 @@
   {
     "id": "v1569",
     "word": "voyage",
-    "meaningJa": "航海；長い旅",
+    "meaningJa": "航海、長い旅",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The ship began its voyage across the ocean.",
@@ -1519,7 +1519,7 @@
   {
     "id": "v1570",
     "word": "route",
-    "meaningJa": "道筋；経路",
+    "meaningJa": "道筋、経路",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "This route avoids the busy town center.",
@@ -1540,7 +1540,7 @@
   {
     "id": "v1571",
     "word": "transportation",
-    "meaningJa": "輸送；交通手段",
+    "meaningJa": "輸送、交通手段",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The city is improving public transportation.",
@@ -1561,7 +1561,7 @@
   {
     "id": "v1572",
     "word": "vehicle",
-    "meaningJa": "乗り物；車両",
+    "meaningJa": "乗り物、車両",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Only one vehicle can cross the bridge at a time.",
@@ -1603,7 +1603,7 @@
   {
     "id": "v1574",
     "word": "accommodation",
-    "meaningJa": "宿泊施設；宿泊場所",
+    "meaningJa": "宿泊施設、宿泊場所",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We found affordable accommodation near the university.",
@@ -1645,7 +1645,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "懸念；留保",
+        "meaningJa": "懸念、留保",
         "example": "My main reservation concerns the cost of the plan.",
         "exampleJa": "私の主な懸念はその計画の費用に関するものです。"
       }
@@ -1654,7 +1654,7 @@
   {
     "id": "v1576",
     "word": "tourism",
-    "meaningJa": "観光；観光業",
+    "meaningJa": "観光、観光業",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Tourism creates jobs in the coastal town.",
@@ -1696,7 +1696,7 @@
   {
     "id": "v1578",
     "word": "scenery",
-    "meaningJa": "景色；風景",
+    "meaningJa": "景色、風景",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We enjoyed the mountain scenery from the train.",
@@ -1718,7 +1718,7 @@
   {
     "id": "v1579",
     "word": "landscape",
-    "meaningJa": "景観；風景",
+    "meaningJa": "景観、風景",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Snow changed the landscape overnight.",
@@ -1739,7 +1739,7 @@
   {
     "id": "v1580",
     "word": "geography",
-    "meaningJa": "地理；地理学",
+    "meaningJa": "地理、地理学",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We study maps in geography class.",
@@ -1760,7 +1760,7 @@
   {
     "id": "v1581",
     "word": "resident",
-    "meaningJa": "住民；居住者",
+    "meaningJa": "住民、居住者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "One resident spoke about the new park.",
@@ -1789,7 +1789,7 @@
   {
     "id": "v1582",
     "word": "inhabitant",
-    "meaningJa": "住民；生息するもの",
+    "meaningJa": "住民、生息するもの",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Each inhabitant of the village received a letter.",
@@ -1810,7 +1810,7 @@
   {
     "id": "v1583",
     "word": "region",
-    "meaningJa": "地域；地方",
+    "meaningJa": "地域、地方",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The region is famous for its tea.",
@@ -1831,7 +1831,7 @@
   {
     "id": "v1584",
     "word": "territory",
-    "meaningJa": "領土；縄張り",
+    "meaningJa": "領土、縄張り",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The birds defend their territory in spring.",
@@ -1852,7 +1852,7 @@
   {
     "id": "v1585",
     "word": "border",
-    "meaningJa": "国境；境界",
+    "meaningJa": "国境、境界",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The river forms the border between the two countries.",
@@ -1872,7 +1872,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "接する；隣接する",
+        "meaningJa": "接する、隣接する",
         "example": "Several farms border the forest.",
         "exampleJa": "いくつかの農場がその森に接しています。"
       }
@@ -1881,7 +1881,7 @@
   {
     "id": "v1586",
     "word": "boundary",
-    "meaningJa": "境界；限界",
+    "meaningJa": "境界、限界",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "A fence marks the boundary of the field.",
@@ -1923,7 +1923,7 @@
   {
     "id": "v1588",
     "word": "government",
-    "meaningJa": "政府；統治",
+    "meaningJa": "政府、統治",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The government announced a new education plan.",
@@ -1944,7 +1944,7 @@
   {
     "id": "v1589",
     "word": "parliament",
-    "meaningJa": "議会；国会",
+    "meaningJa": "議会、国会",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The proposal was discussed in parliament.",
@@ -1965,7 +1965,7 @@
   {
     "id": "v1590",
     "word": "constitution",
-    "meaningJa": "憲法；構成",
+    "meaningJa": "憲法、構成",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The students compared the constitution of each country.",
@@ -1986,7 +1986,7 @@
   {
     "id": "v1591",
     "word": "legislation",
-    "meaningJa": "法律；立法",
+    "meaningJa": "法律、立法",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The committee reviewed legislation on water quality.",
@@ -2008,7 +2008,7 @@
   {
     "id": "v1592",
     "word": "regulation",
-    "meaningJa": "規則；規制",
+    "meaningJa": "規則、規制",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The new regulation limits noise at night.",
@@ -2029,7 +2029,7 @@
   {
     "id": "v1593",
     "word": "authority",
-    "meaningJa": "権限；権威",
+    "meaningJa": "権限、権威",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The manager has the authority to approve the request.",
@@ -2049,7 +2049,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "権威者；専門家",
+        "meaningJa": "権威者、専門家",
         "example": "She is an authority on ancient pottery.",
         "exampleJa": "彼女は古代の陶器の権威者です。"
       }
@@ -2058,7 +2058,7 @@
   {
     "id": "v1594",
     "word": "administration",
-    "meaningJa": "管理；運営；行政",
+    "meaningJa": "管理、運営、行政",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The school spends part of its budget on administration.",
@@ -2079,7 +2079,7 @@
   {
     "id": "v1595",
     "word": "institution",
-    "meaningJa": "機関；制度",
+    "meaningJa": "機関、制度",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The museum is an important cultural institution.",
@@ -2099,7 +2099,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "制度；慣習",
+        "meaningJa": "制度、慣習",
         "example": "The essay discusses marriage as a social institution.",
         "exampleJa": "その論文は結婚を社会制度として論じています。"
       }
@@ -2108,7 +2108,7 @@
   {
     "id": "v1596",
     "word": "organization",
-    "meaningJa": "組織；団体",
+    "meaningJa": "組織、団体",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The organization provides meals for local families.",
@@ -2129,7 +2129,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "整理；組織化",
+        "meaningJa": "整理、組織化",
         "example": "The clear organization of the report makes it easy to read.",
         "exampleJa": "その報告書は構成が明確に整理されているため読みやすいです。"
       }
@@ -2138,7 +2138,7 @@
   {
     "id": "v1597",
     "word": "candidate",
-    "meaningJa": "候補者；志願者",
+    "meaningJa": "候補者、志願者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Each candidate answered the same question.",
@@ -2159,7 +2159,7 @@
   {
     "id": "v1598",
     "word": "citizenship",
-    "meaningJa": "市民権；市民としての立場",
+    "meaningJa": "市民権、市民としての立場",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The course explores the meaning of citizenship.",
@@ -2201,7 +2201,7 @@
   {
     "id": "v1600",
     "word": "obligation",
-    "meaningJa": "義務；責務",
+    "meaningJa": "義務、責務",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "We have an obligation to protect the environment.",

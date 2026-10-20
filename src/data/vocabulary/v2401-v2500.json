@@ -2,7 +2,7 @@
   {
     "id": "v2401",
     "word": "observer",
-    "meaningJa": "観察者；監視員",
+    "meaningJa": "観察者、監視員",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Each observer recorded the behavior of one animal.",
@@ -23,7 +23,7 @@
   {
     "id": "v2402",
     "word": "exploration",
-    "meaningJa": "探検；探究",
+    "meaningJa": "探検、探究",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Space exploration has changed our view of the universe.",
@@ -65,7 +65,7 @@
   {
     "id": "v2404",
     "word": "detect",
-    "meaningJa": "検出する；見つける",
+    "meaningJa": "検出する、見つける",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The sensor can detect small changes in temperature.",
@@ -86,7 +86,7 @@
   {
     "id": "v2405",
     "word": "measurement",
-    "meaningJa": "測定；測定値",
+    "meaningJa": "測定、測定値",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The measurement showed that the water level had risen.",
@@ -150,7 +150,7 @@
   {
     "id": "v2408",
     "word": "prediction",
-    "meaningJa": "予測；予言",
+    "meaningJa": "予測、予言",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The results supported her prediction about plant growth.",
@@ -171,7 +171,7 @@
   {
     "id": "v2409",
     "word": "forecast",
-    "meaningJa": "予報；予測",
+    "meaningJa": "予報、予測",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The weather forecast warned of heavy rain.",
@@ -191,7 +191,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "予測する；予報する",
+        "meaningJa": "予測する、予報する",
         "example": "Experts forecast a rise in demand for electricity.",
         "exampleJa": "専門家たちは電力需要の増加を予測しています。"
       }
@@ -200,7 +200,7 @@
   {
     "id": "v2410",
     "word": "experimental",
-    "meaningJa": "実験の；試験的な",
+    "meaningJa": "実験の、試験的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The team compared the experimental results with its predictions.",
@@ -293,7 +293,7 @@
   {
     "id": "v2414",
     "word": "magnify",
-    "meaningJa": "拡大する；大きく見せる",
+    "meaningJa": "拡大する、大きく見せる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "This lens can magnify tiny objects.",
@@ -313,7 +313,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "増大させる；誇張する",
+        "meaningJa": "増大させる、誇張する",
         "example": "Repeated rumors can magnify public anxiety.",
         "exampleJa": "うわさが繰り返されると人々の不安が増大することがあります。"
       }
@@ -385,7 +385,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "明白な；隠し事のない",
+        "meaningJa": "明白な、隠し事のない",
         "example": "The selection process should be fair and transparent.",
         "exampleJa": "選考過程は公平で透明性のあるものであるべきです。"
       }
@@ -394,7 +394,7 @@
   {
     "id": "v2418",
     "word": "opaque",
-    "meaningJa": "不透明な；光を通さない",
+    "meaningJa": "不透明な、光を通さない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The liquid was stored in an opaque bottle.",
@@ -414,7 +414,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "理解しにくい；不明瞭な",
+        "meaningJa": "理解しにくい、不明瞭な",
         "example": "The report was full of opaque technical language.",
         "exampleJa": "その報告書は理解しにくい専門用語でいっぱいでした。"
       }
@@ -444,7 +444,7 @@
   {
     "id": "v2420",
     "word": "beam",
-    "meaningJa": "光線；光の束",
+    "meaningJa": "光線、光の束",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A beam of light swept across the dark room.",
@@ -464,7 +464,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "梁；横木",
+        "meaningJa": "梁、横木",
         "example": "A wooden beam supports the ceiling.",
         "exampleJa": "木の梁が天井を支えています。"
       }
@@ -578,7 +578,7 @@
   {
     "id": "v2426",
     "word": "nucleus",
-    "meaningJa": "核；原子核",
+    "meaningJa": "核、原子核",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The nucleus lies at the center of an atom.",
@@ -600,7 +600,7 @@
   {
     "id": "v2427",
     "word": "nuclear",
-    "meaningJa": "原子核の；原子力の",
+    "meaningJa": "原子核の、原子力の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The report compares nuclear power with other energy sources.",
@@ -621,7 +621,7 @@
   {
     "id": "v2428",
     "word": "ion",
-    "meaningJa": "イオン；電荷を持つ原子や分子",
+    "meaningJa": "イオン、電荷を持つ原子や分子",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "An ion may carry a positive or a negative charge.",
@@ -684,7 +684,7 @@
   {
     "id": "v2431",
     "word": "magnetic",
-    "meaningJa": "磁気の；磁石の",
+    "meaningJa": "磁気の、磁石の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The compass responds to a magnetic field.",
@@ -705,7 +705,7 @@
   {
     "id": "v2432",
     "word": "electrical",
-    "meaningJa": "電気の；電気に関する",
+    "meaningJa": "電気の、電気に関する",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The building needs new electrical wiring.",
@@ -727,7 +727,7 @@
   {
     "id": "v2433",
     "word": "electronic",
-    "meaningJa": "電子の；電子機器の",
+    "meaningJa": "電子の、電子機器の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The museum displays early electronic devices.",
@@ -770,7 +770,7 @@
   {
     "id": "v2435",
     "word": "momentum",
-    "meaningJa": "運動量；勢い",
+    "meaningJa": "運動量、勢い",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "At the same speed, a heavier cart has more momentum.",
@@ -790,7 +790,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "活動の勢い；推進力",
+        "meaningJa": "活動の勢い、推進力",
         "example": "The campaign gained momentum after the public meeting.",
         "exampleJa": "その運動は公開集会の後で勢いを増しました。"
       }
@@ -863,7 +863,7 @@
   {
     "id": "v2439",
     "word": "circumference",
-    "meaningJa": "円周；周囲の長さ",
+    "meaningJa": "円周、周囲の長さ",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "We measured the circumference of the tree trunk.",
@@ -884,7 +884,7 @@
   {
     "id": "v2440",
     "word": "contract",
-    "meaningJa": "契約；契約書",
+    "meaningJa": "契約、契約書",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She read the contract carefully before signing it.",
@@ -905,7 +905,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "収縮する；縮める",
+        "meaningJa": "収縮する、縮める",
         "example": "The metal will contract as it cools.",
         "exampleJa": "その金属は冷えるにつれて収縮します。"
       }
@@ -914,7 +914,7 @@
   {
     "id": "v2441",
     "word": "compress",
-    "meaningJa": "圧縮する；押し縮める",
+    "meaningJa": "圧縮する、押し縮める",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The machine can compress the waste into small blocks.",
@@ -935,7 +935,7 @@
   {
     "id": "v2442",
     "word": "dissolve",
-    "meaningJa": "溶ける；溶かす",
+    "meaningJa": "溶ける、溶かす",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Stir the water to dissolve the sugar.",
@@ -956,7 +956,7 @@
   {
     "id": "v2443",
     "word": "solvent",
-    "meaningJa": "溶媒；溶剤",
+    "meaningJa": "溶媒、溶剤",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The chemist selected a solvent for the experiment.",
@@ -977,7 +977,7 @@
   {
     "id": "v2444",
     "word": "soluble",
-    "meaningJa": "溶ける；溶解性のある",
+    "meaningJa": "溶ける、溶解性のある",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The powder is soluble in water.",
@@ -999,7 +999,7 @@
   {
     "id": "v2445",
     "word": "evaporate",
-    "meaningJa": "蒸発する；蒸発させる",
+    "meaningJa": "蒸発する、蒸発させる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Water will evaporate faster in a warm room.",
@@ -1020,7 +1020,7 @@
   {
     "id": "v2446",
     "word": "condense",
-    "meaningJa": "凝縮する；凝結する",
+    "meaningJa": "凝縮する、凝結する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Water vapor can condense on a cold window.",
@@ -1040,7 +1040,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "要約する；短くまとめる",
+        "meaningJa": "要約する、短くまとめる",
         "example": "Please condense the discussion into three main points.",
         "exampleJa": "その議論を三つの要点にまとめてください。"
       }
@@ -1071,7 +1071,7 @@
   {
     "id": "v2448",
     "word": "fluid",
-    "meaningJa": "流体；液体",
+    "meaningJa": "流体、液体",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The pump moves fluid through the pipes.",
@@ -1092,7 +1092,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "流動的な；変化しやすい",
+        "meaningJa": "流動的な、変化しやすい",
         "example": "The schedule remains fluid while talks continue.",
         "exampleJa": "協議が続いている間、日程は流動的なままです。"
       }
@@ -1101,7 +1101,7 @@
   {
     "id": "v2449",
     "word": "crystal",
-    "meaningJa": "結晶；水晶",
+    "meaningJa": "結晶、水晶",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A small crystal formed at the bottom of the dish.",
@@ -1142,7 +1142,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "さびる；さびさせる",
+        "meaningJa": "さびる、さびさせる",
         "example": "Iron tools can rust in damp air.",
         "exampleJa": "鉄の道具は湿った空気の中でさびることがあります。"
       }
@@ -1151,7 +1151,7 @@
   {
     "id": "v2451",
     "word": "worm",
-    "meaningJa": "ミミズ；細長い虫",
+    "meaningJa": "ミミズ、細長い虫",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A worm moved through the wet soil.",
@@ -1235,7 +1235,7 @@
   {
     "id": "v2455",
     "word": "caterpillar",
-    "meaningJa": "毛虫；イモムシ",
+    "meaningJa": "毛虫、イモムシ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The caterpillar was eating a green leaf.",
@@ -1278,7 +1278,7 @@
   {
     "id": "v2457",
     "word": "hive",
-    "meaningJa": "ミツバチの巣；巣箱",
+    "meaningJa": "ミツバチの巣、巣箱",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The bees returned to the hive before sunset.",
@@ -1299,7 +1299,7 @@
   {
     "id": "v2458",
     "word": "web",
-    "meaningJa": "クモの巣；網状のもの",
+    "meaningJa": "クモの巣、網状のもの",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The spider repaired its web after the rain.",
@@ -1319,7 +1319,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "ウェブ；インターネット上の情報網",
+        "meaningJa": "ウェブ、インターネット上の情報網",
         "example": "She found the museum schedule on the web.",
         "exampleJa": "彼女は博物館の予定をウェブで見つけました。"
       }
@@ -1328,7 +1328,7 @@
   {
     "id": "v2459",
     "word": "feather",
-    "meaningJa": "羽；羽毛",
+    "meaningJa": "羽、羽毛",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A white feather floated down from the branch.",
@@ -1350,7 +1350,7 @@
   {
     "id": "v2460",
     "word": "fur",
-    "meaningJa": "毛皮；動物の柔らかい毛",
+    "meaningJa": "毛皮、動物の柔らかい毛",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The rabbit has thick white fur.",
@@ -1414,7 +1414,7 @@
   {
     "id": "v2463",
     "word": "wing",
-    "meaningJa": "翼；羽",
+    "meaningJa": "翼、羽",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The bird had an injured wing.",
@@ -1434,7 +1434,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "建物の棟；組織の一派",
+        "meaningJa": "建物の棟、組織の一派",
         "example": "The hospital opened a new wing for children.",
         "exampleJa": "その病院は子ども用の新しい病棟を開設しました。"
       }
@@ -1443,7 +1443,7 @@
   {
     "id": "v2464",
     "word": "tail",
-    "meaningJa": "尾；しっぽ",
+    "meaningJa": "尾、しっぽ",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The dog wagged its tail when we arrived.",
@@ -1464,7 +1464,7 @@
   {
     "id": "v2465",
     "word": "horn",
-    "meaningJa": "角；警笛",
+    "meaningJa": "角、警笛",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The goat rubbed its horn against the fence.",
@@ -1484,7 +1484,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "警笛；クラクション",
+        "meaningJa": "警笛、クラクション",
         "example": "The driver sounded the horn to warn the cyclist.",
         "exampleJa": "運転手は自転車の人に注意を促すためにクラクションを鳴らしました。"
       }
@@ -1515,7 +1515,7 @@
   {
     "id": "v2467",
     "word": "paw",
-    "meaningJa": "動物の足；足先",
+    "meaningJa": "動物の足、足先",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The dog placed a paw on my knee.",
@@ -1579,7 +1579,7 @@
   {
     "id": "v2470",
     "word": "shell",
-    "meaningJa": "殻；貝殻",
+    "meaningJa": "殻、貝殻",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The child found a shell on the beach.",
@@ -1707,7 +1707,7 @@
   {
     "id": "v2475",
     "word": "bud",
-    "meaningJa": "芽；つぼみ",
+    "meaningJa": "芽、つぼみ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A small bud appeared at the end of the branch.",
@@ -1728,7 +1728,7 @@
   {
     "id": "v2476",
     "word": "blossom",
-    "meaningJa": "花；開花",
+    "meaningJa": "花、開花",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The apple trees were covered in blossom.",
@@ -1748,7 +1748,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "花が咲く；発展する",
+        "meaningJa": "花が咲く、発展する",
         "example": "The trees will blossom in spring.",
         "exampleJa": "その木々は春に花を咲かせます。"
       }
@@ -1821,7 +1821,7 @@
   {
     "id": "v2480",
     "word": "seed",
-    "meaningJa": "種；種子",
+    "meaningJa": "種、種子",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She planted a seed in a small pot.",
@@ -1841,7 +1841,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "始まり；原因となるもの",
+        "meaningJa": "始まり、原因となるもの",
         "example": "That conversation planted a seed of doubt in her mind.",
         "exampleJa": "その会話は彼女の心に疑念の種をまきました。"
       }
@@ -1850,7 +1850,7 @@
   {
     "id": "v2481",
     "word": "seedling",
-    "meaningJa": "実生；種から育った苗",
+    "meaningJa": "実生、種から育った苗",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Each seedling was moved into a separate pot.",
@@ -1993,7 +1993,7 @@
   {
     "id": "v2487",
     "word": "vine",
-    "meaningJa": "つる植物；つる",
+    "meaningJa": "つる植物、つる",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "A vine climbed up the garden wall.",
@@ -2014,7 +2014,7 @@
   {
     "id": "v2488",
     "word": "marine",
-    "meaningJa": "海の；海洋の",
+    "meaningJa": "海の、海洋の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The scientists study marine life near the island.",
@@ -2035,7 +2035,7 @@
   {
     "id": "v2489",
     "word": "aquatic",
-    "meaningJa": "水生の；水の",
+    "meaningJa": "水生の、水の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The pond supports a variety of aquatic plants.",
@@ -2056,7 +2056,7 @@
   {
     "id": "v2490",
     "word": "terrestrial",
-    "meaningJa": "陸上の；地球の",
+    "meaningJa": "陸上の、地球の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The study compares aquatic and terrestrial habitats.",
@@ -2077,7 +2077,7 @@
   {
     "id": "v2491",
     "word": "organic",
-    "meaningJa": "有機物の；生物由来の",
+    "meaningJa": "有機物の、生物由来の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Fallen leaves add organic matter to the soil.",
@@ -2097,7 +2097,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "有機栽培の；有機農業の",
+        "meaningJa": "有機栽培の、有機農業の",
         "example": "The shop sells organic vegetables from local farms.",
         "exampleJa": "その店は地元の農場から仕入れた有機栽培の野菜を売っています。"
       }
@@ -2106,7 +2106,7 @@
   {
     "id": "v2492",
     "word": "inorganic",
-    "meaningJa": "無機の；無機物の",
+    "meaningJa": "無機の、無機物の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The lesson compares organic and inorganic compounds.",
@@ -2127,7 +2127,7 @@
   {
     "id": "v2493",
     "word": "sediment",
-    "meaningJa": "堆積物；沈殿物",
+    "meaningJa": "堆積物、沈殿物",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The river carries sediment toward the sea.",
@@ -2148,7 +2148,7 @@
   {
     "id": "v2494",
     "word": "erode",
-    "meaningJa": "侵食する；徐々に損なう",
+    "meaningJa": "侵食する、徐々に損なう",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Strong waves can erode the coast.",
@@ -2168,7 +2168,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "徐々に損なう；弱める",
+        "meaningJa": "徐々に損なう、弱める",
         "example": "Repeated mistakes can erode public trust.",
         "exampleJa": "間違いを繰り返すことは人々の信頼を徐々に損なうおそれがあります。"
       }
@@ -2177,7 +2177,7 @@
   {
     "id": "v2495",
     "word": "tide",
-    "meaningJa": "潮；潮の満ち引き",
+    "meaningJa": "潮、潮の満ち引き",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The tide was coming in as we left the beach.",
@@ -2219,7 +2219,7 @@
   {
     "id": "v2497",
     "word": "alga",
-    "meaningJa": "藻；藻類",
+    "meaningJa": "藻、藻類",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "This alga grows in fresh water.",

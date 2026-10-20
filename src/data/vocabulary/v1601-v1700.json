@@ -2,7 +2,7 @@
   {
     "id": "v1601",
     "word": "demonstrate",
-    "meaningJa": "示す；実演する",
+    "meaningJa": "示す、実演する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The experiment will demonstrate how the device works.",
@@ -23,7 +23,7 @@
   {
     "id": "v1602",
     "word": "illustrate",
-    "meaningJa": "例で説明する；図解する",
+    "meaningJa": "例で説明する、図解する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "These examples illustrate the main point.",
@@ -107,7 +107,7 @@
   {
     "id": "v1606",
     "word": "verify",
-    "meaningJa": "検証する；確かめる",
+    "meaningJa": "検証する、確かめる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "We need to verify the accuracy of the data.",
@@ -128,7 +128,7 @@
   {
     "id": "v1607",
     "word": "reject",
-    "meaningJa": "拒否する；退ける",
+    "meaningJa": "拒否する、退ける",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The committee may reject the proposal.",
@@ -170,7 +170,7 @@
   {
     "id": "v1609",
     "word": "assert",
-    "meaningJa": "断言する；主張する",
+    "meaningJa": "断言する、主張する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The authors assert that the change is necessary.",
@@ -191,7 +191,7 @@
   {
     "id": "v1610",
     "word": "advocate",
-    "meaningJa": "支持する；提唱する",
+    "meaningJa": "支持する、提唱する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Some researchers advocate a different approach.",
@@ -211,7 +211,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "支持者；提唱者",
+        "meaningJa": "支持者、提唱者",
         "example": "She is an advocate of equal access to education.",
         "exampleJa": "彼女は教育を受ける機会の平等を支持しています。"
       }
@@ -262,7 +262,7 @@
   {
     "id": "v1613",
     "word": "assess",
-    "meaningJa": "評価する；査定する",
+    "meaningJa": "評価する、査定する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Engineers will assess the damage to the bridge.",
@@ -283,7 +283,7 @@
   {
     "id": "v1614",
     "word": "estimate",
-    "meaningJa": "見積もる；推定する",
+    "meaningJa": "見積もる、推定する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Can you estimate the cost of the repairs?",
@@ -303,7 +303,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "見積もり；推定",
+        "meaningJa": "見積もり、推定",
         "example": "The builder gave us an estimate for the repairs.",
         "exampleJa": "建築業者は私たちに修理の見積もりを出しました。"
       }
@@ -312,7 +312,7 @@
   {
     "id": "v1615",
     "word": "perceive",
-    "meaningJa": "知覚する；捉える",
+    "meaningJa": "知覚する、捉える",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "People may perceive the same event differently.",
@@ -354,7 +354,7 @@
   {
     "id": "v1617",
     "word": "grasp",
-    "meaningJa": "しっかりつかむ；理解する",
+    "meaningJa": "しっかりつかむ、理解する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Grasp the handle firmly before lifting the box.",
@@ -383,7 +383,7 @@
   {
     "id": "v1618",
     "word": "specify",
-    "meaningJa": "明示する；指定する",
+    "meaningJa": "明示する、指定する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Please specify the date of your arrival.",
@@ -425,7 +425,7 @@
   {
     "id": "v1620",
     "word": "categorize",
-    "meaningJa": "分類する；区分する",
+    "meaningJa": "分類する、区分する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We categorize the responses by topic.",
@@ -468,7 +468,7 @@
   {
     "id": "v1622",
     "word": "correlate",
-    "meaningJa": "相関する；関連づける",
+    "meaningJa": "相関する、関連づける",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The two measurements do not always correlate.",
@@ -490,7 +490,7 @@
   {
     "id": "v1623",
     "word": "associate",
-    "meaningJa": "関連づける；連想する",
+    "meaningJa": "関連づける、連想する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Many people associate this song with summer.",
@@ -512,7 +512,7 @@
   {
     "id": "v1624",
     "word": "attribute",
-    "meaningJa": "原因だと考える；帰する",
+    "meaningJa": "原因だと考える、帰する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The researchers attribute the difference to age.",
@@ -533,7 +533,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "特性；属性",
+        "meaningJa": "特性、属性",
         "example": "Patience is a useful attribute for a teacher.",
         "exampleJa": "忍耐力は教師にとって役立つ特性です。"
       }
@@ -542,7 +542,7 @@
   {
     "id": "v1625",
     "word": "derive",
-    "meaningJa": "得る；由来する",
+    "meaningJa": "得る、由来する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Many English words derive from Latin.",
@@ -563,7 +563,7 @@
   {
     "id": "v1626",
     "word": "originate",
-    "meaningJa": "始まる；起こる；由来する",
+    "meaningJa": "始まる、起こる、由来する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Where did this custom originate?",
@@ -584,7 +584,7 @@
   {
     "id": "v1627",
     "word": "stem",
-    "meaningJa": "生じる；由来する",
+    "meaningJa": "生じる、由来する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "These problems stem from poor communication.",
@@ -614,7 +614,7 @@
   {
     "id": "v1628",
     "word": "emerge",
-    "meaningJa": "現れる；明らかになる",
+    "meaningJa": "現れる、明らかになる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "New ideas often emerge during a discussion.",
@@ -635,7 +635,7 @@
   {
     "id": "v1629",
     "word": "generate",
-    "meaningJa": "生み出す；発生させる",
+    "meaningJa": "生み出す、発生させる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The panels generate electricity from sunlight.",
@@ -656,7 +656,7 @@
   {
     "id": "v1630",
     "word": "trigger",
-    "meaningJa": "引き起こす；きっかけとなる",
+    "meaningJa": "引き起こす、きっかけとなる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Heavy rain can trigger a landslide.",
@@ -676,7 +676,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "引き金；きっかけ",
+        "meaningJa": "引き金、きっかけ",
         "example": "The argument was a trigger for wider debate.",
         "exampleJa": "その口論はより広い議論のきっかけとなりました。"
       }
@@ -685,7 +685,7 @@
   {
     "id": "v1631",
     "word": "induce",
-    "meaningJa": "引き起こす；誘発する",
+    "meaningJa": "引き起こす、誘発する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The experiment may induce a change in the material.",
@@ -706,7 +706,7 @@
   {
     "id": "v1632",
     "word": "facilitate",
-    "meaningJa": "促進する；容易にする",
+    "meaningJa": "促進する、容易にする",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Clear instructions facilitate communication.",
@@ -727,7 +727,7 @@
   {
     "id": "v1633",
     "word": "promote",
-    "meaningJa": "促進する；推進する",
+    "meaningJa": "促進する、推進する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The program aims to promote cultural exchange.",
@@ -756,7 +756,7 @@
   {
     "id": "v1634",
     "word": "enhance",
-    "meaningJa": "高める；向上させる",
+    "meaningJa": "高める、向上させる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The new lighting will enhance the display.",
@@ -777,7 +777,7 @@
   {
     "id": "v1635",
     "word": "reinforce",
-    "meaningJa": "強化する；補強する",
+    "meaningJa": "強化する、補強する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The new findings reinforce the earlier conclusion.",
@@ -798,7 +798,7 @@
   {
     "id": "v1636",
     "word": "strengthen",
-    "meaningJa": "強くする；強化する",
+    "meaningJa": "強くする、強化する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Regular practice can strengthen your skills.",
@@ -819,7 +819,7 @@
   {
     "id": "v1637",
     "word": "weaken",
-    "meaningJa": "弱める；弱くなる",
+    "meaningJa": "弱める、弱くなる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Cracks can weaken the structure of a building.",
@@ -840,7 +840,7 @@
   {
     "id": "v1638",
     "word": "undermine",
-    "meaningJa": "徐々に損なう；弱体化させる",
+    "meaningJa": "徐々に損なう、弱体化させる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "False information can undermine public trust.",
@@ -861,7 +861,7 @@
   {
     "id": "v1639",
     "word": "inhibit",
-    "meaningJa": "抑制する；妨げる",
+    "meaningJa": "抑制する、妨げる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "A lack of light can inhibit plant growth.",
@@ -903,7 +903,7 @@
   {
     "id": "v1641",
     "word": "regulate",
-    "meaningJa": "規制する；調整する",
+    "meaningJa": "規制する、調整する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The device helps regulate the flow of water.",
@@ -924,7 +924,7 @@
   {
     "id": "v1642",
     "word": "impose",
-    "meaningJa": "課す；押し付ける",
+    "meaningJa": "課す、押し付ける",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The school may impose limits on phone use.",
@@ -946,7 +946,7 @@
   {
     "id": "v1643",
     "word": "compel",
-    "meaningJa": "強いる；余儀なくさせる",
+    "meaningJa": "強いる、余儀なくさせる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The evidence may compel us to revise the theory.",
@@ -968,7 +968,7 @@
   {
     "id": "v1644",
     "word": "oblige",
-    "meaningJa": "義務づける；余儀なくさせる",
+    "meaningJa": "義務づける、余儀なくさせる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The rules oblige visitors to wear a badge.",
@@ -990,7 +990,7 @@
   {
     "id": "v1645",
     "word": "discourage",
-    "meaningJa": "落胆させる；思いとどまらせる",
+    "meaningJa": "落胆させる、思いとどまらせる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Do not let one mistake discourage you.",
@@ -1012,7 +1012,7 @@
   {
     "id": "v1646",
     "word": "motivate",
-    "meaningJa": "動機づける；意欲を起こさせる",
+    "meaningJa": "動機づける、意欲を起こさせる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Clear goals can motivate students to study.",
@@ -1033,7 +1033,7 @@
   {
     "id": "v1647",
     "word": "stimulate",
-    "meaningJa": "刺激する；促す",
+    "meaningJa": "刺激する、促す",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The questions stimulate further discussion.",
@@ -1054,7 +1054,7 @@
   {
     "id": "v1648",
     "word": "inspire",
-    "meaningJa": "奮い立たせる；着想を与える",
+    "meaningJa": "奮い立たせる、着想を与える",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Her story may inspire others to try again.",
@@ -1096,7 +1096,7 @@
   {
     "id": "v1650",
     "word": "assure",
-    "meaningJa": "保証する；安心させる",
+    "meaningJa": "保証する、安心させる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "I can assure you that the file is safe.",
@@ -1138,7 +1138,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "保証；保証書",
+        "meaningJa": "保証、保証書",
         "example": "The watch comes with a one-year guarantee.",
         "exampleJa": "その時計には一年間の保証が付いています。"
       }
@@ -1147,7 +1147,7 @@
   {
     "id": "v1652",
     "word": "attain",
-    "meaningJa": "達成する；到達する",
+    "meaningJa": "達成する、到達する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The team hopes to attain its goal this year.",
@@ -1168,7 +1168,7 @@
   {
     "id": "v1653",
     "word": "fulfill",
-    "meaningJa": "果たす；満たす",
+    "meaningJa": "果たす、満たす",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We must fulfill our promise to the community.",
@@ -1190,7 +1190,7 @@
   {
     "id": "v1654",
     "word": "retain",
-    "meaningJa": "保持する；維持する",
+    "meaningJa": "保持する、維持する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "This material can retain heat for a long time.",
@@ -1211,7 +1211,7 @@
   {
     "id": "v1655",
     "word": "sustain",
-    "meaningJa": "維持する；支える",
+    "meaningJa": "維持する、支える",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The small farm cannot sustain a large population.",
@@ -1232,7 +1232,7 @@
   {
     "id": "v1656",
     "word": "endure",
-    "meaningJa": "耐える；持ちこたえる",
+    "meaningJa": "耐える、持ちこたえる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The travelers had to endure the extreme cold.",
@@ -1253,7 +1253,7 @@
   {
     "id": "v1657",
     "word": "undergo",
-    "meaningJa": "経験する；受ける",
+    "meaningJa": "経験する、受ける",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The building will undergo major repairs.",
@@ -1274,7 +1274,7 @@
   {
     "id": "v1658",
     "word": "encounter",
-    "meaningJa": "遭遇する；出会う",
+    "meaningJa": "遭遇する、出会う",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Travelers sometimes encounter unexpected problems.",
@@ -1294,7 +1294,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "遭遇；出会い",
+        "meaningJa": "遭遇、出会い",
         "example": "An unexpected encounter changed her plans.",
         "exampleJa": "思いがけない出会いが彼女の計画を変えました。"
       }
@@ -1303,7 +1303,7 @@
   {
     "id": "v1659",
     "word": "confront",
-    "meaningJa": "直面する；立ち向かう",
+    "meaningJa": "直面する、立ち向かう",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We must confront the problem directly.",
@@ -1396,7 +1396,7 @@
   {
     "id": "v1663",
     "word": "eliminate",
-    "meaningJa": "取り除く；排除する",
+    "meaningJa": "取り除く、排除する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The new design will eliminate unnecessary steps.",
@@ -1417,7 +1417,7 @@
   {
     "id": "v1664",
     "word": "exclude",
-    "meaningJa": "除外する；締め出す",
+    "meaningJa": "除外する、締め出す",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The prices exclude the cost of delivery.",
@@ -1438,7 +1438,7 @@
   {
     "id": "v1665",
     "word": "incorporate",
-    "meaningJa": "組み入れる；取り込む",
+    "meaningJa": "組み入れる、取り込む",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The plan will incorporate suggestions from residents.",
@@ -1459,7 +1459,7 @@
   {
     "id": "v1666",
     "word": "integrate",
-    "meaningJa": "統合する；一体化する",
+    "meaningJa": "統合する、一体化する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The project aims to integrate art and science.",
@@ -1480,7 +1480,7 @@
   {
     "id": "v1667",
     "word": "compose",
-    "meaningJa": "作曲する；構成する",
+    "meaningJa": "作曲する、構成する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "She likes to compose music for the piano.",
@@ -1509,7 +1509,7 @@
   {
     "id": "v1668",
     "word": "constitute",
-    "meaningJa": "構成する；〜に相当する",
+    "meaningJa": "構成する、〜に相当する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "These changes constitute a major improvement.",
@@ -1530,7 +1530,7 @@
   {
     "id": "v1669",
     "word": "comprise",
-    "meaningJa": "〜から成る；含む",
+    "meaningJa": "〜から成る、含む",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The collection will comprise fifty paintings.",
@@ -1552,7 +1552,7 @@
   {
     "id": "v1670",
     "word": "transform",
-    "meaningJa": "一変させる；変形させる",
+    "meaningJa": "一変させる、変形させる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The new railway will transform the region.",
@@ -1573,7 +1573,7 @@
   {
     "id": "v1671",
     "word": "convert",
-    "meaningJa": "変える；転換する",
+    "meaningJa": "変える、転換する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The device can convert sunlight into electricity.",
@@ -1595,7 +1595,7 @@
   {
     "id": "v1672",
     "word": "modify",
-    "meaningJa": "修正する；変更する",
+    "meaningJa": "修正する、変更する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We need to modify the design slightly.",
@@ -1616,7 +1616,7 @@
   {
     "id": "v1673",
     "word": "adjust",
-    "meaningJa": "調整する；適応する",
+    "meaningJa": "調整する、適応する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Please adjust the height of the chair.",
@@ -1636,7 +1636,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "適応する；慣れる",
+        "meaningJa": "適応する、慣れる",
         "example": "It takes time to adjust to a new school.",
         "exampleJa": "新しい学校に慣れるには時間がかかります。"
       }
@@ -1645,7 +1645,7 @@
   {
     "id": "v1674",
     "word": "alter",
-    "meaningJa": "変える；変わる",
+    "meaningJa": "変える、変わる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "New evidence may alter our understanding of the event.",
@@ -1666,7 +1666,7 @@
   {
     "id": "v1675",
     "word": "vary",
-    "meaningJa": "異なる；変動する",
+    "meaningJa": "異なる、変動する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Prices vary from store to store.",
@@ -1709,7 +1709,7 @@
   {
     "id": "v1677",
     "word": "evolve",
-    "meaningJa": "進化する；発展する",
+    "meaningJa": "進化する、発展する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Languages continue to evolve over time.",
@@ -1730,7 +1730,7 @@
   {
     "id": "v1678",
     "word": "proceed",
-    "meaningJa": "進む；続行する",
+    "meaningJa": "進む、続行する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "We cannot proceed without more information.",
@@ -1751,7 +1751,7 @@
   {
     "id": "v1679",
     "word": "precede",
-    "meaningJa": "先行する；先に起こる",
+    "meaningJa": "先行する、先に起こる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "A short introduction will precede the discussion.",
@@ -1793,7 +1793,7 @@
   {
     "id": "v1681",
     "word": "surpass",
-    "meaningJa": "上回る；しのぐ",
+    "meaningJa": "上回る、しのぐ",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The results surpass our expectations.",
@@ -1814,7 +1814,7 @@
   {
     "id": "v1682",
     "word": "abandon",
-    "meaningJa": "捨てる；断念する",
+    "meaningJa": "捨てる、断念する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "They had to abandon the plan because of the storm.",
@@ -1878,7 +1878,7 @@
   {
     "id": "v1685",
     "word": "tolerate",
-    "meaningJa": "我慢する；容認する",
+    "meaningJa": "我慢する、容認する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The manager will not tolerate rude behavior.",
@@ -1899,7 +1899,7 @@
   {
     "id": "v1686",
     "word": "resist",
-    "meaningJa": "抵抗する；こらえる",
+    "meaningJa": "抵抗する、こらえる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Some people resist changes to their daily routine.",
@@ -1962,7 +1962,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "同意；承諾",
+        "meaningJa": "同意、承諾",
         "example": "They used the photograph with her consent.",
         "exampleJa": "彼らは彼女の同意を得てその写真を使用しました。"
       }
@@ -1971,7 +1971,7 @@
   {
     "id": "v1689",
     "word": "comply",
-    "meaningJa": "従う；応じる",
+    "meaningJa": "従う、応じる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "All visitors must comply with the safety rules.",
@@ -2014,7 +2014,7 @@
   {
     "id": "v1691",
     "word": "violate",
-    "meaningJa": "違反する；侵害する",
+    "meaningJa": "違反する、侵害する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The new policy must not violate basic rights.",
@@ -2035,7 +2035,7 @@
   {
     "id": "v1692",
     "word": "interrupt",
-    "meaningJa": "中断する；遮る",
+    "meaningJa": "中断する、遮る",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Please do not interrupt the speaker.",
@@ -2056,7 +2056,7 @@
   {
     "id": "v1693",
     "word": "interfere",
-    "meaningJa": "干渉する；妨げる",
+    "meaningJa": "干渉する、妨げる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Loud music can interfere with sleep.",
@@ -2077,7 +2077,7 @@
   {
     "id": "v1694",
     "word": "intervene",
-    "meaningJa": "介入する；仲裁する",
+    "meaningJa": "介入する、仲裁する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The teacher had to intervene in the argument.",
@@ -2098,7 +2098,7 @@
   {
     "id": "v1695",
     "word": "disrupt",
-    "meaningJa": "混乱させる；中断させる",
+    "meaningJa": "混乱させる、中断させる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Heavy snow may disrupt train services.",
@@ -2119,7 +2119,7 @@
   {
     "id": "v1696",
     "word": "deteriorate",
-    "meaningJa": "悪化する；劣化する",
+    "meaningJa": "悪化する、劣化する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The condition of the road may deteriorate in winter.",
@@ -2140,7 +2140,7 @@
   {
     "id": "v1697",
     "word": "decay",
-    "meaningJa": "腐る；衰える",
+    "meaningJa": "腐る、衰える",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Fallen leaves decay on the forest floor.",
@@ -2161,7 +2161,7 @@
   {
     "id": "v1698",
     "word": "collapse",
-    "meaningJa": "崩れる；崩壊する",
+    "meaningJa": "崩れる、崩壊する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The old wall could collapse in a strong wind.",
@@ -2181,7 +2181,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "崩壊；倒壊",
+        "meaningJa": "崩壊、倒壊",
         "example": "The collapse of the bridge blocked the road.",
         "exampleJa": "橋の崩落によって道路がふさがれました。"
       }
@@ -2190,7 +2190,7 @@
   {
     "id": "v1699",
     "word": "diminish",
-    "meaningJa": "減少する；減らす",
+    "meaningJa": "減少する、減らす",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The noise began to diminish as the train moved away.",
@@ -2211,7 +2211,7 @@
   {
     "id": "v1700",
     "word": "shrink",
-    "meaningJa": "縮む；縮小する",
+    "meaningJa": "縮む、縮小する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "This shirt may shrink in hot water.",

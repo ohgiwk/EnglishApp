@@ -2,7 +2,7 @@
   {
     "id": "v2801",
     "word": "ecological",
-    "meaningJa": "生態系の；生態学の",
+    "meaningJa": "生態系の、生態学の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The project studies the ecological effects of farming.",
@@ -194,7 +194,7 @@
   {
     "id": "v2810",
     "word": "flora",
-    "meaningJa": "植物相；ある地域の植物群",
+    "meaningJa": "植物相、ある地域の植物群",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The guide describes the flora of the island.",
@@ -216,7 +216,7 @@
   {
     "id": "v2811",
     "word": "fauna",
-    "meaningJa": "動物相；ある地域の動物群",
+    "meaningJa": "動物相、ある地域の動物群",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The survey recorded the fauna of the wetland.",
@@ -386,7 +386,7 @@
   {
     "id": "v2819",
     "word": "immunity",
-    "meaningJa": "免疫；免除",
+    "meaningJa": "免疫、免除",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The researchers studied immunity to the virus.",
@@ -429,7 +429,7 @@
   {
     "id": "v2821",
     "word": "vaccination",
-    "meaningJa": "ワクチン接種；予防接種",
+    "meaningJa": "ワクチン接種、予防接種",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The report compares vaccination rates across regions.",
@@ -450,7 +450,7 @@
   {
     "id": "v2822",
     "word": "infectious",
-    "meaningJa": "感染性の；伝染性の",
+    "meaningJa": "感染性の、伝染性の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The team studies infectious diseases.",
@@ -471,7 +471,7 @@
   {
     "id": "v2823",
     "word": "contagious",
-    "meaningJa": "伝染する；人に広がりやすい",
+    "meaningJa": "伝染する、人に広がりやすい",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The illness is highly contagious.",
@@ -492,7 +492,7 @@
   {
     "id": "v2824",
     "word": "epidemic",
-    "meaningJa": "流行；感染症の流行",
+    "meaningJa": "流行、感染症の流行",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The epidemic disrupted life in the city.",
@@ -534,7 +534,7 @@
   {
     "id": "v2826",
     "word": "sanitation",
-    "meaningJa": "衛生設備；衛生管理",
+    "meaningJa": "衛生設備、衛生管理",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The village needs better sanitation.",
@@ -555,7 +555,7 @@
   {
     "id": "v2827",
     "word": "wastewater",
-    "meaningJa": "廃水；排水",
+    "meaningJa": "廃水、排水",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The plant treats wastewater from nearby homes.",
@@ -576,7 +576,7 @@
   {
     "id": "v2828",
     "word": "landfill",
-    "meaningJa": "ごみ埋立地；埋立処分",
+    "meaningJa": "ごみ埋立地、埋立処分",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The town plans to close its old landfill.",
@@ -725,7 +725,7 @@
   {
     "id": "v2835",
     "word": "deforestation",
-    "meaningJa": "森林破壊；森林伐採",
+    "meaningJa": "森林破壊、森林伐採",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Deforestation has reduced the habitat of these birds.",
@@ -767,7 +767,7 @@
   {
     "id": "v2837",
     "word": "irrigation",
-    "meaningJa": "灌漑；農地への給水",
+    "meaningJa": "灌漑、農地への給水",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The farmers built a new irrigation system.",
@@ -809,7 +809,7 @@
   {
     "id": "v2839",
     "word": "polar",
-    "meaningJa": "極地の；南極・北極の",
+    "meaningJa": "極地の、南極・北極の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The team collected data in polar regions.",
@@ -830,7 +830,7 @@
   {
     "id": "v2840",
     "word": "Arctic",
-    "meaningJa": "北極の；北極地方の",
+    "meaningJa": "北極の、北極地方の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The plant can survive in Arctic conditions.",
@@ -851,7 +851,7 @@
   {
     "id": "v2841",
     "word": "Antarctic",
-    "meaningJa": "南極の；南極地方の",
+    "meaningJa": "南極の、南極地方の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The ship entered Antarctic waters.",
@@ -935,7 +935,7 @@
   {
     "id": "v2845",
     "word": "precipitation",
-    "meaningJa": "降水；降水量",
+    "meaningJa": "降水、降水量",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Annual precipitation varies greatly across the region.",
@@ -978,7 +978,7 @@
   {
     "id": "v2847",
     "word": "condensation",
-    "meaningJa": "凝結；結露",
+    "meaningJa": "凝結、結露",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Condensation formed on the cold window.",
@@ -1020,7 +1020,7 @@
   {
     "id": "v2849",
     "word": "magnitude",
-    "meaningJa": "大きさ；規模",
+    "meaningJa": "大きさ、規模",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The report reveals the magnitude of the problem.",
@@ -1041,7 +1041,7 @@
   {
     "id": "v2850",
     "word": "thermometer",
-    "meaningJa": "温度計；体温計",
+    "meaningJa": "温度計、体温計",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The thermometer showed a temperature of twenty degrees.",
@@ -1062,7 +1062,7 @@
   {
     "id": "v2851",
     "word": "deflation",
-    "meaningJa": "デフレーション；物価の持続的な下落",
+    "meaningJa": "デフレーション、物価の持続的な下落",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The report examines the causes of deflation.",
@@ -1104,7 +1104,7 @@
   {
     "id": "v2853",
     "word": "expenditure",
-    "meaningJa": "支出；支出額",
+    "meaningJa": "支出、支出額",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The chart shows annual expenditure on education.",
@@ -1147,7 +1147,7 @@
   {
     "id": "v2855",
     "word": "monetary",
-    "meaningJa": "通貨の；金融の",
+    "meaningJa": "通貨の、金融の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The bank announced a change in monetary policy.",
@@ -1169,7 +1169,7 @@
   {
     "id": "v2856",
     "word": "mortgage",
-    "meaningJa": "住宅などを担保にした融資；住宅ローン",
+    "meaningJa": "住宅などを担保にした融資、住宅ローン",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "They took out a mortgage to buy the house.",
@@ -1211,7 +1211,7 @@
   {
     "id": "v2858",
     "word": "liability",
-    "meaningJa": "法的責任；負債",
+    "meaningJa": "法的責任、負債",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The contract limits the liability of the supplier.",
@@ -1318,7 +1318,7 @@
   {
     "id": "v2863",
     "word": "competitive",
-    "meaningJa": "競争の激しい；競争力のある",
+    "meaningJa": "競争の激しい、競争力のある",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The company operates in a highly competitive market.",
@@ -1424,7 +1424,7 @@
   {
     "id": "v2868",
     "word": "acquisition",
-    "meaningJa": "取得；習得；買収",
+    "meaningJa": "取得、習得、買収",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Language acquisition begins early in life.",
@@ -1444,7 +1444,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "買収；取得",
+        "meaningJa": "買収、取得",
         "example": "The acquisition of a smaller firm expanded the business.",
         "exampleJa": "小規模な企業の買収により事業が拡大しました。"
       }
@@ -1579,7 +1579,7 @@
   {
     "id": "v2875",
     "word": "constitutional",
-    "meaningJa": "憲法の；憲法に定められた",
+    "meaningJa": "憲法の、憲法に定められた",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The court considered a constitutional question.",
@@ -1600,7 +1600,7 @@
   {
     "id": "v2876",
     "word": "referendum",
-    "meaningJa": "国民投票；住民投票",
+    "meaningJa": "国民投票、住民投票",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The proposal will be put to a referendum.",
@@ -1621,7 +1621,7 @@
   {
     "id": "v2877",
     "word": "ballot",
-    "meaningJa": "投票；投票用紙",
+    "meaningJa": "投票、投票用紙",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The members chose their leader by secret ballot.",
@@ -1663,7 +1663,7 @@
   {
     "id": "v2879",
     "word": "constituency",
-    "meaningJa": "選挙区；支持者層",
+    "meaningJa": "選挙区、支持者層",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "She represents a rural constituency.",
@@ -1684,7 +1684,7 @@
   {
     "id": "v2880",
     "word": "cabinet",
-    "meaningJa": "戸棚；収納棚",
+    "meaningJa": "戸棚、収納棚",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The plates are in the kitchen cabinet.",
@@ -1713,7 +1713,7 @@
   {
     "id": "v2881",
     "word": "ministry",
-    "meaningJa": "省；省庁",
+    "meaningJa": "省、省庁",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The ministry published a report on education.",
@@ -1734,7 +1734,7 @@
   {
     "id": "v2882",
     "word": "mayor",
-    "meaningJa": "市長；町長",
+    "meaningJa": "市長、町長",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The mayor opened the new library.",
@@ -1755,7 +1755,7 @@
   {
     "id": "v2883",
     "word": "governor",
-    "meaningJa": "知事；総督",
+    "meaningJa": "知事、総督",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The governor visited the damaged bridge.",
@@ -1839,7 +1839,7 @@
   {
     "id": "v2887",
     "word": "diplomacy",
-    "meaningJa": "外交；外交手腕",
+    "meaningJa": "外交、外交手腕",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The dispute was resolved through diplomacy.",
@@ -1860,7 +1860,7 @@
   {
     "id": "v2888",
     "word": "diplomatic",
-    "meaningJa": "外交の；交渉上巧みな",
+    "meaningJa": "外交の、交渉上巧みな",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The two countries restored diplomatic relations.",
@@ -1902,7 +1902,7 @@
   {
     "id": "v2890",
     "word": "alliance",
-    "meaningJa": "同盟；提携",
+    "meaningJa": "同盟、提携",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The two parties formed an alliance.",
@@ -1923,7 +1923,7 @@
   {
     "id": "v2891",
     "word": "sanction",
-    "meaningJa": "制裁；認可",
+    "meaningJa": "制裁、認可",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The trade sanction affected several industries.",
@@ -1995,7 +1995,7 @@
   {
     "id": "v2894",
     "word": "colony",
-    "meaningJa": "植民地；群生地",
+    "meaningJa": "植民地、群生地",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The island was once a colony.",
@@ -2015,7 +2015,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "群れ；群生地",
+        "meaningJa": "群れ、群生地",
         "example": "A colony of ants lives under the stone.",
         "exampleJa": "アリの群れが石の下に住んでいます。"
       }
@@ -2045,7 +2045,7 @@
   {
     "id": "v2896",
     "word": "immigration",
-    "meaningJa": "他国からの移住；入国管理",
+    "meaningJa": "他国からの移住、入国管理",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The report examines immigration to the city.",
@@ -2089,7 +2089,7 @@
   {
     "id": "v2898",
     "word": "immigrant",
-    "meaningJa": "移民；外国から移住してきた人",
+    "meaningJa": "移民、外国から移住してきた人",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The novel tells the story of a young immigrant.",
@@ -2111,7 +2111,7 @@
   {
     "id": "v2899",
     "word": "asylum",
-    "meaningJa": "保護；亡命者の庇護",
+    "meaningJa": "保護、亡命者の庇護",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The family sought asylum in a neighboring country.",
@@ -2132,7 +2132,7 @@
   {
     "id": "v2900",
     "word": "indigenous",
-    "meaningJa": "先住の；その土地固有の",
+    "meaningJa": "先住の、その土地固有の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The forest contains many indigenous plants.",

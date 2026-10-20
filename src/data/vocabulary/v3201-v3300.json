@@ -44,7 +44,7 @@
   {
     "id": "v3203",
     "word": "grandson",
-    "meaningJa": "孫息子；男の孫",
+    "meaningJa": "孫息子、男の孫",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "Her grandson visits her every Sunday.",
@@ -65,7 +65,7 @@
   {
     "id": "v3204",
     "word": "granddaughter",
-    "meaningJa": "孫娘；女の孫",
+    "meaningJa": "孫娘、女の孫",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "He taught his granddaughter how to ride a bicycle.",
@@ -151,7 +151,7 @@
   {
     "id": "v3208",
     "word": "bride",
-    "meaningJa": "花嫁；新婦",
+    "meaningJa": "花嫁、新婦",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The bride carried a small bouquet.",
@@ -172,7 +172,7 @@
   {
     "id": "v3209",
     "word": "groom",
-    "meaningJa": "花婿；新郎",
+    "meaningJa": "花婿、新郎",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The groom thanked everyone for coming.",
@@ -193,7 +193,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "〜の毛並みを整える；手入れする",
+        "meaningJa": "〜の毛並みを整える、手入れする",
         "example": "They groom the horses every morning.",
         "exampleJa": "彼らは毎朝馬の毛並みを手入れします。"
       }
@@ -245,7 +245,7 @@
   {
     "id": "v3212",
     "word": "widow",
-    "meaningJa": "夫を亡くした女性；未亡人",
+    "meaningJa": "夫を亡くした女性、未亡人",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The widow continued to run the family shop.",
@@ -338,7 +338,7 @@
   {
     "id": "v3216",
     "word": "adolescence",
-    "meaningJa": "思春期；青年期",
+    "meaningJa": "思春期、青年期",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Many interests develop during adolescence.",
@@ -359,7 +359,7 @@
   {
     "id": "v3217",
     "word": "adult",
-    "meaningJa": "大人；成人",
+    "meaningJa": "大人、成人",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "Every child must be accompanied by an adult.",
@@ -379,7 +379,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "成人の；成長した",
+        "meaningJa": "成人の、成長した",
         "example": "The survey included only adult participants.",
         "exampleJa": "その調査には成人の参加者だけが含まれていました。"
       }
@@ -388,7 +388,7 @@
   {
     "id": "v3218",
     "word": "adulthood",
-    "meaningJa": "成人期；大人であること",
+    "meaningJa": "成人期、大人であること",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Some childhood friendships continue into adulthood.",
@@ -409,7 +409,7 @@
   {
     "id": "v3219",
     "word": "infant",
-    "meaningJa": "乳児；幼い子供",
+    "meaningJa": "乳児、幼い子供",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The infant slept quietly in the room.",
@@ -430,7 +430,7 @@
   {
     "id": "v3220",
     "word": "infancy",
-    "meaningJa": "乳児期；幼少期",
+    "meaningJa": "乳児期、幼少期",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The research focuses on learning in infancy.",
@@ -451,7 +451,7 @@
   {
     "id": "v3221",
     "word": "childhood",
-    "meaningJa": "子供時代；幼少期",
+    "meaningJa": "子供時代、幼少期",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She spent her childhood in a small town.",
@@ -472,7 +472,7 @@
   {
     "id": "v3222",
     "word": "babysitter",
-    "meaningJa": "子守をする人；ベビーシッター",
+    "meaningJa": "子守をする人、ベビーシッター",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The babysitter read a story to the children.",
@@ -536,7 +536,7 @@
   {
     "id": "v3225",
     "word": "orphan",
-    "meaningJa": "親を亡くした子供；孤児",
+    "meaningJa": "親を亡くした子供、孤児",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The main character of the story is an orphan.",
@@ -599,7 +599,7 @@
   {
     "id": "v3228",
     "word": "elderly",
-    "meaningJa": "高齢の；年配の",
+    "meaningJa": "高齢の、年配の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The program supports elderly residents.",
@@ -620,7 +620,7 @@
   {
     "id": "v3229",
     "word": "retirement",
-    "meaningJa": "退職；引退",
+    "meaningJa": "退職、引退",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "He took up painting after retirement.",
@@ -641,7 +641,7 @@
   {
     "id": "v3230",
     "word": "retire",
-    "meaningJa": "退職する；引退する",
+    "meaningJa": "退職する、引退する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "She plans to retire next year.",
@@ -662,7 +662,7 @@
   {
     "id": "v3231",
     "word": "household",
-    "meaningJa": "世帯；同居する家族",
+    "meaningJa": "世帯、同居する家族",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Each household received a survey form.",
@@ -706,7 +706,7 @@
   {
     "id": "v3233",
     "word": "chore",
-    "meaningJa": "日常の雑用；家事",
+    "meaningJa": "日常の雑用、家事",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Washing the dishes is my evening chore.",
@@ -727,7 +727,7 @@
   {
     "id": "v3234",
     "word": "errand",
-    "meaningJa": "使い走り；用事",
+    "meaningJa": "使い走り、用事",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "I have an errand to do before lunch.",
@@ -748,7 +748,7 @@
   {
     "id": "v3235",
     "word": "allowance",
-    "meaningJa": "手当；小遣い",
+    "meaningJa": "手当、小遣い",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She saves part of her weekly allowance.",
@@ -768,7 +768,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "考慮；余裕",
+        "meaningJa": "考慮、余裕",
         "example": "The schedule makes allowance for possible delays.",
         "exampleJa": "その予定には遅れが生じる可能性を考慮した余裕があります。"
       }
@@ -777,7 +777,7 @@
   {
     "id": "v3236",
     "word": "neighborhood",
-    "meaningJa": "近所；地域",
+    "meaningJa": "近所、地域",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "There is a small park in our neighborhood.",
@@ -799,7 +799,7 @@
   {
     "id": "v3237",
     "word": "hometown",
-    "meaningJa": "故郷；生まれ育った町",
+    "meaningJa": "故郷、生まれ育った町",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He returned to his hometown after many years.",
@@ -820,7 +820,7 @@
   {
     "id": "v3238",
     "word": "birthplace",
-    "meaningJa": "出生地；発祥の地",
+    "meaningJa": "出生地、発祥の地",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The village is the birthplace of a famous writer.",
@@ -841,7 +841,7 @@
   {
     "id": "v3239",
     "word": "residence",
-    "meaningJa": "住居；居住",
+    "meaningJa": "住居、居住",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The form asks for your place of residence.",
@@ -862,7 +862,7 @@
   {
     "id": "v3240",
     "word": "tenant",
-    "meaningJa": "借家人；借り主",
+    "meaningJa": "借家人、借り主",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The tenant reported a broken window.",
@@ -883,7 +883,7 @@
   {
     "id": "v3241",
     "word": "landlord",
-    "meaningJa": "家主；貸主",
+    "meaningJa": "家主、貸主",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The landlord arranged for the roof to be repaired.",
@@ -925,7 +925,7 @@
   {
     "id": "v3243",
     "word": "meadow",
-    "meaningJa": "牧草地；草地",
+    "meaningJa": "牧草地、草地",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Wild flowers grew in the meadow.",
@@ -946,7 +946,7 @@
   {
     "id": "v3244",
     "word": "lawn",
-    "meaningJa": "芝生；芝生の庭",
+    "meaningJa": "芝生、芝生の庭",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The children played on the lawn.",
@@ -988,7 +988,7 @@
   {
     "id": "v3246",
     "word": "cliff",
-    "meaningJa": "崖；絶壁",
+    "meaningJa": "崖、絶壁",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The path runs along the top of the cliff.",
@@ -1030,7 +1030,7 @@
   {
     "id": "v3248",
     "word": "shore",
-    "meaningJa": "岸；海岸",
+    "meaningJa": "岸、海岸",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We walked along the shore of the lake.",
@@ -1073,7 +1073,7 @@
   {
     "id": "v3250",
     "word": "breeze",
-    "meaningJa": "そよ風；微風",
+    "meaningJa": "そよ風、微風",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A cool breeze came through the window.",
@@ -1094,7 +1094,7 @@
   {
     "id": "v3251",
     "word": "painting",
-    "meaningJa": "絵画；絵を描くこと",
+    "meaningJa": "絵画、絵を描くこと",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The painting shows a quiet village.",
@@ -1116,7 +1116,7 @@
   {
     "id": "v3252",
     "word": "painter",
-    "meaningJa": "画家；塗装職人",
+    "meaningJa": "画家、塗装職人",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The painter used bright colors.",
@@ -1137,7 +1137,7 @@
   {
     "id": "v3253",
     "word": "portrait",
-    "meaningJa": "肖像画；人物の描写",
+    "meaningJa": "肖像画、人物の描写",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The portrait hangs above the fireplace.",
@@ -1158,7 +1158,7 @@
   {
     "id": "v3254",
     "word": "sculpture",
-    "meaningJa": "彫刻；彫刻作品",
+    "meaningJa": "彫刻、彫刻作品",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A stone sculpture stands in the park.",
@@ -1200,7 +1200,7 @@
   {
     "id": "v3256",
     "word": "pottery",
-    "meaningJa": "陶器；陶芸",
+    "meaningJa": "陶器、陶芸",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She learned pottery at a local workshop.",
@@ -1272,7 +1272,7 @@
   {
     "id": "v3259",
     "word": "bronze",
-    "meaningJa": "青銅；ブロンズ",
+    "meaningJa": "青銅、ブロンズ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The statue was cast in bronze.",
@@ -1314,7 +1314,7 @@
   {
     "id": "v3261",
     "word": "canvas",
-    "meaningJa": "キャンバス；画布；帆布",
+    "meaningJa": "キャンバス、画布、帆布",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "She placed a blank canvas on the easel.",
@@ -1335,7 +1335,7 @@
   {
     "id": "v3262",
     "word": "masterpiece",
-    "meaningJa": "傑作；最高傑作",
+    "meaningJa": "傑作、最高傑作",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Many critics consider the novel a masterpiece.",
@@ -1377,7 +1377,7 @@
   {
     "id": "v3264",
     "word": "artistic",
-    "meaningJa": "芸術の；芸術的な",
+    "meaningJa": "芸術の、芸術的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The town encourages artistic activities.",
@@ -1398,7 +1398,7 @@
   {
     "id": "v3265",
     "word": "realistic",
-    "meaningJa": "現実的な；写実的な",
+    "meaningJa": "現実的な、写実的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "We need a realistic plan that we can carry out.",
@@ -1483,7 +1483,7 @@
   {
     "id": "v3269",
     "word": "artifact",
-    "meaningJa": "人工遺物；工芸品",
+    "meaningJa": "人工遺物、工芸品",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The museum displays an artifact found near the river.",
@@ -1505,7 +1505,7 @@
   {
     "id": "v3270",
     "word": "excavate",
-    "meaningJa": "〜を発掘する；掘る",
+    "meaningJa": "〜を発掘する、掘る",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The team plans to excavate the ancient site.",
@@ -1526,7 +1526,7 @@
   {
     "id": "v3271",
     "word": "relic",
-    "meaningJa": "遺物；名残",
+    "meaningJa": "遺物、名残",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The old bridge is a relic of the industrial era.",
@@ -1547,7 +1547,7 @@
   {
     "id": "v3272",
     "word": "ruin",
-    "meaningJa": "〜を台無しにする；破壊する",
+    "meaningJa": "〜を台無しにする、破壊する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Heavy rain could ruin the outdoor event.",
@@ -1568,7 +1568,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "廃墟；遺跡",
+        "meaningJa": "廃墟、遺跡",
         "example": "The old castle is now a ruin.",
         "exampleJa": "その古い城は今では廃墟になっています。"
       }
@@ -1577,7 +1577,7 @@
   {
     "id": "v3273",
     "word": "folklore",
-    "meaningJa": "民間伝承；民俗",
+    "meaningJa": "民間伝承、民俗",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The course explores the folklore of the region.",
@@ -1598,7 +1598,7 @@
   {
     "id": "v3274",
     "word": "myth",
-    "meaningJa": "神話；根拠のない通念",
+    "meaningJa": "神話、根拠のない通念",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The book tells a myth about the origin of the world.",
@@ -1640,7 +1640,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "凡例；記号の説明",
+        "meaningJa": "凡例、記号の説明",
         "example": "The map has a legend in the corner.",
         "exampleJa": "その地図には隅に凡例があります。"
       }
@@ -1649,7 +1649,7 @@
   {
     "id": "v3276",
     "word": "fantasy",
-    "meaningJa": "空想；幻想",
+    "meaningJa": "空想、幻想",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The story mixes fantasy with everyday life.",
@@ -1713,7 +1713,7 @@
   {
     "id": "v3279",
     "word": "poetic",
-    "meaningJa": "詩の；詩的な",
+    "meaningJa": "詩の、詩的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The passage uses poetic language.",
@@ -1734,7 +1734,7 @@
   {
     "id": "v3280",
     "word": "verse",
-    "meaningJa": "詩；詩の一節",
+    "meaningJa": "詩、詩の一節",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The teacher read a short verse aloud.",
@@ -1755,7 +1755,7 @@
   {
     "id": "v3281",
     "word": "rhyme",
-    "meaningJa": "韻；押韻",
+    "meaningJa": "韻、押韻",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The poem uses rhyme at the end of each line.",
@@ -1776,7 +1776,7 @@
   {
     "id": "v3282",
     "word": "rhythm",
-    "meaningJa": "リズム；律動",
+    "meaningJa": "リズム、律動",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The dancers moved to the rhythm of the drums.",
@@ -1797,7 +1797,7 @@
   {
     "id": "v3283",
     "word": "melody",
-    "meaningJa": "旋律；メロディー",
+    "meaningJa": "旋律、メロディー",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She played a simple melody on the piano.",
@@ -1818,7 +1818,7 @@
   {
     "id": "v3284",
     "word": "harmony",
-    "meaningJa": "調和；和声",
+    "meaningJa": "調和、和声",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The neighbors live in harmony.",
@@ -1839,7 +1839,7 @@
   {
     "id": "v3285",
     "word": "musical",
-    "meaningJa": "音楽の；音楽的な",
+    "meaningJa": "音楽の、音楽的な",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "He showed musical talent at an early age.",
@@ -1868,7 +1868,7 @@
   {
     "id": "v3286",
     "word": "musician",
-    "meaningJa": "音楽家；演奏家",
+    "meaningJa": "音楽家、演奏家",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The musician played for the children.",
@@ -1910,7 +1910,7 @@
   {
     "id": "v3288",
     "word": "conductor",
-    "meaningJa": "指揮者；車掌",
+    "meaningJa": "指揮者、車掌",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The conductor raised both hands.",
@@ -1940,7 +1940,7 @@
   {
     "id": "v3289",
     "word": "orchestra",
-    "meaningJa": "管弦楽団；オーケストラ",
+    "meaningJa": "管弦楽団、オーケストラ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The orchestra began to play.",
@@ -1961,7 +1961,7 @@
   {
     "id": "v3290",
     "word": "opera",
-    "meaningJa": "オペラ；歌劇",
+    "meaningJa": "オペラ、歌劇",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We watched an opera at the theater.",
@@ -2003,7 +2003,7 @@
   {
     "id": "v3292",
     "word": "drama",
-    "meaningJa": "演劇；劇",
+    "meaningJa": "演劇、劇",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The school offers classes in drama.",
@@ -2068,7 +2068,7 @@
   {
     "id": "v3295",
     "word": "rehearsal",
-    "meaningJa": "リハーサル；稽古",
+    "meaningJa": "リハーサル、稽古",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The final rehearsal starts at noon.",
@@ -2089,7 +2089,7 @@
   {
     "id": "v3296",
     "word": "exhibition",
-    "meaningJa": "展覧会；展示",
+    "meaningJa": "展覧会、展示",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The exhibition features photographs of the city.",
@@ -2110,7 +2110,7 @@
   {
     "id": "v3297",
     "word": "gallery",
-    "meaningJa": "美術館；画廊",
+    "meaningJa": "美術館、画廊",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The gallery is closed on Mondays.",
@@ -2131,7 +2131,7 @@
   {
     "id": "v3298",
     "word": "architecture",
-    "meaningJa": "建築；建築様式",
+    "meaningJa": "建築、建築様式",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The city is famous for its modern architecture.",
@@ -2173,7 +2173,7 @@
   {
     "id": "v3300",
     "word": "ceremony",
-    "meaningJa": "式；式典",
+    "meaningJa": "式、式典",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The ceremony will take place in the main hall.",

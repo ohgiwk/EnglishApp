@@ -2,7 +2,7 @@
   {
     "id": "v2101",
     "word": "bright",
-    "meaningJa": "明るい；輝く",
+    "meaningJa": "明るい、輝く",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "The room is bright in the morning.",
@@ -22,7 +22,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "賢い；見込みのある",
+        "meaningJa": "賢い、見込みのある",
         "example": "The teacher described her as a bright student.",
         "exampleJa": "先生は彼女を賢い生徒だと評しました。"
       }
@@ -31,7 +31,7 @@
   {
     "id": "v2102",
     "word": "pale",
-    "meaningJa": "青白い；淡い",
+    "meaningJa": "青白い、淡い",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "She wore a pale blue shirt.",
@@ -52,7 +52,7 @@
   {
     "id": "v2103",
     "word": "vivid",
-    "meaningJa": "鮮やかな；生き生きした",
+    "meaningJa": "鮮やかな、生き生きした",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The artist used vivid colors.",
@@ -73,7 +73,7 @@
   {
     "id": "v2104",
     "word": "dull",
-    "meaningJa": "退屈な；鈍い",
+    "meaningJa": "退屈な、鈍い",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The lecture was long and dull.",
@@ -94,7 +94,7 @@
   {
     "id": "v2105",
     "word": "shiny",
-    "meaningJa": "光る；つやのある",
+    "meaningJa": "光る、つやのある",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The child picked up a shiny stone.",
@@ -115,7 +115,7 @@
   {
     "id": "v2106",
     "word": "rough",
-    "meaningJa": "粗い；荒れた",
+    "meaningJa": "粗い、荒れた",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The road has a rough surface.",
@@ -135,7 +135,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "大まかな；おおよその",
+        "meaningJa": "大まかな、おおよその",
         "example": "This is only a rough estimate of the cost.",
         "exampleJa": "これは費用の大まかな見積もりにすぎません。"
       }
@@ -144,7 +144,7 @@
   {
     "id": "v2107",
     "word": "smooth",
-    "meaningJa": "滑らかな；順調な",
+    "meaningJa": "滑らかな、順調な",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The table has a smooth wooden surface.",
@@ -165,7 +165,7 @@
   {
     "id": "v2108",
     "word": "thick",
-    "meaningJa": "厚い；太い",
+    "meaningJa": "厚い、太い",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "He wore a thick coat in winter.",
@@ -186,7 +186,7 @@
   {
     "id": "v2109",
     "word": "thin",
-    "meaningJa": "薄い；細い",
+    "meaningJa": "薄い、細い",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "The book has thin pages.",
@@ -249,7 +249,7 @@
   {
     "id": "v2112",
     "word": "steep",
-    "meaningJa": "急な；険しい",
+    "meaningJa": "急な、険しい",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The road becomes steep near the summit.",
@@ -270,7 +270,7 @@
   {
     "id": "v2113",
     "word": "sharp",
-    "meaningJa": "鋭い；よく切れる",
+    "meaningJa": "鋭い、よく切れる",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "Be careful with that sharp knife.",
@@ -290,7 +290,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "急激な；鋭敏な",
+        "meaningJa": "急激な、鋭敏な",
         "example": "The graph shows a sharp rise in prices.",
         "exampleJa": "そのグラフは物価の急激な上昇を示しています。"
       }
@@ -299,7 +299,7 @@
   {
     "id": "v2114",
     "word": "blunt",
-    "meaningJa": "鈍い；遠慮のない",
+    "meaningJa": "鈍い、遠慮のない",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The blunt knife could not cut the rope.",
@@ -320,7 +320,7 @@
   {
     "id": "v2115",
     "word": "loose",
-    "meaningJa": "緩い；固定されていない",
+    "meaningJa": "緩い、固定されていない",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "One button on my coat is loose.",
@@ -342,7 +342,7 @@
   {
     "id": "v2116",
     "word": "tight",
-    "meaningJa": "きつい；しっかりした",
+    "meaningJa": "きつい、しっかりした",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "These shoes are too tight for me.",
@@ -421,7 +421,7 @@
   {
     "id": "v2119",
     "word": "stale",
-    "meaningJa": "新鮮でない；古くなった",
+    "meaningJa": "新鮮でない、古くなった",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The bread tasted stale.",
@@ -463,7 +463,7 @@
   {
     "id": "v2121",
     "word": "raw",
-    "meaningJa": "生の；未加工の",
+    "meaningJa": "生の、未加工の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The salad contains raw carrots.",
@@ -483,7 +483,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "未加工の；未処理の",
+        "meaningJa": "未加工の、未処理の",
         "example": "The researchers examined the raw data.",
         "exampleJa": "研究者たちは未処理のデータを調べました。"
       }
@@ -492,7 +492,7 @@
   {
     "id": "v2122",
     "word": "bitter",
-    "meaningJa": "苦い；つらい",
+    "meaningJa": "苦い、つらい",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The tea has a bitter taste.",
@@ -555,7 +555,7 @@
   {
     "id": "v2125",
     "word": "spicy",
-    "meaningJa": "香辛料の効いた；辛い",
+    "meaningJa": "香辛料の効いた、辛い",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "He enjoys spicy food.",
@@ -576,7 +576,7 @@
   {
     "id": "v2126",
     "word": "mild",
-    "meaningJa": "穏やかな；温和な",
+    "meaningJa": "穏やかな、温和な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "We had a mild winter this year.",
@@ -597,7 +597,7 @@
   {
     "id": "v2127",
     "word": "tender",
-    "meaningJa": "柔らかい；優しい",
+    "meaningJa": "柔らかい、優しい",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The meat is tender and easy to cut.",
@@ -618,7 +618,7 @@
   {
     "id": "v2128",
     "word": "tough",
-    "meaningJa": "丈夫な；手ごわい",
+    "meaningJa": "丈夫な、手ごわい",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "We faced a tough decision.",
@@ -660,7 +660,7 @@
   {
     "id": "v2130",
     "word": "neat",
-    "meaningJa": "きちんとした；整った",
+    "meaningJa": "きちんとした、整った",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "Her handwriting is neat and clear.",
@@ -681,7 +681,7 @@
   {
     "id": "v2131",
     "word": "messy",
-    "meaningJa": "散らかった；乱雑な",
+    "meaningJa": "散らかった、乱雑な",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The kitchen was messy after dinner.",
@@ -731,7 +731,7 @@
   {
     "id": "v2133",
     "word": "convenient",
-    "meaningJa": "便利な；都合のよい",
+    "meaningJa": "便利な、都合のよい",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The hotel is in a convenient location.",
@@ -753,7 +753,7 @@
   {
     "id": "v2134",
     "word": "inconvenient",
-    "meaningJa": "不便な；都合の悪い",
+    "meaningJa": "不便な、都合の悪い",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The meeting is at an inconvenient time for me.",
@@ -774,7 +774,7 @@
   {
     "id": "v2135",
     "word": "comfortable",
-    "meaningJa": "快適な；心地よい",
+    "meaningJa": "快適な、心地よい",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "This chair is comfortable to sit in.",
@@ -795,7 +795,7 @@
   {
     "id": "v2136",
     "word": "uncomfortable",
-    "meaningJa": "不快な；落ち着かない",
+    "meaningJa": "不快な、落ち着かない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The long silence made everyone uncomfortable.",
@@ -816,7 +816,7 @@
   {
     "id": "v2137",
     "word": "pleasant",
-    "meaningJa": "楽しい；快い",
+    "meaningJa": "楽しい、快い",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "We had a pleasant afternoon in the park.",
@@ -837,7 +837,7 @@
   {
     "id": "v2138",
     "word": "unpleasant",
-    "meaningJa": "不快な；嫌な",
+    "meaningJa": "不快な、嫌な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "An unpleasant smell came from the drain.",
@@ -879,7 +879,7 @@
   {
     "id": "v2140",
     "word": "rude",
-    "meaningJa": "失礼な；無礼な",
+    "meaningJa": "失礼な、無礼な",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "It is rude to interrupt someone repeatedly.",
@@ -965,7 +965,7 @@
   {
     "id": "v2144",
     "word": "lately",
-    "meaningJa": "最近；このところ",
+    "meaningJa": "最近、このところ",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "I have been busy lately.",
@@ -987,7 +987,7 @@
   {
     "id": "v2145",
     "word": "eventually",
-    "meaningJa": "最終的に；結局",
+    "meaningJa": "最終的に、結局",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "The two groups eventually reached an agreement.",
@@ -1009,7 +1009,7 @@
   {
     "id": "v2146",
     "word": "finally",
-    "meaningJa": "ついに；最後に",
+    "meaningJa": "ついに、最後に",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "The train finally arrived at noon.",
@@ -1030,7 +1030,7 @@
   {
     "id": "v2147",
     "word": "immediately",
-    "meaningJa": "直ちに；すぐに",
+    "meaningJa": "直ちに、すぐに",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "She answered the question immediately.",
@@ -1094,7 +1094,7 @@
   {
     "id": "v2150",
     "word": "carefully",
-    "meaningJa": "注意深く；丁寧に",
+    "meaningJa": "注意深く、丁寧に",
     "partOfSpeech": "adverb",
     "level": 1,
     "example": "Please read the instructions carefully.",
@@ -1115,7 +1115,7 @@
   {
     "id": "v2151",
     "word": "honest",
-    "meaningJa": "正直な；誠実な",
+    "meaningJa": "正直な、誠実な",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "Please give me an honest answer.",
@@ -1137,7 +1137,7 @@
   {
     "id": "v2152",
     "word": "dishonest",
-    "meaningJa": "不正直な；不誠実な",
+    "meaningJa": "不正直な、不誠実な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The report described the claim as dishonest.",
@@ -1158,7 +1158,7 @@
   {
     "id": "v2153",
     "word": "modest",
-    "meaningJa": "謙虚な；控えめな",
+    "meaningJa": "謙虚な、控えめな",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "She is modest about her achievements.",
@@ -1178,7 +1178,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "ささやかな；ほどほどの",
+        "meaningJa": "ささやかな、ほどほどの",
         "example": "The project made a modest profit.",
         "exampleJa": "その事業はささやかな利益を上げました。"
       }
@@ -1187,7 +1187,7 @@
   {
     "id": "v2154",
     "word": "humble",
-    "meaningJa": "謙虚な；質素な",
+    "meaningJa": "謙虚な、質素な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Despite his success, he remained humble.",
@@ -1208,7 +1208,7 @@
   {
     "id": "v2155",
     "word": "proud",
-    "meaningJa": "誇りに思う；誇らしい",
+    "meaningJa": "誇りに思う、誇らしい",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "They are proud of their school.",
@@ -1230,7 +1230,7 @@
   {
     "id": "v2156",
     "word": "ashamed",
-    "meaningJa": "恥じて；恥ずかしく思って",
+    "meaningJa": "恥じて、恥ずかしく思って",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "He felt ashamed of his rude behavior.",
@@ -1252,7 +1252,7 @@
   {
     "id": "v2157",
     "word": "shy",
-    "meaningJa": "内気な；恥ずかしがりの",
+    "meaningJa": "内気な、恥ずかしがりの",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "The shy child stood beside her mother.",
@@ -1294,7 +1294,7 @@
   {
     "id": "v2159",
     "word": "cowardly",
-    "meaningJa": "臆病な；卑怯な",
+    "meaningJa": "臆病な、卑怯な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The story contrasts brave and cowardly behavior.",
@@ -1316,7 +1316,7 @@
   {
     "id": "v2160",
     "word": "calm",
-    "meaningJa": "落ち着いた；穏やかな",
+    "meaningJa": "落ち着いた、穏やかな",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "Her calm voice helped everyone relax.",
@@ -1336,7 +1336,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "落ち着かせる；静める",
+        "meaningJa": "落ち着かせる、静める",
         "example": "Her words helped calm the frightened child.",
         "exampleJa": "彼女の言葉はおびえた子供を落ち着かせるのに役立ちました。"
       }
@@ -1345,7 +1345,7 @@
   {
     "id": "v2161",
     "word": "nervous",
-    "meaningJa": "緊張した；神経質な",
+    "meaningJa": "緊張した、神経質な",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "I felt nervous before the interview.",
@@ -1374,7 +1374,7 @@
   {
     "id": "v2162",
     "word": "anxious",
-    "meaningJa": "心配して；切望して",
+    "meaningJa": "心配して、切望して",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The parents were anxious about the delay.",
@@ -1403,7 +1403,7 @@
   {
     "id": "v2163",
     "word": "eager",
-    "meaningJa": "熱望して；熱心な",
+    "meaningJa": "熱望して、熱心な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The students were eager to begin the experiment.",
@@ -1425,7 +1425,7 @@
   {
     "id": "v2164",
     "word": "willing",
-    "meaningJa": "進んで〜する；いとわない",
+    "meaningJa": "進んで〜する、いとわない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "She is willing to help with the project.",
@@ -1447,7 +1447,7 @@
   {
     "id": "v2165",
     "word": "unwilling",
-    "meaningJa": "気が進まない；したがらない",
+    "meaningJa": "気が進まない、したがらない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "He was unwilling to change his plan.",
@@ -1468,7 +1468,7 @@
   {
     "id": "v2166",
     "word": "reluctant",
-    "meaningJa": "気が進まない；渋っている",
+    "meaningJa": "気が進まない、渋っている",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "They were reluctant to leave their hometown.",
@@ -1490,7 +1490,7 @@
   {
     "id": "v2167",
     "word": "curious",
-    "meaningJa": "好奇心の強い；知りたがる",
+    "meaningJa": "好奇心の強い、知りたがる",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The curious child asked many questions.",
@@ -1510,7 +1510,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "奇妙な；不思議な",
+        "meaningJa": "奇妙な、不思議な",
         "example": "There was a curious pattern on the stone.",
         "exampleJa": "その石には不思議な模様がありました。"
       }
@@ -1519,7 +1519,7 @@
   {
     "id": "v2168",
     "word": "silly",
-    "meaningJa": "ばかげた；愚かな",
+    "meaningJa": "ばかげた、愚かな",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "It was a silly mistake, but we corrected it.",
@@ -1540,7 +1540,7 @@
   {
     "id": "v2169",
     "word": "foolish",
-    "meaningJa": "愚かな；分別のない",
+    "meaningJa": "愚かな、分別のない",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "It would be foolish to ignore the warning.",
@@ -1582,7 +1582,7 @@
   {
     "id": "v2171",
     "word": "clever",
-    "meaningJa": "賢い；巧妙な",
+    "meaningJa": "賢い、巧妙な",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The student found a clever solution.",
@@ -1603,7 +1603,7 @@
   {
     "id": "v2172",
     "word": "intelligent",
-    "meaningJa": "知的な；理解力のある",
+    "meaningJa": "知的な、理解力のある",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The discussion included several intelligent questions.",
@@ -1624,7 +1624,7 @@
   {
     "id": "v2173",
     "word": "stupid",
-    "meaningJa": "愚かな；ばかな",
+    "meaningJa": "愚かな、ばかな",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "It was a stupid decision to leave without a map.",
@@ -1645,7 +1645,7 @@
   {
     "id": "v2174",
     "word": "lazy",
-    "meaningJa": "怠惰な；のんびりした",
+    "meaningJa": "怠惰な、のんびりした",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "We spent a lazy afternoon by the lake.",
@@ -1666,7 +1666,7 @@
   {
     "id": "v2175",
     "word": "passive",
-    "meaningJa": "受動的な；消極的な",
+    "meaningJa": "受動的な、消極的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The course encourages students to become active rather than passive learners.",
@@ -1729,7 +1729,7 @@
   {
     "id": "v2178",
     "word": "silent",
-    "meaningJa": "無言の；音のしない",
+    "meaningJa": "無言の、音のしない",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The audience remained silent during the performance.",
@@ -1750,7 +1750,7 @@
   {
     "id": "v2179",
     "word": "gentle",
-    "meaningJa": "優しい；穏やかな",
+    "meaningJa": "優しい、穏やかな",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "A gentle wind moved the curtains.",
@@ -1771,7 +1771,7 @@
   {
     "id": "v2180",
     "word": "fierce",
-    "meaningJa": "激しい；どう猛な",
+    "meaningJa": "激しい、どう猛な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "A fierce storm struck the coast.",
@@ -1792,7 +1792,7 @@
   {
     "id": "v2181",
     "word": "cruel",
-    "meaningJa": "残酷な；冷酷な",
+    "meaningJa": "残酷な、冷酷な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The novel describes a cruel ruler.",
@@ -1813,7 +1813,7 @@
   {
     "id": "v2182",
     "word": "generous",
-    "meaningJa": "気前のよい；寛大な",
+    "meaningJa": "気前のよい、寛大な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "A generous donor paid for the new library.",
@@ -1833,7 +1833,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "たっぷりの；豊富な",
+        "meaningJa": "たっぷりの、豊富な",
         "example": "The recipe calls for a generous amount of cheese.",
         "exampleJa": "そのレシピではチーズをたっぷり使います。"
       }
@@ -1842,7 +1842,7 @@
   {
     "id": "v2183",
     "word": "selfish",
-    "meaningJa": "自分勝手な；利己的な",
+    "meaningJa": "自分勝手な、利己的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "It is selfish to take all the food for yourself.",
@@ -1863,7 +1863,7 @@
   {
     "id": "v2184",
     "word": "greedy",
-    "meaningJa": "欲張りな；貪欲な",
+    "meaningJa": "欲張りな、貪欲な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The story is about a greedy king.",
@@ -1884,7 +1884,7 @@
   {
     "id": "v2185",
     "word": "impatient",
-    "meaningJa": "いら立った；待ちきれない",
+    "meaningJa": "いら立った、待ちきれない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The passengers grew impatient with the delay.",
@@ -1905,7 +1905,7 @@
   {
     "id": "v2186",
     "word": "lonely",
-    "meaningJa": "孤独な；寂しい",
+    "meaningJa": "孤独な、寂しい",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "She felt lonely in the unfamiliar city.",
@@ -2012,7 +2012,7 @@
   {
     "id": "v2191",
     "word": "clearly",
-    "meaningJa": "はっきりと；明らかに",
+    "meaningJa": "はっきりと、明らかに",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "Please speak clearly so everyone can hear.",
@@ -2033,7 +2033,7 @@
   {
     "id": "v2192",
     "word": "nearly",
-    "meaningJa": "ほとんど；もう少しで",
+    "meaningJa": "ほとんど、もう少しで",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "The work is nearly finished.",
@@ -2054,7 +2054,7 @@
   {
     "id": "v2193",
     "word": "fairly",
-    "meaningJa": "かなり；公平に",
+    "meaningJa": "かなり、公平に",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "The test was fairly easy.",
@@ -2074,7 +2074,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adverb",
-        "meaningJa": "公平に；公正に",
+        "meaningJa": "公平に、公正に",
         "example": "The teacher treated every student fairly.",
         "exampleJa": "先生はすべての生徒を公平に扱いました。"
       }
@@ -2083,7 +2083,7 @@
   {
     "id": "v2194",
     "word": "extremely",
-    "meaningJa": "極めて；非常に",
+    "meaningJa": "極めて、非常に",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "The room was extremely cold.",
@@ -2104,7 +2104,7 @@
   {
     "id": "v2195",
     "word": "particularly",
-    "meaningJa": "特に；とりわけ",
+    "meaningJa": "特に、とりわけ",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "I particularly enjoyed the final chapter.",
@@ -2146,7 +2146,7 @@
   {
     "id": "v2197",
     "word": "certainly",
-    "meaningJa": "確かに；きっと",
+    "meaningJa": "確かに、きっと",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "The trip was certainly worth the effort.",
@@ -2167,7 +2167,7 @@
   {
     "id": "v2198",
     "word": "possibly",
-    "meaningJa": "ひょっとすると；もしかすると",
+    "meaningJa": "ひょっとすると、もしかすると",
     "partOfSpeech": "adverb",
     "level": 3,
     "example": "We could possibly finish before noon.",
@@ -2188,7 +2188,7 @@
   {
     "id": "v2199",
     "word": "actually",
-    "meaningJa": "実際には；実は",
+    "meaningJa": "実際には、実は",
     "partOfSpeech": "adverb",
     "level": 2,
     "example": "The book is actually easier than it looks.",
@@ -2209,7 +2209,7 @@
   {
     "id": "v2200",
     "word": "apparently",
-    "meaningJa": "どうやら；見たところ",
+    "meaningJa": "どうやら、見たところ",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "Apparently, the meeting has been postponed.",

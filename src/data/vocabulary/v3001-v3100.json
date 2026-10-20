@@ -46,7 +46,7 @@
   {
     "id": "v3003",
     "word": "manipulate",
-    "meaningJa": "〜を操作する；巧みに扱う",
+    "meaningJa": "〜を操作する、巧みに扱う",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The software lets users manipulate images easily.",
@@ -66,7 +66,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "〜を巧みに操る；不正に操作する",
+        "meaningJa": "〜を巧みに操る、不正に操作する",
         "example": "Misleading reports can manipulate public opinion.",
         "exampleJa": "誤解を招く報道は世論を巧みに操ることがあります。"
       }
@@ -75,7 +75,7 @@
   {
     "id": "v3004",
     "word": "embody",
-    "meaningJa": "〜を具体的に表す；体現する",
+    "meaningJa": "〜を具体的に表す、体現する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "These rules embody the values of the community.",
@@ -96,7 +96,7 @@
   {
     "id": "v3005",
     "word": "theorize",
-    "meaningJa": "理論を立てる；推論する",
+    "meaningJa": "理論を立てる、推論する",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "Researchers theorize that the structure had several functions.",
@@ -138,7 +138,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "〜のきっかけとなる；引き起こす",
+        "meaningJa": "〜のきっかけとなる、引き起こす",
         "example": "A simple question can spark a lively discussion.",
         "exampleJa": "簡単な質問が活発な議論のきっかけになることがあります。"
       }
@@ -147,7 +147,7 @@
   {
     "id": "v3007",
     "word": "retrieval",
-    "meaningJa": "取り出すこと；情報の検索",
+    "meaningJa": "取り出すこと、情報の検索",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The system allows rapid retrieval of stored data.",
@@ -168,7 +168,7 @@
   {
     "id": "v3008",
     "word": "engagement",
-    "meaningJa": "関与；参加",
+    "meaningJa": "関与、参加",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The program encourages student engagement in local projects.",
@@ -190,7 +190,7 @@
   {
     "id": "v3009",
     "word": "reflection",
-    "meaningJa": "反射；映った姿；熟考",
+    "meaningJa": "反射、映った姿、熟考",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She saw her reflection in the window.",
@@ -210,7 +210,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "熟考；振り返り",
+        "meaningJa": "熟考、振り返り",
         "example": "The teacher allowed time for reflection after the activity.",
         "exampleJa": "教師は活動の後に振り返りの時間を設けました。"
       }
@@ -219,7 +219,7 @@
   {
     "id": "v3010",
     "word": "template",
-    "meaningJa": "ひな形；型板",
+    "meaningJa": "ひな形、型板",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Use this template to prepare your report.",
@@ -240,7 +240,7 @@
   {
     "id": "v3011",
     "word": "format",
-    "meaningJa": "形式；書式",
+    "meaningJa": "形式、書式",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The report is available in digital format.",
@@ -261,7 +261,7 @@
   {
     "id": "v3012",
     "word": "documentation",
-    "meaningJa": "記録文書；文書化",
+    "meaningJa": "記録文書、文書化",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The project requires careful documentation of every stage.",
@@ -282,7 +282,7 @@
   {
     "id": "v3013",
     "word": "robust",
-    "meaningJa": "頑丈な；強固な",
+    "meaningJa": "頑丈な、強固な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "We need a robust system that can handle sudden changes.",
@@ -303,7 +303,7 @@
   {
     "id": "v3014",
     "word": "authentic",
-    "meaningJa": "本物の；真正の",
+    "meaningJa": "本物の、真正の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The museum displays authentic tools from the period.",
@@ -324,7 +324,7 @@
   {
     "id": "v3015",
     "word": "inventive",
-    "meaningJa": "独創的な；創意工夫に富んだ",
+    "meaningJa": "独創的な、創意工夫に富んだ",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "She found an inventive solution to the problem.",
@@ -345,7 +345,7 @@
   {
     "id": "v3016",
     "word": "meticulous",
-    "meaningJa": "細部まで注意深い；綿密な",
+    "meaningJa": "細部まで注意深い、綿密な",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The study required meticulous observation.",
@@ -387,7 +387,7 @@
   {
     "id": "v3018",
     "word": "solely",
-    "meaningJa": "もっぱら；〜だけに",
+    "meaningJa": "もっぱら、〜だけに",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The decision was based solely on cost.",
@@ -408,7 +408,7 @@
   {
     "id": "v3019",
     "word": "observational",
-    "meaningJa": "観察の；観察に基づく",
+    "meaningJa": "観察の、観察に基づく",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The team collected observational data in the forest.",
@@ -429,7 +429,7 @@
   {
     "id": "v3020",
     "word": "purposeful",
-    "meaningJa": "目的を持った；意図的な",
+    "meaningJa": "目的を持った、意図的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The lesson includes purposeful activities.",
@@ -450,7 +450,7 @@
   {
     "id": "v3021",
     "word": "pioneer",
-    "meaningJa": "先駆者；開拓者",
+    "meaningJa": "先駆者、開拓者",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "She was a pioneer in the study of animal behavior.",
@@ -492,7 +492,7 @@
   {
     "id": "v3023",
     "word": "tactile",
-    "meaningJa": "触覚の；触って感じられる",
+    "meaningJa": "触覚の、触って感じられる",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The display provides tactile feedback.",
@@ -534,7 +534,7 @@
   {
     "id": "v3025",
     "word": "picky",
-    "meaningJa": "えり好みする；好みがうるさい",
+    "meaningJa": "えり好みする、好みがうるさい",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "He is picky about the food he eats.",
@@ -577,7 +577,7 @@
   {
     "id": "v3027",
     "word": "ingrain",
-    "meaningJa": "〜を深く染み込ませる；定着させる",
+    "meaningJa": "〜を深く染み込ませる、定着させる",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "Daily practice can ingrain useful habits.",
@@ -599,7 +599,7 @@
   {
     "id": "v3028",
     "word": "legibility",
-    "meaningJa": "文字の読みやすさ；判読しやすさ",
+    "meaningJa": "文字の読みやすさ、判読しやすさ",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The larger font improves legibility.",
@@ -641,7 +641,7 @@
   {
     "id": "v3030",
     "word": "unparalleled",
-    "meaningJa": "比類のない；前例のない",
+    "meaningJa": "比類のない、前例のない",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The discovery gave us unparalleled insight into the past.",
@@ -662,7 +662,7 @@
   {
     "id": "v3031",
     "word": "theoretical",
-    "meaningJa": "理論の；理論上の",
+    "meaningJa": "理論の、理論上の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The course combines theoretical study with practical work.",
@@ -683,7 +683,7 @@
   {
     "id": "v3032",
     "word": "tentative",
-    "meaningJa": "暫定的な；仮の",
+    "meaningJa": "暫定的な、仮の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "We made a tentative plan for the trip.",
@@ -725,7 +725,7 @@
   {
     "id": "v3034",
     "word": "incompatible",
-    "meaningJa": "両立しない；互換性のない",
+    "meaningJa": "両立しない、互換性のない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "These two goals are incompatible.",
@@ -747,7 +747,7 @@
   {
     "id": "v3035",
     "word": "annotation",
-    "meaningJa": "注釈；書き込み",
+    "meaningJa": "注釈、書き込み",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The annotation explains an unfamiliar term.",
@@ -789,7 +789,7 @@
   {
     "id": "v3037",
     "word": "notation",
-    "meaningJa": "表記法；記号法",
+    "meaningJa": "表記法、記号法",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The book introduces basic musical notation.",
@@ -811,7 +811,7 @@
   {
     "id": "v3038",
     "word": "transcript",
-    "meaningJa": "発言の書き起こし；成績証明書",
+    "meaningJa": "発言の書き起こし、成績証明書",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The researcher checked the transcript of the interview.",
@@ -833,7 +833,7 @@
   {
     "id": "v3039",
     "word": "transcription",
-    "meaningJa": "書き起こし；転写",
+    "meaningJa": "書き起こし、転写",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The transcription of the recording took several hours.",
@@ -854,7 +854,7 @@
   {
     "id": "v3040",
     "word": "workshop",
-    "meaningJa": "作業場；実習会",
+    "meaningJa": "作業場、実習会",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The carpenter keeps tools in the workshop.",
@@ -874,7 +874,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "実習会；体験型講習会",
+        "meaningJa": "実習会、体験型講習会",
         "example": "We attended a workshop on creative writing.",
         "exampleJa": "私たちは創作の実習会に参加しました。"
       }
@@ -904,7 +904,7 @@
   {
     "id": "v3042",
     "word": "retention",
-    "meaningJa": "保持；記憶の保持",
+    "meaningJa": "保持、記憶の保持",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Regular review can improve retention of new material.",
@@ -925,7 +925,7 @@
   {
     "id": "v3043",
     "word": "recollection",
-    "meaningJa": "思い出；記憶",
+    "meaningJa": "思い出、記憶",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "My recollection of that day is still clear.",
@@ -966,7 +966,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "回収；リコール",
+        "meaningJa": "回収、リコール",
         "example": "The company announced a recall of the product.",
         "exampleJa": "その会社は製品の回収を発表しました。"
       }
@@ -975,7 +975,7 @@
   {
     "id": "v3045",
     "word": "visualize",
-    "meaningJa": "〜を思い描く；視覚化する",
+    "meaningJa": "〜を思い描く、視覚化する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Try to visualize the room before drawing it.",
@@ -996,7 +996,7 @@
   {
     "id": "v3046",
     "word": "diagram",
-    "meaningJa": "図；図解",
+    "meaningJa": "図、図解",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The diagram shows how the machine works.",
@@ -1017,7 +1017,7 @@
   {
     "id": "v3047",
     "word": "graphic",
-    "meaningJa": "図の；視覚表現の",
+    "meaningJa": "図の、視覚表現の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The team created a graphic representation of the data.",
@@ -1038,7 +1038,7 @@
   {
     "id": "v3048",
     "word": "sketch",
-    "meaningJa": "略図；スケッチ",
+    "meaningJa": "略図、スケッチ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She made a quick sketch of the garden.",
@@ -1059,7 +1059,7 @@
   {
     "id": "v3049",
     "word": "illustration",
-    "meaningJa": "挿絵；図解；例証",
+    "meaningJa": "挿絵、図解、例証",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The book includes an illustration of the device.",
@@ -1080,7 +1080,7 @@
   {
     "id": "v3050",
     "word": "literal",
-    "meaningJa": "文字どおりの；逐語的な",
+    "meaningJa": "文字どおりの、逐語的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "A literal translation may sound unnatural.",
@@ -1102,7 +1102,7 @@
   {
     "id": "v3051",
     "word": "affection",
-    "meaningJa": "愛情；親しみ",
+    "meaningJa": "愛情、親しみ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She has great affection for her grandparents.",
@@ -1123,7 +1123,7 @@
   {
     "id": "v3052",
     "word": "affectionate",
-    "meaningJa": "愛情のこもった；愛情深い",
+    "meaningJa": "愛情のこもった、愛情深い",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "He gave his child an affectionate smile.",
@@ -1144,7 +1144,7 @@
   {
     "id": "v3053",
     "word": "fond",
-    "meaningJa": "好きで；愛情を持って",
+    "meaningJa": "好きで、愛情を持って",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "My brother is fond of old movies.",
@@ -1166,7 +1166,7 @@
   {
     "id": "v3054",
     "word": "sympathetic",
-    "meaningJa": "同情的な；理解を示す",
+    "meaningJa": "同情的な、理解を示す",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The teacher was sympathetic to our concerns.",
@@ -1188,7 +1188,7 @@
   {
     "id": "v3055",
     "word": "compassionate",
-    "meaningJa": "思いやりのある；慈悲深い",
+    "meaningJa": "思いやりのある、慈悲深い",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "She gave a compassionate response to his situation.",
@@ -1209,7 +1209,7 @@
   {
     "id": "v3056",
     "word": "empathetic",
-    "meaningJa": "共感する；共感力のある",
+    "meaningJa": "共感する、共感力のある",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "An empathetic listener tries to understand your feelings.",
@@ -1230,7 +1230,7 @@
   {
     "id": "v3057",
     "word": "indifferent",
-    "meaningJa": "無関心な；どうでもよいと思う",
+    "meaningJa": "無関心な、どうでもよいと思う",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "He seemed indifferent to the result.",
@@ -1252,7 +1252,7 @@
   {
     "id": "v3058",
     "word": "hostile",
-    "meaningJa": "敵意のある；敵対的な",
+    "meaningJa": "敵意のある、敵対的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The proposal met with a hostile reaction.",
@@ -1273,7 +1273,7 @@
   {
     "id": "v3059",
     "word": "resentment",
-    "meaningJa": "憤り；恨み",
+    "meaningJa": "憤り、恨み",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The unfair decision caused resentment among the workers.",
@@ -1294,7 +1294,7 @@
   {
     "id": "v3060",
     "word": "envy",
-    "meaningJa": "羨望；うらやましさ",
+    "meaningJa": "羨望、うらやましさ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She looked at his new bicycle with envy.",
@@ -1315,7 +1315,7 @@
   {
     "id": "v3061",
     "word": "jealousy",
-    "meaningJa": "嫉妬；ねたみ",
+    "meaningJa": "嫉妬、ねたみ",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The story explores jealousy between two friends.",
@@ -1336,7 +1336,7 @@
   {
     "id": "v3062",
     "word": "jealous",
-    "meaningJa": "嫉妬している；ねたんでいる",
+    "meaningJa": "嫉妬している、ねたんでいる",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "He felt jealous of his talented friend.",
@@ -1358,7 +1358,7 @@
   {
     "id": "v3063",
     "word": "distress",
-    "meaningJa": "苦悩；苦痛",
+    "meaningJa": "苦悩、苦痛",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The news caused her great distress.",
@@ -1400,7 +1400,7 @@
   {
     "id": "v3065",
     "word": "miserable",
-    "meaningJa": "ひどく不幸な；惨めな",
+    "meaningJa": "ひどく不幸な、惨めな",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "He felt miserable after losing the match.",
@@ -1442,7 +1442,7 @@
   {
     "id": "v3067",
     "word": "desperate",
-    "meaningJa": "絶望的な；必死の",
+    "meaningJa": "絶望的な、必死の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "They made a desperate attempt to save the boat.",
@@ -1463,7 +1463,7 @@
   {
     "id": "v3068",
     "word": "optimism",
-    "meaningJa": "楽観；楽観主義",
+    "meaningJa": "楽観、楽観主義",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Her optimism helped the team keep working.",
@@ -1484,7 +1484,7 @@
   {
     "id": "v3069",
     "word": "pessimism",
-    "meaningJa": "悲観；悲観主義",
+    "meaningJa": "悲観、悲観主義",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The survey revealed widespread pessimism about the economy.",
@@ -1505,7 +1505,7 @@
   {
     "id": "v3070",
     "word": "tension",
-    "meaningJa": "緊張；張力",
+    "meaningJa": "緊張、張力",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "There was tension in the room before the announcement.",
@@ -1525,7 +1525,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "張力；張り具合",
+        "meaningJa": "張力、張り具合",
         "example": "Adjust the tension of the string.",
         "exampleJa": "弦の張り具合を調整してください。"
       }
@@ -1534,7 +1534,7 @@
   {
     "id": "v3071",
     "word": "tense",
-    "meaningJa": "緊張した；張り詰めた",
+    "meaningJa": "緊張した、張り詰めた",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "Everyone was tense before the final result.",
@@ -1563,7 +1563,7 @@
   {
     "id": "v3072",
     "word": "restless",
-    "meaningJa": "落ち着かない；じっとしていられない",
+    "meaningJa": "落ち着かない、じっとしていられない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The children grew restless during the long wait.",
@@ -1584,7 +1584,7 @@
   {
     "id": "v3073",
     "word": "uneasy",
-    "meaningJa": "不安な；落ち着かない",
+    "meaningJa": "不安な、落ち着かない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "I felt uneasy about the sudden change.",
@@ -1605,7 +1605,7 @@
   {
     "id": "v3074",
     "word": "awkward",
-    "meaningJa": "気まずい；ぎこちない",
+    "meaningJa": "気まずい、ぎこちない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "An awkward silence followed his question.",
@@ -1626,7 +1626,7 @@
   {
     "id": "v3075",
     "word": "embarrassed",
-    "meaningJa": "恥ずかしい思いをした；困惑した",
+    "meaningJa": "恥ずかしい思いをした、困惑した",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "She felt embarrassed when she forgot his name.",
@@ -1648,7 +1648,7 @@
   {
     "id": "v3076",
     "word": "embarrassment",
-    "meaningJa": "恥ずかしさ；困惑",
+    "meaningJa": "恥ずかしさ、困惑",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "He laughed to hide his embarrassment.",
@@ -1669,7 +1669,7 @@
   {
     "id": "v3077",
     "word": "shame",
-    "meaningJa": "恥；恥ずかしさ",
+    "meaningJa": "恥、恥ずかしさ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "He felt shame for telling a lie.",
@@ -1690,7 +1690,7 @@
   {
     "id": "v3078",
     "word": "guilt",
-    "meaningJa": "罪悪感；有罪",
+    "meaningJa": "罪悪感、有罪",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Her sense of guilt made her apologize.",
@@ -1711,7 +1711,7 @@
   {
     "id": "v3079",
     "word": "guilty",
-    "meaningJa": "罪悪感のある；有罪の",
+    "meaningJa": "罪悪感のある、有罪の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "I felt guilty about wasting food.",
@@ -1733,7 +1733,7 @@
   {
     "id": "v3080",
     "word": "innocent",
-    "meaningJa": "無実の；無邪気な",
+    "meaningJa": "無実の、無邪気な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The evidence showed that he was innocent.",
@@ -1754,7 +1754,7 @@
   {
     "id": "v3081",
     "word": "pride",
-    "meaningJa": "誇り；自尊心",
+    "meaningJa": "誇り、自尊心",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She takes pride in her work.",
@@ -1775,7 +1775,7 @@
   {
     "id": "v3082",
     "word": "arrogant",
-    "meaningJa": "傲慢な；思い上がった",
+    "meaningJa": "傲慢な、思い上がった",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "His arrogant attitude upset the team.",
@@ -1796,7 +1796,7 @@
   {
     "id": "v3083",
     "word": "vain",
-    "meaningJa": "虚栄心の強い；無駄な",
+    "meaningJa": "虚栄心の強い、無駄な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "He is too vain to admit his mistakes.",
@@ -1817,7 +1817,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "無駄な；実を結ばない",
+        "meaningJa": "無駄な、実を結ばない",
         "example": "They made a vain attempt to repair the old machine.",
         "exampleJa": "彼らは古い機械を修理しようとしましたが、その試みは実を結びませんでした。"
       }
@@ -1826,7 +1826,7 @@
   {
     "id": "v3084",
     "word": "selfless",
-    "meaningJa": "無私の；自分の利益を考えない",
+    "meaningJa": "無私の、自分の利益を考えない",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "We admired her selfless efforts to help others.",
@@ -1847,7 +1847,7 @@
   {
     "id": "v3085",
     "word": "stubborn",
-    "meaningJa": "頑固な；なかなか変わらない",
+    "meaningJa": "頑固な、なかなか変わらない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The stubborn child refused to move.",
@@ -1868,7 +1868,7 @@
   {
     "id": "v3086",
     "word": "obedient",
-    "meaningJa": "従順な；言うことを聞く",
+    "meaningJa": "従順な、言うことを聞く",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The obedient dog stayed beside its owner.",
@@ -1910,7 +1910,7 @@
   {
     "id": "v3088",
     "word": "spontaneous",
-    "meaningJa": "自然に起こる；自発的な",
+    "meaningJa": "自然に起こる、自発的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The performance received spontaneous applause.",
@@ -1931,7 +1931,7 @@
   {
     "id": "v3089",
     "word": "cautious",
-    "meaningJa": "用心深い；慎重な",
+    "meaningJa": "用心深い、慎重な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "Be cautious when crossing this busy road.",
@@ -1952,7 +1952,7 @@
   {
     "id": "v3090",
     "word": "wary",
-    "meaningJa": "警戒している；用心深い",
+    "meaningJa": "警戒している、用心深い",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "She was wary of promises that sounded too good.",
@@ -1974,7 +1974,7 @@
   {
     "id": "v3091",
     "word": "reckless",
-    "meaningJa": "無謀な；向こう見ずな",
+    "meaningJa": "無謀な、向こう見ずな",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "His reckless driving frightened the passengers.",
@@ -1995,7 +1995,7 @@
   {
     "id": "v3092",
     "word": "bold",
-    "meaningJa": "大胆な；勇敢な",
+    "meaningJa": "大胆な、勇敢な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The team proposed a bold new design.",
@@ -2024,7 +2024,7 @@
   {
     "id": "v3093",
     "word": "timid",
-    "meaningJa": "臆病な；気の小さい",
+    "meaningJa": "臆病な、気の小さい",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The timid kitten hid behind the sofa.",
@@ -2045,7 +2045,7 @@
   {
     "id": "v3094",
     "word": "outgoing",
-    "meaningJa": "社交的な；外向的な",
+    "meaningJa": "社交的な、外向的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "My sister is outgoing and makes friends easily.",
@@ -2065,7 +2065,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "出ていく；退任する",
+        "meaningJa": "出ていく、退任する",
         "example": "The outgoing president thanked the staff.",
         "exampleJa": "退任する社長は職員に感謝しました。"
       }
@@ -2074,7 +2074,7 @@
   {
     "id": "v3095",
     "word": "sociable",
-    "meaningJa": "社交的な；人付き合いを好む",
+    "meaningJa": "社交的な、人付き合いを好む",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "He is sociable and enjoys meeting new people.",
@@ -2138,7 +2138,7 @@
   {
     "id": "v3098",
     "word": "sincere",
-    "meaningJa": "誠実な；心からの",
+    "meaningJa": "誠実な、心からの",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "Please accept my sincere thanks.",
@@ -2159,7 +2159,7 @@
   {
     "id": "v3099",
     "word": "loyal",
-    "meaningJa": "忠実な；忠誠心のある",
+    "meaningJa": "忠実な、忠誠心のある",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "She remained loyal to her friends.",
@@ -2181,7 +2181,7 @@
   {
     "id": "v3100",
     "word": "diligent",
-    "meaningJa": "勤勉な；熱心な",
+    "meaningJa": "勤勉な、熱心な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The diligent student reviewed every lesson.",

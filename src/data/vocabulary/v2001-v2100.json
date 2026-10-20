@@ -2,7 +2,7 @@
   {
     "id": "v2001",
     "word": "ancient",
-    "meaningJa": "古代の；大昔の",
+    "meaningJa": "古代の、大昔の",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The museum displays ancient tools.",
@@ -23,7 +23,7 @@
   {
     "id": "v2002",
     "word": "prominent",
-    "meaningJa": "著名な；目立つ",
+    "meaningJa": "著名な、目立つ",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "A prominent scientist spoke at the event.",
@@ -44,7 +44,7 @@
   {
     "id": "v2003",
     "word": "external",
-    "meaningJa": "外部の；外側の",
+    "meaningJa": "外部の、外側の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The device has an external battery.",
@@ -65,7 +65,7 @@
   {
     "id": "v2004",
     "word": "genuine",
-    "meaningJa": "本物の；心からの",
+    "meaningJa": "本物の、心からの",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "She showed genuine interest in the project.",
@@ -86,7 +86,7 @@
   {
     "id": "v2005",
     "word": "rationality",
-    "meaningJa": "合理性；理性",
+    "meaningJa": "合理性、理性",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The essay questions the rationality of the decision.",
@@ -128,7 +128,7 @@
   {
     "id": "v2007",
     "word": "hostility",
-    "meaningJa": "敵意；反感",
+    "meaningJa": "敵意、反感",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The proposal met with hostility from some residents.",
@@ -149,7 +149,7 @@
   {
     "id": "v2008",
     "word": "segregation",
-    "meaningJa": "隔離；分離",
+    "meaningJa": "隔離、分離",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The book examines the history of racial segregation.",
@@ -170,7 +170,7 @@
   {
     "id": "v2009",
     "word": "dichotomy",
-    "meaningJa": "二分法；二分された対立",
+    "meaningJa": "二分法、二分された対立",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The author rejects the dichotomy between nature and culture.",
@@ -191,7 +191,7 @@
   {
     "id": "v2010",
     "word": "aftermath",
-    "meaningJa": "余波；事後の状況",
+    "meaningJa": "余波、事後の状況",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The report describes the aftermath of the storm.",
@@ -212,7 +212,7 @@
   {
     "id": "v2011",
     "word": "dire",
-    "meaningJa": "悲惨な；極めて深刻な",
+    "meaningJa": "悲惨な、極めて深刻な",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The village faced a dire shortage of water.",
@@ -233,7 +233,7 @@
   {
     "id": "v2012",
     "word": "impending",
-    "meaningJa": "差し迫った；間近の",
+    "meaningJa": "差し迫った、間近の",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "Dark clouds warned of an impending storm.",
@@ -255,7 +255,7 @@
   {
     "id": "v2013",
     "word": "draw",
-    "meaningJa": "描く；引く",
+    "meaningJa": "描く、引く",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "Please draw a circle on the paper.",
@@ -275,7 +275,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "引き出す；導く",
+        "meaningJa": "引き出す、導く",
         "example": "We cannot draw a conclusion from one example.",
         "exampleJa": "私たちは一つの例から結論を導くことはできません。"
       },
@@ -296,7 +296,7 @@
   {
     "id": "v2014",
     "word": "paint",
-    "meaningJa": "絵の具で描く；塗る",
+    "meaningJa": "絵の具で描く、塗る",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "We will paint the wall white.",
@@ -316,7 +316,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "ペンキ；絵の具",
+        "meaningJa": "ペンキ、絵の具",
         "example": "The paint on the door is still wet.",
         "exampleJa": "ドアのペンキはまだ乾いていません。"
       }
@@ -325,7 +325,7 @@
   {
     "id": "v2015",
     "word": "fold",
-    "meaningJa": "折る；畳む",
+    "meaningJa": "折る、畳む",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Fold the paper in half.",
@@ -367,7 +367,7 @@
   {
     "id": "v2017",
     "word": "boil",
-    "meaningJa": "沸騰する；沸かす；ゆでる",
+    "meaningJa": "沸騰する、沸かす、ゆでる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We need to boil some water.",
@@ -409,7 +409,7 @@
   {
     "id": "v2019",
     "word": "freeze",
-    "meaningJa": "凍る；凍らせる",
+    "meaningJa": "凍る、凍らせる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The pond may freeze tonight.",
@@ -431,7 +431,7 @@
   {
     "id": "v2020",
     "word": "melt",
-    "meaningJa": "溶ける；溶かす",
+    "meaningJa": "溶ける、溶かす",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The snow began to melt in the sun.",
@@ -452,7 +452,7 @@
   {
     "id": "v2021",
     "word": "burn",
-    "meaningJa": "燃える；燃やす；やけどさせる",
+    "meaningJa": "燃える、燃やす、やけどさせる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Dry leaves burn easily.",
@@ -494,7 +494,7 @@
   {
     "id": "v2023",
     "word": "scarf",
-    "meaningJa": "マフラー；スカーフ",
+    "meaningJa": "マフラー、スカーフ",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She wore a red scarf on the cold morning.",
@@ -578,7 +578,7 @@
   {
     "id": "v2027",
     "word": "purse",
-    "meaningJa": "小銭入れ；ハンドバッグ",
+    "meaningJa": "小銭入れ、ハンドバッグ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She took a coin from her purse.",
@@ -621,7 +621,7 @@
   {
     "id": "v2029",
     "word": "stamp",
-    "meaningJa": "切手；印",
+    "meaningJa": "切手、印",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "He put a stamp on the envelope.",
@@ -641,7 +641,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "押印する；踏みつける",
+        "meaningJa": "押印する、踏みつける",
         "example": "Please stamp the date on the form.",
         "exampleJa": "用紙に日付の印を押してください。"
       }
@@ -693,7 +693,7 @@
   {
     "id": "v2032",
     "word": "cease",
-    "meaningJa": "やめる；終わる",
+    "meaningJa": "やめる、終わる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The noise did not cease until midnight.",
@@ -714,7 +714,7 @@
   {
     "id": "v2033",
     "word": "persist",
-    "meaningJa": "続く；固執する",
+    "meaningJa": "続く、固執する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "These problems may persist for several years.",
@@ -736,7 +736,7 @@
   {
     "id": "v2034",
     "word": "accelerate",
-    "meaningJa": "加速する；促進する",
+    "meaningJa": "加速する、促進する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The new system will accelerate the process.",
@@ -778,7 +778,7 @@
   {
     "id": "v2036",
     "word": "compute",
-    "meaningJa": "計算する；算出する",
+    "meaningJa": "計算する、算出する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The program can compute the average automatically.",
@@ -820,7 +820,7 @@
   {
     "id": "v2038",
     "word": "compromise",
-    "meaningJa": "妥協；歩み寄り",
+    "meaningJa": "妥協、歩み寄り",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The discussion ended in a compromise.",
@@ -849,7 +849,7 @@
   {
     "id": "v2039",
     "word": "enlarge",
-    "meaningJa": "拡大する；大きくする",
+    "meaningJa": "拡大する、大きくする",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Can you enlarge this photograph?",
@@ -870,7 +870,7 @@
   {
     "id": "v2040",
     "word": "multiply",
-    "meaningJa": "掛ける；増える",
+    "meaningJa": "掛ける、増える",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Multiply the number by three.",
@@ -892,7 +892,7 @@
   {
     "id": "v2041",
     "word": "weigh",
-    "meaningJa": "重さを量る；重さがある",
+    "meaningJa": "重さを量る、重さがある",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please weigh the flour before mixing it.",
@@ -912,7 +912,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "よく考える；比較検討する",
+        "meaningJa": "よく考える、比較検討する",
         "example": "We must weigh the benefits against the risks.",
         "exampleJa": "私たちは利点と危険を比較検討しなければなりません。"
       }
@@ -941,7 +941,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "登録簿；名簿",
+        "meaningJa": "登録簿、名簿",
         "example": "Please write your name in the register.",
         "exampleJa": "名簿に名前を書いてください。"
       }
@@ -950,7 +950,7 @@
   {
     "id": "v2043",
     "word": "subscribe",
-    "meaningJa": "定期購読する；加入する",
+    "meaningJa": "定期購読する、加入する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "I subscribe to a monthly science magazine.",
@@ -972,7 +972,7 @@
   {
     "id": "v2044",
     "word": "cancel",
-    "meaningJa": "取り消す；中止する",
+    "meaningJa": "取り消す、中止する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We had to cancel the picnic because of rain.",
@@ -993,7 +993,7 @@
   {
     "id": "v2045",
     "word": "paste",
-    "meaningJa": "貼る；貼り付ける",
+    "meaningJa": "貼る、貼り付ける",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Paste the picture into your notebook.",
@@ -1014,7 +1014,7 @@
   {
     "id": "v2046",
     "word": "scan",
-    "meaningJa": "ざっと見る；読み取る",
+    "meaningJa": "ざっと見る、読み取る",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Scan the list for your name.",
@@ -1056,7 +1056,7 @@
   {
     "id": "v2048",
     "word": "weave",
-    "meaningJa": "織る；編み合わせる",
+    "meaningJa": "織る、編み合わせる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "They weave cloth on a traditional loom.",
@@ -1078,7 +1078,7 @@
   {
     "id": "v2049",
     "word": "carve",
-    "meaningJa": "彫る；切り分ける",
+    "meaningJa": "彫る、切り分ける",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The artist will carve a bird from wood.",
@@ -1099,7 +1099,7 @@
   {
     "id": "v2050",
     "word": "stir",
-    "meaningJa": "かき混ぜる；動かす",
+    "meaningJa": "かき混ぜる、動かす",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Stir the soup slowly with a spoon.",
@@ -1128,7 +1128,7 @@
   {
     "id": "v2051",
     "word": "blend",
-    "meaningJa": "混ぜ合わせる；溶け合う",
+    "meaningJa": "混ぜ合わせる、溶け合う",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Blend the fruit with yogurt.",
@@ -1149,7 +1149,7 @@
   {
     "id": "v2052",
     "word": "fry",
-    "meaningJa": "油で揚げる；炒める",
+    "meaningJa": "油で揚げる、炒める",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Fry the onions in a little oil.",
@@ -1170,7 +1170,7 @@
   {
     "id": "v2053",
     "word": "roast",
-    "meaningJa": "あぶり焼きにする；煎る",
+    "meaningJa": "あぶり焼きにする、煎る",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We will roast the vegetables in the oven.",
@@ -1220,7 +1220,7 @@
   {
     "id": "v2055",
     "word": "wrap",
-    "meaningJa": "包む；巻く",
+    "meaningJa": "包む、巻く",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please wrap the gift in blue paper.",
@@ -1262,7 +1262,7 @@
   {
     "id": "v2057",
     "word": "unfold",
-    "meaningJa": "広げる；展開する",
+    "meaningJa": "広げる、展開する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "She began to unfold the map.",
@@ -1282,7 +1282,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "展開する；明らかになる",
+        "meaningJa": "展開する、明らかになる",
         "example": "We watched the story unfold on the screen.",
         "exampleJa": "私たちは画面で物語が展開するのを見ました。"
       }
@@ -1291,7 +1291,7 @@
   {
     "id": "v2058",
     "word": "spill",
-    "meaningJa": "こぼす；こぼれる",
+    "meaningJa": "こぼす、こぼれる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Be careful not to spill the milk.",
@@ -1312,7 +1312,7 @@
   {
     "id": "v2059",
     "word": "leak",
-    "meaningJa": "漏れる；漏らす",
+    "meaningJa": "漏れる、漏らす",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Water may leak through the damaged roof.",
@@ -1333,7 +1333,7 @@
   {
     "id": "v2060",
     "word": "drain",
-    "meaningJa": "排水する；流し出す",
+    "meaningJa": "排水する、流し出す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Drain the water from the sink.",
@@ -1425,7 +1425,7 @@
   {
     "id": "v2064",
     "word": "shave",
-    "meaningJa": "ひげをそる；削る",
+    "meaningJa": "ひげをそる、削る",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "He uses an electric razor to shave.",
@@ -1446,7 +1446,7 @@
   {
     "id": "v2065",
     "word": "bathe",
-    "meaningJa": "入浴する；洗う",
+    "meaningJa": "入浴する、洗う",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The parents bathe the baby every evening.",
@@ -1467,7 +1467,7 @@
   {
     "id": "v2066",
     "word": "shower",
-    "meaningJa": "シャワー；にわか雨",
+    "meaningJa": "シャワー、にわか雨",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "I took a shower after the game.",
@@ -1496,7 +1496,7 @@
   {
     "id": "v2067",
     "word": "rinse",
-    "meaningJa": "すすぐ；洗い流す",
+    "meaningJa": "すすぐ、洗い流す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Rinse the cup with clean water.",
@@ -1517,7 +1517,7 @@
   {
     "id": "v2068",
     "word": "squeeze",
-    "meaningJa": "搾る；強く押す",
+    "meaningJa": "搾る、強く押す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Squeeze the lemon over the salad.",
@@ -1538,7 +1538,7 @@
   {
     "id": "v2069",
     "word": "crush",
-    "meaningJa": "押しつぶす；砕く",
+    "meaningJa": "押しつぶす、砕く",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Crush the nuts into small pieces.",
@@ -1559,7 +1559,7 @@
   {
     "id": "v2070",
     "word": "twist",
-    "meaningJa": "ねじる；ひねる",
+    "meaningJa": "ねじる、ひねる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Twist the lid to open the jar.",
@@ -1580,7 +1580,7 @@
   {
     "id": "v2071",
     "word": "slide",
-    "meaningJa": "滑る；滑らせる",
+    "meaningJa": "滑る、滑らせる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The children slide down the snowy hill.",
@@ -1602,7 +1602,7 @@
   {
     "id": "v2072",
     "word": "slip",
-    "meaningJa": "滑る；滑り落ちる",
+    "meaningJa": "滑る、滑り落ちる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Be careful not to slip on the wet floor.",
@@ -1623,7 +1623,7 @@
   {
     "id": "v2073",
     "word": "swing",
-    "meaningJa": "揺れる；振る",
+    "meaningJa": "揺れる、振る",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The branches swing in the wind.",
@@ -1665,7 +1665,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "手を振る；振る",
+        "meaningJa": "手を振る、振る",
         "example": "The children wave to the departing train.",
         "exampleJa": "子供たちは出発する電車に手を振っています。"
       }
@@ -1695,7 +1695,7 @@
   {
     "id": "v2076",
     "word": "bow",
-    "meaningJa": "お辞儀をする；頭を下げる",
+    "meaningJa": "お辞儀をする、頭を下げる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The performers bow to the audience.",
@@ -1747,7 +1747,7 @@
   {
     "id": "v2078",
     "word": "crawl",
-    "meaningJa": "はう；ゆっくり進む",
+    "meaningJa": "はう、ゆっくり進む",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The baby can crawl across the room.",
@@ -1768,7 +1768,7 @@
   {
     "id": "v2079",
     "word": "creep",
-    "meaningJa": "忍び寄る；ゆっくり進む",
+    "meaningJa": "忍び寄る、ゆっくり進む",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The cat began to creep toward the bird.",
@@ -1790,7 +1790,7 @@
   {
     "id": "v2080",
     "word": "leap",
-    "meaningJa": "跳ぶ；跳び越える",
+    "meaningJa": "跳ぶ、跳び越える",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The dog can leap over the low fence.",
@@ -1811,7 +1811,7 @@
   {
     "id": "v2081",
     "word": "hop",
-    "meaningJa": "片足で跳ぶ；ぴょんと跳ぶ",
+    "meaningJa": "片足で跳ぶ、ぴょんと跳ぶ",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The children hop across the playground.",
@@ -1832,7 +1832,7 @@
   {
     "id": "v2082",
     "word": "skip",
-    "meaningJa": "飛ばす；抜かす；跳ねる",
+    "meaningJa": "飛ばす、抜かす、跳ねる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Do not skip the final question.",
@@ -1853,7 +1853,7 @@
   {
     "id": "v2083",
     "word": "jog",
-    "meaningJa": "ゆっくり走る；ジョギングする",
+    "meaningJa": "ゆっくり走る、ジョギングする",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We jog around the park every morning.",
@@ -1874,7 +1874,7 @@
   {
     "id": "v2084",
     "word": "wander",
-    "meaningJa": "歩き回る；さまよう",
+    "meaningJa": "歩き回る、さまよう",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We like to wander through the old town.",
@@ -1895,7 +1895,7 @@
   {
     "id": "v2085",
     "word": "stroll",
-    "meaningJa": "散歩する；ぶらぶら歩く",
+    "meaningJa": "散歩する、ぶらぶら歩く",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "They stroll along the river after dinner.",
@@ -1938,7 +1938,7 @@
   {
     "id": "v2087",
     "word": "stare",
-    "meaningJa": "じろじろ見る；見つめる",
+    "meaningJa": "じろじろ見る、見つめる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "It is rude to stare at strangers.",
@@ -1981,7 +1981,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "一目；ちらりと見ること",
+        "meaningJa": "一目、ちらりと見ること",
         "example": "A quick glance at the map was enough.",
         "exampleJa": "地図をちらりと見るだけで十分でした。"
       }
@@ -1990,7 +1990,7 @@
   {
     "id": "v2089",
     "word": "peer",
-    "meaningJa": "同等の人；仲間",
+    "meaningJa": "同等の人、仲間",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She discussed the project with a peer.",
@@ -2040,7 +2040,7 @@
   {
     "id": "v2091",
     "word": "shout",
-    "meaningJa": "大声で言う；叫ぶ",
+    "meaningJa": "大声で言う、叫ぶ",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "You do not need to shout in this small room.",
@@ -2082,7 +2082,7 @@
   {
     "id": "v2093",
     "word": "scream",
-    "meaningJa": "悲鳴を上げる；叫ぶ",
+    "meaningJa": "悲鳴を上げる、叫ぶ",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "A sudden noise made her scream.",
@@ -2209,7 +2209,7 @@
   {
     "id": "v2099",
     "word": "chew",
-    "meaningJa": "かむ；かみ砕く",
+    "meaningJa": "かむ、かみ砕く",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The child began to chew the bread.",

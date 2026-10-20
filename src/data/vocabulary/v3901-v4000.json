@@ -1013,7 +1013,7 @@
   {
     "id": "v3949",
     "word": "historical",
-    "meaningJa": "歴史の；歴史上の",
+    "meaningJa": "歴史の、歴史上の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The guide explained the historical importance of the building.",
@@ -1224,7 +1224,7 @@
   {
     "id": "v3959",
     "word": "presume",
-    "meaningJa": "推定する；当然だと思う",
+    "meaningJa": "推定する、当然だと思う",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "We should not presume that every student has a computer.",
@@ -1373,7 +1373,7 @@
   {
     "id": "v3966",
     "word": "ambition",
-    "meaningJa": "大志；大きな目標",
+    "meaningJa": "大志、大きな目標",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Her ambition is to open a small restaurant.",
@@ -1499,7 +1499,7 @@
   {
     "id": "v3972",
     "word": "calendar",
-    "meaningJa": "暦；予定表",
+    "meaningJa": "暦、予定表",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "I marked the date on my calendar.",
@@ -1837,7 +1837,7 @@
   {
     "id": "v3988",
     "word": "gap",
-    "meaningJa": "すき間；隔たり",
+    "meaningJa": "すき間、隔たり",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "There is a wide gap between the two buildings.",
@@ -1900,7 +1900,7 @@
   {
     "id": "v3991",
     "word": "manner",
-    "meaningJa": "やり方；態度",
+    "meaningJa": "やり方、態度",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "He spoke to the children in a gentle manner.",
@@ -1922,7 +1922,7 @@
   {
     "id": "v3992",
     "word": "mixture",
-    "meaningJa": "混合物；混合",
+    "meaningJa": "混合物、混合",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The cook added water to the mixture.",

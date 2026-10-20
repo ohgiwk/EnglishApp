@@ -1419,7 +1419,7 @@
       },
       {
         "partOfSpeech": "verb",
-        "meaningJa": "（人に）話しかける；演説する",
+        "meaningJa": "（人に）話しかける、演説する",
         "example": "The speaker will address the audience in English.",
         "exampleJa": "講演者は聴衆に英語で話しかけます。"
       }
@@ -1501,13 +1501,13 @@
       },
       {
         "partOfSpeech": "noun",
-        "meaningJa": "被験者；研究対象",
+        "meaningJa": "被験者、研究対象",
         "example": "Each subject completed a short memory test.",
         "exampleJa": "各被験者は短い記憶力テストを受けました。"
       },
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "〜を受けやすい；〜の対象となる（subject to）",
+        "meaningJa": "〜を受けやすい、〜の対象となる（subject to）",
         "example": "The schedule is subject to change.",
         "exampleJa": "日程は変更される可能性があります。"
       }

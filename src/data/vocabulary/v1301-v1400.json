@@ -2,7 +2,7 @@
   {
     "id": "v1301",
     "word": "concept",
-    "meaningJa": "概念；考え",
+    "meaningJa": "概念、考え",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The teacher explained the concept of gravity.",
@@ -23,7 +23,7 @@
   {
     "id": "v1302",
     "word": "theory",
-    "meaningJa": "理論；説",
+    "meaningJa": "理論、説",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The experiment supports this theory.",
@@ -44,7 +44,7 @@
   {
     "id": "v1303",
     "word": "principle",
-    "meaningJa": "原理；原則",
+    "meaningJa": "原理、原則",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The machine works on a simple principle.",
@@ -66,7 +66,7 @@
   {
     "id": "v1304",
     "word": "assumption",
-    "meaningJa": "仮定；思い込み",
+    "meaningJa": "仮定、思い込み",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The plan rests on an unrealistic assumption.",
@@ -87,7 +87,7 @@
   {
     "id": "v1305",
     "word": "argument",
-    "meaningJa": "議論；主張；口論",
+    "meaningJa": "議論、主張、口論",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Her argument is supported by clear evidence.",
@@ -137,7 +137,7 @@
   {
     "id": "v1307",
     "word": "conclusion",
-    "meaningJa": "結論；終わり",
+    "meaningJa": "結論、終わり",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We reached the same conclusion after examining the data.",
@@ -158,7 +158,7 @@
   {
     "id": "v1308",
     "word": "perspective",
-    "meaningJa": "視点；見方",
+    "meaningJa": "視点、見方",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Travel can give us a new perspective on life.",
@@ -179,7 +179,7 @@
   {
     "id": "v1309",
     "word": "aspect",
-    "meaningJa": "側面；観点",
+    "meaningJa": "側面、観点",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We need to consider every aspect of the problem.",
@@ -200,7 +200,7 @@
   {
     "id": "v1310",
     "word": "factor",
-    "meaningJa": "要因；要素",
+    "meaningJa": "要因、要素",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Cost is an important factor in this decision.",
@@ -221,7 +221,7 @@
   {
     "id": "v1311",
     "word": "feature",
-    "meaningJa": "特徴；特色",
+    "meaningJa": "特徴、特色",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The most useful feature of the phone is its camera.",
@@ -242,7 +242,7 @@
   {
     "id": "v1312",
     "word": "function",
-    "meaningJa": "機能；働き",
+    "meaningJa": "機能、働き",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The main function of roots is to absorb water.",
@@ -271,7 +271,7 @@
   {
     "id": "v1313",
     "word": "structure",
-    "meaningJa": "構造；組織",
+    "meaningJa": "構造、組織",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The structure of the building is simple.",
@@ -292,7 +292,7 @@
   {
     "id": "v1314",
     "word": "context",
-    "meaningJa": "文脈；背景",
+    "meaningJa": "文脈、背景",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The meaning of a phrase can depend on its context.",
@@ -313,7 +313,7 @@
   {
     "id": "v1315",
     "word": "circumstance",
-    "meaningJa": "状況；事情",
+    "meaningJa": "状況、事情",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "A change in circumstance forced them to move.",
@@ -335,7 +335,7 @@
   {
     "id": "v1316",
     "word": "approach",
-    "meaningJa": "方法；取り組み方；接近",
+    "meaningJa": "方法、取り組み方、接近",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We need a different approach to this problem.",
@@ -355,7 +355,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "近づく；取り組む",
+        "meaningJa": "近づく、取り組む",
         "example": "Please approach the problem from another angle.",
         "exampleJa": "別の角度からその問題に取り組んでください。"
       }
@@ -385,7 +385,7 @@
   {
     "id": "v1318",
     "word": "process",
-    "meaningJa": "過程；工程",
+    "meaningJa": "過程、工程",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Learning a language is a gradual process.",
@@ -414,7 +414,7 @@
   {
     "id": "v1319",
     "word": "procedure",
-    "meaningJa": "手順；手続き",
+    "meaningJa": "手順、手続き",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Please follow the correct procedure for using the machine.",
@@ -435,7 +435,7 @@
   {
     "id": "v1320",
     "word": "strategy",
-    "meaningJa": "戦略；方策",
+    "meaningJa": "戦略、方策",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The team developed a new strategy for winning.",
@@ -456,7 +456,7 @@
   {
     "id": "v1321",
     "word": "technique",
-    "meaningJa": "技法；技術",
+    "meaningJa": "技法、技術",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She taught us a useful technique for remembering names.",
@@ -498,7 +498,7 @@
   {
     "id": "v1323",
     "word": "observation",
-    "meaningJa": "観察；観察結果",
+    "meaningJa": "観察、観察結果",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Careful observation helps us notice small changes.",
@@ -541,7 +541,7 @@
   {
     "id": "v1325",
     "word": "investigation",
-    "meaningJa": "調査；捜査",
+    "meaningJa": "調査、捜査",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The investigation into the accident took several weeks.",
@@ -562,7 +562,7 @@
   {
     "id": "v1326",
     "word": "survey",
-    "meaningJa": "調査；アンケート",
+    "meaningJa": "調査、アンケート",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The survey asked students about their reading habits.",
@@ -604,7 +604,7 @@
   {
     "id": "v1328",
     "word": "invention",
-    "meaningJa": "発明；発明品",
+    "meaningJa": "発明、発明品",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The invention of the telephone changed communication.",
@@ -625,7 +625,7 @@
   {
     "id": "v1329",
     "word": "innovation",
-    "meaningJa": "革新；新しい工夫",
+    "meaningJa": "革新、新しい工夫",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Innovation can change the way we work.",
@@ -646,7 +646,7 @@
   {
     "id": "v1330",
     "word": "wisdom",
-    "meaningJa": "知恵；賢明さ",
+    "meaningJa": "知恵、賢明さ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Experience can be a source of wisdom.",
@@ -667,7 +667,7 @@
   {
     "id": "v1331",
     "word": "intelligence",
-    "meaningJa": "知能；知性",
+    "meaningJa": "知能、知性",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The study examines the relationship between sleep and intelligence.",
@@ -709,7 +709,7 @@
   {
     "id": "v1333",
     "word": "attitude",
-    "meaningJa": "態度；考え方",
+    "meaningJa": "態度、考え方",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Her positive attitude encouraged the team.",
@@ -730,7 +730,7 @@
   {
     "id": "v1334",
     "word": "belief",
-    "meaningJa": "信念；信じていること",
+    "meaningJa": "信念、信じていること",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "This belief is shared by many people.",
@@ -751,7 +751,7 @@
   {
     "id": "v1335",
     "word": "awareness",
-    "meaningJa": "認識；気づき",
+    "meaningJa": "認識、気づき",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The campaign raised awareness of environmental problems.",
@@ -772,7 +772,7 @@
   {
     "id": "v1336",
     "word": "consciousness",
-    "meaningJa": "意識；自覚",
+    "meaningJa": "意識、自覚",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The patient regained consciousness after a few minutes.",
@@ -793,7 +793,7 @@
   {
     "id": "v1337",
     "word": "perception",
-    "meaningJa": "知覚；認識",
+    "meaningJa": "知覚、認識",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Our experience influences our perception of the world.",
@@ -814,7 +814,7 @@
   {
     "id": "v1338",
     "word": "motivation",
-    "meaningJa": "動機；意欲",
+    "meaningJa": "動機、意欲",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Curiosity is a strong motivation for learning.",
@@ -856,7 +856,7 @@
   {
     "id": "v1340",
     "word": "creativity",
-    "meaningJa": "創造性；創造力",
+    "meaningJa": "創造性、創造力",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The activity encourages creativity in children.",
@@ -877,7 +877,7 @@
   {
     "id": "v1341",
     "word": "imagination",
-    "meaningJa": "想像力；想像",
+    "meaningJa": "想像力、想像",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Use your imagination to create a new character.",
@@ -898,7 +898,7 @@
   {
     "id": "v1342",
     "word": "identity",
-    "meaningJa": "身元；自己認識；同一性",
+    "meaningJa": "身元、自己認識、同一性",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Language can be an important part of cultural identity.",
@@ -927,7 +927,7 @@
   {
     "id": "v1343",
     "word": "personality",
-    "meaningJa": "性格；個性",
+    "meaningJa": "性格、個性",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Her cheerful personality makes people feel welcome.",
@@ -970,7 +970,7 @@
   {
     "id": "v1345",
     "word": "independence",
-    "meaningJa": "独立；自立",
+    "meaningJa": "独立、自立",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Living alone helped him gain independence.",
@@ -1054,7 +1054,7 @@
   {
     "id": "v1349",
     "word": "generation",
-    "meaningJa": "世代；発生",
+    "meaningJa": "世代、発生",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Each generation faces different challenges.",
@@ -1074,7 +1074,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "発生；生成",
+        "meaningJa": "発生、生成",
         "example": "The generation of electricity requires energy.",
         "exampleJa": "発電にはエネルギーが必要です。"
       }
@@ -1083,7 +1083,7 @@
   {
     "id": "v1350",
     "word": "individual",
-    "meaningJa": "個人；個体",
+    "meaningJa": "個人、個体",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Every individual has different needs.",
@@ -1104,7 +1104,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "個々の；個人の",
+        "meaningJa": "個々の、個人の",
         "example": "The plan should meet individual needs.",
         "exampleJa": "その計画は個々の必要に応じるべきです。"
       }
@@ -1113,7 +1113,7 @@
   {
     "id": "v1351",
     "word": "community",
-    "meaningJa": "地域社会；共同体",
+    "meaningJa": "地域社会、共同体",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The whole community helped clean the park.",
@@ -1134,7 +1134,7 @@
   {
     "id": "v1352",
     "word": "citizen",
-    "meaningJa": "市民；国民",
+    "meaningJa": "市民、国民",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Every citizen has a role in the community.",
@@ -1176,7 +1176,7 @@
   {
     "id": "v1354",
     "word": "producer",
-    "meaningJa": "生産者；制作者",
+    "meaningJa": "生産者、制作者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The farmer is a local producer of rice.",
@@ -1197,7 +1197,7 @@
   {
     "id": "v1355",
     "word": "resource",
-    "meaningJa": "資源；役立つ手段",
+    "meaningJa": "資源、役立つ手段",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Water is a valuable resource.",
@@ -1218,7 +1218,7 @@
   {
     "id": "v1356",
     "word": "energy",
-    "meaningJa": "エネルギー；活力",
+    "meaningJa": "エネルギー、活力",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The sun provides energy for life on Earth.",
@@ -1260,7 +1260,7 @@
   {
     "id": "v1358",
     "word": "electricity",
-    "meaningJa": "電気；電力",
+    "meaningJa": "電気、電力",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The storm cut off the electricity.",
@@ -1344,7 +1344,7 @@
   {
     "id": "v1362",
     "word": "atmosphere",
-    "meaningJa": "大気；雰囲気",
+    "meaningJa": "大気、雰囲気",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The atmosphere surrounds the Earth.",
@@ -1394,7 +1394,7 @@
   {
     "id": "v1364",
     "word": "habitat",
-    "meaningJa": "生息地；生育地",
+    "meaningJa": "生息地、生育地",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The wetland is an important habitat for birds.",
@@ -1437,7 +1437,7 @@
   {
     "id": "v1366",
     "word": "evolution",
-    "meaningJa": "進化；発展",
+    "meaningJa": "進化、発展",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The museum explains the evolution of life.",
@@ -1458,7 +1458,7 @@
   {
     "id": "v1367",
     "word": "adaptation",
-    "meaningJa": "適応；改作",
+    "meaningJa": "適応、改作",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Thick fur is an adaptation to cold conditions.",
@@ -1478,7 +1478,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "改作；翻案",
+        "meaningJa": "改作、翻案",
         "example": "The film is an adaptation of a famous novel.",
         "exampleJa": "その映画は有名な小説を改作したものです。"
       }
@@ -1487,7 +1487,7 @@
   {
     "id": "v1368",
     "word": "nutrition",
-    "meaningJa": "栄養；栄養摂取",
+    "meaningJa": "栄養、栄養摂取",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Good nutrition is important for growth.",
@@ -1508,7 +1508,7 @@
   {
     "id": "v1369",
     "word": "conflict",
-    "meaningJa": "対立；争い",
+    "meaningJa": "対立、争い",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The two groups tried to resolve the conflict.",
@@ -1571,7 +1571,7 @@
   {
     "id": "v1372",
     "word": "communication",
-    "meaningJa": "意思疎通；伝達",
+    "meaningJa": "意思疎通、伝達",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Clear communication helps prevent mistakes.",
@@ -1592,7 +1592,7 @@
   {
     "id": "v1373",
     "word": "interaction",
-    "meaningJa": "相互作用；交流",
+    "meaningJa": "相互作用、交流",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The study examines interaction between people and machines.",
@@ -1613,7 +1613,7 @@
   {
     "id": "v1374",
     "word": "habit",
-    "meaningJa": "習慣；癖",
+    "meaningJa": "習慣、癖",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Reading before bed is a good habit.",
@@ -1655,7 +1655,7 @@
   {
     "id": "v1376",
     "word": "trend",
-    "meaningJa": "傾向；流行",
+    "meaningJa": "傾向、流行",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The graph shows a trend toward smaller families.",
@@ -1698,7 +1698,7 @@
   {
     "id": "v1378",
     "word": "impact",
-    "meaningJa": "影響；衝撃",
+    "meaningJa": "影響、衝撃",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The new road had a major impact on the town.",
@@ -1719,7 +1719,7 @@
   {
     "id": "v1379",
     "word": "drawback",
-    "meaningJa": "欠点；不利な点",
+    "meaningJa": "欠点、不利な点",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The main drawback of this plan is its cost.",
@@ -1740,7 +1740,7 @@
   {
     "id": "v1380",
     "word": "alternative",
-    "meaningJa": "代わりのもの；選択肢",
+    "meaningJa": "代わりのもの、選択肢",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Cycling is an alternative to driving.",
@@ -1790,7 +1790,7 @@
   {
     "id": "v1382",
     "word": "priority",
-    "meaningJa": "優先事項；優先すること",
+    "meaningJa": "優先事項、優先すること",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Safety is our first priority.",
@@ -1811,7 +1811,7 @@
   {
     "id": "v1383",
     "word": "objective",
-    "meaningJa": "目的；目標",
+    "meaningJa": "目的、目標",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The main objective is to reduce waste.",
@@ -1840,7 +1840,7 @@
   {
     "id": "v1384",
     "word": "goal",
-    "meaningJa": "目標；ゴール",
+    "meaningJa": "目標、ゴール",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "My goal is to read one book every week.",
@@ -1861,7 +1861,7 @@
   {
     "id": "v1385",
     "word": "challenge",
-    "meaningJa": "難しい課題；挑戦",
+    "meaningJa": "難しい課題、挑戦",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Learning a new language can be a challenge.",
@@ -1881,7 +1881,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "異議を唱える；挑む",
+        "meaningJa": "異議を唱える、挑む",
         "example": "New evidence may challenge the old theory.",
         "exampleJa": "新しい証拠は古い理論に異議を唱えるものとなるかもしれません。"
       }
@@ -1890,7 +1890,7 @@
   {
     "id": "v1386",
     "word": "difficulty",
-    "meaningJa": "困難；難しさ",
+    "meaningJa": "困難、難しさ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He had difficulty finding the address.",
@@ -1912,7 +1912,7 @@
   {
     "id": "v1387",
     "word": "obstacle",
-    "meaningJa": "障害；妨げ",
+    "meaningJa": "障害、妨げ",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Lack of money was an obstacle to the project.",
@@ -1933,7 +1933,7 @@
   {
     "id": "v1388",
     "word": "potential",
-    "meaningJa": "可能性；潜在能力",
+    "meaningJa": "可能性、潜在能力",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "This idea has the potential to change our lives.",
@@ -1953,7 +1953,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "潜在的な；可能性のある",
+        "meaningJa": "潜在的な、可能性のある",
         "example": "The report identifies potential risks.",
         "exampleJa": "その報告書は潜在的な危険を特定しています。"
       }
@@ -1962,7 +1962,7 @@
   {
     "id": "v1389",
     "word": "capacity",
-    "meaningJa": "容量；収容力；能力",
+    "meaningJa": "容量、収容力、能力",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The hall has a capacity of two hundred people.",
@@ -1984,7 +1984,7 @@
   {
     "id": "v1390",
     "word": "capability",
-    "meaningJa": "能力；機能",
+    "meaningJa": "能力、機能",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The device has the capability to record sound.",
@@ -2005,7 +2005,7 @@
   {
     "id": "v1391",
     "word": "skill",
-    "meaningJa": "技能；技術",
+    "meaningJa": "技能、技術",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Cooking is a useful skill.",
@@ -2047,7 +2047,7 @@
   {
     "id": "v1393",
     "word": "merit",
-    "meaningJa": "長所；価値",
+    "meaningJa": "長所、価値",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "We should judge the idea on its merit.",
@@ -2068,7 +2068,7 @@
   {
     "id": "v1394",
     "word": "virtue",
-    "meaningJa": "美徳；長所",
+    "meaningJa": "美徳、長所",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Patience is an important virtue.",
@@ -2089,7 +2089,7 @@
   {
     "id": "v1395",
     "word": "fault",
-    "meaningJa": "欠点；責任；故障",
+    "meaningJa": "欠点、責任、故障",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The accident was not your fault.",
@@ -2110,7 +2110,7 @@
   {
     "id": "v1396",
     "word": "error",
-    "meaningJa": "誤り；間違い",
+    "meaningJa": "誤り、間違い",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "There is an error in this calculation.",
@@ -2160,7 +2160,7 @@
   {
     "id": "v1398",
     "word": "bias",
-    "meaningJa": "偏り；偏見",
+    "meaningJa": "偏り、偏見",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The researchers tried to avoid bias in the survey.",
@@ -2181,7 +2181,7 @@
   {
     "id": "v1399",
     "word": "prejudice",
-    "meaningJa": "偏見；先入観",
+    "meaningJa": "偏見、先入観",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Education can help reduce prejudice.",
@@ -2203,7 +2203,7 @@
   {
     "id": "v1400",
     "word": "stereotype",
-    "meaningJa": "固定観念；決めつけたイメージ",
+    "meaningJa": "固定観念、決めつけたイメージ",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The story challenges a common stereotype about older people.",

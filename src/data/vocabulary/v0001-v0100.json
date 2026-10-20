@@ -476,7 +476,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "（完了形を作る）〜した；〜している",
+        "meaningJa": "（完了形を作る）〜した、〜している",
         "example": "I have finished the report.",
         "exampleJa": "私は報告書を仕上げました。"
       },
@@ -576,7 +576,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "意志；意欲",
+        "meaningJa": "意志、意欲",
         "example": "She has a strong will.",
         "exampleJa": "彼女は強い意志を持っています。"
       }
@@ -641,7 +641,7 @@
       },
       {
         "partOfSpeech": "verb",
-        "meaningJa": "〜することがある；あり得る",
+        "meaningJa": "〜することがある、あり得る",
         "example": "Mistakes can happen even with careful planning.",
         "exampleJa": "入念に計画しても間違いが起こることはあります。"
       },
@@ -1455,7 +1455,7 @@
   {
     "id": "v0063",
     "word": "would",
-    "meaningJa": "〜だろう；（would likeで）〜したい",
+    "meaningJa": "〜だろう、（would likeで）〜したい",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "I would like a glass of water.",
@@ -1687,7 +1687,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "（date backで）〜にさかのぼる；〜以来存在する",
+        "meaningJa": "（date backで）〜にさかのぼる、〜以来存在する",
         "example": "These stone walls date back to the eighteenth century.",
         "exampleJa": "これらの石の壁は18世紀にさかのぼる。"
       }
@@ -2081,7 +2081,7 @@
       },
       {
         "partOfSpeech": "adverb",
-        "meaningJa": "最後に；この前に",
+        "meaningJa": "最後に、この前に",
         "example": "When did you last see her?",
         "exampleJa": "あなたがこの前彼女に会ったのはいつですか。"
       }
@@ -2196,7 +2196,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "〜するはずだ；〜する見込みだ",
+        "meaningJa": "〜するはずだ、〜する見込みだ",
         "example": "The parcel should arrive tomorrow.",
         "exampleJa": "荷物は明日届くはずです。"
       }

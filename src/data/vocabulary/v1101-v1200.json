@@ -128,7 +128,7 @@
   {
     "id": "v1107",
     "word": "leg",
-    "meaningJa": "脚；足",
+    "meaningJa": "脚、足",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She broke her leg while skiing.",
@@ -171,7 +171,7 @@
   {
     "id": "v1109",
     "word": "stomach",
-    "meaningJa": "胃；腹",
+    "meaningJa": "胃、腹",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "My stomach feels full after lunch.",
@@ -672,7 +672,7 @@
   {
     "id": "v1132",
     "word": "usually",
-    "meaningJa": "たいてい；普段は",
+    "meaningJa": "たいてい、普段は",
     "partOfSpeech": "adverb",
     "level": 1,
     "example": "I usually take the bus to school.",
@@ -820,7 +820,7 @@
   {
     "id": "v1139",
     "word": "afraid",
-    "meaningJa": "恐れて；怖がって",
+    "meaningJa": "恐れて、怖がって",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "The child was afraid of the dark.",
@@ -842,7 +842,7 @@
   {
     "id": "v1140",
     "word": "tall",
-    "meaningJa": "背が高い；高い",
+    "meaningJa": "背が高い、高い",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "A tall building stands near the station.",
@@ -884,7 +884,7 @@
   {
     "id": "v1142",
     "word": "healthy",
-    "meaningJa": "健康な；健康によい",
+    "meaningJa": "健康な、健康によい",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "Regular exercise helps us stay healthy.",
@@ -905,7 +905,7 @@
   {
     "id": "v1143",
     "word": "sick",
-    "meaningJa": "病気の；気分が悪い",
+    "meaningJa": "病気の、気分が悪い",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "He stayed in bed because he was sick.",
@@ -1052,7 +1052,7 @@
   {
     "id": "v1150",
     "word": "neighbor",
-    "meaningJa": "隣人；近所の人",
+    "meaningJa": "隣人、近所の人",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "Our neighbor helped us carry the boxes.",
@@ -1124,7 +1124,7 @@
   {
     "id": "v1153",
     "word": "sunny",
-    "meaningJa": "晴れた；日当たりのよい",
+    "meaningJa": "晴れた、日当たりのよい",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "We had a picnic on a sunny day.",
@@ -1313,7 +1313,7 @@
   {
     "id": "v1162",
     "word": "cow",
-    "meaningJa": "牛；雌牛",
+    "meaningJa": "牛、雌牛",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The cow is eating grass.",
@@ -1398,7 +1398,7 @@
   {
     "id": "v1166",
     "word": "duck",
-    "meaningJa": "アヒル；カモ",
+    "meaningJa": "アヒル、カモ",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "A duck was swimming in the pond.",
@@ -1587,7 +1587,7 @@
   {
     "id": "v1175",
     "word": "storm",
-    "meaningJa": "嵐；暴風雨",
+    "meaningJa": "嵐、暴風雨",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The storm damaged several houses.",
@@ -1651,7 +1651,7 @@
   {
     "id": "v1178",
     "word": "lightning",
-    "meaningJa": "稲妻；雷光",
+    "meaningJa": "稲妻、雷光",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Lightning lit up the night sky.",
@@ -1694,7 +1694,7 @@
   {
     "id": "v1180",
     "word": "warm",
-    "meaningJa": "暖かい；温かい",
+    "meaningJa": "暖かい、温かい",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "The room stayed warm all night.",
@@ -1757,7 +1757,7 @@
   {
     "id": "v1183",
     "word": "catch",
-    "meaningJa": "捕まえる；受け止める",
+    "meaningJa": "捕まえる、受け止める",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "Can you catch this ball?",
@@ -1828,7 +1828,7 @@
   {
     "id": "v1186",
     "word": "pull",
-    "meaningJa": "引く；引っ張る",
+    "meaningJa": "引く、引っ張る",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "Pull the rope gently.",
@@ -1878,7 +1878,7 @@
   {
     "id": "v1188",
     "word": "shake",
-    "meaningJa": "振る；揺れる",
+    "meaningJa": "振る、揺れる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Shake the bottle before opening it.",
@@ -1899,7 +1899,7 @@
   {
     "id": "v1189",
     "word": "bend",
-    "meaningJa": "曲げる；曲がる",
+    "meaningJa": "曲げる、曲がる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Bend your knees slightly.",
@@ -1920,7 +1920,7 @@
   {
     "id": "v1190",
     "word": "stretch",
-    "meaningJa": "伸ばす；伸びる",
+    "meaningJa": "伸ばす、伸びる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Stretch your arms above your head.",
@@ -1941,7 +1941,7 @@
   {
     "id": "v1191",
     "word": "brush",
-    "meaningJa": "ブラシをかける；磨く",
+    "meaningJa": "ブラシをかける、磨く",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "I brush my teeth after breakfast.",
@@ -1961,7 +1961,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "ブラシ；筆",
+        "meaningJa": "ブラシ、筆",
         "example": "She painted the door with a wide brush.",
         "exampleJa": "彼女は幅の広い刷毛でドアを塗りました。"
       }
@@ -1970,7 +1970,7 @@
   {
     "id": "v1192",
     "word": "sweep",
-    "meaningJa": "掃く；掃除する",
+    "meaningJa": "掃く、掃除する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please sweep the floor before you leave.",
@@ -1991,7 +1991,7 @@
   {
     "id": "v1193",
     "word": "invite",
-    "meaningJa": "招く；招待する",
+    "meaningJa": "招く、招待する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "I want to invite my friends to dinner.",
@@ -2012,7 +2012,7 @@
   {
     "id": "v1194",
     "word": "arrive",
-    "meaningJa": "着く；到着する",
+    "meaningJa": "着く、到着する",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "We will arrive at the airport at noon.",
@@ -2055,7 +2055,7 @@
   {
     "id": "v1196",
     "word": "decide",
-    "meaningJa": "決める；決定する",
+    "meaningJa": "決める、決定する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We need to decide where to meet.",
@@ -2105,7 +2105,7 @@
   {
     "id": "v1198",
     "word": "refuse",
-    "meaningJa": "断る；拒否する",
+    "meaningJa": "断る、拒否する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "You can refuse to answer the question.",
@@ -2126,7 +2126,7 @@
   {
     "id": "v1199",
     "word": "apologize",
-    "meaningJa": "謝る；謝罪する",
+    "meaningJa": "謝る、謝罪する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "I apologize for the mistake.",
@@ -2148,7 +2148,7 @@
   {
     "id": "v1200",
     "word": "greet",
-    "meaningJa": "挨拶する；迎える",
+    "meaningJa": "挨拶する、迎える",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We greet our neighbors every morning.",

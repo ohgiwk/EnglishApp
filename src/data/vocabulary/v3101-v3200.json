@@ -44,7 +44,7 @@
   {
     "id": "v3103",
     "word": "audience",
-    "meaningJa": "観客；聴衆",
+    "meaningJa": "観客、聴衆",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The audience listened quietly to the speaker.",
@@ -66,7 +66,7 @@
   {
     "id": "v3104",
     "word": "client",
-    "meaningJa": "顧客；依頼人",
+    "meaningJa": "顧客、依頼人",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The designer discussed the plan with her client.",
@@ -88,7 +88,7 @@
   {
     "id": "v3105",
     "word": "brand",
-    "meaningJa": "ブランド；商標",
+    "meaningJa": "ブランド、商標",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "This brand is known for its simple designs.",
@@ -109,7 +109,7 @@
   {
     "id": "v3106",
     "word": "publish",
-    "meaningJa": "〜を出版する；公表する",
+    "meaningJa": "〜を出版する、公表する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The team will publish its findings next month.",
@@ -130,7 +130,7 @@
   {
     "id": "v3107",
     "word": "circulate",
-    "meaningJa": "循環する；〜を回覧する",
+    "meaningJa": "循環する、〜を回覧する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Warm air can circulate through these openings.",
@@ -151,7 +151,7 @@
   {
     "id": "v3108",
     "word": "circulation",
-    "meaningJa": "循環；流通；発行部数",
+    "meaningJa": "循環、流通、発行部数",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Exercise affects blood circulation.",
@@ -171,7 +171,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "発行部数；配布部数",
+        "meaningJa": "発行部数、配布部数",
         "example": "The magazine has a circulation of ten thousand.",
         "exampleJa": "その雑誌の発行部数は一万部です。"
       }
@@ -180,7 +180,7 @@
   {
     "id": "v3109",
     "word": "editorial",
-    "meaningJa": "社説；論説",
+    "meaningJa": "社説、論説",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The editorial criticized the new policy.",
@@ -209,7 +209,7 @@
   {
     "id": "v3110",
     "word": "bulletin",
-    "meaningJa": "速報；公報",
+    "meaningJa": "速報、公報",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The radio station issued a weather bulletin.",
@@ -230,7 +230,7 @@
   {
     "id": "v3111",
     "word": "newsletter",
-    "meaningJa": "会報；定期的な案内便り",
+    "meaningJa": "会報、定期的な案内便り",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The school sends a newsletter to parents each month.",
@@ -251,7 +251,7 @@
   {
     "id": "v3112",
     "word": "subscriber",
-    "meaningJa": "購読者；加入者",
+    "meaningJa": "購読者、加入者",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Each subscriber receives a weekly email.",
@@ -272,7 +272,7 @@
   {
     "id": "v3113",
     "word": "subscription",
-    "meaningJa": "定期購読；継続利用契約",
+    "meaningJa": "定期購読、継続利用契約",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "My subscription to the magazine ends in June.",
@@ -315,7 +315,7 @@
   {
     "id": "v3115",
     "word": "gossip",
-    "meaningJa": "うわさ話；陰口",
+    "meaningJa": "うわさ話、陰口",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She avoids gossip about her colleagues.",
@@ -336,7 +336,7 @@
   {
     "id": "v3116",
     "word": "credible",
-    "meaningJa": "信頼できる；もっともらしい",
+    "meaningJa": "信頼できる、もっともらしい",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The witness gave a credible account of the event.",
@@ -358,7 +358,7 @@
   {
     "id": "v3117",
     "word": "unreliable",
-    "meaningJa": "信頼できない；当てにならない",
+    "meaningJa": "信頼できない、当てにならない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The old clock is unreliable.",
@@ -379,7 +379,7 @@
   {
     "id": "v3118",
     "word": "trustworthy",
-    "meaningJa": "信頼できる；信用に足る",
+    "meaningJa": "信頼できる、信用に足る",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "We need a trustworthy source of information.",
@@ -400,7 +400,7 @@
   {
     "id": "v3119",
     "word": "confidential",
-    "meaningJa": "機密の；秘密の",
+    "meaningJa": "機密の、秘密の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The report contains confidential information.",
@@ -422,7 +422,7 @@
   {
     "id": "v3120",
     "word": "disclose",
-    "meaningJa": "〜を明らかにする；開示する",
+    "meaningJa": "〜を明らかにする、開示する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The company agreed to disclose the results.",
@@ -443,7 +443,7 @@
   {
     "id": "v3121",
     "word": "disclosure",
-    "meaningJa": "開示；暴露",
+    "meaningJa": "開示、暴露",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The disclosure of the error led to a review.",
@@ -464,7 +464,7 @@
   {
     "id": "v3122",
     "word": "anonymous",
-    "meaningJa": "匿名の；作者不明の",
+    "meaningJa": "匿名の、作者不明の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The library received an anonymous donation.",
@@ -485,7 +485,7 @@
   {
     "id": "v3123",
     "word": "anonymity",
-    "meaningJa": "匿名であること；匿名性",
+    "meaningJa": "匿名であること、匿名性",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The survey protects the anonymity of participants.",
@@ -506,7 +506,7 @@
   {
     "id": "v3124",
     "word": "identification",
-    "meaningJa": "識別；身元確認；身分証明書",
+    "meaningJa": "識別、身元確認、身分証明書",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Visitors must show identification at the entrance.",
@@ -528,7 +528,7 @@
   {
     "id": "v3125",
     "word": "verification",
-    "meaningJa": "確認；検証",
+    "meaningJa": "確認、検証",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The results require independent verification.",
@@ -549,7 +549,7 @@
   {
     "id": "v3126",
     "word": "browse",
-    "meaningJa": "拾い読みする；ざっと見る",
+    "meaningJa": "拾い読みする、ざっと見る",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "You can browse the books before choosing one.",
@@ -612,7 +612,7 @@
   {
     "id": "v3129",
     "word": "link",
-    "meaningJa": "つながり；関連；リンク",
+    "meaningJa": "つながり、関連、リンク",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The study found a link between sleep and memory.",
@@ -641,7 +641,7 @@
   {
     "id": "v3130",
     "word": "broadband",
-    "meaningJa": "ブロードバンド；高速通信回線",
+    "meaningJa": "ブロードバンド、高速通信回線",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Broadband is available in most homes in the town.",
@@ -662,7 +662,7 @@
   {
     "id": "v3131",
     "word": "antenna",
-    "meaningJa": "アンテナ；触角",
+    "meaningJa": "アンテナ、触角",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The radio has a long antenna.",
@@ -692,7 +692,7 @@
   {
     "id": "v3132",
     "word": "transmitter",
-    "meaningJa": "送信機；伝達するもの",
+    "meaningJa": "送信機、伝達するもの",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The transmitter sends a signal every minute.",
@@ -713,7 +713,7 @@
   {
     "id": "v3133",
     "word": "receiver",
-    "meaningJa": "受信機；受け取る人",
+    "meaningJa": "受信機、受け取る人",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The receiver converts the signal into sound.",
@@ -734,7 +734,7 @@
   {
     "id": "v3134",
     "word": "optical",
-    "meaningJa": "光の；視覚の；光学の",
+    "meaningJa": "光の、視覚の、光学の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The laboratory uses optical instruments.",
@@ -798,7 +798,7 @@
   {
     "id": "v3137",
     "word": "chip",
-    "meaningJa": "かけら；小片；チップ",
+    "meaningJa": "かけら、小片、チップ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A small chip of wood fell onto the floor.",
@@ -818,7 +818,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "集積回路；半導体チップ",
+        "meaningJa": "集積回路、半導体チップ",
         "example": "The device uses a tiny chip to store data.",
         "exampleJa": "その装置は小さな半導体チップを使ってデータを保存します。"
       }
@@ -827,7 +827,7 @@
   {
     "id": "v3138",
     "word": "processor",
-    "meaningJa": "処理装置；プロセッサー",
+    "meaningJa": "処理装置、プロセッサー",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The computer has a powerful processor.",
@@ -848,7 +848,7 @@
   {
     "id": "v3139",
     "word": "storage",
-    "meaningJa": "保管；保存；貯蔵場所",
+    "meaningJa": "保管、保存、貯蔵場所",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The building provides storage for farm equipment.",
@@ -869,7 +869,7 @@
   {
     "id": "v3140",
     "word": "backup",
-    "meaningJa": "予備；控え；バックアップ",
+    "meaningJa": "予備、控え、バックアップ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Keep a backup of your important files.",
@@ -891,7 +891,7 @@
   {
     "id": "v3141",
     "word": "digit",
-    "meaningJa": "数字；桁",
+    "meaningJa": "数字、桁",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Write one digit in each box.",
@@ -913,7 +913,7 @@
   {
     "id": "v3142",
     "word": "binary",
-    "meaningJa": "二進法の；二つからなる",
+    "meaningJa": "二進法の、二つからなる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "Computers can represent numbers in binary form.",
@@ -934,7 +934,7 @@
   {
     "id": "v3143",
     "word": "numerical",
-    "meaningJa": "数の；数値の",
+    "meaningJa": "数の、数値の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The report includes numerical data.",
@@ -955,7 +955,7 @@
   {
     "id": "v3144",
     "word": "interface",
-    "meaningJa": "接点；操作画面；接続部分",
+    "meaningJa": "接点、操作画面、接続部分",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The application has a simple interface.",
@@ -976,7 +976,7 @@
   {
     "id": "v3145",
     "word": "interactive",
-    "meaningJa": "双方向の；対話型の",
+    "meaningJa": "双方向の、対話型の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The museum has an interactive display.",
@@ -997,7 +997,7 @@
   {
     "id": "v3146",
     "word": "simulation",
-    "meaningJa": "模擬実験；シミュレーション",
+    "meaningJa": "模擬実験、シミュレーション",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The simulation shows how traffic moves through the city.",
@@ -1018,7 +1018,7 @@
   {
     "id": "v3147",
     "word": "simulate",
-    "meaningJa": "〜を模擬する；再現する",
+    "meaningJa": "〜を模擬する、再現する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The model can simulate changes in temperature.",
@@ -1039,7 +1039,7 @@
   {
     "id": "v3148",
     "word": "obsolete",
-    "meaningJa": "時代遅れの；廃れた",
+    "meaningJa": "時代遅れの、廃れた",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The new system made the old equipment obsolete.",
@@ -1060,7 +1060,7 @@
   {
     "id": "v3149",
     "word": "upgrade",
-    "meaningJa": "〜を改良する；性能を上げる",
+    "meaningJa": "〜を改良する、性能を上げる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The school plans to upgrade its computers.",
@@ -1081,7 +1081,7 @@
   {
     "id": "v3150",
     "word": "malfunction",
-    "meaningJa": "故障；機能不全",
+    "meaningJa": "故障、機能不全",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "A mechanical malfunction stopped the machine.",
@@ -1102,7 +1102,7 @@
   {
     "id": "v3151",
     "word": "inherent",
-    "meaningJa": "本来備わっている；内在する",
+    "meaningJa": "本来備わっている、内在する",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "Every method has inherent limitations.",
@@ -1124,7 +1124,7 @@
   {
     "id": "v3152",
     "word": "innate",
-    "meaningJa": "生まれつきの；先天的な",
+    "meaningJa": "生まれつきの、先天的な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The study explores innate differences in behavior.",
@@ -1146,7 +1146,7 @@
   {
     "id": "v3153",
     "word": "implicit",
-    "meaningJa": "暗黙の；明言されていない",
+    "meaningJa": "暗黙の、明言されていない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The agreement rests on an implicit promise of cooperation.",
@@ -1168,7 +1168,7 @@
   {
     "id": "v3154",
     "word": "explicit",
-    "meaningJa": "明確な；明示的な",
+    "meaningJa": "明確な、明示的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The teacher gave explicit instructions for the task.",
@@ -1189,7 +1189,7 @@
   {
     "id": "v3155",
     "word": "ambiguous",
-    "meaningJa": "曖昧な；複数の解釈ができる",
+    "meaningJa": "曖昧な、複数の解釈ができる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The wording of the question is ambiguous.",
@@ -1211,7 +1211,7 @@
   {
     "id": "v3156",
     "word": "vague",
-    "meaningJa": "曖昧な；はっきりしない",
+    "meaningJa": "曖昧な、はっきりしない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "He gave only a vague description of the place.",
@@ -1232,7 +1232,7 @@
   {
     "id": "v3157",
     "word": "approximate",
-    "meaningJa": "おおよその；近似の",
+    "meaningJa": "おおよその、近似の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The map shows the approximate location of the village.",
@@ -1253,7 +1253,7 @@
   {
     "id": "v3158",
     "word": "probable",
-    "meaningJa": "起こりそうな；ありそうな",
+    "meaningJa": "起こりそうな、ありそうな",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The report lists the probable causes of the failure.",
@@ -1296,7 +1296,7 @@
   {
     "id": "v3160",
     "word": "viable",
-    "meaningJa": "実行可能な；存続できる",
+    "meaningJa": "実行可能な、存続できる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "We need a viable alternative to the current system.",
@@ -1317,7 +1317,7 @@
   {
     "id": "v3161",
     "word": "inevitable",
-    "meaningJa": "避けられない；必然的な",
+    "meaningJa": "避けられない、必然的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Some delay was inevitable after the storm.",
@@ -1359,7 +1359,7 @@
   {
     "id": "v3163",
     "word": "uncertain",
-    "meaningJa": "確かでない；不確かな",
+    "meaningJa": "確かでない、不確かな",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The cause of the change remains uncertain.",
@@ -1380,7 +1380,7 @@
   {
     "id": "v3164",
     "word": "dubious",
-    "meaningJa": "疑わしい；疑念を抱く",
+    "meaningJa": "疑わしい、疑念を抱く",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The claim rests on dubious evidence.",
@@ -1401,7 +1401,7 @@
   {
     "id": "v3165",
     "word": "doubtful",
-    "meaningJa": "疑わしい；自信がない",
+    "meaningJa": "疑わしい、自信がない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "It is doubtful whether the plan will work.",
@@ -1422,7 +1422,7 @@
   {
     "id": "v3166",
     "word": "questionable",
-    "meaningJa": "疑問のある；問題のある",
+    "meaningJa": "疑問のある、問題のある",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The study relied on a questionable assumption.",
@@ -1443,7 +1443,7 @@
   {
     "id": "v3167",
     "word": "conclusive",
-    "meaningJa": "決定的な；結論を確定させる",
+    "meaningJa": "決定的な、結論を確定させる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The results provide conclusive evidence.",
@@ -1464,7 +1464,7 @@
   {
     "id": "v3168",
     "word": "inconclusive",
-    "meaningJa": "結論を出せない；決め手を欠く",
+    "meaningJa": "結論を出せない、決め手を欠く",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The first experiment produced inconclusive results.",
@@ -1485,7 +1485,7 @@
   {
     "id": "v3169",
     "word": "decisive",
-    "meaningJa": "決定的な；決断力のある",
+    "meaningJa": "決定的な、決断力のある",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The final experiment played a decisive role.",
@@ -1514,7 +1514,7 @@
   {
     "id": "v3170",
     "word": "definite",
-    "meaningJa": "明確な；確定した",
+    "meaningJa": "明確な、確定した",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "We have no definite plans for the weekend.",
@@ -1535,7 +1535,7 @@
   {
     "id": "v3171",
     "word": "definitive",
-    "meaningJa": "最終的な；決定版の",
+    "meaningJa": "最終的な、決定版の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The committee has not reached a definitive conclusion.",
@@ -1557,7 +1557,7 @@
   {
     "id": "v3172",
     "word": "irrelevant",
-    "meaningJa": "関係のない；的外れな",
+    "meaningJa": "関係のない、的外れな",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "That detail is irrelevant to the question.",
@@ -1578,7 +1578,7 @@
   {
     "id": "v3173",
     "word": "pertinent",
-    "meaningJa": "関連のある；適切な",
+    "meaningJa": "関連のある、適切な",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "She asked a pertinent question about the evidence.",
@@ -1599,7 +1599,7 @@
   {
     "id": "v3174",
     "word": "applicable",
-    "meaningJa": "適用できる；当てはまる",
+    "meaningJa": "適用できる、当てはまる",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The rule is applicable to all members.",
@@ -1620,7 +1620,7 @@
   {
     "id": "v3175",
     "word": "adequate",
-    "meaningJa": "十分な；適切な",
+    "meaningJa": "十分な、適切な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The room has adequate lighting for reading.",
@@ -1641,7 +1641,7 @@
   {
     "id": "v3176",
     "word": "inadequate",
-    "meaningJa": "不十分な；不適切な",
+    "meaningJa": "不十分な、不適切な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The available evidence is inadequate for a firm conclusion.",
@@ -1662,7 +1662,7 @@
   {
     "id": "v3177",
     "word": "insufficient",
-    "meaningJa": "不十分な；足りない",
+    "meaningJa": "不十分な、足りない",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "There was insufficient time to finish the task.",
@@ -1683,7 +1683,7 @@
   {
     "id": "v3178",
     "word": "excessive",
-    "meaningJa": "過度の；多すぎる",
+    "meaningJa": "過度の、多すぎる",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Excessive noise made concentration difficult.",
@@ -1704,7 +1704,7 @@
   {
     "id": "v3179",
     "word": "deficient",
-    "meaningJa": "不足している；欠けている",
+    "meaningJa": "不足している、欠けている",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The soil is deficient in certain minerals.",
@@ -1725,7 +1725,7 @@
   {
     "id": "v3180",
     "word": "equivalent",
-    "meaningJa": "同等の；相当する",
+    "meaningJa": "同等の、相当する",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The two courses require an equivalent amount of work.",
@@ -1746,7 +1746,7 @@
   {
     "id": "v3181",
     "word": "comparable",
-    "meaningJa": "比較できる；同程度の",
+    "meaningJa": "比較できる、同程度の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The two cities have comparable populations.",
@@ -1768,7 +1768,7 @@
   {
     "id": "v3182",
     "word": "comparative",
-    "meaningJa": "比較による；比較的な",
+    "meaningJa": "比較による、比較的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The report presents a comparative study of the two systems.",
@@ -1789,7 +1789,7 @@
   {
     "id": "v3183",
     "word": "contrary",
-    "meaningJa": "反対の；相反する",
+    "meaningJa": "反対の、相反する",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The result was contrary to our expectations.",
@@ -1810,7 +1810,7 @@
   {
     "id": "v3184",
     "word": "contradictory",
-    "meaningJa": "矛盾した；相反する",
+    "meaningJa": "矛盾した、相反する",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The witnesses gave contradictory accounts.",
@@ -1831,7 +1831,7 @@
   {
     "id": "v3185",
     "word": "consistent",
-    "meaningJa": "一貫した；矛盾しない",
+    "meaningJa": "一貫した、矛盾しない",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The results are consistent with the theory.",
@@ -1853,7 +1853,7 @@
   {
     "id": "v3186",
     "word": "inconsistent",
-    "meaningJa": "一貫しない；矛盾する",
+    "meaningJa": "一貫しない、矛盾する",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "His answer was inconsistent with the evidence.",
@@ -1874,7 +1874,7 @@
   {
     "id": "v3187",
     "word": "coherent",
-    "meaningJa": "筋の通った；まとまりのある",
+    "meaningJa": "筋の通った、まとまりのある",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "She presented a coherent explanation.",
@@ -1895,7 +1895,7 @@
   {
     "id": "v3188",
     "word": "incoherent",
-    "meaningJa": "筋の通らない；まとまりのない",
+    "meaningJa": "筋の通らない、まとまりのない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The report was too incoherent to follow.",
@@ -1916,7 +1916,7 @@
   {
     "id": "v3189",
     "word": "legitimate",
-    "meaningJa": "正当な；合法的な",
+    "meaningJa": "正当な、合法的な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "Residents raised legitimate concerns about the project.",
@@ -1937,7 +1937,7 @@
   {
     "id": "v3190",
     "word": "valid",
-    "meaningJa": "有効な；妥当な",
+    "meaningJa": "有効な、妥当な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "This ticket is valid for one day.",
@@ -1958,7 +1958,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "妥当な；正当な",
+        "meaningJa": "妥当な、正当な",
         "example": "She raised a valid objection.",
         "exampleJa": "彼女は妥当な異議を唱えました。"
       }
@@ -1967,7 +1967,7 @@
   {
     "id": "v3191",
     "word": "invalid",
-    "meaningJa": "無効な；妥当でない",
+    "meaningJa": "無効な、妥当でない",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The password is invalid.",
@@ -1988,7 +1988,7 @@
   {
     "id": "v3192",
     "word": "impartial",
-    "meaningJa": "公平な；偏りのない",
+    "meaningJa": "公平な、偏りのない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The committee needs an impartial observer.",
@@ -2010,7 +2010,7 @@
   {
     "id": "v3193",
     "word": "neutral",
-    "meaningJa": "中立の；偏らない",
+    "meaningJa": "中立の、偏らない",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The mediator remained neutral during the debate.",
@@ -2031,7 +2031,7 @@
   {
     "id": "v3194",
     "word": "generic",
-    "meaningJa": "一般的な；特定でない",
+    "meaningJa": "一般的な、特定でない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The report uses generic terms instead of brand names.",
@@ -2072,7 +2072,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "斬新な；新しい",
+        "meaningJa": "斬新な、新しい",
         "example": "The researchers developed a novel method.",
         "exampleJa": "研究者たちは斬新な方法を開発しました。"
       }
@@ -2081,7 +2081,7 @@
   {
     "id": "v3196",
     "word": "radical",
-    "meaningJa": "根本的な；急進的な",
+    "meaningJa": "根本的な、急進的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The plan requires a radical change in our approach.",
@@ -2102,7 +2102,7 @@
   {
     "id": "v3197",
     "word": "immense",
-    "meaningJa": "非常に大きい；莫大な",
+    "meaningJa": "非常に大きい、莫大な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The project required an immense amount of work.",
@@ -2123,7 +2123,7 @@
   {
     "id": "v3198",
     "word": "vast",
-    "meaningJa": "広大な；膨大な",
+    "meaningJa": "広大な、膨大な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The forest covers a vast area.",
@@ -2144,7 +2144,7 @@
   {
     "id": "v3199",
     "word": "minimal",
-    "meaningJa": "最小限の；ごくわずかな",
+    "meaningJa": "最小限の、ごくわずかな",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The change had a minimal effect on the results.",

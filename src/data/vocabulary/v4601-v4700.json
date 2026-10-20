@@ -2,7 +2,7 @@
   {
     "id": "v4601",
     "word": "nuisance",
-    "meaningJa": "迷惑なもの；厄介者",
+    "meaningJa": "迷惑なもの、厄介者",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The noise from the road is a nuisance at night.",
@@ -23,7 +23,7 @@
   {
     "id": "v4602",
     "word": "grievance",
-    "meaningJa": "不満；苦情",
+    "meaningJa": "不満、苦情",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The workers presented their grievance to the manager.",
@@ -44,7 +44,7 @@
   {
     "id": "v4603",
     "word": "upheaval",
-    "meaningJa": "大変動；激変",
+    "meaningJa": "大変動、激変",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The political upheaval changed life in the city.",
@@ -65,7 +65,7 @@
   {
     "id": "v4604",
     "word": "dissent",
-    "meaningJa": "異議；反対意見",
+    "meaningJa": "異議、反対意見",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "One member expressed dissent during the meeting.",
@@ -86,7 +86,7 @@
   {
     "id": "v4605",
     "word": "predicament",
-    "meaningJa": "苦境；困った状況",
+    "meaningJa": "苦境、困った状況",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The lost hikers faced a difficult predicament.",
@@ -107,7 +107,7 @@
   {
     "id": "v4606",
     "word": "leverage",
-    "meaningJa": "影響力；交渉上の強み",
+    "meaningJa": "影響力、交渉上の強み",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "Their support gave her leverage in the talks.",
@@ -149,7 +149,7 @@
   {
     "id": "v4608",
     "word": "catalyst",
-    "meaningJa": "きっかけ；促進要因",
+    "meaningJa": "きっかけ、促進要因",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The new law became a catalyst for change.",
@@ -192,7 +192,7 @@
   {
     "id": "v4610",
     "word": "austerity",
-    "meaningJa": "緊縮；質素",
+    "meaningJa": "緊縮、質素",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "Years of austerity reduced public spending.",
@@ -213,7 +213,7 @@
   {
     "id": "v4611",
     "word": "approximation",
-    "meaningJa": "概算；近似値",
+    "meaningJa": "概算、近似値",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The figure is only an approximation of the total cost.",
@@ -234,7 +234,7 @@
   {
     "id": "v4612",
     "word": "blemish",
-    "meaningJa": "傷；汚点",
+    "meaningJa": "傷、汚点",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "A small blemish appeared on the surface of the apple.",
@@ -255,7 +255,7 @@
   {
     "id": "v4613",
     "word": "blunder",
-    "meaningJa": "大失敗；失策",
+    "meaningJa": "大失敗、失策",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "A simple blunder delayed the project for a week.",
@@ -276,7 +276,7 @@
   {
     "id": "v4614",
     "word": "blueprint",
-    "meaningJa": "設計図；詳細な計画",
+    "meaningJa": "設計図、詳細な計画",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The architect showed us the blueprint for the house.",
@@ -297,7 +297,7 @@
   {
     "id": "v4615",
     "word": "breakthrough",
-    "meaningJa": "大きな進展；突破口",
+    "meaningJa": "大きな進展、突破口",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The discovery was a breakthrough in battery research.",
@@ -381,7 +381,7 @@
   {
     "id": "v4619",
     "word": "downfall",
-    "meaningJa": "失脚；衰退",
+    "meaningJa": "失脚、衰退",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The scandal led to the downfall of the leader.",
@@ -423,7 +423,7 @@
   {
     "id": "v4621",
     "word": "flaw",
-    "meaningJa": "欠点；傷",
+    "meaningJa": "欠点、傷",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The plan has one serious flaw.",
@@ -444,7 +444,7 @@
   {
     "id": "v4622",
     "word": "hardship",
-    "meaningJa": "苦難；困窮",
+    "meaningJa": "苦難、困窮",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The family faced hardship after the flood.",
@@ -486,7 +486,7 @@
   {
     "id": "v4624",
     "word": "outburst",
-    "meaningJa": "感情の爆発；突然の激しい発言",
+    "meaningJa": "感情の爆発、突然の激しい発言",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "His sudden outburst surprised everyone in the room.",
@@ -507,7 +507,7 @@
   {
     "id": "v4625",
     "word": "plight",
-    "meaningJa": "苦しい立場；窮状",
+    "meaningJa": "苦しい立場、窮状",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The report described the plight of homeless families.",
@@ -528,7 +528,7 @@
   {
     "id": "v4626",
     "word": "ration",
-    "meaningJa": "割当量；配給量",
+    "meaningJa": "割当量、配給量",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Each camper received a ration of drinking water.",
@@ -549,7 +549,7 @@
   {
     "id": "v4627",
     "word": "strain",
-    "meaningJa": "負担；重圧",
+    "meaningJa": "負担、重圧",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The long commute put a strain on her health.",
@@ -571,7 +571,7 @@
   {
     "id": "v4628",
     "word": "turmoil",
-    "meaningJa": "混乱；騒動",
+    "meaningJa": "混乱、騒動",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The sudden change caused turmoil in the school.",
@@ -592,7 +592,7 @@
   {
     "id": "v4629",
     "word": "appease",
-    "meaningJa": "なだめる；要求を満たして落ち着かせる",
+    "meaningJa": "なだめる、要求を満たして落ち着かせる",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The manager tried to appease the angry customers.",
@@ -656,7 +656,7 @@
   {
     "id": "v4632",
     "word": "evade",
-    "meaningJa": "避ける；逃れる",
+    "meaningJa": "避ける、逃れる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "He tried to evade the question by changing the topic.",
@@ -677,7 +677,7 @@
   {
     "id": "v4633",
     "word": "intimidate",
-    "meaningJa": "脅す；おびえさせる",
+    "meaningJa": "脅す、おびえさせる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The older students did not intend to intimidate the new student.",
@@ -719,7 +719,7 @@
   {
     "id": "v4635",
     "word": "lessen",
-    "meaningJa": "減らす；和らげる",
+    "meaningJa": "減らす、和らげる",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Regular breaks can lessen the strain on your eyes.",
@@ -740,7 +740,7 @@
   {
     "id": "v4636",
     "word": "revoke",
-    "meaningJa": "取り消す；無効にする",
+    "meaningJa": "取り消す、無効にする",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The board may revoke the permit after repeated violations.",
@@ -782,7 +782,7 @@
   {
     "id": "v4638",
     "word": "seize",
-    "meaningJa": "つかむ；奪い取る",
+    "meaningJa": "つかむ、奪い取る",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "She was quick to seize the opportunity.",
@@ -824,7 +824,7 @@
   {
     "id": "v4640",
     "word": "suppress",
-    "meaningJa": "抑える；鎮圧する",
+    "meaningJa": "抑える、鎮圧する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "He tried to suppress his anger during the discussion.",
@@ -866,7 +866,7 @@
   {
     "id": "v4642",
     "word": "uphold",
-    "meaningJa": "支持する；維持する",
+    "meaningJa": "支持する、維持する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The court decided to uphold the earlier decision.",
@@ -887,7 +887,7 @@
   {
     "id": "v4643",
     "word": "adept",
-    "meaningJa": "熟練した；巧みな",
+    "meaningJa": "熟練した、巧みな",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "She is adept at explaining difficult ideas.",
@@ -930,7 +930,7 @@
   {
     "id": "v4645",
     "word": "blatant",
-    "meaningJa": "露骨な；明白な",
+    "meaningJa": "露骨な、明白な",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The report contained a blatant error.",
@@ -951,7 +951,7 @@
   {
     "id": "v4646",
     "word": "bleak",
-    "meaningJa": "暗い；希望のない",
+    "meaningJa": "暗い、希望のない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The future looked bleak after the factory closed.",
@@ -993,7 +993,7 @@
   {
     "id": "v4648",
     "word": "daunting",
-    "meaningJa": "気が遠くなるような；手ごわい",
+    "meaningJa": "気が遠くなるような、手ごわい",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The task seemed daunting at first.",
@@ -1014,7 +1014,7 @@
   {
     "id": "v4649",
     "word": "delicate",
-    "meaningJa": "繊細な；壊れやすい",
+    "meaningJa": "繊細な、壊れやすい",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "This delicate glass needs careful handling.",
@@ -1035,7 +1035,7 @@
   {
     "id": "v4650",
     "word": "ingenious",
-    "meaningJa": "独創的な；巧妙な",
+    "meaningJa": "独創的な、巧妙な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The students found an ingenious solution to the problem.",
@@ -1056,7 +1056,7 @@
   {
     "id": "v4651",
     "word": "formidable",
-    "meaningJa": "手ごわい；圧倒されるほどの",
+    "meaningJa": "手ごわい、圧倒されるほどの",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The team faced a formidable opponent in the final match.",
@@ -1077,7 +1077,7 @@
   {
     "id": "v4652",
     "word": "intervention",
-    "meaningJa": "介入；干渉",
+    "meaningJa": "介入、干渉",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Early intervention can prevent a small problem from growing.",
@@ -1098,7 +1098,7 @@
   {
     "id": "v4653",
     "word": "equilibrium",
-    "meaningJa": "均衡；平衡",
+    "meaningJa": "均衡、平衡",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The market gradually returned to equilibrium.",
@@ -1119,7 +1119,7 @@
   {
     "id": "v4654",
     "word": "corroborate",
-    "meaningJa": "裏付ける；確証する",
+    "meaningJa": "裏付ける、確証する",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The new evidence may corroborate her account.",
@@ -1140,7 +1140,7 @@
   {
     "id": "v4655",
     "word": "delineate",
-    "meaningJa": "明確に描写する；輪郭を示す",
+    "meaningJa": "明確に描写する、輪郭を示す",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The report will delineate the limits of the study.",
@@ -1161,7 +1161,7 @@
   {
     "id": "v4656",
     "word": "elucidate",
-    "meaningJa": "明らかにする；解明する",
+    "meaningJa": "明らかにする、解明する",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The diagram helps elucidate the process.",
@@ -1203,7 +1203,7 @@
   {
     "id": "v4658",
     "word": "affinity",
-    "meaningJa": "親近感；強い好み",
+    "meaningJa": "親近感、強い好み",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "She has an affinity for classical music.",
@@ -1224,7 +1224,7 @@
   {
     "id": "v4659",
     "word": "exploitation",
-    "meaningJa": "搾取；不当利用",
+    "meaningJa": "搾取、不当利用",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The article examines the exploitation of migrant workers.",
@@ -1245,7 +1245,7 @@
   {
     "id": "v4660",
     "word": "fluctuation",
-    "meaningJa": "変動；上下",
+    "meaningJa": "変動、上下",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "A sudden fluctuation in temperature affected the crops.",
@@ -1266,7 +1266,7 @@
   {
     "id": "v4661",
     "word": "novelty",
-    "meaningJa": "目新しさ；新奇性",
+    "meaningJa": "目新しさ、新奇性",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The novelty of the idea attracted attention.",
@@ -1287,7 +1287,7 @@
   {
     "id": "v4662",
     "word": "polarization",
-    "meaningJa": "二極化；対立の先鋭化",
+    "meaningJa": "二極化、対立の先鋭化",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "Political polarization made compromise more difficult.",
@@ -1308,7 +1308,7 @@
   {
     "id": "v4663",
     "word": "relevance",
-    "meaningJa": "関連性；適切さ",
+    "meaningJa": "関連性、適切さ",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The teacher questioned the relevance of that example.",
@@ -1329,7 +1329,7 @@
   {
     "id": "v4664",
     "word": "breach",
-    "meaningJa": "違反；破ること",
+    "meaningJa": "違反、破ること",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The breach of the agreement damaged trust between the teams.",
@@ -1350,7 +1350,7 @@
   {
     "id": "v4665",
     "word": "buffer",
-    "meaningJa": "緩衝材；衝撃を和らげるもの",
+    "meaningJa": "緩衝材、衝撃を和らげるもの",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The trees provide a buffer against traffic noise.",
@@ -1392,7 +1392,7 @@
   {
     "id": "v4667",
     "word": "apprehension",
-    "meaningJa": "不安；懸念",
+    "meaningJa": "不安、懸念",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "She felt apprehension before speaking to the large audience.",
@@ -1413,7 +1413,7 @@
   {
     "id": "v4668",
     "word": "authenticity",
-    "meaningJa": "本物であること；信ぴょう性",
+    "meaningJa": "本物であること、信ぴょう性",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Experts examined the authenticity of the letter.",
@@ -1455,7 +1455,7 @@
   {
     "id": "v4670",
     "word": "contention",
-    "meaningJa": "主張；論点",
+    "meaningJa": "主張、論点",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "Her main contention is that the policy harms small towns.",
@@ -1476,7 +1476,7 @@
   {
     "id": "v4671",
     "word": "disposition",
-    "meaningJa": "気質；性向",
+    "meaningJa": "気質、性向",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "His calm disposition helped him handle the conflict.",
@@ -1497,7 +1497,7 @@
   {
     "id": "v4672",
     "word": "efficacy",
-    "meaningJa": "効き目；有効性",
+    "meaningJa": "効き目、有効性",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The study measured the efficacy of the new method.",
@@ -1518,7 +1518,7 @@
   {
     "id": "v4673",
     "word": "curtail",
-    "meaningJa": "減らす；切り詰める",
+    "meaningJa": "減らす、切り詰める",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The school had to curtail its spending this year.",
@@ -1539,7 +1539,7 @@
   {
     "id": "v4674",
     "word": "impartiality",
-    "meaningJa": "公平さ；中立性",
+    "meaningJa": "公平さ、中立性",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The judge was praised for her impartiality.",
@@ -1560,7 +1560,7 @@
   {
     "id": "v4675",
     "word": "ingenuity",
-    "meaningJa": "独創力；工夫",
+    "meaningJa": "独創力、工夫",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The villagers used their ingenuity to repair the bridge.",
@@ -1581,7 +1581,7 @@
   {
     "id": "v4676",
     "word": "negligence",
-    "meaningJa": "怠慢；不注意",
+    "meaningJa": "怠慢、不注意",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The accident resulted from negligence during the inspection.",
@@ -1602,7 +1602,7 @@
   {
     "id": "v4677",
     "word": "heed",
-    "meaningJa": "注意を払う；心に留める",
+    "meaningJa": "注意を払う、心に留める",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Please heed the warning on the gate.",
@@ -1623,7 +1623,7 @@
   {
     "id": "v4678",
     "word": "skepticism",
-    "meaningJa": "懐疑；疑い",
+    "meaningJa": "懐疑、疑い",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The claim was met with skepticism by the scientists.",
@@ -1645,7 +1645,7 @@
   {
     "id": "v4679",
     "word": "onset",
-    "meaningJa": "始まり；発生",
+    "meaningJa": "始まり、発生",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The onset of winter brought heavy snow.",
@@ -1666,7 +1666,7 @@
   {
     "id": "v4680",
     "word": "oversight",
-    "meaningJa": "見落とし；うっかりしたミス",
+    "meaningJa": "見落とし、うっかりしたミス",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The missing name was an oversight in the report.",
@@ -1686,7 +1686,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "監督；監視",
+        "meaningJa": "監督、監視",
         "example": "The committee provides oversight of the project.",
         "exampleJa": "その委員会は事業を監督している。"
       }
@@ -1695,7 +1695,7 @@
   {
     "id": "v4681",
     "word": "bilateral",
-    "meaningJa": "二国間の；双方の",
+    "meaningJa": "二国間の、双方の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The countries signed a bilateral trade agreement.",
@@ -1737,7 +1737,7 @@
   {
     "id": "v4683",
     "word": "pivotal",
-    "meaningJa": "極めて重要な；中心となる",
+    "meaningJa": "極めて重要な、中心となる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "Her advice played a pivotal role in our decision.",
@@ -1758,7 +1758,7 @@
   {
     "id": "v4684",
     "word": "warrant",
-    "meaningJa": "正当化する；必要とする",
+    "meaningJa": "正当化する、必要とする",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The results warrant further investigation.",
@@ -1779,7 +1779,7 @@
   {
     "id": "v4685",
     "word": "vacant",
-    "meaningJa": "空いている；使用されていない",
+    "meaningJa": "空いている、使用されていない",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The vacant room is available for the meeting.",
@@ -1800,7 +1800,7 @@
   {
     "id": "v4686",
     "word": "culminate",
-    "meaningJa": "最高潮に達する；最終的に至る",
+    "meaningJa": "最高潮に達する、最終的に至る",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "Months of discussion will culminate in a public vote.",
@@ -1822,7 +1822,7 @@
   {
     "id": "v4687",
     "word": "diverge",
-    "meaningJa": "分かれる；異なる",
+    "meaningJa": "分かれる、異なる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The two paths diverge beyond the river.",
@@ -1843,7 +1843,7 @@
   {
     "id": "v4688",
     "word": "endow",
-    "meaningJa": "授ける；与える",
+    "meaningJa": "授ける、与える",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The donation will endow the school with new resources.",
@@ -1865,7 +1865,7 @@
   {
     "id": "v4689",
     "word": "exemplify",
-    "meaningJa": "例証する；典型を示す",
+    "meaningJa": "例証する、典型を示す",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "This case may exemplify a wider social problem.",
@@ -1886,7 +1886,7 @@
   {
     "id": "v4690",
     "word": "impair",
-    "meaningJa": "損なう；弱める",
+    "meaningJa": "損なう、弱める",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Poor lighting can impair concentration while reading.",
@@ -1907,7 +1907,7 @@
   {
     "id": "v4691",
     "word": "permeate",
-    "meaningJa": "染み渡る；広がる",
+    "meaningJa": "染み渡る、広がる",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The smell of fresh bread began to permeate the room.",
@@ -1928,7 +1928,7 @@
   {
     "id": "v4692",
     "word": "rectify",
-    "meaningJa": "是正する；修正する",
+    "meaningJa": "是正する、修正する",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The company promised to rectify the error on the bill.",
@@ -1949,7 +1949,7 @@
   {
     "id": "v4693",
     "word": "fallacy",
-    "meaningJa": "誤った考え；誤謬",
+    "meaningJa": "誤った考え、誤謬",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The argument rests on the fallacy that all change is harmful.",
@@ -1970,7 +1970,7 @@
   {
     "id": "v4694",
     "word": "influx",
-    "meaningJa": "流入；押し寄せること",
+    "meaningJa": "流入、押し寄せること",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The town saw an influx of visitors during the festival.",
@@ -1991,7 +1991,7 @@
   {
     "id": "v4695",
     "word": "precedent",
-    "meaningJa": "先例；前例",
+    "meaningJa": "先例、前例",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The decision may set a precedent for future cases.",
@@ -2012,7 +2012,7 @@
   {
     "id": "v4696",
     "word": "futile",
-    "meaningJa": "無駄な；効果のない",
+    "meaningJa": "無駄な、効果のない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "It was futile to argue after the vote had ended.",
@@ -2033,7 +2033,7 @@
   {
     "id": "v4697",
     "word": "mundane",
-    "meaningJa": "ありふれた；日常的な",
+    "meaningJa": "ありふれた、日常的な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The writer found beauty in mundane tasks.",
@@ -2054,7 +2054,7 @@
   {
     "id": "v4698",
     "word": "turbulent",
-    "meaningJa": "混乱した；荒れた",
+    "meaningJa": "混乱した、荒れた",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The country faced a turbulent period of change.",
@@ -2075,7 +2075,7 @@
   {
     "id": "v4699",
     "word": "circumvent",
-    "meaningJa": "回避する；うまく避ける",
+    "meaningJa": "回避する、うまく避ける",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The team found a way to circumvent the technical problem.",
@@ -2096,7 +2096,7 @@
   {
     "id": "v4700",
     "word": "exhaust",
-    "meaningJa": "疲れさせる；使い果たす",
+    "meaningJa": "疲れさせる、使い果たす",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The long journey may exhaust even experienced hikers.",

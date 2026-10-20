@@ -128,7 +128,7 @@
   {
     "id": "v4707",
     "word": "hatch",
-    "meaningJa": "かえる；ふ化する",
+    "meaningJa": "かえる、ふ化する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The eggs will hatch in about two weeks.",
@@ -319,7 +319,7 @@
   {
     "id": "v4716",
     "word": "hunger",
-    "meaningJa": "空腹；飢え",
+    "meaningJa": "空腹、飢え",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Hunger made it hard for him to focus on his work.",
@@ -382,7 +382,7 @@
   {
     "id": "v4719",
     "word": "nourish",
-    "meaningJa": "養う；栄養を与える",
+    "meaningJa": "養う、栄養を与える",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Good soil can nourish young plants.",
@@ -424,7 +424,7 @@
   {
     "id": "v4721",
     "word": "decompose",
-    "meaningJa": "分解する；腐敗する",
+    "meaningJa": "分解する、腐敗する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Leaves decompose slowly on the forest floor.",
@@ -508,7 +508,7 @@
   {
     "id": "v4725",
     "word": "hide",
-    "meaningJa": "隠れる；隠す",
+    "meaningJa": "隠れる、隠す",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "The child tried to hide behind the door.",
@@ -613,7 +613,7 @@
   {
     "id": "v4730",
     "word": "notify",
-    "meaningJa": "知らせる；通知する",
+    "meaningJa": "知らせる、通知する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Please notify the office if your address changes.",
@@ -635,7 +635,7 @@
   {
     "id": "v4731",
     "word": "declare",
-    "meaningJa": "表明する；宣言する",
+    "meaningJa": "表明する、宣言する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "The committee will declare its support for the plan.",
@@ -698,7 +698,7 @@
   {
     "id": "v4734",
     "word": "resent",
-    "meaningJa": "腹を立てる；憤慨する",
+    "meaningJa": "腹を立てる、憤慨する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Some workers resent the sudden change in policy.",
@@ -741,7 +741,7 @@
   {
     "id": "v4736",
     "word": "mourn",
-    "meaningJa": "悲しむ；悼む",
+    "meaningJa": "悲しむ、悼む",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The town came together to mourn the victims.",
@@ -825,7 +825,7 @@
   {
     "id": "v4740",
     "word": "reward",
-    "meaningJa": "報いる；褒美を与える",
+    "meaningJa": "報いる、褒美を与える",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The program will reward students for regular reading.",
@@ -909,7 +909,7 @@
   {
     "id": "v4744",
     "word": "loyalty",
-    "meaningJa": "忠誠心；忠実さ",
+    "meaningJa": "忠誠心、忠実さ",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Her loyalty to the team remained strong.",
@@ -930,7 +930,7 @@
   {
     "id": "v4745",
     "word": "theft",
-    "meaningJa": "盗み；窃盗",
+    "meaningJa": "盗み、窃盗",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The store reported the theft to the police.",
@@ -1035,7 +1035,7 @@
   {
     "id": "v4750",
     "word": "scandal",
-    "meaningJa": "不祥事；スキャンダル",
+    "meaningJa": "不祥事、スキャンダル",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The scandal damaged public trust in the organization.",

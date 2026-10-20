@@ -1614,7 +1614,7 @@
       },
       {
         "partOfSpeech": "noun",
-        "meaningJa": "利益；利害",
+        "meaningJa": "利益、利害",
         "example": "The decision was made in the public interest.",
         "exampleJa": "その決定は公共の利益のためになされました。"
       },
@@ -1811,7 +1811,7 @@
       },
       {
         "partOfSpeech": "verb",
-        "meaningJa": "作動する；動く",
+        "meaningJa": "作動する、動く",
         "example": "This engine can run on electricity.",
         "exampleJa": "このエンジンは電気で動くことができます。"
       }

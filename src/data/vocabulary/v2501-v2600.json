@@ -44,7 +44,7 @@
   {
     "id": "v2503",
     "word": "beat",
-    "meaningJa": "打つ；打ち負かす",
+    "meaningJa": "打つ、打ち負かす",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Our team hopes to beat the champions next week.",
@@ -65,7 +65,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "鼓動する；打ち鳴らす",
+        "meaningJa": "鼓動する、打ち鳴らす",
         "example": "I could feel my heart beat faster as the race began.",
         "exampleJa": "レースが始まると心臓が速く鼓動するのを感じました。"
       }
@@ -74,7 +74,7 @@
   {
     "id": "v2504",
     "word": "chest",
-    "meaningJa": "胸；胸部",
+    "meaningJa": "胸、胸部",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He held the box against his chest.",
@@ -95,7 +95,7 @@
   {
     "id": "v2505",
     "word": "advise",
-    "meaningJa": "助言する；勧める",
+    "meaningJa": "助言する、勧める",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Teachers advise students to read widely.",
@@ -117,7 +117,7 @@
   {
     "id": "v2506",
     "word": "cycle",
-    "meaningJa": "周期；循環",
+    "meaningJa": "周期、循環",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The diagram shows the life cycle of a butterfly.",
@@ -146,7 +146,7 @@
   {
     "id": "v2507",
     "word": "powerful",
-    "meaningJa": "強力な；力のある",
+    "meaningJa": "強力な、力のある",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The boat has a powerful engine.",
@@ -167,7 +167,7 @@
   {
     "id": "v2508",
     "word": "ambitious",
-    "meaningJa": "大きな志のある；意欲的な",
+    "meaningJa": "大きな志のある、意欲的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The team set an ambitious goal for the new project.",
@@ -188,7 +188,7 @@
   {
     "id": "v2509",
     "word": "institute",
-    "meaningJa": "研究所；専門機関",
+    "meaningJa": "研究所、専門機関",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She works at an institute that studies ocean life.",
@@ -209,7 +209,7 @@
   {
     "id": "v2510",
     "word": "tip",
-    "meaningJa": "先端；助言",
+    "meaningJa": "先端、助言",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The tip of the pencil broke during the test.",
@@ -229,13 +229,13 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "助言；こつ",
+        "meaningJa": "助言、こつ",
         "example": "She gave me a useful tip for remembering names.",
         "exampleJa": "彼女は名前を覚えるための役立つこつを教えてくれました。"
       },
       {
         "partOfSpeech": "verb",
-        "meaningJa": "傾ける；ある状態に移す",
+        "meaningJa": "傾ける、ある状態に移す",
         "example": "A small mistake could tip the balance against us.",
         "exampleJa": "小さな間違いで状況が私たちに不利に傾くおそれがあります。"
       }
@@ -244,7 +244,7 @@
   {
     "id": "v2511",
     "word": "endurance",
-    "meaningJa": "持久力；忍耐力",
+    "meaningJa": "持久力、忍耐力",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The long race tested the endurance of every runner.",
@@ -287,7 +287,7 @@
   {
     "id": "v2513",
     "word": "faint",
-    "meaningJa": "気を失う；失神する",
+    "meaningJa": "気を失う、失神する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "She felt as if she might faint in the crowded room.",
@@ -307,7 +307,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "かすかな；薄い",
+        "meaningJa": "かすかな、薄い",
         "example": "We could hear a faint sound in the distance.",
         "exampleJa": "遠くでかすかな音が聞こえました。"
       }
@@ -337,7 +337,7 @@
   {
     "id": "v2515",
     "word": "stability",
-    "meaningJa": "安定；安定性",
+    "meaningJa": "安定、安定性",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The extra support improved the stability of the table.",
@@ -358,7 +358,7 @@
   {
     "id": "v2516",
     "word": "intensity",
-    "meaningJa": "強さ；強度",
+    "meaningJa": "強さ、強度",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The intensity of the light changed during the experiment.",
@@ -379,7 +379,7 @@
   {
     "id": "v2517",
     "word": "duration",
-    "meaningJa": "継続時間；期間",
+    "meaningJa": "継続時間、期間",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The duration of each session is thirty minutes.",
@@ -401,7 +401,7 @@
   {
     "id": "v2518",
     "word": "prescribe",
-    "meaningJa": "処方する；指示する",
+    "meaningJa": "処方する、指示する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "A doctor can prescribe medicine when it is needed.",
@@ -422,7 +422,7 @@
   {
     "id": "v2519",
     "word": "prescription",
-    "meaningJa": "処方箋；処方",
+    "meaningJa": "処方箋、処方",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "She took the prescription to the pharmacy.",
@@ -443,7 +443,7 @@
   {
     "id": "v2520",
     "word": "stroke",
-    "meaningJa": "一打；一振り",
+    "meaningJa": "一打、一振り",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "One stroke of the brush left a bright line.",
@@ -478,7 +478,7 @@
   {
     "id": "v2521",
     "word": "heighten",
-    "meaningJa": "高める；強める",
+    "meaningJa": "高める、強める",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The sudden silence seemed to heighten the tension.",
@@ -521,7 +521,7 @@
   {
     "id": "v2523",
     "word": "sedentary",
-    "meaningJa": "座ってばかりの；身体活動の少ない",
+    "meaningJa": "座ってばかりの、身体活動の少ない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "Her new job is more sedentary than her previous one.",
@@ -542,7 +542,7 @@
   {
     "id": "v2524",
     "word": "potent",
-    "meaningJa": "強力な；大きな効果のある",
+    "meaningJa": "強力な、大きな効果のある",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The image became a potent symbol of hope.",
@@ -563,7 +563,7 @@
   {
     "id": "v2525",
     "word": "impeccable",
-    "meaningJa": "非の打ち所がない；完璧な",
+    "meaningJa": "非の打ち所がない、完璧な",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "Her impeccable preparation impressed the interviewers.",
@@ -606,7 +606,7 @@
   {
     "id": "v2527",
     "word": "randomize",
-    "meaningJa": "無作為化する；無作為に割り当てる",
+    "meaningJa": "無作為化する、無作為に割り当てる",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The program will randomize the order of the questions.",
@@ -628,7 +628,7 @@
   {
     "id": "v2528",
     "word": "implant",
-    "meaningJa": "埋め込む；植え付ける",
+    "meaningJa": "埋め込む、植え付ける",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The engineers plan to implant a sensor in the material.",
@@ -649,7 +649,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "体内に埋め込む器具；移植物",
+        "meaningJa": "体内に埋め込む器具、移植物",
         "example": "The engineer described the design of the implant.",
         "exampleJa": "技師は体内に埋め込む器具の設計を説明しました。"
       }
@@ -658,7 +658,7 @@
   {
     "id": "v2529",
     "word": "chamber",
-    "meaningJa": "部屋；内部の空間",
+    "meaningJa": "部屋、内部の空間",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The samples were placed in a sealed chamber.",
@@ -687,7 +687,7 @@
   {
     "id": "v2530",
     "word": "troublesome",
-    "meaningJa": "厄介な；面倒な",
+    "meaningJa": "厄介な、面倒な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The old printer has become increasingly troublesome.",
@@ -708,7 +708,7 @@
   {
     "id": "v2531",
     "word": "team",
-    "meaningJa": "チーム；一緒に働く集団",
+    "meaningJa": "チーム、一緒に働く集団",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "Our team practices after school.",
@@ -729,7 +729,7 @@
   {
     "id": "v2532",
     "word": "coach",
-    "meaningJa": "コーチ；指導者",
+    "meaningJa": "コーチ、指導者",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The coach showed us how to hold the racket.",
@@ -749,7 +749,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "指導する；コーチする",
+        "meaningJa": "指導する、コーチする",
         "example": "She will coach the younger players this season.",
         "exampleJa": "彼女は今シーズン、年下の選手たちを指導します。"
       },
@@ -764,7 +764,7 @@
   {
     "id": "v2533",
     "word": "score",
-    "meaningJa": "得点；点数",
+    "meaningJa": "得点、点数",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The final score was three to one.",
@@ -814,7 +814,7 @@
   {
     "id": "v2535",
     "word": "defeat",
-    "meaningJa": "打ち負かす；破る",
+    "meaningJa": "打ち負かす、破る",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The young player managed to defeat the champion.",
@@ -843,7 +843,7 @@
   {
     "id": "v2536",
     "word": "opponent",
-    "meaningJa": "対戦相手；反対者",
+    "meaningJa": "対戦相手、反対者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She shook hands with her opponent after the match.",
@@ -864,7 +864,7 @@
   {
     "id": "v2537",
     "word": "competitor",
-    "meaningJa": "競争相手；競技参加者",
+    "meaningJa": "競争相手、競技参加者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Each competitor received a number before the race.",
@@ -885,7 +885,7 @@
   {
     "id": "v2538",
     "word": "spectator",
-    "meaningJa": "観客；見物人",
+    "meaningJa": "観客、見物人",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "One spectator caught the ball near the fence.",
@@ -906,7 +906,7 @@
   {
     "id": "v2539",
     "word": "medal",
-    "meaningJa": "メダル；勲章",
+    "meaningJa": "メダル、勲章",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She won a silver medal in the swimming competition.",
@@ -927,7 +927,7 @@
   {
     "id": "v2540",
     "word": "trophy",
-    "meaningJa": "優勝杯；トロフィー",
+    "meaningJa": "優勝杯、トロフィー",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The captain lifted the trophy above his head.",
@@ -948,7 +948,7 @@
   {
     "id": "v2541",
     "word": "tournament",
-    "meaningJa": "大会；勝ち抜き戦",
+    "meaningJa": "大会、勝ち抜き戦",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The tournament will bring together teams from twelve schools.",
@@ -969,7 +969,7 @@
   {
     "id": "v2542",
     "word": "champion",
-    "meaningJa": "優勝者；チャンピオン",
+    "meaningJa": "優勝者、チャンピオン",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The champion returned to defend her title.",
@@ -989,7 +989,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "擁護者；支持者",
+        "meaningJa": "擁護者、支持者",
         "example": "She became a champion of equal access to education.",
         "exampleJa": "彼女は教育を受ける平等な機会の擁護者になりました。"
       }
@@ -1189,7 +1189,7 @@
   {
     "id": "v2552",
     "word": "strength",
-    "meaningJa": "力；強さ",
+    "meaningJa": "力、強さ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She used all her strength to open the heavy door.",
@@ -1209,7 +1209,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "長所；強み",
+        "meaningJa": "長所、強み",
         "example": "Her greatest strength is the ability to explain complex ideas.",
         "exampleJa": "彼女の最大の強みは複雑な考えを説明する能力です。"
       }
@@ -1247,7 +1247,7 @@
   {
     "id": "v2554",
     "word": "breath",
-    "meaningJa": "息；呼吸",
+    "meaningJa": "息、呼吸",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She took a deep breath before speaking.",
@@ -1269,7 +1269,7 @@
   {
     "id": "v2555",
     "word": "pulse",
-    "meaningJa": "脈；脈拍",
+    "meaningJa": "脈、脈拍",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The nurse checked his pulse before the examination.",
@@ -1290,7 +1290,7 @@
   {
     "id": "v2556",
     "word": "heartbeat",
-    "meaningJa": "心拍；心臓の鼓動",
+    "meaningJa": "心拍、心臓の鼓動",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The device recorded each heartbeat during the test.",
@@ -1375,7 +1375,7 @@
   {
     "id": "v2560",
     "word": "heel",
-    "meaningJa": "かかと；靴のかかと",
+    "meaningJa": "かかと、靴のかかと",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The heel of my shoe caught on the step.",
@@ -1396,7 +1396,7 @@
   {
     "id": "v2561",
     "word": "hip",
-    "meaningJa": "腰；股関節の辺り",
+    "meaningJa": "腰、股関節の辺り",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She carried the child on her hip.",
@@ -1417,7 +1417,7 @@
   {
     "id": "v2562",
     "word": "waist",
-    "meaningJa": "腰回り；ウエスト",
+    "meaningJa": "腰回り、ウエスト",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The belt was too loose around his waist.",
@@ -1439,7 +1439,7 @@
   {
     "id": "v2563",
     "word": "spine",
-    "meaningJa": "背骨；脊柱",
+    "meaningJa": "背骨、脊柱",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The model shows the shape of the human spine.",
@@ -1552,7 +1552,7 @@
   {
     "id": "v2568",
     "word": "skeleton",
-    "meaningJa": "骨格；骸骨",
+    "meaningJa": "骨格、骸骨",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The museum displays the skeleton of a large animal.",
@@ -1657,7 +1657,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "度胸；勇気",
+        "meaningJa": "度胸、勇気",
         "example": "He finally found the nerve to speak in public.",
         "exampleJa": "彼はついに人前で話す勇気を出しました。"
       }
@@ -1687,7 +1687,7 @@
   {
     "id": "v2574",
     "word": "heal",
-    "meaningJa": "治る；治す",
+    "meaningJa": "治る、治す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The small cut began to heal.",
@@ -1707,7 +1707,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "心の傷などを癒やす；修復する",
+        "meaningJa": "心の傷などを癒やす、修復する",
         "example": "They hoped that honest discussion would heal the division.",
         "exampleJa": "彼らは率直な議論で対立が解消されることを願いました。"
       }
@@ -1716,7 +1716,7 @@
   {
     "id": "v2575",
     "word": "wound",
-    "meaningJa": "傷；外傷",
+    "meaningJa": "傷、外傷",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The nurse examined the wound on his hand.",
@@ -1738,7 +1738,7 @@
   {
     "id": "v2576",
     "word": "injure",
-    "meaningJa": "けがをさせる；傷つける",
+    "meaningJa": "けがをさせる、傷つける",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Falling branches can injure people below.",
@@ -1759,7 +1759,7 @@
   {
     "id": "v2577",
     "word": "injury",
-    "meaningJa": "けが；負傷",
+    "meaningJa": "けが、負傷",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "An injury prevented him from joining the match.",
@@ -1780,7 +1780,7 @@
   {
     "id": "v2578",
     "word": "bleed",
-    "meaningJa": "出血する；血が出る",
+    "meaningJa": "出血する、血が出る",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "His finger began to bleed after he cut it.",
@@ -1802,7 +1802,7 @@
   {
     "id": "v2579",
     "word": "bruise",
-    "meaningJa": "あざ；打撲傷",
+    "meaningJa": "あざ、打撲傷",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She noticed a bruise on her leg.",
@@ -1822,7 +1822,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "あざを作る；打ち傷を付ける",
+        "meaningJa": "あざを作る、打ち傷を付ける",
         "example": "Rough handling can bruise the fruit.",
         "exampleJa": "乱暴に扱うと果物に傷が付くことがあります。"
       }
@@ -1852,7 +1852,7 @@
   {
     "id": "v2581",
     "word": "dizzy",
-    "meaningJa": "めまいがする；ふらふらする",
+    "meaningJa": "めまいがする、ふらふらする",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "She felt dizzy after spinning around.",
@@ -1873,7 +1873,7 @@
   {
     "id": "v2582",
     "word": "fever",
-    "meaningJa": "発熱；熱",
+    "meaningJa": "発熱、熱",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He stayed home because he had a fever.",
@@ -1894,7 +1894,7 @@
   {
     "id": "v2583",
     "word": "sore",
-    "meaningJa": "痛む；ひりひりする",
+    "meaningJa": "痛む、ひりひりする",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "My feet were sore after the long walk.",
@@ -1915,7 +1915,7 @@
   {
     "id": "v2584",
     "word": "ache",
-    "meaningJa": "痛み；うずき",
+    "meaningJa": "痛み、うずき",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "He felt a dull ache in his shoulder.",
@@ -1935,7 +1935,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "痛む；うずく",
+        "meaningJa": "痛む、うずく",
         "example": "My shoulders ache after carrying the heavy bag.",
         "exampleJa": "重いかばんを運んだ後で肩が痛みます。"
       }
@@ -1944,7 +1944,7 @@
   {
     "id": "v2585",
     "word": "painful",
-    "meaningJa": "痛い；苦痛な",
+    "meaningJa": "痛い、苦痛な",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The scratch was small but painful.",
@@ -1965,7 +1965,7 @@
   {
     "id": "v2586",
     "word": "acute",
-    "meaningJa": "深刻な；激しい",
+    "meaningJa": "深刻な、激しい",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The town faces an acute shortage of housing.",
@@ -1991,7 +1991,7 @@
       },
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "鋭い；敏感な",
+        "meaningJa": "鋭い、敏感な",
         "example": "The animal has an acute sense of smell.",
         "exampleJa": "その動物は鋭い嗅覚を持っています。"
       }
@@ -2000,7 +2000,7 @@
   {
     "id": "v2587",
     "word": "chronic",
-    "meaningJa": "慢性的な；長く続く",
+    "meaningJa": "慢性的な、長く続く",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The region suffers from chronic water shortages.",
@@ -2042,7 +2042,7 @@
   {
     "id": "v2589",
     "word": "nutritious",
-    "meaningJa": "栄養のある；栄養豊富な",
+    "meaningJa": "栄養のある、栄養豊富な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The school provides nutritious lunches for the children.",
@@ -2063,7 +2063,7 @@
   {
     "id": "v2590",
     "word": "diet",
-    "meaningJa": "日常の食事；食生活",
+    "meaningJa": "日常の食事、食生活",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The survey asked people about their daily diet.",
@@ -2085,7 +2085,7 @@
   {
     "id": "v2591",
     "word": "overweight",
-    "meaningJa": "太りすぎの；規定重量を超えた",
+    "meaningJa": "太りすぎの、規定重量を超えた",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The airline charged extra because the suitcase was overweight.",
@@ -2106,7 +2106,7 @@
   {
     "id": "v2592",
     "word": "metabolism",
-    "meaningJa": "代謝；新陳代謝",
+    "meaningJa": "代謝、新陳代謝",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The study examines how temperature affects metabolism in fish.",
@@ -2127,7 +2127,7 @@
   {
     "id": "v2593",
     "word": "weary",
-    "meaningJa": "疲れ果てた；うんざりした",
+    "meaningJa": "疲れ果てた、うんざりした",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The weary travelers rested beside the road.",
@@ -2149,7 +2149,7 @@
   {
     "id": "v2594",
     "word": "fragile",
-    "meaningJa": "壊れやすい；もろい",
+    "meaningJa": "壊れやすい、もろい",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The fragile bowl was wrapped in soft paper.",
@@ -2170,7 +2170,7 @@
   {
     "id": "v2595",
     "word": "stiff",
-    "meaningJa": "硬い；こわばった",
+    "meaningJa": "硬い、こわばった",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "His legs felt stiff after the long journey.",
@@ -2191,7 +2191,7 @@
   {
     "id": "v2596",
     "word": "numb",
-    "meaningJa": "感覚がない；しびれた",
+    "meaningJa": "感覚がない、しびれた",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Her fingers were numb from the cold.",
@@ -2232,7 +2232,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "看護する；世話をする",
+        "meaningJa": "看護する、世話をする",
         "example": "She stayed home to nurse her sick child.",
         "exampleJa": "彼女は病気の子どもの世話をするために家にいました。"
       }
@@ -2262,7 +2262,7 @@
   {
     "id": "v2599",
     "word": "clinic",
-    "meaningJa": "診療所；クリニック",
+    "meaningJa": "診療所、クリニック",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The clinic opens at nine in the morning.",
@@ -2283,7 +2283,7 @@
   {
     "id": "v2600",
     "word": "ward",
-    "meaningJa": "病棟；病室",
+    "meaningJa": "病棟、病室",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The visitors waited outside the hospital ward.",
@@ -2303,7 +2303,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "行政区；選挙区",
+        "meaningJa": "行政区、選挙区",
         "example": "The council represents every ward in the city.",
         "exampleJa": "その議会は市内のすべての行政区を代表しています。"
       }

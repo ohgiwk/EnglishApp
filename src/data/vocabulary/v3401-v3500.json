@@ -2,7 +2,7 @@
   {
     "id": "v3401",
     "word": "elusive",
-    "meaningJa": "つかまえにくい；理解しにくい",
+    "meaningJa": "つかまえにくい、理解しにくい",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "A clear explanation remains elusive.",
@@ -24,7 +24,7 @@
   {
     "id": "v3402",
     "word": "lucrative",
-    "meaningJa": "利益の大きい；もうかる",
+    "meaningJa": "利益の大きい、もうかる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The company found a lucrative market overseas.",
@@ -45,7 +45,7 @@
   {
     "id": "v3403",
     "word": "imminent",
-    "meaningJa": "差し迫った；今にも起こりそうな",
+    "meaningJa": "差し迫った、今にも起こりそうな",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The dark clouds suggested that a storm was imminent.",
@@ -67,7 +67,7 @@
   {
     "id": "v3404",
     "word": "deception",
-    "meaningJa": "欺き；だますこと",
+    "meaningJa": "欺き、だますこと",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The report exposed a deliberate deception.",
@@ -88,7 +88,7 @@
   {
     "id": "v3405",
     "word": "ubiquitous",
-    "meaningJa": "至る所にある；遍在する",
+    "meaningJa": "至る所にある、遍在する",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "Digital screens have become ubiquitous in daily life.",
@@ -109,7 +109,7 @@
   {
     "id": "v3406",
     "word": "pervasive",
-    "meaningJa": "広く行き渡った；浸透した",
+    "meaningJa": "広く行き渡った、浸透した",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The study examines the pervasive influence of advertising.",
@@ -130,7 +130,7 @@
   {
     "id": "v3407",
     "word": "prevalent",
-    "meaningJa": "広く見られる；普及した",
+    "meaningJa": "広く見られる、普及した",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "This belief was prevalent at the time.",
@@ -151,7 +151,7 @@
   {
     "id": "v3408",
     "word": "predominant",
-    "meaningJa": "支配的な；最も有力な",
+    "meaningJa": "支配的な、最も有力な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "Cost was the predominant factor in the decision.",
@@ -193,7 +193,7 @@
   {
     "id": "v3410",
     "word": "foremost",
-    "meaningJa": "第一の；最も優れた",
+    "meaningJa": "第一の、最も優れた",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "She is one of the foremost experts in the field.",
@@ -214,7 +214,7 @@
   {
     "id": "v3411",
     "word": "prior",
-    "meaningJa": "前の；先立つ",
+    "meaningJa": "前の、先立つ",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "No prior experience is required for this course.",
@@ -236,7 +236,7 @@
   {
     "id": "v3412",
     "word": "subsequent",
-    "meaningJa": "その後の；続いて起こる",
+    "meaningJa": "その後の、続いて起こる",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Subsequent studies confirmed the result.",
@@ -279,7 +279,7 @@
   {
     "id": "v3414",
     "word": "successive",
-    "meaningJa": "相次ぐ；連続する",
+    "meaningJa": "相次ぐ、連続する",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Successive storms damaged the coast.",
@@ -300,7 +300,7 @@
   {
     "id": "v3415",
     "word": "simultaneous",
-    "meaningJa": "同時の；同時に起こる",
+    "meaningJa": "同時の、同時に起こる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The experiment measured simultaneous changes in light and heat.",
@@ -321,7 +321,7 @@
   {
     "id": "v3416",
     "word": "reciprocal",
-    "meaningJa": "相互の；互恵的な",
+    "meaningJa": "相互の、互恵的な",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The agreement created reciprocal obligations.",
@@ -342,7 +342,7 @@
   {
     "id": "v3417",
     "word": "mutual",
-    "meaningJa": "相互の；共通の",
+    "meaningJa": "相互の、共通の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The partnership is based on mutual trust.",
@@ -363,7 +363,7 @@
   {
     "id": "v3418",
     "word": "inclusive",
-    "meaningJa": "包括的な；多様な人を受け入れる",
+    "meaningJa": "包括的な、多様な人を受け入れる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The school aims to create an inclusive environment.",
@@ -384,7 +384,7 @@
   {
     "id": "v3419",
     "word": "exclusive",
-    "meaningJa": "独占的な；限定された",
+    "meaningJa": "独占的な、限定された",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The newspaper obtained an exclusive interview.",
@@ -405,7 +405,7 @@
   {
     "id": "v3420",
     "word": "exhaustive",
-    "meaningJa": "徹底的な；漏れのない",
+    "meaningJa": "徹底的な、漏れのない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The team conducted an exhaustive search.",
@@ -427,7 +427,7 @@
   {
     "id": "v3421",
     "word": "comprehensive",
-    "meaningJa": "包括的な；総合的な",
+    "meaningJa": "包括的な、総合的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The report provides a comprehensive overview of the problem.",
@@ -448,7 +448,7 @@
   {
     "id": "v3422",
     "word": "versatile",
-    "meaningJa": "多用途の；多才な",
+    "meaningJa": "多用途の、多才な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "This versatile tool has many uses.",
@@ -469,7 +469,7 @@
   {
     "id": "v3423",
     "word": "resilient",
-    "meaningJa": "回復力のある；立ち直りの早い",
+    "meaningJa": "回復力のある、立ち直りの早い",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The community proved resilient after the disaster.",
@@ -490,7 +490,7 @@
   {
     "id": "v3424",
     "word": "susceptible",
-    "meaningJa": "影響を受けやすい；かかりやすい",
+    "meaningJa": "影響を受けやすい、かかりやすい",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The material is susceptible to damage from heat.",
@@ -512,7 +512,7 @@
   {
     "id": "v3425",
     "word": "vulnerable",
-    "meaningJa": "傷つきやすい；被害を受けやすい",
+    "meaningJa": "傷つきやすい、被害を受けやすい",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The village is vulnerable to flooding.",
@@ -534,7 +534,7 @@
   {
     "id": "v3426",
     "word": "durable",
-    "meaningJa": "丈夫な；長持ちする",
+    "meaningJa": "丈夫な、長持ちする",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The bags are made of durable material.",
@@ -555,7 +555,7 @@
   {
     "id": "v3427",
     "word": "enduring",
-    "meaningJa": "長く続く；永続的な",
+    "meaningJa": "長く続く、永続的な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The book has had an enduring influence on education.",
@@ -577,7 +577,7 @@
   {
     "id": "v3428",
     "word": "perpetual",
-    "meaningJa": "絶え間ない；永続する",
+    "meaningJa": "絶え間ない、永続する",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The noise seemed to be perpetual.",
@@ -598,7 +598,7 @@
   {
     "id": "v3429",
     "word": "provisional",
-    "meaningJa": "暫定的な；仮の",
+    "meaningJa": "暫定的な、仮の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "We reached a provisional agreement.",
@@ -619,7 +619,7 @@
   {
     "id": "v3430",
     "word": "preliminary",
-    "meaningJa": "予備的な；準備の",
+    "meaningJa": "予備的な、準備の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The preliminary results look promising.",
@@ -640,7 +640,7 @@
   {
     "id": "v3431",
     "word": "ultimate",
-    "meaningJa": "最終的な；究極の",
+    "meaningJa": "最終的な、究極の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The ultimate goal is to reduce waste.",
@@ -661,7 +661,7 @@
   {
     "id": "v3432",
     "word": "optimum",
-    "meaningJa": "最適の；最良の",
+    "meaningJa": "最適の、最良の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The team searched for the optimum temperature.",
@@ -681,7 +681,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "最適な状態；最適値",
+        "meaningJa": "最適な状態、最適値",
         "example": "We adjusted the temperature to find the optimum.",
         "exampleJa": "私たちは最適値を見つけるために温度を調整しました。"
       }
@@ -690,7 +690,7 @@
   {
     "id": "v3433",
     "word": "maximum",
-    "meaningJa": "最大限；最大値",
+    "meaningJa": "最大限、最大値",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The hall can hold a maximum of two hundred people.",
@@ -710,7 +710,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "最大の；最高の",
+        "meaningJa": "最大の、最高の",
         "example": "The maximum speed is shown on the sign.",
         "exampleJa": "最高速度は標識に示されています。"
       }
@@ -719,7 +719,7 @@
   {
     "id": "v3434",
     "word": "minimum",
-    "meaningJa": "最小限；最小値",
+    "meaningJa": "最小限、最小値",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We kept the cost to a minimum.",
@@ -739,7 +739,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "最小の；最低の",
+        "meaningJa": "最小の、最低の",
         "example": "The course has a minimum age requirement.",
         "exampleJa": "その講座には最低年齢の条件があります。"
       }
@@ -748,7 +748,7 @@
   {
     "id": "v3435",
     "word": "sparse",
-    "meaningJa": "まばらな；乏しい",
+    "meaningJa": "まばらな、乏しい",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "Vegetation is sparse on the rocky slope.",
@@ -769,7 +769,7 @@
   {
     "id": "v3436",
     "word": "plentiful",
-    "meaningJa": "豊富な；十分にある",
+    "meaningJa": "豊富な、十分にある",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "Fresh fruit is plentiful in summer.",
@@ -790,7 +790,7 @@
   {
     "id": "v3437",
     "word": "ample",
-    "meaningJa": "十分な；豊富な",
+    "meaningJa": "十分な、豊富な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "We had ample time to prepare.",
@@ -811,7 +811,7 @@
   {
     "id": "v3438",
     "word": "sheer",
-    "meaningJa": "まったくの；ものすごい",
+    "meaningJa": "まったくの、ものすごい",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The sheer size of the building surprised us.",
@@ -831,7 +831,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "切り立った；ほぼ垂直の",
+        "meaningJa": "切り立った、ほぼ垂直の",
         "example": "The path ended at a sheer cliff.",
         "exampleJa": "道は切り立った崖で終わっていました。"
       }
@@ -840,7 +840,7 @@
   {
     "id": "v3439",
     "word": "mere",
-    "meaningJa": "単なる；ほんの",
+    "meaningJa": "単なる、ほんの",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "A mere guess is not enough to support the claim.",
@@ -861,7 +861,7 @@
   {
     "id": "v3440",
     "word": "respective",
-    "meaningJa": "それぞれの；各自の",
+    "meaningJa": "それぞれの、各自の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The students returned to their respective classrooms.",
@@ -883,7 +883,7 @@
   {
     "id": "v3441",
     "word": "rigid",
-    "meaningJa": "硬い；柔軟性のない",
+    "meaningJa": "硬い、柔軟性のない",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The frame is made of rigid plastic.",
@@ -903,7 +903,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "融通の利かない；厳格な",
+        "meaningJa": "融通の利かない、厳格な",
         "example": "The rigid schedule left no room for discussion.",
         "exampleJa": "融通の利かない予定には議論の余地がありませんでした。"
       }
@@ -912,7 +912,7 @@
   {
     "id": "v3442",
     "word": "adaptive",
-    "meaningJa": "適応する；適応的な",
+    "meaningJa": "適応する、適応的な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The system uses adaptive controls.",
@@ -954,7 +954,7 @@
   {
     "id": "v3444",
     "word": "transient",
-    "meaningJa": "一時的な；つかの間の",
+    "meaningJa": "一時的な、つかの間の",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The effect was transient and soon disappeared.",
@@ -975,7 +975,7 @@
   {
     "id": "v3445",
     "word": "tangible",
-    "meaningJa": "具体的な；実感できる；触れられる",
+    "meaningJa": "具体的な、実感できる、触れられる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The project produced tangible benefits.",
@@ -996,7 +996,7 @@
   {
     "id": "v3446",
     "word": "intangible",
-    "meaningJa": "形のない；触れられない",
+    "meaningJa": "形のない、触れられない",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "Trust is an intangible asset for an organization.",
@@ -1017,7 +1017,7 @@
   {
     "id": "v3447",
     "word": "conspicuous",
-    "meaningJa": "目立つ；顕著な",
+    "meaningJa": "目立つ、顕著な",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The red sign was conspicuous against the white wall.",
@@ -1038,7 +1038,7 @@
   {
     "id": "v3448",
     "word": "subtle",
-    "meaningJa": "微妙な；気づきにくい",
+    "meaningJa": "微妙な、気づきにくい",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "There is a subtle difference between the two colors.",
@@ -1060,7 +1060,7 @@
   {
     "id": "v3449",
     "word": "profound",
-    "meaningJa": "深い；重大な",
+    "meaningJa": "深い、重大な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The discovery had a profound effect on science.",
@@ -1081,7 +1081,7 @@
   {
     "id": "v3450",
     "word": "superficial",
-    "meaningJa": "表面的な；浅い",
+    "meaningJa": "表面的な、浅い",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The report offers only a superficial analysis.",
@@ -1123,7 +1123,7 @@
   {
     "id": "v3452",
     "word": "landslide",
-    "meaningJa": "地滑り；土砂崩れ",
+    "meaningJa": "地滑り、土砂崩れ",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Heavy rain caused a landslide near the village.",
@@ -1144,7 +1144,7 @@
   {
     "id": "v3453",
     "word": "mist",
-    "meaningJa": "霧；かすみ",
+    "meaningJa": "霧、かすみ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A thin mist covered the lake.",
@@ -1166,7 +1166,7 @@
   {
     "id": "v3454",
     "word": "frost",
-    "meaningJa": "霜；凍結",
+    "meaningJa": "霜、凍結",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The grass was covered with frost.",
@@ -1187,7 +1187,7 @@
   {
     "id": "v3455",
     "word": "snowflake",
-    "meaningJa": "雪片；一ひらの雪",
+    "meaningJa": "雪片、一ひらの雪",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A snowflake landed on my sleeve.",
@@ -1334,7 +1334,7 @@
   {
     "id": "v3462",
     "word": "sunset",
-    "meaningJa": "日没；夕焼け",
+    "meaningJa": "日没、夕焼け",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The sky turned orange at sunset.",
@@ -1355,7 +1355,7 @@
   {
     "id": "v3463",
     "word": "dawn",
-    "meaningJa": "夜明け；始まり",
+    "meaningJa": "夜明け、始まり",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The birds began to sing at dawn.",
@@ -1376,7 +1376,7 @@
   {
     "id": "v3464",
     "word": "dusk",
-    "meaningJa": "夕暮れ；薄暮",
+    "meaningJa": "夕暮れ、薄暮",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We returned home at dusk.",
@@ -1398,7 +1398,7 @@
   {
     "id": "v3465",
     "word": "twilight",
-    "meaningJa": "薄明かり；薄暮",
+    "meaningJa": "薄明かり、薄暮",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The hills were purple in the twilight.",
@@ -1420,7 +1420,7 @@
   {
     "id": "v3466",
     "word": "daylight",
-    "meaningJa": "日光；昼の明るさ",
+    "meaningJa": "日光、昼の明るさ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "There was enough daylight to finish the work.",
@@ -1441,7 +1441,7 @@
   {
     "id": "v3467",
     "word": "moonlight",
-    "meaningJa": "月光；月明かり",
+    "meaningJa": "月光、月明かり",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The path was visible in the moonlight.",
@@ -1462,7 +1462,7 @@
   {
     "id": "v3468",
     "word": "sunshine",
-    "meaningJa": "日光；日差し",
+    "meaningJa": "日光、日差し",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The room was filled with warm sunshine.",
@@ -1504,7 +1504,7 @@
   {
     "id": "v3470",
     "word": "plateau",
-    "meaningJa": "高原；台地",
+    "meaningJa": "高原、台地",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The town lies on a high plateau.",
@@ -1524,7 +1524,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "停滞期；横ばいの状態",
+        "meaningJa": "停滞期、横ばいの状態",
         "example": "Sales reached a plateau after months of growth.",
         "exampleJa": "数か月の成長の後、売上は横ばいになりました。"
       }
@@ -1554,7 +1554,7 @@
   {
     "id": "v3472",
     "word": "gulf",
-    "meaningJa": "湾；大きな隔たり",
+    "meaningJa": "湾、大きな隔たり",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Several rivers flow into the gulf.",
@@ -1574,7 +1574,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "大きな隔たり；溝",
+        "meaningJa": "大きな隔たり、溝",
         "example": "There is a gulf between their views.",
         "exampleJa": "彼らの見解には大きな隔たりがあります。"
       }
@@ -1625,7 +1625,7 @@
   {
     "id": "v3475",
     "word": "creek",
-    "meaningJa": "小川；入り江",
+    "meaningJa": "小川、入り江",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We crossed the creek on a wooden bridge.",
@@ -1668,7 +1668,7 @@
   {
     "id": "v3477",
     "word": "marsh",
-    "meaningJa": "湿地；沼地",
+    "meaningJa": "湿地、沼地",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Birds nested in the reeds of the marsh.",
@@ -1689,7 +1689,7 @@
   {
     "id": "v3478",
     "word": "swamp",
-    "meaningJa": "沼地；湿地",
+    "meaningJa": "沼地、湿地",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The explorers moved slowly through the swamp.",
@@ -1732,7 +1732,7 @@
   {
     "id": "v3480",
     "word": "jungle",
-    "meaningJa": "ジャングル；密林",
+    "meaningJa": "ジャングル、密林",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The team followed a path through the jungle.",
@@ -1775,7 +1775,7 @@
   {
     "id": "v3482",
     "word": "savanna",
-    "meaningJa": "サバンナ；熱帯の草原",
+    "meaningJa": "サバンナ、熱帯の草原",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Herds of animals moved across the savanna.",
@@ -1797,7 +1797,7 @@
   {
     "id": "v3483",
     "word": "woodland",
-    "meaningJa": "森林地帯；林",
+    "meaningJa": "森林地帯、林",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The path leads into the woodland.",
@@ -1818,7 +1818,7 @@
   {
     "id": "v3484",
     "word": "wilderness",
-    "meaningJa": "荒野；人の手がほとんど入っていない土地",
+    "meaningJa": "荒野、人の手がほとんど入っていない土地",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "They spent a week in the wilderness.",
@@ -1839,7 +1839,7 @@
   {
     "id": "v3485",
     "word": "prairie",
-    "meaningJa": "大草原；プレーリー",
+    "meaningJa": "大草原、プレーリー",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Tall grass covered the prairie.",
@@ -1860,7 +1860,7 @@
   {
     "id": "v3486",
     "word": "pasture",
-    "meaningJa": "牧草地；放牧地",
+    "meaningJa": "牧草地、放牧地",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The cows returned to the pasture.",
@@ -1881,7 +1881,7 @@
   {
     "id": "v3487",
     "word": "berry",
-    "meaningJa": "ベリー；小さな果実",
+    "meaningJa": "ベリー、小さな果実",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A red berry grew at the end of the branch.",
@@ -1902,7 +1902,7 @@
   {
     "id": "v3488",
     "word": "nut",
-    "meaningJa": "木の実；ナッツ",
+    "meaningJa": "木の実、ナッツ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The squirrel carried a nut in its mouth.",
@@ -1922,7 +1922,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "ナット；ねじを固定する金具",
+        "meaningJa": "ナット、ねじを固定する金具",
         "example": "Tighten the nut with a wrench.",
         "exampleJa": "レンチでナットを締めてください。"
       }
@@ -1974,7 +1974,7 @@
   {
     "id": "v3491",
     "word": "bloom",
-    "meaningJa": "花が咲く；開花する",
+    "meaningJa": "花が咲く、開花する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "These flowers bloom in spring.",
@@ -1995,7 +1995,7 @@
   {
     "id": "v3492",
     "word": "horizon",
-    "meaningJa": "地平線；水平線",
+    "meaningJa": "地平線、水平線",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The sun disappeared below the horizon.",
@@ -2017,7 +2017,7 @@
   {
     "id": "v3493",
     "word": "peak",
-    "meaningJa": "頂上；最高点",
+    "meaningJa": "頂上、最高点",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Snow covered the mountain peak.",
@@ -2046,7 +2046,7 @@
   {
     "id": "v3494",
     "word": "summit",
-    "meaningJa": "山頂；首脳会議",
+    "meaningJa": "山頂、首脳会議",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The climbers reached the summit before noon.",
@@ -2075,7 +2075,7 @@
   {
     "id": "v3495",
     "word": "ridge",
-    "meaningJa": "尾根；細長い隆起",
+    "meaningJa": "尾根、細長い隆起",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "We walked along the ridge between two valleys.",
@@ -2096,7 +2096,7 @@
   {
     "id": "v3496",
     "word": "slope",
-    "meaningJa": "斜面；傾斜",
+    "meaningJa": "斜面、傾斜",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The children climbed the grassy slope.",
@@ -2117,7 +2117,7 @@
   {
     "id": "v3497",
     "word": "terrain",
-    "meaningJa": "地形；地勢",
+    "meaningJa": "地形、地勢",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The rough terrain made travel difficult.",
@@ -2139,7 +2139,7 @@
   {
     "id": "v3498",
     "word": "arid",
-    "meaningJa": "乾燥した；雨の少ない",
+    "meaningJa": "乾燥した、雨の少ない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "Few trees grow in this arid region.",
@@ -2160,7 +2160,7 @@
   {
     "id": "v3499",
     "word": "barren",
-    "meaningJa": "不毛の；作物の育たない",
+    "meaningJa": "不毛の、作物の育たない",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The land became barren after years of erosion.",
@@ -2181,7 +2181,7 @@
   {
     "id": "v3500",
     "word": "fertile",
-    "meaningJa": "肥沃な；生産力のある",
+    "meaningJa": "肥沃な、生産力のある",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The river valley has fertile soil.",

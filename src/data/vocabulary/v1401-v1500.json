@@ -23,7 +23,7 @@
   {
     "id": "v1402",
     "word": "humor",
-    "meaningJa": "ユーモア；おかしみ",
+    "meaningJa": "ユーモア、おかしみ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "His sense of humor made the meeting enjoyable.",
@@ -66,7 +66,7 @@
   {
     "id": "v1404",
     "word": "genetic",
-    "meaningJa": "遺伝の；遺伝子の",
+    "meaningJa": "遺伝の、遺伝子の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The team collected genetic information from the samples.",
@@ -87,7 +87,7 @@
   {
     "id": "v1405",
     "word": "treatment",
-    "meaningJa": "治療；処置",
+    "meaningJa": "治療、処置",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The doctor explained the treatment to the family.",
@@ -107,7 +107,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "扱い；待遇",
+        "meaningJa": "扱い、待遇",
         "example": "All employees deserve fair treatment.",
         "exampleJa": "すべての従業員は公平な待遇を受けるに値します。"
       }
@@ -116,7 +116,7 @@
   {
     "id": "v1406",
     "word": "therapy",
-    "meaningJa": "療法；治療",
+    "meaningJa": "療法、治療",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The hospital offers physical therapy after surgery.",
@@ -201,7 +201,7 @@
   {
     "id": "v1410",
     "word": "beneficial",
-    "meaningJa": "有益な；役に立つ",
+    "meaningJa": "有益な、役に立つ",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The new library is beneficial to the whole community.",
@@ -222,7 +222,7 @@
   {
     "id": "v1411",
     "word": "promising",
-    "meaningJa": "有望な；見込みのある",
+    "meaningJa": "有望な、見込みのある",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The experiment produced promising results.",
@@ -244,7 +244,7 @@
   {
     "id": "v1412",
     "word": "restore",
-    "meaningJa": "元に戻す；修復する",
+    "meaningJa": "元に戻す、修復する",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Volunteers helped restore the old theater.",
@@ -265,7 +265,7 @@
   {
     "id": "v1413",
     "word": "recognition",
-    "meaningJa": "認識；識別",
+    "meaningJa": "認識、識別",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Face recognition is one feature of the device.",
@@ -285,7 +285,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "評価；承認",
+        "meaningJa": "評価、承認",
         "example": "The award gave her recognition for her work.",
         "exampleJa": "その賞によって彼女の仕事が評価されました。"
       }
@@ -294,7 +294,7 @@
   {
     "id": "v1414",
     "word": "manufacturing",
-    "meaningJa": "製造；製造業",
+    "meaningJa": "製造、製造業",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The city has a long history of manufacturing.",
@@ -316,7 +316,7 @@
   {
     "id": "v1415",
     "word": "aggressive",
-    "meaningJa": "攻撃的な；強引な",
+    "meaningJa": "攻撃的な、強引な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "His aggressive tone upset the other players.",
@@ -379,7 +379,7 @@
   {
     "id": "v1418",
     "word": "ferry",
-    "meaningJa": "フェリー；渡し船",
+    "meaningJa": "フェリー、渡し船",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We took a ferry to the island.",
@@ -400,7 +400,7 @@
   {
     "id": "v1419",
     "word": "decline",
-    "meaningJa": "減少する；衰える",
+    "meaningJa": "減少する、衰える",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Sales often decline during the winter.",
@@ -420,7 +420,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "断る；辞退する",
+        "meaningJa": "断る、辞退する",
         "example": "You may decline the invitation if you are busy.",
         "exampleJa": "忙しければその招待を断ってもかまいません。"
       }
@@ -429,7 +429,7 @@
   {
     "id": "v1420",
     "word": "characteristic",
-    "meaningJa": "特徴；特性",
+    "meaningJa": "特徴、特性",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Patience is an important characteristic of a good teacher.",
@@ -458,7 +458,7 @@
   {
     "id": "v1421",
     "word": "symptom",
-    "meaningJa": "症状；兆候",
+    "meaningJa": "症状、兆候",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The nurse asked about each symptom.",
@@ -479,7 +479,7 @@
   {
     "id": "v1422",
     "word": "infection",
-    "meaningJa": "感染；感染症",
+    "meaningJa": "感染、感染症",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The doctor checked for signs of infection.",
@@ -500,7 +500,7 @@
   {
     "id": "v1423",
     "word": "immune",
-    "meaningJa": "免疫のある；影響を受けない",
+    "meaningJa": "免疫のある、影響を受けない",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "No organization is immune to criticism.",
@@ -522,7 +522,7 @@
   {
     "id": "v1424",
     "word": "mental",
-    "meaningJa": "精神の；心の",
+    "meaningJa": "精神の、心の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The school provides mental health support.",
@@ -543,7 +543,7 @@
   {
     "id": "v1425",
     "word": "physical",
-    "meaningJa": "身体の；物理的な",
+    "meaningJa": "身体の、物理的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The job requires physical strength.",
@@ -563,7 +563,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "物質の；物理的な",
+        "meaningJa": "物質の、物理的な",
         "example": "Heat can change the physical properties of a material.",
         "exampleJa": "熱は物質の物理的性質を変えることがあります。"
       }
@@ -572,7 +572,7 @@
   {
     "id": "v1426",
     "word": "recovery",
-    "meaningJa": "回復；復旧",
+    "meaningJa": "回復、復旧",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Her recovery took several weeks.",
@@ -593,7 +593,7 @@
   {
     "id": "v1427",
     "word": "cure",
-    "meaningJa": "治す；治療する",
+    "meaningJa": "治す、治療する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Scientists hope to cure the disease one day.",
@@ -622,7 +622,7 @@
   {
     "id": "v1428",
     "word": "prevention",
-    "meaningJa": "予防；防止",
+    "meaningJa": "予防、防止",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Fire prevention is part of the training.",
@@ -643,7 +643,7 @@
   {
     "id": "v1429",
     "word": "threat",
-    "meaningJa": "脅威；脅し",
+    "meaningJa": "脅威、脅し",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The storm poses a threat to coastal villages.",
@@ -664,7 +664,7 @@
   {
     "id": "v1430",
     "word": "harm",
-    "meaningJa": "害；損害",
+    "meaningJa": "害、損害",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The chemicals may cause harm to wildlife.",
@@ -842,7 +842,7 @@
   {
     "id": "v1438",
     "word": "capable",
-    "meaningJa": "能力のある；できる",
+    "meaningJa": "能力のある、できる",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The robot is capable of carrying heavy boxes.",
@@ -864,7 +864,7 @@
   {
     "id": "v1439",
     "word": "aware",
-    "meaningJa": "気づいている；認識している",
+    "meaningJa": "気づいている、認識している",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "We are aware of the risks.",
@@ -886,7 +886,7 @@
   {
     "id": "v1440",
     "word": "unlikely",
-    "meaningJa": "ありそうもない；しそうにない",
+    "meaningJa": "ありそうもない、しそうにない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The train is unlikely to arrive on time.",
@@ -908,7 +908,7 @@
   {
     "id": "v1441",
     "word": "severe",
-    "meaningJa": "厳しい；深刻な",
+    "meaningJa": "厳しい、深刻な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The region faced a severe water shortage.",
@@ -929,7 +929,7 @@
   {
     "id": "v1442",
     "word": "moderate",
-    "meaningJa": "適度な；穏やかな",
+    "meaningJa": "適度な、穏やかな",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The forecast predicts moderate winds tomorrow.",
@@ -950,7 +950,7 @@
   {
     "id": "v1443",
     "word": "gradual",
-    "meaningJa": "徐々の；緩やかな",
+    "meaningJa": "徐々の、緩やかな",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The graph shows a gradual increase in temperature.",
@@ -992,7 +992,7 @@
   {
     "id": "v1445",
     "word": "permanent",
-    "meaningJa": "永久の；恒久的な",
+    "meaningJa": "永久の、恒久的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The museum needs a permanent home for the collection.",
@@ -1034,7 +1034,7 @@
   {
     "id": "v1447",
     "word": "precise",
-    "meaningJa": "精密な；正確な",
+    "meaningJa": "精密な、正確な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The engineer made a precise measurement of the gap.",
@@ -1076,7 +1076,7 @@
   {
     "id": "v1449",
     "word": "flexible",
-    "meaningJa": "柔軟な；融通の利く",
+    "meaningJa": "柔軟な、融通の利く",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "We need a flexible plan for the trip.",
@@ -1138,7 +1138,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "要旨；概要",
+        "meaningJa": "要旨、概要",
         "example": "Read the abstract before the full paper.",
         "exampleJa": "論文全体を読む前に要旨を読んでください。"
       }
@@ -1176,7 +1176,7 @@
   {
     "id": "v1453",
     "word": "apparent",
-    "meaningJa": "明らかな；見かけの",
+    "meaningJa": "明らかな、見かけの",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The reason for the change soon became apparent.",
@@ -1198,7 +1198,7 @@
   {
     "id": "v1454",
     "word": "distinct",
-    "meaningJa": "明確に異なる；はっきりした",
+    "meaningJa": "明確に異なる、はっきりした",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The study identified two distinct groups.",
@@ -1240,7 +1240,7 @@
   {
     "id": "v1456",
     "word": "considerable",
-    "meaningJa": "かなりの；相当な",
+    "meaningJa": "かなりの、相当な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The repairs required considerable effort.",
@@ -1262,7 +1262,7 @@
   {
     "id": "v1457",
     "word": "substantial",
-    "meaningJa": "相当な；かなりの",
+    "meaningJa": "相当な、かなりの",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The project received substantial support from residents.",
@@ -1283,7 +1283,7 @@
   {
     "id": "v1458",
     "word": "enormous",
-    "meaningJa": "非常に大きい；莫大な",
+    "meaningJa": "非常に大きい、莫大な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "An enormous tree stood beside the house.",
@@ -1304,7 +1304,7 @@
   {
     "id": "v1459",
     "word": "tremendous",
-    "meaningJa": "非常に大きい；すさまじい",
+    "meaningJa": "非常に大きい、すさまじい",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The team made a tremendous effort to finish on time.",
@@ -1325,7 +1325,7 @@
   {
     "id": "v1460",
     "word": "remarkable",
-    "meaningJa": "注目すべき；驚くべき",
+    "meaningJa": "注目すべき、驚くべき",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The students made remarkable progress in a month.",
@@ -1346,7 +1346,7 @@
   {
     "id": "v1461",
     "word": "vital",
-    "meaningJa": "極めて重要な；不可欠な",
+    "meaningJa": "極めて重要な、不可欠な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Clean water is vital to every community.",
@@ -1367,7 +1367,7 @@
   {
     "id": "v1462",
     "word": "fundamental",
-    "meaningJa": "根本的な；基本的な",
+    "meaningJa": "根本的な、基本的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The two plans differ in a fundamental way.",
@@ -1388,7 +1388,7 @@
   {
     "id": "v1463",
     "word": "primary",
-    "meaningJa": "主な；第一の",
+    "meaningJa": "主な、第一の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "Our primary concern is the safety of the children.",
@@ -1409,7 +1409,7 @@
   {
     "id": "v1464",
     "word": "secondary",
-    "meaningJa": "二次的な；副次的な",
+    "meaningJa": "二次的な、副次的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "Cost is a secondary concern in this case.",
@@ -1430,7 +1430,7 @@
   {
     "id": "v1465",
     "word": "major",
-    "meaningJa": "主要な；重大な",
+    "meaningJa": "主要な、重大な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The storm caused major damage to the bridge.",
@@ -1451,7 +1451,7 @@
   {
     "id": "v1466",
     "word": "minor",
-    "meaningJa": "小さい；重要でない",
+    "meaningJa": "小さい、重要でない",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "We made a minor change to the schedule.",
@@ -1501,7 +1501,7 @@
   {
     "id": "v1468",
     "word": "absolute",
-    "meaningJa": "絶対的な；完全な",
+    "meaningJa": "絶対的な、完全な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The results cannot be predicted with absolute certainty.",
@@ -1551,7 +1551,7 @@
   {
     "id": "v1470",
     "word": "artificial",
-    "meaningJa": "人工の；人造の",
+    "meaningJa": "人工の、人造の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The plants grow under artificial light.",
@@ -1572,7 +1572,7 @@
   {
     "id": "v1471",
     "word": "natural",
-    "meaningJa": "自然の；天然の",
+    "meaningJa": "自然の、天然の",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The island has a beautiful natural harbor.",
@@ -1593,7 +1593,7 @@
   {
     "id": "v1472",
     "word": "conscious",
-    "meaningJa": "意識している；意識のある",
+    "meaningJa": "意識している、意識のある",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "She was conscious of the camera beside her.",
@@ -1615,7 +1615,7 @@
   {
     "id": "v1473",
     "word": "unconscious",
-    "meaningJa": "意識を失った；無意識の",
+    "meaningJa": "意識を失った、無意識の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The injured man was unconscious when help arrived.",
@@ -1636,7 +1636,7 @@
   {
     "id": "v1474",
     "word": "rational",
-    "meaningJa": "理性的な；合理的な",
+    "meaningJa": "理性的な、合理的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "We need a rational explanation for the decision.",
@@ -1657,7 +1657,7 @@
   {
     "id": "v1475",
     "word": "emotional",
-    "meaningJa": "感情の；感情的な",
+    "meaningJa": "感情の、感情的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The film had a strong emotional effect on the audience.",
@@ -1699,7 +1699,7 @@
   {
     "id": "v1477",
     "word": "reasonable",
-    "meaningJa": "合理的な；妥当な",
+    "meaningJa": "合理的な、妥当な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "That seems like a reasonable explanation.",
@@ -1720,7 +1720,7 @@
   {
     "id": "v1478",
     "word": "irrational",
-    "meaningJa": "非合理的な；理性に欠ける",
+    "meaningJa": "非合理的な、理性に欠ける",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "Fear can lead to irrational decisions.",
@@ -1762,7 +1762,7 @@
   {
     "id": "v1480",
     "word": "positive",
-    "meaningJa": "前向きな；肯定的な",
+    "meaningJa": "前向きな、肯定的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "She has a positive attitude toward the change.",
@@ -1791,7 +1791,7 @@
   {
     "id": "v1481",
     "word": "negative",
-    "meaningJa": "否定的な；悪い",
+    "meaningJa": "否定的な、悪い",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The proposal received a negative response.",
@@ -1905,7 +1905,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "極めて重要な；重大な",
+        "meaningJa": "極めて重要な、重大な",
         "example": "Timing is critical to the success of the experiment.",
         "exampleJa": "タイミングは実験の成功に極めて重要です。"
       }
@@ -1914,7 +1914,7 @@
   {
     "id": "v1486",
     "word": "controversial",
-    "meaningJa": "議論を呼ぶ；論争の的となる",
+    "meaningJa": "議論を呼ぶ、論争の的となる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The committee discussed a controversial proposal.",
@@ -1935,7 +1935,7 @@
   {
     "id": "v1487",
     "word": "conventional",
-    "meaningJa": "従来の；慣習的な",
+    "meaningJa": "従来の、慣習的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The new method differs from the conventional approach.",
@@ -1998,7 +1998,7 @@
   {
     "id": "v1490",
     "word": "creative",
-    "meaningJa": "創造的な；独創的な",
+    "meaningJa": "創造的な、独創的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The children found a creative solution to the puzzle.",
@@ -2019,7 +2019,7 @@
   {
     "id": "v1491",
     "word": "original",
-    "meaningJa": "元の；最初の",
+    "meaningJa": "元の、最初の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "We decided to keep the original design.",
@@ -2048,7 +2048,7 @@
   {
     "id": "v1492",
     "word": "ordinary",
-    "meaningJa": "普通の；ありふれた",
+    "meaningJa": "普通の、ありふれた",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "It began as an ordinary day at school.",
@@ -2090,7 +2090,7 @@
   {
     "id": "v1494",
     "word": "unique",
-    "meaningJa": "唯一の；独特の",
+    "meaningJa": "唯一の、独特の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "Each island has a unique history.",
@@ -2111,7 +2111,7 @@
   {
     "id": "v1495",
     "word": "specific",
-    "meaningJa": "特定の；具体的な",
+    "meaningJa": "特定の、具体的な",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The instructions describe a specific method.",
@@ -2132,7 +2132,7 @@
   {
     "id": "v1496",
     "word": "global",
-    "meaningJa": "世界的な；地球全体の",
+    "meaningJa": "世界的な、地球全体の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The conference focused on global environmental problems.",
@@ -2153,7 +2153,7 @@
   {
     "id": "v1497",
     "word": "domestic",
-    "meaningJa": "国内の；家庭の",
+    "meaningJa": "国内の、家庭の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The airline plans to add more domestic flights.",
@@ -2175,7 +2175,7 @@
   {
     "id": "v1498",
     "word": "rural",
-    "meaningJa": "田舎の；農村の",
+    "meaningJa": "田舎の、農村の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Many rural communities depend on farming.",

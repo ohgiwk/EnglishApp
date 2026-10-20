@@ -45,7 +45,7 @@
   {
     "id": "v1703",
     "word": "finance",
-    "meaningJa": "財政；金融；資金",
+    "meaningJa": "財政、金融、資金",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The course covers finance and business management.",
@@ -95,7 +95,7 @@
   {
     "id": "v1705",
     "word": "revenue",
-    "meaningJa": "収入；歳入；売上高",
+    "meaningJa": "収入、歳入、売上高",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Ticket sales provide most of the revenue for the museum.",
@@ -117,7 +117,7 @@
   {
     "id": "v1706",
     "word": "income",
-    "meaningJa": "収入；所得",
+    "meaningJa": "収入、所得",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The family depends on a single income.",
@@ -160,7 +160,7 @@
   {
     "id": "v1708",
     "word": "salary",
-    "meaningJa": "給料；給与",
+    "meaningJa": "給料、給与",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The job offers a fixed monthly salary.",
@@ -181,7 +181,7 @@
   {
     "id": "v1709",
     "word": "expense",
-    "meaningJa": "費用；出費",
+    "meaningJa": "費用、出費",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Travel is the largest expense in our budget.",
@@ -231,7 +231,7 @@
   {
     "id": "v1711",
     "word": "wealth",
-    "meaningJa": "富；財産",
+    "meaningJa": "富、財産",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The book examines how wealth is distributed.",
@@ -251,7 +251,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "豊富さ；大量",
+        "meaningJa": "豊富さ、大量",
         "example": "The archive contains a wealth of information.",
         "exampleJa": "その資料庫には豊富な情報が収められています。"
       }
@@ -260,7 +260,7 @@
   {
     "id": "v1712",
     "word": "asset",
-    "meaningJa": "資産；強み",
+    "meaningJa": "資産、強み",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Her experience is a valuable asset to the team.",
@@ -302,7 +302,7 @@
   {
     "id": "v1714",
     "word": "labor",
-    "meaningJa": "労働；労働力",
+    "meaningJa": "労働、労働力",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The task requires a great deal of physical labor.",
@@ -324,7 +324,7 @@
   {
     "id": "v1715",
     "word": "employment",
-    "meaningJa": "雇用；就業",
+    "meaningJa": "雇用、就業",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The new factory will create employment in the area.",
@@ -366,7 +366,7 @@
   {
     "id": "v1717",
     "word": "occupation",
-    "meaningJa": "職業；仕事",
+    "meaningJa": "職業、仕事",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Please write your occupation on the form.",
@@ -395,7 +395,7 @@
   {
     "id": "v1718",
     "word": "profession",
-    "meaningJa": "専門職；職業",
+    "meaningJa": "専門職、職業",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Teaching is a demanding profession.",
@@ -416,7 +416,7 @@
   {
     "id": "v1719",
     "word": "career",
-    "meaningJa": "職歴；経歴；生涯の仕事",
+    "meaningJa": "職歴、経歴、生涯の仕事",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She began her career as a teacher.",
@@ -480,7 +480,7 @@
   {
     "id": "v1722",
     "word": "enterprise",
-    "meaningJa": "企業；事業",
+    "meaningJa": "企業、事業",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The small enterprise produces wooden toys.",
@@ -500,7 +500,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "進取の気性；積極性",
+        "meaningJa": "進取の気性、積極性",
         "example": "The students showed enterprise by starting their own magazine.",
         "exampleJa": "学生たちは自分たちの雑誌を創刊して積極性を示しました。"
       }
@@ -509,7 +509,7 @@
   {
     "id": "v1723",
     "word": "corporation",
-    "meaningJa": "法人；大企業",
+    "meaningJa": "法人、大企業",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The corporation opened a research center.",
@@ -572,7 +572,7 @@
   {
     "id": "v1726",
     "word": "efficiency",
-    "meaningJa": "効率；能率",
+    "meaningJa": "効率、能率",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The new design improves energy efficiency.",
@@ -593,7 +593,7 @@
   {
     "id": "v1727",
     "word": "consumption",
-    "meaningJa": "消費；消費量",
+    "meaningJa": "消費、消費量",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The city aims to reduce water consumption.",
@@ -614,7 +614,7 @@
   {
     "id": "v1728",
     "word": "distribution",
-    "meaningJa": "分配；分布；流通",
+    "meaningJa": "分配、分布、流通",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The map shows the distribution of forests.",
@@ -634,7 +634,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "分配；配給",
+        "meaningJa": "分配、配給",
         "example": "Volunteers helped with the distribution of food.",
         "exampleJa": "ボランティアは食料の配給を手伝いました。"
       }
@@ -664,7 +664,7 @@
   {
     "id": "v1730",
     "word": "scarcity",
-    "meaningJa": "不足；希少性",
+    "meaningJa": "不足、希少性",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The scarcity of land limits the growth of the town.",
@@ -685,7 +685,7 @@
   {
     "id": "v1731",
     "word": "abundance",
-    "meaningJa": "豊富さ；大量",
+    "meaningJa": "豊富さ、大量",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The island has an abundance of fresh fruit.",
@@ -706,7 +706,7 @@
   {
     "id": "v1732",
     "word": "surplus",
-    "meaningJa": "余剰；黒字",
+    "meaningJa": "余剰、黒字",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The farm sells its surplus to local shops.",
@@ -735,7 +735,7 @@
   {
     "id": "v1733",
     "word": "deficit",
-    "meaningJa": "不足；赤字",
+    "meaningJa": "不足、赤字",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The city plans to reduce its budget deficit.",
@@ -756,7 +756,7 @@
   {
     "id": "v1734",
     "word": "inflation",
-    "meaningJa": "インフレーション；物価上昇",
+    "meaningJa": "インフレーション、物価上昇",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The report explains how inflation affects households.",
@@ -777,7 +777,7 @@
   {
     "id": "v1735",
     "word": "recession",
-    "meaningJa": "景気後退；不況",
+    "meaningJa": "景気後退、不況",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Several factories closed during the recession.",
@@ -819,7 +819,7 @@
   {
     "id": "v1737",
     "word": "welfare",
-    "meaningJa": "福祉；幸福；福利",
+    "meaningJa": "福祉、幸福、福利",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The charity works to improve the welfare of children.",
@@ -861,7 +861,7 @@
   {
     "id": "v1739",
     "word": "taxation",
-    "meaningJa": "課税；税制",
+    "meaningJa": "課税、税制",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The debate focused on taxation and public services.",
@@ -882,7 +882,7 @@
   {
     "id": "v1740",
     "word": "subsidy",
-    "meaningJa": "補助金；助成金",
+    "meaningJa": "補助金、助成金",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The farmers received a subsidy for new equipment.",
@@ -903,7 +903,7 @@
   {
     "id": "v1741",
     "word": "infrastructure",
-    "meaningJa": "社会基盤；インフラ",
+    "meaningJa": "社会基盤、インフラ",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The region needs better transport infrastructure.",
@@ -924,7 +924,7 @@
   {
     "id": "v1742",
     "word": "facility",
-    "meaningJa": "施設；設備",
+    "meaningJa": "施設、設備",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The town built a new sports facility.",
@@ -945,7 +945,7 @@
   {
     "id": "v1743",
     "word": "equipment",
-    "meaningJa": "設備；用具",
+    "meaningJa": "設備、用具",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The school bought new science equipment.",
@@ -1158,7 +1158,7 @@
   {
     "id": "v1753",
     "word": "organism",
-    "meaningJa": "生物；有機体",
+    "meaningJa": "生物、有機体",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The scientist observed a tiny organism under the microscope.",
@@ -1199,7 +1199,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "独房；小部屋",
+        "meaningJa": "独房、小部屋",
         "example": "The prisoner returned to his cell.",
         "exampleJa": "その囚人は独房に戻りました。"
       }
@@ -1208,7 +1208,7 @@
   {
     "id": "v1755",
     "word": "tissue",
-    "meaningJa": "ティッシュペーパー；組織",
+    "meaningJa": "ティッシュペーパー、組織",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She took a tissue from the box.",
@@ -1237,7 +1237,7 @@
   {
     "id": "v1756",
     "word": "organ",
-    "meaningJa": "臓器；器官",
+    "meaningJa": "臓器、器官",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The heart is an important organ.",
@@ -1329,7 +1329,7 @@
   {
     "id": "v1760",
     "word": "particle",
-    "meaningJa": "粒子；微粒子",
+    "meaningJa": "粒子、微粒子",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "A tiny particle of dust landed on the lens.",
@@ -1350,7 +1350,7 @@
   {
     "id": "v1761",
     "word": "substance",
-    "meaningJa": "物質；実質",
+    "meaningJa": "物質、実質",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The researchers tested a new substance.",
@@ -1371,7 +1371,7 @@
   {
     "id": "v1762",
     "word": "compound",
-    "meaningJa": "化合物；複合物",
+    "meaningJa": "化合物、複合物",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The laboratory produced a new chemical compound.",
@@ -1392,7 +1392,7 @@
   {
     "id": "v1763",
     "word": "element",
-    "meaningJa": "要素；元素",
+    "meaningJa": "要素、元素",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Trust is an essential element of teamwork.",
@@ -1421,7 +1421,7 @@
   {
     "id": "v1764",
     "word": "mineral",
-    "meaningJa": "鉱物；無機質",
+    "meaningJa": "鉱物、無機質",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The museum displays a rare mineral.",
@@ -1463,7 +1463,7 @@
   {
     "id": "v1766",
     "word": "chemical",
-    "meaningJa": "化学物質；薬品",
+    "meaningJa": "化学物質、薬品",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The label identifies the chemical in the bottle.",
@@ -1492,7 +1492,7 @@
   {
     "id": "v1767",
     "word": "radiation",
-    "meaningJa": "放射；放射線",
+    "meaningJa": "放射、放射線",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The instrument measures radiation from the sun.",
@@ -1533,7 +1533,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "重大さ；深刻さ",
+        "meaningJa": "重大さ、深刻さ",
         "example": "He did not understand the gravity of the situation.",
         "exampleJa": "彼は事態の深刻さを理解していませんでした。"
       }
@@ -1563,7 +1563,7 @@
   {
     "id": "v1770",
     "word": "altitude",
-    "meaningJa": "高度；標高",
+    "meaningJa": "高度、標高",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The aircraft maintained a steady altitude.",
@@ -1627,7 +1627,7 @@
   {
     "id": "v1773",
     "word": "volume",
-    "meaningJa": "体積；量；音量",
+    "meaningJa": "体積、量、音量",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The container holds a large volume of water.",
@@ -1647,7 +1647,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "巻；冊",
+        "meaningJa": "巻、冊",
         "example": "I borrowed the first volume of the series.",
         "exampleJa": "私はそのシリーズの第一巻を借りました。"
       }
@@ -1699,7 +1699,7 @@
   {
     "id": "v1776",
     "word": "acceleration",
-    "meaningJa": "加速；加速度",
+    "meaningJa": "加速、加速度",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The graph shows the acceleration of the car.",
@@ -1720,7 +1720,7 @@
   {
     "id": "v1777",
     "word": "friction",
-    "meaningJa": "摩擦；不和",
+    "meaningJa": "摩擦、不和",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Oil reduces friction between the moving parts.",
@@ -1762,7 +1762,7 @@
   {
     "id": "v1779",
     "word": "conservation",
-    "meaningJa": "保護；保全；節約",
+    "meaningJa": "保護、保全、節約",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The group supports forest conservation.",
@@ -1783,7 +1783,7 @@
   {
     "id": "v1780",
     "word": "preservation",
-    "meaningJa": "保存；保護",
+    "meaningJa": "保存、保護",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The museum works on the preservation of old documents.",
@@ -1804,7 +1804,7 @@
   {
     "id": "v1781",
     "word": "emission",
-    "meaningJa": "排出；放出",
+    "meaningJa": "排出、放出",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The new engine reduces the emission of harmful gases.",
@@ -1889,7 +1889,7 @@
   {
     "id": "v1785",
     "word": "reproduction",
-    "meaningJa": "生殖；複製",
+    "meaningJa": "生殖、複製",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The chapter explains reproduction in flowering plants.",
@@ -1909,7 +1909,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "複製；複製品",
+        "meaningJa": "複製、複製品",
         "example": "The museum sells a reproduction of the painting.",
         "exampleJa": "その博物館はその絵の複製を販売しています。"
       }
@@ -1918,7 +1918,7 @@
   {
     "id": "v1786",
     "word": "inheritance",
-    "meaningJa": "相続；遺伝",
+    "meaningJa": "相続、遺伝",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "She used her inheritance to open a bookshop.",
@@ -2011,7 +2011,7 @@
   {
     "id": "v1790",
     "word": "fungus",
-    "meaningJa": "菌類；カビ；キノコ",
+    "meaningJa": "菌類、カビ、キノコ",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "A fungus was growing on the fallen branch.",
@@ -2033,7 +2033,7 @@
   {
     "id": "v1791",
     "word": "parasite",
-    "meaningJa": "寄生生物；寄生虫",
+    "meaningJa": "寄生生物、寄生虫",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The study examines the life cycle of a parasite.",
@@ -2096,7 +2096,7 @@
   {
     "id": "v1794",
     "word": "predator",
-    "meaningJa": "捕食者；捕食動物",
+    "meaningJa": "捕食者、捕食動物",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The small fish hid from a predator.",
@@ -2117,7 +2117,7 @@
   {
     "id": "v1795",
     "word": "prey",
-    "meaningJa": "獲物；被食者",
+    "meaningJa": "獲物、被食者",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The bird watched its prey from a branch.",
@@ -2139,7 +2139,7 @@
   {
     "id": "v1796",
     "word": "vegetation",
-    "meaningJa": "植生；植物群",
+    "meaningJa": "植生、植物群",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The island has dense vegetation.",

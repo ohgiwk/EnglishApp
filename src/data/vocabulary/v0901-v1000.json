@@ -2,7 +2,7 @@
   {
     "id": "v0901",
     "word": "corner",
-    "meaningJa": "角；隅",
+    "meaningJa": "角、隅",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "Turn right at the corner.",
@@ -23,7 +23,7 @@
   {
     "id": "v0902",
     "word": "rank",
-    "meaningJa": "階級；順位",
+    "meaningJa": "階級、順位",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She rose to the rank of captain.",
@@ -43,7 +43,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "順位を付ける；位置する",
+        "meaningJa": "順位を付ける、位置する",
         "example": "Please rank the options in order of importance.",
         "exampleJa": "選択肢を重要度順に順位付けしてください。"
       }
@@ -52,7 +52,7 @@
   {
     "id": "v0903",
     "word": "birth",
-    "meaningJa": "誕生；出生",
+    "meaningJa": "誕生、出生",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The family celebrated the birth of a baby.",
@@ -73,7 +73,7 @@
   {
     "id": "v0904",
     "word": "separate",
-    "meaningJa": "分ける；分離する",
+    "meaningJa": "分ける、分離する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please separate the white clothes from the colored ones.",
@@ -93,7 +93,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "別々の；離れた",
+        "meaningJa": "別々の、離れた",
         "example": "We stayed in separate rooms.",
         "exampleJa": "私たちは別々の部屋に泊まりました。"
       }
@@ -103,7 +103,7 @@
   {
     "id": "v0905",
     "word": "quarter",
-    "meaningJa": "4分の1；15分",
+    "meaningJa": "4分の1、15分",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A quarter of the students walk to school.",
@@ -124,7 +124,7 @@
   {
     "id": "v0906",
     "word": "leadership",
-    "meaningJa": "指導力；指導者の地位",
+    "meaningJa": "指導力、指導者の地位",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The team improved under her leadership.",
@@ -166,7 +166,7 @@
   {
     "id": "v0908",
     "word": "faith",
-    "meaningJa": "信頼；信仰",
+    "meaningJa": "信頼、信仰",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "I have faith in your ability.",
@@ -195,7 +195,7 @@
   {
     "id": "v0909",
     "word": "chain",
-    "meaningJa": "鎖；連鎖",
+    "meaningJa": "鎖、連鎖",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The gate was locked with a chain.",
@@ -216,7 +216,7 @@
   {
     "id": "v0910",
     "word": "avenue",
-    "meaningJa": "大通り；並木道",
+    "meaningJa": "大通り、並木道",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Tall trees line the avenue.",
@@ -237,7 +237,7 @@
   {
     "id": "v0911",
     "word": "reach",
-    "meaningJa": "着く；届く；達する",
+    "meaningJa": "着く、届く、達する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We will reach the village before dark.",
@@ -279,7 +279,7 @@
   {
     "id": "v0913",
     "word": "moment",
-    "meaningJa": "瞬間；ちょっとの間",
+    "meaningJa": "瞬間、ちょっとの間",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Please wait a moment while I find my keys.",
@@ -321,7 +321,7 @@
   {
     "id": "v0915",
     "word": "attack",
-    "meaningJa": "攻撃する；襲う",
+    "meaningJa": "攻撃する、襲う",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Wild animals may attack if they feel threatened.",
@@ -341,7 +341,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "攻撃；発作",
+        "meaningJa": "攻撃、発作",
         "example": "The village came under attack at night.",
         "exampleJa": "その村は夜に攻撃を受けました。"
       }
@@ -350,7 +350,7 @@
   {
     "id": "v0916",
     "word": "sorry",
-    "meaningJa": "すまなく思う；残念に思う",
+    "meaningJa": "すまなく思う、残念に思う",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "I am sorry for being late.",
@@ -371,7 +371,7 @@
   {
     "id": "v0917",
     "word": "damage",
-    "meaningJa": "損害；損傷；被害",
+    "meaningJa": "損害、損傷、被害",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The storm caused serious damage to the bridge.",
@@ -391,7 +391,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "損なう；損傷を与える",
+        "meaningJa": "損なう、損傷を与える",
         "example": "Too much sunlight can damage the painting.",
         "exampleJa": "日光が強すぎると絵が傷むことがあります。"
       }
@@ -400,7 +400,7 @@
   {
     "id": "v0918",
     "word": "reserve",
-    "meaningJa": "予約する；取っておく",
+    "meaningJa": "予約する、取っておく",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "I would like to reserve a table for two.",
@@ -420,7 +420,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "蓄え；保護区",
+        "meaningJa": "蓄え、保護区",
         "example": "The nature reserve is home to rare birds.",
         "exampleJa": "その自然保護区には珍しい鳥が生息しています。"
       }
@@ -429,7 +429,7 @@
   {
     "id": "v0919",
     "word": "produce",
-    "meaningJa": "生産する；生み出す",
+    "meaningJa": "生産する、生み出す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "These farms produce rice and vegetables.",
@@ -480,7 +480,7 @@
   {
     "id": "v0921",
     "word": "truth",
-    "meaningJa": "真実；事実",
+    "meaningJa": "真実、事実",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Please tell me the truth.",
@@ -501,7 +501,7 @@
   {
     "id": "v0922",
     "word": "failure",
-    "meaningJa": "失敗；不成功；故障",
+    "meaningJa": "失敗、不成功、故障",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We learned a lot from our failure.",
@@ -564,7 +564,7 @@
   {
     "id": "v0925",
     "word": "camp",
-    "meaningJa": "キャンプ；野営地",
+    "meaningJa": "キャンプ、野営地",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We returned to camp before sunset.",
@@ -584,7 +584,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "キャンプする；野営する",
+        "meaningJa": "キャンプする、野営する",
         "example": "We plan to camp beside the lake.",
         "exampleJa": "私たちは湖のそばでキャンプをする予定です。"
       }
@@ -614,7 +614,7 @@
   {
     "id": "v0927",
     "word": "native",
-    "meaningJa": "母国の；生まれつきの；その土地に固有の",
+    "meaningJa": "母国の、生まれつきの、その土地に固有の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "She returned to her native country.",
@@ -635,7 +635,7 @@
   {
     "id": "v0928",
     "word": "fill",
-    "meaningJa": "満たす；いっぱいにする",
+    "meaningJa": "満たす、いっぱいにする",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "Please fill the bottle with water.",
@@ -656,7 +656,7 @@
   {
     "id": "v0929",
     "word": "equal",
-    "meaningJa": "等しい；平等な",
+    "meaningJa": "等しい、平等な",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "Cut the cake into equal pieces.",
@@ -676,7 +676,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "等しい；匹敵する",
+        "meaningJa": "等しい、匹敵する",
         "example": "Two plus three will equal five.",
         "exampleJa": "2足す3は5になります。"
       }
@@ -706,7 +706,7 @@
   {
     "id": "v0931",
     "word": "profit",
-    "meaningJa": "利益；もうけ",
+    "meaningJa": "利益、もうけ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The shop made a profit last year.",
@@ -727,7 +727,7 @@
   {
     "id": "v0932",
     "word": "expect",
-    "meaningJa": "予想する；期待する",
+    "meaningJa": "予想する、期待する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We expect the train to arrive soon.",
@@ -770,7 +770,7 @@
   {
     "id": "v0934",
     "word": "extension",
-    "meaningJa": "延長；拡張",
+    "meaningJa": "延長、拡張",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We asked for an extension of the deadline.",
@@ -791,7 +791,7 @@
   {
     "id": "v0935",
     "word": "golden",
-    "meaningJa": "金色の；金の",
+    "meaningJa": "金色の、金の",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The leaves turned golden in autumn.",
@@ -812,7 +812,7 @@
   {
     "id": "v0936",
     "word": "funny",
-    "meaningJa": "おかしい；面白い；奇妙な",
+    "meaningJa": "おかしい、面白い、奇妙な",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "He told us a funny story.",
@@ -854,7 +854,7 @@
   {
     "id": "v0938",
     "word": "pattern",
-    "meaningJa": "模様；型；パターン",
+    "meaningJa": "模様、型、パターン",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The cloth has a striped pattern.",
@@ -874,7 +874,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "型；規則性",
+        "meaningJa": "型、規則性",
         "example": "The researchers found a pattern in the data.",
         "exampleJa": "研究者たちはデータに規則性を見つけました。"
       }
@@ -883,7 +883,7 @@
   {
     "id": "v0939",
     "word": "boat",
-    "meaningJa": "ボート；小型の船",
+    "meaningJa": "ボート、小型の船",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "We crossed the lake in a small boat.",
@@ -904,7 +904,7 @@
   {
     "id": "v0940",
     "word": "direction",
-    "meaningJa": "方向；方角；指示",
+    "meaningJa": "方向、方角、指示",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Which direction is the station?",
@@ -925,7 +925,7 @@
   {
     "id": "v0941",
     "word": "evening",
-    "meaningJa": "夕方；晩",
+    "meaningJa": "夕方、晩",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "We watched a movie in the evening.",
@@ -946,7 +946,7 @@
   {
     "id": "v0942",
     "word": "mouse",
-    "meaningJa": "ネズミ；マウス",
+    "meaningJa": "ネズミ、マウス",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "A mouse ran under the cupboard.",
@@ -975,7 +975,7 @@
   {
     "id": "v0943",
     "word": "signal",
-    "meaningJa": "信号；合図",
+    "meaningJa": "信号、合図",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Wait for my signal before you start.",
@@ -995,7 +995,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "合図する；示す",
+        "meaningJa": "合図する、示す",
         "example": "Wave your hand to signal that you are ready.",
         "exampleJa": "準備ができたことを示すために手を振ってください。"
       }
@@ -1004,7 +1004,7 @@
   {
     "id": "v0944",
     "word": "criminal",
-    "meaningJa": "犯罪の；刑事上の",
+    "meaningJa": "犯罪の、刑事上の",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The police found evidence of criminal activity.",
@@ -1074,7 +1074,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "夢を見る；夢に思い描く",
+        "meaningJa": "夢を見る、夢に思い描く",
         "example": "I dream of traveling around the world.",
         "exampleJa": "私は世界中を旅することを夢見ています。"
       }
@@ -1083,7 +1083,7 @@
   {
     "id": "v0947",
     "word": "false",
-    "meaningJa": "誤った；偽りの",
+    "meaningJa": "誤った、偽りの",
     "partOfSpeech": "adjective",
     "level": 2,
     "example": "The report contained false information.",
@@ -1125,7 +1125,7 @@
   {
     "id": "v0949",
     "word": "soul",
-    "meaningJa": "魂；精神",
+    "meaningJa": "魂、精神",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Music can touch the soul.",
@@ -1146,7 +1146,7 @@
   {
     "id": "v0950",
     "word": "carry",
-    "meaningJa": "運ぶ；持ち歩く",
+    "meaningJa": "運ぶ、持ち歩く",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "Can you carry this box for me?",
@@ -1188,7 +1188,7 @@
   {
     "id": "v0952",
     "word": "advantage",
-    "meaningJa": "利点；有利な点",
+    "meaningJa": "利点、有利な点",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "One advantage of cycling is that it is inexpensive.",
@@ -1209,7 +1209,7 @@
   {
     "id": "v0953",
     "word": "iron",
-    "meaningJa": "鉄；アイロン",
+    "meaningJa": "鉄、アイロン",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The gate is made of iron.",
@@ -1259,7 +1259,7 @@
   {
     "id": "v0955",
     "word": "mix",
-    "meaningJa": "混ぜる；混ざる",
+    "meaningJa": "混ぜる、混ざる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Mix the flour and water in a bowl.",
@@ -1280,7 +1280,7 @@
   {
     "id": "v0956",
     "word": "queen",
-    "meaningJa": "女王；王妃",
+    "meaningJa": "女王、王妃",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The queen greeted the crowd.",
@@ -1302,7 +1302,7 @@
   {
     "id": "v0957",
     "word": "fix",
-    "meaningJa": "直す；固定する",
+    "meaningJa": "直す、固定する",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Can you fix my bicycle?",
@@ -1322,7 +1322,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "固定する；取り付ける",
+        "meaningJa": "固定する、取り付ける",
         "example": "Fix the shelf to the wall with screws.",
         "exampleJa": "ねじで棚を壁に固定してください。"
       }
@@ -1332,7 +1332,7 @@
   {
     "id": "v0958",
     "word": "handle",
-    "meaningJa": "取っ手；柄；ハンドル",
+    "meaningJa": "取っ手、柄、ハンドル",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The handle of the door is broken.",
@@ -1352,7 +1352,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "扱う；対処する",
+        "meaningJa": "扱う、対処する",
         "example": "She knows how to handle difficult questions.",
         "exampleJa": "彼女は難しい質問への対処法を知っています。"
       }
@@ -1404,7 +1404,7 @@
   {
     "id": "v0961",
     "word": "behavior",
-    "meaningJa": "行動；振る舞い",
+    "meaningJa": "行動、振る舞い",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Scientists study the behavior of animals.",
@@ -1445,13 +1445,13 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "尺度；程度；分量",
+        "meaningJa": "尺度、程度、分量",
         "example": "Money is not the only measure of success.",
         "exampleJa": "お金だけが成功の尺度ではありません。"
       },
       {
         "partOfSpeech": "noun",
-        "meaningJa": "対策；措置",
+        "meaningJa": "対策、措置",
         "example": "The new safety measure reduced accidents.",
         "exampleJa": "新しい安全対策によって事故が減りました。"
       }
@@ -1461,7 +1461,7 @@
   {
     "id": "v0963",
     "word": "duty",
-    "meaningJa": "義務；任務",
+    "meaningJa": "義務、任務",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "It is our duty to protect the environment.",
@@ -1481,7 +1481,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "関税；税",
+        "meaningJa": "関税、税",
         "example": "There is a duty on imported goods.",
         "exampleJa": "輸入品には関税がかかります。"
       }
@@ -1510,7 +1510,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "耐える；負う",
+        "meaningJa": "耐える、負う",
         "example": "I cannot bear the noise any longer.",
         "exampleJa": "私はもうその騒音に耐えられません。"
       },
@@ -1532,7 +1532,7 @@
   {
     "id": "v0965",
     "word": "gain",
-    "meaningJa": "得る；増す",
+    "meaningJa": "得る、増す",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "You can gain experience by volunteering.",
@@ -1552,7 +1552,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "増加；利益",
+        "meaningJa": "増加、利益",
         "example": "The company reported a gain in sales.",
         "exampleJa": "その会社は売上高の増加を報告しました。"
       }
@@ -1561,7 +1561,7 @@
   {
     "id": "v0966",
     "word": "ocean",
-    "meaningJa": "大洋；海洋",
+    "meaningJa": "大洋、海洋",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The Pacific Ocean is very large.",
@@ -1582,7 +1582,7 @@
   {
     "id": "v0967",
     "word": "lack",
-    "meaningJa": "不足；欠如",
+    "meaningJa": "不足、欠如",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A lack of sleep can affect your memory.",
@@ -1602,7 +1602,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "欠く；不足している",
+        "meaningJa": "欠く、不足している",
         "example": "Some schools lack enough computers.",
         "exampleJa": "一部の学校ではコンピューターが不足しています。"
       }
@@ -1654,7 +1654,7 @@
   {
     "id": "v0970",
     "word": "train",
-    "meaningJa": "列車；電車",
+    "meaningJa": "列車、電車",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The train leaves at eight.",
@@ -1674,7 +1674,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "訓練する；練習する",
+        "meaningJa": "訓練する、練習する",
         "example": "The athletes train every morning.",
         "exampleJa": "選手たちは毎朝練習します。"
       }
@@ -1683,7 +1683,7 @@
   {
     "id": "v0971",
     "word": "dry",
-    "meaningJa": "乾いた；乾燥した",
+    "meaningJa": "乾いた、乾燥した",
     "partOfSpeech": "adjective",
     "level": 1,
     "example": "Keep the paper in a dry place.",
@@ -1703,7 +1703,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "乾く；乾かす",
+        "meaningJa": "乾く、乾かす",
         "example": "Please dry your hands with this towel.",
         "exampleJa": "このタオルで手を拭いて乾かしてください。"
       }
@@ -1712,7 +1712,7 @@
   {
     "id": "v0972",
     "word": "explore",
-    "meaningJa": "探検する；詳しく調べる",
+    "meaningJa": "探検する、詳しく調べる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We want to explore the island on foot.",
@@ -1733,7 +1733,7 @@
   {
     "id": "v0973",
     "word": "origin",
-    "meaningJa": "起源；由来",
+    "meaningJa": "起源、由来",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We studied the origin of this tradition.",
@@ -1754,7 +1754,7 @@
   {
     "id": "v0974",
     "word": "blow",
-    "meaningJa": "吹く；吹き飛ばす",
+    "meaningJa": "吹く、吹き飛ばす",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Strong winds can blow down trees.",
@@ -1774,7 +1774,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "打撃；一撃",
+        "meaningJa": "打撃、一撃",
         "example": "Losing the match was a blow to the team.",
         "exampleJa": "試合に負けたことはチームにとって打撃でした。"
       }
@@ -1783,7 +1783,7 @@
   {
     "id": "v0975",
     "word": "battle",
-    "meaningJa": "戦闘；戦い",
+    "meaningJa": "戦闘、戦い",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The battle lasted for three days.",
@@ -1825,7 +1825,7 @@
   {
     "id": "v0977",
     "word": "expression",
-    "meaningJa": "表現；表情",
+    "meaningJa": "表現、表情",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Her expression changed when she heard the news.",
@@ -1846,7 +1846,7 @@
   {
     "id": "v0978",
     "word": "speech",
-    "meaningJa": "話すこと；演説；スピーチ",
+    "meaningJa": "話すこと、演説、スピーチ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She gave a speech about her travels.",
@@ -1867,7 +1867,7 @@
   {
     "id": "v0979",
     "word": "wire",
-    "meaningJa": "針金；電線",
+    "meaningJa": "針金、電線",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A wire connects the battery to the light.",
@@ -1888,7 +1888,7 @@
   {
     "id": "v0980",
     "word": "judge",
-    "meaningJa": "裁判官；審判",
+    "meaningJa": "裁判官、審判",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The judge listened to both sides.",
@@ -1908,7 +1908,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "判断する；評価する",
+        "meaningJa": "判断する、評価する",
         "example": "Do not judge people by their clothes.",
         "exampleJa": "服装で人を判断してはいけません。"
       }
@@ -1938,7 +1938,7 @@
   {
     "id": "v0982",
     "word": "fight",
-    "meaningJa": "戦う；けんかする",
+    "meaningJa": "戦う、けんかする",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We must fight against discrimination.",
@@ -1959,7 +1959,7 @@
   {
     "id": "v0983",
     "word": "height",
-    "meaningJa": "高さ；身長",
+    "meaningJa": "高さ、身長",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "What is the height of this tower?",
@@ -1980,7 +1980,7 @@
   {
     "id": "v0984",
     "word": "zero",
-    "meaningJa": "ゼロ；零",
+    "meaningJa": "ゼロ、零",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The temperature dropped to zero.",
@@ -2001,7 +2001,7 @@
   {
     "id": "v0985",
     "word": "remain",
-    "meaningJa": "残る；〜のままである",
+    "meaningJa": "残る、〜のままである",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Please remain calm during the test.",
@@ -2043,7 +2043,7 @@
   {
     "id": "v0987",
     "word": "roll",
-    "meaningJa": "転がる；転がす；巻く",
+    "meaningJa": "転がる、転がす、巻く",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Roll the ball toward me.",
@@ -2063,7 +2063,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "巻いたもの；ロールパン",
+        "meaningJa": "巻いたもの、ロールパン",
         "example": "I bought a roll of paper.",
         "exampleJa": "私は紙を1巻買いました。"
       }
@@ -2101,7 +2101,7 @@
   {
     "id": "v0989",
     "word": "bath",
-    "meaningJa": "入浴；風呂",
+    "meaningJa": "入浴、風呂",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "I took a warm bath before bed.",
@@ -2123,7 +2123,7 @@
   {
     "id": "v0990",
     "word": "theater",
-    "meaningJa": "劇場；映画館",
+    "meaningJa": "劇場、映画館",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We saw a play at the theater.",
@@ -2144,7 +2144,7 @@
   {
     "id": "v0991",
     "word": "perform",
-    "meaningJa": "行う；演じる；演奏する",
+    "meaningJa": "行う、演じる、演奏する",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "The students will perform a play tomorrow.",
@@ -2164,7 +2164,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "実行する；遂行する",
+        "meaningJa": "実行する、遂行する",
         "example": "The machine can perform several tasks at once.",
         "exampleJa": "その機械は複数の作業を同時に行えます。"
       }
@@ -2173,7 +2173,7 @@
   {
     "id": "v0992",
     "word": "translation",
-    "meaningJa": "翻訳；訳文",
+    "meaningJa": "翻訳、訳文",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "This translation is easy to understand.",
@@ -2215,7 +2215,7 @@
   {
     "id": "v0994",
     "word": "proposal",
-    "meaningJa": "提案；提案書",
+    "meaningJa": "提案、提案書",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The committee accepted her proposal.",
@@ -2236,7 +2236,7 @@
   {
     "id": "v0995",
     "word": "fail",
-    "meaningJa": "失敗する；不合格になる",
+    "meaningJa": "失敗する、不合格になる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Do not give up if you fail the first time.",
@@ -2257,7 +2257,7 @@
   {
     "id": "v0996",
     "word": "toward",
-    "meaningJa": "〜のほうへ；〜に対して",
+    "meaningJa": "〜のほうへ、〜に対して",
     "partOfSpeech": "other",
     "level": 2,
     "example": "She walked toward the river.",
@@ -2299,7 +2299,7 @@
   {
     "id": "v0998",
     "word": "representative",
-    "meaningJa": "代表者；代理人",
+    "meaningJa": "代表者、代理人",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Each class chose a representative for the meeting.",
@@ -2319,7 +2319,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "代表的な；典型的な",
+        "meaningJa": "代表的な、典型的な",
         "example": "This painting is representative of her early work.",
         "exampleJa": "この絵は彼女の初期の作品を代表するものです。"
       }
@@ -2329,7 +2329,7 @@
   {
     "id": "v0999",
     "word": "frequency",
-    "meaningJa": "頻度；周波数",
+    "meaningJa": "頻度、周波数",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The frequency of bus services has increased.",

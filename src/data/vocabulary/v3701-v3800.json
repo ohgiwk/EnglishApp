@@ -2,7 +2,7 @@
   {
     "id": "v3701",
     "word": "raise",
-    "meaningJa": "上げる；持ち上げる",
+    "meaningJa": "上げる、持ち上げる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please raise your hand before speaking.",
@@ -44,7 +44,7 @@
   {
     "id": "v3702",
     "word": "rise",
-    "meaningJa": "上がる；昇る",
+    "meaningJa": "上がる、昇る",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Warm air tends to rise.",
@@ -65,7 +65,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "増える；上昇する",
+        "meaningJa": "増える、上昇する",
         "example": "Prices may rise next year.",
         "exampleJa": "物価は来年上昇するかもしれません。"
       }
@@ -74,7 +74,7 @@
   {
     "id": "v3703",
     "word": "lower",
-    "meaningJa": "下げる；低くする",
+    "meaningJa": "下げる、低くする",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please lower your voice in the library.",
@@ -96,7 +96,7 @@
   {
     "id": "v3704",
     "word": "lay",
-    "meaningJa": "置く；横たえる",
+    "meaningJa": "置く、横たえる",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "Please lay the books on the table.",
@@ -126,7 +126,7 @@
   {
     "id": "v3705",
     "word": "hang",
-    "meaningJa": "掛ける；ぶら下がる",
+    "meaningJa": "掛ける、ぶら下がる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "You can hang your coat here.",
@@ -170,7 +170,7 @@
   {
     "id": "v3707",
     "word": "namely",
-    "meaningJa": "すなわち；具体的には",
+    "meaningJa": "すなわち、具体的には",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "We need one thing, namely time.",
@@ -192,7 +192,7 @@
   {
     "id": "v3708",
     "word": "alternatively",
-    "meaningJa": "別の方法として；あるいは",
+    "meaningJa": "別の方法として、あるいは",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "We could walk or alternatively take a bus.",
@@ -214,7 +214,7 @@
   {
     "id": "v3709",
     "word": "admittedly",
-    "meaningJa": "確かに；認めざるを得ないが",
+    "meaningJa": "確かに、認めざるを得ないが",
     "partOfSpeech": "adverb",
     "level": 5,
     "example": "The plan is admittedly expensive, but it may save time.",
@@ -236,7 +236,7 @@
   {
     "id": "v3710",
     "word": "arguably",
-    "meaningJa": "おそらく；〜と言ってもよいほど",
+    "meaningJa": "おそらく、〜と言ってもよいほど",
     "partOfSpeech": "adverb",
     "level": 5,
     "example": "This is arguably the most important result of the study.",
@@ -258,7 +258,7 @@
   {
     "id": "v3711",
     "word": "seemingly",
-    "meaningJa": "一見；見たところ",
+    "meaningJa": "一見、見たところ",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The seemingly simple question was difficult to answer.",
@@ -280,7 +280,7 @@
   {
     "id": "v3712",
     "word": "essentially",
-    "meaningJa": "本質的には；基本的には",
+    "meaningJa": "本質的には、基本的には",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "The two proposals are essentially the same.",
@@ -302,7 +302,7 @@
   {
     "id": "v3713",
     "word": "regardless",
-    "meaningJa": "それでも；かまわずに",
+    "meaningJa": "それでも、かまわずに",
     "partOfSpeech": "adverb",
     "level": 4,
     "example": "It began to rain, but they continued regardless.",
@@ -332,7 +332,7 @@
   {
     "id": "v3714",
     "word": "replicate",
-    "meaningJa": "再現する；複製する",
+    "meaningJa": "再現する、複製する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "Another team tried to replicate the experiment.",
@@ -354,7 +354,7 @@
   {
     "id": "v3715",
     "word": "reproducible",
-    "meaningJa": "再現できる；再現可能な",
+    "meaningJa": "再現できる、再現可能な",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The researchers checked whether the results were reproducible.",
@@ -376,7 +376,7 @@
   {
     "id": "v3716",
     "word": "correlation",
-    "meaningJa": "相関；関連",
+    "meaningJa": "相関、関連",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The study found a correlation between the two factors.",
@@ -398,7 +398,7 @@
   {
     "id": "v3717",
     "word": "causation",
-    "meaningJa": "因果関係；原因となること",
+    "meaningJa": "因果関係、原因となること",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The report distinguishes correlation from causation.",
@@ -420,7 +420,7 @@
   {
     "id": "v3718",
     "word": "causal",
-    "meaningJa": "因果関係の；原因となる",
+    "meaningJa": "因果関係の、原因となる",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The evidence suggests a causal link between the events.",
@@ -442,7 +442,7 @@
   {
     "id": "v3719",
     "word": "criterion",
-    "meaningJa": "基準；判断の尺度",
+    "meaningJa": "基準、判断の尺度",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Cost is not the only criterion for choosing a design.",
@@ -464,7 +464,7 @@
   {
     "id": "v3720",
     "word": "random",
-    "meaningJa": "無作為の；でたらめな",
+    "meaningJa": "無作為の、でたらめな",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The computer selected a random number.",
@@ -486,7 +486,7 @@
   {
     "id": "v3721",
     "word": "sampling",
-    "meaningJa": "標本抽出；サンプリング",
+    "meaningJa": "標本抽出、サンプリング",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The report explains the sampling method.",
@@ -508,7 +508,7 @@
   {
     "id": "v3722",
     "word": "scrutiny",
-    "meaningJa": "綿密な調査；厳しい吟味",
+    "meaningJa": "綿密な調査、厳しい吟味",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The proposal came under close scrutiny.",
@@ -530,7 +530,7 @@
   {
     "id": "v3723",
     "word": "falsify",
-    "meaningJa": "改ざんする；偽造する",
+    "meaningJa": "改ざんする、偽造する",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "The researcher refused to falsify the data.",
@@ -551,7 +551,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "誤りであると示す；反証する",
+        "meaningJa": "誤りであると示す、反証する",
         "example": "A single counterexample can falsify this claim.",
         "exampleJa": "一つの反例でこの主張が誤りであると示すことができます。"
       }
@@ -560,7 +560,7 @@
   {
     "id": "v3724",
     "word": "implausible",
-    "meaningJa": "もっともらしくない；信じがたい",
+    "meaningJa": "もっともらしくない、信じがたい",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "His explanation seemed implausible to the investigators.",
@@ -582,7 +582,7 @@
   {
     "id": "v3725",
     "word": "incredible",
-    "meaningJa": "信じられない；驚くほどの",
+    "meaningJa": "信じられない、驚くほどの",
     "partOfSpeech": "adjective",
     "level": 3,
     "example": "The view from the mountain was incredible.",
@@ -604,7 +604,7 @@
   {
     "id": "v3726",
     "word": "unequivocal",
-    "meaningJa": "明白な；曖昧さのない",
+    "meaningJa": "明白な、曖昧さのない",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The committee gave an unequivocal answer.",
@@ -626,7 +626,7 @@
   {
     "id": "v3727",
     "word": "flawed",
-    "meaningJa": "欠陥のある；誤りを含む",
+    "meaningJa": "欠陥のある、誤りを含む",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The argument rests on a flawed assumption.",
@@ -648,7 +648,7 @@
   {
     "id": "v3728",
     "word": "erroneous",
-    "meaningJa": "誤った；間違いのある",
+    "meaningJa": "誤った、間違いのある",
     "partOfSpeech": "adjective",
     "level": 6,
     "example": "The report was based on erroneous information.",
@@ -692,7 +692,7 @@
   {
     "id": "v3730",
     "word": "compelling",
-    "meaningJa": "非常に説得力のある；強く心を引く",
+    "meaningJa": "非常に説得力のある、強く心を引く",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "She presented compelling evidence for her theory.",
@@ -736,7 +736,7 @@
   {
     "id": "v3732",
     "word": "convincing",
-    "meaningJa": "説得力のある；納得できる",
+    "meaningJa": "説得力のある、納得できる",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The witness gave a convincing account of the event.",
@@ -780,7 +780,7 @@
   {
     "id": "v3734",
     "word": "ritual",
-    "meaningJa": "儀式；決まった習慣",
+    "meaningJa": "儀式、決まった習慣",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Making tea is part of his morning ritual.",
@@ -802,7 +802,7 @@
   {
     "id": "v3735",
     "word": "taboo",
-    "meaningJa": "タブー；社会的な禁忌",
+    "meaningJa": "タブー、社会的な禁忌",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The novel explores a social taboo.",
@@ -824,7 +824,7 @@
   {
     "id": "v3736",
     "word": "inclusion",
-    "meaningJa": "包含；受け入れること",
+    "meaningJa": "包含、受け入れること",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The teacher encouraged the inclusion of every student in the discussion.",
@@ -846,7 +846,7 @@
   {
     "id": "v3737",
     "word": "exclusion",
-    "meaningJa": "除外；排除",
+    "meaningJa": "除外、排除",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The exclusion of several examples weakened the argument.",
@@ -868,7 +868,7 @@
   {
     "id": "v3738",
     "word": "integration",
-    "meaningJa": "統合；一体化",
+    "meaningJa": "統合、一体化",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The integration of the two systems took several months.",
@@ -890,7 +890,7 @@
   {
     "id": "v3739",
     "word": "ethnic",
-    "meaningJa": "民族の；民族的な",
+    "meaningJa": "民族の、民族的な",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The festival celebrates different ethnic traditions.",
@@ -912,7 +912,7 @@
   {
     "id": "v3740",
     "word": "migrant",
-    "meaningJa": "移住者；移動する人",
+    "meaningJa": "移住者、移動する人",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The story follows a migrant looking for work in a new city.",
@@ -934,7 +934,7 @@
   {
     "id": "v3741",
     "word": "migration",
-    "meaningJa": "移住；移動；渡り",
+    "meaningJa": "移住、移動、渡り",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The students studied the migration of birds.",
@@ -956,7 +956,7 @@
   {
     "id": "v3742",
     "word": "collective",
-    "meaningJa": "集団の；共同の",
+    "meaningJa": "集団の、共同の",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "Solving the problem requires collective effort.",
@@ -978,7 +978,7 @@
   {
     "id": "v3743",
     "word": "conform",
-    "meaningJa": "従う；適合する",
+    "meaningJa": "従う、適合する",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "The design must conform to the agreed standards.",
@@ -1000,7 +1000,7 @@
   {
     "id": "v3744",
     "word": "assimilation",
-    "meaningJa": "同化；吸収",
+    "meaningJa": "同化、吸収",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The essay discusses cultural assimilation.",
@@ -1022,7 +1022,7 @@
   {
     "id": "v3745",
     "word": "multicultural",
-    "meaningJa": "多文化の；多文化から成る",
+    "meaningJa": "多文化の、多文化から成る",
     "partOfSpeech": "adjective",
     "level": 4,
     "example": "The school serves a multicultural community.",
@@ -1044,7 +1044,7 @@
   {
     "id": "v3746",
     "word": "communal",
-    "meaningJa": "共同の；共有の",
+    "meaningJa": "共同の、共有の",
     "partOfSpeech": "adjective",
     "level": 5,
     "example": "The residents share a communal kitchen.",
@@ -1088,7 +1088,7 @@
   {
     "id": "v3748",
     "word": "conformity",
-    "meaningJa": "同調；適合",
+    "meaningJa": "同調、適合",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The novel questions the demand for conformity.",
@@ -1110,7 +1110,7 @@
   {
     "id": "v3749",
     "word": "deviate",
-    "meaningJa": "逸脱する；それる",
+    "meaningJa": "逸脱する、それる",
     "partOfSpeech": "verb",
     "level": 5,
     "example": "We should not deviate from the agreed plan.",
@@ -1132,7 +1132,7 @@
   {
     "id": "v3750",
     "word": "deviation",
-    "meaningJa": "逸脱；ずれ",
+    "meaningJa": "逸脱、ずれ",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The report noted a small deviation from the expected pattern.",
@@ -1176,7 +1176,7 @@
   {
     "id": "v3752",
     "word": "puberty",
-    "meaningJa": "思春期；性的成熟期",
+    "meaningJa": "思春期、性的成熟期",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The body changes rapidly during puberty.",
@@ -1198,7 +1198,7 @@
   {
     "id": "v3753",
     "word": "motherhood",
-    "meaningJa": "母であること；母親としての生活",
+    "meaningJa": "母であること、母親としての生活",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The essay explores how motherhood changed her daily life.",
@@ -1219,7 +1219,7 @@
   {
     "id": "v3754",
     "word": "fatherhood",
-    "meaningJa": "父であること；父親としての生活",
+    "meaningJa": "父であること、父親としての生活",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The book describes the joys and challenges of fatherhood.",
@@ -1261,7 +1261,7 @@
   {
     "id": "v3756",
     "word": "guardian",
-    "meaningJa": "保護者；後見人",
+    "meaningJa": "保護者、後見人",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A parent or guardian must sign this form.",
@@ -1282,7 +1282,7 @@
   {
     "id": "v3757",
     "word": "custody",
-    "meaningJa": "親権；監護権",
+    "meaningJa": "親権、監護権",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The court granted her custody of the child.",
@@ -1304,7 +1304,7 @@
   {
     "id": "v3758",
     "word": "upbringing",
-    "meaningJa": "育ち；しつけ",
+    "meaningJa": "育ち、しつけ",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Her rural upbringing shaped her love of nature.",
@@ -1452,7 +1452,7 @@
   {
     "id": "v3765",
     "word": "butcher",
-    "meaningJa": "肉屋；食肉処理・販売業者",
+    "meaningJa": "肉屋、食肉処理・販売業者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The butcher cut the meat into small pieces.",
@@ -1536,7 +1536,7 @@
   {
     "id": "v3769",
     "word": "accountant",
-    "meaningJa": "会計士；経理担当者",
+    "meaningJa": "会計士、経理担当者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The accountant checked the financial records.",
@@ -1664,7 +1664,7 @@
   {
     "id": "v3775",
     "word": "dust",
-    "meaningJa": "ほこり；ちり",
+    "meaningJa": "ほこり、ちり",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A layer of dust covered the old desk.",
@@ -1685,7 +1685,7 @@
   {
     "id": "v3776",
     "word": "clog",
-    "meaningJa": "詰まらせる；ふさぐ",
+    "meaningJa": "詰まらせる、ふさぐ",
     "partOfSpeech": "verb",
     "level": 4,
     "example": "Leaves can clog the drain after heavy rain.",
@@ -1706,7 +1706,7 @@
   {
     "id": "v3777",
     "word": "unpack",
-    "meaningJa": "荷物をほどく；取り出す",
+    "meaningJa": "荷物をほどく、取り出す",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "We will unpack our bags after lunch.",
@@ -1727,7 +1727,7 @@
   {
     "id": "v3778",
     "word": "switch",
-    "meaningJa": "切り替える；変える",
+    "meaningJa": "切り替える、変える",
     "partOfSpeech": "verb",
     "level": 3,
     "example": "We need to switch to a cheaper plan.",
@@ -1749,7 +1749,7 @@
   {
     "id": "v3779",
     "word": "socket",
-    "meaningJa": "差し込み口；コンセント",
+    "meaningJa": "差し込み口、コンセント",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Plug the lamp into the wall socket.",
@@ -1771,7 +1771,7 @@
   {
     "id": "v3780",
     "word": "cord",
-    "meaningJa": "ひも；コード",
+    "meaningJa": "ひも、コード",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Tie the package with a piece of cord.",
@@ -1836,7 +1836,7 @@
   {
     "id": "v3783",
     "word": "hammer",
-    "meaningJa": "金づち；ハンマー",
+    "meaningJa": "金づち、ハンマー",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Use a hammer to drive in the nail.",
@@ -1857,7 +1857,7 @@
   {
     "id": "v3784",
     "word": "drill",
-    "meaningJa": "ドリル；穴あけ器",
+    "meaningJa": "ドリル、穴あけ器",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She used a drill to make a hole in the wall.",
@@ -1879,7 +1879,7 @@
   {
     "id": "v3785",
     "word": "screwdriver",
-    "meaningJa": "ねじ回し；ドライバー",
+    "meaningJa": "ねじ回し、ドライバー",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "I need a screwdriver to tighten this screw.",
@@ -1900,7 +1900,7 @@
   {
     "id": "v3786",
     "word": "wrench",
-    "meaningJa": "レンチ；スパナ",
+    "meaningJa": "レンチ、スパナ",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Use a wrench to loosen the nut.",
@@ -1963,7 +1963,7 @@
   {
     "id": "v3789",
     "word": "basement",
-    "meaningJa": "地下室；地下階",
+    "meaningJa": "地下室、地下階",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The laundry room is in the basement.",
@@ -2005,7 +2005,7 @@
   {
     "id": "v3791",
     "word": "porch",
-    "meaningJa": "玄関先の屋根付きスペース；ポーチ",
+    "meaningJa": "玄関先の屋根付きスペース、ポーチ",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She sat on the porch and watched the rain.",
@@ -2026,7 +2026,7 @@
   {
     "id": "v3792",
     "word": "fence",
-    "meaningJa": "柵；囲い",
+    "meaningJa": "柵、囲い",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A wooden fence surrounds the garden.",
@@ -2068,7 +2068,7 @@
   {
     "id": "v3794",
     "word": "paramedic",
-    "meaningJa": "救急救命士；救急医療隊員",
+    "meaningJa": "救急救命士、救急医療隊員",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The paramedic checked the injured man before the ambulance left.",
@@ -2090,7 +2090,7 @@
   {
     "id": "v3795",
     "word": "lifeguard",
-    "meaningJa": "水難救助員；水泳監視員",
+    "meaningJa": "水難救助員、水泳監視員",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "A lifeguard watched the swimmers from a tall chair.",
@@ -2174,7 +2174,7 @@
   {
     "id": "v3799",
     "word": "dam",
-    "meaningJa": "ダム；堰",
+    "meaningJa": "ダム、堰",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The dam controls the flow of the river.",
@@ -2195,7 +2195,7 @@
   {
     "id": "v3800",
     "word": "hygiene",
-    "meaningJa": "衛生；衛生管理",
+    "meaningJa": "衛生、衛生管理",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Good hygiene helps prevent the spread of disease.",

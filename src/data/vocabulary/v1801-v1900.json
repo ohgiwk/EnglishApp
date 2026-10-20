@@ -22,7 +22,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "水浸しにする；あふれる",
+        "meaningJa": "水浸しにする、あふれる",
         "example": "Heavy rain may flood the roads.",
         "exampleJa": "大雨は道路を水浸しにするかもしれません。"
       }
@@ -73,7 +73,7 @@
   {
     "id": "v1804",
     "word": "eruption",
-    "meaningJa": "噴火；噴出",
+    "meaningJa": "噴火、噴出",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The eruption covered nearby fields with ash.",
@@ -94,7 +94,7 @@
   {
     "id": "v1805",
     "word": "erosion",
-    "meaningJa": "侵食；衰退",
+    "meaningJa": "侵食、衰退",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The trees help prevent soil erosion.",
@@ -136,7 +136,7 @@
   {
     "id": "v1807",
     "word": "rainfall",
-    "meaningJa": "降雨；降水量",
+    "meaningJa": "降雨、降水量",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The chart shows monthly rainfall in the region.",
@@ -157,7 +157,7 @@
   {
     "id": "v1808",
     "word": "sewage",
-    "meaningJa": "下水；汚水",
+    "meaningJa": "下水、汚水",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The town built a plant to treat sewage.",
@@ -200,7 +200,7 @@
   {
     "id": "v1810",
     "word": "recycling",
-    "meaningJa": "再生利用；リサイクル",
+    "meaningJa": "再生利用、リサイクル",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The school started a paper recycling program.",
@@ -243,7 +243,7 @@
   {
     "id": "v1812",
     "word": "disaster",
-    "meaningJa": "災害；大惨事",
+    "meaningJa": "災害、大惨事",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The town prepared a plan for a natural disaster.",
@@ -264,7 +264,7 @@
   {
     "id": "v1813",
     "word": "catastrophe",
-    "meaningJa": "大惨事；破局",
+    "meaningJa": "大惨事、破局",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The failure of the dam caused a catastrophe.",
@@ -285,7 +285,7 @@
   {
     "id": "v1814",
     "word": "hazard",
-    "meaningJa": "危険；危険要因",
+    "meaningJa": "危険、危険要因",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The broken step is a serious hazard.",
@@ -356,7 +356,7 @@
   {
     "id": "v1817",
     "word": "relief",
-    "meaningJa": "安堵；軽減；救援",
+    "meaningJa": "安堵、軽減、救援",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She felt relief when the missing bag was found.",
@@ -376,7 +376,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "救援；救済",
+        "meaningJa": "救援、救済",
         "example": "Volunteers delivered relief supplies to the village.",
         "exampleJa": "ボランティアは村に救援物資を届けました。"
       }
@@ -385,7 +385,7 @@
   {
     "id": "v1818",
     "word": "shelter",
-    "meaningJa": "避難所；雨風をしのぐ場所",
+    "meaningJa": "避難所、雨風をしのぐ場所",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The travelers found shelter in an old barn.",
@@ -405,7 +405,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "雨風をしのぐ；避難する",
+        "meaningJa": "雨風をしのぐ、避難する",
         "example": "We decided to shelter under the bridge.",
         "exampleJa": "私たちは橋の下で雨風をしのぐことにしました。"
       }
@@ -414,7 +414,7 @@
   {
     "id": "v1819",
     "word": "refuge",
-    "meaningJa": "避難；避難場所",
+    "meaningJa": "避難、避難場所",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The cave provided a refuge from the storm.",
@@ -457,7 +457,7 @@
   {
     "id": "v1821",
     "word": "evacuation",
-    "meaningJa": "避難；退避",
+    "meaningJa": "避難、退避",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The school practiced an evacuation of the building.",
@@ -478,7 +478,7 @@
   {
     "id": "v1822",
     "word": "psychology",
-    "meaningJa": "心理学；心理",
+    "meaningJa": "心理学、心理",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She is taking a course in psychology.",
@@ -520,7 +520,7 @@
   {
     "id": "v1824",
     "word": "concentration",
-    "meaningJa": "集中；濃度",
+    "meaningJa": "集中、濃度",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The task requires a high level of concentration.",
@@ -550,7 +550,7 @@
   {
     "id": "v1825",
     "word": "intellect",
-    "meaningJa": "知性；知力",
+    "meaningJa": "知性、知力",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The biography describes her powerful intellect.",
@@ -571,7 +571,7 @@
   {
     "id": "v1826",
     "word": "anxiety",
-    "meaningJa": "不安；心配",
+    "meaningJa": "不安、心配",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "He felt anxiety about the coming interview.",
@@ -592,7 +592,7 @@
   {
     "id": "v1827",
     "word": "depression",
-    "meaningJa": "落ち込み；抑うつ；不況",
+    "meaningJa": "落ち込み、抑うつ、不況",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The novel describes a period of depression in his life.",
@@ -612,7 +612,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "不況；恐慌",
+        "meaningJa": "不況、恐慌",
         "example": "Many businesses closed during the depression.",
         "exampleJa": "不況の間に多くの企業が閉鎖されました。"
       }
@@ -621,7 +621,7 @@
   {
     "id": "v1828",
     "word": "frustration",
-    "meaningJa": "いら立ち；欲求不満",
+    "meaningJa": "いら立ち、欲求不満",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The long delay caused frustration among passengers.",
@@ -663,7 +663,7 @@
   {
     "id": "v1830",
     "word": "confidence",
-    "meaningJa": "自信；信頼",
+    "meaningJa": "自信、信頼",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Practice gave him confidence in his ability.",
@@ -684,7 +684,7 @@
   {
     "id": "v1831",
     "word": "temperament",
-    "meaningJa": "気質；気性",
+    "meaningJa": "気質、気性",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "A calm temperament can be helpful in an emergency.",
@@ -705,7 +705,7 @@
   {
     "id": "v1832",
     "word": "instinct",
-    "meaningJa": "本能；直感",
+    "meaningJa": "本能、直感",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The bird builds its nest by instinct.",
@@ -747,7 +747,7 @@
   {
     "id": "v1834",
     "word": "insight",
-    "meaningJa": "洞察；深い理解",
+    "meaningJa": "洞察、深い理解",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The interview gave us insight into his work.",
@@ -769,7 +769,7 @@
   {
     "id": "v1835",
     "word": "empathy",
-    "meaningJa": "共感；感情移入",
+    "meaningJa": "共感、感情移入",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "Reading stories can encourage empathy for others.",
@@ -790,7 +790,7 @@
   {
     "id": "v1836",
     "word": "sympathy",
-    "meaningJa": "同情；共感",
+    "meaningJa": "同情、共感",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She expressed sympathy for the injured player.",
@@ -811,7 +811,7 @@
   {
     "id": "v1837",
     "word": "compassion",
-    "meaningJa": "思いやり；深い同情",
+    "meaningJa": "思いやり、深い同情",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The nurse treated everyone with compassion.",
@@ -832,7 +832,7 @@
   {
     "id": "v1838",
     "word": "discrimination",
-    "meaningJa": "差別；識別",
+    "meaningJa": "差別、識別",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The organization works to end discrimination.",
@@ -853,7 +853,7 @@
   {
     "id": "v1839",
     "word": "aptitude",
-    "meaningJa": "適性；才能",
+    "meaningJa": "適性、才能",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "She has an aptitude for mathematics.",
@@ -875,7 +875,7 @@
   {
     "id": "v1840",
     "word": "competence",
-    "meaningJa": "能力；力量",
+    "meaningJa": "能力、力量",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The course develops competence in public speaking.",
@@ -896,7 +896,7 @@
   {
     "id": "v1841",
     "word": "literacy",
-    "meaningJa": "読み書きの能力；活用能力",
+    "meaningJa": "読み書きの能力、活用能力",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The program helps adults improve their literacy.",
@@ -918,7 +918,7 @@
   {
     "id": "v1842",
     "word": "numeracy",
-    "meaningJa": "計算能力；数を扱う能力",
+    "meaningJa": "計算能力、数を扱う能力",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The activities develop basic numeracy in young children.",
@@ -939,7 +939,7 @@
   {
     "id": "v1843",
     "word": "instruction",
-    "meaningJa": "指示；指導",
+    "meaningJa": "指示、指導",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Read each instruction carefully before you begin.",
@@ -961,7 +961,7 @@
   {
     "id": "v1844",
     "word": "curriculum",
-    "meaningJa": "教育課程；カリキュラム",
+    "meaningJa": "教育課程、カリキュラム",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The school added music to its curriculum.",
@@ -983,7 +983,7 @@
   {
     "id": "v1845",
     "word": "syllabus",
-    "meaningJa": "授業計画；講義要項",
+    "meaningJa": "授業計画、講義要項",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The syllabus lists the topics for each week.",
@@ -1004,7 +1004,7 @@
   {
     "id": "v1846",
     "word": "tuition",
-    "meaningJa": "授業料；個別指導",
+    "meaningJa": "授業料、個別指導",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The scholarship covers her tuition.",
@@ -1046,7 +1046,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "学識；学術研究",
+        "meaningJa": "学識、学術研究",
         "example": "The book is a fine example of careful scholarship.",
         "exampleJa": "その本は綿密な学術研究の優れた例です。"
       }
@@ -1055,7 +1055,7 @@
   {
     "id": "v1848",
     "word": "lecture",
-    "meaningJa": "講義；講演",
+    "meaningJa": "講義、講演",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The students attended a lecture on climate change.",
@@ -1075,7 +1075,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "講義する；講演する",
+        "meaningJa": "講義する、講演する",
         "example": "She will lecture on modern art tomorrow.",
         "exampleJa": "彼女は明日、近代美術について講義します。"
       }
@@ -1084,7 +1084,7 @@
   {
     "id": "v1849",
     "word": "seminar",
-    "meaningJa": "演習；ゼミ；研究会",
+    "meaningJa": "演習、ゼミ、研究会",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "We discussed the article in a small seminar.",
@@ -1105,7 +1105,7 @@
   {
     "id": "v1850",
     "word": "tutorial",
-    "meaningJa": "個別指導；学習用の解説",
+    "meaningJa": "個別指導、学習用の解説",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The website provides a tutorial on basic photography.",
@@ -1126,7 +1126,7 @@
   {
     "id": "v1851",
     "word": "assignment",
-    "meaningJa": "課題；割り当てられた仕事",
+    "meaningJa": "課題、割り当てられた仕事",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The teacher gave us a writing assignment.",
@@ -1147,7 +1147,7 @@
   {
     "id": "v1852",
     "word": "examination",
-    "meaningJa": "試験；検査",
+    "meaningJa": "試験、検査",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The examination covers three chapters of the textbook.",
@@ -1167,7 +1167,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "調査；検査",
+        "meaningJa": "調査、検査",
         "example": "A closer examination revealed a small crack.",
         "exampleJa": "さらに詳しい検査によって小さなひびが見つかりました。"
       }
@@ -1177,7 +1177,7 @@
   {
     "id": "v1853",
     "word": "assessment",
-    "meaningJa": "評価；査定",
+    "meaningJa": "評価、査定",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The report provides an assessment of the project.",
@@ -1198,7 +1198,7 @@
   {
     "id": "v1854",
     "word": "qualification",
-    "meaningJa": "資格；適性",
+    "meaningJa": "資格、適性",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "She obtained a qualification in accounting.",
@@ -1219,7 +1219,7 @@
   {
     "id": "v1855",
     "word": "certificate",
-    "meaningJa": "証明書；修了証",
+    "meaningJa": "証明書、修了証",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Each student received a certificate after the course.",
@@ -1240,7 +1240,7 @@
   {
     "id": "v1856",
     "word": "diploma",
-    "meaningJa": "卒業証書；修了証書",
+    "meaningJa": "卒業証書、修了証書",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "He kept his diploma in a drawer.",
@@ -1282,7 +1282,7 @@
   {
     "id": "v1858",
     "word": "admission",
-    "meaningJa": "入場；入学；承認",
+    "meaningJa": "入場、入学、承認",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Admission to the museum is free on Sundays.",
@@ -1302,7 +1302,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "認めること；告白",
+        "meaningJa": "認めること、告白",
         "example": "His apology included an admission of error.",
         "exampleJa": "彼の謝罪には誤りを認める言葉が含まれていました。"
       }
@@ -1311,7 +1311,7 @@
   {
     "id": "v1859",
     "word": "enrollment",
-    "meaningJa": "入学；登録；在籍者数",
+    "meaningJa": "入学、登録、在籍者数",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The college reported an increase in enrollment.",
@@ -1333,7 +1333,7 @@
   {
     "id": "v1860",
     "word": "attendance",
-    "meaningJa": "出席；出席者数",
+    "meaningJa": "出席、出席者数",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "Regular attendance is important for this course.",
@@ -1354,7 +1354,7 @@
   {
     "id": "v1861",
     "word": "discipline",
-    "meaningJa": "規律；自制；学問分野",
+    "meaningJa": "規律、自制、学問分野",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Learning an instrument requires discipline.",
@@ -1383,7 +1383,7 @@
   {
     "id": "v1862",
     "word": "feedback",
-    "meaningJa": "意見；評価の反応",
+    "meaningJa": "意見、評価の反応",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The students asked for feedback on their essays.",
@@ -1405,7 +1405,7 @@
   {
     "id": "v1863",
     "word": "revision",
-    "meaningJa": "改訂；修正；復習",
+    "meaningJa": "改訂、修正、復習",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The editor suggested a revision to the final paragraph.",
@@ -1470,7 +1470,7 @@
   {
     "id": "v1866",
     "word": "vocabulary",
-    "meaningJa": "語彙；単語の総体",
+    "meaningJa": "語彙、単語の総体",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Reading helps me expand my vocabulary.",
@@ -1534,7 +1534,7 @@
   {
     "id": "v1869",
     "word": "accent",
-    "meaningJa": "なまり；アクセント",
+    "meaningJa": "なまり、アクセント",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She speaks with a slight regional accent.",
@@ -1576,7 +1576,7 @@
   {
     "id": "v1871",
     "word": "interpretation",
-    "meaningJa": "解釈；通訳",
+    "meaningJa": "解釈、通訳",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "Her interpretation of the poem surprised the class.",
@@ -1597,7 +1597,7 @@
   {
     "id": "v1872",
     "word": "phrase",
-    "meaningJa": "句；言い回し",
+    "meaningJa": "句、言い回し",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "This phrase is common in everyday conversation.",
@@ -1638,7 +1638,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "判決；刑",
+        "meaningJa": "判決、刑",
         "example": "The judge announced the sentence.",
         "exampleJa": "裁判官は判決を言い渡しました。"
       }
@@ -1668,7 +1668,7 @@
   {
     "id": "v1875",
     "word": "essay",
-    "meaningJa": "小論文；作文；随筆",
+    "meaningJa": "小論文、作文、随筆",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She wrote an essay about life in the city.",
@@ -1689,7 +1689,7 @@
   {
     "id": "v1876",
     "word": "composition",
-    "meaningJa": "作文；構成；作曲",
+    "meaningJa": "作文、構成、作曲",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The teacher praised his composition about winter.",
@@ -1709,7 +1709,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "構成；組成",
+        "meaningJa": "構成、組成",
         "example": "The study examines the composition of the soil.",
         "exampleJa": "その研究は土壌の組成を調べています。"
       }
@@ -1718,7 +1718,7 @@
   {
     "id": "v1877",
     "word": "poetry",
-    "meaningJa": "詩；詩文学",
+    "meaningJa": "詩、詩文学",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "He enjoys reading poetry aloud.",
@@ -1761,7 +1761,7 @@
   {
     "id": "v1879",
     "word": "fiction",
-    "meaningJa": "創作；小説；虚構",
+    "meaningJa": "創作、小説、虚構",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The library has a large collection of fiction.",
@@ -1782,7 +1782,7 @@
   {
     "id": "v1880",
     "word": "narrative",
-    "meaningJa": "物語；語り",
+    "meaningJa": "物語、語り",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The narrative follows a family through three generations.",
@@ -1803,7 +1803,7 @@
   {
     "id": "v1881",
     "word": "author",
-    "meaningJa": "著者；作家",
+    "meaningJa": "著者、作家",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The author answered questions about her new book.",
@@ -1887,7 +1887,7 @@
   {
     "id": "v1885",
     "word": "publisher",
-    "meaningJa": "出版社；発行者",
+    "meaningJa": "出版社、発行者",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The publisher agreed to print the book.",
@@ -1908,7 +1908,7 @@
   {
     "id": "v1886",
     "word": "publication",
-    "meaningJa": "出版；刊行物",
+    "meaningJa": "出版、刊行物",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The publication of the report was delayed.",
@@ -1928,7 +1928,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "刊行物；出版物",
+        "meaningJa": "刊行物、出版物",
         "example": "This publication contains advice for new students.",
         "exampleJa": "この刊行物には新入生向けの助言が載っています。"
       }
@@ -1937,7 +1937,7 @@
   {
     "id": "v1887",
     "word": "manuscript",
-    "meaningJa": "原稿；写本",
+    "meaningJa": "原稿、写本",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "She sent the manuscript to her editor.",
@@ -1958,7 +1958,7 @@
   {
     "id": "v1888",
     "word": "script",
-    "meaningJa": "台本；文字",
+    "meaningJa": "台本、文字",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The actors read the script together.",
@@ -1978,7 +1978,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "文字体系；書体",
+        "meaningJa": "文字体系、書体",
         "example": "The inscription uses an ancient script.",
         "exampleJa": "その碑文は古代の文字を使っています。"
       }
@@ -1987,7 +1987,7 @@
   {
     "id": "v1889",
     "word": "alphabet",
-    "meaningJa": "アルファベット；字母",
+    "meaningJa": "アルファベット、字母",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The children sang a song about the alphabet.",
@@ -2071,7 +2071,7 @@
   {
     "id": "v1893",
     "word": "metaphor",
-    "meaningJa": "比喩；隠喩",
+    "meaningJa": "比喩、隠喩",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The poem uses a journey as a metaphor for life.",
@@ -2093,7 +2093,7 @@
   {
     "id": "v1894",
     "word": "irony",
-    "meaningJa": "皮肉；意外な成り行き",
+    "meaningJa": "皮肉、意外な成り行き",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The title expresses the irony of the situation.",
@@ -2114,7 +2114,7 @@
   {
     "id": "v1895",
     "word": "rhetoric",
-    "meaningJa": "修辞；美辞麗句",
+    "meaningJa": "修辞、美辞麗句",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The essay examines the rhetoric of political speeches.",
@@ -2135,7 +2135,7 @@
   {
     "id": "v1896",
     "word": "analogy",
-    "meaningJa": "類推；類似",
+    "meaningJa": "類推、類似",
     "partOfSpeech": "noun",
     "level": 5,
     "example": "The teacher used an analogy to explain the process.",
@@ -2157,7 +2157,7 @@
   {
     "id": "v1897",
     "word": "ambiguity",
-    "meaningJa": "曖昧さ；多義性",
+    "meaningJa": "曖昧さ、多義性",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The revision removes ambiguity from the instructions.",
@@ -2178,7 +2178,7 @@
   {
     "id": "v1898",
     "word": "nuance",
-    "meaningJa": "微妙な違い；ニュアンス",
+    "meaningJa": "微妙な違い、ニュアンス",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The translation misses a subtle nuance of the original.",
@@ -2220,7 +2220,7 @@
   {
     "id": "v1900",
     "word": "dialogue",
-    "meaningJa": "対話；会話",
+    "meaningJa": "対話、会話",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The meeting encouraged dialogue between students and teachers.",

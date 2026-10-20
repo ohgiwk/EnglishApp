@@ -1167,7 +1167,7 @@
   {
     "id": "v1055",
     "word": "wake",
-    "meaningJa": "目が覚める；起こす",
+    "meaningJa": "目が覚める、起こす",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "I wake up at six every morning.",
@@ -1295,7 +1295,7 @@
   {
     "id": "v1061",
     "word": "lie",
-    "meaningJa": "横たわる；横になる",
+    "meaningJa": "横たわる、横になる",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "You can lie down on this bed.",
@@ -1322,7 +1322,7 @@
       },
       {
         "partOfSpeech": "verb",
-        "meaningJa": "位置する；ある",
+        "meaningJa": "位置する、ある",
         "example": "Several islands lie off the coast.",
         "exampleJa": "沖合にはいくつかの島があります。"
       },
@@ -1490,7 +1490,7 @@
   {
     "id": "v1069",
     "word": "cry",
-    "meaningJa": "泣く；叫ぶ",
+    "meaningJa": "泣く、叫ぶ",
     "partOfSpeech": "verb",
     "level": 1,
     "example": "The sad movie made me cry.",
@@ -1533,7 +1533,7 @@
   {
     "id": "v1071",
     "word": "milk",
-    "meaningJa": "牛乳；乳",
+    "meaningJa": "牛乳、乳",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "There is some milk in the fridge.",
@@ -1575,7 +1575,7 @@
   {
     "id": "v1073",
     "word": "rice",
-    "meaningJa": "米；ご飯",
+    "meaningJa": "米、ご飯",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "We grow rice in this region.",
@@ -1617,7 +1617,7 @@
   {
     "id": "v1075",
     "word": "chicken",
-    "meaningJa": "鶏；鶏肉",
+    "meaningJa": "鶏、鶏肉",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "A chicken was walking around the farm.",
@@ -1764,7 +1764,7 @@
   {
     "id": "v1082",
     "word": "bathroom",
-    "meaningJa": "浴室；トイレ",
+    "meaningJa": "浴室、トイレ",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The bathroom is at the end of the hall.",
@@ -1786,7 +1786,7 @@
   {
     "id": "v1083",
     "word": "playground",
-    "meaningJa": "遊び場；校庭",
+    "meaningJa": "遊び場、校庭",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The children ran to the playground.",
@@ -1891,7 +1891,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "支配者；統治者",
+        "meaningJa": "支配者、統治者",
         "example": "The ruler built a new palace.",
         "exampleJa": "その統治者は新しい宮殿を建てました。"
       }
@@ -1921,7 +1921,7 @@
   {
     "id": "v1089",
     "word": "notebook",
-    "meaningJa": "ノート；手帳",
+    "meaningJa": "ノート、手帳",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She drew a map in her notebook.",
@@ -2048,7 +2048,7 @@
   {
     "id": "v1095",
     "word": "coat",
-    "meaningJa": "コート；上着",
+    "meaningJa": "コート、上着",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "Put on your coat before going outside.",
@@ -2069,7 +2069,7 @@
   {
     "id": "v1096",
     "word": "dress",
-    "meaningJa": "ドレス；ワンピース",
+    "meaningJa": "ドレス、ワンピース",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She wore a blue dress to the party.",
@@ -2089,7 +2089,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "服を着る；着せる",
+        "meaningJa": "服を着る、着せる",
         "example": "Please dress warmly for the trip.",
         "exampleJa": "旅行には暖かい服装で来てください。"
       }

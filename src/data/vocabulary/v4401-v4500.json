@@ -564,7 +564,7 @@
   {
     "id": "v4427",
     "word": "pigment",
-    "meaningJa": "顔料；色素",
+    "meaningJa": "顔料、色素",
     "partOfSpeech": "noun",
     "level": 4,
     "example": "The painter mixed blue pigment with water.",
@@ -973,7 +973,7 @@
   {
     "id": "v4446",
     "word": "chronology",
-    "meaningJa": "年代順；年表",
+    "meaningJa": "年代順、年表",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The book presents a clear chronology of the events.",
@@ -1184,7 +1184,7 @@
   {
     "id": "v4456",
     "word": "prognosis",
-    "meaningJa": "予後；病気の経過の見通し",
+    "meaningJa": "予後、病気の経過の見通し",
     "partOfSpeech": "noun",
     "level": 6,
     "example": "The doctor discussed the prognosis with the patient.",
@@ -2090,7 +2090,7 @@
   {
     "id": "v4499",
     "word": "calibrate",
-    "meaningJa": "校正する；基準に合わせて調整する",
+    "meaningJa": "校正する、基準に合わせて調整する",
     "partOfSpeech": "verb",
     "level": 6,
     "example": "Technicians must calibrate the sensor before each test.",

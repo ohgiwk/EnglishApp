@@ -2,7 +2,7 @@
   {
     "id": "v2601",
     "word": "apartment",
-    "meaningJa": "アパートの一戸；集合住宅の住戸",
+    "meaningJa": "アパートの一戸、集合住宅の住戸",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She lives in a small apartment near the station.",
@@ -24,7 +24,7 @@
   {
     "id": "v2602",
     "word": "toilet",
-    "meaningJa": "トイレ；便器",
+    "meaningJa": "トイレ、便器",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "The toilet is at the end of the hall.",
@@ -66,7 +66,7 @@
   {
     "id": "v2604",
     "word": "carpet",
-    "meaningJa": "じゅうたん；カーペット",
+    "meaningJa": "じゅうたん、カーペット",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The room has a soft blue carpet.",
@@ -87,7 +87,7 @@
   {
     "id": "v2605",
     "word": "rug",
-    "meaningJa": "敷物；小さなじゅうたん",
+    "meaningJa": "敷物、小さなじゅうたん",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "A small rug lay beside the bed.",
@@ -199,7 +199,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "adjective",
-        "meaningJa": "包括的な；一律の",
+        "meaningJa": "包括的な、一律の",
         "example": "The proposal calls for a blanket ban on parking in the square.",
         "exampleJa": "その提案は広場での駐車を一律に禁止するよう求めています。"
       }
@@ -208,7 +208,7 @@
   {
     "id": "v2610",
     "word": "mattress",
-    "meaningJa": "マットレス；敷き布団",
+    "meaningJa": "マットレス、敷き布団",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The new mattress was firmer than the old one.",
@@ -251,7 +251,7 @@
   {
     "id": "v2612",
     "word": "wardrobe",
-    "meaningJa": "洋服だんす；衣装",
+    "meaningJa": "洋服だんす、衣装",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "He hung his jacket in the wardrobe.",
@@ -280,7 +280,7 @@
   {
     "id": "v2613",
     "word": "closet",
-    "meaningJa": "収納室；押し入れ",
+    "meaningJa": "収納室、押し入れ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We keep our coats in the hall closet.",
@@ -322,7 +322,7 @@
   {
     "id": "v2615",
     "word": "shelf",
-    "meaningJa": "棚；棚板",
+    "meaningJa": "棚、棚板",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She put the vase on a high shelf.",
@@ -344,7 +344,7 @@
   {
     "id": "v2616",
     "word": "sink",
-    "meaningJa": "沈む；沈める",
+    "meaningJa": "沈む、沈める",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "The stone began to sink as soon as it touched the water.",
@@ -365,7 +365,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "流し；洗面台",
+        "meaningJa": "流し、洗面台",
         "example": "He washed the vegetables in the kitchen sink.",
         "exampleJa": "彼は台所の流しで野菜を洗いました。"
       },
@@ -380,7 +380,7 @@
   {
     "id": "v2617",
     "word": "tap",
-    "meaningJa": "蛇口；軽くたたくこと",
+    "meaningJa": "蛇口、軽くたたくこと",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Please turn off the tap after washing your hands.",
@@ -437,7 +437,7 @@
   {
     "id": "v2619",
     "word": "kettle",
-    "meaningJa": "やかん；湯沸かし器",
+    "meaningJa": "やかん、湯沸かし器",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He filled the kettle with fresh water.",
@@ -458,7 +458,7 @@
   {
     "id": "v2620",
     "word": "oven",
-    "meaningJa": "オーブン；天火",
+    "meaningJa": "オーブン、天火",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She took the bread out of the oven.",
@@ -479,7 +479,7 @@
   {
     "id": "v2621",
     "word": "stove",
-    "meaningJa": "コンロ；ストーブ",
+    "meaningJa": "コンロ、ストーブ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The soup was warming on the stove.",
@@ -544,7 +544,7 @@
   {
     "id": "v2624",
     "word": "microwave",
-    "meaningJa": "電子レンジ；マイクロ波",
+    "meaningJa": "電子レンジ、マイクロ波",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He warmed the rice in the microwave.",
@@ -615,7 +615,7 @@
   {
     "id": "v2627",
     "word": "laundry",
-    "meaningJa": "洗濯物；洗濯",
+    "meaningJa": "洗濯物、洗濯",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He hung the laundry outside to dry.",
@@ -762,7 +762,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "反映する；よく似る",
+        "meaningJa": "反映する、よく似る",
         "example": "The results mirror changes in public opinion.",
         "exampleJa": "その結果は世論の変化を反映しています。"
       }
@@ -792,7 +792,7 @@
   {
     "id": "v2635",
     "word": "napkin",
-    "meaningJa": "ナプキン；口を拭く布や紙",
+    "meaningJa": "ナプキン、口を拭く布や紙",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He wiped his mouth with a napkin.",
@@ -856,7 +856,7 @@
   {
     "id": "v2638",
     "word": "tray",
-    "meaningJa": "盆；トレー",
+    "meaningJa": "盆、トレー",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He carried the cups on a tray.",
@@ -898,7 +898,7 @@
   {
     "id": "v2640",
     "word": "pan",
-    "meaningJa": "鍋；フライパン",
+    "meaningJa": "鍋、フライパン",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She heated some oil in a pan.",
@@ -919,7 +919,7 @@
   {
     "id": "v2641",
     "word": "pot",
-    "meaningJa": "鍋；つぼ",
+    "meaningJa": "鍋、つぼ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He stirred the soup in the large pot.",
@@ -961,7 +961,7 @@
   {
     "id": "v2643",
     "word": "jar",
-    "meaningJa": "広口瓶；保存瓶",
+    "meaningJa": "広口瓶、保存瓶",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "We keep the jam in a glass jar.",
@@ -982,7 +982,7 @@
   {
     "id": "v2644",
     "word": "carton",
-    "meaningJa": "紙製の容器；厚紙の箱",
+    "meaningJa": "紙製の容器、厚紙の箱",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "He carried a carton of milk home.",
@@ -1003,7 +1003,7 @@
   {
     "id": "v2645",
     "word": "packet",
-    "meaningJa": "小包み；小袋",
+    "meaningJa": "小包み、小袋",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She opened a packet of biscuits.",
@@ -1024,7 +1024,7 @@
   {
     "id": "v2646",
     "word": "cotton",
-    "meaningJa": "綿；綿布",
+    "meaningJa": "綿、綿布",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The shirt is made of soft cotton.",
@@ -1045,7 +1045,7 @@
   {
     "id": "v2647",
     "word": "wool",
-    "meaningJa": "羊毛；毛糸",
+    "meaningJa": "羊毛、毛糸",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She bought some wool to make a scarf.",
@@ -1066,7 +1066,7 @@
   {
     "id": "v2648",
     "word": "silk",
-    "meaningJa": "絹；絹織物",
+    "meaningJa": "絹、絹織物",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The scarf is made of blue silk.",
@@ -1087,7 +1087,7 @@
   {
     "id": "v2649",
     "word": "fabric",
-    "meaningJa": "織物；布地",
+    "meaningJa": "織物、布地",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She chose a strong fabric for the curtains.",
@@ -1107,7 +1107,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "社会などの構造；構成",
+        "meaningJa": "社会などの構造、構成",
         "example": "These small businesses form part of the social fabric.",
         "exampleJa": "こうした小規模事業は社会の構造の一部を形成しています。"
       }
@@ -1116,7 +1116,7 @@
   {
     "id": "v2650",
     "word": "cloth",
-    "meaningJa": "布；布切れ",
+    "meaningJa": "布、布切れ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He wiped the table with a damp cloth.",
@@ -1138,7 +1138,7 @@
   {
     "id": "v2651",
     "word": "clothes",
-    "meaningJa": "衣服；服",
+    "meaningJa": "衣服、服",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She packed her clothes for the trip.",
@@ -1268,7 +1268,7 @@
   {
     "id": "v2657",
     "word": "shorts",
-    "meaningJa": "半ズボン；ショートパンツ",
+    "meaningJa": "半ズボン、ショートパンツ",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She wore shorts on the hot summer day.",
@@ -1290,7 +1290,7 @@
   {
     "id": "v2658",
     "word": "jacket",
-    "meaningJa": "ジャケット；上着",
+    "meaningJa": "ジャケット、上着",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "He hung his jacket by the door.",
@@ -1353,7 +1353,7 @@
   {
     "id": "v2661",
     "word": "suit",
-    "meaningJa": "スーツ；一そろいの服",
+    "meaningJa": "スーツ、一そろいの服",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He wore a dark suit to the interview.",
@@ -1373,7 +1373,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "verb",
-        "meaningJa": "都合がよい；似合う",
+        "meaningJa": "都合がよい、似合う",
         "example": "Would Friday afternoon suit you?",
         "exampleJa": "金曜日の午後はご都合がよいですか。"
       }
@@ -1382,7 +1382,7 @@
   {
     "id": "v2662",
     "word": "tie",
-    "meaningJa": "結ぶ；縛る",
+    "meaningJa": "結ぶ、縛る",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Please tie the bag with this string.",
@@ -1409,7 +1409,7 @@
       },
       {
         "partOfSpeech": "noun",
-        "meaningJa": "結びつき；引き分け",
+        "meaningJa": "結びつき、引き分け",
         "example": "The match ended in a tie.",
         "exampleJa": "その試合は引き分けに終わりました。"
       }
@@ -1418,7 +1418,7 @@
   {
     "id": "v2663",
     "word": "stocking",
-    "meaningJa": "ストッキング；長靴下",
+    "meaningJa": "ストッキング、長靴下",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She found a small hole in her stocking.",
@@ -1439,7 +1439,7 @@
   {
     "id": "v2664",
     "word": "boot",
-    "meaningJa": "ブーツ；長靴",
+    "meaningJa": "ブーツ、長靴",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "Mud covered the bottom of his boot.",
@@ -1489,7 +1489,7 @@
   {
     "id": "v2666",
     "word": "slipper",
-    "meaningJa": "スリッパ；室内履き",
+    "meaningJa": "スリッパ、室内履き",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "One slipper was hidden under the bed.",
@@ -1510,7 +1510,7 @@
   {
     "id": "v2667",
     "word": "cap",
-    "meaningJa": "帽子；キャップ",
+    "meaningJa": "帽子、キャップ",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "He wore a red cap on the hike.",
@@ -1539,7 +1539,7 @@
   {
     "id": "v2668",
     "word": "belt",
-    "meaningJa": "ベルト；帯",
+    "meaningJa": "ベルト、帯",
     "partOfSpeech": "noun",
     "level": 1,
     "example": "She fastened the belt around her waist.",
@@ -1581,7 +1581,7 @@
   {
     "id": "v2670",
     "word": "collar",
-    "meaningJa": "襟；首輪",
+    "meaningJa": "襟、首輪",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The collar of his shirt was slightly bent.",
@@ -1624,7 +1624,7 @@
   {
     "id": "v2672",
     "word": "seam",
-    "meaningJa": "縫い目；つなぎ目",
+    "meaningJa": "縫い目、つなぎ目",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "The seam of the bag began to split.",
@@ -1674,7 +1674,7 @@
   {
     "id": "v2674",
     "word": "stitch",
-    "meaningJa": "一針；縫い目",
+    "meaningJa": "一針、縫い目",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "He added one final stitch to the torn pocket.",
@@ -1732,7 +1732,7 @@
   {
     "id": "v2676",
     "word": "slice",
-    "meaningJa": "薄切り；一切れ",
+    "meaningJa": "薄切り、一切れ",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She put a slice of cheese on the bread.",
@@ -1761,7 +1761,7 @@
   {
     "id": "v2677",
     "word": "chop",
-    "meaningJa": "切り刻む；ぶつ切りにする",
+    "meaningJa": "切り刻む、ぶつ切りにする",
     "partOfSpeech": "verb",
     "level": 2,
     "example": "Chop the carrots into small pieces.",
@@ -1782,7 +1782,7 @@
   {
     "id": "v2678",
     "word": "cereal",
-    "meaningJa": "朝食用シリアル；穀類",
+    "meaningJa": "朝食用シリアル、穀類",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He ate a bowl of cereal before school.",
@@ -1802,7 +1802,7 @@
     "additionalMeanings": [
       {
         "partOfSpeech": "noun",
-        "meaningJa": "穀物；穀類の作物",
+        "meaningJa": "穀物、穀類の作物",
         "example": "Wheat is an important cereal grown in this region.",
         "exampleJa": "小麦はこの地域で栽培される重要な穀物です。"
       }
@@ -1811,7 +1811,7 @@
   {
     "id": "v2679",
     "word": "oats",
-    "meaningJa": "エンバク；オーツ麦",
+    "meaningJa": "エンバク、オーツ麦",
     "partOfSpeech": "noun",
     "level": 3,
     "example": "She cooked oats with milk for breakfast.",
@@ -2002,7 +2002,7 @@
   {
     "id": "v2688",
     "word": "radish",
-    "meaningJa": "ラディッシュ；ダイコン類",
+    "meaningJa": "ラディッシュ、ダイコン類",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "He pulled a red radish from the soil.",
@@ -2066,7 +2066,7 @@
   {
     "id": "v2691",
     "word": "plum",
-    "meaningJa": "スモモ；プラム",
+    "meaningJa": "スモモ、プラム",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "The plum was sweet and juicy.",
@@ -2234,7 +2234,7 @@
   {
     "id": "v2699",
     "word": "coconut",
-    "meaningJa": "ココナッツ；ヤシの実",
+    "meaningJa": "ココナッツ、ヤシの実",
     "partOfSpeech": "noun",
     "level": 2,
     "example": "She sprinkled coconut over the cake.",
