@@ -14,7 +14,7 @@ export function useAnswerSound(muted: Ref<boolean>) {
     active.clear()
   }
 
-  async function play(correct: boolean) {
+  async function play(correct: boolean | 'complete') {
     if (muted.value || disposed) return
     try {
       if (!context) {
@@ -29,16 +29,24 @@ export function useAnswerSound(muted: Ref<boolean>) {
       const start = context.currentTime
       const volume = getAudioVolume('effects') / 100
       if (volume === 0) return
-      const notes = correct
-        ? [
-            { frequency: 659.25, offset: 0 },
-            { frequency: 880, offset: 0.09 },
-            { frequency: 1318.51, offset: 0.18 }
-          ]
-        : [
-            { frequency: 349.23, offset: 0 },
-            { frequency: 293.66, offset: 0.13 }
-          ]
+      const notes =
+        correct === 'complete'
+          ? [
+              { frequency: 523.25, offset: 0 },
+              { frequency: 659.25, offset: 0.1 },
+              { frequency: 783.99, offset: 0.2 },
+              { frequency: 1046.5, offset: 0.3 }
+            ]
+          : correct
+            ? [
+                { frequency: 659.25, offset: 0 },
+                { frequency: 880, offset: 0.09 },
+                { frequency: 1318.51, offset: 0.18 }
+              ]
+            : [
+                { frequency: 349.23, offset: 0 },
+                { frequency: 293.66, offset: 0.13 }
+              ]
       for (const note of notes) {
         const oscillator = context.createOscillator()
         const gain = context.createGain()
@@ -75,12 +83,12 @@ export function useAnswerSound(muted: Ref<boolean>) {
   onScopeDispose(() => {
     disposed = true
     request += 1
-    // Let the final flashcard chime finish when self-rating navigates to results.
+    // Let answer and completion chimes finish across the results transition.
     const audio = context
     if (audio)
       setTimeout(() => {
         void audio.close().catch(() => {})
-      }, 450)
+      }, 600)
   })
-  return { play }
+  return { play, playCompletion: () => play('complete') }
 }

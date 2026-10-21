@@ -49,7 +49,10 @@ const {
   },
   (correct) => {
     const result = store.answerVocabularyQuestion(correct)
-    if (result) void router.replace('/learn/result')
+    if (result) {
+      void answerSound.playCompletion()
+      void router.replace('/learn/result')
+    }
   }
 )
 const showExitDialog = ref(false)
@@ -94,6 +97,7 @@ function stayInSession() {
 function confirmInterruption() {
   stayInSession()
   const result = store.finishVocabularySession()
+  if (result) void answerSound.playCompletion()
   void router.replace(result ? '/learn/result' : '/learn')
 }
 </script>

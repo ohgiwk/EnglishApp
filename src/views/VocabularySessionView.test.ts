@@ -3,9 +3,10 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { flushPromises, mount, type VueWrapper } from '@vue/test-utils'
 import { createPinia, setActivePinia } from 'pinia'
 import { createMemoryHistory, createRouter, RouterView } from 'vue-router'
-import { nextTick } from 'vue'
+import { nextTick, ref } from 'vue'
 import VocabularySessionView from './VocabularySessionView.vue'
 import LearnView from './LearnView.vue'
+import { useAnswerSound } from '../composables/useAnswerSound'
 import VocabularyResultView from './VocabularyResultView.vue'
 import { useAppStore } from '../stores/app'
 import { buildFillBlank, buildReorder } from '../data/vocabulary-engine'
@@ -29,6 +30,10 @@ vi.mock('../speech', () => ({
   speakAmericanEnglish: vi.fn(),
   speakAmericanEnglishAfterPause: vi.fn()
 }))
+vi.mock('../composables/useAnswerSound', () => {
+  const sound = { play: vi.fn(), playCompletion: vi.fn() }
+  return { useAnswerSound: () => sound }
+})
 let wrapper: VueWrapper | undefined
 beforeEach(() => {
   const data = new Map<string, string>()
@@ -99,6 +104,23 @@ async function clickButton(text: string) {
 }
 
 describe('vocabulary session UI', () => {
+  it('plays the completion sound only when the last answer opens results', async () => {
+    const secondWord = vocabularyWords.find((item) => item.word === 'day')!
+    const { router } = await setup([
+      fill(),
+      { wordId: secondWord.id, type: 'flashcard', options: [] }
+    ])
+    const sound = useAnswerSound(ref(false))
+    await clickButton('do')
+    await clickButton('次の問題へ')
+    expect(sound.playCompletion).not.toHaveBeenCalled()
+    await clickButton('答えを見る')
+    expect(sound.playCompletion).not.toHaveBeenCalled()
+    await clickButton('覚えていた')
+    expect(sound.playCompletion).toHaveBeenCalledOnce()
+    expect(router.currentRoute.value.path).toBe('/learn/result')
+  })
+
   it.each([true, false])(
     'speaks the completed fill sentence after grading (%s), and records only on Next',
     async (correct) => {

@@ -112,3 +112,23 @@ it('silences effects at zero volume without disabling answer playback later', as
   await sound.play(false)
   expect(oscillators).toHaveLength(2)
 })
+
+it('plays a completion fanfare through the results transition and respects mute and volume', async () => {
+  const muted = ref(true)
+  const sound = scope.run(() => useAnswerSound(muted))!
+  await sound.playCompletion()
+  expect(oscillators).toHaveLength(0)
+  muted.value = false
+  setAudioVolume('effects', 0)
+  await sound.playCompletion()
+  expect(oscillators).toHaveLength(0)
+  setAudioVolume('effects', 50)
+  await sound.playCompletion()
+  expect(oscillators).toHaveLength(4)
+  expect(oscillators.map((node) => node.start.mock.calls[0][0])).toEqual([0, 0.1, 0.2, 0.3])
+  scope.stop()
+  await vi.advanceTimersByTimeAsync(550)
+  expect(close).not.toHaveBeenCalled()
+  await vi.advanceTimersByTimeAsync(50)
+  expect(close).toHaveBeenCalledOnce()
+})
