@@ -1,6 +1,18 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { BookOpen, Check, Edit3, Flame, Save, Settings, Star, Target, Trophy, X } from '@lucide/vue'
+import {
+  BookOpen,
+  CalendarDays,
+  Check,
+  Edit3,
+  Flame,
+  Save,
+  Settings,
+  Star,
+  Target,
+  Trophy,
+  X
+} from '@lucide/vue'
 import { vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
 
@@ -27,6 +39,14 @@ const calendarDays = computed(() =>
 )
 const leadingBlanks = computed(() => calendarDays.value[0]?.weekday ?? 0)
 const selectedStats = computed(() => store.s.dailyStudyStats[selectedDate.value])
+const selectedDateLabel = computed(() => {
+  const [year, month, day] = selectedDate.value.split('-').map(Number)
+  return new Date(year!, month! - 1, day!).toLocaleDateString('ja-JP', {
+    month: 'long',
+    day: 'numeric',
+    weekday: 'short'
+  })
+})
 const vocabularyPercent = computed(() =>
   Math.round((store.masteredVocabularyCount / vocabularyWords.length) * 100)
 )
@@ -168,6 +188,8 @@ function saveName() {
             { today: day.key === today, selected: day.key === selectedDate }
           ]"
           :title="`${day.key}: ${day.stats?.xpEarned ?? 0} XP`"
+          :aria-label="`${day.key}の学習記録`"
+          :aria-pressed="day.key === selectedDate"
           @click="selectedDate = day.key"
         >
           {{ day.day }}
@@ -178,22 +200,37 @@ function saveName() {
           class="level-3"
         /><span>多い</span>
       </div>
-      <div class="day-detail">
-        <b>{{ selectedDate }}</b>
-        <template v-if="selectedStats">
-          <span>{{ selectedStats.xpEarned }} XP</span>
-          <span>Story {{ selectedStats.storySessions }}</span>
-          <span>Words {{ selectedStats.vocabularySessions }}</span>
-          <span
-            >{{
-              selectedStats.questionsAnswered
-                ? Math.round((selectedStats.correctAnswers / selectedStats.questionsAnswered) * 100)
-                : 0
-            }}% correct</span
-          >
-        </template>
-        <span v-else>学習記録はありません</span>
-      </div>
+      <section class="day-detail" aria-label="選択した日の学習内容" aria-live="polite">
+        <header class="day-detail-header">
+          <div>
+            <p class="day-detail-caption">
+              {{ selectedDate === today ? '今日の学習' : 'この日の学習' }}
+            </p>
+            <h3>
+              <time :datetime="selectedDate">{{ selectedDateLabel }}</time>
+            </h3>
+          </div>
+          <div v-if="selectedStats" class="day-detail-xp">
+            <Star aria-hidden="true" /><strong>+{{ selectedStats.xpEarned }}</strong
+            ><span>XP</span>
+          </div>
+          <CalendarDays v-else class="day-detail-calendar-icon" aria-hidden="true" />
+        </header>
+        <dl v-if="selectedStats" class="day-detail-grid">
+          <div>
+            <dt><BookOpen aria-hidden="true" />単語の学習</dt>
+            <dd>{{ selectedStats.vocabularyQuestionsAnswered }}<small>問</small></dd>
+          </div>
+          <div>
+            <dt><Flame aria-hidden="true" />ストーリー</dt>
+            <dd>{{ selectedStats.storySessions }}<small>回</small></dd>
+          </div>
+        </dl>
+        <div v-else class="day-detail-empty">
+          <p>この日の学習記録はありません</p>
+          <span>学習した日をタップすると、記録を確認できます。</span>
+        </div>
+      </section>
     </section>
   </section>
 </template>
