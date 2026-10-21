@@ -16,6 +16,7 @@ import ExamUnlockNotice from '../components/vocabulary/ExamUnlockNotice.vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyWords } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
+import { prepareEnglishSpeech } from '../speech'
 
 const store = useAppStore()
 const router = useRouter()
@@ -77,6 +78,7 @@ function retry() {
     store.s.lastSelectedVocabularyQuestionCount
   )
   if (!store.s.activeVocabularySession) return
+  prepareEnglishSpeech()
   router.push(`/learn/session/${completedResult.level}`)
 }
 </script>

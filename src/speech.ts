@@ -49,6 +49,21 @@ let selectedAmericanVoice: SpeechSynthesisVoice | null = null
 export const englishSpeechAvailable = () =>
   typeof window !== 'undefined' && 'speechSynthesis' in window
 
+// Call synchronously from a user action, before routing or waiting for voices.
+// WebKit unlocks subsequent speech only when speak() runs inside that action.
+export function prepareEnglishSpeech() {
+  if (!englishSpeechAvailable()) return
+  cancelEnglishSpeech()
+  const utterance = new SpeechSynthesisUtterance(' ')
+  utterance.lang = 'en-US'
+  utterance.volume = 0
+  try {
+    window.speechSynthesis.speak(utterance)
+  } catch {
+    // Speech may be unavailable; starting a lesson must still work.
+  }
+}
+
 export const getAmericanVoicePreference = () => savedVoiceId()
 
 export function setAmericanVoicePreference(voiceId: string) {

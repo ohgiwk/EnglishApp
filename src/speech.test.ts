@@ -5,6 +5,7 @@ import { mount } from '@vue/test-utils'
 import SpeechPlaybackIcon from './components/SpeechPlaybackIcon.vue'
 import { speechPlayback } from './speech-playback'
 import {
+  prepareEnglishSpeech,
   cancelEnglishSpeech,
   setAmericanVoicePreference,
   speakAmericanEnglish,
@@ -56,6 +57,39 @@ afterEach(() => {
 })
 
 describe('speech lifecycle', () => {
+  it('unlocks first delayed speech synchronously even before voices are ready', async () => {
+    let inUserAction = true
+    let unlocked = false
+    const played: string[] = []
+    synthesis.getVoices.mockReturnValue([])
+    synthesis.speak.mockImplementation((utterance: SpeechSynthesisUtterance) => {
+      if (inUserAction) unlocked = true
+      if (unlocked && utterance.volume > 0) played.push(utterance.text)
+    })
+    prepareEnglishSpeech()
+    expect(synthesis.speak).toHaveBeenCalledExactlyOnceWith(
+      expect.objectContaining({ volume: 0, lang: 'en-US' })
+    )
+    expect(speechPlayback.value).toBeNull()
+    inUserAction = false
+    speakAmericanEnglishAfterPause('First word')
+    await vi.advanceTimersByTimeAsync(180)
+    expect(played).toEqual([])
+    synthesis.getVoices.mockReturnValue([voice])
+    synthesis.dispatchEvent(new Event('voiceschanged'))
+    await vi.advanceTimersByTimeAsync(0)
+    expect(played).toEqual(['First word'])
+  })
+
+  it('allows lesson startup when speech is unsupported or throws', () => {
+    synthesis.speak.mockImplementation(() => {
+      throw new Error('Unavailable')
+    })
+    expect(() => prepareEnglishSpeech()).not.toThrow()
+    vi.stubGlobal('window', {})
+    expect(() => prepareEnglishSpeech()).not.toThrow()
+  })
+
   it('applies saved speech volume including silence', async () => {
     localStorage.setItem('love-language-speech-volume', '35')
     await speakAmericanEnglish('Hello')

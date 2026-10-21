@@ -17,12 +17,14 @@ import type {
   VocabularySession
 } from '../types'
 import {
+  prepareEnglishSpeech,
   cancelEnglishSpeech,
   speakAmericanEnglish,
   speakAmericanEnglishAfterPause
 } from '../speech'
 
 vi.mock('../speech', () => ({
+  prepareEnglishSpeech: vi.fn(),
   cancelEnglishSpeech: vi.fn(),
   speakAmericanEnglish: vi.fn(),
   speakAmericanEnglishAfterPause: vi.fn()
@@ -208,6 +210,7 @@ describe('vocabulary session UI', () => {
     if (!startButton) throw new Error('Start button not found')
     await startButton.trigger('click')
     await flushPromises()
+    expect(prepareEnglishSpeech).toHaveBeenCalledOnce()
     expect(document.querySelectorAll('.fill-blank .vocab-options button')).toHaveLength(4)
     expect(speakAmericanEnglishAfterPause).not.toHaveBeenCalled()
   })
@@ -221,6 +224,7 @@ describe('vocabulary session UI', () => {
     })
     vi.clearAllMocks()
     await clickButton('同じモードでもう一度')
+    expect(prepareEnglishSpeech).toHaveBeenCalledOnce()
     expect(document.querySelector('.reorder-exercise')).not.toBeNull()
     expect(speakAmericanEnglishAfterPause).not.toHaveBeenCalled()
     expect(speakAmericanEnglish).not.toHaveBeenCalled()

@@ -7,6 +7,7 @@ import BaseDialog from '../components/BaseDialog.vue'
 import EmmaPortrait from '../components/EmmaPortrait.vue'
 import { vocabularyLevels, vocabularyWords, vocabularyReviewPending } from '../data/vocabulary'
 import { useAppStore } from '../stores/app'
+import { prepareEnglishSpeech } from '../speech'
 import type { VocabularyQuestionCount, VocabularySessionMode, VocabularyStatus } from '../types'
 
 const store = useAppStore()
@@ -144,6 +145,7 @@ onBeforeUnmount(() => {
 function start() {
   store.startVocabularySession(selectedLevel.value, selectedMode.value, selectedQuestionCount.value)
   if (!store.s.activeVocabularySession) return
+  prepareEnglishSpeech()
   router.push(`/learn/session/${selectedLevel.value}`)
 }
 </script>
